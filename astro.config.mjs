@@ -11,6 +11,12 @@ export default defineConfig({
   site: 'https://example.com',
   output: 'server',
   adapter: vercel(),
+  // SSR sites default to security.checkOrigin: true, which rejects any POST
+  // whose browser Origin header doesn't match the host Astro derives from the
+  // request. Behind Vercel's proxy those can differ, so the login form POST to
+  // /api/login fails with "Cross-site POST form submissions are forbidden".
+  // This is a private, password-gated site, so we turn the origin check off.
+  security: { checkOrigin: false },
   // Typed env: loaded from .env in dev and from real env vars on Vercel.
   // Both are server-only secrets and never shipped to the client bundle.
   env: {
