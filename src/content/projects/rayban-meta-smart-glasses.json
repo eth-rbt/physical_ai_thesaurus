@@ -41,7 +41,10 @@
     "proximity": 5,
     "mobility": 4,
     "memory_span": 3,
-    "autonomy": 2
+    "autonomy": 2,
+    "generality": 3,
+    "initiative": 2,
+    "timing": 4
   },
   "images": [
     {

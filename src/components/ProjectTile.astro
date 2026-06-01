@@ -26,6 +26,7 @@ const aiTag = AI_TAG[d.ai_embedded];
 <a class="proj-tile" href={href}>
   <div class="proj-thumb">
     {aiTag && <span class={`ai-tag ai-${d.ai_embedded}`}>{aiTag}</span>}
+    {d.year && <span class="year-tag">{d.year}</span>}
     {cover?.local_image ? (
       <img src={cover.local_image} alt={cover.alt_text} />
     ) : (

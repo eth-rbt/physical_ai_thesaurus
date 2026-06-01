@@ -12,20 +12,22 @@ summary:
 display:
   mode: grid
 project_ids:
+  - general-magic-telescript
   - ifttt
+  - apple-siri
   - samsung-smartthings
   - home-assistant
-  - apple-siri
   - amazon-echo-alexa
   - google-assistant
   - humane-ai-pin
   - rabbit-r1
   - cordyceps
 project_notes:
+  general-magic-telescript: "The first commercial mobile-agent platform: software agents carrying 'work orders' traveled across network nodes to execute tasks (book tickets, retrieve data) and return results — an explicit pre-web tool-call architecture."
   ifttt: "The baseline: pure 'if this, then that' Applets where one service's trigger deterministically fires another's action, no model deciding anything."
+  apple-siri: "Apple's assistant turns speech into device actions; its Shortcuts app lets users wire visual, multi-step automations across apps by hand."
   samsung-smartthings: "A smart-home platform whose automations and 'Routines' fire device actions from preset triggers and conditions a person configured up front."
   home-assistant: "A local-first hub that runs user-authored rule automations across a thousand devices, now with optional LLM-driven voice intents."
-  apple-siri: "Apple's assistant turns speech into device actions; its Shortcuts app lets users wire visual, multi-step automations across apps by hand."
   amazon-echo-alexa: "A voice speaker that maps spoken intents to Skills and fires multi-step Routines — one phrase triggering a scripted chain of actions."
   google-assistant: "An ambient voice layer across phones and speakers that parses a request and dispatches it to apps, smart-home gear, and search."
   humane-ai-pin: "A screenless worn assistant that takes a voice or gesture request and routes it through LLM-driven services to answer or act."

@@ -36,7 +36,9 @@
     "social_legibility": 4,
     "proximity": 3,
     "mobility": 3,
-    "expressiveness": 5
+    "expressiveness": 5,
+    "form_specificity": 4,
+    "intensity": 4
   },
   "images": [
     {

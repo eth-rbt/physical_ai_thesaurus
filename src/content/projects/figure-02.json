@@ -37,7 +37,9 @@
     "social_legibility": 5,
     "proximity": 2,
     "mobility": 3,
-    "autonomy": 4
+    "autonomy": 4,
+    "form_specificity": 5,
+    "generality": 4
   },
   "images": [
     {

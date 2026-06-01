@@ -1,5 +1,55 @@
 # Physical AI Atlas Card Research Skill
 
+## Local setup
+
+The site is an [Astro](https://astro.build) app that runs server-side (SSR) so a
+password gate can protect every page and so editable fields / thoughts can be
+merged in from Supabase. After cloning:
+
+```bash
+npm install
+cp .env.example .env   # then fill in the values below
+npm run dev            # http://localhost:4321
+```
+
+### Environment variables
+
+`.env` is **gitignored** — every clone needs its own. Nothing crashes if a value
+is missing, but the password gate **fails closed**: with no `SITE_PASSWORD`, no
+login is accepted and the whole site is inaccessible. Minimum to see the site is
+`SITE_PASSWORD` (+ `SESSION_SECRET`); add the Supabase keys for the live Thoughts
+feed.
+
+| Variable | Required? | Purpose |
+|---|---|---|
+| `SITE_PASSWORD` | **Yes — to log in** | Shared site password (role `user`: read + add thoughts). |
+| `SESSION_SECRET` | Recommended | Signs the session cookie. Falls back to an insecure dev default if unset. Generate: `node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"` |
+| `ADMIN_PASSWORD` | Optional | Separate key granting role `admin` (edit/delete any thought). |
+| `PUBLIC_SUPABASE_URL` | For Thoughts | Supabase project URL (Project Settings → API). |
+| `PUBLIC_SUPABASE_ANON_KEY` | For Thoughts | Supabase anon/public key (browser read + realtime). |
+| `SUPABASE_SERVICE_ROLE_KEY` | For Thoughts | Server-only key for writes via API routes. **Never expose / never prefix with `PUBLIC_`.** |
+
+Without the Supabase keys the Thoughts panels simply show "not configured yet";
+everything else works.
+
+### Supabase (Thoughts feed)
+
+1. Create a project at [supabase.com](https://supabase.com).
+2. Run [`pipeline/supabase_schema.sql`](pipeline/supabase_schema.sql) in the SQL editor (creates the `thoughts` + `overrides` tables, RLS, and realtime).
+3. Copy the Project URL, anon key, and service-role key into `.env`.
+
+### Build & deploy
+
+```bash
+npm run build          # outputs .vercel/output via @astrojs/vercel
+```
+
+Deploys to **Vercel** (import the repo; it auto-detects Astro). Set all six
+variables above in **Vercel → Settings → Environment Variables**, then redeploy —
+env-var changes don't apply to existing deployments.
+
+---
+
 ## Purpose
 
 This skill researches one card in the Physical AI Atlas.

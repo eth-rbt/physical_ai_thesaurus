@@ -12,22 +12,24 @@ summary:
 display:
   mode: grid
 project_ids:
+  - cochrane-dishwasher
+  - husqvarna-automower
   - irobot-roomba
+  - toyota-hsr
   - roborock
   - june-oven
-  - husqvarna-automower
-  - samsung-bot-handy
   - hello-robot-stretch
-  - toyota-hsr
+  - samsung-bot-handy
   - figure-02
 project_notes:
+  cochrane-dishwasher: "The first patented mechanical dishwashing machine — the original purpose-built appliance to automate a household cleaning chore, replacing hand scrubbing with water-jet pressure."
+  husqvarna-automower: "Steps outside the house to do the yard — it mows the lawn on its own and parks itself to recharge."
   irobot-roomba: "The original single-task floor robot — a disc that drives itself around and vacuums, and does nothing else."
+  toyota-hsr: "A folding-arm robot built to pick things off the floor and bring them to elderly or disabled people at home."
   roborock: "Vacuums and mops in one pass, mapping the home with LiDAR so it cleans methodically room by room."
   june-oven: "A fixed countertop oven that recognizes the food and runs the cook program, handing off one kitchen chore."
-  husqvarna-automower: "Steps outside the house to do the yard — it mows the lawn on its own and parks itself to recharge."
-  samsung-bot-handy: "A concept arm-on-wheels that grips dishes and bottles with judged force — picking up, putting away, and tidying."
   hello-robot-stretch: "A lightweight mobile arm that fetches, opens, and hands over objects, taking on assistive chores for one person."
-  toyota-hsr: "A folding-arm robot built to pick things off the floor and bring them to elderly or disabled people at home."
+  samsung-bot-handy: "A concept arm-on-wheels that grips dishes and bottles with judged force — picking up, putting away, and tidying."
   figure-02: "A general-purpose humanoid reaching past any single chore — meant to use human tools and take on open-ended housework."
 ---
 

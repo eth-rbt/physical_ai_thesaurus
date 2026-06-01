@@ -1,23 +1,44 @@
 {
   "name": "Humane AI Pin",
   "year": 2024,
-  "organization": ["Humane"],
+  "organization": [
+    "Humane"
+  ],
   "project_type": "commercial_product",
   "short_description": "A screenless, magnetically worn AI device with a camera, mics, and a laser projector for the palm.",
   "long_description": "A clothing-clipped wearable that tried to replace the phone screen with voice, a projected palm display, and an always-available assistant. Commercially short-lived (sales wound down in 2025), it remains a sharp reference point for ambient, screen-light body-worn AI.",
   "primary_url": "https://humane.com/",
   "attributes": {
-    "embodiment.form": ["Wearable"],
-    "embodiment.mobility": ["Body-worn"],
-    "intelligence.input": ["Speech", "Vision", "Gesture"],
-    "intelligence.model": ["Large language model", "Vision-language model"],
-    "function.role": ["Assistant"],
-    "genealogy.lineage": ["Wearable computing", "Ubiquitous computing"]
+    "embodiment.form": [
+      "Wearable"
+    ],
+    "embodiment.mobility": [
+      "Body-worn"
+    ],
+    "intelligence.input": [
+      "Speech",
+      "Vision",
+      "Gesture"
+    ],
+    "intelligence.model": [
+      "Large language model",
+      "Vision-language model"
+    ],
+    "function.role": [
+      "Assistant"
+    ],
+    "genealogy.lineage": [
+      "Wearable computing",
+      "Ubiquitous computing"
+    ]
   },
   "metrics": {
     "social_legibility": 2,
     "proximity": 5,
-    "mobility": 4
+    "mobility": 4,
+    "form_specificity": 2,
+    "generality": 4,
+    "scale": 1
   },
   "images": [
     {

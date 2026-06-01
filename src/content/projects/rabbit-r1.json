@@ -1,23 +1,45 @@
 {
   "name": "Rabbit R1",
   "year": 2024,
-  "organization": ["Rabbit Inc."],
+  "organization": [
+    "Rabbit Inc."
+  ],
   "project_type": "commercial_product",
   "short_description": "A small handheld AI device with a screen, camera, scroll wheel, and push-to-talk assistant.",
   "long_description": "A pocket gadget that packages a voice-first AI assistant into a dedicated handheld object rather than an app. Its standalone-device form is a bet that a purpose-built carrier can feel distinct from a phone, even while overlapping heavily with one.",
   "primary_url": "https://www.rabbit.tech/",
   "attributes": {
-    "embodiment.form": ["Handheld device", "Domestic object"],
-    "embodiment.mobility": ["Handheld"],
-    "intelligence.input": ["Speech", "Vision", "Touch"],
-    "intelligence.model": ["Large language model", "Vision-language model"],
-    "function.role": ["Assistant"],
-    "genealogy.lineage": ["Ubiquitous computing", "Wearable computing"]
+    "embodiment.form": [
+      "Handheld device",
+      "Domestic object"
+    ],
+    "embodiment.mobility": [
+      "Handheld"
+    ],
+    "intelligence.input": [
+      "Speech",
+      "Vision",
+      "Touch"
+    ],
+    "intelligence.model": [
+      "Large language model",
+      "Vision-language model"
+    ],
+    "function.role": [
+      "Assistant"
+    ],
+    "genealogy.lineage": [
+      "Ubiquitous computing",
+      "Wearable computing"
+    ]
   },
   "metrics": {
     "social_legibility": 2,
     "proximity": 4,
-    "mobility": 5
+    "mobility": 5,
+    "form_specificity": 3,
+    "generality": 4,
+    "scale": 2
   },
   "images": [
     {

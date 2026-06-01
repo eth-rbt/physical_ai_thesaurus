@@ -16,26 +16,28 @@ display:
     label: Notify only → acts autonomously
     direction: asc
 project_ids:
+  - sperry-autopilot
   - ambient-orb
-  - apple-watch
-  - amazon-echo-alexa
-  - rayban-meta-smart-glasses
+  - irobot-roomba
   - nest-learning-thermostat
   - home-assistant
   - august-smart-lock
-  - irobot-roomba
-  - figure-02
+  - amazon-echo-alexa
+  - apple-watch
   - waymo-driver
+  - rayban-meta-smart-glasses
+  - figure-02
 project_notes:
+  sperry-autopilot: "The first mechanical system to actively control an aircraft without human input — Lawrence Sperry's gyroscope-stabilized autopilot is the historical origin of delegating control authority to a machine, the precursor to every modern autonomy tier."
   ambient-orb: "Pure notify-only — it just glows to signal the weather or your stocks, taking no action and asking nothing of you."
-  apple-watch: "Mostly notifies — taps your wrist about your heart or a fall, but waits for you to decide and act."
+  irobot-roomba: "Hand it the floors — it leaves the dock, navigates the whole home, and cleans unsupervised until done."
   nest-learning-thermostat: "You delegate the schedule: after watching you, it quietly programs itself to heat and cool without prompts."
-  amazon-echo-alexa: "Acts on request — does what you ask out loud, then stops; little happens unless you speak first."
   home-assistant: "You delegate by writing the rules — it then fires automations across the house on its own, but only what you scripted."
   august-smart-lock: "Trusted with the door: senses you arriving and unlocks automatically, a small but real physical action on your behalf."
-  irobot-roomba: "Hand it the floors — it leaves the dock, navigates the whole home, and cleans unsupervised until done."
-  rayban-meta-smart-glasses: "Answers what you ask and captures on command — it observes and informs, but never acts in the world for you."
+  amazon-echo-alexa: "Acts on request — does what you ask out loud, then stops; little happens unless you speak first."
+  apple-watch: "Mostly notifies — taps your wrist about your heart or a fall, but waits for you to decide and act."
   waymo-driver: "Full delegation of the drive — no human at the wheel; it perceives, decides, and operates the car end to end."
+  rayban-meta-smart-glasses: "Answers what you ask and captures on command — it observes and informs, but never acts in the world for you."
   figure-02: "Trusted with physical labor — takes a task and carries out the manipulation steps autonomously in a human workspace."
 ---
 

@@ -1,7 +1,10 @@
 {
   "name": "Tacttoo",
   "year": 2018,
-  "organization": ["Saarland University", "Human-Computer Interaction Lab, Saarland University"],
+  "organization": [
+    "Saarland University",
+    "Human-Computer Interaction Lab, Saarland University"
+  ],
   "project_type": "academic_paper",
   "short_description": "A sub-35-micrometer feel-through temporary tattoo that delivers high-density electro-tactile output on the skin.",
   "long_description": "Tacttoo is a research prototype from Saarland University's HCI Lab that integrates electro-tactile electrodes into an ultra-thin temporary tattoo (under 35 micrometers thick) that conforms to complex body geometry such as a fingertip. It is 'feel-through': it preserves the wearer's natural tactile acuity while superimposing computer-generated electro-tactile stimuli, enabling tactile augmented reality, private notifications, and on-skin interaction. As physical AI and wearable interaction design, it matters because it pushes haptic output to a near-imperceptible epidermal layer, reframing the body's surface itself as a high-resolution display channel.",
@@ -9,13 +12,30 @@
   "ai_embedded": "none",
   "ai_note": "Tacttoo is an electro-tactile output and fabrication technique; the paper describes no AI/ML running in the system.",
   "attributes": {
-    "embodiment.form": ["Wearable"],
-    "embodiment.mobility": ["Body-worn"],
-    "embodiment.materiality": ["On-skin / epidermal"],
-    "embodiment.actuation": ["Electro-tactile stimulation"],
-    "intelligence.output": ["Touch"],
-    "function.role": ["Tool", "Memory aid"],
-    "genealogy.lineage": ["Wearable computing", "Tangible user interfaces", "Augmented reality"]
+    "embodiment.form": [
+      "Wearable"
+    ],
+    "embodiment.mobility": [
+      "Body-worn"
+    ],
+    "embodiment.materiality": [
+      "On-skin / epidermal"
+    ],
+    "embodiment.actuation": [
+      "Electro-tactile stimulation"
+    ],
+    "intelligence.output": [
+      "Touch"
+    ],
+    "function.role": [
+      "Tool",
+      "Memory aid"
+    ],
+    "genealogy.lineage": [
+      "Wearable computing",
+      "Tangible user interfaces",
+      "Augmented reality"
+    ]
   },
   "metrics": {
     "proximity": 5,
@@ -23,7 +43,8 @@
     "scale": 1,
     "social_legibility": 1,
     "expressiveness": 2,
-    "autonomy": 1
+    "autonomy": 1,
+    "timing": 5
   },
   "images": [
     {

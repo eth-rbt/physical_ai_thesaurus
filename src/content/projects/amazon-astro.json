@@ -1,23 +1,45 @@
 {
   "name": "Amazon Astro",
   "year": 2021,
-  "organization": ["Amazon"],
+  "organization": [
+    "Amazon"
+  ],
   "project_type": "commercial_product",
   "short_description": "A wheeled household robot for home monitoring, video calls, and Alexa-based assistance.",
   "long_description": "A small wheeled domestic robot with a screen 'face', a periscope camera, and Alexa built in. It moves the smart-speaker assistant into a mobile body, sitting between appliance, pet, and roving security camera in the home.",
   "primary_url": "https://www.amazon.com/astro",
   "attributes": {
-    "embodiment.form": ["Mobile robot", "Domestic object"],
-    "embodiment.mobility": ["Wheeled"],
-    "intelligence.input": ["Vision", "Speech", "Audio", "Location"],
-    "intelligence.model": ["Speech model", "Deep learning"],
-    "function.role": ["Assistant", "Security monitor"],
-    "genealogy.lineage": ["Smart home", "Social robotics"]
+    "embodiment.form": [
+      "Mobile robot",
+      "Domestic object"
+    ],
+    "embodiment.mobility": [
+      "Wheeled"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Speech",
+      "Audio",
+      "Location"
+    ],
+    "intelligence.model": [
+      "Speech model",
+      "Deep learning"
+    ],
+    "function.role": [
+      "Assistant",
+      "Security monitor"
+    ],
+    "genealogy.lineage": [
+      "Smart home",
+      "Social robotics"
+    ]
   },
   "metrics": {
     "social_legibility": 3,
     "proximity": 3,
-    "mobility": 4
+    "mobility": 4,
+    "scale": 3
   },
   "images": [
     {

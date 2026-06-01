@@ -1,18 +1,40 @@
 {
   "name": "LOVOT",
   "year": 2018,
-  "organization": ["Groove X"],
+  "organization": [
+    "Groove X"
+  ],
   "project_type": "commercial_product",
   "short_description": "A wheeled companion robot from Japan whose only job is to be loved, not to perform tasks.",
   "long_description": "LOVOT is a soft, warm-bodied desktop-scale companion robot built by Groove X, founded by former SoftBank Pepper lead Kaname Hayashi. Announced in December 2018 and shipped from 2019, it carries more than fifty sensors plus a head-mounted capsule of 360-degree, depth, and thermal cameras and microphones, and uses onboard AI to recognize and remember the people it lives with, then adapt its affectionate behavior over time. Deliberately incapable of practical work, it asks to be picked up, follows owners around, and acts shy, jealous, or happy, making it a clear test case for physical AI built entirely around emotional attachment and companionship.",
   "primary_url": "https://lovot.life/en/",
   "attributes": {
-    "embodiment.form": ["Animal / creature robot", "Mobile robot"],
-    "embodiment.mobility": ["Wheeled"],
-    "intelligence.input": ["Vision", "Touch", "Audio", "Speech", "Motion", "Environmental sensors"],
-    "intelligence.model": ["Deep learning"],
-    "function.role": ["Companion"],
-    "genealogy.lineage": ["Social robotics", "Companion robotics", "Human-robot interaction"]
+    "embodiment.form": [
+      "Animal / creature robot",
+      "Mobile robot"
+    ],
+    "embodiment.mobility": [
+      "Wheeled"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Touch",
+      "Audio",
+      "Speech",
+      "Motion",
+      "Environmental sensors"
+    ],
+    "intelligence.model": [
+      "Deep learning"
+    ],
+    "function.role": [
+      "Companion"
+    ],
+    "genealogy.lineage": [
+      "Social robotics",
+      "Companion robotics",
+      "Human-robot interaction"
+    ]
   },
   "metrics": {
     "proximity": 4,
@@ -24,7 +46,8 @@
     "scale": 2,
     "initiative": 4,
     "form_specificity": 5,
-    "generality": 1
+    "generality": 1,
+    "intensity": 4
   },
   "images": [
     {

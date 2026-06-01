@@ -1,0 +1,136 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import ProjectTile from '../../components/ProjectTile.astro';
+
+const projects = await getCollection('projects');
+
+// Default order: newest first, projects without a year sink to the bottom.
+const sorted = [...projects].sort((a, b) => (b.data.year ?? -1) - (a.data.year ?? -1));
+
+const TYPE_LABEL: Record<string, string> = {
+  commercial_product: 'Commercial product',
+  research_prototype: 'Research prototype',
+  academic_paper: 'Academic paper',
+  art_design_project: 'Art / design project',
+  industrial_system: 'Industrial system',
+  platform: 'Platform',
+  dataset: 'Dataset',
+  concept: 'Concept',
+  unknown: 'Unknown',
+};
+// Only offer type filters that actually appear, in a stable order.
+const types = Object.keys(TYPE_LABEL).filter((t) =>
+  projects.some((p) => p.data.project_type === t)
+);
+
+const AI_LABEL: Record<string, string> = {
+  core: 'AI-driven',
+  some: 'Partial AI',
+  envisioned: 'AI envisioned',
+  none: 'No AI',
+  unknown: 'AI unknown',
+};
+const aiLevels = Object.keys(AI_LABEL).filter((a) =>
+  projects.some((p) => p.data.ai_embedded === a)
+);
+---
+
+<Base title="All projects">
+  <div class="gallery-head">
+    <h1>All projects</h1>
+    <span class="count" id="gallery-count">{projects.length} projects</span>
+  </div>
+  <p class="muted" style="max-width:60ch">
+    Every project in the thesaurus, newest first. Search or filter to narrow the
+    set, then click any project to open its page.
+  </p>
+
+  <div class="gallery-controls">
+    <input
+      type="search"
+      id="gallery-search"
+      placeholder="Search by name or organization…"
+      autocomplete="off"
+    />
+    <select id="gallery-type" aria-label="Filter by type">
+      <option value="">All types</option>
+      {types.map((t) => <option value={t}>{TYPE_LABEL[t]}</option>)}
+    </select>
+    <select id="gallery-ai" aria-label="Filter by AI">
+      <option value="">All AI levels</option>
+      {aiLevels.map((a) => <option value={a}>{AI_LABEL[a]}</option>)}
+    </select>
+    <select id="gallery-sort" aria-label="Sort">
+      <option value="year-desc">Newest first</option>
+      <option value="year-asc">Oldest first</option>
+      <option value="name-asc">Name A–Z</option>
+    </select>
+  </div>
+
+  <div class="proj-grid" id="gallery-grid">
+    {sorted.map((p) => (
+      <div
+        class="gallery-cell"
+        data-name={p.data.name.toLowerCase()}
+        data-search={`${p.data.name} ${p.data.organization.join(' ')}`.toLowerCase()}
+        data-type={p.data.project_type}
+        data-ai={p.data.ai_embedded}
+        data-year={p.data.year ?? ''}
+      >
+        <ProjectTile project={p} />
+      </div>
+    ))}
+  </div>
+  <p class="gallery-empty hidden" id="gallery-empty">No projects match those filters.</p>
+</Base>
+
+<script>
+  const grid = document.getElementById('gallery-grid')!;
+  const cells = Array.from(grid.querySelectorAll<HTMLElement>('.gallery-cell'));
+  const search = document.getElementById('gallery-search') as HTMLInputElement;
+  const typeSel = document.getElementById('gallery-type') as HTMLSelectElement;
+  const aiSel = document.getElementById('gallery-ai') as HTMLSelectElement;
+  const sortSel = document.getElementById('gallery-sort') as HTMLSelectElement;
+  const countEl = document.getElementById('gallery-count')!;
+  const emptyEl = document.getElementById('gallery-empty')!;
+  const total = cells.length;
+
+  function apply() {
+    const q = search.value.trim().toLowerCase();
+    const type = typeSel.value;
+    const ai = aiSel.value;
+    let visible = 0;
+    for (const cell of cells) {
+      const matches =
+        (!q || cell.dataset.search!.includes(q)) &&
+        (!type || cell.dataset.type === type) &&
+        (!ai || cell.dataset.ai === ai);
+      cell.classList.toggle('hidden', !matches);
+      if (matches) visible++;
+    }
+    countEl.textContent =
+      visible === total ? `${total} projects` : `${visible} of ${total} projects`;
+    emptyEl.classList.toggle('hidden', visible !== 0);
+  }
+
+  function sort() {
+    const mode = sortSel.value;
+    const ordered = [...cells].sort((a, b) => {
+      if (mode === 'name-asc') return a.dataset.name!.localeCompare(b.dataset.name!);
+      const ya = a.dataset.year ? +a.dataset.year : -Infinity;
+      const yb = b.dataset.year ? +b.dataset.year : -Infinity;
+      // Undated projects always sink to the bottom regardless of direction.
+      if (ya === yb) return a.dataset.name!.localeCompare(b.dataset.name!);
+      if (ya === -Infinity) return 1;
+      if (yb === -Infinity) return -1;
+      return mode === 'year-asc' ? ya - yb : yb - ya;
+    });
+    for (const cell of ordered) grid.appendChild(cell);
+  }
+
+  search.addEventListener('input', apply);
+  typeSel.addEventListener('change', apply);
+  aiSel.addEventListener('change', apply);
+  sortSel.addEventListener('change', sort);
+</script>

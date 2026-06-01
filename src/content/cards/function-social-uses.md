@@ -12,24 +12,26 @@ summary:
 display:
   mode: grid
 project_ids:
+  - irobot-roomba
+  - paro
+  - nintendo-wii
   - amazon-echo-alexa
-  - google-nest-hub
   - ring-doorbell
   - furhat
-  - elliq
-  - paro
+  - google-nest-hub
   - moxie
-  - irobot-roomba
+  - elliq
   - stochastic-parrot
 project_notes:
+  irobot-roomba: "A shared household tool nobody bonds with as a person, yet families still name it and treat the cleaner as a low-key common pet."
+  paro: "Passed hand to hand in a ward or care home, the seal is a shared comfort object, yet each person bonds with it in a private, one-on-one moment."
+  nintendo-wii: "Returned shared physical play to the living room via motion controls — grandparents, children, and guests could all participate in Wii Sports together, making it a landmark case where a consumer device deliberately targeted the full-household social group rather than a solo gamer."
   amazon-echo-alexa: "A shared utility anyone in the room can address by name — and a household intercom that drops in between rooms and members."
-  google-nest-hub: "The household's common screen on the counter: any family member glances at it for the shared calendar, timers, and smart-home controls."
   ring-doorbell: "Faces outward at the whole house — every resident gets the same alert when someone is at the door, and can answer the visitor from anywhere."
   furhat: "A face-to-face social agent that turns toward whoever steps up — built for receptions and multi-party settings where it serves a stream of strangers, not one owner."
-  elliq: "Built for one person living alone — it sustains a one-on-one daily relationship, then opens a channel out to distant family who check in."
-  paro: "Passed hand to hand in a ward or care home, the seal is a shared comfort object, yet each person bonds with it in a private, one-on-one moment."
+  google-nest-hub: "The household's common screen on the counter: any family member glances at it for the shared calendar, timers, and smart-home controls."
   moxie: "A single child's companion that bonds over weeks of recurring talk — a one-on-one friend, not a device the whole family shares."
-  irobot-roomba: "A shared household tool nobody bonds with as a person, yet families still name it and treat the cleaner as a low-key common pet."
+  elliq: "Built for one person living alone — it sustains a one-on-one daily relationship, then opens a channel out to distant family who check in."
   stochastic-parrot: "Rides on one person's shoulder as a personal cohabitant, but can strike up 'parrot-to-parrot' social dynamics with other people's parrots."
 ---
 
