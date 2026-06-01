@@ -1,0 +1,64 @@
+{
+  "name": "Roborock vacuum / mop",
+  "year": 2016,
+  "organization": ["Roborock"],
+  "project_type": "commercial_product",
+  "short_description": "Autonomous robot vacuum and mop that maps the home with LiDAR and AI vision to clean floors on its own.",
+  "long_description": "Roborock's robot vacuum-mops are wheeled domestic robots that build a live map of the home using laser (LiDAR) and camera-based perception, then plan cleaning routes, recognize and avoid obstacles, and return to a self-emptying dock. First shipping a LiDAR-navigated model in 2016, the line is a mass-market case study in physical AI for daily life: a familiar appliance that quietly senses, maps, plans, and acts in a shared human space with minimal supervision. Later models add AI obstacle recognition for hundreds of object types and even a deployable robotic arm, pushing the household appliance toward a more general manipulating agent.",
+  "primary_url": "https://global.roborock.com/",
+  "attributes": {
+    "embodiment.form": ["Mobile robot", "Smart appliance", "Domestic object"],
+    "embodiment.mobility": ["Wheeled"],
+    "intelligence.input": ["Vision", "Location", "Environmental sensors"],
+    "intelligence.model": ["Deep learning"],
+    "function.role": ["Cleaner", "Tool"],
+    "genealogy.lineage": ["Smart home", "Internet of Things", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 3,
+    "scale": 2,
+    "social_legibility": 1,
+    "form_specificity": 3,
+    "autonomy": 4,
+    "initiative": 2,
+    "memory_span": 3,
+    "visibility": 2,
+    "generality": 2,
+    "intensity": 1,
+    "expressiveness": 1,
+    "timing": 2
+  },
+  "images": [
+    {
+      "image_id": "img-roborock-001",
+      "caption": "A Roborock robot vacuum docked on its charging base.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Robot_Vacuum_-_Charging_(50841204983).jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A round black-and-white Roborock robot vacuum cleaner sitting on its charging dock on a hardwood floor.",
+      "local_image": "/projects/roborock.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-roborock-001",
+      "title": "About Roborock",
+      "source_type": "official_product_page",
+      "url": "https://global.roborock.com/pages/about-us",
+      "publisher": "Roborock",
+      "year": null,
+      "access_notes": "Official company page covering founding (2014) and the 2016 LiDAR navigation milestone."
+    },
+    {
+      "source_id": "source-roborock-002",
+      "title": "Roborock",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Roborock",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Background on company history, LiDAR mass production in 2016, and AI obstacle avoidance."
+    }
+  ],
+  "confidence": "high"
+}

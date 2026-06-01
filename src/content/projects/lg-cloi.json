@@ -1,0 +1,64 @@
+{
+  "name": "LG CLOi home robot",
+  "year": 2018,
+  "organization": ["LG Electronics"],
+  "project_type": "commercial_product",
+  "short_description": "LG's family of AI home and service robots that use voice and vision to assist with domestic tasks and control connected appliances.",
+  "long_description": "CLOi is LG's home-robot brand, first unveiled at CES 2018, spanning a tabletop Hub Robot assistant and mobile service robots such as the CleanBot and PortBot. The robots move and sense autonomously, respond to spoken commands, and tie into LG's ThinQ smart-home platform to run appliances. CLOi matters for physical AI in daily life because it tries to give an ambient home assistant a moving, expressive body rather than leaving it as a disembodied voice in a speaker, and its 2026 CLOiD successor pushes the same idea toward a two-armed humanoid for household chores.",
+  "primary_url": "https://www.lg.com/global/lg-cloi",
+  "attributes": {
+    "embodiment.form": ["Mobile robot", "Domestic object"],
+    "embodiment.mobility": ["Wheeled"],
+    "intelligence.input": ["Speech", "Vision", "Audio", "Environmental sensors"],
+    "intelligence.model": ["Vision-language model", "Speech model"],
+    "function.role": ["Assistant", "Companion", "Cleaner"],
+    "genealogy.lineage": ["Smart home", "Social robotics", "Internet of Things", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 3,
+    "scale": 3,
+    "social_legibility": 3,
+    "form_specificity": 3,
+    "autonomy": 3,
+    "initiative": 2,
+    "memory_span": 3,
+    "visibility": 4,
+    "generality": 3,
+    "intensity": 2,
+    "expressiveness": 3,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-lg-cloi-001",
+      "caption": "LG CLOi CleanBot, an autonomous home service robot, shown at IFA 2018 in Berlin.",
+      "image_type": "exhibition_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LG,_IFA_2018,_Berlin_(P1070244).jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A white wheeled LG CLOi service robot with a rounded body and small screen face standing on a dark exhibition floor at a trade show.",
+      "local_image": "/projects/lg-cloi.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-lg-cloi-001",
+      "title": "LG @ IFA 2018: your ultimate guide to LG CLOi robots",
+      "source_type": "official_product_page",
+      "url": "https://www.lg.com/uk/lg-experience/lg-lab/ifa-2018-your-ultimate-guide-to-lg-cloi-robots/",
+      "publisher": "LG Electronics",
+      "year": 2018,
+      "access_notes": "Official LG page describing the CLOi robot family shown at IFA 2018."
+    },
+    {
+      "source_id": "source-lg-cloi-002",
+      "title": "LG to Unveil Home Robot at CES 2026, Sharing Vision for the \"Zero Labor Home\"",
+      "source_type": "press_release",
+      "url": "https://www.lg.com/us/press-release/lg-to-unveil-home-robot-at-ces-2026-sharing-vision-for-the-zero-labor-home",
+      "publisher": "LG Electronics",
+      "year": 2026,
+      "access_notes": "Press release announcing the CLOiD home robot, successor to the CLOi line."
+    }
+  ],
+  "confidence": "high"
+}

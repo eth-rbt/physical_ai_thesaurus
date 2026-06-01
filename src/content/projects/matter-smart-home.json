@@ -1,0 +1,73 @@
+{
+  "name": "Matter (smart home standard)",
+  "year": 2022,
+  "organization": ["Connectivity Standards Alliance", "Amazon", "Apple", "Google", "Samsung"],
+  "project_type": "platform",
+  "short_description": "An open, IP-based interoperability standard that lets smart home devices from different brands work together over Wi-Fi, Thread, and Ethernet.",
+  "long_description": "Matter is a royalty-free connectivity standard maintained by the Connectivity Standards Alliance and backed by Amazon, Apple, Google, Samsung and hundreds of other members, with its 1.0 specification published in October 2022. It defines a common application layer so that locks, lights, thermostats, sensors and other devices can be commissioned and controlled across competing ecosystems, often with local rather than cloud-only control. As physical AI moves into the home, Matter matters because it is the shared substrate through which an AI assistant can sense and actuate the ambient environment regardless of who made each device.",
+  "primary_url": "https://csa-iot.org/all-solutions/matter/",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Distributed object ecology"],
+    "embodiment.mobility": ["Environmental / room-scale"],
+    "embodiment.proximity": ["Room / infrastructure"],
+    "intelligence.input": ["Environmental sensors"],
+    "function.role": ["Tool", "Mediator"],
+    "genealogy.lineage": ["Smart home", "Internet of Things", "Ambient intelligence", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 5,
+    "form_specificity": 1,
+    "visibility": 1,
+    "social_legibility": 1,
+    "autonomy": 2,
+    "initiative": 2,
+    "memory_span": 2,
+    "expressiveness": 1,
+    "generality": 4,
+    "intensity": 1,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-matter-smart-home-001",
+      "caption": "The logo of the Matter connectivity standard.",
+      "image_type": "screenshot",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Logo_of_Matter_connectivity_standard.svg",
+      "rights_status": "public_domain",
+      "alt_text": "The word 'matter' in lowercase next to a stylized three-arrow icon, the logo of the Matter smart home connectivity standard.",
+      "local_image": "/projects/matter-smart-home.png"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-matter-smart-home-001",
+      "title": "Matter | All Solutions",
+      "source_type": "official_product_page",
+      "url": "https://csa-iot.org/all-solutions/matter/",
+      "publisher": "Connectivity Standards Alliance",
+      "year": 2022,
+      "access_notes": "Official standard page describing Matter, its backers, and the Wi-Fi/Thread/Bluetooth networking layers."
+    },
+    {
+      "source_id": "source-matter-smart-home-002",
+      "title": "The Connectivity Standards Alliance Unveils Matter, Formerly Known as Project CHIP",
+      "source_type": "press_release",
+      "url": "https://csa-iot.org/newsroom/chip-is-now-matter/",
+      "publisher": "Connectivity Standards Alliance",
+      "year": 2021,
+      "access_notes": "Announcement of the Matter name and history as Project Connected Home over IP, founded December 2019."
+    },
+    {
+      "source_id": "source-matter-smart-home-003",
+      "title": "Matter (standard)",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/Matter_(standard)",
+      "publisher": "Wikipedia",
+      "year": 2022,
+      "access_notes": "Background on the 1.0 specification release on 4 October 2022."
+    }
+  ],
+  "confidence": "high"
+}

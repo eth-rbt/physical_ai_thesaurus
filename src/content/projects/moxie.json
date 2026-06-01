@@ -1,0 +1,64 @@
+{
+  "name": "Embodied Moxie",
+  "year": 2020,
+  "organization": ["Embodied", "fuseproject"],
+  "project_type": "commercial_product",
+  "short_description": "A desktop social companion robot with an expressive animated face that helps children practice social-emotional skills through daily conversation and play.",
+  "long_description": "Moxie is a small tabletop robot, designed by Paolo Pirjanian's Embodied with industrial design by Yves Behar's fuseproject, that uses cameras, microphones, and conversational AI to engage children ages 5-10 in themed activities around empathy, kindness, and emotional regulation. Its glowing animated face, gesturing arms, and gaze make it read as a believable social actor rather than a gadget, and it builds rapport over weeks of recurring conversation. It is a landmark case for physical AI in daily life: an affective home robot that children bonded with deeply, which made its abrupt 2024 shutdown, when the cloud-dependent robots went dark after Embodied ran out of funding, a widely cited cautionary tale about emotional attachment to networked AI.",
+  "primary_url": "https://spectrum.ieee.org/moxie-a-social-robot-for-childhood-development",
+  "attributes": {
+    "embodiment.form": ["Desktop agent", "Animal / creature robot"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Vision", "Audio", "Speech"],
+    "intelligence.model": ["Large language model", "Deep learning"],
+    "function.role": ["Companion", "Coach", "Teacher"],
+    "genealogy.lineage": ["Social robotics", "Human-robot interaction", "Companion robotics"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 5,
+    "form_specificity": 4,
+    "autonomy": 2,
+    "initiative": 4,
+    "memory_span": 4,
+    "visibility": 4,
+    "generality": 2,
+    "intensity": 4,
+    "expressiveness": 5,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-moxie-001",
+      "caption": "A child interacting with the Embodied Moxie social robot at home.",
+      "image_type": "product_photo",
+      "source_url": "https://www.therobotreport.com/moxie-social-robot-embodied-designed-help-children-learn/",
+      "rights_status": "needs_permission",
+      "alt_text": "A small white and teal robot with a glowing animated face and rounded body sits on a table beside a young child in a home setting.",
+      "local_image": "/projects/moxie.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-moxie-001",
+      "title": "Meet Moxie, a Social Robot That Helps Kids With Social-Emotional Learning",
+      "source_type": "credible_news",
+      "url": "https://spectrum.ieee.org/moxie-a-social-robot-for-childhood-development",
+      "publisher": "IEEE Spectrum",
+      "year": 2020,
+      "access_notes": "Detailed coverage of Moxie's design, on-device processing, conversational AI, and child-development goals."
+    },
+    {
+      "source_id": "source-moxie-002",
+      "title": "Maker of AI robots for kids abruptly shutters",
+      "source_type": "credible_news",
+      "url": "https://www.axios.com/2024/12/10/moxie-kids-robot-shuts-down",
+      "publisher": "Axios",
+      "year": 2024,
+      "access_notes": "Reports Embodied's late-2024 shutdown after a funding round fell through, disabling the cloud-dependent robots."
+    }
+  ],
+  "confidence": "high"
+}

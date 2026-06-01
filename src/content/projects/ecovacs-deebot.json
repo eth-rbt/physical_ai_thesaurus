@@ -1,0 +1,64 @@
+{
+  "name": "Ecovacs Deebot",
+  "year": 2007,
+  "organization": ["Ecovacs Robotics"],
+  "project_type": "commercial_product",
+  "short_description": "A line of autonomous robot vacuum-and-mop appliances that map a home and clean it without supervision.",
+  "long_description": "Deebot is Ecovacs Robotics' family of floor-cleaning robots, first launched in 2007 and grown into the flagship X series with LiDAR and dToF mapping, AIVI 3D structured-light obstacle recognition, and the YIKO voice assistant. The robots build a persistent map of a home, plan cleaning routes, avoid cables and pets, and return to a dock to self-empty and re-water. As one of the most widely sold physical AI products, Deebot shows how autonomous navigation and perception became an unremarkable household appliance, normalizing a self-directed mobile robot that shares domestic space with people every day.",
+  "primary_url": "https://www.ecovacs.com/us/deebot-robotic-vacuum-cleaner",
+  "attributes": {
+    "embodiment.form": ["Mobile robot", "Smart appliance", "Domestic object"],
+    "embodiment.mobility": ["Wheeled"],
+    "intelligence.input": ["Vision", "Speech", "Environmental sensors", "Location"],
+    "intelligence.model": ["Deep learning", "Reinforcement learning"],
+    "function.role": ["Cleaner", "Tool"],
+    "genealogy.lineage": ["Smart home", "Human-robot interaction", "Internet of Things"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 4,
+    "scale": 2,
+    "social_legibility": 1,
+    "form_specificity": 4,
+    "autonomy": 4,
+    "initiative": 2,
+    "memory_span": 3,
+    "visibility": 2,
+    "generality": 1,
+    "intensity": 1,
+    "expressiveness": 1,
+    "timing": 3
+  },
+  "images": [
+    {
+      "image_id": "img-ecovacs-deebot-001",
+      "caption": "An Ecovacs robot vacuum cleaner on display at the Building Fairs Brno 2011 exhibition.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Building_Fairs_Brno_2011_(217).jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A round disc-shaped Ecovacs robot vacuum cleaner sitting on a display stand at a trade fair.",
+      "local_image": "/projects/ecovacs-deebot.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-ecovacs-deebot-001",
+      "title": "DEEBOT Robotic Vacuum Cleaners",
+      "source_type": "official_product_page",
+      "url": "https://www.ecovacs.com/us/deebot-robotic-vacuum-cleaner",
+      "publisher": "Ecovacs Robotics",
+      "year": 2026,
+      "access_notes": "Official product page describing Deebot mapping, navigation, and obstacle-avoidance technology."
+    },
+    {
+      "source_id": "source-ecovacs-deebot-002",
+      "title": "Ecovacs Robotics",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Ecovacs_Robotics",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "access_notes": "Company history; Deebot floor-cleaning series introduced by 2007."
+    }
+  ],
+  "confidence": "high"
+}

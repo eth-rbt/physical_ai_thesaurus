@@ -1,0 +1,64 @@
+{
+  "name": "Home Assistant",
+  "year": 2013,
+  "organization": ["Open Home Foundation", "Nabu Casa"],
+  "project_type": "platform",
+  "short_description": "Open-source, local-first home automation platform that unifies thousands of smart devices and runs a private on-device voice assistant.",
+  "long_description": "Home Assistant is a free, open-source platform started by Paulus Schoutsen in 2013 and now stewarded by the non-profit Open Home Foundation. It integrates with over a thousand brands of sensors, appliances, and robots, runs automations and dashboards locally rather than in the cloud, and includes a built-in voice assistant called Assist. As a control layer that senses and acts across an entire household, it shows how physical AI in daily life can be assembled from distributed everyday objects while keeping data private and under the user's control.",
+  "primary_url": "https://www.home-assistant.io/",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Distributed object ecology", "Smart appliance"],
+    "embodiment.mobility": ["Fixed", "Environmental / room-scale"],
+    "intelligence.input": ["Speech", "Environmental sensors", "Motion", "Location"],
+    "intelligence.model": ["Rule-based system", "Speech model", "Large language model"],
+    "function.role": ["Assistant", "Tool", "Security monitor"],
+    "genealogy.lineage": ["Smart home", "Internet of Things", "Ubiquitous computing", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 4,
+    "form_specificity": 1,
+    "social_legibility": 1,
+    "autonomy": 3,
+    "initiative": 3,
+    "memory_span": 4,
+    "visibility": 2,
+    "generality": 4,
+    "intensity": 2,
+    "expressiveness": 1,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-home-assistant-001",
+      "caption": "Home Assistant Green, Yellow, and Blue home automation hubs that run the platform locally.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Home_assistant_green.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "Three small Home Assistant single-board computer hubs in green, yellow, and blue cases sitting side by side on a desk.",
+      "local_image": "/projects/home-assistant.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-home-assistant-001",
+      "title": "Home Assistant",
+      "source_type": "official_product_page",
+      "url": "https://www.home-assistant.io/",
+      "publisher": "Open Home Foundation",
+      "year": 2013,
+      "access_notes": "Official project homepage describing local control, integrations, and the Assist voice assistant."
+    },
+    {
+      "source_id": "source-home-assistant-002",
+      "title": "Home Assistant",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Home_Assistant",
+      "publisher": "Wikipedia",
+      "year": 2024,
+      "access_notes": "Founding year (2013, Paulus Schoutsen), Apache 2.0 license, Open Home Foundation governance, Nabu Casa cloud service."
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "IFTTT",
+  "year": 2011,
+  "organization": ["IFTTT"],
+  "project_type": "platform",
+  "short_description": "A web automation platform that connects apps, services, and smart devices through conditional 'if this, then that' Applets.",
+  "long_description": "IFTTT (short for 'If This Then That') lets people wire together over a thousand services and connected devices using simple trigger-action rules called Applets, so an event on one service automatically causes an action on another. For physical AI in daily life it acts as the connective tissue between voice assistants, smart-home gear, sensors, and the cloud, turning isolated devices into coordinated routines without code. By exposing triggers (a door opening, a location entered, a phrase spoken to Alexa or Google Assistant) and actions across an open ecosystem, it shaped how everyday people compose ambient, situated automations in the home.",
+  "primary_url": "https://ifttt.com/",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Distributed object ecology"],
+    "embodiment.mobility": ["Environmental / room-scale"],
+    "intelligence.input": ["Location", "Environmental sensors", "Speech"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Mediator", "Tool"],
+    "genealogy.lineage": ["Smart home", "Internet of Things", "Ubiquitous computing", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 4,
+    "autonomy": 2,
+    "initiative": 3,
+    "memory_span": 2,
+    "visibility": 1,
+    "generality": 4,
+    "intensity": 1,
+    "timing": 2,
+    "social_legibility": 1,
+    "expressiveness": 1
+  },
+  "images": [
+    {
+      "image_id": "img-ifttt-001",
+      "caption": "The IFTTT wordmark logo.",
+      "image_type": "screenshot",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IFTTT_Logo.svg",
+      "rights_status": "public_domain",
+      "alt_text": "The IFTTT logo, lowercase black letters spelling 'ifttt' on a white background.",
+      "local_image": "/projects/ifttt.png"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-ifttt-001",
+      "title": "What is IFTTT and how does it work?",
+      "source_type": "official_product_page",
+      "url": "https://ifttt.com/explore/what-is-ifttt",
+      "publisher": "IFTTT",
+      "year": 2011,
+      "access_notes": "Official explainer describing Applets, triggers, and actions."
+    },
+    {
+      "source_id": "source-ifttt-002",
+      "title": "IFTTT",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/IFTTT",
+      "publisher": "Wikipedia",
+      "year": 2011,
+      "access_notes": "Founding history (launched September 7, 2011; founders Linden Tibbets et al.) and platform description."
+    }
+  ],
+  "confidence": "high"
+}

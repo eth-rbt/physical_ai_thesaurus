@@ -1,0 +1,52 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import ProjectTile from './ProjectTile.astro';
+
+interface Props {
+  projects: CollectionEntry<'projects'>[];
+  axis: { metric: string; label: string; direction: 'asc' | 'desc' };
+}
+const { projects, axis } = Astro.props;
+
+// Only projects that have a value for this metric can be placed on the axis.
+const placed = projects.filter((p) => typeof p.data.metrics[axis.metric] === 'number');
+const missing = projects.filter((p) => typeof p.data.metrics[axis.metric] !== 'number');
+
+const vals = placed.map((p) => p.data.metrics[axis.metric]);
+const min = Math.min(...vals);
+const max = Math.max(...vals);
+const span = max - min || 1;
+// Normalized 0..100 position; desc flips so the highest value sits on the left.
+const pos = (v: number) => {
+  const t = (v - min) / span;
+  return (axis.direction === 'desc' ? 1 - t : t) * 100;
+};
+
+const ordered = [...placed].sort((a, b) =>
+  axis.direction === 'desc'
+    ? b.data.metrics[axis.metric] - a.data.metrics[axis.metric]
+    : a.data.metrics[axis.metric] - b.data.metrics[axis.metric],
+);
+---
+
+<div class="axis-1d">
+  <div class="axis-labels"><span>{axis.label}</span></div>
+  <div class="axis-line">
+    {placed.map((p) => (
+      <span class="axis-node" style={`left:${pos(p.data.metrics[axis.metric])}%`}>
+        <span class="dot"></span>
+        <span class="lab">{p.data.name}</span>
+      </span>
+    ))}
+  </div>
+  <div class="proj-grid">
+    {ordered.map((p) => (
+      <ProjectTile project={p} sub={`${axis.metric}: ${p.data.metrics[axis.metric]}`} />
+    ))}
+  </div>
+  {missing.length > 0 && (
+    <p class="muted" style="font-size:0.8rem;margin-top:1rem">
+      Not placed (no <code>{axis.metric}</code> value): {missing.map((p) => p.data.name).join(', ')}
+    </p>
+  )}
+</div>

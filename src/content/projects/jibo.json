@@ -1,0 +1,63 @@
+{
+  "name": "Jibo",
+  "year": 2017,
+  "organization": ["Jibo, Inc."],
+  "project_type": "commercial_product",
+  "short_description": "A countertop social home robot with an expressive swiveling body, far-field voice interaction, and machine vision, marketed as the world's first family robot.",
+  "long_description": "Jibo was a stationary desktop robot co-founded out of MIT by social-robotics pioneer Cynthia Breazeal, announced via an Indiegogo campaign in 2014 and shipped to backers in 2017. Rather than locomotion, it expressed itself through a three-axis rotating body, a round animated face, and an affective 'emotion system,' using far-field microphones and cameras to recognize people, tell stories, take photos, and deliver news and reminders. It matters for physical AI in daily life as one of the first consumer attempts to make an AI feel like a present social actor in the home, demonstrating both the appeal and the commercial fragility of expressive companion robots; Jibo, Inc. wound down and its assets were acquired by NTT in 2020.",
+  "primary_url": "https://www.jibo.com/",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Desktop agent"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Vision", "Audio", "Speech"],
+    "intelligence.model": ["Speech model", "Rule-based system"],
+    "function.role": ["Companion", "Assistant", "Performer"],
+    "genealogy.lineage": ["Social robotics", "Companion robotics", "Human-robot interaction", "Smart home"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 4,
+    "form_specificity": 4,
+    "autonomy": 2,
+    "initiative": 3,
+    "memory_span": 3,
+    "visibility": 4,
+    "generality": 2,
+    "intensity": 3,
+    "expressiveness": 5,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-jibo-001",
+      "caption": "Jibo, the social home robot, beside engineer Benedict Chen who helped design its emotion system.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BenedictChenWithJibo.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A small white-and-black Jibo social robot with a round face screen sitting on a surface next to a smiling man.",
+      "local_image": "/projects/jibo.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-jibo-001",
+      "title": "Cynthia Breazeal Unveils Jibo, a Social Robot for the Home",
+      "source_type": "credible_news",
+      "url": "https://spectrum.ieee.org/cynthia-breazeal-unveils-jibo-a-social-robot-for-the-home",
+      "publisher": "IEEE Spectrum",
+      "year": 2014
+    },
+    {
+      "source_id": "source-jibo-002",
+      "title": "Jibo",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/Jibo",
+      "publisher": "Wikipedia",
+      "year": 2017,
+      "access_notes": "Covers founding, 2014 Indiegogo announcement, 2017 release, and 2020 NTT asset acquisition."
+    }
+  ],
+  "confidence": "high"
+}

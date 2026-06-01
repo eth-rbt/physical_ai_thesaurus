@@ -1,0 +1,18 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import ProjectGrid from './ProjectGrid.astro';
+import ProjectAxis1D from './ProjectAxis1D.astro';
+import ProjectScatter2D from './ProjectScatter2D.astro';
+
+// Dispatches the resolved projects to the right arrangement component based on
+// the card's `display` block. This is the only place that knows the modes.
+interface Props {
+  projects: CollectionEntry<'projects'>[];
+  display: CollectionEntry<'cards'>['data']['display'];
+}
+const { projects, display } = Astro.props;
+---
+
+{display.mode === 'grid' && <ProjectGrid projects={projects} groupBy={display.groupBy} />}
+{display.mode === 'axis-1d' && <ProjectAxis1D projects={projects} axis={display.axis} />}
+{display.mode === 'scatter-2d' && <ProjectScatter2D projects={projects} x={display.x} y={display.y} />}

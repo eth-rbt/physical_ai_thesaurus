@@ -1,0 +1,83 @@
+{
+  "name": "Kismet",
+  "year": 2000,
+  "organization": ["MIT Artificial Intelligence Laboratory", "MIT Media Lab"],
+  "project_type": "research_prototype",
+  "short_description": "An expressive robotic head built at MIT in the late 1990s to engage people in face-to-face social and emotional exchange.",
+  "long_description": "Kismet is a disembodied robot head developed by Cynthia Breazeal as her doctoral work under Rodney Brooks at MIT, widely regarded as a founding artifact of social robotics. Using cameras, microphones tuned to infant-directed speech, and a synthetic-nervous-system control architecture, it perceives a human partner and responds with legible affective displays through motorized ears, eyebrows, eyelids, lips, jaw, and neck, plus expressive vocal babble synthesized with DECtalk. Modeled on infant-caregiver interaction, Kismet maintained an internal motivation-and-emotion state that drove turn-taking and proto-conversational engagement rather than completing any external task. It now resides in the MIT Museum.",
+  "primary_url": "https://www.ai.mit.edu/projects/sociable/overview.html",
+  "attributes": {
+    "embodiment.form": ["Humanoid robot", "Animal / creature robot", "Desktop agent"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.social legibility": ["Humanoid robot"],
+    "intelligence.input": ["Vision", "Audio", "Speech", "Motion"],
+    "intelligence.model": ["Hybrid symbolic-neural system", "Rule-based system"],
+    "intelligence.output": ["Speech", "Gesture"],
+    "function.role": ["Companion", "Performer"],
+    "function.social function": ["Companion"],
+    "genealogy.lineage": ["Social robotics", "Human-robot interaction", "Cybernetics", "Companion robotics"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "memory_span": 1,
+    "autonomy": 2,
+    "expressiveness": 5,
+    "social_legibility": 5,
+    "mobility": 1,
+    "scale": 2,
+    "form_specificity": 4,
+    "initiative": 4,
+    "generality": 1,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-kismet-001",
+      "caption": "Kismet (1993-2000) on display at the MIT Museum, Cambridge, Massachusetts.",
+      "image_type": "exhibition_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kismet,_1993-2000,_view_2_-_MIT_Museum_-_DSC03711.JPG",
+      "rights_status": "public_domain",
+      "alt_text": "A robotic head with large round camera eyes, expressive pink rubber lips, mobile eyebrows, and pointed ears mounted on a metal neck, displayed in a museum case.",
+      "local_image": "/projects/kismet.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-kismet-001",
+      "title": "Kismet (robot)",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Kismet_(robot)",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Overview of sensors, expression mechanisms, control architecture, and emotional states."
+    },
+    {
+      "source_id": "source-kismet-002",
+      "title": "Sociable Machines: Expressive Social Exchange Between Humans and Robots (PhD thesis)",
+      "source_type": "academic_paper",
+      "url": "https://groups.csail.mit.edu/lbr/hrg/2000/phd.pdf",
+      "publisher": "MIT",
+      "year": 2000,
+      "access_notes": "Cynthia Breazeal's doctoral thesis describing Kismet's design and the synthetic nervous system."
+    },
+    {
+      "source_id": "source-kismet-003",
+      "title": "Kismet - The First Social Robot",
+      "source_type": "project_page",
+      "url": "https://web.media.mit.edu/~cynthiab/research/robots/kismet/overview/overview.html",
+      "publisher": "MIT Media Lab",
+      "year": null,
+      "access_notes": "Project overview page maintained by Cynthia Breazeal."
+    },
+    {
+      "source_id": "source-kismet-004",
+      "title": "Kismet - ROBOTS: Your Guide to the World of Robotics",
+      "source_type": "credible_news",
+      "url": "https://robotsguide.com/robots/kismet",
+      "publisher": "IEEE Robots Guide",
+      "year": null,
+      "access_notes": "Encyclopedic profile of Kismet."
+    }
+  ],
+  "confidence": "high"
+}

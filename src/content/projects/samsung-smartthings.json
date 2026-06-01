@@ -1,0 +1,64 @@
+{
+  "name": "Samsung SmartThings",
+  "year": 2012,
+  "organization": ["Samsung Electronics", "SmartThings"],
+  "project_type": "platform",
+  "short_description": "A smart-home platform of hubs, apps, and cloud services that connects and automates IoT devices across Zigbee, Z-Wave, and Matter.",
+  "long_description": "SmartThings began as a 2012 Kickstarter-funded hub for connecting home devices and was acquired by Samsung in 2014, growing into an ambient automation layer for the home spanning lights, locks, sensors, appliances, and cameras. Rather than embodying intelligence in a single body, it distributes sensing and action across a room-scale ecology of objects coordinated through a hub, mobile app, and cloud. It matters for physical AI in daily life because it is one of the largest deployed examples of infrastructural, environment-scale intelligence: AI that perceives household state through many sensors and acts through many actuators, largely invisibly and proactively, on the user's behalf.",
+  "primary_url": "https://www.smartthings.com/",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Distributed object ecology", "Smart appliance"],
+    "embodiment.mobility": ["Fixed", "Environmental / room-scale"],
+    "intelligence.input": ["Environmental sensors", "Motion", "Location"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Assistant", "Security monitor"],
+    "genealogy.lineage": ["Smart home", "Internet of Things", "Ubiquitous computing", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 5,
+    "form_specificity": 1,
+    "social_legibility": 1,
+    "autonomy": 3,
+    "initiative": 4,
+    "memory_span": 3,
+    "visibility": 1,
+    "generality": 3,
+    "intensity": 1,
+    "expressiveness": 1,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-samsung-smartthings-001",
+      "caption": "The Samsung SmartThings wordmark logo.",
+      "image_type": "screenshot",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Logo_SmartThings.svg",
+      "rights_status": "public_domain",
+      "alt_text": "The SmartThings logo: the word 'SmartThings' in dark lowercase lettering on a white background.",
+      "local_image": "/projects/samsung-smartthings.png"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-samsung-smartthings-001",
+      "title": "SmartThings",
+      "source_type": "official_product_page",
+      "url": "https://www.smartthings.com/",
+      "publisher": "Samsung Electronics",
+      "year": null,
+      "access_notes": "Official SmartThings platform site."
+    },
+    {
+      "source_id": "source-samsung-smartthings-002",
+      "title": "SmartThings",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/SmartThings",
+      "publisher": "Wikipedia",
+      "year": 2025,
+      "access_notes": "Founding (2012), 2013 product launch, 2014 Samsung acquisition, Zigbee/Z-Wave/Matter support."
+    }
+  ],
+  "confidence": "high"
+}

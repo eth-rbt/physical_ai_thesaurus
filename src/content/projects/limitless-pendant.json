@@ -1,0 +1,64 @@
+{
+  "name": "Limitless Pendant",
+  "year": 2024,
+  "organization": ["Limitless"],
+  "project_type": "commercial_product",
+  "short_description": "A small clip-on wearable that continuously records and transcribes spoken conversations to power a personal AI with long-term memory.",
+  "long_description": "Announced in April 2024 by Limitless (formerly Rewind AI), the Pendant is a lightweight magnetic-clasp device worn on the body that captures everyday speech, identifies who said what, and stores it as searchable, summarizable memory in the cloud. By moving capture off the desktop and onto the body, it lets a personalized AI assistant draw on what you have actually said and heard, generating meeting prep, automated notes, and recall on demand. It matters for physical AI in daily life as a near-formless, always-on audio agent that turns ambient conversation into a queryable autobiographical record, while raising clear questions about consent and continuous recording.",
+  "primary_url": "https://www.limitless.ai/",
+  "attributes": {
+    "embodiment.form": ["Wearable", "Domestic object"],
+    "embodiment.mobility": ["Body-worn"],
+    "intelligence.input": ["Audio", "Speech"],
+    "intelligence.model": ["Large language model", "Speech model"],
+    "function.role": ["Assistant", "Memory aid"],
+    "genealogy.lineage": ["Wearable computing", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 4,
+    "scale": 1,
+    "form_specificity": 2,
+    "social_legibility": 1,
+    "visibility": 2,
+    "autonomy": 2,
+    "initiative": 2,
+    "memory_span": 5,
+    "generality": 3,
+    "intensity": 2,
+    "expressiveness": 1,
+    "timing": 2
+  },
+  "images": [
+    {
+      "image_id": "img-limitless-pendant-001",
+      "caption": "The Limitless Pendant, a clip-on AI wearable, shown beside the app's automated meeting notes.",
+      "image_type": "product_photo",
+      "source_url": "https://www.limitless.ai/",
+      "rights_status": "needs_permission",
+      "alt_text": "A small round black wearable device with a magnetic clasp, next to a screenshot of an app showing meeting prep notes and a transcript.",
+      "local_image": "/projects/limitless-pendant.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-limitless-pendant-001",
+      "title": "Limitless",
+      "source_type": "official_product_page",
+      "url": "https://www.limitless.ai/",
+      "publisher": "Limitless",
+      "year": 2024,
+      "access_notes": "Official product page for the Limitless Pendant."
+    },
+    {
+      "source_id": "source-limitless-pendant-002",
+      "title": "a16z-backed Rewind pivots to build AI-powered pendant to record your conversations",
+      "source_type": "credible_news",
+      "url": "https://techcrunch.com/2024/04/17/a16z-backed-rewind-pivots-to-build-ai-powered-pendant-to-record-your-conversations/",
+      "publisher": "TechCrunch",
+      "year": 2024,
+      "access_notes": "Covers the April 2024 rebrand from Rewind to Limitless and the Pendant announcement."
+    }
+  ],
+  "confidence": "high"
+}

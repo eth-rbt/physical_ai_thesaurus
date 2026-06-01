@@ -1,0 +1,64 @@
+{
+  "name": "Samsung Bot Handy",
+  "year": 2021,
+  "organization": ["Samsung Electronics", "Samsung Research"],
+  "project_type": "concept",
+  "short_description": "A concept home robot with a single AI-controlled arm and gripper that recognizes household objects and applies the right amount of force to handle them.",
+  "long_description": "Unveiled by Samsung at CES 2021 and upgraded for CES 2022, Bot Handy is a wheeled mobile manipulator with one dexterous arm pitched as 'an extra hand' for chores like clearing tables, loading dishes, tidying rooms, and pouring drinks. It uses AI-based object recognition to distinguish objects by shape and material and to grasp delicate or transparent items without colliding. As a still-unreleased concept, it represents a vision of physical AI moving from cleaning and assistant appliances toward general-purpose manipulation in the home, where a robot must perceive a cluttered domestic scene and act on it physically.",
+  "primary_url": "https://news.samsung.com/global/tag/samsung-bot-handy",
+  "attributes": {
+    "embodiment.form": ["Mobile robot", "Domestic object"],
+    "embodiment.mobility": ["Wheeled", "Robotic arm"],
+    "intelligence.input": ["Vision", "Force / torque"],
+    "intelligence.model": ["Deep learning"],
+    "function.role": ["Cleaner", "Assistant"],
+    "genealogy.lineage": ["Social robotics", "Smart home"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 3,
+    "scale": 3,
+    "social_legibility": 3,
+    "form_specificity": 3,
+    "autonomy": 3,
+    "initiative": 2,
+    "memory_span": 2,
+    "visibility": 4,
+    "generality": 3,
+    "intensity": 2,
+    "expressiveness": 2,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-samsung-bot-handy-001",
+      "caption": "Samsung Bot Care (left) and Samsung Bot Handy (right), the single-arm mobile manipulator, as shown at CES 2021.",
+      "image_type": "render",
+      "source_url": "https://news.samsung.com/global/samsung-introduces-latest-innovations-for-a-better-normal-at-ces-2021",
+      "rights_status": "needs_permission",
+      "alt_text": "A white wheeled robot with a single articulated arm and a two-finger gripper, standing beside a smaller cylindrical robot with a display screen.",
+      "local_image": "/projects/samsung-bot-handy.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-samsung-bot-handy-001",
+      "title": "Samsung Introduces Latest Innovations for a Better Normal at CES 2021",
+      "source_type": "press_release",
+      "url": "https://news.samsung.com/global/samsung-introduces-latest-innovations-for-a-better-normal-at-ces-2021",
+      "publisher": "Samsung Electronics",
+      "year": 2021,
+      "access_notes": "Official CES 2021 newsroom announcement introducing Bot Handy as a concept robot."
+    },
+    {
+      "source_id": "source-samsung-bot-handy-002",
+      "title": "[CES 2022] Samsung Research's New Tech Trio - Samsung Bot Handy - Housework robot",
+      "source_type": "official_blog_post",
+      "url": "https://research.samsung.com/news/-CES-2022-Samsung-Research-New-Tech-Trio-Samsung-Bot-Handy-Housework-robot",
+      "publisher": "Samsung Research",
+      "year": 2022,
+      "access_notes": "Describes dexterous manipulation, general object handling, and extended workspace features."
+    }
+  ],
+  "confidence": "high"
+}

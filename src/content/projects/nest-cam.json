@@ -1,0 +1,73 @@
+{
+  "name": "Google Nest Cam",
+  "year": 2015,
+  "organization": ["Google", "Nest Labs"],
+  "project_type": "commercial_product",
+  "short_description": "A line of indoor and outdoor home security cameras with on-device and cloud AI for motion, person, and familiar-face detection.",
+  "long_description": "The Nest Cam is a fixed home camera, first launched in 2015 as a rebrand of the acquired Dropcam, that streams 1080p (later 2K HDR) video and runs computer-vision AI to distinguish people, animals, vehicles, and packages from ordinary motion. Its Familiar Faces feature, now powered by Gemini for Home, builds a library of recognized people so the camera can tell a homeowner who is at the door rather than simply that something moved. As an always-on sensing node embedded in the home's infrastructure, it shows how physical AI in daily life often appears not as a robot or wearable but as an ambient appliance that watches, classifies, and notifies, which is also what drives its surveillance and privacy debates.",
+  "primary_url": "https://store.google.com/category/nest_cams",
+  "attributes": {
+    "embodiment.form": ["Smart appliance", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Vision", "Audio", "Motion"],
+    "intelligence.model": ["Deep learning", "Vision-language model"],
+    "function.role": ["Security monitor", "Assistant"],
+    "genealogy.lineage": ["Smart home", "Internet of Things", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 2,
+    "form_specificity": 2,
+    "social_legibility": 1,
+    "autonomy": 2,
+    "initiative": 2,
+    "memory_span": 3,
+    "visibility": 2,
+    "generality": 2,
+    "intensity": 2,
+    "expressiveness": 1,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-nest-cam-001",
+      "caption": "Design of the Google Nest Cam Indoor.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Design_du_Nest_Cam_Indoor.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A white and black Google Nest Cam Indoor security camera on a magnetic stand.",
+      "local_image": "/projects/nest-cam.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-nest-cam-001",
+      "title": "Nest Indoor & Outdoor Smart Security Cameras",
+      "source_type": "official_product_page",
+      "url": "https://store.google.com/category/nest_cams",
+      "publisher": "Google",
+      "year": 2025,
+      "access_notes": "Official Google Store product category page for Nest Cams."
+    },
+    {
+      "source_id": "source-nest-cam-002",
+      "title": "Google Nest",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Google_Nest",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "access_notes": "History: Dropcam acquired June 2014; Nest Cam announced and launched June 2015; renamed Nest Cam Indoor after Nest Cam Outdoor (July 2016)."
+    },
+    {
+      "source_id": "source-nest-cam-003",
+      "title": "Gemini for Home camera updates improve Familiar Face, animal detection, more",
+      "source_type": "credible_news",
+      "url": "https://9to5google.com/2025/12/22/gemini-home-familiar-face-updates/",
+      "publisher": "9to5Google",
+      "year": 2025,
+      "access_notes": "Documents the Gemini-powered Familiar Faces and detection AI on current Nest Cams."
+    }
+  ],
+  "confidence": "high"
+}

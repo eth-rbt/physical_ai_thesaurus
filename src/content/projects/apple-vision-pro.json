@@ -1,0 +1,73 @@
+{
+  "name": "Apple Vision Pro",
+  "year": 2024,
+  "organization": ["Apple"],
+  "project_type": "commercial_product",
+  "short_description": "A head-worn spatial computer that blends digital content with the physical world and is controlled by eyes, hands, and voice.",
+  "long_description": "Apple Vision Pro is a mixed-reality headset Apple markets as a 'spatial computer', pairing dual micro-OLED displays with an array of cameras and sensors and custom M2 and R1 silicon to overlay app windows and 3D content onto a passthrough view of the room. Announced at WWDC in June 2023 and released in the US on February 2, 2024, it is driven by visionOS and steered through eye tracking, hand gestures, and voice rather than controllers. For physical AI in daily life it is a notable case of real-time, head-worn perception: the device continuously senses the wearer's surroundings, gaze, and hands to fuse computation with the lived environment, foreshadowing always-on situated assistants.",
+  "primary_url": "https://www.apple.com/apple-vision-pro/",
+  "attributes": {
+    "embodiment.form": ["Wearable"],
+    "embodiment.mobility": ["Body-worn"],
+    "intelligence.input": ["Vision", "Gaze", "Gesture", "Speech", "Audio", "Motion"],
+    "intelligence.model": ["Deep learning"],
+    "function.role": ["Tool", "Assistant"],
+    "genealogy.lineage": ["Augmented reality", "Wearable computing", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 3,
+    "scale": 2,
+    "form_specificity": 4,
+    "social_legibility": 2,
+    "autonomy": 1,
+    "initiative": 1,
+    "memory_span": 2,
+    "visibility": 4,
+    "generality": 4,
+    "intensity": 5,
+    "expressiveness": 2,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-apple-vision-pro-001",
+      "caption": "Apple Vision Pro headset resting on a surface, front three-quarter view.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vision_Pro_-_Goggles_1.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "An Apple Vision Pro headset with a curved glass front and aluminum frame, photographed at an angle on a light surface.",
+      "local_image": "/projects/apple-vision-pro.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-apple-vision-pro-001",
+      "title": "Apple Vision Pro",
+      "source_type": "official_product_page",
+      "url": "https://www.apple.com/apple-vision-pro/",
+      "publisher": "Apple",
+      "year": 2024,
+      "access_notes": "Official product page."
+    },
+    {
+      "source_id": "source-apple-vision-pro-002",
+      "title": "Apple Vision Pro available in the U.S. on February 2",
+      "source_type": "press_release",
+      "url": "https://www.apple.com/newsroom/2024/01/apple-vision-pro-available-in-the-us-on-february-2/",
+      "publisher": "Apple",
+      "year": 2024,
+      "access_notes": "Apple Newsroom press release confirming US release date."
+    },
+    {
+      "source_id": "source-apple-vision-pro-003",
+      "title": "Apple Vision Pro",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Apple_Vision_Pro",
+      "publisher": "Wikipedia",
+      "year": 2024,
+      "access_notes": "Background on hardware (M2/R1 silicon, micro-OLED displays) and visionOS."
+    }
+  ],
+  "confidence": "high"
+}

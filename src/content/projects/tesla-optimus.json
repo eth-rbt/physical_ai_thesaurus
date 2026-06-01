@@ -1,0 +1,45 @@
+{
+  "name": "Tesla Optimus",
+  "year": 2022,
+  "organization": ["Tesla"],
+  "project_type": "research_prototype",
+  "short_description": "Tesla's general-purpose humanoid robot, first revealed in 2022 and iterated since.",
+  "long_description": "A bipedal humanoid Tesla positions for repetitive or unsafe labor, leveraging perception and control work from its vehicle program. Still pre-commercial, it is a prominent example of the humanoid form being used to signal future general-purpose capability.",
+  "primary_url": "https://www.tesla.com/we-robot",
+  "attributes": {
+    "embodiment.form": ["Humanoid robot"],
+    "embodiment.mobility": ["Legged"],
+    "intelligence.input": ["Vision", "Force / torque"],
+    "intelligence.model": ["Vision-language-action model", "Deep learning"],
+    "function.role": ["Coworker", "Manufacturing worker"],
+    "genealogy.lineage": ["Human-robot interaction", "Industrial automation"]
+  },
+  "metrics": {
+    "social_legibility": 5,
+    "proximity": 2,
+    "mobility": 3
+  },
+  "images": [
+    {
+      "image_id": "img-tesla-optimus-001",
+      "caption": "Tesla Optimus on display in a Tesla showroom.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Optimus_bot_at_Tesla_showroom_-_20251118_-_01.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A Tesla Optimus humanoid robot standing on display in a Tesla showroom.",
+      "local_image": "/projects/tesla-optimus.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-tesla-optimus-001",
+      "title": "Tesla — We, Robot",
+      "source_type": "official_product_page",
+      "url": "https://www.tesla.com/we-robot",
+      "publisher": "Tesla",
+      "year": 2024,
+      "access_notes": "Reveal year 2022; year field reflects first reveal — see Open Questions."
+    }
+  ],
+  "confidence": "medium"
+}

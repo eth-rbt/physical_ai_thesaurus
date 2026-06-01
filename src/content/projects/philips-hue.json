@@ -1,0 +1,70 @@
+{
+  "name": "Philips Hue",
+  "year": 2012,
+  "organization": ["Signify", "Philips"],
+  "project_type": "commercial_product",
+  "short_description": "A line of connected smart LED bulbs and accessories controlled by app, voice, and a Zigbee bridge.",
+  "long_description": "Philips Hue, launched in 2012 as one of the first commercially available smart bulbs, turns ordinary room lighting into an addressable, programmable layer of the home. A central bridge links bulbs over a Zigbee mesh and exposes them to apps, schedules, sensors, and voice assistants like Alexa, Google Assistant, and Siri. As infrastructure-scale, ambient physical AI, it shows how intelligence can disappear into everyday fixtures: responding to presence, routines, and context rather than reading as a distinct device.",
+  "primary_url": "https://www.philips-hue.com/en-us",
+  "attributes": {
+    "embodiment.form": ["Smart appliance", "Domestic object", "Architectural / environmental system", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Motion", "Environmental sensors", "Speech"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Smart home", "Internet of Things", "Ambient intelligence", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 4,
+    "social_legibility": 1,
+    "form_specificity": 2,
+    "autonomy": 2,
+    "initiative": 2,
+    "memory_span": 2,
+    "visibility": 2,
+    "generality": 1,
+    "intensity": 1,
+    "expressiveness": 2,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-philips-hue-001",
+      "caption": "A Philips Hue A19 smart LED bulb shown lit in colored light.",
+      "image_type": "product_photo",
+      "source_url": "https://www.signify.com/global/our-company/news/press-releases/2025/20250904-far-more-than-intelligent-lighting-philips-hue-reimagines-smart-home",
+      "rights_status": "needs_permission",
+      "alt_text": "A Philips Hue A19 screw-base smart LED bulb glowing in colored light against a neutral background.",
+      "local_image": "/projects/philips-hue.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-philips-hue-001",
+      "title": "Introducing Philips hue: the world's smartest LED bulb, marking a new era in home lighting",
+      "source_type": "press_release",
+      "url": "https://www.signify.com/en-gb/our-company/news/press-release-archive/2012/hue-launch",
+      "publisher": "Signify (Philips Lighting)",
+      "year": 2012
+    },
+    {
+      "source_id": "source-philips-hue-002",
+      "title": "Philips Hue",
+      "source_type": "official_product_page",
+      "url": "https://www.philips-hue.com/en-us",
+      "publisher": "Signify",
+      "year": null
+    },
+    {
+      "source_id": "source-philips-hue-003",
+      "title": "Philips Hue",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Philips_Hue",
+      "publisher": "Wikipedia",
+      "year": null
+    }
+  ],
+  "confidence": "high"
+}

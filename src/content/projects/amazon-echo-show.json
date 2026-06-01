@@ -1,0 +1,63 @@
+{
+  "name": "Amazon Echo Show",
+  "year": 2017,
+  "organization": ["Amazon"],
+  "project_type": "commercial_product",
+  "short_description": "A voice-first smart display that pairs the Alexa assistant with a touchscreen, camera, and speakers for the home.",
+  "long_description": "The Echo Show is a countertop smart display that adds a touchscreen and camera to Amazon's Alexa voice assistant, letting it show visual answers, make video calls, play video, and act as a home hub. As an ambient, fixed appliance that is always listening in the kitchen or living room, it is a canonical example of physical AI woven into daily domestic life, normalizing the idea of a screen-and-voice agent that watches and responds in shared space. Later models added a camera that physically pans and tilts to follow people in the room, and the line is now positioned around Amazon's generative Alexa+ assistant.",
+  "primary_url": "https://www.amazon.com/echo-show-10/dp/B07VHZ41L8",
+  "attributes": {
+    "embodiment.form": ["Smart appliance", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Speech", "Audio", "Vision", "Touch"],
+    "intelligence.model": ["Speech model", "Large language model"],
+    "function.role": ["Assistant", "Memory aid"],
+    "genealogy.lineage": ["Smart home", "Ambient intelligence", "Ubiquitous computing", "Internet of Things"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 2,
+    "form_specificity": 2,
+    "autonomy": 1,
+    "initiative": 2,
+    "memory_span": 2,
+    "visibility": 3,
+    "generality": 4,
+    "intensity": 2,
+    "expressiveness": 2,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-amazon-echo-show-001",
+      "caption": "First-generation Amazon Echo Show smart display in white, on display at an Amazon Books store, 2017.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Amazon_Echo_Show_in_white.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A white Amazon Echo Show smart display with a rectangular touchscreen and angled speaker base sitting on a shelf.",
+      "local_image": "/projects/amazon-echo-show.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-amazon-echo-show-001",
+      "title": "Amazon Echo Show",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Amazon_Echo_Show",
+      "publisher": "Wikipedia",
+      "year": 2017,
+      "access_notes": "Device history and launch dates; first generation unveiled May 9, 2017 and released June 28, 2017."
+    },
+    {
+      "source_id": "source-amazon-echo-show-002",
+      "title": "Echo Show 10 | HD smart display with motion and Alexa",
+      "source_type": "official_product_page",
+      "url": "https://www.amazon.com/echo-show-10/dp/B07VHZ41L8",
+      "publisher": "Amazon",
+      "year": 2021
+    }
+  ],
+  "confidence": "high"
+}

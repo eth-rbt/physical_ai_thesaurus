@@ -1,0 +1,64 @@
+{
+  "name": "Waymo",
+  "year": 2016,
+  "organization": ["Waymo", "Alphabet"],
+  "project_type": "commercial_product",
+  "short_description": "A fully autonomous driving system that operates a robotaxi fleet without a human driver.",
+  "long_description": "The Waymo Driver is the autonomous driving system behind Waymo One, a commercial robotaxi service that carries paying passengers with no human behind the wheel. It fuses lidar, radar, and a 29-camera suite with onboard compute and HD maps to perceive, predict, and plan in real city traffic, drawing on hundreds of millions of real-world and billions of simulated miles. Spun out of Google's self-driving car project (begun 2009) as an Alphabet company in 2016, it is one of the first physical AI systems to move ordinary people through everyday urban life at scale, making autonomy a routine part of daily transportation.",
+  "primary_url": "https://waymo.com/waymo-driver/",
+  "attributes": {
+    "embodiment.form": ["Vehicle", "Mobile robot"],
+    "embodiment.mobility": ["Wheeled"],
+    "intelligence.input": ["Vision", "Location", "Motion", "Environmental sensors"],
+    "intelligence.model": ["Deep learning", "Reinforcement learning"],
+    "function.role": ["Delivery agent", "Tool"],
+    "genealogy.lineage": ["Industrial automation", "Human-robot interaction"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 4,
+    "scale": 5,
+    "social_legibility": 2,
+    "form_specificity": 5,
+    "autonomy": 5,
+    "initiative": 2,
+    "memory_span": 2,
+    "visibility": 4,
+    "generality": 2,
+    "intensity": 3,
+    "expressiveness": 1,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-waymo-driver-001",
+      "caption": "A Waymo-operated Jaguar I-Pace autonomous vehicle crossing the 4th Street Bridge in San Francisco, May 2025.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Waymo_Jaguar_I-Pace_-_Front_Quarter_View_01.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A white Jaguar I-Pace electric SUV fitted with roof-mounted and bumper sensor pods for autonomous driving, seen from the front three-quarter angle on a city street.",
+      "local_image": "/projects/waymo-driver.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-waymo-driver-001",
+      "title": "Self-Driving Car Technology for a Reliable Ride - Waymo Driver",
+      "source_type": "official_product_page",
+      "url": "https://waymo.com/waymo-driver/",
+      "publisher": "Waymo",
+      "year": 2024,
+      "access_notes": "Official page describing the Waymo Driver sensor suite (lidar, radar, 29 cameras, compute) and how it perceives, predicts, and plans."
+    },
+    {
+      "source_id": "source-waymo-driver-002",
+      "title": "Waymo",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Waymo",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "access_notes": "Background on Waymo's history: Google self-driving project (2009), spun out as Waymo under Alphabet in 2016, Waymo One commercial launch in Phoenix in 2018."
+    }
+  ],
+  "confidence": "high"
+}

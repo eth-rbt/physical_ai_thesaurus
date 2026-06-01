@@ -1,0 +1,63 @@
+{
+  "name": "Amazon Echo / Alexa",
+  "year": 2014,
+  "organization": ["Amazon"],
+  "project_type": "commercial_product",
+  "short_description": "A voice-controlled smart speaker line driven by the Alexa cloud assistant.",
+  "long_description": "The Amazon Echo is a far-field-listening home speaker that puts the Alexa voice assistant into the room as an always-listening domestic object. By answering to a wake word and controlling music, timers, shopping, and connected smart-home devices through speech alone, it normalized ambient, voice-first AI in everyday households and became the template for the smart-speaker category. It matters for physical AI because it shows how a minimally expressive appliance can act as the hub of an intelligent home without any face, screen, or moving parts.",
+  "primary_url": "https://www.amazon.com/dp/B07XKF5RM3",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Smart appliance"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Speech", "Audio"],
+    "intelligence.model": ["Speech model", "Large language model"],
+    "function.role": ["Assistant"],
+    "genealogy.lineage": ["Smart home", "Ambient intelligence", "Internet of Things"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 1,
+    "form_specificity": 1,
+    "autonomy": 2,
+    "initiative": 1,
+    "memory_span": 2,
+    "visibility": 3,
+    "generality": 4,
+    "intensity": 2,
+    "expressiveness": 1,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-amazon-echo-alexa-001",
+      "caption": "The first-generation Amazon Echo smart speaker.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Amazon_Echo.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A tall black cylindrical Amazon Echo smart speaker standing upright.",
+      "local_image": "/projects/amazon-echo-alexa.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-amazon-echo-alexa-001",
+      "title": "Amazon Echo",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Amazon_Echo",
+      "publisher": "Wikipedia",
+      "year": 2014,
+      "access_notes": "History, launch date (November 6, 2014), and product line details."
+    },
+    {
+      "source_id": "source-amazon-echo-alexa-002",
+      "title": "Amazon Alexa | Features, History, & Facts",
+      "source_type": "credible_news",
+      "url": "https://www.britannica.com/technology/Amazon-Alexa",
+      "publisher": "Encyclopaedia Britannica",
+      "year": 2014
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Boston Dynamics Spot",
+  "year": 2020,
+  "organization": ["Boston Dynamics"],
+  "project_type": "commercial_product",
+  "short_description": "A quadruped robot for inspection and data capture in industrial environments.",
+  "long_description": "A four-legged mobile robot that navigates stairs, rough terrain, and industrial sites carrying sensor payloads. Its animal-like-but-clearly-machine form lands between creature and tool, which shapes how people interpret its presence on a worksite.",
+  "primary_url": "https://bostondynamics.com/products/spot/",
+  "attributes": {
+    "embodiment.form": ["Animal / creature robot", "Mobile robot"],
+    "embodiment.mobility": ["Legged"],
+    "intelligence.input": ["Vision", "Location", "Environmental sensors"],
+    "intelligence.model": ["Deep learning", "Reinforcement learning"],
+    "function.role": ["Security monitor", "Tool"],
+    "genealogy.lineage": ["Industrial automation", "Human-robot interaction"]
+  },
+  "metrics": {
+    "social_legibility": 3,
+    "proximity": 2,
+    "mobility": 4
+  },
+  "images": [
+    {
+      "image_id": "img-spot-001",
+      "caption": "Boston Dynamics Spot quadruped robot.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Spot_by_Boston_Dynamics.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A yellow-and-black Boston Dynamics Spot quadruped robot standing on its four articulated legs.",
+      "local_image": "/projects/boston-dynamics-spot.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-spot-001",
+      "title": "Spot",
+      "source_type": "official_product_page",
+      "url": "https://bostondynamics.com/products/spot/",
+      "publisher": "Boston Dynamics",
+      "year": 2020,
+      "access_notes": "Official product page; commercial availability from 2020."
+    }
+  ],
+  "confidence": "high"
+}

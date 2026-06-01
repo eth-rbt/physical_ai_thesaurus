@@ -1,0 +1,64 @@
+{
+  "name": "Google Photos",
+  "year": 2015,
+  "organization": ["Google"],
+  "project_type": "platform",
+  "short_description": "A cloud photo and video service that uses machine learning to search, organize, and resurface a person's visual memories.",
+  "long_description": "Launched at Google I/O 2015, Google Photos applies face, object, and scene recognition to a user's entire camera roll so people can search their memories in plain language ('beach', 'dog', a person's name) and have albums, highlights, and edits generated automatically. As a software-only platform riding on the cameras of billions of phones, it is a key example of physical AI in daily life: it does not have a body, but it perceives and interprets the physical world captured by everyday devices and acts as an ambient autobiographical memory aid. Its sensing of faces, places, and scenes also makes it a recurring touchstone in debates over visual privacy and on-by-default machine perception."
+,
+  "primary_url": "https://www.google.com/photos/about/",
+  "attributes": {
+    "embodiment.form": ["Distributed object ecology"],
+    "embodiment.mobility": ["Environmental / room-scale"],
+    "intelligence.input": ["Vision", "Location"],
+    "intelligence.model": ["Deep learning", "Vision-language model"],
+    "function.role": ["Memory aid", "Assistant", "Creative collaborator"],
+    "genealogy.lineage": ["Ubiquitous computing", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 1,
+    "form_specificity": 1,
+    "visibility": 2,
+    "autonomy": 3,
+    "initiative": 3,
+    "memory_span": 5,
+    "generality": 2,
+    "intensity": 2,
+    "expressiveness": 2,
+    "social_legibility": 1,
+    "timing": 2
+  },
+  "images": [
+    {
+      "image_id": "img-google-photos-001",
+      "caption": "The Google Photos app icon (2020-2025 design), a four-color pinwheel.",
+      "image_type": "screenshot",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Google_Photos_icon_(2020-2025).svg",
+      "rights_status": "public_domain",
+      "alt_text": "The Google Photos logo: a pinwheel of four rounded petals in blue, red, yellow, and green arranged around a white center.",
+      "local_image": "/projects/google-photos.png"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-google-photos-001",
+      "title": "Google Photos: A new beginning",
+      "source_type": "official_blog_post",
+      "url": "https://blog.google/products/photos/picture-this-fresh-approach-to-photos/",
+      "publisher": "Google",
+      "year": 2015,
+      "access_notes": "Official launch announcement at Google I/O 2015."
+    },
+    {
+      "source_id": "source-google-photos-002",
+      "title": "Google Photos officially unveiled at Google I/O 2015",
+      "source_type": "credible_news",
+      "url": "https://www.androidauthority.com/google-photos-unveiled-google-io-2015-612053/",
+      "publisher": "Android Authority",
+      "year": 2015
+    }
+  ],
+  "confidence": "high"
+}

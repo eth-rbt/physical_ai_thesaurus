@@ -1,0 +1,66 @@
+{
+  "name": "Google Lens",
+  "year": 2017,
+  "organization": ["Google"],
+  "project_type": "platform",
+  "short_description": "A visual-search platform that lets a phone camera identify objects, read and translate text, and surface information about whatever the user points it at.",
+  "long_description": "Google Lens turns a phone's camera into a query: point it at a plant, a landmark, a receipt, or a foreign sign and it recognizes the content and returns search results, translations, or actions. Announced at Google I/O 2017 and shipped on the Pixel 2, it is now woven into Google Photos, the Google app, Chrome, and Android. As a daily-life physical AI system it matters because it lets people interrogate the physical world by looking at it, normalizing the idea that the camera is an everyday input device for situated, real-time machine perception.",
+  "primary_url": "https://lens.google/",
+  "attributes": {
+    "embodiment.form": ["Handheld"],
+    "embodiment.mobility": ["Handheld"],
+    "embodiment.proximity": ["Handheld"],
+    "intelligence.input": ["Vision", "Text", "Speech"],
+    "intelligence.model": ["Deep learning", "Vision-language model"],
+    "function.role": ["Assistant", "Tool", "Memory aid"],
+    "function.task_domain": ["Visual search", "Translation"],
+    "genealogy.lineage": ["Augmented reality", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 4,
+    "mobility": 4,
+    "scale": 1,
+    "form_specificity": 1,
+    "social_legibility": 1,
+    "autonomy": 2,
+    "initiative": 1,
+    "memory_span": 1,
+    "visibility": 3,
+    "generality": 4,
+    "intensity": 3,
+    "expressiveness": 1,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-google-lens-001",
+      "caption": "Google Lens recognizing and extracting text from a photograph on a phone (March 2023).",
+      "image_type": "screenshot",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Text_recognition_software_on_a_photograph_-_Google_Lens_(March_2023).png",
+      "rights_status": "creative_commons",
+      "alt_text": "A smartphone screenshot of Google Lens highlighting and recognizing printed text within a photograph, with selectable text overlaid on the image.",
+      "local_image": "/projects/google-lens.png"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-google-lens-001",
+      "title": "Google Lens",
+      "source_type": "official_product_page",
+      "url": "https://lens.google/",
+      "publisher": "Google",
+      "year": 2017,
+      "access_notes": "Official Google Lens product page."
+    },
+    {
+      "source_id": "source-google-lens-002",
+      "title": "Google Lens",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/Google_Lens",
+      "publisher": "Wikipedia",
+      "year": 2017,
+      "access_notes": "Background on announcement at Google I/O 2017 and rollout history."
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Apple Watch",
+  "year": 2015,
+  "organization": ["Apple"],
+  "project_type": "commercial_product",
+  "short_description": "A wrist-worn smartwatch that fuses health and motion sensing, on-device intelligence, and a voice assistant into an always-on body-worn device.",
+  "long_description": "Announced in 2014 and released in 2015, the Apple Watch is a wrist-worn computer with optical heart-rate, accelerometer, gyroscope, and (in later models) ECG, blood-oxygen, and temperature sensors, plus the Siri voice assistant and increasingly on-device machine learning. It matters for physical AI because it is one of the most widely worn sensing-and-inference platforms in daily life: it continuously reads the body, runs models for fall detection, irregular-rhythm and crash detection, and activity coaching, and nudges the wearer through ambient haptics and notifications. As such it exemplifies how AI becomes legible not as a robot but as a quiet, always-present body-worn agent.",
+  "primary_url": "https://www.apple.com/apple-watch/",
+  "attributes": {
+    "embodiment.form": ["Wearable", "Domestic object"],
+    "embodiment.mobility": ["Body-worn"],
+    "intelligence.input": ["Speech", "Touch", "Motion", "Gesture", "Environmental sensors"],
+    "intelligence.model": ["Speech model", "Classical machine learning", "Deep learning"],
+    "function.role": ["Assistant", "Coach", "Memory aid"],
+    "genealogy.lineage": ["Wearable computing", "Ubiquitous computing", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 4,
+    "scale": 1,
+    "form_specificity": 4,
+    "social_legibility": 2,
+    "autonomy": 2,
+    "initiative": 3,
+    "memory_span": 3,
+    "visibility": 2,
+    "generality": 3,
+    "intensity": 2,
+    "expressiveness": 2,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-apple-watch-001",
+      "caption": "An Apple Watch Series 7 with a digital watch face.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Apple_Watch_Series_7;_January_2022_(01).jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "An Apple Watch with a rounded-square screen showing a clock face, worn on a wrist.",
+      "local_image": "/projects/apple-watch.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-apple-watch-001",
+      "title": "Apple Watch",
+      "source_type": "official_product_page",
+      "url": "https://www.apple.com/apple-watch/",
+      "publisher": "Apple",
+      "year": 2015,
+      "access_notes": "Official product page."
+    },
+    {
+      "source_id": "source-apple-watch-002",
+      "title": "Apple Watch",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Apple_Watch",
+      "publisher": "Wikipedia",
+      "year": 2015,
+      "access_notes": "Confirms announcement September 2014 and release April 24, 2015, plus sensor and feature history."
+    }
+  ],
+  "confidence": "high"
+}

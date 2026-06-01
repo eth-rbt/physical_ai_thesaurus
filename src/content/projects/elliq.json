@@ -1,0 +1,73 @@
+{
+  "name": "ElliQ",
+  "year": 2022,
+  "organization": ["Intuition Robotics"],
+  "project_type": "commercial_product",
+  "short_description": "A tabletop AI companion robot that proactively engages older adults living alone to reduce loneliness and support wellness.",
+  "long_description": "ElliQ is a voice-first care companion designed by Intuition Robotics with Yves Behar's Fuseproject; it pairs a lamp-like swiveling head that lights up and gestures with a separate touchscreen. Unveiled at CES in 2017 and commercially launched in the US in 2022 on a subscription model, it proactively initiates conversations, suggests exercise, gives medication and appointment reminders, and connects users to family. It matters for physical AI in daily life because it shows how a non-humanoid, expressive domestic object can sustain a long-term, self-initiated social relationship rather than only answering on command, and large deployments (such as with the New York State Office for the Aging) report measurable reductions in loneliness.",
+  "primary_url": "https://elliq.com/",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Desktop agent"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Speech", "Audio", "Touch"],
+    "intelligence.model": ["Large language model", "Hybrid symbolic-neural system"],
+    "function.role": ["Companion", "Caregiver", "Coach", "Memory aid"],
+    "genealogy.lineage": ["Social robotics", "Companion robotics", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 2,
+    "form_specificity": 3,
+    "social_legibility": 3,
+    "autonomy": 2,
+    "initiative": 5,
+    "memory_span": 4,
+    "visibility": 4,
+    "generality": 2,
+    "intensity": 3,
+    "expressiveness": 4,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-elliq-001",
+      "caption": "ElliQ companion robot, showing its lamp-like swiveling head and companion touchscreen.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ELLI_3_RGB.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A small white lamp-shaped companion robot with a glowing head that tilts toward the viewer, next to a separate tablet-style touchscreen on a stand.",
+      "local_image": "/projects/elliq.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-elliq-001",
+      "title": "ElliQ | Companion Robot for Seniors, Older Adults & Aging Loved Ones",
+      "source_type": "official_product_page",
+      "url": "https://elliq.com/",
+      "publisher": "Intuition Robotics",
+      "year": 2022,
+      "access_notes": "Official product page."
+    },
+    {
+      "source_id": "source-elliq-002",
+      "title": "ElliQ",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/ElliQ",
+      "publisher": "Wikipedia",
+      "year": 2024,
+      "access_notes": "Background on history (CES 2017 unveiling, 2022 US launch), developer, and deployments."
+    },
+    {
+      "source_id": "source-elliq-003",
+      "title": "ElliQ robot by Yves Behar helps older adults stay connected to the world",
+      "source_type": "credible_news",
+      "url": "https://www.dezeen.com/2017/01/11/elliq-robot-yves-behar-fuseproject-helps-older-adults-stay-connected-world-design-technology/",
+      "publisher": "Dezeen",
+      "year": 2017,
+      "access_notes": "Design and form factor by Fuseproject."
+    }
+  ],
+  "confidence": "high"
+}

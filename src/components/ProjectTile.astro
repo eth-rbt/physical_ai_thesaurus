@@ -1,0 +1,27 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  project: CollectionEntry<'projects'>;
+  /** Optional secondary line under the name (e.g. an axis value or form). */
+  sub?: string;
+}
+const { project, sub } = Astro.props;
+const d = project.data;
+const cover = d.images.find((i) => i.local_image) ?? d.images[0];
+const href = `/projects/${project.id}/`;
+---
+
+<a class="proj-tile" href={href}>
+  <div class="proj-thumb">
+    {cover?.local_image ? (
+      <img src={cover.local_image} alt={cover.alt_text} />
+    ) : (
+      <span>{d.name}</span>
+    )}
+  </div>
+  <div class="proj-meta">
+    <div class="name">{d.name}</div>
+    <div class="sub">{sub ?? d.organization.join(', ')}</div>
+  </div>
+</a>

@@ -1,0 +1,66 @@
+{
+  "name": "Mark Weiser's Ubiquitous Computing Vision",
+  "year": 1991,
+  "organization": ["Xerox PARC"],
+  "project_type": "concept",
+  "short_description": "Mark Weiser's vision of computing that recedes into the environment as 'calm technology'—embedded, ambient, and so deeply woven into everyday life that it effectively disappears.",
+  "long_description": "Articulated by Mark Weiser at Xerox PARC, most famously in 'The Computer for the 21st Century' (Scientific American, 1991), ubiquitous computing imagines hundreds of networked computers per person embedded throughout rooms, objects, and surfaces rather than concentrated in a single PC. Weiser proposed a hierarchy of inch-, foot-, and yard-scale devices (tabs, pads, and boards) and, with John Seely Brown, the principle of 'calm technology' that moves fluidly between the center and periphery of attention, informing without demanding it. The vision—that 'the most profound technologies are those that disappear'—became the conceptual ancestor of ambient intelligence, the Internet of Things, smart homes, and much of today's physical and embedded AI.",
+  "primary_url": "https://www.scientificamerican.com/article/the-computer-for-the-21st-century/",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Distributed object ecology"],
+    "embodiment.mobility": ["Environmental / room-scale"],
+    "intelligence.input": ["Location", "Environmental sensors"],
+    "function.role": ["Assistant"],
+    "genealogy.lineage": ["Ubiquitous computing", "Ambient intelligence", "Internet of Things", "Smart home"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 2,
+    "scale": 5,
+    "visibility": 1,
+    "intensity": 1,
+    "social_legibility": 1,
+    "form_specificity": 1
+  },
+  "images": [
+    {
+      "image_id": "img-weiser-ubiquitous-computing-001",
+      "caption": "Mark Weiser, chief technologist at Xerox PARC and originator of the ubiquitous computing vision.",
+      "image_type": "interaction_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mark_Weiser.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "Portrait photograph of Mark Weiser, a man with short dark hair and glasses, looking toward the camera.",
+      "local_image": "/projects/weiser-ubiquitous-computing.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-weiser-ubiquitous-computing-001",
+      "title": "The Computer for the 21st Century",
+      "source_type": "academic_paper",
+      "url": "https://www.scientificamerican.com/article/the-computer-for-the-21st-century/",
+      "publisher": "Scientific American",
+      "year": 1991,
+      "access_notes": "Vol. 265, No. 3 (September 1991). The foundational essay introducing ubiquitous computing and the tabs/pads/boards device hierarchy."
+    },
+    {
+      "source_id": "source-weiser-ubiquitous-computing-002",
+      "title": "Mark Weiser",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Mark_Weiser",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Biography: 1952–1999, CTO at Xerox PARC, coined 'ubiquitous computing' in 1988, co-author of 'Designing Calm Technology' with John Seely Brown."
+    },
+    {
+      "source_id": "source-weiser-ubiquitous-computing-003",
+      "title": "Designing Calm Technology / Calm Technology principles",
+      "source_type": "documentation",
+      "url": "https://calmtech.com/papers/computer-for-the-21st-century",
+      "publisher": "Calm Tech Institute",
+      "year": null,
+      "access_notes": "Archive and discussion of Weiser & Brown's calm-technology framing of the periphery and center of attention."
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Ring Video Doorbell",
+  "year": 2014,
+  "organization": ["Ring", "Amazon"],
+  "project_type": "commercial_product",
+  "short_description": "A Wi-Fi-connected video doorbell that streams live video, detects motion, and sends alerts to a smartphone when someone approaches the door.",
+  "long_description": "Introduced in 2014 (evolving from founder Jamie Siminoff's earlier Doorbot), the Ring Video Doorbell pairs a camera, microphone, speaker, and motion sensors with a phone app so a household can see and speak to visitors from anywhere. It turns the front door into an always-watching sensing node, and successive versions added computer-vision features such as person and package detection, motion zones, and AI-generated descriptions of who or what is at the door. As a mass-market device, it shows how ambient physical AI embeds perception and notification into everyday domestic infrastructure, while also fueling debates about home surveillance and privacy.",
+  "primary_url": "https://ring.com/video-doorbell-cameras",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Smart appliance"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Vision", "Audio", "Motion"],
+    "intelligence.model": ["Deep learning"],
+    "function.role": ["Security monitor", "Assistant"],
+    "genealogy.lineage": ["Smart home", "Internet of Things", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 1,
+    "social_legibility": 1,
+    "form_specificity": 3,
+    "autonomy": 2,
+    "initiative": 4,
+    "memory_span": 3,
+    "visibility": 4,
+    "generality": 1,
+    "intensity": 2,
+    "expressiveness": 1,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-ring-doorbell-001",
+      "caption": "A Ring video doorbell mounted on a stone surface beside a front door.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ring_video_doorbell_on_stone.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A black-and-silver Ring video doorbell with a round camera lens and a lit blue ring around the button, mounted on a textured stone wall.",
+      "local_image": "/projects/ring-doorbell.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-ring-doorbell-001",
+      "title": "Doorbell Cameras - Wireless & Wired Doorbells",
+      "source_type": "official_product_page",
+      "url": "https://ring.com/video-doorbell-cameras",
+      "publisher": "Ring",
+      "year": 2024,
+      "access_notes": "Official Ring product page for video doorbells."
+    },
+    {
+      "source_id": "source-ring-doorbell-002",
+      "title": "A brief history of the Ring Video Doorbell and its evolution over the last 10 years",
+      "source_type": "official_blog_post",
+      "url": "https://www.aboutamazon.com/news/devices/a-brief-history-of-the-ring-video-doorbell-and-its-evolution-over-the-last-10-years",
+      "publisher": "Amazon",
+      "year": 2024,
+      "access_notes": "Company history covering the original 2014 doorbell and later AI features."
+    },
+    {
+      "source_id": "source-ring-doorbell-003",
+      "title": "Ring cameras and doorbells now use AI to provide specific descriptions of motion activity",
+      "source_type": "credible_news",
+      "url": "https://techcrunch.com/2025/06/25/ring-cameras-and-doorbells-now-use-ai-to-provide-specific-descriptions-of-motion-activity/",
+      "publisher": "TechCrunch",
+      "year": 2025,
+      "access_notes": "Coverage of AI-generated motion descriptions on Ring devices."
+    }
+  ],
+  "confidence": "high"
+}

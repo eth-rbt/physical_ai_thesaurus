@@ -1,0 +1,64 @@
+{
+  "name": "PARO therapeutic robot",
+  "year": 2004,
+  "organization": ["AIST", "Intelligent System Co."],
+  "project_type": "commercial_product",
+  "short_description": "A robotic baby harp seal with tactile, light, and sound sensors used for animal-assisted-style therapy in hospitals and elder care.",
+  "long_description": "PARO is a plush, seal-shaped social robot designed by Takanori Shibata at Japan's AIST and sold commercially since 2004. Covered in fur over twelve tactile sensors, with whiskers, light and posture sensing, and three microphones, it responds to petting and voice, learns its name, and adapts its behavior to elicit calm and emotional engagement. It matters for everyday physical AI because it shows how an affective, animal-like body can deliver measurable care benefits for people with dementia and autism, and it became one of the first social robots cleared as a U.S. Class 2 medical device."
+,
+  "primary_url": "http://www.parorobots.com/",
+  "attributes": {
+    "embodiment.form": ["Animal / creature robot"],
+    "embodiment.mobility": ["Handheld"],
+    "intelligence.input": ["Touch", "Audio", "Speech", "Motion"],
+    "intelligence.model": ["Classical machine learning"],
+    "function.role": ["Companion", "Caregiver"],
+    "genealogy.lineage": ["Social robotics", "Companion robotics", "Human-robot interaction"]
+  },
+  "metrics": {
+    "proximity": 4,
+    "mobility": 2,
+    "scale": 2,
+    "social_legibility": 4,
+    "form_specificity": 4,
+    "autonomy": 2,
+    "initiative": 2,
+    "memory_span": 2,
+    "visibility": 4,
+    "generality": 1,
+    "intensity": 3,
+    "expressiveness": 5,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-paro-001",
+      "caption": "PARO therapeutic robot seal on display at Wired NextFest, Navy Pier.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Paro_robot.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A small white robotic baby harp seal with dark eyes and soft fur, resembling a plush toy.",
+      "local_image": "/projects/paro.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-paro-001",
+      "title": "Paro (robot)",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Paro_(robot)",
+      "publisher": "Wikipedia",
+      "year": 2004,
+      "access_notes": "Overview of inventor, AIST origin, sensors, behavior, and FDA Class 2 device classification."
+    },
+    {
+      "source_id": "source-paro-002",
+      "title": "PARO Therapeutic Robot",
+      "source_type": "official_product_page",
+      "url": "http://www.parorobots.com/",
+      "publisher": "Intelligent System Co.",
+      "access_notes": "Official product site for PARO."
+    }
+  ],
+  "confidence": "high"
+}

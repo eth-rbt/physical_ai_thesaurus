@@ -1,0 +1,45 @@
+{
+  "name": "Rabbit R1",
+  "year": 2024,
+  "organization": ["Rabbit Inc."],
+  "project_type": "commercial_product",
+  "short_description": "A small handheld AI device with a screen, camera, scroll wheel, and push-to-talk assistant.",
+  "long_description": "A pocket gadget that packages a voice-first AI assistant into a dedicated handheld object rather than an app. Its standalone-device form is a bet that a purpose-built carrier can feel distinct from a phone, even while overlapping heavily with one.",
+  "primary_url": "https://www.rabbit.tech/",
+  "attributes": {
+    "embodiment.form": ["Handheld device", "Domestic object"],
+    "embodiment.mobility": ["Handheld"],
+    "intelligence.input": ["Speech", "Vision", "Touch"],
+    "intelligence.model": ["Large language model", "Vision-language model"],
+    "function.role": ["Assistant"],
+    "genealogy.lineage": ["Ubiquitous computing", "Wearable computing"]
+  },
+  "metrics": {
+    "social_legibility": 2,
+    "proximity": 4,
+    "mobility": 5
+  },
+  "images": [
+    {
+      "image_id": "img-rabbit-r1-001",
+      "caption": "Rabbit R1 handheld AI device.",
+      "image_type": "video_still",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rabbit_r1_(Booredatwork.com)_05.png",
+      "rights_status": "creative_commons",
+      "alt_text": "A person holds up a small bright-orange Rabbit R1 handheld AI device toward the camera, its square color screen displaying the number 640.",
+      "local_image": "/projects/rabbit-r1.png"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-rabbit-r1-001",
+      "title": "Rabbit R1",
+      "source_type": "official_product_page",
+      "url": "https://www.rabbit.tech/",
+      "publisher": "Rabbit Inc.",
+      "year": 2024,
+      "access_notes": "Official site."
+    }
+  ],
+  "confidence": "medium"
+}

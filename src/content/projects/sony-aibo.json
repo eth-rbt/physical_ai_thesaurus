@@ -1,0 +1,45 @@
+{
+  "name": "Sony aibo",
+  "year": 2018,
+  "organization": ["Sony"],
+  "project_type": "commercial_product",
+  "short_description": "A robotic dog companion with expressive movement, cameras, and adaptive behavior.",
+  "long_description": "An animal-form companion robot that uses doglike behavior, cameras, and onboard learning to form an attachment relationship rather than perform tasks. Originally launched in 1999 and revived in 2018, aibo is a touchstone for creature-form social robotics.",
+  "primary_url": "https://us.aibo.com/",
+  "attributes": {
+    "embodiment.form": ["Animal / creature robot"],
+    "embodiment.mobility": ["Legged"],
+    "intelligence.input": ["Vision", "Touch", "Audio"],
+    "intelligence.model": ["Deep learning", "Classical machine learning"],
+    "function.role": ["Companion"],
+    "genealogy.lineage": ["Social robotics", "Companion robotics"]
+  },
+  "metrics": {
+    "social_legibility": 4,
+    "proximity": 3,
+    "mobility": 3
+  },
+  "images": [
+    {
+      "image_id": "img-sony-aibo-001",
+      "caption": "Sony aibo (ERS-1000).",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Aibo_ERS-1000_-_2.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A white Sony aibo robotic dog sitting upright, viewed from the front against a plain background.",
+      "local_image": "/projects/sony-aibo.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-sony-aibo-001",
+      "title": "aibo",
+      "source_type": "official_product_page",
+      "url": "https://us.aibo.com/",
+      "publisher": "Sony",
+      "year": 2018,
+      "access_notes": "Official product page; original launch 1999, revived 2018."
+    }
+  ],
+  "confidence": "high"
+}

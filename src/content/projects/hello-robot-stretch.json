@@ -1,0 +1,73 @@
+{
+  "name": "Hello Robot Stretch",
+  "year": 2020,
+  "organization": ["Hello Robot"],
+  "project_type": "commercial_product",
+  "short_description": "A compact, lightweight, low-cost mobile manipulator with a telescoping arm, designed for homes, research, and assistive use.",
+  "long_description": "Stretch is a wheeled mobile manipulator built around a slim telescoping arm on a lifting mast and a two-wheel differential base, weighing roughly 25 kg so a single person can carry it. Hello Robot, founded by Aaron Edsinger and Charlie Kemp, positioned it as an affordable, open-source platform for mobile manipulation research and for giving people with severe mobility impairments greater independence. It matters for everyday physical AI because it brings manipulation out of the factory and into human living spaces at a price and footprint that ordinary labs and homes can actually accommodate, and it serves as a common embodiment for testing learned manipulation and language-driven control.",
+  "primary_url": "https://hello-robot.com/",
+  "attributes": {
+    "embodiment.form": ["Mobile robot"],
+    "embodiment.mobility": ["Wheeled", "Robotic arm"],
+    "intelligence.input": ["Vision", "Force / torque"],
+    "intelligence.model": ["Deep learning", "Reinforcement learning"],
+    "function.role": ["Caregiver", "Tool", "Coworker"],
+    "genealogy.lineage": ["Human-robot interaction", "Industrial automation", "Telepresence robotics"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 4,
+    "scale": 3,
+    "form_specificity": 3,
+    "social_legibility": 2,
+    "autonomy": 3,
+    "initiative": 2,
+    "memory_span": 2,
+    "visibility": 4,
+    "generality": 4,
+    "intensity": 3,
+    "expressiveness": 2,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-hello-robot-stretch-001",
+      "caption": "Hello Robot's Stretch mobile manipulator, a wheeled base with a lifting mast and a telescoping arm.",
+      "image_type": "product_photo",
+      "source_url": "https://spectrum.ieee.org/hello-robots-stretch-mobile-manipulator",
+      "rights_status": "needs_permission",
+      "alt_text": "A tall, slim white-and-orange mobile robot on a two-wheeled base, with a vertical mast and a thin telescoping arm ending in a gripper.",
+      "local_image": "/projects/hello-robot-stretch.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-hello-robot-stretch-001",
+      "title": "Hello Robot",
+      "source_type": "official_product_page",
+      "url": "https://hello-robot.com/",
+      "publisher": "Hello Robot",
+      "year": 2026,
+      "access_notes": "Official company and product site for the Stretch mobile manipulator."
+    },
+    {
+      "source_id": "source-hello-robot-stretch-002",
+      "title": "Ex-Googler's Startup Comes Out of Stealth With Beautifully Simple, Clever Robot Design",
+      "source_type": "credible_news",
+      "url": "https://spectrum.ieee.org/hello-robots-stretch-mobile-manipulator",
+      "publisher": "IEEE Spectrum",
+      "year": 2020,
+      "access_notes": "Covers the July 2020 reveal of Stretch RE1 and founder background."
+    },
+    {
+      "source_id": "source-hello-robot-stretch-003",
+      "title": "The Design of Stretch: A Compact, Lightweight Mobile Manipulator for Indoor Human Environments",
+      "source_type": "academic_paper",
+      "url": "https://arxiv.org/pdf/2109.10892",
+      "publisher": "arXiv",
+      "year": 2021,
+      "access_notes": "Technical design paper describing Stretch's base, mast, telescoping arm, and wrist."
+    }
+  ],
+  "confidence": "high"
+}

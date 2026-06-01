@@ -1,0 +1,45 @@
+{
+  "name": "Ray-Ban Meta Smart Glasses",
+  "year": 2023,
+  "organization": ["Meta", "EssilorLuxottica", "Ray-Ban"],
+  "project_type": "commercial_product",
+  "short_description": "AI-enabled smart glasses with cameras, microphones, speakers, and a multimodal assistant.",
+  "long_description": "Head-worn glasses that pair a familiar eyewear form with first-person cameras, open-ear audio, and Meta AI. They make the case that an everyday accessory can carry capture, assistance, and situated AI without reading as a 'device', which is also what drives their privacy debate.",
+  "primary_url": "https://www.meta.com/smart-glasses/",
+  "attributes": {
+    "embodiment.form": ["Glasses / eyewear", "Wearable"],
+    "embodiment.mobility": ["Body-worn"],
+    "intelligence.input": ["Vision", "Audio", "Speech"],
+    "intelligence.model": ["Large language model", "Vision-language model"],
+    "function.role": ["Assistant", "Memory aid"],
+    "genealogy.lineage": ["Wearable computing", "Augmented reality"]
+  },
+  "metrics": {
+    "social_legibility": 2,
+    "proximity": 5,
+    "mobility": 4
+  },
+  "images": [
+    {
+      "image_id": "img-rayban-meta-001",
+      "caption": "Ray-Ban Meta (Gen 1) smart glasses with charging case.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ray-Ban_Meta_Gen_1_smart_glasses_with_charging_case.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A pair of black Ray-Ban Meta Gen 1 smart glasses resting in front of their brown leather charging case.",
+      "local_image": "/projects/rayban-meta-smart-glasses.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-rayban-meta-001",
+      "title": "Ray-Ban Meta Smart Glasses",
+      "source_type": "official_product_page",
+      "url": "https://www.meta.com/smart-glasses/",
+      "publisher": "Meta",
+      "year": 2023,
+      "access_notes": "Official product page."
+    }
+  ],
+  "confidence": "high"
+}

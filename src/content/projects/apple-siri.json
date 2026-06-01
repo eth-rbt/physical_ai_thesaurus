@@ -1,0 +1,63 @@
+{
+  "name": "Apple Siri (including Shortcuts)",
+  "year": 2011,
+  "organization": ["Apple"],
+  "project_type": "platform",
+  "short_description": "Apple's voice assistant, built into iPhone, HomePod, Watch, and Mac, with the Shortcuts app for user-defined automations.",
+  "long_description": "Siri is a speech-driven assistant that ships across Apple's devices, letting people send messages, set timers, control smart-home accessories, and query information by voice. Through the Shortcuts app it also exposes a visual automation layer so users can chain actions across apps and devices. As an ambient, voice-first agent embedded in everyday hardware, Siri is a defining example of how disembodied AI threads into the physical routines of daily life.",
+  "primary_url": "https://www.apple.com/siri/",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Smart appliance"],
+    "embodiment.mobility": ["Fixed", "Body-worn"],
+    "intelligence.input": ["Speech", "Text"],
+    "intelligence.model": ["Speech model", "Large language model"],
+    "function.role": ["Assistant", "Memory aid"],
+    "genealogy.lineage": ["Ubiquitous computing", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 4,
+    "memory_span": 2,
+    "autonomy": 2,
+    "expressiveness": 2,
+    "social_legibility": 1,
+    "mobility": 3,
+    "form_specificity": 1,
+    "initiative": 2,
+    "visibility": 2,
+    "generality": 4,
+    "intensity": 2,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-apple-siri-001",
+      "caption": "The Siri interface invoked on macOS Ventura.",
+      "image_type": "screenshot",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Siri_in_macOS_Ventura.png",
+      "rights_status": "creative_commons",
+      "alt_text": "A screenshot of the Siri assistant window open on a Mac desktop, showing the colorful Siri orb above a prompt inviting the user to ask something.",
+      "local_image": "/projects/apple-siri.png"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-apple-siri-001",
+      "title": "Siri",
+      "source_type": "official_product_page",
+      "url": "https://www.apple.com/siri/",
+      "publisher": "Apple",
+      "year": null,
+      "access_notes": "Official Siri product page."
+    },
+    {
+      "source_id": "source-apple-siri-002",
+      "title": "Siri",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Siri",
+      "publisher": "Wikipedia",
+      "year": 2011,
+      "access_notes": "Background and history; Siri integrated into iPhone 4S on October 4, 2011."
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Google Nest Hub",
+  "year": 2018,
+  "organization": ["Google"],
+  "project_type": "commercial_product",
+  "short_description": "A countertop smart display with a touchscreen and the Google Assistant for voice and visual help around the home.",
+  "long_description": "Originally launched in 2018 as the Google Home Hub and rebranded Nest Hub in 2019, it is a fixed 7-inch touchscreen display driven by the Google Assistant, with a later Nest Hub Max adding a camera. It anchors a household's smart-home controls, routines, timers, media, and ambient information, and is a canonical example of physical AI that lives as an always-present domestic appliance rather than a robot, making conversational assistance a piece of household infrastructure.",
+  "primary_url": "https://store.google.com/product/nest_hub_2nd_gen",
+  "attributes": {
+    "embodiment.form": ["Smart appliance", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Speech", "Touch", "Audio"],
+    "intelligence.model": ["Speech model"],
+    "function.role": ["Assistant", "Memory aid"],
+    "genealogy.lineage": ["Smart home", "Ambient intelligence", "Internet of Things"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 2,
+    "form_specificity": 2,
+    "social_legibility": 2,
+    "autonomy": 2,
+    "initiative": 2,
+    "memory_span": 3,
+    "visibility": 3,
+    "generality": 3,
+    "intensity": 2,
+    "expressiveness": 2,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-google-nest-hub-001",
+      "caption": "A Google Home Hub (now Google Nest Hub) smart display on a table.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Google_Home_Hub_on_table.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A small smart display with a touchscreen sitting on a table, with a fabric-covered speaker base, showing the time and ambient information on screen.",
+      "local_image": "/projects/google-nest-hub.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-google-nest-hub-001",
+      "title": "Google Nest Hub",
+      "source_type": "official_product_page",
+      "url": "https://store.google.com/product/nest_hub_2nd_gen",
+      "publisher": "Google",
+      "year": 2021,
+      "access_notes": "Official Google Store product page for the 2nd-gen Nest Hub."
+    },
+    {
+      "source_id": "source-google-nest-hub-002",
+      "title": "Google Nest (smart speakers)",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)",
+      "publisher": "Wikipedia",
+      "year": 2018,
+      "access_notes": "Release history: Google Home Hub launched Oct 22, 2018; rebranded Nest Hub May 2019; Nest Hub Max Sept 2019."
+    }
+  ],
+  "confidence": "high"
+}

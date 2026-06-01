@@ -1,0 +1,64 @@
+{
+  "name": "June Oven",
+  "year": 2016,
+  "organization": ["June", "Weber"],
+  "project_type": "commercial_product",
+  "short_description": "A Wi-Fi-connected countertop convection oven that uses an internal camera and machine learning to recognize food and run an automatic cook program.",
+  "long_description": "The June Oven is a smart countertop appliance with an internal HD camera, a built-in scale, and a core-temperature probe, paired with computer-vision models that identify commonly cooked foods and select a cook program automatically. It is a clear example of physical AI hiding inside an everyday domestic object: rather than a robot or a humanoid, intelligence is embedded in a familiar appliance form, sensing and acting on the physical task of cooking. As the system cooks more food it improves its recognition, and it streams live and time-lapse video to a companion app. Originally launched by the startup June and later acquired by Weber, it shows how ambient AI can fold into the kitchen as a quiet, task-specific assistant.",
+  "primary_url": "https://juneoven.com/",
+  "attributes": {
+    "embodiment.form": ["Smart appliance", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Vision", "Force / torque", "Environmental sensors"],
+    "intelligence.model": ["Deep learning", "Classical machine learning"],
+    "function.role": ["Assistant", "Tool"],
+    "genealogy.lineage": ["Smart home", "Internet of Things", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 2,
+    "form_specificity": 4,
+    "social_legibility": 1,
+    "autonomy": 3,
+    "initiative": 2,
+    "memory_span": 2,
+    "visibility": 2,
+    "generality": 2,
+    "intensity": 2,
+    "expressiveness": 1,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-june-oven-001",
+      "caption": "The June Oven, a countertop smart convection oven with an internal camera and touchscreen.",
+      "image_type": "product_photo",
+      "source_url": "https://juneoven.com/products/june-smart-oven-3rd-generation",
+      "rights_status": "needs_permission",
+      "alt_text": "A black stainless-steel countertop oven with a glass door and a small touchscreen on the front, photographed against a white background.",
+      "local_image": "/projects/june-oven.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-june-oven-001",
+      "title": "June Oven: 12-in-1 Countertop Convection Oven",
+      "source_type": "official_product_page",
+      "url": "https://juneoven.com/",
+      "publisher": "June",
+      "year": 2016,
+      "access_notes": "Official product page describing the camera, Food ID recognition, and automatic cook programs."
+    },
+    {
+      "source_id": "source-june-oven-002",
+      "title": "June (company)",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/June_(company)",
+      "publisher": "Wikipedia",
+      "year": 2021,
+      "access_notes": "Founding (2015), first-gen launch (December 2016), second gen (2018), and Weber acquisition (January 2021); computer-vision food identification details."
+    }
+  ],
+  "confidence": "high"
+}

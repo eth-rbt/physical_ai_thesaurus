@@ -1,0 +1,64 @@
+{
+  "name": "Google Assistant",
+  "year": 2016,
+  "organization": ["Google"],
+  "project_type": "platform",
+  "short_description": "Google's conversational voice assistant that spans phones, smart speakers, displays, wearables, TVs, and cars.",
+  "long_description": "Google Assistant is a multimodal, voice-first AI platform announced at Google I/O in 2016 that lets people ask questions, run tasks, and control connected devices through natural conversation. Rather than living in a single device, it is an ambient layer that follows the user across phones (Android, iOS), Nest speakers and displays, Wear OS watches, Android TV, and select cars. For physical AI in daily life, it is a foundational example of disembodied intelligence distributed through the home and on the body, shaping how millions interact with smart-home hardware by voice.",
+  "primary_url": "https://assistant.google.com/",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Smart appliance", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed", "Body-worn", "Handheld"],
+    "intelligence.input": ["Speech", "Audio", "Text", "Touch"],
+    "intelligence.model": ["Speech model", "Large language model"],
+    "function.role": ["Assistant", "Tool", "Memory aid"],
+    "genealogy.lineage": ["Ambient intelligence", "Smart home", "Ubiquitous computing", "Internet of Things"]
+  },
+  "metrics": {
+    "proximity": 3,
+    "mobility": 2,
+    "scale": 2,
+    "social_legibility": 1,
+    "form_specificity": 1,
+    "autonomy": 2,
+    "initiative": 2,
+    "memory_span": 3,
+    "visibility": 2,
+    "generality": 4,
+    "intensity": 2,
+    "expressiveness": 2,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-google-assistant-001",
+      "caption": "Google Assistant running on a Google Pixel XL smartphone.",
+      "image_type": "screenshot",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Android_Assistant_on_the_Google_Pixel_XL_smartphone_(29526761674).jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A Google Pixel XL smartphone held in a hand, its screen showing the Google Assistant conversation interface with suggested prompts.",
+      "local_image": "/projects/google-assistant.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-google-assistant-001",
+      "title": "Google Assistant",
+      "source_type": "official_product_page",
+      "url": "https://assistant.google.com/",
+      "publisher": "Google",
+      "year": 2016,
+      "access_notes": "Official Google Assistant site."
+    },
+    {
+      "source_id": "source-google-assistant-002",
+      "title": "Google unveils Google Assistant, a big upgrade to Google Now",
+      "source_type": "credible_news",
+      "url": "https://techcrunch.com/2016/05/18/google-unveils-google-assistant-a-big-upgrade-to-google-now/",
+      "publisher": "TechCrunch",
+      "year": 2016,
+      "access_notes": "Coverage of the I/O 2016 announcement establishing the 2016 launch year."
+    }
+  ],
+  "confidence": "high"
+}

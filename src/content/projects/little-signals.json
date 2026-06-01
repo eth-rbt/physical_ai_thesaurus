@@ -1,0 +1,81 @@
+{
+  "name": "Little Signals",
+  "year": 2022,
+  "organization": ["Google", "Map Project Office"],
+  "project_type": "research_prototype",
+  "short_description": "A calm-technology design study of six ambient notification objects that signal through air, taps, light, shadow, sound, and movement.",
+  "long_description": "Little Signals is a 2022 design study from Google's Seed Studio in collaboration with London's Map Project Office, comprising six small objects (Air, Button, Movement, Rhythm, Shadow, and Tap) that deliver notifications through gentle, peripheral cues rather than screens and alerts. Building explicitly on calm-technology principles, the objects use pulses of air that stir a plant's leaves, soft taps on surfaces, rising pegs, ambient sound, and moving shadows to keep a person informed while staying at the edge of attention. It matters as physical AI because it reframes the notification layer as a distributed ecology of expressive domestic objects, trading high-attention displays for legible, low-intensity environmental signals. Google released build instructions, code, and STEP files so the objects can be reproduced with an Arduino board.",
+  "primary_url": "https://littlesignals.withgoogle.com/",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Touch", "Location"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Memory aid", "Mediator"],
+    "genealogy.lineage": ["Ambient intelligence", "Ubiquitous computing", "Tangible user interfaces", "Speculative design"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 1,
+    "social_legibility": 4,
+    "form_specificity": 3,
+    "autonomy": 1,
+    "initiative": 3,
+    "memory_span": 1,
+    "visibility": 2,
+    "generality": 1,
+    "intensity": 1,
+    "expressiveness": 4,
+    "timing": 3
+  },
+  "images": [
+    {
+      "image_id": "img-little-signals-001",
+      "caption": "The six Little Signals objects: Air, Button, Movement, Rhythm, Shadow, and Tap.",
+      "image_type": "render",
+      "source_url": "https://experiments.withgoogle.com/little-signals",
+      "rights_status": "needs_permission",
+      "alt_text": "A set of six small minimalist domestic objects arranged together, each a calm ambient notification device in soft neutral tones.",
+      "local_image": "/projects/little-signals.png"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-little-signals-001",
+      "title": "Little Signals",
+      "source_type": "project_page",
+      "url": "https://littlesignals.withgoogle.com/",
+      "publisher": "Google Seed Studio",
+      "year": 2022,
+      "access_notes": "Official project site; credits Google Seed Studio in collaboration with Map Project Office."
+    },
+    {
+      "source_id": "source-little-signals-002",
+      "title": "Little Signals by Google Seed Studio with Map",
+      "source_type": "official_product_page",
+      "url": "https://experiments.withgoogle.com/little-signals",
+      "publisher": "Google",
+      "year": 2022,
+      "access_notes": "Experiments with Google listing; source of hero image."
+    },
+    {
+      "source_id": "source-little-signals-003",
+      "title": "Google's Little Signals 'design study' explores the world of ambient notifications",
+      "source_type": "credible_news",
+      "url": "https://www.designboom.com/design/google-little-signals-ambient-notifications-04-26-2022/",
+      "publisher": "Designboom",
+      "year": 2022
+    },
+    {
+      "source_id": "source-little-signals-004",
+      "title": "Little Signals",
+      "source_type": "project_page",
+      "url": "https://mapprojectoffice.com/work/little-signals/",
+      "publisher": "Map Project Office",
+      "year": 2022,
+      "access_notes": "Design studio's project page documenting the collaboration."
+    }
+  ],
+  "confidence": "high"
+}

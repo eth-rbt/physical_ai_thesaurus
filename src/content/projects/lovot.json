@@ -1,0 +1,70 @@
+{
+  "name": "LOVOT",
+  "year": 2018,
+  "organization": ["Groove X"],
+  "project_type": "commercial_product",
+  "short_description": "A wheeled companion robot from Japan whose only job is to be loved, not to perform tasks.",
+  "long_description": "LOVOT is a soft, warm-bodied desktop-scale companion robot built by Groove X, founded by former SoftBank Pepper lead Kaname Hayashi. Announced in December 2018 and shipped from 2019, it carries more than fifty sensors plus a head-mounted capsule of 360-degree, depth, and thermal cameras and microphones, and uses onboard AI to recognize and remember the people it lives with, then adapt its affectionate behavior over time. Deliberately incapable of practical work, it asks to be picked up, follows owners around, and acts shy, jealous, or happy, making it a clear test case for physical AI built entirely around emotional attachment and companionship.",
+  "primary_url": "https://lovot.life/en/",
+  "attributes": {
+    "embodiment.form": ["Animal / creature robot", "Mobile robot"],
+    "embodiment.mobility": ["Wheeled"],
+    "intelligence.input": ["Vision", "Touch", "Audio", "Speech", "Motion", "Environmental sensors"],
+    "intelligence.model": ["Deep learning"],
+    "function.role": ["Companion"],
+    "genealogy.lineage": ["Social robotics", "Companion robotics", "Human-robot interaction"]
+  },
+  "metrics": {
+    "proximity": 4,
+    "memory_span": 4,
+    "autonomy": 3,
+    "expressiveness": 5,
+    "social_legibility": 4,
+    "mobility": 3,
+    "scale": 2,
+    "initiative": 4,
+    "form_specificity": 5,
+    "generality": 1
+  },
+  "images": [
+    {
+      "image_id": "img-lovot-001",
+      "caption": "A LOVOT companion robot dressed in tiger-patterned clothing, showing its large blue eyes and head-mounted sensor capsule.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LOVOT_wearing_tiger-patterned_clothing_-_1.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A small rounded companion robot with big glowing blue eyes and a sensor capsule on top of its head, dressed in a yellow-and-black tiger-striped outfit and standing on a wheeled base.",
+      "local_image": "/projects/lovot.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-lovot-001",
+      "title": "GROOVE X Introduce a New Companion Robot, \"LOVOT\"",
+      "source_type": "press_release",
+      "url": "https://www.prnewswire.com/news-releases/groove-x-introduce-a-new-companion-robot-lovot-300767937.html",
+      "publisher": "Groove X / PR Newswire",
+      "year": 2018,
+      "access_notes": "Official announcement of LOVOT, December 18, 2018."
+    },
+    {
+      "source_id": "source-lovot-002",
+      "title": "LOVOT official site",
+      "source_type": "official_product_page",
+      "url": "https://lovot.life/en/",
+      "publisher": "Groove X",
+      "year": null,
+      "access_notes": "Official product page describing sensors, warmth, and companion behavior."
+    },
+    {
+      "source_id": "source-lovot-003",
+      "title": "Huggable robot set to roll into your heart in 2019",
+      "source_type": "credible_news",
+      "url": "https://newatlas.com/groove-x-lovot-companion-robot/57763/",
+      "publisher": "New Atlas",
+      "year": 2018,
+      "access_notes": "Reports specs: depth and 360-degree cameras, thermal camera, microphones, touch/posture/obstacle sensors, ~3-4 kg, wheeled base."
+    }
+  ],
+  "confidence": "high"
+}

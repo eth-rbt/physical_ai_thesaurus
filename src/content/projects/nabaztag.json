@@ -1,0 +1,65 @@
+{
+  "name": "Nabaztag",
+  "year": 2005,
+  "organization": ["Violet"],
+  "project_type": "commercial_product",
+  "short_description": "A Wi-Fi connected ambient 'smart rabbit' that signals notifications through motorized ears, colored LEDs, and spoken messages.",
+  "long_description": "Introduced in 2005 by the French company Violet (invented by Rafi Haladjian and Olivier Mevel), Nabaztag was one of the first consumer Internet-of-Things ambient objects. The rabbit-shaped desk device connected over Wi-Fi to relay weather, news, stock prices, email and message alerts by wiggling its motorized ears, pulsing RGB LEDs, and reading text aloud through a speaker. Later revisions (Nabaztag/tag, 2006) added microphones, an RFID reader, and an accelerometer. It matters as an early demonstration that networked intelligence could live in an expressive, glanceable domestic object rather than a screen, prefiguring ambient computing and smart-home assistants.",
+  "primary_url": "https://en.wikipedia.org/wiki/Nabaztag",
+  "attributes": {
+    "embodiment.form": ["Animal / creature robot", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Speech", "Audio", "Location"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Assistant", "Memory aid"],
+    "function.social_function": ["Companion"],
+    "genealogy.lineage": ["Internet of Things", "Ambient intelligence", "Ubiquitous computing", "Smart home"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "memory_span": 1,
+    "autonomy": 1,
+    "expressiveness": 4,
+    "social_legibility": 3,
+    "mobility": 1,
+    "scale": 2,
+    "initiative": 2,
+    "intensity": 2,
+    "generality": 2,
+    "visibility": 4,
+    "form_specificity": 4,
+    "timing": 3
+  },
+  "images": [
+    {
+      "image_id": "img-nabaztag-001",
+      "caption": "A Nabaztag Wi-Fi connected ambient rabbit on display at the Musee Bolo, EPFL, Lausanne.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nabaztag-IMG_1666.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A white rabbit-shaped electronic device standing upright with two tall pointed ears and a glowing belly, the Nabaztag smart rabbit, on a display stand.",
+      "local_image": "/projects/nabaztag.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-nabaztag-001",
+      "title": "Nabaztag",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/Nabaztag",
+      "publisher": "Wikipedia",
+      "year": 2005,
+      "access_notes": "Encyclopedia entry covering history, hardware (motorized ears, RGB LEDs, speaker, microphones, RFID, accelerometer), and Violet's 2009 bankruptcy."
+    },
+    {
+      "source_id": "source-nabaztag-002",
+      "title": "Nabaztag smart device, Olivier Mevel / Rafi Haladjian",
+      "source_type": "exhibition_page",
+      "url": "https://collections.vam.ac.uk/item/O1731303/nabaztag-smart-device-olivier-mevel/",
+      "publisher": "Victoria and Albert Museum",
+      "year": 2005,
+      "access_notes": "Museum collection record for the Nabaztag as a design object."
+    }
+  ],
+  "confidence": "high"
+}

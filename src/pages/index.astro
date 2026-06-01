@@ -1,0 +1,37 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const cards = await getCollection('cards');
+const categories = ['Embodiment', 'Intelligence', 'Function', 'Genealogy'] as const;
+const byCategory = categories.map((cat) => ({
+  cat,
+  cards: cards.filter((c) => c.data.category === cat),
+}));
+---
+
+<Base title="Thesaurus">
+  <h1>Physical AI Thesaurus</h1>
+  <p class="muted" style="max-width:60ch">
+    A thesaurus of physical AI in daily life, studied through four lenses — Embodiment,
+    Intelligence, Function, and Genealogy. Each card is one lens onto a shared pool of projects.
+  </p>
+
+  {byCategory.map(({ cat, cards }) => (
+    <section class="cat-section">
+      <h2>{cat}</h2>
+      {cards.length === 0 ? (
+        <p class="muted">No cards yet.</p>
+      ) : (
+        <div class="card-cards">
+          {cards.map((c) => (
+            <a href={`/cards/${c.id}/`}>
+              <div class="t">{c.data.title}</div>
+              <div class="q">{c.data.one_line_summary}</div>
+            </a>
+          ))}
+        </div>
+      )}
+    </section>
+  ))}
+</Base>

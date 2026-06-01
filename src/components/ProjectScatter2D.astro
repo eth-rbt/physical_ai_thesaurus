@@ -1,0 +1,48 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  projects: CollectionEntry<'projects'>[];
+  x: { metric: string; label: string; direction: 'asc' | 'desc' };
+  y: { metric: string; label: string; direction: 'asc' | 'desc' };
+}
+const { projects, x, y } = Astro.props;
+
+const has = (p: CollectionEntry<'projects'>) =>
+  typeof p.data.metrics[x.metric] === 'number' && typeof p.data.metrics[y.metric] === 'number';
+const placed = projects.filter(has);
+const missing = projects.filter((p) => !has(p));
+
+function scaler(metric: string, direction: 'asc' | 'desc') {
+  const vals = placed.map((p) => p.data.metrics[metric]);
+  const min = Math.min(...vals);
+  const max = Math.max(...vals);
+  const span = max - min || 1;
+  return (v: number) => {
+    const t = (v - min) / span;
+    return (direction === 'desc' ? 1 - t : t) * 100;
+  };
+}
+const sx = scaler(x.metric, x.direction);
+const sy = scaler(y.metric, y.direction);
+---
+
+<div class="scatter">
+  <span class="axlabel-x">{x.label} →</span>
+  <span class="axlabel-y">{y.label} →</span>
+  {placed.map((p) => (
+    <a
+      class="pt"
+      href={`/projects/${p.id}/`}
+      style={`left:${sx(p.data.metrics[x.metric])}%; bottom:${sy(p.data.metrics[y.metric])}%`}
+    >
+      <span class="dot"></span>
+      <span class="lab">{p.data.name}</span>
+    </a>
+  ))}
+</div>
+{missing.length > 0 && (
+  <p class="muted" style="font-size:0.8rem">
+    Not plotted (missing <code>{x.metric}</code>/<code>{y.metric}</code>): {missing.map((p) => p.data.name).join(', ')}
+  </p>
+)}

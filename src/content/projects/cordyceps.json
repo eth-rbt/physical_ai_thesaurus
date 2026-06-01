@@ -1,0 +1,55 @@
+{
+  "name": "Cordyceps",
+  "year": 2026,
+  "organization": [],
+  "project_type": "art_design_project",
+  "short_description": "A collection of everyday objects—mirror, lamp, and radio—turned into intelligent AI agents that work together as a networked, coordinated autonomous system.",
+  "long_description": "Cordyceps is a design project by Ethan Chang in which everyday objects such as a mirror, lamp, and radio operate as coordinated agents, with behavior shaped by their individual modalities, physical affordances, functionality, and relations to one another. Rather than relying on fixed smart-home automations or a single humanoid assistant, the system lets a distributed ecology of objects collaborate to perform tasks and interact with users in a more natural, situated way. It matters as physical AI because it explores multi-agent coordination and adaptive behavior embedded in familiar domestic forms, named for the fungus whose networked growth visually overtakes the objects. The project won the Grand Prize at the Hardmode MIT AI Hackathon and was demonstrated at Anthropic Dev Day 2026.",
+  "primary_url": "https://ethanchang.design/projects/cordyceps.html",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed", "Environmental / room-scale"],
+    "intelligence.input": ["Speech", "Audio", "Vision"],
+    "intelligence.model": ["Large language model"],
+    "intelligence.multi-agent coordination": ["Coordinated multi-agent system"],
+    "function.role": ["Assistant"],
+    "genealogy.lineage": ["Ubiquitous computing", "Internet of Things", "Smart home", "Ambient intelligence", "Speculative design"]
+  },
+  "metrics": {
+    "autonomy": 4,
+    "initiative": 3,
+    "memory_span": 2,
+    "social_legibility": 3,
+    "expressiveness": 4,
+    "form_specificity": 4,
+    "generality": 3,
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 3,
+    "visibility": 4,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-cordyceps-001",
+      "caption": "The Cordyceps objects—a radio, an articulated desk lamp, and a framed mirror—linked by white bulbous growths evoking a fungal network coordinating them as agents.",
+      "image_type": "exhibition_photo",
+      "source_url": "https://ethanchang.design/projects/cordyceps.html",
+      "rights_status": "needs_permission",
+      "alt_text": "Three black household objects against a white backdrop—a portable radio with extended antenna, an articulated desk lamp bent forward, and a framed mirror—each covered with clusters of white spherical growths that spread between them like fungal tendrils.",
+      "local_image": "/projects/cordyceps.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-cordyceps-001",
+      "title": "Cordyceps",
+      "source_type": "project_page",
+      "url": "https://ethanchang.design/projects/cordyceps.html",
+      "publisher": "Ethan Chang",
+      "year": 2026,
+      "access_notes": "Creator's own project page; primary source."
+    }
+  ],
+  "confidence": "medium"
+}

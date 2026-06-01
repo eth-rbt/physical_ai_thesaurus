@@ -1,0 +1,52 @@
+{
+  "name": "Be the Beat",
+  "year": 2024,
+  "organization": [],
+  "project_type": "art_design_project",
+  "short_description": "An AI-powered boombox that turns a dancer's freestyle movements into matching music recommendations, reversing the usual relationship where music leads dance.",
+  "long_description": "Be the Beat is an interactive boombox that converts physical body movement into sound. It uses PoseNet to capture a dancer's live movements, an LLM to interpret their style, energy, and tempo, and the Spotify API to surface songs that match, all triggered by a hand clap and returned within about five seconds. By treating an open-ended range of gestures as input rather than a fixed gesture vocabulary, it reframes the dancer as the source of the music and the device as a responsive, expressive partner.",
+  "primary_url": "https://ethanchang.design/projects/btb.html",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Smart appliance"],
+    "embodiment.mobility": ["Fixed", "Handheld"],
+    "intelligence.input": ["Vision", "Gesture", "Motion"],
+    "intelligence.model": ["Large language model", "Deep learning"],
+    "function.role": ["Performer", "Creative collaborator"],
+    "genealogy.lineage": ["Tangible user interfaces", "Speculative design"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 2,
+    "scale": 2,
+    "social_legibility": 2,
+    "form_specificity": 4,
+    "expressiveness": 5,
+    "timing": 4,
+    "visibility": 4,
+    "generality": 2,
+    "intensity": 4
+  },
+  "images": [
+    {
+      "image_id": "img-be-the-beat-001",
+      "caption": "Be the Beat, an AI boombox that generates music from a dancer's freestyle movement.",
+      "image_type": "render",
+      "source_url": "https://ethanchang.design/projects/btb.html",
+      "rights_status": "needs_permission",
+      "alt_text": "A stylized boombox device presented as the hero image for the Be the Beat project, which converts dance movement into music.",
+      "local_image": "/projects/be-the-beat.png"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-be-the-beat-001",
+      "title": "Be the Beat",
+      "source_type": "project_page",
+      "url": "https://ethanchang.design/projects/btb.html",
+      "publisher": "Ethan Chang",
+      "year": 2024,
+      "access_notes": "Creator's own project page; primary source."
+    }
+  ],
+  "confidence": "high"
+}

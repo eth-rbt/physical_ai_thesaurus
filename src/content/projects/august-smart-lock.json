@@ -1,0 +1,64 @@
+{
+  "name": "August Smart Lock",
+  "year": 2013,
+  "organization": ["August Home"],
+  "project_type": "commercial_product",
+  "short_description": "A retrofit smart deadbolt that clips onto an existing lock and adds app control, auto-unlock, and door-state sensing.",
+  "long_description": "The August Smart Lock mounts on the interior side of a standard deadbolt and connects over Bluetooth and a Wi-Fi bridge to a smartphone app, letting people lock and unlock remotely, grant virtual guest keys, and see a log of who comes and goes. Its auto-unlock feature uses phone geofencing and proximity to open the door as the owner arrives, while DoorSense and intelligent auto-lock detect whether the door is actually closed and secure it automatically. As an ambient, infrastructure-embedded system that senses context and acts on the owner's behalf, it is an everyday example of physical AI quietly making decisions about a home's threshold rather than waiting for an explicit command.",
+  "primary_url": "https://august.com/products/august-wifi-smart-lock",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Smart appliance"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Location", "Motion", "Environmental sensors"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Security monitor", "Assistant"],
+    "genealogy.lineage": ["Smart home", "Internet of Things", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 2,
+    "form_specificity": 3,
+    "social_legibility": 1,
+    "autonomy": 3,
+    "initiative": 3,
+    "memory_span": 2,
+    "visibility": 2,
+    "generality": 1,
+    "intensity": 1,
+    "expressiveness": 1,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-august-smart-lock-001",
+      "caption": "The second-generation August smart lock mounted on a deadbolt, in an unlocked state.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:August_2nd-gen_smart_lock.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A circular silver August smart lock unit attached to the interior thumb-turn of a residential door deadbolt.",
+      "local_image": "/projects/august-smart-lock.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-august-smart-lock-001",
+      "title": "August Wi-Fi Smart Lock",
+      "source_type": "official_product_page",
+      "url": "https://august.com/products/august-wifi-smart-lock",
+      "publisher": "August Home",
+      "year": null,
+      "access_notes": "Official product page describing auto-lock, auto-unlock, DoorSense, and app features."
+    },
+    {
+      "source_id": "source-august-smart-lock-002",
+      "title": "August Home",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/August_Home",
+      "publisher": "Wikipedia",
+      "year": 2013,
+      "access_notes": "Company history; first August Smart Lock released May 2013, founded 2012 by Yves Behar and Jason Johnson."
+    }
+  ],
+  "confidence": "high"
+}

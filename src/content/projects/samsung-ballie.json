@@ -1,0 +1,64 @@
+{
+  "name": "Samsung Ballie",
+  "year": 2024,
+  "organization": ["Samsung Electronics"],
+  "project_type": "commercial_product",
+  "short_description": "A bowling-ball-sized rolling home robot with a built-in projector and AI assistant that autonomously navigates the house and manages connected appliances.",
+  "long_description": "Ballie is a spherical, self-driving domestic robot that uses a spatial LiDAR sensor to roam the home and a dual-lens 1080p projector to display video calls, movies, workout guides, and greetings onto walls and floors. It connects to and orchestrates smart-home devices, monitors pets and family, and learns user routines to deliver personalized help. First shown as a concept at CES 2020 and revamped at CES 2024, Ballie matters as a mainstream consumer attempt to make an ambient, mobile AI a cohabiting presence in everyday domestic life rather than a fixed appliance.",
+  "primary_url": "https://news.samsung.com/us/samsung-ballie-ai-companion-robot-home-video-ces-2024",
+  "attributes": {
+    "embodiment.form": ["Mobile robot", "Domestic object"],
+    "embodiment.mobility": ["Wheeled"],
+    "intelligence.input": ["Vision", "Speech", "Audio", "Environmental sensors"],
+    "intelligence.model": ["Large language model"],
+    "function.role": ["Assistant", "Companion", "Security monitor"],
+    "genealogy.lineage": ["Smart home", "Companion robotics", "Ambient intelligence", "Internet of Things"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 4,
+    "scale": 2,
+    "social_legibility": 3,
+    "form_specificity": 3,
+    "autonomy": 3,
+    "initiative": 3,
+    "memory_span": 3,
+    "visibility": 4,
+    "generality": 3,
+    "intensity": 3,
+    "expressiveness": 3,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-samsung-ballie-001",
+      "caption": "Samsung Ballie, the yellow spherical AI companion robot, beside its projector on a table at CES 2024.",
+      "image_type": "product_photo",
+      "source_url": "https://news.samsung.com/us/samsung-ballie-ai-companion-robot-home-video-ces-2024",
+      "rights_status": "needs_permission",
+      "alt_text": "A small yellow spherical robot sits on a wooden table next to a projector unit in a home setting with a bookshelf in the background.",
+      "local_image": "/projects/samsung-ballie.png"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-samsung-ballie-001",
+      "title": "A Day in the Life With Ballie: An AI Companion Robot for the Home",
+      "source_type": "official_blog_post",
+      "url": "https://news.samsung.com/us/samsung-ballie-ai-companion-robot-home-video-ces-2024",
+      "publisher": "Samsung Electronics",
+      "year": 2024,
+      "access_notes": "Official Samsung Newsroom announcement of the CES 2024 Ballie."
+    },
+    {
+      "source_id": "source-samsung-ballie-002",
+      "title": "Samsung brings back Ballie, its home robot, at CES 2024 — with a few upgrades",
+      "source_type": "credible_news",
+      "url": "https://techcrunch.com/2024/01/08/samsung-brings-back-ballie-its-home-robot-at-ces-2024-with-a-few-upgrades/",
+      "publisher": "TechCrunch",
+      "year": 2024,
+      "access_notes": "Reports bowling-ball size, spatial LiDAR, dual-lens 1080p projector, 2-3 hour battery."
+    }
+  ],
+  "confidence": "high"
+}

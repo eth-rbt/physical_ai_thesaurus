@@ -1,0 +1,65 @@
+{
+  "name": "Xerox PARC ubicomp — tabs / pads / boards",
+  "year": 1991,
+  "organization": ["Xerox PARC"],
+  "project_type": "concept",
+  "short_description": "Xerox PARC's ubiquitous computing program and its prototype device family (ParcTab, ParcPad/MPad, LiveBoard) embodying the inch-scale tab, foot-scale pad, and yard-scale board taxonomy.",
+  "long_description": "Beginning around 1988 under Mark Weiser, Xerox PARC pursued 'ubiquitous computing': the idea that computation should recede into the everyday environment as many networked devices at different scales rather than one personal computer. PARC built working prototypes for each of Weiser's three categories — inch-scale 'tabs' (the ParcTab, a palm-sized, infrared-networked, context-aware handheld), foot-scale 'pads' (the ParcPad and MPad pen tablets), and yard-scale 'boards' (the LiveBoard wall-sized interactive display). Articulated in Weiser's 1991 Scientific American article 'The Computer for the 21st Century', this work is the foundational genealogy for ambient, calm, and physically situated computing, and a direct ancestor of today's smart objects, tablets, and the Internet of Things.",
+  "primary_url": "https://en.wikipedia.org/wiki/Ubiquitous_computing",
+  "attributes": {
+    "embodiment.form": ["Smart object", "Handheld", "Tablet", "Wall display", "Architectural / environmental"],
+    "embodiment.proximity": ["Handheld", "Environmental"],
+    "intelligence.input": ["Touch", "Pen / stylus", "Buttons", "Location / context"],
+    "intelligence.model": ["Rule-based / context-aware"],
+    "function.role": ["Information access", "Collaboration", "Capture"],
+    "genealogy.lineage": ["Ubiquitous computing", "Smart objects", "Internet of Things", "Mobile computing", "Calm technology"]
+  },
+  "metrics": {
+    "proximity": 3,
+    "mobility": 3,
+    "scale": 3,
+    "visibility": 2,
+    "generality": 3,
+    "intensity": 2
+  },
+  "images": [
+    {
+      "image_id": "img-xerox-parc-ubicomp-001",
+      "caption": "Xerox PARC ubiquitous computing prototypes: the ParcTab handheld, ParcPad tablet, and LiveBoard wall display.",
+      "image_type": "interaction_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/Category:Xerox_PARC",
+      "rights_status": "needs_permission",
+      "alt_text": "Period photographs of Xerox PARC's ubiquitous computing devices: a small handheld ParcTab, a pen-based ParcPad tablet, and a large wall-mounted LiveBoard interactive display."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-xerox-parc-ubicomp-001",
+      "title": "Ubiquitous computing",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/Ubiquitous_computing",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Overview of Weiser's tab/pad/board taxonomy (inch/foot/yard scales) and the PARCTab, PARCPad, and LiveBoard prototypes built at Xerox PARC, 1988–1994."
+    },
+    {
+      "source_id": "source-xerox-parc-ubicomp-002",
+      "title": "An Overview of the PARCTab Ubiquitous Computing Experiment",
+      "source_type": "academic_paper",
+      "url": "http://www.roywant.com/cv/papers/pubs/1995-12%20(IEEE%20PCom)%20parctab.pdf",
+      "publisher": "IEEE Personal Communications",
+      "year": 1995,
+      "access_notes": "Roy Want et al. describe the ParcTab palm-sized, infrared-networked, context-aware handheld as a testbed for ubiquitous computing at Xerox PARC."
+    },
+    {
+      "source_id": "source-xerox-parc-ubicomp-003",
+      "title": "The Work and Vision of Ubiquitous Computing at Xerox PARC",
+      "source_type": "academic_paper",
+      "url": "https://www.ericrawn.media/assets/blog/publications/The_Work_and_Vision_of_Ubiquitous_Computing_at_Xerox_PARC.pdf",
+      "publisher": "Eric Rawn",
+      "year": null,
+      "access_notes": "Historical account of the tabs/pads/boards program and its prototype devices."
+    }
+  ],
+  "confidence": "high"
+}

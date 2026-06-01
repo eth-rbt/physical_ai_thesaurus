@@ -1,0 +1,64 @@
+{
+  "name": "Apple AirPods",
+  "year": 2016,
+  "organization": ["Apple"],
+  "project_type": "commercial_product",
+  "short_description": "Wireless in-ear earbuds with on-body audio processing that put Siri and increasingly AI-driven listening features in the ear.",
+  "long_description": "AirPods are Apple's wireless earbuds, first released in 2016, that pair a familiar earbud form with custom audio chips (W1, then H1 and H2) for hands-free 'Hey Siri', spatial audio, and on-device signal processing. Later AirPods Pro models add Adaptive Audio and Conversation Awareness, which use AI-powered algorithms to blend noise cancellation and transparency and to lower media when you start talking, plus a clinical-grade Hearing Aid feature. They matter for physical AI because they are an always-worn, near-invisible body-worn sensor and actuator that mediates a person's auditory world in real time.",
+  "primary_url": "https://www.apple.com/airpods/",
+  "attributes": {
+    "embodiment.form": ["Wearable", "Domestic object"],
+    "embodiment.mobility": ["Body-worn"],
+    "intelligence.input": ["Audio", "Speech", "Motion"],
+    "intelligence.model": ["Speech model"],
+    "function.role": ["Assistant", "Tool"],
+    "genealogy.lineage": ["Wearable computing", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 4,
+    "scale": 1,
+    "social_legibility": 1,
+    "form_specificity": 2,
+    "autonomy": 2,
+    "initiative": 2,
+    "memory_span": 1,
+    "visibility": 2,
+    "generality": 2,
+    "intensity": 2,
+    "expressiveness": 1,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-apple-airpods-001",
+      "caption": "Original Apple AirPods with their open charging case.",
+      "image_type": "product_photo",
+      "source_url": "https://www.apple.com/newsroom/2016/09/apple-reinvents-the-wireless-headphones-with-airpods/",
+      "rights_status": "needs_permission",
+      "alt_text": "A pair of white Apple AirPods wireless earbuds resting beside their open white charging case.",
+      "local_image": "/projects/apple-airpods.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-apple-airpods-001",
+      "title": "Apple reinvents the wireless headphone with AirPods",
+      "source_type": "press_release",
+      "url": "https://www.apple.com/newsroom/2016/09/apple-reinvents-the-wireless-headphones-with-airpods/",
+      "publisher": "Apple",
+      "year": 2016,
+      "access_notes": "Official announcement of the original AirPods."
+    },
+    {
+      "source_id": "source-apple-airpods-002",
+      "title": "Apple introduces AirPods 4 and a hearing health experience with AirPods Pro 2",
+      "source_type": "press_release",
+      "url": "https://www.apple.com/newsroom/2024/09/apple-introduces-airpods-4-and-a-hearing-health-experience-with-airpods-pro-2/",
+      "publisher": "Apple",
+      "year": 2024,
+      "access_notes": "Covers Adaptive Audio, Conversation Awareness, and the Hearing Aid feature."
+    }
+  ],
+  "confidence": "high"
+}

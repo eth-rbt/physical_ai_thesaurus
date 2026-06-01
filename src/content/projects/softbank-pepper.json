@@ -1,0 +1,69 @@
+{
+  "name": "Pepper",
+  "year": 2014,
+  "organization": ["SoftBank Robotics", "Aldebaran Robotics"],
+  "project_type": "commercial_product",
+  "short_description": "A 1.2 m wheeled humanoid social robot with an 'emotion engine', chest touchscreen, and multilingual speech, marketed for retail, hospitality, and education.",
+  "long_description": "Unveiled in 2014 and sold from 2015, Pepper was promoted as the first personal robot designed to read human emotion, classifying facial expressions and vocal prosody to adapt its behavior. Its expressive humanoid upper body, gesturing arms, and chest tablet made it a recognizable social actor in stores, banks, and schools, while a wheeled omnidirectional base kept it mobile indoors. Running the NAOqi OS with cloud-backed perception, Pepper became the canonical commercial face of social robotics before SoftBank paused production in 2021 amid weak demand.",
+  "primary_url": "https://www.softbank.jp/en/corp/group/sbm/news/press/2014/20140605_01/",
+  "attributes": {
+    "embodiment.form": ["Humanoid robot", "Mobile robot"],
+    "embodiment.mobility": ["Wheeled"],
+    "intelligence.input": ["Vision", "Speech", "Audio", "Touch"],
+    "intelligence.model": ["Rule-based system", "Classical machine learning"],
+    "function.role": ["Assistant", "Companion", "Performer", "Teacher"],
+    "genealogy.lineage": ["Social robotics", "Human-robot interaction", "Companion robotics"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "memory_span": 2,
+    "autonomy": 2,
+    "expressiveness": 4,
+    "social_legibility": 5,
+    "form_specificity": 5,
+    "mobility": 3,
+    "initiative": 3,
+    "generality": 3
+  },
+  "images": [
+    {
+      "image_id": "img-softbank-pepper-001",
+      "caption": "A Pepper humanoid robot on display at a public event in Hungary, 2019.",
+      "image_type": "interaction_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pepper_a_humanoid_robot.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A white, child-sized humanoid robot with large round eyes, two articulated arms, and a tablet mounted on its chest, standing on a wheeled base at an indoor event.",
+      "local_image": "/projects/softbank-pepper.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-softbank-pepper-001",
+      "title": "SoftBank Mobile and Aldebaran Unveil \"Pepper\" - the World's First Personal Robot That Reads Emotions",
+      "source_type": "press_release",
+      "url": "https://www.softbank.jp/en/corp/group/sbm/news/press/2014/20140605_01/",
+      "publisher": "SoftBank",
+      "year": 2014,
+      "access_notes": "Official unveiling press release describing the emotion engine and design."
+    },
+    {
+      "source_id": "source-softbank-pepper-002",
+      "title": "Pepper (robot)",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/Pepper_(robot)",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Specifications (height 120 cm, sensors, NAOqi) and production-pause/discontinuation history."
+    },
+    {
+      "source_id": "source-softbank-pepper-003",
+      "title": "Meet Pepper, Aldebaran's New Personal Robot With an \"Emotion Engine\"",
+      "source_type": "credible_news",
+      "url": "https://spectrum.ieee.org/pepper-aldebaran-softbank-personal-robot",
+      "publisher": "IEEE Spectrum",
+      "year": 2014,
+      "access_notes": "Technical reporting on Pepper's emotion engine and sensing."
+    }
+  ],
+  "confidence": "high"
+}

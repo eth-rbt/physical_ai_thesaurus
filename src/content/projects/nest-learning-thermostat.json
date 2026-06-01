@@ -1,0 +1,64 @@
+{
+  "name": "Google Nest Learning Thermostat",
+  "year": 2011,
+  "organization": ["Nest Labs", "Google"],
+  "project_type": "commercial_product",
+  "short_description": "A wall-mounted smart thermostat that learns a household's heating and cooling habits and programs itself to save energy.",
+  "long_description": "Introduced by Nest Labs in 2011 and later folded into Google, the Nest Learning Thermostat watches how people adjust the temperature, senses occupancy with motion and ambient sensors, and builds an automatic schedule that conserves energy. It is a landmark example of physical AI quietly embedded in everyday infrastructure: an inconspicuous domestic appliance that perceives, learns, and acts on behalf of a household without demanding attention, helping define what an ambient, self-programming home device looks like.",
+  "primary_url": "https://store.google.com/product/nest_learning_thermostat_4th_gen",
+  "attributes": {
+    "embodiment.form": ["Smart appliance", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Motion", "Environmental sensors", "Touch", "Location"],
+    "intelligence.model": ["Classical machine learning"],
+    "function.role": ["Assistant", "Tool"],
+    "genealogy.lineage": ["Smart home", "Internet of Things", "Ubiquitous computing", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 1,
+    "social_legibility": 1,
+    "form_specificity": 2,
+    "autonomy": 3,
+    "initiative": 4,
+    "memory_span": 3,
+    "visibility": 2,
+    "generality": 1,
+    "intensity": 1,
+    "expressiveness": 1,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-nest-learning-thermostat-001",
+      "caption": "A Nest Learning Thermostat mounted on a wall, its circular display showing the set temperature.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nest_Learning_Thermostat_(cropped).JPG",
+      "rights_status": "public_domain",
+      "alt_text": "A round, brushed-metal Nest Learning Thermostat mounted on a wall, its black circular screen displaying a temperature reading.",
+      "local_image": "/projects/nest-learning-thermostat.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-nest-learning-thermostat-001",
+      "title": "Nest Learning Thermostat",
+      "source_type": "official_product_page",
+      "url": "https://store.google.com/product/nest_learning_thermostat_4th_gen",
+      "publisher": "Google",
+      "year": 2011,
+      "access_notes": "Official Google Store product page for the Nest Learning Thermostat."
+    },
+    {
+      "source_id": "source-nest-learning-thermostat-002",
+      "title": "Tony Fadell Demos His New Nest Learning Thermostat",
+      "source_type": "credible_news",
+      "url": "https://techcrunch.com/2011/10/24/tony-fadell-demos-his-new-nest-learning-thermostat-tctv/",
+      "publisher": "TechCrunch",
+      "year": 2011,
+      "access_notes": "Coverage of the October 2011 launch by Nest Labs, co-founded by Tony Fadell and Matt Rogers."
+    }
+  ],
+  "confidence": "high"
+}

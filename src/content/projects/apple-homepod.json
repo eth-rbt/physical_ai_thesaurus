@@ -1,0 +1,64 @@
+{
+  "name": "Apple HomePod",
+  "year": 2018,
+  "organization": ["Apple"],
+  "project_type": "commercial_product",
+  "short_description": "A Siri-powered smart speaker that listens for voice commands and controls Apple Music, HomeKit devices, and the home.",
+  "long_description": "The HomePod is a stationary domestic speaker built around a far-field microphone array and the Siri voice assistant, using on-device sensing to tune its sound to the room and to hear wake-word commands across a space. As a piece of physical AI it shows how an appliance-shaped object becomes an ambient agent: it has no screen, face, or mobility, yet it sits in the home as an always-listening hub that mediates music, messaging, smart-home control, and household routines. Its form keeps it socially low-key while making AI a fixed, room-scale presence in daily life.",
+  "primary_url": "https://www.apple.com/homepod-2nd-generation/",
+  "attributes": {
+    "embodiment.form": ["Smart appliance", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Speech", "Audio", "Touch"],
+    "intelligence.model": ["Speech model", "Large language model"],
+    "function.role": ["Assistant"],
+    "genealogy.lineage": ["Smart home", "Ambient intelligence", "Internet of Things"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 2,
+    "form_specificity": 1,
+    "social_legibility": 1,
+    "autonomy": 2,
+    "initiative": 1,
+    "memory_span": 2,
+    "visibility": 2,
+    "generality": 3,
+    "intensity": 2,
+    "expressiveness": 1,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-apple-homepod-001",
+      "caption": "An original Apple HomePod smart speaker, June 2018.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Apple_HomePod_-_June_2018_(1923).jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A cylindrical Apple HomePod smart speaker covered in white mesh fabric, standing on a wooden surface.",
+      "local_image": "/projects/apple-homepod.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-apple-homepod-001",
+      "title": "HomePod (1st generation) - Technical Specifications",
+      "source_type": "official_product_page",
+      "url": "https://support.apple.com/en-us/111994",
+      "publisher": "Apple",
+      "year": 2018,
+      "access_notes": "Official Apple specs: six-microphone array, A8 chip, Siri."
+    },
+    {
+      "source_id": "source-apple-homepod-002",
+      "title": "HomePod",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/HomePod",
+      "publisher": "Wikipedia",
+      "year": 2023,
+      "access_notes": "Launch dates: original Feb 9 2018; 2nd generation Feb 3 2023."
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Project Soli",
+  "year": 2015,
+  "organization": ["Google ATAP", "Infineon"],
+  "project_type": "research_prototype",
+  "short_description": "A miniature 60 GHz radar chip from Google ATAP that senses fine touchless hand micro-gestures and human presence.",
+  "long_description": "Soli is a millimeter-wave frequency-modulated continuous-wave (FMCW) radar sensor and antenna array shrunk onto a single chip a few millimeters across. Announced at Google I/O 2015 and led by Ivan Poupyrev, it detects sub-millimeter hand motions at very high frame rates without cameras, light, or contact, and works through materials. It moved from a developer kit into consumer products: 'Motion Sense' touchless gestures and presence detection in the 2019 Pixel 4, and contactless 'Sleep Sensing' (breathing and movement tracking) in the 2nd-gen Nest Hub in 2021. As physical AI, Soli is significant as ambient, infrastructure-grade sensing: the device perceives gesture and presence while staying invisible, raising it as a privacy-friendlier alternative to cameras for in-the-environment interaction.",
+  "primary_url": "https://atap.google.com/soli/",
+  "attributes": {
+    "embodiment.form": ["Smart appliance", "Architectural / environmental system"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Gesture", "Motion", "Environmental sensors"],
+    "intelligence.model": ["Deep learning", "Classical machine learning"],
+    "intelligence.perception": ["Gesture", "Motion"],
+    "function.role": ["Tool"],
+    "function.environmental": ["Presence sensing"],
+    "genealogy.lineage": ["Ubiquitous computing", "Ambient intelligence", "Internet of Things"],
+    "genealogy.interaction": ["Touchless interaction", "Gesture interaction"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "memory_span": 1,
+    "autonomy": 1,
+    "expressiveness": 1,
+    "social_legibility": 1,
+    "visibility": 1,
+    "scale": 1,
+    "initiative": 1,
+    "generality": 2,
+    "intensity": 2,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-google-soli-001",
+      "caption": "Front schematic of the Google Pixel 4, the first consumer phone to ship the Soli radar (Motion Sense) behind the top bezel.",
+      "image_type": "system_diagram",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pixel_4_schematic.svg",
+      "rights_status": "creative_commons",
+      "alt_text": "A line schematic of the front of a Google Pixel 4 smartphone, with a wide top bezel that houses the Soli radar sensor used for Motion Sense.",
+      "local_image": "/projects/google-soli.svg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-google-soli-001",
+      "title": "Soli: Ubiquitous Gesture Sensing with Millimeter Wave Radar",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2897824.2925953",
+      "publisher": "ACM Transactions on Graphics (SIGGRAPH), Vol. 35, No. 4",
+      "year": 2016,
+      "access_notes": "Authors: Jaime Lien, Nicholas Gillian, M. Emre Karagozler, Patrick Amihood, Carsten Schwesig, Erik Olson, Hakim Raja, Ivan Poupyrev (Google ATAP). Primary technical reference for the Soli FMCW radar approach."
+    },
+    {
+      "source_id": "source-google-soli-002",
+      "title": "Soli: Radar-Based Perception and Interaction in Pixel 4",
+      "source_type": "official_blog_post",
+      "url": "https://research.google/blog/soli-radar-based-perception-and-interaction-in-pixel-4/",
+      "publisher": "Google Research",
+      "year": 2020,
+      "access_notes": "Describes 60 GHz FMCW radar, Motion Sense and presence detection in Pixel 4."
+    },
+    {
+      "source_id": "source-google-soli-003",
+      "title": "Google's Soli radar returns to track sleep on the new Nest Hub",
+      "source_type": "credible_news",
+      "url": "https://techcrunch.com/2021/03/16/googles-soli-returns-to-track-sleep-on-the-new-nest-hub/",
+      "publisher": "TechCrunch",
+      "year": 2021,
+      "access_notes": "Coverage of Soli-powered contactless Sleep Sensing in the 2nd-gen Nest Hub."
+    },
+    {
+      "source_id": "source-google-soli-004",
+      "title": "Google ATAP hopes its Project Soli and Project Jacquard will change how we interact with wearables",
+      "source_type": "credible_news",
+      "url": "https://9to5google.com/2015/05/29/google-atap-project-soli-jacquard/",
+      "publisher": "9to5Google",
+      "year": 2015,
+      "access_notes": "Documents the Google I/O 2015 announcement by ATAP."
+    }
+  ],
+  "confidence": "high"
+}

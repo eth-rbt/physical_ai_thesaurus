@@ -1,0 +1,64 @@
+{
+  "name": "Moflin",
+  "year": 2024,
+  "organization": ["Casio", "Vanguard Industries"],
+  "project_type": "commercial_product",
+  "short_description": "A palm-sized, furry AI companion robot that develops its own personality and emotional bond with its owner through touch and voice.",
+  "long_description": "Moflin is a handheld, fluffy creature-shaped robot with no face, legs, or wheels that responds to petting, holding, and talking with wiggles and animal-like sounds. Its proprietary 'Emotional AI' tracks how it is treated over time, growing one of over four million possible emotional profiles and forming an attachment that feels earned rather than scripted. As an affective object for people who want a pet's comfort without a living animal, it shows how everyday physical AI can be built around emotional presence and long-term relationship instead of task completion.",
+  "primary_url": "https://www.casio.com/us/moflin/",
+  "attributes": {
+    "embodiment.form": ["Animal / creature robot", "Domestic object"],
+    "embodiment.mobility": ["Handheld"],
+    "intelligence.input": ["Touch", "Audio", "Speech", "Motion"],
+    "intelligence.model": ["Classical machine learning"],
+    "function.role": ["Companion", "Caregiver"],
+    "genealogy.lineage": ["Companion robotics", "Social robotics"]
+  },
+  "metrics": {
+    "proximity": 4,
+    "mobility": 2,
+    "scale": 1,
+    "social_legibility": 3,
+    "form_specificity": 4,
+    "autonomy": 1,
+    "initiative": 2,
+    "memory_span": 4,
+    "visibility": 4,
+    "generality": 1,
+    "intensity": 3,
+    "expressiveness": 5,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-moflin-001",
+      "caption": "Casio Moflin, a palm-sized furry AI companion robot.",
+      "image_type": "product_photo",
+      "source_url": "https://www.designboom.com/technology/casio-ai-pet-robot-moflin-10-15-2024/",
+      "rights_status": "needs_permission",
+      "alt_text": "A small oval-shaped fluffy robot with light brown fur and no visible face or limbs, resembling a guinea pig.",
+      "local_image": "/projects/moflin.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-moflin-001",
+      "title": "Moflin: AI Companion and Robot Pet",
+      "source_type": "official_product_page",
+      "url": "https://www.casio.com/us/moflin/",
+      "publisher": "Casio",
+      "year": 2025,
+      "access_notes": "Official Casio US product page."
+    },
+    {
+      "source_id": "source-moflin-002",
+      "title": "Casio introduces Moflin, the emotionally responsive smart companion that learns and evolves with you",
+      "source_type": "press_release",
+      "url": "https://www.prnewswire.com/news-releases/casio-introduces-moflin-the-emotionally-responsive-smart-companion-that-learns-and-evolves-with-you-302558268.html",
+      "publisher": "Casio America",
+      "year": 2025,
+      "access_notes": "Press release covering US launch; notes original Japan launch November 2024."
+    }
+  ],
+  "confidence": "high"
+}

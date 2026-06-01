@@ -1,0 +1,61 @@
+{
+  "name": "Stochastic Parrot",
+  "year": 2024,
+  "organization": ["Ethan Chang", "Matthieu Huss", "Quincy Kuang"],
+  "project_type": "art_design_project",
+  "short_description": "A candid AI cohabitant: a physical, fuzzy, opinionated parrot that rides on your shoulder, gathers context from the world, and interjects on its own terms.",
+  "long_description": "Stochastic Parrot is a speculative design project that reframes the AI assistant as a non-human cohabitant rather than a subservient digital butler. Instead of an anthropomorphic interface, it embodies a fuzzy parrot character with its own autonomous agency: it wanders with you on your shoulder, collects context from the surrounding environment, whispers contextual information, nudges you about your goals, reacts to where you are, and can engage in 'parrot-to-parrot' social dynamics with other instances. As physical AI, it explores how an affective, opinionated creature-companion with proactive initiative might be a more honest and legible form for everyday AI than a compliant assistant.",
+  "primary_url": "https://ethanchang.design/projects/parrot.html",
+  "attributes": {
+    "embodiment.form": ["Animal / creature robot", "Wearable"],
+    "embodiment.mobility": ["Body-worn"],
+    "intelligence.input": ["Vision", "Audio", "Speech", "Environmental sensors", "Location"],
+    "intelligence.model": ["Large language model"],
+    "function.role": ["Companion", "Assistant", "Coach"],
+    "genealogy.lineage": ["Speculative design", "Companion robotics", "Social robotics", "Wearable computing"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 4,
+    "social_legibility": 4,
+    "form_specificity": 5,
+    "expressiveness": 5,
+    "initiative": 5,
+    "autonomy": 4,
+    "memory_span": 3,
+    "generality": 4,
+    "intensity": 2
+  },
+  "images": [
+    {
+      "image_id": "img-stochastic-parrot-001",
+      "caption": "The Stochastic Parrot, a physical fuzzy parrot designed to ride on the user's shoulder as a candid AI cohabitant.",
+      "image_type": "render",
+      "source_url": "https://ethanchang.design/projects/parrot.html",
+      "rights_status": "needs_permission",
+      "alt_text": "A soft, fuzzy parrot-shaped AI companion object rendered against a clean background, designed to perch on a person's shoulder.",
+      "local_image": "/projects/stochastic-parrot.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-stochastic-parrot-001",
+      "title": "Stochastic Parrot — A Candid AI Cohabitant",
+      "source_type": "project_page",
+      "url": "https://ethanchang.design/projects/parrot.html",
+      "publisher": "Ethan Chang",
+      "year": 2024,
+      "access_notes": "Creator's own project page (primary source)."
+    },
+    {
+      "source_id": "source-stochastic-parrot-002",
+      "title": "NeurIPS 2025 Creative AI Track: Humanity",
+      "source_type": "exhibition_page",
+      "url": "https://neurips.cc/",
+      "publisher": "NeurIPS",
+      "year": 2025,
+      "access_notes": "Featured in the NeurIPS 2025 Creative AI Track per the creator's project page; exact listing URL not verified."
+    }
+  ],
+  "confidence": "medium"
+}

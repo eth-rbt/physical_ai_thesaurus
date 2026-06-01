@@ -1,0 +1,64 @@
+{
+  "name": "iRobot Roomba",
+  "year": 2002,
+  "organization": ["iRobot"],
+  "project_type": "commercial_product",
+  "short_description": "An autonomous disc-shaped robot vacuum that drives itself around the home to clean floors.",
+  "long_description": "First released in 2002, the Roomba is the consumer robot that put autonomous machines into ordinary households. Early models cleaned via reactive bump-and-turn behaviors, while later generations (e.g. the 980 and i-series) added forward-looking cameras with vSLAM-based mapping and navigation, app control, and self-emptying docks. As one of the first mass-market mobile robots, it is a foundational example of physical AI in daily life: a low-legibility appliance that perceives, decides, and acts in a shared human space with little supervision.",
+  "primary_url": "https://www.irobot.com/en_US/roomba.html",
+  "attributes": {
+    "embodiment.form": ["Mobile robot", "Domestic object", "Smart appliance"],
+    "embodiment.mobility": ["Wheeled"],
+    "intelligence.input": ["Vision", "Touch", "Environmental sensors"],
+    "intelligence.model": ["Rule-based system", "Classical machine learning"],
+    "function.role": ["Cleaner", "Tool"],
+    "genealogy.lineage": ["Social robotics", "Smart home", "Ubiquitous computing", "Internet of Things"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 4,
+    "scale": 2,
+    "social_legibility": 1,
+    "form_specificity": 4,
+    "autonomy": 4,
+    "initiative": 2,
+    "memory_span": 3,
+    "visibility": 3,
+    "generality": 1,
+    "intensity": 1,
+    "expressiveness": 1,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-irobot-roomba-001",
+      "caption": "Top view of an iRobot Roomba (model 782) robot vacuum.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:IRobot-Roomba-Top-view-01.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A round, dark grey iRobot Roomba robotic vacuum cleaner photographed from directly above, showing its circular body and central control buttons.",
+      "local_image": "/projects/irobot-roomba.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-irobot-roomba-001",
+      "title": "Roomba",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Roomba",
+      "publisher": "Wikipedia",
+      "year": 2002,
+      "access_notes": "Overview of Roomba history, 2002 release, and vSLAM navigation in later models."
+    },
+    {
+      "source_id": "source-irobot-roomba-002",
+      "title": "iRobot Brings Visual Mapping and Navigation to the Roomba 980",
+      "source_type": "credible_news",
+      "url": "https://spectrum.ieee.org/irobot-brings-visual-mapping-and-navigation-to-the-roomba-980",
+      "publisher": "IEEE Spectrum",
+      "year": 2015,
+      "access_notes": "Details the camera-based vSLAM navigation and mapping introduced on the Roomba 980."
+    }
+  ],
+  "confidence": "high"
+}

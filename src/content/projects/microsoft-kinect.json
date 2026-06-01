@@ -1,0 +1,64 @@
+{
+  "name": "Microsoft Kinect",
+  "year": 2010,
+  "organization": ["Microsoft"],
+  "project_type": "commercial_product",
+  "short_description": "A controller-free motion-sensing peripheral for the Xbox 360 that tracks bodies, gestures, and voice using an RGB camera, infrared depth sensor, and microphone array.",
+  "long_description": "Kinect is a sensor bar that sits beneath a television and uses a structured-light infrared depth camera, an RGB camera, and a microphone array to reconstruct players' skeletons in 3D and recognize their gestures and speech, letting them control games and menus without a handheld controller. Released in 2010 for the Xbox 360, it became the fastest-selling consumer electronics device on record and, beyond gaming, put affordable real-time depth sensing into the hands of researchers and hobbyists. That cheap depth perception seeded a wave of physical-AI work in robotics navigation, 3D scanning, and gesture interfaces, making it a key ancestor of room-scale ambient sensing in everyday spaces.",
+  "primary_url": "https://en.wikipedia.org/wiki/Kinect",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Smart appliance"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Vision", "Motion", "Gesture", "Speech", "Audio"],
+    "intelligence.model": ["Classical machine learning", "Deep learning"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Ubiquitous computing", "Ambient intelligence", "Human-robot interaction"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 2,
+    "form_specificity": 2,
+    "social_legibility": 1,
+    "autonomy": 1,
+    "initiative": 1,
+    "memory_span": 1,
+    "visibility": 2,
+    "generality": 2,
+    "intensity": 3,
+    "expressiveness": 1,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-microsoft-kinect-001",
+      "caption": "The Microsoft Kinect sensor bar for Xbox 360, showing its RGB camera, infrared depth sensor, and microphone array.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Microsoft_Kinect_(7973407796).jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A horizontal black Microsoft Kinect sensor bar with multiple camera and sensor lenses across its front, mounted on a small motorized base.",
+      "local_image": "/projects/microsoft-kinect.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-microsoft-kinect-001",
+      "title": "Kinect",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Kinect",
+      "publisher": "Wikipedia",
+      "year": 2010,
+      "access_notes": "Overview of Kinect hardware, release date (November 4, 2010), depth-sensing technology, and sales records."
+    },
+    {
+      "source_id": "source-microsoft-kinect-002",
+      "title": "Ten years on, Kinect's legacy goes beyond Xbox",
+      "source_type": "credible_news",
+      "url": "https://www.engadget.com/kinect-10-years-retrospective-150011349.html",
+      "publisher": "Engadget",
+      "year": 2020,
+      "access_notes": "Retrospective on Kinect's influence on robotics, 3D scanning, and depth-sensing research beyond gaming."
+    }
+  ],
+  "confidence": "high"
+}

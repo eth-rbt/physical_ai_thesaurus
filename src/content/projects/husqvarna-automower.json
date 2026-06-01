@@ -1,0 +1,74 @@
+{
+  "name": "Husqvarna Automower",
+  "year": 1995,
+  "organization": ["Husqvarna"],
+  "project_type": "commercial_product",
+  "short_description": "A line of autonomous robotic lawn mowers that navigate and cut a yard on their own, returning to a charging station as needed.",
+  "long_description": "First sold in 1995 as the solar-powered Automower and refined across decades, Husqvarna's Automower is one of the longest-running consumer autonomous robots, quietly mowing lawns without supervision. Early models stayed inside a buried boundary wire, while recent EPOS and AI-vision models use RTK satellite positioning and an onboard camera to follow virtual boundaries and avoid obstacles with no wires at all. As a familiar appliance that acts on its own in shared outdoor space, it is a mainstream example of physical AI that people delegate real tasks to in everyday domestic life.",
+  "primary_url": "https://www.husqvarna.com/us/robotic-lawn-mowers/",
+  "attributes": {
+    "embodiment.form": ["Mobile robot", "Domestic object"],
+    "embodiment.mobility": ["Wheeled"],
+    "intelligence.input": ["Vision", "Location", "Motion", "Environmental sensors"],
+    "intelligence.model": ["Rule-based system", "Classical machine learning"],
+    "function.role": ["Tool", "Cleaner"],
+    "function.task_domain": ["Lawn care"],
+    "genealogy.lineage": ["Industrial automation", "Internet of Things"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 3,
+    "scale": 2,
+    "autonomy": 4,
+    "initiative": 3,
+    "memory_span": 2,
+    "social_legibility": 1,
+    "form_specificity": 4,
+    "visibility": 3,
+    "generality": 1,
+    "intensity": 1,
+    "expressiveness": 1,
+    "timing": 2
+  },
+  "images": [
+    {
+      "image_id": "img-husqvarna-automower-001",
+      "caption": "A Husqvarna Automower 430X robotic lawn mower on a lawn.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Husqvarna_automower_430X.jpg",
+      "rights_status": "public_domain",
+      "alt_text": "A low, dark-grey wheeled Husqvarna Automower robotic lawn mower sitting on a green lawn.",
+      "local_image": "/projects/husqvarna-automower.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-husqvarna-automower-001",
+      "title": "Robotic Lawn Mowers",
+      "source_type": "official_product_page",
+      "url": "https://www.husqvarna.com/us/robotic-lawn-mowers/",
+      "publisher": "Husqvarna",
+      "year": null,
+      "access_notes": "Official product line page covering current Automower and EPOS models."
+    },
+    {
+      "source_id": "source-husqvarna-automower-002",
+      "title": "From idea to global market leader - Husqvarna Group celebrates 25 years in the robotic mowing industry",
+      "source_type": "official_blog_post",
+      "url": "https://www.husqvarnagroup.com/en/news/idea-global-market-leader-husqvarna-group-celebrates-25-years-robotic-mowing-industry",
+      "publisher": "Husqvarna Group",
+      "year": 2020,
+      "access_notes": "Company history confirming 1995 launch of the first Automower."
+    },
+    {
+      "source_id": "source-husqvarna-automower-003",
+      "title": "Husqvarna EPOS - Virtual boundaries. Endless possibilities.",
+      "source_type": "official_product_page",
+      "url": "https://www.husqvarna.com/us/discover/epos/",
+      "publisher": "Husqvarna",
+      "year": null,
+      "access_notes": "Describes RTK satellite positioning, virtual boundaries, and AI vision navigation."
+    }
+  ],
+  "confidence": "high"
+}

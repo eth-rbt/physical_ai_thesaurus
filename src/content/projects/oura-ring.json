@@ -1,0 +1,64 @@
+{
+  "name": "Oura Ring",
+  "year": 2015,
+  "organization": ["Oura Health"],
+  "project_type": "commercial_product",
+  "short_description": "A finger-worn smart ring that continuously tracks sleep, heart rate, body temperature, and activity, surfacing daily readiness and health insights through an app.",
+  "long_description": "The Oura Ring is a titanium smart ring packed with optical heart-rate, temperature, and motion sensors that quietly logs physiological signals all day and night from the finger. Software turns this raw biometric stream into interpreted scores for sleep, readiness, and activity, plus longer-term trends and anomaly alerts. As a piece of always-worn jewelry rather than a screened gadget, it shows how ambient, sensor-driven AI can read the body intimately and continuously, framing health as an ongoing background computation woven into daily life.",
+  "primary_url": "https://ouraring.com/",
+  "attributes": {
+    "embodiment.form": ["Wearable"],
+    "embodiment.mobility": ["Body-worn"],
+    "intelligence.input": ["Motion", "Environmental sensors", "Force / torque"],
+    "intelligence.model": ["Classical machine learning", "Deep learning"],
+    "function.role": ["Coach", "Memory aid"],
+    "genealogy.lineage": ["Wearable computing", "Ubiquitous computing", "Internet of Things"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 4,
+    "scale": 1,
+    "form_specificity": 4,
+    "social_legibility": 1,
+    "autonomy": 2,
+    "initiative": 2,
+    "memory_span": 4,
+    "visibility": 1,
+    "generality": 2,
+    "intensity": 1,
+    "expressiveness": 1,
+    "timing": 2
+  },
+  "images": [
+    {
+      "image_id": "img-oura-ring-001",
+      "caption": "An Oura smart ring on display at an electronics retailer.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OURA_Ring_-_1.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A dark titanium Oura smart ring shown in a retail display, with the band's inner sensors and finish visible.",
+      "local_image": "/projects/oura-ring.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-oura-ring-001",
+      "title": "Oura Ring. Smart Ring for Fitness, Stress, Sleep & Health.",
+      "source_type": "official_product_page",
+      "url": "https://ouraring.com/",
+      "publisher": "Oura Health",
+      "year": 2024,
+      "access_notes": "Official product homepage."
+    },
+    {
+      "source_id": "source-oura-ring-002",
+      "title": "Oura Health",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Oura_Health",
+      "publisher": "Wikipedia",
+      "year": 2024,
+      "access_notes": "Company and product history: founded 2013 in Oulu, Finland; first ring via Kickstarter in 2015-2016; Gen 2 (2018), Gen 3 (2021), Ring 4 (2024)."
+    }
+  ],
+  "confidence": "high"
+}

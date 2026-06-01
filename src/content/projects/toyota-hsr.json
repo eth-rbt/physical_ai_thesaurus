@@ -1,0 +1,64 @@
+{
+  "name": "Toyota Human Support Robot (HSR)",
+  "year": 2012,
+  "organization": ["Toyota Motor Corporation"],
+  "project_type": "research_prototype",
+  "short_description": "A compact, omnidirectional mobile manipulator with a folding arm, designed to assist elderly and disabled people with everyday physical tasks at home.",
+  "long_description": "The HSR is a lightweight, cylindrical wheeled robot with a single folding arm, an actuated head carrying RGB-D and stereo cameras, and a display for telepresence, built to fetch objects, pick items off the floor, and help with daily living. Since 2015 Toyota has distributed it to universities and labs worldwide as a shared open research platform running ROS, making it one of the most common testbeds for in-home service robotics and human-robot interaction. It matters for physical AI in daily life because it grounds embodied assistance research in a real, repeatable domestic robot rather than a simulation, letting many groups benchmark navigation, manipulation, and care tasks on the same hardware.",
+  "primary_url": "https://global.toyota/en/detail/8709541",
+  "attributes": {
+    "embodiment.form": ["Mobile robot", "Domestic object"],
+    "embodiment.mobility": ["Wheeled", "Robotic arm"],
+    "intelligence.input": ["Vision", "Speech", "Force / torque"],
+    "intelligence.model": ["Deep learning"],
+    "function.role": ["Caregiver", "Assistant", "Tool"],
+    "genealogy.lineage": ["Human-robot interaction", "Social robotics", "Telepresence robotics"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 3,
+    "scale": 3,
+    "social_legibility": 3,
+    "form_specificity": 3,
+    "autonomy": 3,
+    "initiative": 2,
+    "memory_span": 2,
+    "visibility": 4,
+    "generality": 3,
+    "intensity": 3,
+    "expressiveness": 2,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-toyota-hsr-001",
+      "caption": "Toyota Human Support Robot (HSR), showing its camera head, telepresence display, and folding gripper arm.",
+      "image_type": "product_photo",
+      "source_url": "https://pressroom.toyota.com/image/hsr-human-support-robot-dsr-delivery-support-robot/",
+      "rights_status": "needs_permission",
+      "alt_text": "A white cylindrical Toyota Human Support Robot with a sensor-laden head, a small display screen, and a black folding gripper arm reaching forward.",
+      "local_image": "/projects/toyota-hsr.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-toyota-hsr-001",
+      "title": "Toyota Shifts Home Helper Robot R&D into High Gear with New Developer Community and Upgraded Prototype",
+      "source_type": "press_release",
+      "url": "https://global.toyota/en/detail/8709541",
+      "publisher": "Toyota Motor Corporation",
+      "year": 2015,
+      "access_notes": "Official Toyota global newsroom announcement of the HSR developer community and platform."
+    },
+    {
+      "source_id": "source-toyota-hsr-002",
+      "title": "Toyota Human Support Robot: What is it and how can it be used?",
+      "source_type": "official_blog_post",
+      "url": "https://mag.toyota.co.uk/toyota-human-support-robot/",
+      "publisher": "Toyota UK Magazine",
+      "year": 2019,
+      "access_notes": "Describes HSR capabilities, remote operation, and history since 2012."
+    }
+  ],
+  "confidence": "high"
+}

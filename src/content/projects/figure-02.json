@@ -1,0 +1,45 @@
+{
+  "name": "Figure 02",
+  "year": 2024,
+  "organization": ["Figure AI"],
+  "project_type": "commercial_product",
+  "short_description": "A general-purpose humanoid robot aimed at manipulation and labor tasks in human environments.",
+  "long_description": "A bipedal humanoid with arms, hands, and onboard cameras intended to work in warehouses and other human-shaped spaces. Its anthropomorphic form sets strong expectations of dexterity and instruction-following, which is exactly the expectation-mismatch risk humanoids carry.",
+  "primary_url": "https://www.figure.ai/",
+  "attributes": {
+    "embodiment.form": ["Humanoid robot"],
+    "embodiment.mobility": ["Legged"],
+    "intelligence.input": ["Vision", "Force / torque", "Speech"],
+    "intelligence.model": ["Vision-language-action model", "Robotics foundation model"],
+    "function.role": ["Coworker", "Manufacturing worker"],
+    "genealogy.lineage": ["Human-robot interaction", "Industrial automation"]
+  },
+  "metrics": {
+    "social_legibility": 5,
+    "proximity": 2,
+    "mobility": 3
+  },
+  "images": [
+    {
+      "image_id": "img-figure-02-001",
+      "caption": "Figure 02 humanoid robot.",
+      "image_type": "product_photo",
+      "source_url": "https://spectrum.ieee.org/figure-new-humanoid-robot",
+      "rights_status": "needs_permission",
+      "alt_text": "The torso and arm of the Figure 02 humanoid robot, a grey and black machine with a glossy black faceplate, looking down at its own hand.",
+      "local_image": "/projects/figure-02.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-figure-02-001",
+      "title": "Figure",
+      "source_type": "official_product_page",
+      "url": "https://www.figure.ai/",
+      "publisher": "Figure AI",
+      "year": 2024,
+      "access_notes": "Company site."
+    }
+  ],
+  "confidence": "medium"
+}

@@ -1,0 +1,98 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const projects = await getCollection('projects');
+  const cards = await getCollection('cards');
+  return projects.map((project) => {
+    // Reverse-link: which cards reference this project? Computed at build time
+    // so each project page can show where it appears across the thesaurus.
+    const appearsIn = cards.filter((c) =>
+      c.data.project_ids.some((ref) => ref.id === project.id),
+    );
+    return { params: { id: project.id }, props: { project, appearsIn } };
+  });
+}
+
+const { project, appearsIn } = Astro.props;
+const d = project.data;
+const attrKeys = Object.keys(d.attributes);
+const metricKeys = Object.keys(d.metrics);
+---
+
+<Base title={d.name}>
+  <p class="muted"><a href="/">← Thesaurus</a></p>
+  <span class="chip">{d.project_type.replace(/_/g, ' ')}</span>
+  <h1 style="margin-top:0.5rem">{d.name}</h1>
+  <p class="muted">
+    {d.organization.join(', ')}{d.year ? ` · ${d.year}` : ''} · confidence: {d.confidence}
+  </p>
+
+  <p>{d.long_description ?? d.short_description}</p>
+  {d.primary_url && <p><a href={d.primary_url}>{d.primary_url}</a></p>}
+
+  {appearsIn.length > 0 && (
+    <p class="appears-in">
+      <strong>Appears in:</strong>
+      {appearsIn.map((c) => <a href={`/cards/${c.id}/`}>{c.data.title}</a>)}
+    </p>
+  )}
+
+  {attrKeys.length > 0 && (
+    <>
+      <h2>Attributes</h2>
+      <table class="attr-table">
+        <tbody>
+          {attrKeys.map((k) => (
+            <tr>
+              <td class="k">{k}</td>
+              <td>{d.attributes[k].map((v) => <span class="pill">{v}</span>)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  )}
+
+  {metricKeys.length > 0 && (
+    <>
+      <h2>Metrics</h2>
+      <table class="meta-list">
+        <tbody>
+          {metricKeys.map((k) => (
+            <tr><td class="k">{k}</td><td>{d.metrics[k]}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  )}
+
+  {d.images.length > 0 && (
+    <>
+      <h2>Images</h2>
+      <ul class="sources">
+        {d.images.map((img) => (
+          <li>
+            <a href={img.source_url}>{img.caption}</a>
+            <span class="muted"> — {img.image_type.replace(/_/g, ' ')}, {img.rights_status.replace(/_/g, ' ')}</span>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  {d.sources.length > 0 && (
+    <>
+      <h2>Sources</h2>
+      <ul class="sources">
+        {d.sources.map((s) => (
+          <li>
+            <a href={s.url}>{s.title}</a>
+            <span class="muted"> — {s.source_type.replace(/_/g, ' ')}{s.year ? `, ${s.year}` : ''}</span>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+</Base>

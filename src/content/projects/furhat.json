@@ -1,0 +1,81 @@
+{
+  "name": "Furhat",
+  "year": 2014,
+  "organization": ["Furhat Robotics", "KTH Royal Institute of Technology"],
+  "project_type": "commercial_product",
+  "short_description": "A tabletop social robot whose human-like face is back-projected onto a translucent mask, built for expressive, multi-party conversation.",
+  "long_description": "Furhat is a stationary humanoid robot head that projects an animated face from the inside onto a swappable translucent mask, so it can change persona and show expressions, gaze, and lip-sync without mechanical facial actuators. A wide-angle camera, stereo and far-field array microphones, and a three-degree-of-freedom neck let it track and turn toward several people at once, while its SDK and conversation tooling now route dialogue through large language models. Spun out of speech-and-conversation research at KTH in Stockholm, it is a leading research and commercial platform for human-robot interaction, deployed in recruitment, healthcare, education, and customer-facing roles.",
+  "primary_url": "https://www.furhatrobotics.com/furhat-robot",
+  "attributes": {
+    "embodiment.form": ["Humanoid robot", "Desktop agent"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.social_legibility": ["Humanoid / social actor"],
+    "intelligence.input": ["Vision", "Speech", "Audio", "Gaze"],
+    "intelligence.output": ["Speech", "Gesture"],
+    "intelligence.model": ["Large language model", "Speech model"],
+    "function.role": ["Assistant", "Companion", "Performer", "Teacher"],
+    "genealogy.lineage": ["Social robotics", "Human-robot interaction", "Companion robotics"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 5,
+    "form_specificity": 5,
+    "memory_span": 2,
+    "autonomy": 2,
+    "initiative": 3,
+    "expressiveness": 5,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-furhat-001",
+      "caption": "A Furhat robot head with its animated face back-projected onto a translucent mask.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_Furhat_Robot_Head.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A Furhat social robot: a head-and-shoulders bust on a stand with a translucent face mask onto which eyes, eyebrows, nose, and mouth are projected from inside.",
+      "local_image": "/projects/furhat.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-furhat-001",
+      "title": "The Furhat Robot",
+      "source_type": "official_product_page",
+      "url": "https://www.furhatrobotics.com/furhat-robot",
+      "publisher": "Furhat Robotics",
+      "year": null,
+      "access_notes": "Official product page with hardware specifications."
+    },
+    {
+      "source_id": "source-furhat-002",
+      "title": "Furhat",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/Furhat",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Background on capabilities, KTH origins, and GPT/LLM integration."
+    },
+    {
+      "source_id": "source-furhat-003",
+      "title": "Furhat: A Back-Projected Human-Like Robot Head for Multiparty Human-Machine Interaction",
+      "source_type": "academic_paper",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-642-34584-5_9",
+      "publisher": "Springer",
+      "year": 2013,
+      "access_notes": "Original research describing the back-projected face concept (Al Moubayed, Beskow, Skantze, Granstrom)."
+    },
+    {
+      "source_id": "source-furhat-004",
+      "title": "Furhat Robotics",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/Furhat_Robotics",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Company founding (2014, Stockholm) and KTH spin-off history."
+    }
+  ],
+  "confidence": "high"
+}
