@@ -38,6 +38,8 @@ a:hover { text-decoration: underline; }
 .site-header .wrap { padding: 0.9rem 1.25rem; display: flex; align-items: baseline; gap: 1rem; }
 .site-header a.brand { font-weight: 700; color: var(--text); }
 .site-header .tag { color: var(--muted); font-size: 0.85rem; }
+.site-header a.logout { margin-left: auto; color: var(--muted); font-size: 0.8rem; }
+.site-header a.logout:hover { color: var(--accent); }
 
 h1, h2, h3 { line-height: 1.25; }
 .muted { color: var(--muted); }
@@ -269,3 +271,47 @@ ul.sources li { margin-bottom: 0.4rem; }
 .ix-prov.documented { color: #7ce0a3; border-color: #2f5a43; }
 .ix-prov.observed { color: #ffcf7c; border-color: #5a4a2f; }
 .ix-prov.proposed { color: var(--accent); border-color: #3a4470; }
+
+/* --- Thoughts feed (Phase 2) --- */
+.thoughts { margin: 3rem auto 0; max-width: 760px; border-top: 1px solid var(--border); padding-top: 1.5rem; }
+.thoughts-head { display: flex; align-items: baseline; gap: 0.6rem; }
+.thoughts-head h2 { margin: 0; font-size: 1.1rem; }
+.thoughts-head .count { font-size: 0.85rem; }
+.thought-list {
+  list-style: none; margin: 1rem 0; padding: 0 0.25rem 0 0;
+  display: flex; flex-direction: column; gap: 0.75rem;
+  max-height: 420px; overflow-y: auto;
+}
+.thought-empty { padding: 0.5rem 0; }
+.thought {
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: 10px; padding: 0.7rem 0.85rem;
+}
+.thought-meta { display: flex; justify-content: space-between; align-items: baseline; gap: 0.75rem; margin-bottom: 0.3rem; }
+.thought-author { font-weight: 600; font-size: 0.85rem; }
+.thought-time { font-size: 0.72rem; }
+.thought-body { margin: 0; white-space: pre-wrap; font-size: 0.92rem; line-height: 1.5; }
+.thought-tools { margin-top: 0.5rem; display: flex; gap: 0.5rem; }
+.thought-tools button, .thought-edit button {
+  font-size: 0.72rem; padding: 0.2rem 0.55rem; border-radius: 6px;
+  border: 1px solid var(--border); background: var(--panel-2); color: var(--muted); cursor: pointer;
+}
+.thought-tools button:hover, .thought-edit button:hover { color: var(--text); border-color: var(--accent); }
+.thought-tools button.danger:hover { color: #ff8585; border-color: #ff8585; }
+.thought-edit { display: flex; flex-direction: column; gap: 0.5rem; }
+.thought-edit textarea, .thought-form textarea {
+  width: 100%; padding: 0.6rem 0.7rem; border-radius: 10px;
+  border: 1px solid var(--border); background: var(--bg); color: var(--text);
+  font: inherit; font-size: 0.92rem; resize: vertical;
+}
+.thought-edit textarea:focus, .thought-form textarea:focus, .thought-form input:focus { outline: none; border-color: var(--accent); }
+.thought-form { display: flex; flex-direction: column; gap: 0.6rem; margin-top: 0.5rem; }
+.thought-form-row { display: flex; gap: 0.6rem; align-items: center; }
+.thought-form-row input {
+  flex: 1; padding: 0.55rem 0.7rem; border-radius: 10px;
+  border: 1px solid var(--border); background: var(--bg); color: var(--text); font: inherit; font-size: 0.85rem;
+}
+.thought-form-row button {
+  padding: 0.55rem 1.1rem; border-radius: 10px; border: 1px solid var(--accent);
+  background: var(--accent); color: #0e0f13; font-weight: 650; cursor: pointer;
+}

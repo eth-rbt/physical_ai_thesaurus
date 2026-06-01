@@ -1,21 +1,22 @@
 ---
-import { getCollection } from 'astro:content';
+import { getEntry, getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import Thoughts from '../../components/Thoughts.astro';
+import { getRole } from '../../lib/auth';
 
-export async function getStaticPaths() {
-  const projects = await getCollection('projects');
-  const cards = await getCollection('cards');
-  return projects.map((project) => {
-    // Reverse-link: which cards reference this project? Computed at build time
-    // so each project page can show where it appears across the thesaurus.
-    const appearsIn = cards.filter((c) =>
-      c.data.project_ids.some((ref) => ref.id === project.id),
-    );
-    return { params: { id: project.id }, props: { project, appearsIn } };
-  });
-}
+// SSR (output: 'server') so the password gate protects this page per request —
+// look the project up by URL param instead of prerendering via getStaticPaths.
+const { id } = Astro.params;
+const project = id ? await getEntry('projects', id) : undefined;
+if (!project) return new Response('Project not found', { status: 404 });
+const isAdmin = getRole(Astro.cookies) === 'admin';
 
-const { project, appearsIn } = Astro.props;
+// Reverse-link: which cards reference this project?
+const cards = await getCollection('cards');
+const appearsIn = cards.filter((c) =>
+  c.data.project_ids.some((ref) => ref.id === project.id),
+);
+
 const d = project.data;
 const attrKeys = Object.keys(d.attributes);
 const metricKeys = Object.keys(d.metrics);
@@ -129,4 +130,6 @@ const AI_LABEL = {
       </ul>
     </>
   )}
+
+  <Thoughts entityType="project" entityId={project.id} isAdmin={isAdmin} />
 </Base>

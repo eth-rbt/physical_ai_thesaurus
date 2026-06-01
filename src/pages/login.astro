@@ -1,0 +1,88 @@
+---
+import '../styles/global.css';
+import { COOKIE_NAME, verifyToken } from '../lib/auth';
+
+// If already signed in, skip the form.
+if (verifyToken(Astro.cookies.get(COOKIE_NAME)?.value)) {
+  return Astro.redirect('/', 302);
+}
+
+const params = Astro.url.searchParams;
+const error = params.get('error');
+const next = params.get('next') ?? '/';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sign in · Physical AI Thesaurus</title>
+  </head>
+  <body>
+    <main class="login-wrap">
+      <form class="login-card" method="POST" action="/api/login">
+        <h1>Physical AI Thesaurus</h1>
+        <p class="muted">This site is private. Enter the password to continue.</p>
+        <input type="hidden" name="next" value={next} />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          autocomplete="current-password"
+          autofocus
+          required
+        />
+        {error && <p class="login-error">Incorrect password — try again.</p>}
+        <button type="submit">Enter</button>
+      </form>
+    </main>
+
+    <style>
+      .login-wrap {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.25rem;
+      }
+      .login-card {
+        width: 100%;
+        max-width: 360px;
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 2rem 1.75rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.85rem;
+      }
+      .login-card h1 { margin: 0; font-size: 1.25rem; }
+      .login-card p { margin: 0; font-size: 0.9rem; }
+      .login-card input[type='password'] {
+        width: 100%;
+        padding: 0.65rem 0.75rem;
+        border-radius: 10px;
+        border: 1px solid var(--border);
+        background: var(--bg);
+        color: var(--text);
+        font-size: 0.95rem;
+      }
+      .login-card input[type='password']:focus {
+        outline: none;
+        border-color: var(--accent);
+      }
+      .login-card button {
+        padding: 0.65rem 0.75rem;
+        border-radius: 10px;
+        border: 1px solid var(--accent);
+        background: var(--accent);
+        color: #0e0f13;
+        font-weight: 650;
+        font-size: 0.95rem;
+        cursor: pointer;
+      }
+      .login-error { color: #ff8585; }
+    </style>
+  </body>
+</html>
