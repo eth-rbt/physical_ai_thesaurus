@@ -1,0 +1,168 @@
+{
+  "name": "MyLifeBits",
+  "year": 2001,
+  "organization": [
+    "Microsoft Research"
+  ],
+  "project_type": "research_prototype",
+  "short_description": "Gordon Bell's decade-long Microsoft Research experiment to digitize and store every document, phone call, image, and biosensor reading of one person's life — the first systematic attempt at a searchable total-recall autobiographical memory.",
+  "long_description": "Started November 2001 at Microsoft Research, MyLifeBits was Gordon Bell's personal experiment in fulfilling Vannevar Bush's 1945 Memex vision. Bell digitized everything he had ever produced or consumed — articles, books, letters, photos, CDs, home movies, lectures — then extended the system to capture web browsing, phone calls, IM transcripts, television, and radio automatically. By 2006 it also ingested keystrokes, mouse clicks, room audio, and daily imagery from a wearable SenseCam camera. The entire corpus was stored in SQL Server and exposed through full-text search, annotations, clustering, and hyperlinks, letting Bell query his own life the way a search engine queries the web. Jim Gemmell and Roger Lueder built the software infrastructure. The project ran continuously until Bell's death in 2024. As physical AI, MyLifeBits is foundational: it was the first implemented, long-running system to treat personal memory as a queryable database and to combine passive digital capture with wearable sensing, establishing the architecture that later lifelogging products — SenseCam, Narrative Clip, Limitless Pendant — all inherited.",
+  "primary_url": "https://www.microsoft.com/en-us/research/project/mylifebits/",
+  "ai_embedded": "some",
+  "ai_note": "The core capture, storage, and search pipeline is database-driven (SQL Server with full-text search), not AI/ML. Later phases incorporated wearable biosensors and the SenseCam image stream, and the project informed AI memory research, but the primary system is a structured personal archive rather than an inference engine.",
+  "attributes": {
+    "embodiment.form": [
+      "Wearable",
+      "Architectural / environmental system"
+    ],
+    "embodiment.mobility": [
+      "Body-worn",
+      "Fixed"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Audio",
+      "Text",
+      "Environmental sensors",
+      "Motion"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "intelligence.output": [
+      "Text"
+    ],
+    "function.role": [
+      "Memory aid",
+      "Assistant"
+    ],
+    "function.assistance_type": [
+      "Information retrieval",
+      "Knowledge management",
+      "Personal archive"
+    ],
+    "genealogy.lineage": [
+      "Ubiquitous computing",
+      "Wearable computing",
+      "Lifelogging",
+      "Personal computing"
+    ],
+    "genealogy.precedent_field": [
+      "Human-computer interaction",
+      "Information science",
+      "Personal informatics"
+    ],
+    "genealogy.interaction_paradigm": [
+      "Continuous capture",
+      "Queryable personal memory",
+      "Passive sensing"
+    ]
+  },
+  "metrics": {
+    "memory_span": 5,
+    "autonomy": 2,
+    "initiative": 1,
+    "privacy_exposure": 5,
+    "generality": 4,
+    "visibility": 2,
+    "social_legibility": 1,
+    "proximity": 3,
+    "expressiveness": 1
+  },
+  "images": [
+    {
+      "image_id": "img-mylifebits-001",
+      "caption": "Gordon Bell wearing a white prototype Epiphany Eyewear — a wearable camera system used in the MyLifeBits lifelogging experiment (2013).",
+      "image_type": "interaction_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gordon_Bell_wearing_a_white_prototype_Epiphany_Eyewear.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "Gordon Bell, a tall older man in glasses, wearing a white wearable camera device around his neck, photographed at a technology event."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-mylifebits-001",
+      "title": "MyLifeBits — Microsoft Research project page",
+      "source_type": "project_page",
+      "url": "https://www.microsoft.com/en-us/research/project/mylifebits/",
+      "publisher": "Microsoft Research",
+      "year": 2001,
+      "access_notes": "Official project page. Confirmed start date November 2, 2001. Lists Gordon Bell (Emeritus Researcher), Jim Gemmell, and Roger Lueder as key contributors."
+    },
+    {
+      "source_id": "source-mylifebits-002",
+      "title": "MyLifeBits: a personal database for everything",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/1107458.1107499",
+      "publisher": "Communications of the ACM, Vol. 49, No. 1, pp. 88–95",
+      "year": 2006,
+      "access_notes": "Authors: Jim Gemmell, Gordon Bell, Roger Lueder. Primary peer-reviewed description of the system. Documents SQL Server backend, SenseCam integration, and full capture scope including keystrokes, mouse clicks, phone calls, IM, and room audio."
+    },
+    {
+      "source_id": "source-mylifebits-003",
+      "title": "MyLifeBits — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/MyLifeBits",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Secondary overview source. Documents Bell's digitization of all personal records, use of wearable camera, and continuation of the project until Bell's death in 2024."
+    },
+    {
+      "source_id": "source-mylifebits-004",
+      "title": "Total Recall: How the E-Memory Revolution Will Change Everything",
+      "source_type": "academic_paper",
+      "url": "https://www.penguinrandomhouse.com/books/209964/total-recall-by-gordon-bell-and-jim-gemmell/",
+      "publisher": "Dutton (Penguin)",
+      "year": 2009,
+      "access_notes": "Book by Gordon Bell and Jim Gemmell describing the MyLifeBits experiment, its vision, and implications for memory, work, health, and longevity. Published in paperback as 'Your Life, Uploaded'."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Search your own life like a web page",
+      "description": "Bell could type a keyword and retrieve any document, letter, photo, or conversation he had ever encountered — the system indexed decades of personal history in SQL Server with full-text search.",
+      "provenance": "documented",
+      "source_url": "https://www.microsoft.com/en-us/research/project/mylifebits/",
+      "source_label": "Microsoft Research — MyLifeBits project page"
+    },
+    {
+      "title": "The SenseCam logs everywhere you go",
+      "description": "Bell wore a SenseCam — a neck-hung fisheye camera that auto-triggered on changes in light, heat, and motion — which added a continuous visual diary to the archive, capturing hundreds of images a day without any deliberate act.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1107458.1107499",
+      "source_label": "Gemmell, Bell, Lueder — CACM 2006"
+    },
+    {
+      "title": "Annotate a memory with your own voice",
+      "description": "Any stored item could receive a spoken or typed annotation directly in the archive, attaching context to a photo, a letter, or a phone call at the moment of retrieval or later reflection.",
+      "provenance": "documented",
+      "source_url": "https://www.microsoft.com/en-us/research/project/mylifebits/",
+      "source_label": "Microsoft Research — MyLifeBits project page"
+    },
+    {
+      "title": "Clinicians study an aging researcher's biosignals over years",
+      "description": "Because the archive spanned health data alongside daily life, later phases of the project informed research into how a long-term personal record could support health monitoring and longitudinal wellness analysis for an aging individual.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1107458.1107499",
+      "source_label": "Gemmell, Bell, Lueder — CACM 2006"
+    },
+    {
+      "title": "Trail from an old paper to everything that cites it",
+      "description": "Following Bush's associative trail concept, stored documents could be hyperlinked to anything related — a paper Bell authored in 1970 could be connected to the reviews that arrived by mail, the presentation he gave, and the later work that built on it.",
+      "provenance": "documented",
+      "source_url": "https://www.microsoft.com/en-us/research/project/mylifebits/",
+      "source_label": "Microsoft Research — MyLifeBits project page"
+    },
+    {
+      "title": "Revisit who you were talking to at any timestamp",
+      "description": "Because phone calls and meetings were logged, Bell could reconstruct not just what was said but the social graph of who he communicated with at any point in his career — a queryable contact history spanning decades.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Catch a memory lapse before it becomes a problem",
+      "description": "A family member or caregiver could query the archive to see whether an elderly person forgot a medication or appointment, grounded in the system's timestamped capture of daily activity and room audio — the inverse of Bell's own use: someone else reading the record.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

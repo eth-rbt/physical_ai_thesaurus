@@ -1,0 +1,96 @@
+{
+  "name": "Grey Walter's Tortoises (Elmer & Elsie)",
+  "year": 1948,
+  "organization": [
+    "Burden Neurological Institute"
+  ],
+  "project_type": "research_prototype",
+  "short_description": "The first autonomous robots — light-seeking, obstacle-avoiding creatures built from vacuum tubes and war-surplus parts to demonstrate that complex behavior can emerge from minimal circuitry.",
+  "long_description": "Built by neurobiologist William Grey Walter at the Burden Neurological Institute in Bristol between 1948 and 1949, Elmer and Elsie (formally Machina speculatrix) were three-wheeled, tortoise-shaped robots with two vacuum-tube 'neurons.' Each robot sought moderate light, retreated from bright light, and steered around obstacles via a touch sensor — all through analog reflex circuits with no digital computation. Walter designed them to prove his hypothesis that a small number of connected nerve cells can produce surprisingly rich, lifelike behavior. They are the acknowledged founding artifacts of behavior-based robotics and a widely cited origin point of social robotics, cybernetics, and context-aware computing.",
+  "primary_url": "https://en.wikipedia.org/wiki/Elmer_and_Elsie_(robots)",
+  "ai_embedded": "none",
+  "ai_note": "Purely analog electronics — two vacuum tubes acting as neurons, no machine learning or AI. Included as a genealogical origin point: the first autonomous reactive robots.",
+  "attributes": {
+    "embodiment.form": [
+      "Mobile robot"
+    ],
+    "embodiment.mobility": [
+      "Wheeled"
+    ],
+    "intelligence.input": [
+      "Environmental sensors"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "function.role": [
+      "Tool"
+    ],
+    "genealogy.lineage": [
+      "Cybernetics",
+      "Social robotics",
+      "Human-robot interaction",
+      "Ambient intelligence"
+    ]
+  },
+  "metrics": {
+    "mobility": 3,
+    "scale": 1,
+    "social_legibility": 2,
+    "autonomy": 3,
+    "initiative": 2,
+    "expressiveness": 2,
+    "timing": 5,
+    "generality": 1
+  },
+  "images": [
+    {
+      "image_id": "img-grey-walter-tortoises-001",
+      "caption": "A cybernetic tortoise built by William Grey Walter, c. 1950, now in the Science Museum Group collection.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cybernetic_Tortoise_by_William_Grey_Walter_c_1950_(Ank_Kumar).jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A small three-wheeled robot with a rounded translucent plastic shell, roughly the size of a tortoise, showing internal mechanical and electrical components through the shell.",
+      "local_image": "/projects/grey-walter-tortoises.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-grey-walter-tortoises-001",
+      "title": "Elmer and Elsie (robots)",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Elmer_and_Elsie_(robots)",
+      "publisher": "Wikipedia",
+      "year": 2024,
+      "access_notes": "Overview of construction (1948–1949), naming, behavior, and legacy."
+    },
+    {
+      "source_id": "source-grey-walter-tortoises-002",
+      "title": "William Grey Walter",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/William_Grey_Walter",
+      "publisher": "Wikipedia",
+      "year": 2024,
+      "access_notes": "Biographical background on Walter, his role at Burden Neurological Institute, and the Machina speculatrix designation."
+    },
+    {
+      "source_id": "source-grey-walter-tortoises-003",
+      "title": "Grey Walter and his tortoises",
+      "source_type": "lab_page",
+      "url": "https://www.bristol.ac.uk/news/2008/212017945378.html",
+      "publisher": "University of Bristol",
+      "year": 2008,
+      "access_notes": "University of Bristol feature confirming institution (Burden Neurological Institute), construction dates (1948–1949), and replica history."
+    },
+    {
+      "source_id": "source-grey-walter-tortoises-004",
+      "title": "Cybernetic tortoise, developed to help with studies on brain function",
+      "source_type": "exhibition_page",
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co531614/cybernetic-tortoise-developed-to-help-with-studies-on-brain-function",
+      "publisher": "Science Museum Group",
+      "year": 2000,
+      "access_notes": "Museum record for an original tortoise (object L2000-4441); confirms maker, institution, materials, and Festival of Britain display (1951)."
+    }
+  ],
+  "confidence": "high"
+}

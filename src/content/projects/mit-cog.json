@@ -1,0 +1,84 @@
+{
+  "name": "MIT Cog",
+  "year": 1993,
+  "organization": ["MIT AI Laboratory", "MIT Humanoid Robotics Group"],
+  "project_type": "research_prototype",
+  "short_description": "Humanoid upper-torso robot at MIT that pioneered embodied social learning and became the direct predecessor of Kismet and the field of social robotics.",
+  "long_description": "Cog (short for 'cognition') was an upper-torso humanoid robot developed at MIT's AI Laboratory beginning in 1993 by Rodney Brooks, Lynn Andrea Stein, and a team of graduate students including Cynthia Breazeal. With 21 degrees of freedom and sensory systems spanning vision, auditory, vestibular, kinesthetic, and tactile modalities, Cog was designed to learn through social interaction the way human infants do. It demonstrated face tracking, saccadic eye movements, joint attention, and motor imitation — capabilities that became foundational to the social robotics field. Cog ran until 2003; Cynthia Breazeal's work on the platform directly led to Kismet, the first robot designed explicitly around social-emotional interaction.",
+  "primary_url": "https://groups.csail.mit.edu/lbr/humanoid-robotics-group/cog/",
+  "ai_embedded": "some",
+  "ai_note": "Vision-based face tracking, saccadic eye control, and motor imitation learning were implemented; no large language models or contemporary ML — classical machine learning and behavior-based control.",
+  "attributes": {
+    "embodiment.form": ["Humanoid robot"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.spatial_relationship": ["Room-scale"],
+    "intelligence.input": ["Vision", "Audio", "Touch", "Motion", "Force / torque"],
+    "intelligence.model": ["Rule-based system", "Classical machine learning"],
+    "intelligence.output": ["Gesture", "Gaze", "Motion"],
+    "function.role": ["Companion", "Teacher"],
+    "function.social_function": ["Social interaction", "Joint attention", "Imitation"],
+    "genealogy.lineage": ["Social robotics", "Human-robot interaction", "Cybernetics"],
+    "genealogy.precedent_field": ["Embodied cognition", "Developmental robotics", "Behavior-based robotics"]
+  },
+  "metrics": {
+    "social_legibility": 4,
+    "expressiveness": 3,
+    "mobility": 1,
+    "scale": 3,
+    "autonomy": 2,
+    "initiative": 2,
+    "proximity": 2,
+    "timing": 5,
+    "visibility": 5
+  },
+  "images": [
+    {
+      "image_id": "img-mit-cog-001",
+      "caption": "Cog (1993–2004) on display at the MIT Museum, Cambridge, Massachusetts.",
+      "image_type": "exhibition_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cog,_1993-2004,_view_1_-_MIT_Museum_-_DSC03732.JPG",
+      "rights_status": "public_domain",
+      "alt_text": "Humanoid upper-torso robot with a silver and white body, two camera eyes, and articulated arms, displayed on a museum pedestal.",
+      "local_image": "/projects/mit-cog.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-mit-cog-001",
+      "title": "Cog (project) — Wikipedia",
+      "source_type": "unknown",
+      "url": "https://en.wikipedia.org/wiki/Cog_(project)",
+      "publisher": "Wikipedia",
+      "year": 2024,
+      "access_notes": "Overview article with references to primary MIT sources."
+    },
+    {
+      "source_id": "source-mit-cog-002",
+      "title": "MIT team is building a humanoid robot",
+      "source_type": "credible_news",
+      "url": "https://news.mit.edu/1999/cog",
+      "publisher": "MIT News",
+      "year": 1999,
+      "access_notes": "Details face tracking, imitation, and saccadic eye movements; names key researchers."
+    },
+    {
+      "source_id": "source-mit-cog-003",
+      "title": "The Cog Project: Building a Humanoid Robot",
+      "source_type": "academic_paper",
+      "url": "https://people.csail.mit.edu/brooks/papers/CMAA-group.pdf",
+      "publisher": "MIT CSAIL",
+      "year": 1998,
+      "access_notes": "Primary technical paper by Rodney Brooks and colleagues describing Cog's design and capabilities."
+    },
+    {
+      "source_id": "source-mit-cog-004",
+      "title": "Building Brains for Bodies (MIT AI Lab Memo AIM-1439)",
+      "source_type": "academic_paper",
+      "url": "http://groups.csail.mit.edu/lbr/humanoid-robotics-group/cog/",
+      "publisher": "MIT AI Laboratory",
+      "year": 1993,
+      "access_notes": "Original 1993 memo by Brooks and Stein establishing the Cog project rationale."
+    }
+  ],
+  "confidence": "high"
+}

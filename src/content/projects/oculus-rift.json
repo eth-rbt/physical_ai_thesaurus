@@ -1,0 +1,76 @@
+{
+  "name": "Oculus Rift",
+  "year": 2012,
+  "organization": ["Oculus VR", "Meta"],
+  "project_type": "commercial_product",
+  "short_description": "The Kickstarter-backed VR headset that reignited the consumer VR industry and introduced affordable 6-DOF head tracking at scale.",
+  "long_description": "Palmer Luckey built the first Rift prototype in 2011 and launched a Kickstarter campaign in August 2012 that raised $2.4 million, galvanizing a new generation of VR developers. The consumer version (CV1) launched in March 2016 with dual 1080×1200 OLED displays at 90 Hz, a 110° field of view, and Constellation positional tracking — specifications that made latency-tolerant, room-scale immersion achievable at a prosumer price point. Facebook acquired Oculus VR in March 2014 for $2 billion, accelerating platform investment. The Rift is the canonical origin point of the modern spatial computing headset lineage, seeding the device categories that followed: HTC Vive, PlayStation VR, Quest, and Apple Vision Pro.",
+  "primary_url": "https://www.oculus.com/rift/",
+  "ai_embedded": "some",
+  "ai_note": "Head tracking and positional tracking use sensor fusion and computer vision; the underlying display and interaction rendering are not AI-driven.",
+  "attributes": {
+    "embodiment.form": ["Wearable", "Head-worn"],
+    "embodiment.mobility": ["Body-worn"],
+    "embodiment.proximity": ["On-body"],
+    "intelligence.input": ["Motion", "Vision", "Gaze"],
+    "intelligence.model": ["Classical machine learning"],
+    "function.role": ["Tool", "Creative collaborator"],
+    "function.task_domain": ["Entertainment", "Simulation", "Gaming"],
+    "genealogy.lineage": ["Augmented reality", "Wearable computing", "Spatial computing", "Virtual reality"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 2,
+    "scale": 2,
+    "social_legibility": 2,
+    "form_specificity": 4,
+    "autonomy": 1,
+    "initiative": 1,
+    "memory_span": 1,
+    "visibility": 4,
+    "generality": 3,
+    "intensity": 5,
+    "expressiveness": 2,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-oculus-rift-001",
+      "caption": "The Oculus Rift CV1 consumer headset released in 2016.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Oculus-Rift-CV1-Headset-Front.jpg",
+      "rights_status": "public_domain",
+      "alt_text": "The Oculus Rift CV1 virtual reality headset, a black visor with padded foam lining and a fabric-wrapped body, viewed from the front against a white background."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-oculus-rift-001",
+      "title": "Oculus Rift — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Oculus_Rift",
+      "publisher": "Wikipedia",
+      "year": 2012,
+      "access_notes": "Full history: prototype (2011), Kickstarter (August 2012), DK1 (2013), DK2 (2014), CV1 (March 2016), Rift S (2019)."
+    },
+    {
+      "source_id": "source-oculus-rift-002",
+      "title": "On this day 8 years ago, Oculus Rift CV1 was released",
+      "source_type": "credible_news",
+      "url": "https://www.xda-developers.com/on-this-day-oculus-rift-cv1/",
+      "publisher": "XDA Developers",
+      "year": 2024,
+      "access_notes": "CV1 launch date (March 28, 2016), price ($599), specs confirmation."
+    },
+    {
+      "source_id": "source-oculus-rift-003",
+      "title": "Oculus VR — Encyclopedia MDPI",
+      "source_type": "credible_news",
+      "url": "https://encyclopedia.pub/entry/history/show/67166",
+      "publisher": "MDPI Encyclopedia",
+      "year": 2021,
+      "access_notes": "Facebook acquisition ($2B, March 2014), Kickstarter campaign details ($2.4M raised)."
+    }
+  ],
+  "confidence": "high"
+}

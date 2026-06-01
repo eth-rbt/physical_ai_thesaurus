@@ -1,0 +1,118 @@
+{
+  "name": "Sperry Gyroscopic Autopilot",
+  "year": 1914,
+  "organization": [
+    "Sperry Gyroscope Company"
+  ],
+  "project_type": "industrial_system",
+  "short_description": "The first aircraft autopilot, demonstrated in 1914: gyroscopes linked to hydraulic control surfaces kept an airplane straight and level with no pilot input.",
+  "long_description": "Developed by Lawrence Sperry and demonstrated at an aviation safety competition near Paris on June 18, 1914, the gyroscopic autopilot connected a gyroscopic heading and attitude indicator to hydraulically operated elevators and rudder. Flying a Curtiss C-2 biplane, Sperry made three passes with his hands visibly off the controls — on one pass his mechanic stood on the wing while the aircraft automatically corrected the induced bank. The system was the first mechanical device to actively command an aircraft's control surfaces without a human in the loop, making it the founding example of delegating physical-world control authority to a machine. It earned the 50,000-franc grand prize at the Concours de la Sécurité en Aéroplane and went on to equip military aircraft in both World Wars.",
+  "primary_url": "https://en.wikipedia.org/wiki/Lawrence_Sperry",
+  "ai_embedded": "none",
+  "ai_note": "Purely mechanical and gyroscopic — no computation, learning, or inference. Included as the historical origin of machine-controlled physical autonomy, the precursor to every modern autonomy tier.",
+  "attributes": {
+    "embodiment.form": [
+      "Vehicle",
+      "Industrial robot"
+    ],
+    "embodiment.mobility": [
+      "Flying"
+    ],
+    "intelligence.input": [
+      "Motion",
+      "Environmental sensors"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "function.role": [
+      "Tool"
+    ],
+    "function.task_domain": [
+      "Navigation",
+      "Vehicle control"
+    ],
+    "genealogy.lineage": [
+      "Industrial automation",
+      "Cybernetics"
+    ],
+    "genealogy.interaction": [
+      "Autonomous control",
+      "Trust and delegation"
+    ]
+  },
+  "metrics": {
+    "autonomy": 3
+  },
+  "images": [
+    {
+      "image_id": "img-sperry-autopilot-001",
+      "caption": "Lawrence Sperry photographed in Washington, D.C., 1922. Sperry demonstrated the first gyroscopic autopilot in 1914 and is credited as the inventor of the modern autopilot.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lawrence_Sperry_LCCN2002697155.jpg",
+      "rights_status": "public_domain",
+      "alt_text": "A black-and-white photograph of Lawrence Sperry, a young man in an early-aviation leather helmet and coat, standing in front of an aircraft in Washington D.C.",
+      "local_image": "/projects/sperry-autopilot.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-sperry-autopilot-001",
+      "title": "Lawrence Sperry — Wikipedia",
+      "source_type": "unknown",
+      "url": "https://en.wikipedia.org/wiki/Lawrence_Sperry",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Overview of Lawrence Sperry's life, the 1914 Paris autopilot demonstration, and the Lawrence Sperry Award. Describes the 1914 contest and hands-off flight."
+    },
+    {
+      "source_id": "source-sperry-autopilot-002",
+      "title": "Autopilot — Wikipedia",
+      "source_type": "unknown",
+      "url": "https://en.wikipedia.org/wiki/Autopilot",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Covers the 1912 development of the gyroscopic autopilot by Sperry Corporation, the 1914 Paris demonstration with gyroscope connected to hydraulic elevators and rudder, and the 1930 three-hour sustained test."
+    },
+    {
+      "source_id": "source-sperry-autopilot-003",
+      "title": "Sperry Corporation — Wikipedia",
+      "source_type": "unknown",
+      "url": "https://en.wikipedia.org/wiki/Sperry_Corporation",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "History of Sperry Gyroscope Company (founded 1910 by Elmer Sperry); Lawrence Sperry's competing autopilot firm (1918); merger of the two firms in 1924 after Lawrence Sperry's death in 1923."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Fly with both hands raised above your head",
+      "description": "At the 1914 Concours de la Sécurité en Aéroplane, Lawrence Sperry flew three passes over the Seine with his hands visibly in the air and his mechanic standing on the wing, demonstrating to judges that the aircraft controlled itself — the first public proof of delegated physical authority to a machine.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Autopilot",
+      "source_label": "Wikipedia — Autopilot"
+    },
+    {
+      "title": "Correct a wing-bank caused by a man standing on the wing",
+      "description": "During the Paris demonstration, the mechanic climbed out onto the starboard wing, inducing a banking load. The gyroscopic autopilot sensed the change in attitude and deflected the control surfaces to restore level flight automatically, with no pilot action.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Autopilot",
+      "source_label": "Wikipedia — Autopilot"
+    },
+    {
+      "title": "Hold a bomber level for a precision bomb run",
+      "description": "Refined autopilot systems descended from Sperry's 1914 device were integrated into WWII aircraft including the B-17 Flying Fortress, holding the aircraft straight and level through flak during bomb runs when deviating would spoil aim — a life-or-death delegation of physical authority.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Autopilot",
+      "source_label": "Wikipedia — Autopilot"
+    },
+    {
+      "title": "Solo circumnavigate the globe using autopilot and a radio compass",
+      "description": "Wiley Post completed the first solo around-the-world flight in 1933 using a Sperry gyroscope autopilot combined with a radio direction finder — the autopilot held his course while he navigated and rested, a feat impossible with purely manual flight.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Autopilot",
+      "source_label": "Wikipedia — Autopilot"
+    }
+  ],
+  "confidence": "high"
+}

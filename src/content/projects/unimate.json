@@ -1,0 +1,107 @@
+{
+  "name": "Unimate",
+  "year": 1961,
+  "organization": [
+    "Unimation"
+  ],
+  "project_type": "industrial_system",
+  "short_description": "The first industrial robot arm, deployed on a General Motors production line in 1961 to handle die castings and perform spot welding.",
+  "long_description": "Designed by George Devol (U.S. Patent 2,988,237, filed 1954) and commercialized by Joseph Engelberger through Unimation — the world's first robotics company — Unimate began working at General Motors' Inland Fisher Guide Plant in Ewing Township, New Jersey in 1961. The hydraulically actuated, five-axis arm weighed roughly 4,000 pounds and used drum-based memory to replay programmed sequences, removing hot die castings from presses and transferring them for spot welding, tasks too toxic and dangerous for workers. Unimate is the direct origin of the manipulation-bot lineage: programmable, fixed-base arms dedicated to a repeatable physical task in a constrained industrial environment.",
+  "primary_url": "https://en.wikipedia.org/wiki/Unimate",
+  "ai_embedded": "none",
+  "ai_note": "Unimate used drum-memory playback of pre-programmed joint positions — no learning, inference, or AI/ML of any kind. It is the mechanical ancestor of AI-powered manipulation systems, not an AI system itself.",
+  "attributes": {
+    "embodiment.form": [
+      "Industrial robot",
+      "Robotic arm"
+    ],
+    "embodiment.mobility": [
+      "Fixed"
+    ],
+    "intelligence.input": [
+      "Force / torque"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "function.role": [
+      "Manufacturing worker",
+      "Tool"
+    ],
+    "genealogy.lineage": [
+      "Industrial automation",
+      "Human-robot interaction"
+    ]
+  },
+  "metrics": {
+    "social_legibility": 1,
+    "proximity": 1,
+    "mobility": 1,
+    "autonomy": 2,
+    "expressiveness": 1
+  },
+  "images": [
+    {
+      "image_id": "img-unimate-001",
+      "caption": "Unimate robot arm pouring coffee for a woman at the Biltmore Hotel, 1967 — a public demonstration of the first industrial robot.",
+      "image_type": "interaction_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Unimate_pouring_coffee_for_a_woman_at_Biltmore_Hotel,_1967.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A large hydraulic robot arm labelled 'Unimate' extends toward a woman seated at a table, pouring coffee from a pot in a hotel demonstration setting, 1967.",
+      "local_image": "/projects/unimate.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-unimate-001",
+      "title": "Unimate",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Unimate",
+      "publisher": "Wikipedia",
+      "year": 1961,
+      "access_notes": "Overview of invention, patent (U.S. 2,988,237), 1961 GM deployment at Ewing Township NJ, technical specs (5-DOF, hydraulic, 4000 lb, drum memory), Tonight Show appearance, Robot Hall of Fame 2003."
+    },
+    {
+      "source_id": "source-unimate-002",
+      "title": "In 1961, the First Robot Arm Punched In",
+      "source_type": "credible_news",
+      "url": "https://spectrum.ieee.org/unimation-robot",
+      "publisher": "IEEE Spectrum",
+      "year": 2011,
+      "access_notes": "Details on Devol and Engelberger partnership, Unimation founding, technical specs (weight ~3000 lb, hydraulic at 1000 PSI, 6-axis on later models), GM purchase price ($18,000), and Japan adoption statistics."
+    },
+    {
+      "source_id": "source-unimate-003",
+      "title": "NIHF Inductee George Devol Invented the Industrial Robot",
+      "source_type": "credible_news",
+      "url": "https://www.invent.org/inductees/george-devol",
+      "publisher": "National Inventors Hall of Fame",
+      "year": null,
+      "access_notes": "Patent filed 1954, first Unimate installed at GM 1961 for hot die-cast retrieval and stacking; Unimation sold to Westinghouse 1983."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Retrieve a hot die casting from the press",
+      "description": "The Unimate reached into the die-casting press, gripped the freshly cast metal part, withdrew it, and transferred it to the welding station — replacing workers who faced burns and toxic fume exposure on every cycle.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Unimate",
+      "source_label": "Wikipedia — Unimate"
+    },
+    {
+      "title": "Poured beer and sank a golf putt on The Tonight Show",
+      "description": "In a 1966 appearance on The Tonight Show Starring Johnny Carson, a Unimate arm demonstrated non-industrial dexterity by directing a golf ball into a cup and pouring beer for the host — humanizing the machine for a mass audience.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Unimate",
+      "source_label": "Wikipedia — Unimate"
+    },
+    {
+      "title": "Taught a new task by manual guiding",
+      "description": "An operator physically moved the arm through the desired sequence of positions while the drum recorded each joint angle; replaying the drum reproduced the motion exactly. This teach-and-playback paradigm became the dominant industrial-robot programming model for decades.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/unimation-robot",
+      "source_label": "IEEE Spectrum — In 1961, the First Robot Arm Punched In"
+    }
+  ],
+  "confidence": "high"
+}

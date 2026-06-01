@@ -1,0 +1,136 @@
+{
+  "name": "Tamagotchi",
+  "year": 1996,
+  "organization": [
+    "Bandai"
+  ],
+  "project_type": "commercial_product",
+  "short_description": "An egg-shaped keychain LCD virtual pet that required its owner to feed, clean, and play with a digital creature — dying if neglected.",
+  "long_description": "Tamagotchi, created by Aki Maita and Akihiro Yokoi and launched by Bandai in Japan on November 23, 1996, is a handheld egg-shaped device with a small LCD screen and three buttons. Players hatch a digital creature and must manage its hunger, happiness, and health over days or weeks through feeding, play, medicine, and cleaning up droppings; prolonged neglect causes the creature to sicken and die. Selling 98 million units by 2025, it proved that tens of millions of people would form genuine emotional attachment bonds with an artificial creature they kept alive through ongoing care — establishing the 'always-on companion' paradigm, coining the Tamagotchi effect in attachment research, and anchoring every handheld digital-pet and creature-companion product that followed.",
+  "primary_url": "https://www.bandai.com/",
+  "ai_embedded": "none",
+  "ai_note": "Tamagotchi runs on a fixed rule-based state machine with no machine-learning or AI model; its care mechanics are purely deterministic logic executed on a dedicated microcontroller.",
+  "attributes": {
+    "embodiment.form": [
+      "Handheld",
+      "Domestic object"
+    ],
+    "embodiment.mobility": [
+      "Handheld"
+    ],
+    "intelligence.input": [
+      "Touch"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "function.role": [
+      "Companion"
+    ],
+    "function.social": [
+      "Emotional care",
+      "Attachment formation"
+    ],
+    "genealogy.lineage": [
+      "Companion robotics",
+      "Social robotics",
+      "Tangible user interfaces"
+    ]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 2,
+    "scale": 1,
+    "social_legibility": 3,
+    "form_specificity": 3,
+    "autonomy": 1,
+    "initiative": 2,
+    "memory_span": 2,
+    "visibility": 2,
+    "generality": 1,
+    "intensity": 4,
+    "expressiveness": 2,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-tamagotchi-001",
+      "caption": "Tamagotchi Connection V1 (2004), one of the Bandai keychain virtual pet devices.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tamagotchi_0124_ubt.jpeg",
+      "rights_status": "creative_commons",
+      "alt_text": "A small egg-shaped keychain device with a tiny LCD screen showing a pixel-art creature, three white buttons, and a Tamagotchi logo on the front.",
+      "local_image": "/projects/tamagotchi.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-tamagotchi-001",
+      "title": "Tamagotchi",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Tamagotchi",
+      "publisher": "Wikipedia",
+      "year": 1996,
+      "access_notes": "Overview of launch date (23 November 1996 Japan; 1 May 1997 US), creators (Aki Maita, Akihiro Yokoi / WiZ), Bandai as publisher, core mechanics, sales figures (98.1 million by 2025), and the Tamagotchi effect."
+    },
+    {
+      "source_id": "source-tamagotchi-002",
+      "title": "Tamagotchi effect",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Tamagotchi_effect",
+      "publisher": "Wikipedia",
+      "year": 1996,
+      "access_notes": "Describes the 'Tamagotchi effect' — emotional attachment to machines and software agents — referencing Turkle, Haraway, and Heim in the academic attachment literature."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Feed it before it cries",
+      "description": "A hunger meter drains steadily; tap the food icon to serve a meal or a snack, and the creature animations change to show it eating. Overfeed only snacks and it grows unhealthier — teaching a minimal resource-management loop.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Tamagotchi",
+      "source_label": "Wikipedia — Tamagotchi"
+    },
+    {
+      "title": "Clean up after it or it gets sick",
+      "description": "Droppings appear on-screen after every few hours; navigate to the toilet icon and confirm to clean them. Leaving the mess for too long causes illness, requiring medicine to cure — adding a hygiene ritual to the companion relationship.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Tamagotchi",
+      "source_label": "Wikipedia — Tamagotchi"
+    },
+    {
+      "title": "Watch it die from neglect",
+      "description": "Sustained neglect — ignoring hunger, illness, or loneliness — causes the creature to become sick and eventually display a gravestone or angel graphic, ending the cycle. Schools banned devices after students burst into tears at their pet's death mid-lesson.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Tamagotchi",
+      "source_label": "Wikipedia — Tamagotchi"
+    },
+    {
+      "title": "Connect two devices to 'marry'",
+      "description": "Later Tamagotchi Connection models carried an infrared port; hold two devices next to each other, let the pets visit each other's screens, and if compatible they could marry and produce offspring — a multiplayer layer built from a single cable and two keychains.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Tamagotchi",
+      "source_label": "Wikipedia — Tamagotchi"
+    },
+    {
+      "title": "Carry it everywhere so it doesn't die at school",
+      "description": "Millions of children in the late 1990s slipped Tamagotchis into pockets and checked them discreetly during class, lunch, and sleep. The always-on care demand was so disruptive that numerous schools and workplaces banned the devices, demonstrating that an attachment object with a mortality mechanic colonizes attention more completely than a toy that can simply be put down.",
+      "provenance": "observed",
+      "source_url": "https://en.wikipedia.org/wiki/Tamagotchi",
+      "source_label": "Wikipedia — Tamagotchi"
+    },
+    {
+      "title": "Mourn it, then restart and try harder",
+      "description": "When a Tamagotchi dies, players routinely felt genuine grief — documented by Sherry Turkle and others in attachment research — then pressed the reset button to start again, now motivated to be a better caretaker. The death-and-restart loop became a rite-of-passage pattern for an entire generation's first experience of digital companion loss.",
+      "provenance": "observed",
+      "source_url": "https://en.wikipedia.org/wiki/Tamagotchi_effect",
+      "source_label": "Wikipedia — Tamagotchi effect"
+    },
+    {
+      "title": "Coordinate your Tamagotchi's schedule with a friend's",
+      "description": "Because the infrared marriage mechanic requires proximity, players arranged physical meetups specifically to connect devices — an early location-aware social ritual driven entirely by digital companion compatibility rather than human scheduling.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

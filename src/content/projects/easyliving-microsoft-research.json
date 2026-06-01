@@ -1,0 +1,88 @@
+{
+  "name": "EasyLiving (Microsoft Research)",
+  "year": 2000,
+  "organization": ["Microsoft Research"],
+  "project_type": "research_prototype",
+  "short_description": "A smart-room prototype from Microsoft Research that used multi-camera person tracking to maintain a live geometric world-model of who was where, routing lights and display control to the right person automatically.",
+  "long_description": "EasyLiving is an architecture and set of technologies developed at Microsoft Research for building intelligent environments. Its central insight is that a precise, shared world-model — a continuously updated geometric representation of who is in the room and where — can serve as the single context signal that ties together otherwise disconnected devices. A multi-camera perception layer tracked people's positions in real time; the world-model stored this location data along with room geometry; and a middleware layer used it to route service control (lighting, displays, audio) to whichever person or location was currently relevant. Presented at the Second International Symposium on Handheld and Ubiquitous Computing (HUC 2000) by Barry Brumitt, Brian Meyers, John Krumm, Amanda Kern, and Steven Shafer, it became one of the most-cited papers (~1,400 citations) in context-aware and ubicomp research, establishing location-as-primary-context as a design principle for ambient intelligent environments.",
+  "primary_url": "https://www.microsoft.com/en-us/research/publication/easyliving-technologies-intelligent-environments/",
+  "ai_embedded": "some",
+  "ai_note": "Person tracking from multiple cameras required computer-vision perception, but the routing and control logic was rule-based; AI/ML was a component of the perception layer, not the core of the architecture.",
+  "attributes": {
+    "embodiment.form": [
+      "Architectural / environmental system"
+    ],
+    "embodiment.mobility": [
+      "Fixed"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Location",
+      "Motion",
+      "Environmental sensors"
+    ],
+    "intelligence.model": [
+      "Rule-based system",
+      "Classical machine learning"
+    ],
+    "intelligence.perception": [
+      "Person tracking",
+      "Spatial awareness"
+    ],
+    "function.role": [
+      "Assistant",
+      "Context sensor",
+      "Security monitor"
+    ],
+    "function.environmental": [
+      "Presence sensing",
+      "Environment control"
+    ],
+    "genealogy.lineage": [
+      "Ubiquitous computing",
+      "Ambient intelligence",
+      "Smart home",
+      "Internet of Things"
+    ],
+    "genealogy.interaction": [
+      "Context-aware computing",
+      "Implicit interaction",
+      "Location-based services"
+    ]
+  },
+  "metrics": {
+    "proximity": 1,
+    "autonomy": 2,
+    "social_legibility": 1,
+    "expressiveness": 1,
+    "memory_span": 1,
+    "initiative": 2,
+    "generality": 2,
+    "scale": 2,
+    "visibility": 1,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-easyliving-microsoft-research-001",
+      "caption": "EasyLiving system diagram illustrating the multi-camera perception layer, geometric world-model, and device-routing middleware architecture.",
+      "image_type": "system_diagram",
+      "source_url": "https://www.microsoft.com/en-us/research/publication/easyliving-technologies-intelligent-environments/",
+      "rights_status": "needs_permission",
+      "alt_text": "A system architecture diagram for EasyLiving showing cameras feeding into a world-model that routes control commands to room devices such as lights and displays based on detected person locations."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-easyliving-001",
+      "title": "EasyLiving: Technologies for Intelligent Environments",
+      "source_type": "academic_paper",
+      "url": "https://www.microsoft.com/en-us/research/publication/easyliving-technologies-intelligent-environments/",
+      "publisher": "Second International Symposium on Handheld and Ubiquitous Computing (HUC 2000), Springer",
+      "year": 2000,
+      "access_notes": "Authors: Barry Brumitt, Brian Meyers, John Krumm, Amanda Kern, Steven Shafer. Microsoft Research Adaptive Systems and Interaction Group. Venue: HUC 2000, Bristol, UK. Approx. 1,400 citations (Google Scholar)."
+    }
+  ],
+  "interactions": [],
+  "confidence": "high"
+}

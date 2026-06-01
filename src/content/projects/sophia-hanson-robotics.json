@@ -1,0 +1,85 @@
+{
+  "name": "Sophia (Hanson Robotics)",
+  "year": 2016,
+  "organization": [
+    "Hanson Robotics"
+  ],
+  "project_type": "commercial_product",
+  "short_description": "Hyper-realistic social humanoid robot with lifelike silicone skin, more than 60 facial expressions, and AI-driven conversation — a cultural inflection point that brought humanoid robots into mainstream media debate.",
+  "long_description": "Sophia was activated on 14 February 2016 by Hong Kong–based Hanson Robotics and made her public debut at SXSW in March of that year. Built around a patented silicone skin material called Frubber, she can produce over 60 distinct facial expressions via servo-actuated muscle-like structures beneath the face. Her AI stack combines OpenCog for general reasoning, a deep-neural-network motion generator, face-tracking and emotion-recognition algorithms, and CereProc's text-to-speech synthesis. Sophia became a global cultural event in October 2017 when Saudi Arabia granted her citizenship — the first time a country extended legal personhood to a robot — and she was later named a UN Development Programme Innovation Champion. She sits at the intersection of social robotics, performance, and public discourse, demonstrating how humanoid form and real-time conversation can reshape popular expectations of AI embodiment even when the underlying AI remains narrower than it appears.",
+  "primary_url": "https://www.hansonrobotics.com/sophia/",
+  "ai_embedded": "some",
+  "ai_note": "Real AI components run inside Sophia — face tracking, emotion recognition, deep-neural-network gesture generation, and NLP via OpenCog — but her conversational depth is partially scripted and the system is best described as a hybrid of AI and theatrical presentation.",
+  "attributes": {
+    "embodiment.form": [
+      "Humanoid robot"
+    ],
+    "embodiment.mobility": [
+      "Fixed"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Speech",
+      "Audio"
+    ],
+    "intelligence.model": [
+      "Deep learning",
+      "Hybrid symbolic-neural system",
+      "Speech model"
+    ],
+    "function.role": [
+      "Companion",
+      "Performer"
+    ],
+    "genealogy.lineage": [
+      "Social robotics",
+      "Human-robot interaction",
+      "Companion robotics"
+    ]
+  },
+  "metrics": {
+    "social_legibility": 5,
+    "form_specificity": 5,
+    "expressiveness": 5,
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 3,
+    "visibility": 5,
+    "generality": 2,
+    "intensity": 4,
+    "autonomy": 2,
+    "initiative": 2,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-sophia-hanson-robotics-001",
+      "caption": "Sophia robot at the AI for Good Global Summit, Geneva, June 2017. Photo by ITU Pictures.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sophia_(robot).jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "Sophia, a humanoid robot with realistic silicone skin, dark hair, and expressive eyes, photographed at a conference. Her neck and upper torso reveal mechanical components beneath a human-like face."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-sophia-hanson-robotics-001",
+      "title": "Sophia (robot)",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Sophia_(robot)",
+      "publisher": "Wikipedia",
+      "year": 2016,
+      "access_notes": "Comprehensive overview of activation date (14 Feb 2016), SXSW debut, Frubber skin, 60+ facial expressions, AI stack (OpenCog, CereProc, deep neural networks), Saudi citizenship event (Oct 2017), and UN Innovation Champion appointment (Nov 2017)."
+    },
+    {
+      "source_id": "source-sophia-hanson-robotics-002",
+      "title": "Sophia — Hanson Robotics",
+      "source_type": "official_product_page",
+      "url": "https://www.hansonrobotics.com/sophia/",
+      "publisher": "Hanson Robotics",
+      "year": 2016,
+      "access_notes": "Official product page for Sophia."
+    }
+  ],
+  "confidence": "high"
+}

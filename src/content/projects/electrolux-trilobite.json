@@ -1,0 +1,75 @@
+{
+  "name": "Electrolux Trilobite",
+  "year": 2001,
+  "organization": ["Electrolux"],
+  "project_type": "commercial_product",
+  "short_description": "The world's first commercially available autonomous robot vacuum, using ultrasonic sensors to map rooms and dock itself for recharging.",
+  "long_description": "Launched in 2001 by Swedish appliance giant Electrolux, the Trilobite was the first mass-market robotic vacuum cleaner — predating the iRobot Roomba by a year. A prototype debuted on BBC's Tomorrow's World in 1997, demonstrating ultrasonic-sensor-based obstacle avoidance and semi-structured room traversal. The commercial ZA1 model retailed for around $1,500 and could run for up to an hour before automatically returning to its charging dock. A 2004 revision (ZA2) added infrared stair-detection sensors. The Trilobite proved that autonomous room-mapping and self-docking were viable in a consumer product, establishing the design template every robot vacuum has followed since.",
+  "primary_url": "https://www.electroluxgroup.com/en/trilobite-advert-elubok115-2/",
+  "ai_embedded": "some",
+  "ai_note": "Rule-based ultrasonic navigation and semi-structured room-mapping — no learning or ML, but autonomous sensing and docking.",
+  "attributes": {
+    "embodiment.form": ["Mobile robot", "Domestic object", "Smart appliance"],
+    "embodiment.mobility": ["Wheeled"],
+    "intelligence.input": ["Touch", "Environmental sensors"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Cleaner", "Tool"],
+    "genealogy.lineage": ["Smart home", "Industrial automation", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 4,
+    "scale": 2,
+    "social_legibility": 1,
+    "form_specificity": 4,
+    "autonomy": 4,
+    "initiative": 2,
+    "memory_span": 1,
+    "visibility": 3,
+    "generality": 1,
+    "intensity": 1,
+    "expressiveness": 1,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-electrolux-trilobite-001",
+      "caption": "Electrolux Trilobite robot vacuum photographed in 2006.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Electrolux_trilobite.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A circular, silver-grey Electrolux Trilobite robotic vacuum cleaner sitting on a hard floor, viewed from a slight angle above showing its disc-shaped body and control panel.",
+      "local_image": "/projects/electrolux-trilobite.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-electrolux-trilobite-001",
+      "title": "Electrolux Trilobite",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Electrolux_Trilobite",
+      "publisher": "Wikipedia",
+      "year": 2001,
+      "access_notes": "Overview of Trilobite history, 2001 commercial launch, ZA1/ZA2 models, ultrasonic sensing, and docking."
+    },
+    {
+      "source_id": "source-electrolux-trilobite-002",
+      "title": "Electrolux Trilobite Robotic Vacuum Cleaner v2.0",
+      "source_type": "credible_news",
+      "url": "https://newatlas.com/electrolux-trilobite-robotic-vacuum-cleaner-v20/2829/",
+      "publisher": "New Atlas",
+      "year": 2004,
+      "access_notes": "Coverage of the ZA2 (Version 2.0) with infrared stair detection, released 2004."
+    },
+    {
+      "source_id": "source-electrolux-trilobite-003",
+      "title": "The first robot vacuum cleaner Trilobite launched in 2001",
+      "source_type": "official_product_page",
+      "url": "https://www.electroluxgroup.com/en/trilobite-advert-elubok115-2/",
+      "publisher": "Electrolux Group",
+      "year": 2001,
+      "access_notes": "Electrolux corporate page confirming the 2001 launch and the product's historical significance."
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Marie Van Brittan Brown Home Security System",
+  "year": 1969,
+  "organization": [],
+  "project_type": "concept",
+  "short_description": "The first patented residential television-surveillance system, combining four peepholes, a sliding camera, a monitor, two-way audio, and a remote door latch — filed in 1966, granted in 1969.",
+  "long_description": "Designed by nurse Marie Van Brittan Brown and her husband Albert L. Brown, an electronics technician, this system was born out of safety concerns in their Jamaica, Queens neighborhood in the mid-1960s. A motorized camera slid vertically across four peepholes on the front door, transmitting images to a television monitor inside. A built-in microphone and speaker enabled two-way conversation without opening the door, while a remote solenoid latch let the occupant unlock the door from the safety of the interior. The system could also forward audio and video to a security center, and an alarm button alerted police. U.S. Patent 3,482,037 was filed August 1, 1966 and granted December 2, 1969; it was subsequently cited in 32 later patent applications. The invention established the conceptual blueprint — remote visual verification, two-way audio, and a remotely actuated door latch — that video doorbells and home-care cameras carry forward decades later.",
+  "primary_url": "https://patents.google.com/patent/US3482037A/en",
+
+  "ai_embedded": "none",
+  "ai_note": "The system uses electromechanical components — motors, CCTV circuitry, a solenoid latch, radio transceiver — with no machine learning or AI inference of any kind.",
+
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Architectural / environmental system"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Vision", "Audio"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Security monitor"],
+    "function.task_domain": ["Home security", "Access control"],
+    "genealogy.lineage": ["Smart home", "Ambient intelligence", "Closed-circuit television"]
+  },
+
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 1,
+    "social_legibility": 1,
+    "form_specificity": 3,
+    "autonomy": 1,
+    "initiative": 2,
+    "memory_span": 1,
+    "visibility": 3,
+    "generality": 1,
+    "intensity": 2,
+    "expressiveness": 1,
+    "timing": 4
+  },
+
+  "images": [
+    {
+      "image_id": "img-marie-van-brittan-brown-home-security-001",
+      "caption": "Patent diagram from U.S. Patent 3,482,037 (granted December 2, 1969) showing Marie Van Brittan Brown's home security system with camera, peepholes, monitor, and remote door control.",
+      "image_type": "system_diagram",
+      "source_url": "https://commons.wikimedia.org/wiki/File:US3482037A_home_security_system_CCTV.png",
+      "rights_status": "public_domain",
+      "alt_text": "A technical patent drawing showing a door fitted with four peepholes and a vertically sliding camera on the left, connected by dashed lines to a television monitor and control console on the right, representing Marie Van Brittan Brown's 1969 home security system."
+    }
+  ],
+
+  "sources": [
+    {
+      "source_id": "source-mvbb-001",
+      "title": "Marie Van Brittan Brown",
+      "source_type": "unknown",
+      "url": "https://en.wikipedia.org/wiki/Marie_Van_Brittan_Brown",
+      "publisher": "Wikipedia",
+      "year": 2025,
+      "access_notes": "Covers biography, patent filing date (August 1, 1966), grant date (December 2, 1969), patent number US 3,482,037, system components, and commercial obstacles."
+    },
+    {
+      "source_id": "source-mvbb-002",
+      "title": "U.S. Patent 3,482,037 — Home Security System Utilizing Television Surveillance",
+      "source_type": "documentation",
+      "url": "https://patents.google.com/patent/US3482037A/en",
+      "publisher": "USPTO / Google Patents",
+      "year": 1969,
+      "access_notes": "Primary source. Lists inventors Marie Van Brittan Brown and Albert L. Brown; filing date August 1, 1966; grant date December 2, 1969. Describes camera, peepholes, monitor, two-way audio, solenoid door latch, and alarm capability."
+    },
+    {
+      "source_id": "source-mvbb-003",
+      "title": "Marie van Brittan Brown",
+      "source_type": "project_page",
+      "url": "https://lemelson.mit.edu/resources/marie-van-brittan-brown",
+      "publisher": "MIT Lemelson Center",
+      "year": null,
+      "access_notes": "Notes four peepholes, sliding camera, TV monitors, two-way microphones, remote door unlock, police alarm, and that the patent was cited in 32 subsequent applications."
+    }
+  ],
+
+  "interactions": [],
+
+  "confidence": "high"
+}

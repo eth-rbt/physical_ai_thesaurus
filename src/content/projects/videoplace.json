@@ -1,0 +1,132 @@
+{
+  "name": "Videoplace",
+  "year": 1975,
+  "organization": [
+    "University of Connecticut"
+  ],
+  "project_type": "research_prototype",
+  "short_description": "Myron Krueger's camera-based responsive environment that captured users' full-body silhouettes in real time and placed them inside a shared artificial reality — without goggles, gloves, or handheld controllers.",
+  "long_description": "Videoplace was an interactive installation built by Myron W. Krueger at the University of Connecticut in the mid-1970s, growing out of earlier systems — GLOWFLOW (1969), METAPLAY, and PSYCHIC SPACE (1971). Video cameras recorded participants' silhouettes, special-purpose image-processing hardware extracted and composited them against a synthesized environment in real time, and the result was projected back so each person could see their own image interacting with graphic creatures, other participants in separate rooms, and responsive environments. No wearable device was required: the body itself became the cursor. Krueger's central claim — that the room itself should be the interface — anticipated controller-free sensing (Kinect), full-body avatar interaction (VR), and multi-user virtual spaces by decades. He articulated the vision in his 1983 book Artificial Reality (Addison-Wesley), and the system was exhibited at SIGGRAPH (1985, 1990), SIGCHI (1985, 1989), Ars Electronica (1990), and the Milwaukee Art Museum (1975). A permanent installation has been housed at the University of Connecticut.",
+  "primary_url": "https://en.wikipedia.org/wiki/Videoplace",
+  "ai_embedded": "none",
+  "ai_note": "No AI or ML — the system used special-purpose analog/digital image-processing hardware to threshold and composite video silhouettes in real time; the reactive behaviors were programmed rules, not learned models.",
+  "attributes": {
+    "embodiment.form": [
+      "Architectural / environmental system"
+    ],
+    "embodiment.mobility": [
+      "Fixed",
+      "Environmental / room-scale"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Gesture",
+      "Motion"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "function.role": [
+      "Creative collaborator",
+      "Performer"
+    ],
+    "genealogy.lineage": [
+      "Ubiquitous computing",
+      "Augmented reality",
+      "Tangible user interfaces",
+      "Ambient intelligence"
+    ],
+    "genealogy.interaction": [
+      "Gesture interaction",
+      "Full-body interaction",
+      "Controller-free interaction"
+    ]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 4,
+    "social_legibility": 2,
+    "form_specificity": 1,
+    "autonomy": 1,
+    "initiative": 2,
+    "memory_span": 1,
+    "expressiveness": 3,
+    "visibility": 1,
+    "intensity": 3,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-videoplace-001",
+      "caption": "Myron Krueger and Dan Sandin at Ars Electronica in Linz, 1999. Krueger is the creator of Videoplace.",
+      "image_type": "exhibition_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:MyronKrueger_DanSandin_1999.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "Two men standing together at what appears to be a conference or exhibition venue. The photo was taken at Ars Electronica in Linz, Austria, in September 1999."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-videoplace-001",
+      "title": "Videoplace",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Videoplace",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Overview: creator Myron Krueger, mid-1970s development at University of Connecticut, silhouette-based interaction, no wearable devices required, lineage from GLOWFLOW/METAPLAY/PSYCHIC SPACE, basis for 1983 book Artificial Reality."
+    },
+    {
+      "source_id": "source-videoplace-002",
+      "title": "Myron W. Krueger",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Myron_Krueger",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Biography: born 1942, PhD from University of Wisconsin–Madison, joined University of Connecticut computer science faculty 1978; exhibition history at Milwaukee Art Museum 1975, SIGGRAPH 1985 and 1990, SIGCHI 1985 and 1989, Ars Electronica 1990."
+    },
+    {
+      "source_id": "source-videoplace-003",
+      "title": "Artificial Reality (book)",
+      "source_type": "academic_paper",
+      "url": "https://en.wikipedia.org/wiki/Artificial_Reality_II",
+      "publisher": "Addison-Wesley",
+      "year": 1983,
+      "access_notes": "Myron Krueger's foundational book documenting the Videoplace research and articulating the concept of responsive environments. Followed by Artificial Reality 2 (Addison-Wesley Professional, 1991)."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Your silhouette shares a canvas with a stranger across the room",
+      "description": "Two participants in separate physical rooms each appear as a colored silhouette on both screens simultaneously; they can touch, chase, and gesture at each other's image — a shared space with no wires connecting them and no headsets on their faces.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Videoplace",
+      "source_label": "Wikipedia — Videoplace"
+    },
+    {
+      "title": "Pulling away when silhouettes touch",
+      "description": "Users spontaneously recoil when their projected silhouette overlaps another's, demonstrating that a camera and a projector — no haptic feedback at all — could produce a sense of social presence strong enough to trigger embodied avoidance.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Videoplace",
+      "source_label": "Wikipedia — Videoplace"
+    },
+    {
+      "title": "Playing with graphic creatures using just your hands",
+      "description": "Various Videoplace scenarios placed animated graphic entities on screen that responded to the shape, motion, and position of the participant's body — crawling up an extended arm, fleeing from a pointing finger, or mirroring poses.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Myron_Krueger",
+      "source_label": "Wikipedia — Myron Krueger"
+    },
+    {
+      "title": "Draw with your whole body as the brush",
+      "description": "In some Videoplace scenarios participants could leave traces of their silhouette on the projected canvas, turning a walk across the floor into a smear of color — the body as the only tool, no stylus or mouse needed.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Calibrate the room, then disappear into it",
+      "description": "Because the system needed only a camera and a projector, any room could become a Videoplace: point the camera, tune the threshold for the lighting conditions, and the bare space becomes interactive — the building's own architecture as the interface.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

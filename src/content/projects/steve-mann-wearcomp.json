@@ -1,0 +1,128 @@
+{
+  "name": "Steve Mann's WearComp",
+  "year": 1981,
+  "organization": [],
+  "project_type": "research_prototype",
+  "short_description": "The first on-body general-purpose computer: a backpack-mounted 6502 system with a head-mounted display, built by Steve Mann in high school in 1981 and continuously iterated over the following decades.",
+  "long_description": "While still in high school in Hamilton, Ontario, Steve Mann assembled a wearable multimedia computer in a steel-frame backpack powered by a 6502 processor (the chip in the Apple II), wiring it to cameras, flash units, and a head-mounted display to automate photographic systems. Where Weiser's ubicomp vision embedded computation into the environment, WearComp went the other direction — packing the computer onto the person so the human body itself became the computing platform. Mann carried successive iterations (WearComp1 through later numbered versions) throughout his McMaster engineering degree (1982–1989), then into the MIT Media Lab (1991/1992) where he co-founded the Wearable Computing Project, and later at the University of Toronto. The system grew to encompass text, graphics, video, audio, and wireless data links; Mann's 1997 IEEE Computer paper formalized the ideas as 'personal imaging' and established wearable computing as a research discipline.",
+  "primary_url": "https://en.wikipedia.org/wiki/Steve_Mann_(inventor)",
+  "ai_embedded": "none",
+  "ai_note": "The 1981 system used a 6502 microprocessor for control of photographic peripherals — no AI or ML components; rule-based and manual control only.",
+  "attributes": {
+    "embodiment.form": [
+      "Wearable",
+      "Glasses / eyewear"
+    ],
+    "embodiment.mobility": [
+      "Body-worn"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Motion"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "function.role": [
+      "Memory aid",
+      "Tool"
+    ],
+    "genealogy.lineage": [
+      "Wearable computing",
+      "Augmented reality",
+      "Cybernetics"
+    ]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 4,
+    "social_legibility": 2,
+    "visibility": 5,
+    "autonomy": 1,
+    "form_specificity": 2
+  },
+  "images": [
+    {
+      "image_id": "img-steve-mann-wearcomp-001",
+      "caption": "Evolution of Steve Mann's WearComp from the 1980s backpack-mounted system to later covert designs, photographed by Glogger.",
+      "image_type": "research_figure",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wearcompevolution.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A composite photograph showing multiple generations of Steve Mann's wearable computer, from a large backpack-mounted unit in the 1980s to progressively smaller and more integrated designs."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-steve-mann-wearcomp-001",
+      "title": "Steve Mann (inventor) — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Steve_Mann_(inventor)",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Biography covering the 6502-backpack system built in high school, McMaster and MIT affiliations, and the EyeTap/WearComp lineage."
+    },
+    {
+      "source_id": "source-steve-mann-wearcomp-002",
+      "title": "Wearable Computing: A First Step Toward Personal Imaging",
+      "source_type": "academic_paper",
+      "url": "http://wearcam.org/ieeecomputer/r2025.htm",
+      "publisher": "IEEE Computer",
+      "year": 1997,
+      "access_notes": "IEEE Computer, Vol. 30, No. 2, February 1997. Mann's foundational paper coining 'personal imaging' and describing the WearComp lineage from 1981 onward. PDF also at http://wearcam.org/ieeecomputer/ieeecomputer_personalimaging-wearablecomputing_mann_00566147.pdf"
+    },
+    {
+      "source_id": "source-steve-mann-wearcomp-003",
+      "title": "Steve Mann: My 'Augmediated' Life",
+      "source_type": "credible_news",
+      "url": "https://spectrum.ieee.org/steve-mann-my-augmediated-life",
+      "publisher": "IEEE Spectrum",
+      "year": 2013,
+      "access_notes": "First-person account; confirms late-1970s/early-1980s development during high school and the evolution from photographic control to full multimedia wearable. Notes 'more than 35 years' of wearing as of 2013."
+    },
+    {
+      "source_id": "source-steve-mann-wearcomp-004",
+      "title": "Wearable computer — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Wearable_computer",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Confirms 1981 date for Mann's 6502-backpack system and includes the Wearcompevolution.jpg image; cites the Wikipedia wearable computer history including WearComp4 by 1984."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Control a camera rig hands-free",
+      "description": "The first WearComp's primary use was triggering and controlling photographic equipment — flash units, multiple cameras — through pushbutton switches and automatic logic, freeing both hands from camera handling while still controlling the moment of capture.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Wearable_computer",
+      "source_label": "Wearable computer — Wikipedia"
+    },
+    {
+      "title": "See an overlay in one eye while looking at the world",
+      "description": "Early versions fed a head-mounted NTSC display over one eye, letting Mann view computed graphics, text, or camera-processed imagery without looking away from the scene in front of him — a direct precursor to contemporary AR headsets.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Steve_Mann_(inventor)",
+      "source_label": "Steve Mann (inventor) — Wikipedia"
+    },
+    {
+      "title": "Send a live image across the campus over amateur radio",
+      "description": "By the late 1980s the system included wireless links capable of transmitting video from the head-mounted camera to a remote base station, effectively making the wearer a mobile uplink — documented in Mann's 1994 wireless webcam work and referenced in IEEE Spectrum (2013).",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/steve-mann-my-augmediated-life",
+      "source_label": "IEEE Spectrum — My 'Augmediated' Life"
+    },
+    {
+      "title": "Never putting the computer down",
+      "description": "Unlike any prior computing paradigm, WearComp was always on — Mann wore it continuously through daily life, turning it into a platform for persistent sensing and memory rather than a device picked up for tasks. This 'always ready' posture was the key conceptual shift he named in his 1997 IEEE paper.",
+      "provenance": "documented",
+      "source_url": "http://wearcam.org/ieeecomputer/r2025.htm",
+      "source_label": "IEEE Computer, February 1997"
+    },
+    {
+      "title": "Walk around in a place and have it remember everything you looked at",
+      "description": "Building on the always-on camera and compute that WearComp established, a modern descendant could silently index every document, sign, face, and object encountered during a day's walk, surfacing any of them later on a voice query — the 'personal imaging' vision Mann outlined in 1997 now technically feasible.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

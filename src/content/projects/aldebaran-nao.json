@@ -1,0 +1,99 @@
+{
+  "name": "NAO",
+  "year": 2008,
+  "organization": [
+    "Aldebaran Robotics",
+    "SoftBank Robotics"
+  ],
+  "project_type": "commercial_product",
+  "short_description": "A compact, programmable humanoid robot that became the dominant research platform for social robotics and human-robot interaction for over a decade.",
+  "long_description": "Developed by French company Aldebaran Robotics and first released in 2008 — initially to RoboCup teams, then to universities worldwide — NAO is a 58 cm humanoid with 25 degrees of freedom, four microphones, two cameras, and the NAOqi software platform supporting Python, C++, Java, and MATLAB. More than 13,000 units were deployed across 70+ countries, and a 2021 scoping review counted 288 published HRI studies using NAO between 2010 and 2020 alone, making it the most-studied robot in the field. Its combination of relative affordability, robust construction, and accessible programming tools normalized the methods and curriculum of social robotics research globally. Acquired by SoftBank in 2015.",
+  "primary_url": "https://www.aldebaran.com/en/nao",
+  "ai_embedded": "some",
+  "ai_note": "NAOqi includes speech recognition, face detection, and object recognition — classical ML and signal-processing components — but the platform is fundamentally a programmable robot; researchers supply most of the AI logic.",
+  "attributes": {
+    "embodiment.form": [
+      "Humanoid robot"
+    ],
+    "embodiment.mobility": [
+      "Legged"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Audio",
+      "Speech",
+      "Touch",
+      "Motion"
+    ],
+    "intelligence.model": [
+      "Classical machine learning",
+      "Rule-based system"
+    ],
+    "function.role": [
+      "Companion",
+      "Teacher",
+      "Mediator"
+    ],
+    "genealogy.lineage": [
+      "Social robotics",
+      "Human-robot interaction",
+      "Companion robotics"
+    ]
+  },
+  "metrics": {
+    "proximity": 3,
+    "mobility": 3,
+    "scale": 2,
+    "social_legibility": 4,
+    "form_specificity": 4,
+    "autonomy": 3,
+    "initiative": 3,
+    "memory_span": 2,
+    "visibility": 5,
+    "generality": 3,
+    "intensity": 3,
+    "expressiveness": 4,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-aldebaran-nao-001",
+      "caption": "NAO robot at Innorobo 2015, Lyon.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Innorobo_2015_-_NAO_(cropped).JPG",
+      "rights_status": "creative_commons",
+      "alt_text": "A small white humanoid robot with rounded limbs and a smooth white and black plastic body standing upright, photographed at a trade show.",
+      "local_image": "/projects/aldebaran-nao.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-aldebaran-nao-001",
+      "title": "Nao (robot)",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Nao_(robot)",
+      "publisher": "Wikipedia",
+      "year": 2008,
+      "access_notes": "Overview of hardware specs, release history, deployment statistics, and RoboCup adoption."
+    },
+    {
+      "source_id": "source-aldebaran-nao-002",
+      "title": "10 Years of Human-NAO Interaction Research: A Scoping Review",
+      "source_type": "academic_paper",
+      "url": "https://www.frontiersin.org/articles/10.3389/frobt.2021.744526/full",
+      "publisher": "Frontiers in Robotics and AI",
+      "year": 2021,
+      "access_notes": "Reviews 288 HRI papers from 2010–2020 using NAO; covers domains, methods, and geographic distribution."
+    },
+    {
+      "source_id": "source-aldebaran-nao-003",
+      "title": "Happy Birthday Nao!",
+      "source_type": "credible_news",
+      "url": "https://robohub.org/happy-birthday-nao/",
+      "publisher": "Robohub",
+      "year": 2022,
+      "access_notes": "Timeline of NAO milestones including RoboCup adoption and research deployment."
+    }
+  ],
+  "confidence": "high"
+}

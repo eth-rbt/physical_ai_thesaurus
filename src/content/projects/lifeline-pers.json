@@ -1,0 +1,93 @@
+{
+  "name": "Lifeline Personal Emergency Response System",
+  "year": 1974,
+  "organization": ["Lifeline Systems, Inc."],
+  "project_type": "commercial_product",
+  "short_description": "The first commercial personal emergency response system (PERS) — a wearable pendant button connected via telephone line to a 24/7 monitoring center, enabling older adults and people with disabilities to summon help from anywhere in the home.",
+  "long_description": "Founded in 1974 by gerontologist Andrew S. Dibner and sociologist Susan Dibner in Watertown, Massachusetts, Lifeline Systems invented the PERS category by combining a wearable wireless button with a home base station that commandeered the telephone line to reach a staffed response center. The original insight — filed as U.S. patent #3,989,900 in 1974 — was that passive infrastructure like the telephone network could be redirected to support independent living for people who could not reliably reach a phone in an emergency. Lifeline established the wearable-button-plus-call-center paradigm that every subsequent medical alert product follows. Acquired by Philips in 2006 and later by Connect America in 2021, the system had served over seven million subscribers by the time of its fiftieth anniversary. As physical AI, Lifeline is the origin artifact of the home-care surveillance and trust-delegation lineage: an always-on body-worn sensor whose only intelligence is detecting a deliberate press and routing it to a human responder.",
+  "primary_url": "https://www.lifeline.com/about/",
+  "ai_embedded": "none",
+  "ai_note": "Rule-based relay system: button press triggers telephone dial-out to a call center; no machine learning or AI of any kind in the original design. Fall detection using accelerometers was not added until 2010.",
+  "attributes": {
+    "embodiment.form": ["Wearable", "Domestic object"],
+    "embodiment.mobility": ["Body-worn", "Fixed"],
+    "embodiment.proximity": ["On-body"],
+    "intelligence.input": ["Touch", "Motion"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Caregiver", "Security monitor", "Memory aid"],
+    "function.assistance_type": ["Emergency response", "Independent living support"],
+    "genealogy.lineage": ["Wearable computing", "Ambient intelligence", "Ubiquitous computing"],
+    "genealogy.precedent_field": ["Assistive technology", "Telecare", "Gerontechnology"],
+    "genealogy.interaction_paradigm": ["Button press", "Always-on monitoring", "Human-in-the-loop delegation"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 2,
+    "scale": 1,
+    "social_legibility": 1,
+    "form_specificity": 2,
+    "autonomy": 1,
+    "initiative": 1,
+    "memory_span": 1,
+    "visibility": 3,
+    "generality": 1,
+    "intensity": 2,
+    "expressiveness": 1,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-lifeline-pers-001",
+      "caption": "Tunstall Lifeline VI base station — the direct UK successor to the original Lifeline PERS base station, showing the telephone-connected home communicator that pairs with a wearable pendant button.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tunstall_Lifeline_VI.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A white rectangular home communicator unit with a large red emergency button in the center, speaker grille, and telephone connection ports, representing the base station component of a personal emergency response system."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-lifeline-pers-001",
+      "title": "About Lifeline | Trusted Medical Alert Company Since 1974",
+      "source_type": "official_product_page",
+      "url": "https://www.lifeline.com/about/",
+      "publisher": "Lifeline (Connect America)",
+      "year": 1974,
+      "access_notes": "Official brand history page; confirms 1974 founding, Andrew and Susan Dibner, and claim of first PERS in North America."
+    },
+    {
+      "source_id": "source-lifeline-pers-002",
+      "title": "Lifeline Systems, Inc.",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Lifeline_Systems,_Inc.",
+      "publisher": "Wikipedia",
+      "year": 2006,
+      "access_notes": "Wikipedia article covering founding history, patent filing (U.S. #3,989,900, filed November 2, 1974), IPO, and Philips acquisition."
+    },
+    {
+      "source_id": "source-lifeline-pers-003",
+      "title": "History of Lifeline Systems, Inc.",
+      "source_type": "credible_news",
+      "url": "https://www.fundinguniverse.com/company-histories/lifeline-systems-inc-history/",
+      "publisher": "FundingUniverse",
+      "access_notes": "Detailed corporate history including early hardware description (home console, pendant sensor, automatic timer), early sales strategy, IPO details, and revenue milestones."
+    },
+    {
+      "source_id": "source-lifeline-pers-004",
+      "title": "The Evolution of Medical Alert System Technology",
+      "source_type": "official_blog_post",
+      "url": "https://www.lifeline.com/blog/evolution-of-medical-alert-system-technology/",
+      "publisher": "Lifeline (Connect America)",
+      "access_notes": "Official timeline of product evolution; confirms original button-press paradigm and 2010 introduction of automatic fall detection."
+    },
+    {
+      "source_id": "source-lifeline-pers-005",
+      "title": "Medical alarm",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Medical_alarm",
+      "publisher": "Wikipedia",
+      "access_notes": "Covers broader PERS category history, including Dibner's 1972 conception and 1974 founding, and parallel German Hausnotruf development."
+    }
+  ],
+  "confidence": "high"
+}

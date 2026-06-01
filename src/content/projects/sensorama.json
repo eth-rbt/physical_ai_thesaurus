@@ -1,0 +1,97 @@
+{
+  "name": "Sensorama",
+  "year": 1962,
+  "organization": [],
+  "project_type": "research_prototype",
+  "short_description": "Morton Heilig's 1962 multi-sensory arcade cabinet — stereoscopic film, spatial sound, vibration, wind, and scent — the earliest physical prototype of immersive, body-engaged virtual experience.",
+  "long_description": "Designed and built by filmmaker Morton Heilig, the Sensorama was a coin-operated cabinet that immersed a single viewer in one of five short films using stereoscopic 3-D color imagery, directional stereo sound, a vibrating seat, fans that generated wind, and chemical odor emitters timed to the film content (exhaust fumes on a Brooklyn motorcycle ride, sea air on the beach). Heilig filed the patent in January 1961; it was granted as U.S. Patent 3,050,870 in 1962. No AI or computation was involved — the experience was fully pre-recorded and mechanically synchronized — yet the Sensorama established the design vocabulary of full-body, multi-modal immersive experience that VR, mixed reality, and spatial computing would inherit decades later. Financial backing was never secured and the project remained a one-off prototype.",
+  "primary_url": "https://en.wikipedia.org/wiki/Sensorama",
+  "ai_embedded": "none",
+  "ai_note": "A fully pre-recorded, mechanically synchronized experience with no computation or AI of any kind. Its significance is as the physical-design origin point for immersive, multi-sensory virtual experience.",
+  "attributes": {
+    "embodiment.form": [
+      "Architectural / environmental system"
+    ],
+    "embodiment.mobility": [
+      "Fixed"
+    ],
+    "embodiment.spatial_relationship": [
+      "Immersive / enclosing"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Audio"
+    ],
+    "intelligence.output": [
+      "Vision",
+      "Audio",
+      "Touch",
+      "Olfactory"
+    ],
+    "function.role": [
+      "Performer"
+    ],
+    "function.task_domain": [
+      "Entertainment",
+      "Simulation"
+    ],
+    "genealogy.lineage": [
+      "Augmented reality",
+      "Virtual reality",
+      "Spatial computing"
+    ],
+    "genealogy.precedent_field": [
+      "Cinema",
+      "Immersive experience design"
+    ]
+  },
+  "metrics": {
+    "expressiveness": 4,
+    "social_legibility": 1,
+    "proximity": 5,
+    "mobility": 1,
+    "autonomy": 1,
+    "initiative": 1
+  },
+  "images": [
+    {
+      "image_id": "img-sensorama-001",
+      "caption": "Figure 5 from Morton Heilig's Sensorama patent (U.S. Patent 3,050,870, 1962), showing the cabinet design.",
+      "image_type": "research_figure",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sensorama_patent_fig5.png",
+      "rights_status": "public_domain",
+      "alt_text": "A patent drawing showing the Sensorama cabinet in cross-section: a viewer seats themselves at the top and looks into an eyepiece hood while the internal projection and sensory apparatus occupies the lower body of the machine.",
+      "local_image": "/projects/sensorama.png"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-sensorama-001",
+      "title": "Sensorama — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Sensorama",
+      "publisher": "Wikipedia",
+      "year": 1962,
+      "access_notes": "Overview of the device, its sensory channels (stereoscopic 3-D, stereo sound, vibration, wind, scent), the five short films, and the patent (U.S. #3,050,870)."
+    },
+    {
+      "source_id": "source-sensorama-002",
+      "title": "Morton Heilig — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Morton_Heilig",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Biographical details on Heilig (December 22, 1926 – May 14, 1997): filmographer, VR pioneer; developed Sensorama from 1957; patent filed January 10, 1961, granted 1962."
+    },
+    {
+      "source_id": "source-sensorama-003",
+      "title": "U.S. Patent 3,050,870 — Sensorama Simulator",
+      "source_type": "documentation",
+      "url": "https://patents.google.com/patent/US3050870",
+      "publisher": "United States Patent Office",
+      "year": 1962,
+      "access_notes": "Primary patent document filed January 10, 1961; granted August 28, 1962. Describes the full multi-sensory cabinet design including olfactory, tactile, visual, and audio channels."
+    }
+  ],
+  "confidence": "high"
+}

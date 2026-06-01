@@ -1,0 +1,80 @@
+{
+  "name": "WABOT-1",
+  "year": 1973,
+  "organization": [
+    "Waseda University"
+  ],
+  "project_type": "research_prototype",
+  "short_description": "The world's first full-scale humanoid robot: bipedal walking, grasping hands, Japanese speech, and artificial vision — built at Waseda University under Professor Ichiro Kato.",
+  "long_description": "Completed in 1973 at Waseda University's Department of Mechanical Engineering under Professor Ichiro Kato, WABOT-1 (WAseda roBOT-1) was the world's first full-scale humanoid intelligent robot. It could walk on two legs, grip and transport objects with its hands, communicate in simple Japanese through an artificial mouth, and measure distances and directions using artificial ears and eyes. Its capabilities were roughly comparable to those of an 18-month-old child. WABOT-1 defined the research agenda for the entire field of humanoid robotics, establishing bipedal locomotion, manipulation, speech, and machine perception as the core challenges that subsequent decades of robotics would attempt to scale.",
+  "primary_url": "https://www.waseda.jp/top/en/news/88080",
+  "ai_embedded": "some",
+  "ai_note": "Rule-based control and early machine perception (distance/direction sensing via artificial ears and eyes); no learned AI, but early sensor-based intelligent behavior for its era.",
+  "attributes": {
+    "embodiment.form": [
+      "Humanoid robot"
+    ],
+    "embodiment.mobility": [
+      "Legged"
+    ],
+    "embodiment.scale": [
+      "Human-scale"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Audio",
+      "Speech"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "intelligence.output": [
+      "Speech",
+      "Motion"
+    ],
+    "genealogy.lineage": [
+      "Human-robot interaction",
+      "Social robotics",
+      "Cybernetics",
+      "Industrial automation"
+    ]
+  },
+  "metrics": {
+    "social_legibility": 4,
+    "mobility": 2,
+    "autonomy": 1,
+    "expressiveness": 2
+  },
+  "images": [
+    {
+      "image_id": "img-wabot-1-001",
+      "caption": "WABOT-1 on display, completed 1973 at Waseda University.",
+      "image_type": "product_photo",
+      "source_url": "https://www.waseda.jp/top/en/assets/uploads/2026/05/Famous-Robots-Eye-Catch-2000x1333.jpg",
+      "rights_status": "needs_permission",
+      "alt_text": "WABOT-1, a large metal humanoid robot with two legs, two arms, and a structured head unit, displayed at Waseda University."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-wabot-1-001",
+      "title": "Famous Robots at Waseda: WABOT-1 (1973) — The World's First Humanoid Robot",
+      "source_type": "lab_page",
+      "url": "https://www.waseda.jp/top/en/news/88080",
+      "publisher": "Waseda University",
+      "year": 1973,
+      "access_notes": "Official Waseda University article covering WABOT-1's completion date, Professor Ichiro Kato's role, capabilities, and historical significance. States completion year as 1973."
+    },
+    {
+      "source_id": "source-wabot-1-002",
+      "title": "Humanoid robot — History (WABOT-1)",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Humanoid_robot#History",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Wikipedia's Humanoid robot article cites WABOT-1 completion as 1972 and describes Waseda University project inception as 1967. Year discrepancy with Waseda University's own source (1973) is noted as an open question."
+    }
+  ],
+  "interactions": [],
+  "confidence": "high"
+}

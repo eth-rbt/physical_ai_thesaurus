@@ -1,0 +1,117 @@
+{
+  "name": "Smart Dust (UC Berkeley)",
+  "year": 1997,
+  "organization": ["UC Berkeley"],
+  "project_type": "research_prototype",
+  "short_description": "Kris Pister's DARPA-funded research program at UC Berkeley aiming to pack a complete wireless sensor — processor, power, and optical communication — into a volume of one cubic millimeter, scattering invisible sensing motes across environments at scale.",
+  "long_description": "Proposed by Kristofer Pister, Joe Kahn, and Bernhard Boser at UC Berkeley in a 1997 DARPA/MTO MEMS program proposal, Smart Dust set out to build autonomous sensor nodes the size of a grain of sand that could sense light, temperature, vibration, magnetism, and chemicals, process data locally, and communicate via steerable MEMS mirrors using laser light — all within one cubic millimeter and running for weeks on a button cell. By 2001 the team demonstrated macro-mote prototypes (roughly one cubic inch) with radio, multi-sensor arrays, and air-deployment at 29 Palms; a 21 km laser communication link was demonstrated across San Francisco Bay. The project concluded in 2001, spawning TinyOS, Berkeley Webs, and the NEST sensor-network platform, and directly commercializing through Crossbow Technologies and Dust Networks. Smart Dust instantiates Weiser's vision of computing that disappears into the environment at its most extreme: the mote has no screen, no keyboard, no user interface at all — it is pure, invisible, distributed sensing, the logical endpoint of ubicomp's promise that 'the most profound technologies are those that disappear.'",
+  "primary_url": "https://people.eecs.berkeley.edu/~pister/SmartDust/",
+
+  "ai_embedded": "none",
+  "ai_note": "Smart Dust motes use MEMS sensing, a microcontroller for local signal conditioning and threshold detection, and optical/RF communication — no machine-learning model runs inside the motes. The intelligence is in the network and the application layer, not in any single node.",
+
+  "attributes": {
+    "embodiment.form": ["Distributed object ecology", "Architectural / environmental system"],
+    "embodiment.mobility": ["Fixed", "Environmental / room-scale"],
+    "embodiment.scale": ["Sub-millimeter / microscale"],
+    "intelligence.input": ["Environmental sensors", "Motion", "Location"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool"],
+    "function.environmental": ["Environmental monitoring", "Presence sensing"],
+    "genealogy.lineage": [
+      "Ubiquitous computing",
+      "Ambient intelligence",
+      "Internet of Things",
+      "Wireless sensor networks"
+    ],
+    "genealogy.interaction": ["Context-aware computing"]
+  },
+
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 1,
+    "social_legibility": 1,
+    "expressiveness": 1,
+    "autonomy": 2,
+    "visibility": 1,
+    "initiative": 1
+  },
+
+  "images": [
+    {
+      "image_id": "img-smart-dust-uc-berkeley-001",
+      "caption": "CSIRO Fleck wireless sensor network nodes deployed outdoors — a direct descendant of the Smart Dust lineage of autonomous mote-scale sensing.",
+      "image_type": "research_figure",
+      "source_url": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_3719_CSIROs_Fleck_wireless_sensor_network_technology.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "Several small weatherproof wireless sensor nodes mounted outdoors on a post, each roughly the size of a matchbox, with solar panels and antenna stubs visible, representing the deployed sensor-mote form factor pioneered by Smart Dust."
+    }
+  ],
+
+  "sources": [
+    {
+      "source_id": "source-smart-dust-uc-berkeley-001",
+      "title": "Smart Dust — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Smartdust",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Overview of Smart Dust origins (1992 RAND workshop, 1997 DARPA proposal by Pister, Kahn, Boser), milestones (DARPA funding 1998, mote prototypes 1999–2001, 29 Palms demo), and lineage (TinyOS, Crossbow Technologies, Dust Networks)."
+    },
+    {
+      "source_id": "source-smart-dust-uc-berkeley-002",
+      "title": "Smart Dust: Autonomous sensing and communication in a cubic millimeter (UC Berkeley project page)",
+      "source_type": "project_page",
+      "url": "https://people.eecs.berkeley.edu/~pister/SmartDust/",
+      "publisher": "UC Berkeley EECS / Kris Pister",
+      "year": 2001,
+      "access_notes": "Primary project page: describes 1-cubic-millimeter goal, 100-cubic-millimeter July-1999 prototype, sub-millimeter MEMS mirror beam steering, 21 km laser communication demo, 29 Palms air-deployment test, and successors (Berkeley Webs, NEST, Crossbow, Dust Networks). Project concluded 2001."
+    },
+    {
+      "source_id": "source-smart-dust-uc-berkeley-003",
+      "title": "Mobile Networking for Smart Dust",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/313451.313558",
+      "publisher": "ACM MobiCom 1999",
+      "year": 1999,
+      "access_notes": "Authors: Joseph M. Kahn, Randy H. Katz, Kristofer S. J. Pister. Describes mobile networking protocols designed for the Smart Dust mote platform."
+    }
+  ],
+
+  "interactions": [
+    {
+      "title": "Scatter motes from an aircraft to map a battlefield",
+      "description": "At the 29 Palms Marine Corps base in 2001, the Smart Dust team air-deployed inch-scale motes that formed an ad-hoc sensor network and detected ground vehicles passing through the field — an actual documented field test of the concept.",
+      "provenance": "documented",
+      "source_url": "https://people.eecs.berkeley.edu/~pister/SmartDust/",
+      "source_label": "UC Berkeley Smart Dust project page"
+    },
+    {
+      "title": "Beam a signal 21 kilometers with a MEMS mirror",
+      "description": "The team demonstrated optical communication using a steerable MEMS mirror — a sub-millimeter silicon structure that could aim a laser beam — achieving a 21 km link across San Francisco Bay, showing that millimeter-scale devices could communicate without RF infrastructure.",
+      "provenance": "documented",
+      "source_url": "https://people.eecs.berkeley.edu/~pister/SmartDust/",
+      "source_label": "UC Berkeley Smart Dust project page"
+    },
+    {
+      "title": "A field that wakes up when a truck drives through it",
+      "description": "Deployed in a grid, Smart Dust motes sense magnetic field disturbances from passing vehicles, compare readings across neighbors, and report intrusion events to a base station — a threshold-triggered, network-level inference that emerges from individually dumb nodes.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Smartdust",
+      "source_label": "Smartdust — Wikipedia"
+    },
+    {
+      "title": "Seed a forest with temperature loggers after a wildfire",
+      "description": "Grounded in Smart Dust's multi-sensor mote design (temperature, humidity, light) and air-deployment, a helicopter could scatter thousands of biodegradable sensor nodes across a burned area to continuously map heat pockets and soil moisture recovery without a human entering the hazard zone.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A bridge whose concrete knows its own stress",
+      "description": "Smart Dust motes embedded in concrete during construction monitor vibration and strain over decades; when a node detects anomalous resonance it wakes its neighbors, and the swarm triangulates a crack location without any wired infrastructure or human inspection.",
+      "provenance": "proposed"
+    }
+  ],
+
+  "confidence": "high"
+}

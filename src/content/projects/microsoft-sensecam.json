@@ -1,0 +1,93 @@
+{
+  "name": "Microsoft SenseCam",
+  "year": 2004,
+  "organization": ["Microsoft Research"],
+  "project_type": "research_prototype",
+  "short_description": "A neck-worn passive camera with a fisheye lens and environmental sensors that automatically captures thousands of images per day, creating a visual lifelog used as a memory aid and the hardware backbone of the MyLifeBits project.",
+  "long_description": "Invented by Lyndsay Williams at Microsoft Research Cambridge, SenseCam is worn on a lanyard around the neck and captures JPEG images automatically — not at fixed intervals, but whenever its sensors detect a meaningful change in the environment: a spike in light level, a shift in temperature, a body-heat signature from a person nearby, or an acceleration event. This event-triggered design means the camera is selective rather than exhaustive, yet still accumulates 2,000–4,000 images in a typical day. Reviewing the day's images compressed into a short video proved to be a powerful trigger for episodic memory recall, leading to clinical trials with Alzheimer's and amnesia patients at Addenbrooke's Hospital. The device was also adopted as the primary capture tool for Gordon Bell's MyLifeBits project — an effort to store every document, call, and experience from a human life — making SenseCam the physical embodiment of the lifelogging vision. Over 200 academic papers have been published using SenseCam data, and researcher Cathal Gurrin (Dublin City University) has worn one continuously since 2006, accumulating more than 13 million images. The technology was later licensed as the Vicon Revue and OMG Autographer.",
+  "primary_url": "https://www.microsoft.com/en-us/research/project/sensecam/",
+  "ai_embedded": "some",
+  "ai_note": "The capture hardware is sensor-driven with no AI; AI/ML appears downstream in event segmentation software and later clinical review tools. The device itself is a smart sensor, not an ML system.",
+  "attributes": {
+    "embodiment.form": [
+      "Wearable"
+    ],
+    "embodiment.mobility": [
+      "Body-worn"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Motion",
+      "Environmental sensors"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "function.role": [
+      "Memory aid",
+      "Capture"
+    ],
+    "function.assistance_type": [
+      "Cognitive assistance",
+      "Lifelogging"
+    ],
+    "genealogy.lineage": [
+      "Wearable computing",
+      "Ubiquitous computing",
+      "Lifelogging"
+    ],
+    "genealogy.precedent_field": [
+      "Human-computer interaction",
+      "Clinical memory research"
+    ]
+  },
+  "metrics": {
+    "memory_span": 5,
+    "proximity": 5,
+    "mobility": 4,
+    "social_legibility": 2,
+    "autonomy": 2,
+    "expressiveness": 1
+  },
+  "images": [
+    {
+      "image_id": "img-microsoft-sensecam-001",
+      "caption": "SenseCam prototype circa 2003, designed by Lyndsay Williams at Microsoft Research Cambridge.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SenseCam_prototype_circa_2003_by_Lyndsay_Williams.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A small rectangular wearable camera device with a fisheye lens on the front, designed to be worn around the neck on a lanyard.",
+      "local_image": "/projects/microsoft-sensecam.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-microsoft-sensecam-001",
+      "title": "SenseCam — Microsoft Research",
+      "source_type": "lab_page",
+      "url": "https://www.microsoft.com/en-us/research/project/sensecam/",
+      "publisher": "Microsoft Research",
+      "year": 2004,
+      "access_notes": "Official Microsoft Research project page. Established February 25, 2004. Notes over 200 academic papers using the platform and commercialization as Vicon Revue and OMG Autographer."
+    },
+    {
+      "source_id": "source-microsoft-sensecam-002",
+      "title": "MyLifeBits — Microsoft Research",
+      "source_type": "lab_page",
+      "url": "https://www.microsoft.com/en-us/research/project/mylifebits/",
+      "publisher": "Microsoft Research",
+      "year": 2001,
+      "access_notes": "Official page for Gordon Bell's MyLifeBits project, which used SenseCam as its primary visual capture device."
+    },
+    {
+      "source_id": "source-microsoft-sensecam-003",
+      "title": "Microsoft SenseCam — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Microsoft_SenseCam",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Secondary source covering invention history, technical specifications (fisheye lens, accelerometer, PIR, temperature sensor), clinical applications, and successor products."
+    }
+  ],
+  "confidence": "high"
+}

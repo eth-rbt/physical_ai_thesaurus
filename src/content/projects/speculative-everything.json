@@ -1,7 +1,11 @@
 {
   "name": "Speculative Everything: Design, Fiction, and Social Dreaming",
   "year": 2013,
-  "organization": ["Anthony Dunne", "Fiona Raby", "MIT Press"],
+  "organization": [
+    "Anthony Dunne",
+    "Fiona Raby",
+    "MIT Press"
+  ],
   "project_type": "concept",
   "short_description": "A foundational book and manifesto by Anthony Dunne and Fiona Raby proposing speculative and critical design as a way to imagine and debate possible futures rather than solve immediate problems.",
   "long_description": "Speculative Everything argues that design can be used not just to make products but to pose provocative \"what if\" questions, building fictional objects and scenarios that open debate about the futures people want and want to avoid. It is the most articulate statement of speculative, critical, and design-fiction practice, drawing on fine art, cinema, futurology, and the philosophy of technology, with examples ranging from a menstruation machine to robotic devices and synthetic-biology food-foraging tools. For physical AI and interaction design it matters as a methodological touchstone: it frames how designers prototype envisioned, often un-built artifacts to interrogate the social, ethical, and political consequences of technology before it is real.",
@@ -9,9 +13,18 @@
   "ai_embedded": "none",
   "ai_note": "It is a printed book and design-theory manifesto; no AI or computation runs inside it, and the speculative artifacts it discusses are propositional rather than working AI systems.",
   "attributes": {
-    "genealogy.lineage": ["Speculative design", "Design fiction", "Critical design"],
-    "function.role": ["Mediator", "Teacher"],
-    "embodiment.form": ["Distributed object ecology"]
+    "genealogy.lineage": [
+      "Speculative design",
+      "Design fiction",
+      "Critical design"
+    ],
+    "function.role": [
+      "Mediator",
+      "Teacher"
+    ],
+    "embodiment.form": [
+      "Distributed object ecology"
+    ]
   },
   "metrics": {
     "autonomy": 1,
@@ -66,7 +79,7 @@
     },
     {
       "title": "Walk into the kingdom you read about",
-      "description": "The United Micro Kingdoms moved off the page into the Design Museum in London, where visitors could stand among full-scale models of the Digicar, the perpetually-crawling 75-carriage nuclear commune train, and the other transport speculations.",
+      "description": "The United Micro Kingdoms moved off the page into the Design Museum in London, where visitors could gather around detailed scale models of the Digicar and the relentlessly-crawling 75-carriage nuclear commune train.",
       "provenance": "observed",
       "source_url": "https://we-make-money-not-art.com/united_micro_kingdoms/",
       "source_label": "We Make Money Not Art — UMK exhibition"

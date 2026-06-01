@@ -1,0 +1,129 @@
+{
+  "name": "Google Glass",
+  "year": 2013,
+  "organization": ["Google", "Google X"],
+  "project_type": "commercial_product",
+  "short_description": "The first mass-distributed AR monocle, worn on the face to overlay navigation, photos, and voice search — and trigger the first mainstream privacy backlash against always-on head-worn cameras.",
+  "long_description": "Google Glass was a head-worn optical display developed by Google X and made available to a developer Explorer program starting in April 2013 at $1,500. A small prism display sat above the right eye, showing a 640×360 HUD for turn-by-turn navigation, voice search, photo capture, and messaging — all driven by \"OK Glass\" voice commands and a touchpad strip on the frame. Audio was delivered through bone-conduction transducers. The Consumer Edition launched briefly in April 2014 before being pulled in January 2015; an Enterprise Edition for workplace use followed in 2017 (updated in 2019) and was itself discontinued in March 2023. Glass was the first commercial product to force a broad public reckoning with what it means to walk into shared space wearing a camera that looks like eyewear — giving rise to the pejorative 'Glasshole' and establishment of bans in casinos, movie theaters, and restaurants.",
+  "primary_url": "https://www.google.com/glass/start/",
+  "ai_embedded": "some",
+  "ai_note": "Glass ran classical ML and cloud APIs for voice recognition, search, and image identification, but its core display, navigation, and notification pipeline was rules-based. No on-device large language or vision-language model.",
+  "attributes": {
+    "embodiment.form": [
+      "Glasses / eyewear",
+      "Wearable",
+      "Head-worn"
+    ],
+    "embodiment.mobility": [
+      "Body-worn"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Speech",
+      "Audio",
+      "Location"
+    ],
+    "intelligence.model": [
+      "Rule-based system",
+      "Classical machine learning"
+    ],
+    "function.role": [
+      "Assistant",
+      "Memory aid"
+    ],
+    "genealogy.lineage": [
+      "Wearable computing",
+      "Augmented reality",
+      "Ubiquitous computing"
+    ]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 4,
+    "social_legibility": 3,
+    "memory_span": 2,
+    "autonomy": 2,
+    "expressiveness": 1
+  },
+  "images": [
+    {
+      "image_id": "img-google-glass-001",
+      "caption": "Google Glass Explorer Edition with optical prescription frame attachment, 2014.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Google_Glass_with_frame.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "Google Glass Explorer Edition shown with a transparent prescription-compatible optical frame attachment. The small prism display module sits above the right lens, connected to the frame by a slim titanium bridge.",
+      "local_image": "/projects/google-glass.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-google-glass-001",
+      "title": "Google Glass — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Google_Glass",
+      "publisher": "Wikipedia",
+      "year": 2024,
+      "access_notes": "Comprehensive secondary source covering launch dates, hardware specs, Explorer program, Enterprise Editions, and privacy controversies. Used as primary fact-check for dates and feature specifications."
+    },
+    {
+      "source_id": "source-google-glass-002",
+      "title": "Glass — Google",
+      "source_type": "official_product_page",
+      "url": "https://www.google.com/glass/start/",
+      "publisher": "Google",
+      "year": 2019,
+      "access_notes": "Official landing page for the Enterprise Edition 2; consumer page was taken down after 2015 discontinuation."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "\"OK Glass, take a picture\" — hands-free capture",
+      "description": "Say \"OK Glass, take a picture\" or wink (with the Wink app enabled) and the 5-megapixel camera fires without touching anything — the first documented mainstream device for truly hands-free first-person photography.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/glass/answer/3064954",
+      "source_label": "Google Glass Help — Glass voice commands"
+    },
+    {
+      "title": "Turn-by-turn navigation while walking",
+      "description": "Directions appear in the prism display as a persistent overlay at the top of your visual field, with turn alerts delivered through bone-conduction audio, so you can navigate a city without looking down at a phone.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Google_Glass",
+      "source_label": "Wikipedia — Google Glass"
+    },
+    {
+      "title": "Live translation displayed over text",
+      "description": "Point the camera at printed text in a foreign language and the Word Lens integration overlaid an English translation in the prism display, one of the first examples of real-time AR translation deployed in a shipping consumer device.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Google_Glass",
+      "source_label": "Wikipedia — Google Glass (Word Lens integration)"
+    },
+    {
+      "title": "Surgeons wearing Glass in the operating room",
+      "description": "Clinicians at hospitals including Ohio State Wexner Medical Center and UCSF used Enterprise Glass to stream their first-person view to remote specialists or students, consulted hands-free mid-procedure — an early demonstration of head-worn AI as a professional tool.",
+      "provenance": "observed",
+      "source_url": "https://en.wikipedia.org/wiki/Google_Glass",
+      "source_label": "Wikipedia — Google Glass (Enterprise uses)"
+    },
+    {
+      "title": "Getting ejected from a casino for wearing Glass",
+      "description": "Las Vegas casinos banned Glass as soon as it became publicly available, citing anti-card-counting rules; bars, movie theaters, and strip clubs followed, producing the first wave of explicit head-worn-camera exclusion policies long before any legal framework existed.",
+      "provenance": "observed",
+      "source_url": "https://en.wikipedia.org/wiki/Google_Glass",
+      "source_label": "Wikipedia — Google Glass (privacy and security controversies)"
+    },
+    {
+      "title": "Assembly-line workers guided step-by-step",
+      "description": "Industrial clients (including Boeing and GE Aviation) deployed Enterprise Edition Glass to display assembly instructions in the worker's field of view, reducing errors and training time by overlaying the correct part or torque spec exactly where the worker was looking.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Google_Glass",
+      "source_label": "Wikipedia — Google Glass (Enterprise Edition)"
+    },
+    {
+      "title": "Glance at a shelf to pull up the service manual",
+      "description": "A field-service technician could look at a piece of equipment, have Glass recognize it via its camera, and read the relevant spec sheet or maintenance procedure in the HUD without reaching for a tablet or radio — combining device identification with on-demand documentation.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

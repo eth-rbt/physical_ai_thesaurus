@@ -1,0 +1,86 @@
+{
+  "name": "Vannevar Bush — Memex",
+  "year": 1945,
+  "organization": [
+    "Office of Scientific Research and Development"
+  ],
+  "project_type": "concept",
+  "short_description": "A 1945 thought experiment describing a desk-sized personal memory machine that stores all of a person's records and lets them traverse information via associative trails.",
+  "long_description": "Published in The Atlantic in July 1945, Vannevar Bush's essay 'As We May Think' introduced the Memex (memory extender) — a hypothetical desk-sized electromechanical device using compressed microfilm to store all the books, records, and communications a person might ever consult. Its defining innovation was associative linking: rather than rigid index hierarchies, the user could forge 'trails' connecting any two items and share those trails with others, mimicking the way human minds move by association rather than by category. The Memex was never built, but it is the foundational thought experiment for hypertext (Ted Nelson, 1965), personal computing, lifelogging, and every AI memory system that followed. Douglas Engelbart cited it directly in designing the mouse and NLS; Tim Berners-Lee acknowledged it as an ancestor of the web; Microsoft's MyLifeBits (2003) and DARPA's Memex program (2014) took its name explicitly.",
+  "primary_url": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
+  "ai_embedded": "envisioned",
+  "ai_note": "No AI/ML exists in the concept — it was conceived as an electromechanical microfilm device. The intelligence is human; the machine extends memory and enables associative retrieval mechanically. AI is part of what the vision ultimately became, not what Bush specified.",
+  "attributes": {
+    "embodiment.form": [
+      "Domestic object"
+    ],
+    "embodiment.mobility": [
+      "Fixed"
+    ],
+    "intelligence.input": [
+      "Text",
+      "Vision"
+    ],
+    "intelligence.output": [
+      "Text",
+      "Vision"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "function.role": [
+      "Memory aid",
+      "Assistant"
+    ],
+    "function.assistance_type": [
+      "Information retrieval",
+      "Knowledge management"
+    ],
+    "genealogy.lineage": [
+      "Personal computing",
+      "Ubiquitous computing",
+      "Lifelogging",
+      "Tangible user interfaces"
+    ],
+    "genealogy.precedent_field": [
+      "Information science",
+      "Human-computer interaction",
+      "Hypertext"
+    ]
+  },
+  "metrics": {
+    "memory_span": 5
+  },
+  "images": [
+    {
+      "image_id": "img-vannevar-bush-memex-001",
+      "caption": "A modern reinterpretation of the Memex device at the Das Netz exhibition, Deutsches Technikmuseum, Berlin, 2025.",
+      "image_type": "exhibition_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Memex_at_Das_Netz_exhibition_of_Deutsches_Technikmuseum.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A physical reconstruction of the Memex desk device on display at a museum exhibition, showing the large desk-like form factor with screens and storage components.",
+      "local_image": "/projects/vannevar-bush-memex.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-vannevar-bush-memex-001",
+      "title": "As We May Think",
+      "source_type": "academic_paper",
+      "url": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
+      "publisher": "The Atlantic",
+      "year": 1945,
+      "access_notes": "Original essay by Vannevar Bush, published July 1945 in The Atlantic Monthly, Vol. 176, No. 1, pp. 101–108. Primary source for all claims about the Memex concept."
+    },
+    {
+      "source_id": "source-vannevar-bush-memex-002",
+      "title": "Memex — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Memex",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Secondary source documenting influence on Ted Nelson (hypertext, 1965), Douglas Engelbart (NLS), Tim Berners-Lee (WWW), Microsoft MyLifeBits (2003), and DARPA Memex program (2014)."
+    }
+  ],
+  "confidence": "high"
+}

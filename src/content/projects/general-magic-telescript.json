@@ -1,0 +1,112 @@
+{
+  "name": "General Magic Telescript",
+  "year": 1994,
+  "organization": ["General Magic"],
+  "project_type": "platform",
+  "short_description": "The first commercial mobile-agent platform: software agents carrying 'work orders' traveled across network nodes to execute tasks and return results — an explicit pre-web tool-call architecture.",
+  "long_description": "Telescript, developed by General Magic starting in 1991 and first publicly demonstrated at Macworld Expo in January 1994, was an object-oriented language and runtime for mobile software agents. Rather than keeping a live connection open, a Telescript agent carried its complete task specification to a remote 'place' on the network, executed there (booking a flight, checking stock prices, comparing retail offers), and returned only the result — reducing every distributed operation to a single 'go' instruction. The platform ran on dedicated server infrastructure operated by AT&T, Sony, NTT, and France Telecom, and shipped on consumer hardware via the Sony Magic Link PDA and Motorola Envoy in 1994. Hardware and carrier adoption remained limited, but the architecture anticipated cloud-executed agentic tool-calling by three decades.",
+  "primary_url": "https://en.wikipedia.org/wiki/Telescript_(programming_language)",
+  "ai_embedded": "none",
+  "ai_note": "Telescript agents are deterministic procedural programs, not ML models; intelligence is the network's routing and agent-dispatch logic, not learned inference.",
+  "attributes": {
+    "embodiment.form": ["Handheld device"],
+    "embodiment.mobility": ["Handheld"],
+    "intelligence.input": ["Text"],
+    "intelligence.model": ["Rule-based system"],
+    "intelligence.control-architecture": ["Mobile agent", "Tool-call architecture"],
+    "function.role": ["Assistant", "Tool", "Mediator"],
+    "function.task-domain": ["Information retrieval", "Transaction execution"],
+    "genealogy.lineage": ["Ubiquitous computing", "Internet of Things", "Ambient intelligence"],
+    "genealogy.precedent-field": ["Distributed computing", "Mobile agents", "Agentic AI"]
+  },
+  "metrics": {
+    "autonomy": 3,
+    "initiative": 2,
+    "memory_span": 1,
+    "visibility": 1,
+    "generality": 3,
+    "timing": 2,
+    "social_legibility": 1,
+    "expressiveness": 1,
+    "proximity": 3,
+    "mobility": 3
+  },
+  "images": [
+    {
+      "image_id": "img-general-magic-telescript-001",
+      "caption": "The Sony Magic Link PIC-1000, the consumer PDA that shipped Telescript and Magic Cap to the public in 1994.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SonyMagicLink.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A Sony Magic Link PIC-1000 personal digital assistant lying flat, showing its landscape touchscreen displaying the Magic Cap desktop interface with small room-like icons.",
+      "local_image": "/projects/general-magic-telescript.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-general-magic-telescript-001",
+      "title": "General Magic",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/General_Magic",
+      "publisher": "Wikipedia",
+      "year": 1990,
+      "access_notes": "Company history, founding 1990, product timeline, Magic Cap and Telescript overview, General Magic Alliance partners."
+    },
+    {
+      "source_id": "source-general-magic-telescript-002",
+      "title": "Telescript (programming language)",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Telescript_(programming_language)",
+      "publisher": "Wikipedia",
+      "year": 1994,
+      "access_notes": "Technical overview: mobile agents, places, 'go' instruction, cross-platform bytecode, cloud execution model, comparison with Java applets."
+    },
+    {
+      "source_id": "source-general-magic-telescript-003",
+      "title": "Past Futures of Programming: General Magic's Telescript",
+      "source_type": "credible_news",
+      "url": "https://instadeq.com/blog/posts/past-futures-of-programming-general-magic-telescript/",
+      "publisher": "Instadeq Blog",
+      "year": 2021,
+      "access_notes": "Technical deep-dive on Telescript's places/agents/travel metaphor, 'go' instruction semantics, use cases (ticket booking, price monitoring, camera shopping), and comparison with RPC."
+    },
+    {
+      "source_id": "source-general-magic-telescript-004",
+      "title": "1994 Software Agents List Archive: Info on Telescript",
+      "source_type": "documentation",
+      "url": "https://research.cs.umbc.edu/agentlist/archive/1994/0085.html",
+      "publisher": "UMBC Software Agents Research Group",
+      "year": 1994,
+      "access_notes": "Primary 1994 mailing list archive describing Telescript engine, Places and Agents class hierarchy, agent migration mechanism, and permit/authority security model."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Send an agent to find the cheapest camera price",
+      "description": "A user dispatches a Telescript agent with a product name and a maximum price; the agent visits multiple virtual storefronts in the network, compares prices, and returns only the winning offer — completing in fifteen minutes what a phone call to each retailer would have taken all day.",
+      "provenance": "documented",
+      "source_url": "https://instadeq.com/blog/posts/past-futures-of-programming-general-magic-telescript/",
+      "source_label": "Instadeq — Past Futures of Programming: Telescript"
+    },
+    {
+      "title": "Book a theater ticket without staying connected",
+      "description": "Rather than keeping an open phone line, a Telescript agent travels to the theater's 'place' on the network, checks seat availability, negotiates the transaction, and returns a confirmation — the first commercial example of a software agent carrying a complete work order to a remote endpoint.",
+      "provenance": "documented",
+      "source_url": "https://instadeq.com/blog/posts/past-futures-of-programming-general-magic-telescript/",
+      "source_label": "Instadeq — Past Futures of Programming: Telescript"
+    },
+    {
+      "title": "A price-watcher that never logs off",
+      "description": "An agent is given a target price and left running on a remote 'place'; it monitors the product until the price drops to the threshold, then sends a result back to the user's device — a persistent background agent managing a condition on the user's behalf without any ongoing connection.",
+      "provenance": "documented",
+      "source_url": "https://instadeq.com/blog/posts/past-futures-of-programming-general-magic-telescript/",
+      "source_label": "Instadeq — Past Futures of Programming: Telescript"
+    },
+    {
+      "title": "One spoken command fans out across services",
+      "description": "Because Telescript's 'go' instruction let an agent chain through places, a single request from the Magic Link could trigger a cascade — check the calendar, book a table, confirm a reminder — each step handled by a specialized place on the network, foreshadowing modern multi-step LLM tool-call chains.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,152 @@
+{
+  "name": "Microsoft Seeing AI",
+  "year": 2017,
+  "organization": ["Microsoft"],
+  "project_type": "commercial_product",
+  "short_description": "A free smartphone app that narrates the visual world for blind and low-vision users — reading text, identifying people, products, currency, and scenes through on-device and cloud AI.",
+  "long_description": "Seeing AI turns a smartphone camera into a real-time audio narrator for people who are blind or have low vision. Launched on iOS in July 2017 and Android in late 2023, it was developed at Microsoft Garage by a team led by Saqib Shaikh (a blind software engineer) and originated from a 2014 hackathon project. The app routes the camera feed through specialized channels — Short Text, Documents, Products (barcode), Scenes, People, Currency, Colors, Handwriting — each optimized for a different class of visual query. Some channels run on-device for speed; richer scene descriptions call cloud vision APIs. As a genealogical artifact it shows what the convergence of smartphone cameras, on-device deep learning, and cloud cognitive services can do specifically for accessibility — an interaction paradigm in which the AI observes on behalf of its user rather than augmenting sighted perception.",
+  "primary_url": "https://www.seeingai.com/",
+  "ai_embedded": "core",
+  "ai_note": "Computer vision and deep learning run on-device for text and barcode tasks; cloud Vision APIs power scene description and face recognition.",
+  "attributes": {
+    "embodiment.form": ["Handheld"],
+    "embodiment.mobility": ["Handheld"],
+    "intelligence.input": ["Vision"],
+    "intelligence.output": ["Speech", "Audio"],
+    "intelligence.model": ["Deep learning", "Vision-language model"],
+    "function.role": ["Assistant", "Memory aid", "Tool"],
+    "function.assistance_type": ["Accessibility aid"],
+    "genealogy.lineage": ["Assistive technology", "Ubiquitous computing", "Computer vision"],
+    "genealogy.precedent_field": ["Assistive technology", "Human-computer interaction"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 4,
+    "social_legibility": 1,
+    "autonomy": 2,
+    "memory_span": 2,
+    "generality": 4,
+    "initiative": 1
+  },
+  "images": [
+    {
+      "image_id": "img-microsoft-seeing-ai-001",
+      "caption": "Seeing AI app interface showing the channel selector for text, documents, products, and scenes.",
+      "image_type": "screenshot",
+      "source_url": "https://www.seeingai.com/",
+      "rights_status": "needs_permission",
+      "alt_text": "A smartphone screen showing the Seeing AI app with a live camera viewfinder and a row of channel buttons at the bottom labeled Short Text, Document, Product, Scene, and Person."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-seeing-ai-001",
+      "title": "Seeing AI",
+      "source_type": "official_product_page",
+      "url": "https://www.seeingai.com/",
+      "publisher": "Microsoft",
+      "year": 2017,
+      "access_notes": "Official product site; was formerly at microsoft.com/en-us/ai/seeing-ai (301 redirects here)."
+    },
+    {
+      "source_id": "source-seeing-ai-002",
+      "title": "Seeing AI — Microsoft Garage Wall of Fame",
+      "source_type": "project_page",
+      "url": "https://www.microsoft.com/en-us/garage/wall-of-fame/seeing-ai/",
+      "publisher": "Microsoft Garage",
+      "year": 2017,
+      "access_notes": "Documents the app's Garage origins, hackathon backstory, technology (vision-to-language + image classification), and impact statistics (3M+ tasks by end of 2017)."
+    },
+    {
+      "source_id": "source-seeing-ai-003",
+      "title": "Seeing AI App Launches on Android — Including new and updated features and new languages",
+      "source_type": "official_blog_post",
+      "url": "https://blogs.microsoft.com/accessibility/seeing-ai-app-launches-on-android-including-new-and-updated-features-and-new-languages/",
+      "publisher": "Microsoft Accessibility Blog",
+      "year": 2023,
+      "access_notes": "Announces Android launch (December 2023), 18 supported languages, Document Chat, and richer photo descriptions."
+    },
+    {
+      "source_id": "source-seeing-ai-004",
+      "title": "Seeing AI",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/Seeing_AI",
+      "publisher": "Wikipedia",
+      "year": 2017,
+      "access_notes": "Background on initial iOS release (July 12, 2017), feature timeline, and currency/language expansion milestones."
+    },
+    {
+      "source_id": "source-seeing-ai-005",
+      "title": "Seeing AI — Talking Camera App for the Blind Community (Core77 Design Awards 2018)",
+      "source_type": "exhibition_page",
+      "url": "https://designawards.core77.com/Design-for-Social-Impact/72380/Seeing-AI-Talking-Camera-App-for-the-Blind-Community",
+      "publisher": "Core77",
+      "year": 2018,
+      "access_notes": "Design for Social Impact Award entry; documents 150,000 downloads and 5M+ tasks completed as of 2018 submission."
+    },
+    {
+      "source_id": "source-seeing-ai-006",
+      "title": "Seeing AI — App Store",
+      "source_type": "official_product_page",
+      "url": "https://apps.apple.com/us/app/seeing-ai/id999062298",
+      "publisher": "Apple / Microsoft",
+      "year": 2017,
+      "access_notes": "App Store listing; confirms version 5.6.1 (2025), 19 supported languages, and LiDAR World channel added in iOS 14 era."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Read a receipt without asking for help",
+      "description": "Hold the phone over a printed receipt and Seeing AI reads each line aloud — items, prices, total — using the Document channel's audio guidance to straighten and capture the page, giving a user who is blind independence at checkout.",
+      "provenance": "documented",
+      "source_url": "https://www.seeingai.com/",
+      "source_label": "Seeing AI — official site"
+    },
+    {
+      "title": "Scan a barcode to know what's in the cupboard",
+      "description": "Wave the phone over a tin or box and audible beeps speed up as the barcode nears the frame; once locked it announces the product name and description, replacing a $1,300 dedicated scanner.",
+      "provenance": "documented",
+      "source_url": "https://designawards.core77.com/Design-for-Social-Impact/72380/Seeing-AI-Talking-Camera-App-for-the-Blind-Community",
+      "source_label": "Core77 Design Awards 2018"
+    },
+    {
+      "title": "Identify a face and hear their mood",
+      "description": "Point the camera at a person and the app names them if they are a saved contact, or describes a stranger's approximate age, gender, and facial expression, drawing on on-device facial recognition.",
+      "provenance": "documented",
+      "source_url": "https://www.microsoft.com/en-us/garage/wall-of-fame/seeing-ai/",
+      "source_label": "Microsoft Garage — Seeing AI"
+    },
+    {
+      "title": "Ask a follow-up question about a document",
+      "description": "After scanning a document, type or speak a follow-up — 'What is the total?' or 'Summarize this' — and the Document Chat feature answers from the captured content, extending the interaction past a single read-aloud.",
+      "provenance": "documented",
+      "source_url": "https://blogs.microsoft.com/accessibility/seeing-ai-app-launches-on-android-including-new-and-updated-features-and-new-languages/",
+      "source_label": "Microsoft Accessibility Blog — Android launch"
+    },
+    {
+      "title": "Navigate a room with audio augmented reality",
+      "description": "On LiDAR-equipped iPhones the World channel generates spatial audio cues — sounds that shift as you turn — so a user can locate a chair, a door, or a person without touching anything.",
+      "provenance": "documented",
+      "source_url": "https://apps.apple.com/us/app/seeing-ai/id999062298",
+      "source_label": "App Store — Seeing AI"
+    },
+    {
+      "title": "Teach the app a face at a party",
+      "description": "A blind user photographs a friend or colleague, assigns a name, and from then on Seeing AI names that person whenever they appear in frame — turning one-time enrollment into a persistent recognition shortcut.",
+      "provenance": "documented",
+      "source_url": "https://www.perkins.org/resource/microsoft-seeing-ai-and-low-vision-review/",
+      "source_label": "Perkins School for the Blind — Seeing AI review"
+    },
+    {
+      "title": "Decode color-coded charts in a document",
+      "description": "Point the phone at a chart, invoke the Colors channel to identify the exact hue of each segment, then switch to Document Chat to ask what each color represents — combining two channels to parse information normally visual.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Read a medicine label before taking the dose",
+      "description": "Hold the phone over a prescription bottle; the Short Text channel reads the drug name, dosage, and instructions aloud — grounded in the same real-time OCR the app already runs for receipts and signs.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

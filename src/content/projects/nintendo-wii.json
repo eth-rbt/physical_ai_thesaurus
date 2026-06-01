@@ -1,0 +1,73 @@
+{
+  "name": "Nintendo Wii",
+  "year": 2006,
+  "organization": ["Nintendo"],
+  "project_type": "commercial_product",
+  "short_description": "A home game console whose motion-sensing Wii Remote made physical gesture the primary input, drawing families and non-gamers into shared play.",
+  "long_description": "Released in November 2006, the Nintendo Wii deliberately broke from the console industry's race for raw processing power and instead invested in a novel physical interface: a handheld Wii Remote that detected three-axis acceleration and pointed at the screen via infrared sensors. The bundled Wii Sports — bowling, tennis, golf, baseball, boxing — made the interaction immediately legible to anyone who had swung an arm, and the console became a landmark multi-user device: up to four players with simultaneous remotes, full-household generational range, and a living-room social dynamic that had more in common with board game night than solo gaming. Selling 101.63 million units, the Wii demonstrated that changing the physical form of the input — from button matrix to embodied gesture — could redefine who a device is for and how many people participate at once.",
+  "primary_url": "https://www.nintendo.com/consumer/systems/wii/index.jsp",
+  "ai_embedded": "none",
+  "ai_note": "The Wii Remote uses accelerometers and infrared point-tracking for gesture input; no machine-learning or AI runs onboard — game responses are rule-based physics simulations.",
+  "attributes": {
+    "embodiment.form": ["Handheld", "Domestic object"],
+    "embodiment.mobility": ["Handheld", "Fixed"],
+    "embodiment.actuation": ["Haptic / vibrotactile"],
+    "intelligence.input": ["Motion", "Gesture"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool", "Creative collaborator"],
+    "function.social": ["Multi-user play", "Co-located multiplayer"],
+    "genealogy.lineage": ["Tangible user interfaces", "Human-computer interaction", "Game controllers"]
+  },
+  "metrics": {
+    "proximity": 3,
+    "mobility": 2,
+    "scale": 2,
+    "social_legibility": 2,
+    "form_specificity": 3,
+    "intensity": 4,
+    "expressiveness": 2,
+    "timing": 5,
+    "generality": 3
+  },
+  "images": [
+    {
+      "image_id": "img-nintendo-wii-001",
+      "caption": "Nintendo Wii console with Wii Remote and Nunchuk controller.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wii-console.jpg",
+      "rights_status": "public_domain",
+      "alt_text": "A white Nintendo Wii console standing vertically next to a white Wii Remote controller and its Nunchuk accessory, all against a plain white background.",
+      "local_image": "/projects/nintendo-wii.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-nintendo-wii-001",
+      "title": "Wii — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Wii",
+      "publisher": "Wikipedia",
+      "year": 2006,
+      "access_notes": "Launch date (November 19, 2006 North America), sales figures (101.63 million), Wii Sports bundle, Wii Remote technical specs, design philosophy from Satoru Iwata."
+    },
+    {
+      "source_id": "source-nintendo-wii-002",
+      "title": "The Social Living Room: How Nintendo's Wii Revolutionized Gaming",
+      "source_type": "credible_news",
+      "url": "https://www.fastcompany.com/1680649/the-social-living-room-how-nintendos-wii-revolutionized-gaming-and-what-it-means-for-the-fut",
+      "publisher": "Fast Company",
+      "year": 2012,
+      "access_notes": "Analysis of the Wii's multi-user, living-room social gaming design and its legacy."
+    },
+    {
+      "source_id": "source-nintendo-wii-003",
+      "title": "Wii Remote — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Wii_Remote",
+      "publisher": "Wikipedia",
+      "year": 2006,
+      "access_notes": "Technical details: three-axis accelerometer, infrared sensor, Bluetooth connectivity, up to four simultaneous remotes."
+    }
+  ],
+  "confidence": "high"
+}

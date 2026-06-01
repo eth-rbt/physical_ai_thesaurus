@@ -1,0 +1,82 @@
+{
+  "name": "Josephine Cochrane's Dishwasher",
+  "year": 1886,
+  "organization": ["Garis-Cochrane Manufacturing Company"],
+  "project_type": "commercial_product",
+  "short_description": "The first patented mechanical dishwashing machine, using water-jet pressure and wire compartments to automate the washing of dishes — the origin of purpose-built domestic cleaning appliances.",
+  "long_description": "Patented by Josephine Cochrane in 1886 (US Patent 355,139) and demonstrated to wide acclaim at the 1893 World's Columbian Exposition in Chicago, this machine automated a household chore that had always been done by hand. Wire compartments sized for plates, cups, and saucers were mounted in a flat wheel inside a copper boiler; a motor rotated the wheel while hot soapy water was pumped up from the bottom and rained down on the dishes — the first design to clean by water pressure rather than mechanical scrubbers. Commercial establishments (hotels, restaurants) adopted it first because early models required hot-water infrastructure and cost too much for most households. Cochrane founded the Garis-Cochrane Manufacturing Company to produce it; the company was eventually acquired by Hobart Manufacturing and the product line later became part of KitchenAid. As the origin point on the domestic-labor spectrum, it shows how a fixed, single-task machine can replace a repetitive physical chore entirely — the design logic that still governs purpose-built home appliances today.",
+  "primary_url": "https://www.history.com/articles/dishwasher-inventor-josephine-garis-cochran",
+
+  "ai_embedded": "none",
+  "ai_note": "Purely mechanical: a motor-driven rotating rack inside a copper boiler, with a pump that jets hot water. No computation, sensing, or machine learning of any kind.",
+
+  "attributes": {
+    "embodiment.form": ["Smart appliance", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "function.role": ["Cleaner", "Tool"],
+    "function.task_domain": ["Domestic labor", "Kitchen"],
+    "genealogy.lineage": ["Industrial automation", "Domestic appliance history"],
+    "genealogy.precedent_field": ["Mechanical engineering", "Household automation"]
+  },
+
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 1,
+    "form_specificity": 5,
+    "autonomy": 2,
+    "initiative": 1,
+    "memory_span": 1,
+    "visibility": 2,
+    "generality": 1,
+    "intensity": 3,
+    "expressiveness": 1,
+    "timing": 3
+  },
+
+  "images": [
+    {
+      "image_id": "img-cochrane-dishwasher-001",
+      "caption": "Patent drawing for Josephine Cochrane's dishwashing machine (US Patent 1,223,380, 1917), showing the rotating wire-rack wheel, copper boiler, and water-jet mechanism that descends from her original 1886 design.",
+      "image_type": "research_figure",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1914_model_dish_washing_machine.png",
+      "rights_status": "public_domain",
+      "alt_text": "A black-and-white technical patent drawing of an early mechanical dishwashing machine, showing a cylindrical boiler with a rotating rack wheel inside and water-pump plumbing labeled with figure numbers."
+    }
+  ],
+
+  "sources": [
+    {
+      "source_id": "source-cochrane-dishwasher-001",
+      "title": "The Woman Who Invented the Dishwasher",
+      "source_type": "credible_news",
+      "url": "https://www.history.com/articles/dishwasher-inventor-josephine-garis-cochran",
+      "publisher": "History.com",
+      "year": null,
+      "access_notes": "Overview of Cochrane's invention, 1886 patent, World's Columbian Exposition win, company founding, and use of water pressure over scrubbers."
+    },
+    {
+      "source_id": "source-cochrane-dishwasher-002",
+      "title": "Josephine Cochrane",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Josephine_Cochrane",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Patent No. 355,139 issued December 28, 1886; mechanical details (wire compartments, copper boiler, rotating wheel, water-jet pump); company history; acquisition by Hobart and eventual KitchenAid lineage."
+    },
+    {
+      "source_id": "source-cochrane-dishwasher-003",
+      "title": "Dishwasher — History",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Dishwasher",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Contextualizes Cochrane's 1886 machine as the first to use water pressure rather than scrubbers; notes George Butters as co-builder; 1893 Columbian Exposition debut."
+    }
+  ],
+
+  "interactions": [],
+
+  "confidence": "high"
+}

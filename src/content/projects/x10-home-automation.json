@@ -1,0 +1,67 @@
+{
+  "name": "X10 (home automation protocol)",
+  "year": 1975,
+  "organization": ["Pico Electronics"],
+  "project_type": "platform",
+  "short_description": "The first general-purpose home automation protocol, using household electrical wiring to switch lights and appliances by room from a central controller.",
+  "long_description": "Developed in 1975 by Pico Electronics of Glenrothes, Scotland, X10 encodes digital commands as brief 120 kHz bursts riding the zero crossings of the AC power waveform — meaning any outlet in the house can carry control signals without new wiring. A small command console sends house-and-unit codes that lamp modules and appliance modules decode to switch on, off, or dim. Products reached RadioShack and Sears shelves in 1978, making X10 the first mass-market home automation system. It matters for the Physical AI lineage because it established the architectural pattern — a central controller distributing commands to embedded modules throughout a domestic environment — that later smart-home platforms (CEBus, Z-Wave, Zigbee, Matter) all inherit.",
+  "primary_url": "https://en.wikipedia.org/wiki/X10_(industry_standard)",
+  "ai_embedded": "none",
+  "ai_note": "X10 is a pure powerline signaling protocol; commands are pre-programmed on/off/dim codes with no machine learning, inference, or adaptive behavior of any kind.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology", "Architectural / environmental system"],
+    "embodiment.mobility": ["Fixed", "Environmental / room-scale"],
+    "intelligence.input": ["Environmental sensors"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool"],
+    "function.task_domain": ["Environmental control"],
+    "genealogy.lineage": ["Smart home", "Ubiquitous computing", "Ambient intelligence", "Internet of Things"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 5,
+    "social_legibility": 1,
+    "form_specificity": 1,
+    "autonomy": 1,
+    "initiative": 1,
+    "memory_span": 1,
+    "visibility": 1,
+    "generality": 3,
+    "intensity": 1,
+    "expressiveness": 1,
+    "timing": 3
+  },
+  "images": [
+    {
+      "image_id": "img-x10-home-automation-001",
+      "caption": "An X10 smart home adapter module, which plugs into a wall outlet to receive powerline commands and switch a connected appliance on or off.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:X-10_smart_home_adapter.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A white plastic X10 home automation adapter module plugged into a standard electrical outlet, with a second outlet socket on its face and a small indicator light.",
+      "local_image": "/projects/x10-home-automation.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-x10-home-automation-001",
+      "title": "X10 (industry standard)",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/X10_(industry_standard)",
+      "publisher": "Wikipedia",
+      "year": 1975,
+      "access_notes": "Covers founding by Pico Electronics in 1975, powerline signaling technique, retail availability from 1978, module types, limitations, and successor protocols."
+    },
+    {
+      "source_id": "source-x10-home-automation-002",
+      "title": "The X10 Home Automation Protocol — Specs and History",
+      "source_type": "credible_news",
+      "url": "https://buildyoursmarthome.co/home-automation/protocols/x10/",
+      "publisher": "Build Your Smart Home",
+      "year": null,
+      "access_notes": "Explains that the name X10 derives from it being Pico Electronics' tenth project, and traces the Accutrac 4000 predecessor that inspired powerline control."
+    }
+  ],
+  "confidence": "high"
+}

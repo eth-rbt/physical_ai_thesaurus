@@ -1,11 +1,11 @@
 {
-  "name": "ambientROOM (Ambient Displays)",
+  "name": "ambientROOM",
   "year": 1998,
   "organization": ["MIT Media Lab", "Tangible Media Group"],
   "project_type": "research_prototype",
   "short_description": "An augmented room that conveys digital information at the periphery of awareness through ambient light, shadow, sound, airflow, and water movement.",
-  "long_description": "ambientROOM is a Tangible Media Group prototype that turns architectural space into a slow, calm interface, using subtle ambient displays such as patterns of light cast by a water tank, sound, airflow, and physical handles like bottles and a clock to keep people aware of background information without demanding foreground attention. Introduced as part of Ishii and Ullmer's Tangible Bits vision, it is a foundational example of ambient/peripheral displays and calm technology, framing information delivery as an environmental, embodied experience rather than a screen-based one. It matters to physical AI and interaction design as an early articulation of how computation can recede into the periphery of a physical space and communicate through material change rather than explicit notification.",
-  "primary_url": "https://link.springer.com/chapter/10.1007/3-540-69706-3_4",
+  "long_description": "ambientROOM, designed by Hiroshi Ishii, Craig Wisneski, Scott Brave, Andrew Dahley, Matt Gorbet, Brygg Ullmer, and Paul Yarin at the MIT Media Lab Tangible Media Group, turns architectural space into a slow, calm information interface. Subtle ambient displays — patterns of rippling caustic light cast by a solenoid-driven water tank, layers of environmental sound (birdsong, rain), airflow, and physical controls such as a corked bottle and a wall clock — keep people aware of background data without demanding foreground attention. The 'Ghostly Presence' application mapped a distant person's activity to these channels; other demos mapped computer-network load, email volume, and area occupancy. Introduced as part of Ishii and Ullmer's Tangible Bits vision at CHI 1998, ambientROOM is a foundational prototype in the history of ambient/peripheral displays and calm technology, framing information delivery as an environmental, embodied experience rather than a screen-based one. It matters to physical AI and interaction design as an early articulation of how computation can recede into the periphery of a physical space and communicate through material change rather than explicit notification.",
+  "primary_url": "https://tangible.media.mit.edu/project/ambientroom/",
   "ai_embedded": "none",
   "ai_note": "ambientROOM is a tangible/ambient display technique mapping data to light, sound, airflow, and water movement; no AI or machine learning runs in the system.",
   "attributes": {
@@ -14,9 +14,14 @@
     "embodiment.actuation": ["Light", "Sound", "Airflow", "Water movement"],
     "intelligence.input": ["Touch", "Environmental sensors"],
     "intelligence.output": ["Light", "Sound", "Movement"],
-    "function.role": ["Memory aid"],
+    "function.role": ["Ambient display", "Memory aid", "Mediator"],
     "function.environmental_function": ["Ambient information display", "Peripheral awareness"],
-    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing", "Ambient intelligence"]
+    "genealogy.lineage": [
+      "Tangible user interfaces",
+      "Ubiquitous computing",
+      "Ambient intelligence",
+      "Calm technology"
+    ]
   },
   "metrics": {
     "proximity": 1,
@@ -24,7 +29,14 @@
     "scale": 5,
     "social_legibility": 1,
     "expressiveness": 3,
-    "autonomy": 1
+    "autonomy": 1,
+    "initiative": 2,
+    "memory_span": 1,
+    "visibility": 2,
+    "generality": 1,
+    "intensity": 1,
+    "form_specificity": 5,
+    "timing": 3
   },
   "images": [
     {
@@ -39,19 +51,30 @@
   "sources": [
     {
       "source_id": "source-ambientroom-001",
+      "title": "ambientROOM: Integrating Ambient Media with Architectural Space",
+      "source_type": "academic_paper",
+      "url": "http://www.cs.columbia.edu/~feiner/courses/csw4170/resources/ambientROOM_CHI98.pdf",
+      "publisher": "ACM CHI 1998 Conference Summary on Human Factors in Computing Systems",
+      "year": 1998,
+      "access_notes": "Primary publication presenting the ambientROOM prototype. Authors: Ishii, Wisneski, Brave, Dahley, Gorbet, Ullmer, Yarin. PDF archived at Columbia University."
+    },
+    {
+      "source_id": "source-ambientroom-002",
       "title": "Ambient Displays: Turning Architectural Space into an Interface between People and Digital Information",
       "source_type": "academic_paper",
       "url": "https://link.springer.com/chapter/10.1007/3-540-69706-3_4",
       "publisher": "Springer (CoBuild 1998 proceedings)",
-      "year": 1998
+      "year": 1998,
+      "access_notes": "Companion paper expanding on the ambient-displays concept underpinning ambientROOM."
     },
     {
-      "source_id": "source-ambientroom-002",
-      "title": "ambientROOM",
+      "source_id": "source-ambientroom-003",
+      "title": "ambientROOM — Tangible Media Group",
       "source_type": "project_page",
       "url": "https://tangible.media.mit.edu/project/ambientroom/",
       "publisher": "MIT Media Lab, Tangible Media Group",
-      "year": 1997
+      "year": 1998,
+      "access_notes": "Official MIT project page listing researchers, ambient media channels, and related publications."
     }
   ],
   "confidence": "high",

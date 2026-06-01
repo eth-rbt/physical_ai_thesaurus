@@ -1,0 +1,98 @@
+{
+  "name": "OrCam MyEye",
+  "year": 2015,
+  "organization": [
+    "OrCam Technologies"
+  ],
+  "project_type": "commercial_product",
+  "short_description": "Wearable AI camera that clips to eyeglasses and reads text, identifies faces, and describes products aloud for blind and low-vision users.",
+  "long_description": "OrCam MyEye is a finger-sized camera unit that attaches magnetically to any eyeglass frame and runs all processing on-device without requiring internet connectivity. It reads printed and digital text aloud, recognizes stored faces, identifies products by barcode, and narrates currency denominations — delivering output as speech through a small built-in speaker or Bluetooth headphone. Launched commercially in 2015 by Israeli company OrCam Technologies (co-founded by Professor Amnon Shashua and Ziv Aviram, who also co-founded Mobileye), it brought standalone, on-body computer vision to the blind and low-vision community as a consumer product, establishing a template for head-worn assistive AI.",
+  "primary_url": "https://www.orcam.com/en-us/orcam-myeye",
+  "ai_embedded": "core",
+  "ai_note": "On-device computer vision powers OCR text reading, face recognition, barcode/object identification, and currency detection — the device does nothing without its AI stack.",
+  "attributes": {
+    "embodiment.form": [
+      "Glasses / eyewear",
+      "Wearable"
+    ],
+    "embodiment.mobility": [
+      "Body-worn"
+    ],
+    "intelligence.input": [
+      "Vision"
+    ],
+    "intelligence.model": [
+      "Classical machine learning",
+      "Deep learning"
+    ],
+    "function.role": [
+      "Assistant",
+      "Memory aid"
+    ],
+    "function.assistance_type": [
+      "Accessibility aid"
+    ],
+    "genealogy.lineage": [
+      "Wearable computing",
+      "Assistive technology"
+    ],
+    "genealogy.precedent_field": [
+      "Human-computer interaction",
+      "Computer vision"
+    ]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 4,
+    "scale": 1,
+    "social_legibility": 2,
+    "autonomy": 3,
+    "initiative": 2,
+    "visibility": 3,
+    "generality": 3,
+    "timing": 5,
+    "intensity": 4,
+    "expressiveness": 1
+  },
+  "images": [
+    {
+      "image_id": "img-orcam-myeye-001",
+      "caption": "OrCam MyEye device resting against a pair of glasses on an open book, showing the small clip-on camera unit.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:OrCam155.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A small black rectangular camera device labeled OrCam MyEye leans against a pair of dark-framed eyeglasses, both resting on the open pages of a printed book.",
+      "local_image": "/projects/orcam-myeye.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-orcam-myeye-001",
+      "title": "OrCam device — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/OrCam_device",
+      "publisher": "Wikipedia",
+      "year": 2024,
+      "access_notes": "Overview of OrCam device history, features, and launch timeline. Wikipedia article citing multiple primary and press sources."
+    },
+    {
+      "source_id": "source-orcam-myeye-002",
+      "title": "MyReader and MyEye from OrCam: Text and Item Recognition at the Touch of a Finger",
+      "source_type": "credible_news",
+      "url": "https://afb.org/aw/18/2/15244",
+      "publisher": "American Foundation for the Blind — AccessWorld",
+      "year": 2017,
+      "access_notes": "Detailed review of OrCam MyEye hardware, feature set, and performance for blind and low-vision users."
+    },
+    {
+      "source_id": "source-orcam-myeye-003",
+      "title": "OrCam MyEye — Official Product Page",
+      "source_type": "official_product_page",
+      "url": "https://www.orcam.com/en-us/orcam-myeye",
+      "publisher": "OrCam Technologies",
+      "year": 2024,
+      "access_notes": "Official product page with current features and specifications."
+    }
+  ],
+  "confidence": "high"
+}

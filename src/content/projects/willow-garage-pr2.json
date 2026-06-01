@@ -1,0 +1,129 @@
+{
+  "name": "Willow Garage PR2",
+  "year": 2010,
+  "organization": [
+    "Willow Garage"
+  ],
+  "project_type": "research_prototype",
+  "short_description": "The first open-platform mobile manipulator — dual 7-DOF arms on an omnidirectional base — that seeded ROS and made household manipulation a credible research agenda.",
+  "long_description": "Released in 2010 by Willow Garage (Menlo Park, CA), the PR2 is a two-armed mobile manipulation platform built on a custom omnidirectional base. Each arm has seven degrees of freedom, force-sensitive joints, and fingertip pressure sensors; the sensor suite spans stereo cameras, a Kinect RGB-D camera, a tilting LIDAR, and an IMU. Willow Garage distributed 11 units at no cost to universities worldwide under its Beta Program, then made the robot commercially available at $400,000 per unit. The PR2 served as the primary hardware testbed for the Robot Operating System (ROS), which Willow Garage open-sourced under BSD license — seeding a global research community that has sustained household manipulation as a credible AI research agenda ever since. The company shut down in 2014, but PR2 hardware and ROS continue to be used and supported by Clearpath Robotics and Open Robotics.",
+  "primary_url": "https://robots.ros.org/PR2/",
+  "ai_embedded": "some",
+  "ai_note": "The PR2 platform itself is hardware + ROS middleware; AI/ML systems (perception, planning, grasping) ran on top of ROS and varied by research group. The platform supported early deep learning and classical ML grasping and navigation work but did not ship a fixed AI model.",
+  "attributes": {
+    "embodiment.form": [
+      "Mobile robot",
+      "Humanoid robot"
+    ],
+    "embodiment.mobility": [
+      "Wheeled"
+    ],
+    "embodiment.actuation": [
+      "Robotic arm",
+      "Gripper"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Force / torque",
+      "Touch",
+      "Environmental sensors"
+    ],
+    "intelligence.model": [
+      "Classical machine learning",
+      "Rule-based system"
+    ],
+    "function.role": [
+      "Coworker",
+      "Tool",
+      "Manufacturing worker"
+    ],
+    "function.task": [
+      "Manipulation",
+      "Navigation",
+      "Object grasping"
+    ],
+    "genealogy.lineage": [
+      "Human-robot interaction",
+      "Industrial automation",
+      "Ubiquitous computing"
+    ],
+    "genealogy.research_community": [
+      "ROS ecosystem",
+      "Mobile manipulation research",
+      "Household robotics"
+    ]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 3,
+    "scale": 3,
+    "social_legibility": 2,
+    "autonomy": 3,
+    "initiative": 2,
+    "memory_span": 2,
+    "visibility": 3,
+    "generality": 5,
+    "expressiveness": 1,
+    "timing": 3,
+    "intensity": 2
+  },
+  "images": [
+    {
+      "image_id": "img-willow-garage-pr2-001",
+      "caption": "PR2 robot with advanced grasping hands, photographed by Oleg Alexandrov at a robotics event in January 2013.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PR2_robot_with_advanced_grasping_hands.JPG",
+      "rights_status": "creative_commons",
+      "alt_text": "The Willow Garage PR2 mobile manipulation robot showing its upper body: two 7-DOF arms fitted with advanced grasping hands, mounted on a white torso with a sensor-laden head."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-willow-garage-pr2-001",
+      "title": "Willow Garage — Wikipedia",
+      "source_type": "unknown",
+      "url": "https://en.wikipedia.org/wiki/Willow_Garage",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Overview of Willow Garage founding (2006, Scott Hassan), PR2 specifications, Beta Program (11 units to universities, June 2010), commercial sale (August 2010, $400,000 per unit), ROS open-sourcing under BSD license, and company closure (2014). Confirmed against IEEE Spectrum and PRWeb primary sources."
+    },
+    {
+      "source_id": "source-willow-garage-pr2-002",
+      "title": "Willow Garage Sells First PR2 Robots",
+      "source_type": "credible_news",
+      "url": "https://spectrum.ieee.org/willow-garage-sells-first-pr2-robots",
+      "publisher": "IEEE Spectrum",
+      "year": 2010,
+      "access_notes": "Reports first four commercial PR2 buyers (Samsung Electronics, LAAS-CNRS, University of Washington, George Washington University), price ($400,000 per unit), and robot specs (omnidirectional base, two arms and grippers, two onboard servers, cameras, LIDAR, IMU). 16 research labs worldwide had units at that point."
+    },
+    {
+      "source_id": "source-willow-garage-pr2-003",
+      "title": "Willow Garage Giving Away 11 PR2 Robots Worth Over $4 Million",
+      "source_type": "credible_news",
+      "url": "https://spectrum.ieee.org/050410-willow-garage-giving-away-11-pr2-robots-worth-over-4-million",
+      "publisher": "IEEE Spectrum",
+      "year": 2010,
+      "access_notes": "Covers the PR2 Beta Program: 78 proposals received from institutions worldwide; 11 winners selected for two-year loan programs; robots sent to labs in Germany, Japan, Belgium, and the United States."
+    },
+    {
+      "source_id": "source-willow-garage-pr2-004",
+      "title": "Wizards of ROS: Willow Garage and the Making of the Robot Operating System",
+      "source_type": "credible_news",
+      "url": "https://spectrum.ieee.org/wizards-of-ros-willow-garage-and-the-making-of-the-robot-operating-system",
+      "publisher": "IEEE Spectrum",
+      "year": null,
+      "access_notes": "Covers ROS origins (SourceForge commit November 7, 2007 by Ken Conley), PR1 predecessor at Stanford by Eric Berger and Keenan Wyrobek, PR2 prototypes built 2008, Beta Program delivery 2010. Notes that the primary motivation was avoiding duplicated effort across robotics grad students."
+    },
+    {
+      "source_id": "source-willow-garage-pr2-005",
+      "title": "PR2 — robots.ros.org",
+      "source_type": "documentation",
+      "url": "https://robots.ros.org/PR2/",
+      "publisher": "ROS.org / Clearpath Robotics",
+      "year": null,
+      "access_notes": "Official ROS robot directory entry for the PR2. Confirms Willow Garage as builder, Clearpath Robotics as current support, and that all PR2 software is written in ROS."
+    }
+  ],
+  "interactions": [],
+  "confidence": "high"
+}

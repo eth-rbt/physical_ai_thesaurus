@@ -1,0 +1,117 @@
+{
+  "name": "VPL Research EyePhone / DataGlove",
+  "year": 1987,
+  "organization": [
+    "VPL Research"
+  ],
+  "project_type": "commercial_product",
+  "short_description": "The first commercially marketed VR glove and head-mounted display — Jaron Lanier's VPL Research sold the DataGlove (1987) and EyePhone (1989) as a paired body interface that named and commercialized 'virtual reality.'",
+  "long_description": "Founded in 1984 in Palo Alto by Jaron Lanier and co-founder Thomas Zimmerman (who had filed a flex-sensor glove patent in 1982), VPL Research commercialized the first virtual reality system available outside military or aerospace labs. The DataGlove — using fiber-optic flex sensors to read finger curl and a Polhemus magnetic tracker for hand position — shipped in 1987 for around $8,000–$9,000 and was featured on the cover of Scientific American in October of that year. The EyePhone HMD followed in June 1989, providing stereoscopic LCD displays and electromagnetic head tracking. Used together in VPL's Reality Built for Two (RB2) system, the glove-plus-headset body interface established the conventions — two-handed gesture input, continuous head tracking, immersive stereo display — that every subsequent VR and spatial-computing platform has referenced. Lanier's coinage and popularization of the term 'virtual reality' around 1987 made VPL the public face of an era; the company filed for bankruptcy in 1990, but its patents passed to Sun Microsystems in 1998 and its design vocabulary never went away.",
+  "primary_url": "https://en.wikipedia.org/wiki/VPL_Research",
+  "ai_embedded": "none",
+  "ai_note": "No AI or ML — the DataGlove read analog flex sensors and magnetic tracker data; the EyePhone rendered pre-computed 3D scenes. Rule-based and software-driven, no learned models.",
+  "attributes": {
+    "embodiment.form": [
+      "Wearable",
+      "Head-worn",
+      "Glove / hand-worn"
+    ],
+    "embodiment.mobility": [
+      "Body-worn",
+      "Fixed"
+    ],
+    "intelligence.input": [
+      "Gesture",
+      "Motion",
+      "Vision"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "intelligence.output": [
+      "Vision"
+    ],
+    "function.role": [
+      "Tool",
+      "Creative collaborator"
+    ],
+    "genealogy.lineage": [
+      "Augmented reality",
+      "Wearable computing",
+      "Spatial computing",
+      "Tangible user interfaces"
+    ],
+    "genealogy.interaction": [
+      "Hand-gesture interaction",
+      "Stereoscopic display",
+      "Head-tracking interaction"
+    ],
+    "genealogy.precedent": [
+      "VR body interface origin",
+      "Glove-plus-headset paradigm"
+    ]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 2,
+    "social_legibility": 1,
+    "visibility": 4,
+    "autonomy": 1,
+    "form_specificity": 5,
+    "expressiveness": 1,
+    "timing": 5,
+    "generality": 2,
+    "intensity": 5
+  },
+  "images": [
+    {
+      "image_id": "img-vpl-research-eyephone-001",
+      "caption": "VPL Research EyePhone head-mounted display and DataGlove with Polhemus tracking system — the first commercially marketed virtual reality system, photographed by Dave Pape.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:VPL_Eyephone_and_Dataglove.jpg",
+      "rights_status": "public_domain",
+      "alt_text": "A white head-mounted display visor (EyePhone) resting next to a light-coloured instrumented glove (DataGlove) on a surface, with a small Polhemus magnetic tracking unit visible alongside.",
+      "local_image": "/projects/vpl-research-eyephone.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-vpl-research-eyephone-001",
+      "title": "VPL Research",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/VPL_Research",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Overview of founding (1984), founders (Lanier and Zimmerman), products (DataGlove, EyePhone, DataSuit, RB2), bankruptcy (1990), and patent acquisition by Sun Microsystems (1998)."
+    },
+    {
+      "source_id": "source-vpl-research-eyephone-002",
+      "title": "VPL EyePhone",
+      "source_type": "credible_news",
+      "url": "https://vrarwiki.com/wiki/VPL_EyePhone",
+      "publisher": "VR & AR Wiki",
+      "year": null,
+      "access_notes": "Detailed specs: dual LCD 320×240px per eye, 90–108° FOV, Polhemus FASTRAK 60 Hz head tracking, EyePhone Model 1 at $9,400, Model 2 LX at $12,500 visor-only, HRX at $49,000–50,000, full RB2 system at ~$250,000. Released June 1, 1989 at SIGGRAPH 'Tomorrow's Realities' exhibit."
+    },
+    {
+      "source_id": "source-vpl-research-eyephone-003",
+      "title": "A hand gesture interface device",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/29933.275628",
+      "publisher": "ACM SIGCHI/GI Conference on Human Factors in Computing Systems and Graphics Interface",
+      "year": 1987,
+      "access_notes": "Authors: Thomas G. Zimmerman, Jaron Lanier, Chuck Blanchard, Steve Bryson, Young Harvill (VPL Research). The foundational DataGlove paper, CHI+GI 1987, pp. 189–192. DOI: 10.1145/29933.275628."
+    },
+    {
+      "source_id": "source-vpl-research-eyephone-004",
+      "title": "VPL Research Jaron Lanier",
+      "source_type": "credible_news",
+      "url": "https://www.vrs.org.uk/virtual-reality-profiles/vpl-research.html",
+      "publisher": "Virtual Reality Society",
+      "year": null,
+      "access_notes": "Profile of VPL Research covering founding in Lanier's Palo Alto cottage, DataGlove as 'one of the most popular symbols of virtual reality,' EyePhone, AudioSphere, Isaac rendering engine, and Body Electric visual programming language. Corroborates bankruptcy and Sun Microsystems patent acquisition."
+    }
+  ],
+  "interactions": [],
+  "confidence": "high"
+}

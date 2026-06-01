@@ -1,61 +1,103 @@
 {
-  "name": "Ambient Orb (Ambient Devices)",
+  "name": "Ambient Orb",
   "year": 2002,
   "organization": ["Ambient Devices"],
   "project_type": "commercial_product",
-  "short_description": "A frosted-glass ball lamp that maps a single data stream to a slowly shifting color glow.",
-  "long_description": "The Ambient Orb, introduced in 2002 by Ambient Devices (an MIT Media Lab spin-off founded by David Rose, Ben Resner, Nabeel Hyatt, and Pritesh Gandhi), is a frosted-glass sphere that maps one chosen data feed (such as a stock index, weather, or traffic) onto a linear color spectrum, glowing green to red to signal trends at a glance. It is a touchstone of calm technology and ambient intelligence: information lives at the edge of attention as a glanceable, pre-attentive cue rather than a screen demanding focus. As physical AI, it matters as an early commercial bridge from Weiser's ubiquitous-computing vision to consumer ambient and IoT objects, demonstrating peripheral, non-screen information display in everyday domestic form.",
-  "primary_url": "https://en.wikipedia.org/wiki/Ambient_device",
+  "short_description": "A frosted-glass glowing orb from MIT Media Lab spin-off Ambient Devices that maps stock, weather, or traffic data to color, making peripheral information legible without a screen.",
+  "long_description": "The Ambient Orb, released in 2002 by Ambient Devices (a Cambridge, MA spin-off of the MIT Media Lab, founded by David L. Rose, Ben Resner, Nabeel Hyatt, and Pritesh Gandhi), is a handblown frosted-glass sphere with an interior LED array. It receives live data over WebLink Wireless's nationwide FM subcarrier pager network — requiring no internet connection or PC — and maps a chosen information channel to a linear color spectrum: green for up/good, red for down/bad, amber for neutral. Out of the box it tracks the Dow Jones Industrial Average; a web-based configuration layer lets users assign it to weather, traffic, pollen count, or other feeds. The New York Times Magazine named it an 'Idea of the Year' in 2002. PG&E distributed roughly 2,000 Orbs to customers on demand-response plans, wiring the sphere to the grid's pricing signal; participants measurably reduced peak-hour consumption. It matters as the first commercial ambient-information product — a direct descendant of Weiser and Brown's calm-technology principles — demonstrating that peripheral data legibility could be built into a consumer object subtle enough to recede into the background.",
+  "primary_url": "http://www.ambientdevices.com/",
   "ai_embedded": "none",
-  "ai_note": "No AI/ML; a wireless data feed is mapped directly to a color on a fixed linear spectrum and shown as a glow.",
+  "ai_note": "No AI/ML; a wireless data feed (FM pager network) is mapped directly to a color on a fixed linear spectrum — pure rule-based transduction.",
   "attributes": {
     "embodiment.form": ["Domestic object", "Smart appliance"],
     "embodiment.mobility": ["Fixed"],
     "embodiment.materiality": ["Frosted glass", "Light / glow"],
-    "intelligence.input": ["Location", "Environmental sensors"],
+    "intelligence.input": ["Environmental sensors"],
     "intelligence.output": ["Light / color"],
     "intelligence.model": ["Rule-based system"],
-    "function.role": ["Notifier", "Memory aid"],
+    "function.role": ["Ambient display", "Memory aid"],
     "genealogy.lineage": ["Ambient intelligence", "Calm technology", "Ubiquitous computing", "Internet of Things"]
   },
   "metrics": {
-    "proximity": 1,
+    "proximity": 2,
     "mobility": 1,
-    "scale": 2,
-    "social_legibility": 2,
-    "expressiveness": 3,
+    "scale": 1,
+    "social_legibility": 1,
+    "expressiveness": 2,
     "autonomy": 1,
-    "initiative": 1,
-    "visibility": 2,
-    "generality": 1,
-    "intensity": 1
+    "initiative": 3,
+    "visibility": 3,
+    "memory_span": 1,
+    "generality": 2,
+    "intensity": 1,
+    "timing": 5,
+    "form_specificity": 3
   },
   "images": [
     {
       "image_id": "img-ambient-orb-001",
-      "caption": "The Ambient Orb, a frosted-glass ball lamp that conveys data trends through changing color.",
+      "caption": "Interior LED array of an Ambient Orb tuned to the NASDAQ index, photographed by Steve Jurvetson without its frosted-glass diffuser shell.",
       "image_type": "product_photo",
-      "source_url": "https://en.wikipedia.org/wiki/Ambient_device",
-      "rights_status": "needs_permission",
-      "alt_text": "A small frosted-glass sphere on a base, glowing with a soft colored light to indicate the state of a data feed."
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mood_Broadcasting_(2229664934).jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A cluster of colored LEDs glowing green and yellow inside a glass globe, showing the interior of an Ambient Orb device with its frosted diffuser removed.",
+      "local_image": "/projects/ambient-orb.jpg"
     }
   ],
   "sources": [
     {
       "source_id": "source-ambient-orb-001",
-      "title": "Ambient device",
+      "title": "Ambient device — Wikipedia",
       "source_type": "documentation",
       "url": "https://en.wikipedia.org/wiki/Ambient_device",
       "publisher": "Wikipedia",
-      "year": null
+      "year": null,
+      "access_notes": "Documents the Ambient Orb as Ambient Devices' flagship 2002 product: frosted-glass ball, color-spectrum mapping, NYT Magazine 'Idea of the Year 2002' recognition, and green/red/amber stock-market color logic."
     },
     {
       "source_id": "source-ambient-orb-002",
+      "title": "Ambient Devices — Wikipedia",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/Ambient_Devices",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Company entry confirming founding year 2001, founders (Rose, Resner, Hyatt, Gandhi), MIT Media Lab spin-off status, and the FM pager network (Ambient Information Network) that ceased transmitting in 2019."
+    },
+    {
+      "source_id": "source-ambient-orb-003",
+      "title": "The Ambient Orb",
+      "source_type": "credible_news",
+      "url": "https://gizmodo.com/the-ambient-orb-6258",
+      "publisher": "Gizmodo",
+      "year": 2003,
+      "access_notes": "Early coverage (May 2003) confirming WebLink Wireless nationwide FM subcarrier pager network, handblown glass form, stock/weather/pollen/homeland-security data feeds, and plug-in setup requiring no PC or internet."
+    },
+    {
+      "source_id": "source-ambient-orb-004",
       "title": "David L. Rose",
       "source_type": "documentation",
       "url": "https://en.wikipedia.org/wiki/David_L._Rose",
       "publisher": "Wikipedia",
-      "year": null
+      "year": null,
+      "access_notes": "Background on the founder and Ambient Devices' design philosophy; notes the Orb is in the MoMA permanent collection (per Rose's own account)."
+    },
+    {
+      "source_id": "source-ambient-orb-005",
+      "title": "Gadgets to Spur Energy Conservation",
+      "source_type": "credible_news",
+      "url": "https://www.technologyreview.com/2007/11/14/270921/gadgets-to-spur-energy-conservation/",
+      "publisher": "MIT Technology Review",
+      "year": 2007,
+      "access_notes": "Documents PG&E distributing ~2,000 Ambient Orbs to customers on demand-response plans, wired to grid pricing signal (green = cheap, red = expensive)."
+    },
+    {
+      "source_id": "source-ambient-orb-006",
+      "title": "Designing Calm Technology",
+      "source_type": "academic_paper",
+      "url": "https://calmtech.com/papers/designing-calm-technology.html",
+      "publisher": "Xerox PARC (Mark Weiser and John Seely Brown)",
+      "year": 1995,
+      "access_notes": "Foundational calm-technology essay whose periphery/center-of-attention principles the Ambient Orb directly embodies; the intellectual lineage from which Ambient Devices was designed."
     }
   ],
   "interactions": [

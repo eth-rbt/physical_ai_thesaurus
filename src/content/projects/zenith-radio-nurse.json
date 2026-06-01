@@ -1,0 +1,110 @@
+{
+  "name": "Zenith Radio Nurse",
+  "year": 1938,
+  "organization": [
+    "Zenith Radio Corporation"
+  ],
+  "project_type": "commercial_product",
+  "short_description": "The world's first electronic baby monitor — a two-part radio system designed by Isamu Noguchi that let parents listen to their nursery from elsewhere in the home.",
+  "long_description": "Introduced in March 1938, the Zenith Radio Nurse is the foundational ancestor of all domestic surveillance and home-care audio devices. Zenith president Eugene F. McDonald Jr. commissioned sculptor Isamu Noguchi to design the receiver housing after the Lindbergh kidnapping prompted concern about infant safety. The system had two components: the Guardian Ear transmitter placed near the crib and the sculptural Radio Nurse receiver placed in the parents' room, both plugging into house wiring and transmitting audio by radio over it. Noguchi's dark Bakelite receiver — a faceless, slightly sinister bust with a concealed volume wheel under its 'chin' — was included in the Whitney Museum's 1938 sculpture exhibition and now sits in the collections of MoMA, the Met, the V&A, and Cooper Hewitt. Though a commercial failure ($19.95 was prohibitive in the Depression, and signals sometimes leaked beyond the house), the Radio Nurse established the design and social logic that every subsequent baby monitor, smart speaker, and home-care camera inherits: domestic space made audible to a remote listener.",
+  "primary_url": "https://en.wikipedia.org/wiki/Zenith_Radio_Nurse",
+  "ai_embedded": "none",
+  "ai_note": "Pure analog radio transmission — vacuum tubes, house wiring as antenna, no computation of any kind. Its intelligence is entirely in the ears of the listening parent.",
+  "attributes": {
+    "embodiment.form": [
+      "Domestic object",
+      "Smart appliance"
+    ],
+    "embodiment.mobility": [
+      "Fixed"
+    ],
+    "intelligence.input": [
+      "Audio"
+    ],
+    "intelligence.output": [
+      "Audio"
+    ],
+    "function.role": [
+      "Security monitor",
+      "Caregiver"
+    ],
+    "function.task_domain": [
+      "Child safety",
+      "Domestic care"
+    ],
+    "genealogy.lineage": [
+      "Smart home",
+      "Ambient intelligence",
+      "Ubiquitous computing"
+    ],
+    "genealogy.precedent_field": [
+      "Industrial design",
+      "Modernist product design"
+    ]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 2,
+    "form_specificity": 3,
+    "autonomy": 1,
+    "initiative": 1,
+    "memory_span": 1,
+    "visibility": 3,
+    "generality": 1,
+    "intensity": 2,
+    "expressiveness": 2,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-zenith-radio-nurse-001",
+      "caption": "Zenith Radio Nurse (1938), Bakelite receiver designed by Isamu Noguchi, Montreal Museum of Fine Arts.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zenith_Radio_Nurse_(1938)_bakelite_designed_by_Isamu_Noguchi,_Montreal_Museum_of_Fine_Arts.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A dark brown Bakelite sculpture resembling a stylized, abstract nurse's bust or head with a speaker grill on the front and no facial features, photographed against a plain background.",
+      "local_image": "/projects/zenith-radio-nurse.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-zenith-radio-nurse-001",
+      "title": "Zenith Radio Nurse",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Zenith_Radio_Nurse",
+      "publisher": "Wikipedia",
+      "year": 1938,
+      "access_notes": "Overview of product history, designer, technical operation, reception, and museum collections."
+    },
+    {
+      "source_id": "source-zenith-radio-nurse-002",
+      "title": "An Industrial Design Classic: Isamu Noguchi and the Radio Nurse",
+      "source_type": "exhibition_page",
+      "url": "https://www.thehenryford.org/explore/blog/an-industrial-design-classic-isamu-noguchi-and-the-radio-nurse",
+      "publisher": "The Henry Ford Museum",
+      "year": 1938,
+      "access_notes": "Detailed technical and design history from the Henry Ford Museum collection; confirms March 1938 introduction date, house-wiring transmission method, and $19.95 retail price."
+    },
+    {
+      "source_id": "source-zenith-radio-nurse-003",
+      "title": "A Modernist Mother's Helper",
+      "source_type": "exhibition_page",
+      "url": "https://www.cooperhewitt.org/2013/05/12/a-modernist-mothers-helper/",
+      "publisher": "Cooper Hewitt, Smithsonian Design Museum",
+      "year": 2013,
+      "access_notes": "Cooper Hewitt essay on the Radio Nurse's design context, Noguchi's inspiration from Japanese culture, and its significance as the world's first electronic baby monitor."
+    },
+    {
+      "source_id": "source-zenith-radio-nurse-004",
+      "title": "Radio Nurse | V&A Explore The Collections",
+      "source_type": "exhibition_page",
+      "url": "https://collections.vam.ac.uk/item/O179620/radio-nurse-baby-monitor-noguchi-isamu/",
+      "publisher": "Victoria and Albert Museum",
+      "year": 1938,
+      "access_notes": "V&A collection record for the Radio Nurse with dimensions and design attribution."
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Apple Knowledge Navigator",
+  "year": 1987,
+  "organization": ["Apple Computer"],
+  "project_type": "concept",
+  "short_description": "A 1987 Apple concept video depicting a bow-tied AI agent on a tablet that schedules, researches, and communicates on command — the design fiction that predicted Siri and conversational AI assistants by decades.",
+  "long_description": "Produced by Hugh Dubberly and Doris Mitsch of Apple Creative Services, the Knowledge Navigator premiered at the Educom conference in 1987 under CEO John Sculley. A five-minute scenario shows a professor using a foldable touchscreen tablet on which an animated bow-tied butler agent answers in natural speech, retrieves distributed hypertext databases, places video calls, and co-creates a deforestation simulation — all via spoken conversation. The video cost $60,000 and six weeks to produce, yet depicted voice recognition, conversational agents, ubiquitous broadband, and tablet computing that would not become commercially viable until the 2010s. When Apple launched Siri in 2011, New York Times columnist John Markoff explicitly traced its lineage to the Knowledge Navigator. As a design fiction it anchors the origin point of the AI assistant lineage and remains the canonical reference for what a personal, embodied, proactive AI agent might feel like.",
+  "primary_url": "https://en.wikipedia.org/wiki/Knowledge_Navigator",
+  "ai_embedded": "envisioned",
+  "ai_note": "The AI agent is entirely fictional — portrayed through scripted animation and pre-recorded voice — but the concept accurately described the capabilities (NLU, voice synthesis, agentic task execution) that would later underpin real systems like Siri.",
+  "attributes": {
+    "embodiment.form": ["Tablet", "Desktop agent"],
+    "embodiment.mobility": ["Handheld"],
+    "intelligence.input": ["Speech", "Touch"],
+    "intelligence.model": ["Large language model"],
+    "intelligence.output": ["Speech", "Vision"],
+    "function.role": ["Assistant", "Memory aid"],
+    "function.task_domain": ["Research", "Scheduling", "Communication"],
+    "genealogy.lineage": ["Speculative design", "Ubiquitous computing", "Ambient intelligence"],
+    "genealogy.precedent_field": ["Human-computer interaction", "Design fiction"]
+  },
+  "metrics": {
+    "proximity": 4,
+    "mobility": 3,
+    "scale": 2,
+    "social_legibility": 4,
+    "form_specificity": 3,
+    "autonomy": 4,
+    "initiative": 4,
+    "memory_span": 3,
+    "visibility": 4,
+    "generality": 5,
+    "intensity": 3,
+    "expressiveness": 4,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-apple-knowledge-navigator-001",
+      "caption": "Screenshot from the 1987 Apple Knowledge Navigator concept video, showing the animated bow-tied AI agent on the tablet interface.",
+      "image_type": "video_still",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Knowledge_Navigator.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A video still showing a tablet-sized computer display with an animated male character wearing a bow tie — the AI agent — visible on screen alongside a research interface.",
+      "local_image": "/projects/apple-knowledge-navigator.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-apple-knowledge-navigator-001",
+      "title": "Knowledge Navigator",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Knowledge_Navigator",
+      "publisher": "Wikipedia",
+      "year": 1987,
+      "access_notes": "Covers premiere at Educom 1987, production team (Dubberly, Mitsch, Liebhold), Sculley's vision, budget, and Siri connection cited by John Markoff."
+    },
+    {
+      "source_id": "source-apple-knowledge-navigator-002",
+      "title": "Odyssey: Pepsi to Apple",
+      "source_type": "unknown",
+      "url": "https://en.wikipedia.org/wiki/John_Sculley",
+      "publisher": "John Sculley and John A. Byrne",
+      "year": 1987,
+      "access_notes": "Book in which Sculley described the Knowledge Navigator concept — \"a tool as galvanizing as the printing press\" — prior to the video's production."
+    },
+    {
+      "source_id": "source-apple-knowledge-navigator-003",
+      "title": "Hugh Dubberly",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Hugh_Dubberly",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Confirms Dubberly joined Apple in 1986 as Creative Director and co-created the Knowledge Navigator technology-forecast video in 1987."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Call a colleague mid-research by voice",
+      "description": "In the video, the professor says \"Philip, I need to talk to you\" and the agent places a video call while keeping the research context visible — a hands-free, voice-initiated communication that mirrors what modern assistants on tablets and phones now do.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Knowledge_Navigator",
+      "source_label": "Wikipedia — Knowledge Navigator"
+    },
+    {
+      "title": "Ask the agent to compile a report from distributed databases",
+      "description": "The professor asks the agent to pull data on Amazon deforestation from university network databases; the agent retrieves and synthesizes the information, foreshadowing cloud-connected AI research tools that now run through systems like Perplexity, ChatGPT, or Google Gemini.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Knowledge_Navigator",
+      "source_label": "Wikipedia — Knowledge Navigator"
+    },
+    {
+      "title": "Let the agent manage your calendar without being asked",
+      "description": "The bow-tied agent proactively surfaces a missed appointment and reschedules it during the scenario — not responding to a query but acting on behalf of the user, anticipating what matters.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Knowledge_Navigator",
+      "source_label": "Wikipedia — Knowledge Navigator"
+    },
+    {
+      "title": "Co-build a simulation through conversation",
+      "description": "The professor and the agent collaboratively construct a climate simulation by talking through parameters — demonstrating a conversational, iterative AI workflow that anticipates modern AI-assisted coding and data-analysis tools like GitHub Copilot or Code Interpreter.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Knowledge_Navigator",
+      "source_label": "Wikipedia — Knowledge Navigator"
+    },
+    {
+      "title": "Ask your tablet what it knows about the paper on your desk",
+      "description": "A plausible extension of the video's vision: point the tablet's camera at a physical document and have the agent cross-reference it against library databases — combining the depicted tablet form with the object-recognition capabilities that Google Lens and modern VLMs now provide.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

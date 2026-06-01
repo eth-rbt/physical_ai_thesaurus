@@ -1,0 +1,157 @@
+{
+  "name": "ASIMO",
+  "year": 2000,
+  "organization": [
+    "Honda"
+  ],
+  "project_type": "research_prototype",
+  "short_description": "Honda's child-sized humanoid robot (2000–2022) that could walk, run, climb stairs, recognise faces, and pour drinks — the defining public symbol of humanoid robots for two decades.",
+  "long_description": "Unveiled by Honda in November 2000 after 14 years of internal bipedal research (beginning 1986), ASIMO stood 120 cm tall and weighed 43 kg, making it the first humanoid sized to share domestic space rather than a factory floor. Successive versions through 2011 added running at up to 9 km/h, stair climbing, simultaneous face and voice recognition of multiple people, and the fine motor control required to pour a liquid from a bottle without crushing a paper cup. For over 20 years ASIMO appeared in Honda showrooms, science museums, and public events worldwide, conducted the Detroit Symphony Orchestra in 2008, and met President Obama in Tokyo in 2014 — making it the clearest popular image of what a humanoid robot could be. Honda retired active demonstrations in March 2022, shifting focus to remote-controlled avatar robotics.",
+  "primary_url": "https://global.honda/en/robotics/asimo/",
+  "ai_embedded": "some",
+  "ai_note": "Behaviour orchestrated by rule-based and classical-ML control systems; later versions added face and voice recognition. No large-scale learned model.",
+  "attributes": {
+    "embodiment.form": [
+      "Humanoid robot"
+    ],
+    "embodiment.mobility": [
+      "Legged"
+    ],
+    "embodiment.scale": [
+      "Child-sized"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Speech",
+      "Audio",
+      "Motion"
+    ],
+    "intelligence.model": [
+      "Rule-based system",
+      "Classical machine learning"
+    ],
+    "function.role": [
+      "Assistant",
+      "Companion",
+      "Performer"
+    ],
+    "genealogy.lineage": [
+      "Human-robot interaction",
+      "Social robotics",
+      "Industrial automation"
+    ]
+  },
+  "metrics": {
+    "social_legibility": 5,
+    "proximity": 3,
+    "mobility": 4,
+    "autonomy": 2,
+    "expressiveness": 3
+  },
+  "images": [
+    {
+      "image_id": "img-honda-asimo-001",
+      "caption": "ASIMO performing at Fan Fun Lab, Twin Ring Motegi, Japan (2009).",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:ASIMO_performing_(3719849359).jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "ASIMO, Honda's white humanoid robot, stands on stage mid-motion at an indoor demonstration venue, its visor-like head and astronaut-suit body clearly visible.",
+      "local_image": "/projects/honda-asimo.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-honda-asimo-001",
+      "title": "Honda Develops ASIMO — Advanced Step in Innovative Mobility",
+      "source_type": "press_release",
+      "url": "https://global.honda/en/newsroom/news/2000/c001120b-eng.html",
+      "publisher": "Honda Motor Co.",
+      "year": 2000,
+      "access_notes": "Original November 20 2000 press release announcing ASIMO's unveiling. Cites height (120 cm), weight (43 kg), walking speed (0–1.6 km/h), and design goal of household operation."
+    },
+    {
+      "source_id": "source-honda-asimo-002",
+      "title": "About ASIMO — Technologies",
+      "source_type": "official_product_page",
+      "url": "https://global.honda/en/ASIMO/about/",
+      "publisher": "Honda Motor Co.",
+      "year": 2011,
+      "access_notes": "Official Honda page describing 2011-spec capabilities: 9 km/h running, simultaneous face and voice recognition, pouring liquids, 57 degrees of freedom."
+    },
+    {
+      "source_id": "source-honda-asimo-003",
+      "title": "ASIMO",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/ASIMO",
+      "publisher": "Wikipedia",
+      "year": 2022,
+      "access_notes": "Version history (2000–2011), notable public appearances including NYSE bell (2002), Detroit Symphony (2008), Obama meeting (2014), and retirement in March 2022."
+    },
+    {
+      "source_id": "source-honda-asimo-004",
+      "title": "Honda Robotics — Mobility, Manipulation, Interaction",
+      "source_type": "official_product_page",
+      "url": "https://global.honda/en/robotics/asimo/",
+      "publisher": "Honda Motor Co.",
+      "year": 2022,
+      "access_notes": "Honda's retrospective page noting ASIMO units collectively walked 7,907 km over 33+ million steps across more than 20 years of public demonstrations."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Walk up and down a staircase while carrying a tray",
+      "description": "By 2005 ASIMO could ascend and descend a regular staircase while keeping a serving tray level — a canonical demonstration of the whole-body balance control that made it the emblem of practical humanoid mobility.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/ASIMO",
+      "source_label": "Wikipedia — ASIMO"
+    },
+    {
+      "title": "Run at 9 km/h, maintaining a double-flight phase",
+      "description": "The 2011 model runs fast enough that both feet leave the ground simultaneously — the defining threshold between walking and running — at up to 9 km/h. Honda demonstrated this live to show that bipedal balance need not sacrifice speed.",
+      "provenance": "documented",
+      "source_url": "https://global.honda/en/ASIMO/about/",
+      "source_label": "Honda — About ASIMO"
+    },
+    {
+      "title": "Pour a drink without crushing the paper cup",
+      "description": "ASIMO grips a soft paper cup and pours a liquid into it without deforming or spilling, demonstrating the force-feedback sensitivity required for domestic service tasks — a stock demonstration clip that circulated worldwide.",
+      "provenance": "documented",
+      "source_url": "https://global.honda/en/ASIMO/about/",
+      "source_label": "Honda — About ASIMO"
+    },
+    {
+      "title": "Recognise and greet multiple people speaking simultaneously",
+      "description": "Using fused visual and auditory processing, the 2011 version can identify up to ten registered faces and parse their voices even when they are talking at the same time, then address each person by name.",
+      "provenance": "documented",
+      "source_url": "https://global.honda/en/ASIMO/about/",
+      "source_label": "Honda — About ASIMO"
+    },
+    {
+      "title": "Conduct a symphony orchestra",
+      "description": "In January 2008 ASIMO stepped onto the podium of the Detroit Symphony Orchestra and led the musicians through an excerpt of 'The Impossible Dream', using programmed arm gestures timed to the score — a widely covered public spectacle that reinforced the idea of the humanoid as social and expressive agent.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/ASIMO",
+      "source_label": "Wikipedia — ASIMO"
+    },
+    {
+      "title": "Ring the opening bell at the New York Stock Exchange",
+      "description": "In February 2002 ASIMO pressed the ceremonial bell at the NYSE, becoming an early symbol of humanoid robots entering institutional public life and drawing massive global press attention to Honda's research programme.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/ASIMO",
+      "source_label": "Wikipedia — ASIMO"
+    },
+    {
+      "title": "Serve as a science-museum host for school groups",
+      "description": "For two decades ASIMO appeared daily at Honda showrooms and science museums in Japan, the US, and Europe, answering scripted questions, demonstrating walking and running, and waving — giving millions of children their first live encounter with a humanoid robot.",
+      "provenance": "observed",
+      "source_url": "https://global.honda/en/robotics/asimo/",
+      "source_label": "Honda Robotics retrospective"
+    },
+    {
+      "title": "Navigate around a moving pedestrian without being told",
+      "description": "Using onboard sensing and predicted movement control, ASIMO detects an approaching person, computes their trajectory, and steps aside to let them pass — a proposed natural extension of the collision-avoidance it already demonstrated in controlled corridors, applied to unstructured domestic hallways.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}
