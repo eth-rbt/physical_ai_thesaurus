@@ -31,7 +31,7 @@ interchangeable and buries the atlas's range.
 ## Inputs
 
 - `cards` — which cards to rebalance: `all` (default) or a list of card ids / categories.
-- `cap` — soft maximum number of cards a single project may appear on (default **6**). Truly
+- `cap` — soft maximum number of cards a single project may appear on (default **9**). Truly
   cross-cutting atoms may exceed it only with an explicit per-card justification; aim for most
   atoms at **≤ 3–4**.
 - `avoid_pruning` — optional list of (card, project) pairs to leave untouched.
@@ -56,7 +56,8 @@ for f in glob.glob("src/content/cards/*.md"):
     for pid in re.findall(r'-\s+([a-z0-9-]+)\s*$', fm, re.M): usage[pid]+=1
 allids=[os.path.basename(f)[:-5] for f in glob.glob("src/content/projects/*.json")]
 orphans=[p for p in allids if usage[p]==0]
-print("HEROES (>=6):", [f"{p}={n}" for p,n in usage.most_common() if n>=6])
+CAP=9
+print(f"HEROES (>={CAP}):", [f"{p}={n}" for p,n in usage.most_common() if n>=CAP])
 print("ORPHANS:", len(orphans), orphans[:60])
 # write a compact inventory the per-card workers can read
 rows=[]

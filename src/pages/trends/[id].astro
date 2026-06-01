@@ -1,0 +1,88 @@
+---
+import { getEntry, getEntries, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import ProjectGrid from '../../components/ProjectGrid.astro';
+import GrowthPlot from '../../components/GrowthPlot.astro';
+
+// SSR (output: 'server') so the password gate protects this page per request —
+// look the trend up by URL param instead of prerendering.
+const { id } = Astro.params;
+const trend = id ? await getEntry('trends', id) : undefined;
+if (!trend) return new Response('Trend not found', { status: 404 });
+const d = trend.data;
+const projects = await getEntries(d.related_project_ids);
+const { Content } = await render(trend);
+
+const KIND_LABEL = { use_case: 'Use case', brief: 'Market brief' } as const;
+const HORIZON_LABEL = { now: 'Now', next: 'Next', emerging: 'Emerging' } as const;
+const fmt = (date: Date) =>
+  date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+---
+
+<Base title={d.title}>
+  <p class="muted"><a href="/trends/">← Trends</a></p>
+  <div class="card-grid">
+    <div class="card-prose">
+      <div class="trend-badges">
+        <span class={`hz hz-${d.horizon}`}>{HORIZON_LABEL[d.horizon]}</span>
+        <span class="kind">{KIND_LABEL[d.kind]}</span>
+        <span class="updated">Updated {fmt(d.updated)}</span>
+      </div>
+      <h1>{d.title}</h1>
+      <p class="question">{d.summary}</p>
+
+      <GrowthPlot label={d.growth.label} unit={d.growth.unit} caption={d.growth.caption} points={d.growth.points} />
+
+      <Content />
+
+      <section class="trend-section">
+        <h2>Key use cases</h2>
+        <ul class="use-cases">
+          {d.use_cases.map((u) => (
+            <li>
+              <span class="uc-title">{u.title}</span>
+              {u.description && <span class="uc-desc"> — {u.description}</span>}
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section class="trend-section">
+        <h2>Target customers &amp; personas</h2>
+        <div class="aud-customers">
+          {d.audience.customers.map((c) => <span class="pill">{c}</span>)}
+        </div>
+        <ul class="personas">
+          {d.audience.personas.map((p) => (
+            <li>
+              <span class="persona-name">{p.name}</span>
+              <span class="persona-desc"> — {p.description}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      {d.sources.length > 0 && (
+        <section class="trend-sources">
+          <h2>Sources</h2>
+          <ul class="sources">
+            {d.sources.map((s) => (
+              <li>
+                <a href={s.url} target="_blank" rel="noopener">{s.title}</a>
+                {s.publisher && <span class="muted"> — {s.publisher}</span>}
+                {s.year && <span class="muted"> ({s.year})</span>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </div>
+    <div class="card-refs">
+      <div class="panel-head">
+        <span class="chip">Evidence</span>
+        <span class="count">{projects.length} projects</span>
+      </div>
+      <ProjectGrid projects={projects} />
+    </div>
+  </div>
+</Base>

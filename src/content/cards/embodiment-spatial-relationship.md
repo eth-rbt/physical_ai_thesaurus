@@ -3,7 +3,7 @@ category: Embodiment
 subcategory: Spatial Relationship
 title: Spatial Relationship
 card_question: Where does the system live relative to your body — on you, in your hand, across the room, or roaming?
-one_line_summary: How close a system sits to the body, from infrastructure parked across the room to devices worn directly on you.
+one_line_summary: How close the system sits to your body, from sensing dissolved into the architecture you can't even point to, all the way to circuitry laminated onto your skin.
 status: draft
 summary:
   label: Forms at each distance
@@ -16,31 +16,35 @@ display:
     label: Across the room → on the body
     direction: asc
 project_ids:
+  - smart-dust-uc-berkeley
+  - weiser-ubiquitous-computing
+  - little-signals
+  - parctab-xerox-parc
+  - amazon-astro
+  - mediacup
+  - rabbit-r1
+  - apple-airpods
+  - oura-ring
   - steve-mann-wearcomp
-  - dangling-string
-  - irobot-roomba
-  - ring-doorbell
+  - skinmarks
   - amazon-echo-alexa
   - apple-watch
-  - apple-airpods
-  - jibo
-  - skinmarks
-  - amazon-astro
   - rayban-meta-smart-glasses
-  - humane-ai-pin
 project_notes:
-  steve-mann-wearcomp: "The first on-body general-purpose computer — a backpack-mounted 6502 system with head-mounted display worn continuously on the body — defining the on-body extreme of the spatial spectrum."
-  dangling-string: "A length of string hung from the ceiling motor, twitching with network traffic — the system lives in the architecture itself, sensed from across the room."
-  irobot-roomba: "Untethered from any one spot, roaming the floor across the room and under furniture as it cleans."
-  ring-doorbell: "Bolted to the doorframe at the building's edge, watching the threshold from the far perimeter of the home."
-  amazon-echo-alexa: "A fixed speaker set on a shelf or counter, addressed across the room by voice and never touched or worn."
-  apple-watch: "Strapped to the wrist all day, pressed against the skin to read your pulse, motion, and a tap away from your voice."
-  apple-airpods: "Tucked inside the ear canal — among the most intimate placements here, listening and speaking from within the head itself."
-  jibo: "Parked on a countertop within a room, a stationary tabletop presence that swivels to face you but never leaves its spot."
-  skinmarks: "Rub-on circuitry conformed to a knuckle or finger — the interface laminated directly onto the skin, as close as embodiment gets."
-  amazon-astro: "A wheeled robot that roams between rooms, coming to find you rather than waiting in a fixed place."
-  rayban-meta-smart-glasses: "Worn on the face, sharing your exact line of sight — the camera and assistant ride along wherever you look."
-  humane-ai-pin: "Clipped to your chest like a brooch, riding on your clothes and projecting onto the palm you raise to it."
+  smart-dust-uc-berkeley: "Far end of the axis: motes meant to scatter into the room itself, sensing you can't point to anywhere."
+  weiser-ubiquitous-computing: "The whole premise of the far end: computing woven into walls and boards so it recedes rather than faces you."
+  little-signals: "An ambient object addressed from across the room — a puff or soft tap nudges you without being touched or worn."
+  parctab-xerox-parc: "The carried tab: pocketed and passed around at room scale, mid-axis between fixed infrastructure and a true worn device."
+  amazon-astro: "The mobile exception, mid-axis: a wheeled robot that roams between rooms and comes to you rather than holding one spot."
+  mediacup: "Close-in but not worn: an ordinary coffee cup, sensing hidden in its base, held in the hand and lifted to the face."
+  rabbit-r1: "On the body but at arm's length — a pocket handheld you hold up and address, near you without conforming to you."
+  apple-airpods: "Near the on-body extreme: seated inside the ear canal, listening and speaking from within the head itself."
+  oura-ring: "Among the most intimate placements: a band pressed continuously against the finger to read pulse and temperature."
+  steve-mann-wearcomp: "On-body extreme of its era — a backpack computer and head display worn all day, the machine living on the person."
+  skinmarks: "Closest point of all: rub-on circuitry conformed to a knuckle, the interface laminated directly onto the skin."
+  amazon-echo-alexa: "Far end, commercial: a fixed cylinder on a shelf you address from anywhere in the room, never carried or worn."
+  apple-watch: "Near the on-body end: strapped to the wrist all day, sensing pulse and motion from the skin and glanced at by a turn of the arm."
+  rayban-meta-smart-glasses: "On-body end: cameras and speakers worn on the face, seeing and hearing from your point of view as ordinary eyewear."
 ---
 
-Spatial relationship asks how close a system sits to your body, and the spread runs from a string twitching on the ceiling to circuitry rubbed onto your skin. At the far end it lives in the architecture and the perimeter — a Dangling String wired into the building, a Ring at the doorframe, an Echo on the shelf, a Roomba roaming the floor — then closes in through a tabletop Jibo and a roving Astro that comes to find you, before climbing onto the body itself: a Humane Pin on your chest, a Watch on your wrist, glasses on your face, AirPods in your ear, and finally SkinMarks laminated directly onto the skin.
+The spread runs from sensing you can't point to — Smart Dust seeded into the room, Weiser's ubicomp woven into the walls, a Little Signals object glanced at from a doorway — inward through a carried ParcTab and a MediaCup in the hand, to AirPods in the ear, an Oura Ring on the finger, Mann's WearComp strapped on all day, and finally SkinMarks laminated onto the skin. Two things stand out across that ladder. Almost none of it is about intelligence: the far end is mechanical placement and the near end is rule-based or narrow sensing, so closeness is set by where the body ends, not by what the device thinks. And Astro is the lone disruptor — a self-mover that won't hold a rung, rolling between rooms to close the distance itself rather than waiting for you to carry or wear it.

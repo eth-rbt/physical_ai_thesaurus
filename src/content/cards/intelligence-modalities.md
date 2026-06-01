@@ -3,36 +3,40 @@ category: Intelligence
 subcategory: Modalities
 title: Modalities
 card_question: What input and output channels does the intelligence operate across?
-one_line_summary: The sensory and expressive channels a system spans — vision, speech, touch, gaze, motion, biometrics in; speech, light, haptics, shape, and movement out — and how they fuse into one interaction.
+one_line_summary: How many sensory and expressive channels a system spans — and whether it fuses them into one act or reinvents a single channel past the screen-and-speaker default.
 status: draft
 display:
   mode: grid
 project_ids:
   - apple-vision-pro
-  - rayban-meta-smart-glasses
-  - apple-watch
-  - amazon-echo-show
   - microsoft-kinect
-  - aldebaran-nao
   - kismet
-  - moxie
+  - aldebaran-nao
   - lovot
-  - irobot-roomba
+  - amazon-echo-show
+  - google-soli
   - inform
+  - sensorama
+  - tacttoo
   - skinput
+  - vpl-research-eyephone
+  - furhat
+  - nintendo-wii
 project_notes:
-  apple-vision-pro: "The fullest fusion here — gaze picks a target, a pinch gesture selects it, voice and audio fill in, all registered to the room; no single channel works alone."
-  rayban-meta-smart-glasses: "Vision, audio, and speech ride your face: you look, ask, and it answers in your ear, the camera sharing your exact line of sight."
-  apple-watch: "Touch, voice, motion, gesture, and a stack of biometric sensors on one wrist — heartbeat and movement become inputs as much as taps and words."
-  amazon-echo-show: "The multimodal answer to the audio-only Echo — it adds a camera and a touchscreen, so speech and audio gain vision and touch."
-  microsoft-kinect: "An early consumer attempt to fuse channels: depth vision, skeletal motion, gesture, plus speech and audio, turning the whole body into the controller."
-  aldebaran-nao: "A small humanoid reading vision, audio, speech, touch, and motion at once and answering with posture and gesture — modality fusion as social presence."
-  kismet: "The canonical multimodal social robot: vision, audio, speech, and motion in; gaze, facial expression, and vocal prosody out, coordinated into the appearance of attention."
-  moxie: "A child's companion that listens (audio, speech) and watches (vision) and replies through an animated face and voice — channels combined to sustain a conversation."
-  lovot: "The densest sensor fusion in the set — vision, touch, audio, speech, motion, and environmental sensors feed one creature whose only output is being warm and responsive."
-  irobot-roomba: "Modalities at the appliance end: spatial vision, bump touch, and environmental sensors in, physical movement across the floor out — perception coupled directly to motion."
-  inform: "A research shape display whose output channel is the world itself: touch, gesture, vision, and motion in; a grid of pins rising into physical shape and force out."
-  skinput: "Turns the body into an input surface — bio-acoustic taps on the skin plus gesture and audio, an exotic channel that widens what 'input' can even mean."
+  apple-vision-pro: "Fusion done so tightly no channel stands alone: gaze aims, a pinch selects, voice and spatial audio fill in, all pinned to the room."
+  microsoft-kinect: "Promotes the whole body to input channel — depth vision and skeletal motion read as gesture, with speech and audio alongside, no controller."
+  kismet: "Social fusion as a trick of attention: vision, audio, speech, and motion in; gaze, expression, and prosody out, coordinated to look like it is listening."
+  aldebaran-nao: "Reads vision, audio, speech, touch, and motion at once and answers in posture and gesture — the same fusion as Kismet, packaged as a teachable body."
+  lovot: "The densest input fusion in the set — six streams including thermal and touch — collapsed into a single output that is just being warm and wanting to be held."
+  amazon-echo-show: "The minimal multimodal upgrade: bolt a camera and touchscreen onto a voice box, so speech gains vision and touch on both sides of the exchange."
+  google-soli: "Reinvents the input channel as radar — fine hand motion sensed through the air, no contact, no camera, no microphone."
+  inform: "Makes physical shape and force a first-class output: a 900-pin surface that pushes the world into relief — and runs no AI at all."
+  sensorama: "1962, no computation: the widest output set here — 3-D vision, stereo sound, vibration, wind, even scent — proof the sensorium expanded before the AI did."
+  tacttoo: "Relocates output onto the skin itself — a sub-35-micron electro-tactile tattoo that writes sensation straight to the fingertip; no AI, pure channel."
+  skinput: "Turns the arm into a tappable surface — bio-acoustic taps localized by a trained classifier, the rare on-body channel that does lean on a little ML."
+  vpl-research-eyephone: "The glove as a first-class input channel: hand pose and gesture in via the DataGlove, stereoscopic vision out — the headset-plus-glove I/O paradigm itself."
+  furhat: "Output reinvented as a face — back-projected expressions and gaze, with speech, paired to vision/speech/gaze in; the expressive-face channel the voice boxes lack."
+  nintendo-wii: "Mainstreamed motion as a mass input channel — a handheld accelerometer read as gesture, putting whole-arm movement on the controller a decade before Kinect dropped it."
 ---
 
-Read across the set, modalities only matter in combination: the Vision Pro fuses gaze, pinch gesture, voice, and spatial audio so that no channel is meaningful alone, while Kismet and NAO show the same logic in social robots, pairing vision/audio/speech/touch input with gaze, expression, and gesture output to manufacture attention. The split by AI-embedding is telling — the richest channel-fusing devices (Vision Pro, Ray-Ban Meta, Apple Watch, LOVOT, Moxie) leave their model layer unstated or learned, while the research poles are deliberately model-light: inFORM (ai:none) treats physical shape and haptic force as a first-class output channel, and Skinput (ai:some) treats the skin itself as bio-acoustic input — together stretching the I/O vocabulary past the screen-and-speaker default toward touch, motion, biometrics, light, and physical motion. Even the humble Roomba belongs, reducing the question to its core: spatial sensing in, movement out.
+Two things happen across this set. In the middle, many channels fuse into one act: the Vision Pro makes gaze, pinch, voice, and spatial audio inseparable; Kismet and NAO pair vision/audio/speech/touch with gaze, expression, and gesture to fake attention; LOVOT collapses six input streams into the single output of being warm. At the poles, a single channel gets reinvented — Kinect makes the body the controller, Soli reads hand motion as radar through the air, Skinput taps the arm itself — and the sharpest move is that the channel-expanding research atoms barely run AI: inFORM (ai:none) makes shape and force a real output, TacTtoo (ai:none) writes sensation onto skin, and Sensorama did vision, sound, wind, and smell in 1962 with no computation at all. The I/O vocabulary, it turns out, was dragged past screen-and-speaker mostly by mechanism, not intelligence.

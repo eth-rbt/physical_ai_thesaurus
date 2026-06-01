@@ -201,4 +201,58 @@ const cards = defineCollection({
   }),
 });
 
-export const collections = { cards, projects };
+// `trends` are time-sensitive views onto the corpus: short market/use-case briefs
+// that link out to the atoms they're evidenced by. Unlike cards (evergreen taxonomy)
+// they carry an `updated` date so the UI can show how fresh each one is, and they
+// can be refreshed periodically (e.g. via the deep-research skill).
+const trends = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/trends' }),
+  schema: z.object({
+    title: z.string(),
+    // use_case = emerging-use-case / whitespace framing; brief = market-intel framing.
+    kind: z.enum(['use_case', 'brief']).default('use_case'),
+    // Where the bulk of this domain sits today.
+    horizon: z.enum(['now', 'next', 'emerging']).default('now'),
+    status: z.enum(['draft', 'review', 'published']).default('draft'),
+    summary: z.string(),
+    // Drives the "updated <month> <year>" freshness badge.
+    updated: z.coerce.date(),
+    // Atoms this trend is evidenced by — rendered as a project grid on the detail page.
+    related_project_ids: z.array(reference('projects')).default([]),
+
+    // --- the three required structured sections (authored by the `trend-brief` skill) ---
+    // 1. Growth: data points for a small time-series plot. Mark forecast points
+    //    `projected: true` so the chart can dash them. Anchor values to a cited source.
+    growth: z.object({
+      label: z.string(),
+      unit: z.string().default(''),
+      caption: z.string().optional(),
+      points: z
+        .array(
+          z.object({
+            year: z.number().int(),
+            value: z.number(),
+            projected: z.boolean().default(false),
+          }),
+        )
+        .min(2),
+    }),
+    // 2. Audience: who buys/uses this, plus a few concrete user personas.
+    audience: z.object({
+      customers: z.array(z.string()).min(1),
+      personas: z
+        .array(z.object({ name: z.string(), description: z.string() }))
+        .min(1),
+    }),
+    // 3. Key use cases: the concrete things this trend enables.
+    use_cases: z
+      .array(z.object({ title: z.string(), description: z.string().optional() }))
+      .min(3),
+
+    // Same shape as project sources, so citations look and behave consistently.
+    sources: z.array(sourceRecord).default([]),
+    confidence: confidence.default('medium'),
+  }),
+});
+
+export const collections = { cards, projects, trends };

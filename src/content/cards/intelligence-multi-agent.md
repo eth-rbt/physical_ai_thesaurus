@@ -3,7 +3,7 @@ category: Intelligence
 subcategory: Multi-Agent
 title: Multi-Agent
 card_question: How is intelligence distributed across multiple devices, robots, or services?
-one_line_summary: How agency is split across a coordination layer of phones, speakers, sensors, lights, and services — which device senses, which decides, and which acts.
+one_line_summary: Whether "many agents" means one cloud mind with many limbs, a rule engine brokering devices, or bodies that genuinely negotiate with no center — and how rarely real AI is what's coordinating.
 status: draft
 display:
   mode: grid
@@ -13,24 +13,30 @@ project_ids:
   - matter-smart-home
   - ifttt
   - x10-home-automation
-  - amazon-echo-alexa
   - google-assistant
-  - apple-siri
+  - general-magic-telescript
   - cordyceps
-  - things-that-think
   - zooids
+  - roombots
+  - weiser-ubiquitous-computing
+  - smart-dust-uc-berkeley
+  - claude-computer-use
+  - rovables
 project_notes:
-  samsung-smartthings: "A brokered division of labor: motion and leak sensors sense, the hub or cloud decides via rules, and bulbs, valves, and appliances act."
-  home-assistant: "Same sensor-hub-actuator split, but the deciding agent runs locally on a box in the closet, with an on-device voice assistant doing the speaking."
-  matter-smart-home: "Not an agent itself but the shared fabric letting rival ecosystems even speak, so one deciding mind can sense and actuate devices from any brand."
-  ifttt: "Strips multi-agent coordination to its bones: one service's trigger senses, the 'if this then that' rule decides, another service acts."
-  x10-home-automation: "The 1970s ancestor of distributed home intelligence: a central console decides and modules on the powerline act, with no sensing or deciding of their own."
-  amazon-echo-alexa: "The speaker senses speech and speaks back, but the deciding agent lives in Amazon's cloud, treating multi-room Echoes as ears and mouths."
-  google-assistant: "One cloud mind distributed across phone, watch, speaker, and display, each device a sensing-and-speaking limb that broadcasts and acts on the body's behalf."
-  apple-siri: "The vendor cloud decides while HomePods and iPhones sense and speak; Shortcuts lets the user stitch the acting devices into chained routines."
-  cordyceps: "The card's purest case: a mirror, lamp, and radio each sense, confer as coordinated LLM agents, and act through their own form with no central voice."
-  things-that-think: "The founding 1995 vision of intelligence dissolved into objects, where shoes, doorknobs, and badges each sense and relay to one another."
-  zooids: "A swarm of tabletop micro-robots negotiating a shared shape with no central voice, each tiny body sensing touch and acting as one physical pixel."
+  samsung-smartthings: "Brokered, and the 'agent' is a rulebook: sensors sense, the cloud hub fires rules, bulbs and valves act — coordination with no learned mind."
+  home-assistant: "The same sensor-hub-actuator split moved off the cloud onto a box in your closet, orchestrating dozens of rival-brand devices privately."
+  matter-smart-home: "Not an agent but the shared language: the fabric that lets rival ecosystems even speak, so one deciding mind can reach any brand's devices."
+  ifttt: "Multi-agent coordination stripped to a single bone — one service's trigger, one 'if-this-then-that' rule, another service's action."
+  x10-home-automation: "The 1975 ancestor: a console issues codes, powerline modules obey, nothing senses or decides — distributed bodies, zero distributed intelligence."
+  google-assistant: "One cloud mind wearing many bodies — phone, watch, speaker, display each a sensing-and-speaking limb acting on the single brain's behalf."
+  general-magic-telescript: "The 1994 dream of peer agents: programs dispatched across the network to transact at remote 'places' and return with the result — no AI, pure dispatch."
+  cordyceps: "The only true multi-agent mind here: a mirror, lamp, and radio each run an LLM, confer, and answer through their own form with no central voice."
+  zooids: "Genuine peer agency, no AI: tabletop micro-robots negotiating a shared shape by path-planning, each body one self-placing physical pixel."
+  roombots: "Distributed control with learned gaits — modular cubes each deciding their own moves so the collective crawls together into furniture."
+  weiser-ubiquitous-computing: "The 1991 source vision: intelligence dissolved into hundreds of tabs, pads, and boards, spread so thin across a room it disappears."
+  smart-dust-uc-berkeley: "Distribution taken to the limit: hundreds of millimetre motes sensing and relaying as one network, no single body and no central mind."
+  claude-computer-use: "Telescript's dispatched-agent dream finally with a learned mind — one LLM agent acting across software tools, the frontier's single-brain end of the spectrum."
+  rovables: "Peer swarm with no AI: tiny wheeled robots roaming the body, each navigating locally so the group self-arranges across your clothing."
 ---
 
-These projects show that "multi-agent" at home is almost never one mind but a brokered division of labor — and they disagree on who holds the broker. The commercial assistants (Alexa across multi-room speakers, Google Assistant spread over phone-watch-speaker, Siri stitching devices via Shortcuts) keep the deciding agent in a vendor cloud and treat the rest of the house as limbs, while the coordination platforms expose the seam: SmartThings and Home Assistant make the rules themselves the agent (a sensor senses, a hub decides, a bulb acts), IFTTT reduces it to service-to-service "if this then that," and Matter is the late attempt to let rival ecosystems even speak — a lineage running back to X10's 1970s powerline signaling, when "distributed intelligence" was a few bits down the mains. The AI-embedded split is the real tension: nearly all of these are ai:unknown thin-clients leaning on remote models, so the genuinely multi-agent intelligence appears only at the edges — Cordyceps, the one record tagged with explicit coordinated-multi-agent LLM coordination, imagines a houseful of conversing objects, and Zooids' swarm of tabletop robots is the precedent for many small bodies negotiating a shared goal with no central voice at all.
+The sharpest thing this set reveals is how little of "multi-agent" is actually AI. Most of it is plumbing: SmartThings, IFTTT, and 1975's X10 split sensing, deciding, and acting across many bodies, but the deciding is a rulebook, not a mind — Matter is just the shared language that lets rival devices speak, and Google Assistant is the opposite arrangement, one cloud brain wearing many limbs. The genealogy is old and pre-AI — Weiser's 1991 vision of computation dissolved into tabs and boards, Telescript's 1994 agents dispatched across the network. Even the peer swarms run no learned coordination: Zooids place themselves by path-planning, Roombots crawl into furniture on tuned gaits. Only Cordyceps — the lone record tagged with coordinated multi-agent LLMs — actually gives a mirror, lamp, and radio their own conversing minds, which makes it less the norm of this card than its frontier.

@@ -1,0 +1,47 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+// Time-sensitive views onto the corpus. Drafts are hidden; published trends are
+// ordered by horizon (now → next → emerging) then by most-recently updated.
+const all = await getCollection('trends');
+const HORIZON_ORDER = { now: 0, next: 1, emerging: 2 } as const;
+const trends = all
+  .filter((t) => t.data.status === 'published')
+  .sort((a, b) => {
+    const h = HORIZON_ORDER[a.data.horizon] - HORIZON_ORDER[b.data.horizon];
+    return h !== 0 ? h : +b.data.updated - +a.data.updated;
+  });
+
+const KIND_LABEL = { use_case: 'Use case', brief: 'Market brief' } as const;
+const HORIZON_LABEL = { now: 'Now', next: 'Next', emerging: 'Emerging' } as const;
+const fmt = (d: Date) =>
+  d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+---
+
+<Base title="Trends">
+  <h1>Trends &amp; emerging use cases</h1>
+  <p class="muted" style="max-width:62ch">
+    Time-sensitive reads on where physical AI is heading — market briefs and emerging
+    use cases, each evidenced by projects in the thesaurus. Unlike the evergreen cards,
+    these carry an <em>updated</em> date and are refreshed as the field moves.
+  </p>
+
+  <div class="trend-list">
+    {trends.map((t) => (
+      <a class={`trend-card horizon-${t.data.horizon}`} href={`/trends/${t.id}/`}>
+        <div class="trend-badges">
+          <span class={`hz hz-${t.data.horizon}`}>{HORIZON_LABEL[t.data.horizon]}</span>
+          <span class="kind">{KIND_LABEL[t.data.kind]}</span>
+          <span class="updated">Updated {fmt(t.data.updated)}</span>
+        </div>
+        <div class="trend-title">{t.data.title}</div>
+        <p class="trend-summary">{t.data.summary}</p>
+        <div class="trend-foot">
+          {t.data.related_project_ids.length} linked projects
+          {t.data.sources.length > 0 && <span> · {t.data.sources.length} sources</span>}
+        </div>
+      </a>
+    ))}
+  </div>
+</Base>

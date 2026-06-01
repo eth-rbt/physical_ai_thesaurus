@@ -3,36 +3,42 @@ category: Embodiment
 subcategory: Actuator Types
 title: Actuator Types
 card_question: How does the AI produce effects in the world?
-one_line_summary: The output side of physical AI — the spread from speech, screens, and light that only represent or signal, to motion, manipulation, shape-change, and environmental control that actually move matter.
+one_line_summary: The output side of physical AI, sorted by how far an effect travels — from speech, screens, and light that only signal, to locomotion and manipulation that actually move matter.
 status: draft
 display:
   mode: grid
 project_ids:
-  - philips-hue
-  - dangling-string
   - amazon-echo-show
+  - philips-hue
+  - pinwheels
   - paro
   - sony-aibo
   - samsung-ballie
   - irobot-roomba
   - hello-robot-stretch
-  - figure-02
-  - nest-learning-thermostat
   - inform
+  - pneui
   - tacttoo
+  - ambientroom
+  - unimate
+  - boston-dynamics-spot
+  - nintendo-wii
 project_notes:
-  philips-hue: "Pure light as output — color and brightness across a room, an actuator that only signals and sets mood, never moving an object."
-  dangling-string: "A ceiling motor twitches a length of string in proportion to network traffic — motion used purely as an ambient signal, the minimal mechanical actuator."
-  amazon-echo-show: "Communication outputs only — synthesized speech plus a screen that represents information, with no power to change the physical world."
-  paro: "Output as affect — soft vocalizations and tactile warmth/movement under the hand, an actuator built to be felt and soothed by rather than to do work."
-  sony-aibo: "Bundles its outputs into a creature: legged movement, expressive gaze, and sound, all in service of seeming alive rather than performing a task."
-  samsung-ballie: "Projection plus locomotion — it rolls to a wall and throws an image onto it, turning the whole room into a display surface."
-  irobot-roomba: "Locomotion as the entire point — it moves itself across the floor to clean, the canonical case of an AI that changes the environment by relocating its own body."
-  hello-robot-stretch: "A telescoping arm and gripper — manipulation, the actuator class that reaches out and rearranges objects in the world."
-  figure-02: "Humanoid manipulation at full body scale — legs plus arms plus hands, the maximal actuation envelope aimed at general physical labor."
-  nest-learning-thermostat: "Environmental control as output — it changes the room's temperature itself, acting on the ambient field rather than on any discrete object."
-  inform: "A motorized pin array that renders shapes and pushes objects — actuation as the display itself, surface geometry that becomes physical force."
-  tacttoo: "Electro-tactile output laminated onto skin — haptic actuation at the most intimate scale, stimulating the body directly instead of moving anything external."
+  amazon-echo-show: "Output that only represents: synthesized speech and a screen, signals with no power to move anything physical."
+  philips-hue: "Light as the entire actuator — color and brightness across a room sets mood but never displaces an object."
+  pinwheels: "Motorized rotation reduced to a pure signal — spinning vanes encode data in their speed, motion that means rather than does."
+  paro: "Actuation aimed at affect: warmth, soft vocalizations, and movement under the hand, built to be felt rather than to do work."
+  sony-aibo: "Gait, gaze, and sound bundled into a creature — outputs spent on seeming alive, not on performing any task."
+  samsung-ballie: "Locomotion plus projection — it rolls to a wall and throws an image onto it, making the whole room a display surface."
+  irobot-roomba: "Locomotion as the whole point: it relocates its own body across the floor to clean, output that genuinely changes the environment."
+  hello-robot-stretch: "A telescoping arm and gripper — manipulation, the actuator class that reaches out and rearranges discrete objects in the world."
+  inform: "A motorized pin array renders shapes and pushes objects — the display itself becomes physical force, geometry as actuation."
+  pneui: "Air as the actuator — pneumatic chambers inflate and deform a soft surface, shape-change driven by pressure, not motors."
+  tacttoo: "Electro-tactile output laminated onto skin — haptics at the most intimate scale, stimulating the body rather than moving anything external."
+  ambientroom: "Actuates the room itself — light, sound, airflow, and water become an ambient field acting on surroundings, not on any object."
+  unimate: "The original manipulation actuator — a hydraulic arm that grips and relocates heavy parts, output that bodily rearranges matter on the line."
+  boston-dynamics-spot: "Legged locomotion as the actuator — four motorized limbs walk the body across rough terrain, moving itself where wheels cannot go."
+  nintendo-wii: "Vibrotactile output as actuator — motors buzz the controller in the hand, force fed back to the body rather than projected outward."
 ---
 
-Read across the output side, these projects sort by how far an effect travels into the world: at one end Echo Show and Philips Hue only represent or signal — speech, a screen, colored light — and the Dangling String reduces even motion to a pure twitch of meaning, while at the other end Roomba and Figure 02 move matter, the Roomba relocating its own body to clean and Figure's arms and hands reaching to rearrange objects. Between them sit the actuators that act without quite doing a task — PARO's tactile warmth and aibo's gaze and gait perform aliveness, Ballie throws projection onto a wall, the Nest thermostat changes the air rather than any object, and inFORM's pin array makes the display itself into physical force. The interaction-research precursors here (Dangling String, inFORM, and the on-skin haptics of Tacttoo) carry no embedded AI at all — they are pure studies of an output mechanism — whereas the commercial systems wrap comparable actuators in perception and models, suggesting that the actuator catalogue was largely worked out before the intelligence arrived to drive it.
+These projects sort by how far an effect travels into the world: at one end Echo Show and Philips Hue only represent or signal — speech, a screen, colored light — and Pinwheels reduces even motion to spinning vanes that mean rather than do, while at the other Roomba relocates its own body to clean and Stretch's arm reaches out to rearrange objects. Between them sit actuators that act without quite doing a task — PARO's tactile warmth and aibo's gait perform aliveness, Ballie throws projection onto a wall, AmbientROOM drives light, sound, and airflow as a field, and inFORM and pneUI turn the display surface itself into physical force. The split that sharpens the card is the AI one: the research precursors (Pinwheels, inFORM, pneUI, AmbientROOM, Tacttoo) run no embedded AI at all — pure studies of an output mechanism — while the commercial systems wrap comparable actuators in perception and models, as if the actuator catalogue was worked out before the intelligence arrived to drive it.

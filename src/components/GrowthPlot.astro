@@ -1,0 +1,52 @@
+---
+// A small inline-SVG growth chart for a trend. Points are sorted by year;
+// any segment ending in a `projected` point is drawn dashed (a forecast).
+interface Point { year: number; value: number; projected?: boolean }
+interface Props { label: string; unit?: string; caption?: string; points: Point[] }
+const { label, unit = '', caption, points } = Astro.props;
+
+const pts = [...points].sort((a, b) => a.year - b.year);
+const W = 520, H = 190;
+const padL = 16, padR = 18, padT = 26, padB = 30;
+const years = pts.map((p) => p.year);
+const minYr = Math.min(...years);
+const maxYr = Math.max(...years);
+const maxVal = Math.max(...pts.map((p) => p.value));
+
+const x = (yr: number) =>
+  padL + (maxYr === minYr ? 0 : (yr - minYr) / (maxYr - minYr)) * (W - padL - padR);
+// Baseline at 0 so growth reads honestly; small top headroom for labels.
+const y = (v: number) => H - padB - (v / maxVal) * (H - padT - padB);
+
+const coords = pts.map((p) => ({ ...p, cx: x(p.year), cy: y(p.value) }));
+// One <line> per segment; dashed when the later endpoint is a forecast.
+const segments = coords.slice(1).map((p, i) => ({
+  x1: coords[i].cx, y1: coords[i].cy, x2: p.cx, y2: p.cy,
+  projected: p.projected,
+}));
+const fmtVal = (v: number) => (Number.isInteger(v) ? `${v}` : `${v}`);
+---
+
+<figure class="growth">
+  <figcaption class="growth-label">{label}{unit && <span class="growth-unit"> ({unit})</span>}</figcaption>
+  <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label={`Growth chart: ${label}`}>
+    <!-- baseline -->
+    <line x1={padL} y1={H - padB} x2={W - padR} y2={H - padB} class="g-axis" />
+    {segments.map((s) => (
+      <line
+        x1={s.x1} y1={s.y1} x2={s.x2} y2={s.y2}
+        class={`g-line${s.projected ? ' g-proj' : ''}`}
+      />
+    ))}
+    {coords.map((p) => (
+      <g>
+        <circle cx={p.cx} cy={p.cy} r="4" class={`g-dot${p.projected ? ' g-proj' : ''}`} />
+        <text x={p.cx} y={p.cy - 10} class="g-val" text-anchor="middle">
+          {unit.startsWith('$') ? '$' : ''}{fmtVal(p.value)}{unit && !unit.startsWith('$') ? '' : ''}
+        </text>
+        <text x={p.cx} y={H - padB + 18} class="g-yr" text-anchor="middle">{p.year}</text>
+      </g>
+    ))}
+  </svg>
+  {caption && <p class="growth-caption muted">{caption} <span class="g-key">— dashed = forecast</span></p>}
+</figure>

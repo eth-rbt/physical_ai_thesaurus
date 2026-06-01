@@ -3,32 +3,36 @@ category: Function
 subcategory: Location of Use
 title: Location of Use
 card_question: Where does the AI live — bedroom, kitchen, doorway, car, street, workplace, care home?
-one_line_summary: Mapping where physical AI lives — bedroom, kitchen, living room, doorway, floor, car, street, workplace, care home, school — because the same behavior is welcome in one place and disturbing in another.
+one_line_summary: Where physical AI lives — counter, nightstand, doorway, lawn, street, body, ward, nursery — because the same sensing reads as care in one room and surveillance in the next.
 status: draft
 display:
   mode: grid
 project_ids:
-  - oura-ring
   - june-oven
   - google-nest-hub
   - ring-doorbell
-  - irobot-roomba
+  - husqvarna-automower
   - waymo-driver
-  - rayban-meta-smart-glasses
+  - steve-mann-wearcam
   - limitless-pendant
   - paro
-  - moxie
+  - zenith-radio-nurse
+  - irobot-roomba
+  - amazon-echo-alexa
+  - rayban-meta-smart-glasses
 project_notes:
-  oura-ring: "Lives on the finger into the bedroom and bed, reading pulse, temperature, and sleep where the body is least guarded and most intimate."
-  june-oven: "Sits on the kitchen counter, its internal camera watching the food rather than the room, so its always-on lens reads as cooking help, not surveillance."
-  google-nest-hub: "A countertop fixture for kitchen and nightstand; the same screen that aids the household becomes a bedside camera-and-radar that watches you sleep."
-  ring-doorbell: "Bolted at the doorway facing outward, it turns the threshold into a watch post recording neighbors, passersby, and police-shareable footage of people who never opted in."
-  irobot-roomba: "Roams the floor of every room, and the vSLAM map it needs to clean is also a saleable floor plan of the home's private layout."
-  waymo-driver: "Operates on the public street, where its autonomy disrupts shared road norms and invites cone-blocking protest from people who never chose to share the lanes."
-  rayban-meta-smart-glasses: "Worn out on the street and indoors, eyewear that hides a camera pointed at strangers, capturing people in public and private who can't tell they're recorded."
-  limitless-pendant: "Clipped on into the workplace and meetings, it quietly transcribes everyone present, turning shared conversation into one wearer's searchable record without the room's consent."
-  paro: "Lives in the care home and hospital ward, placed in the laps of dementia patients least able to consent to being soothed by a robot."
-  moxie: "Sits in a child's room, bonding daily with a young user who can't weigh the privacy of a camera-and-mic companion that later went dark."
+  june-oven: "On the kitchen counter its camera looks inward at the food, never the room — which is why an always-on lens reads as help."
+  google-nest-hub: "The same household screen, moved to the nightstand, becomes a bedside radar watching you breathe and sleep — location flips its meaning."
+  ring-doorbell: "Bolted at the threshold facing out, it turns the doorway into a watch post recording passersby and police-shareable footage of non-consenters."
+  husqvarna-automower: "The rare home robot that lives entirely outdoors, crossing the private back lawn on a buried wire — sensing aimed at grass, not people."
+  waymo-driver: "Out on the public street its autonomy disrupts shared road norms and draws cone-blocking protest from people who never agreed to share the lane."
+  steve-mann-wearcam: "Worn on the body into every room and street it enters — the original always-on head camera, decades before glasses normalized it."
+  limitless-pendant: "Clipped on into meetings, it transcribes everyone present, turning a shared workplace conversation into one wearer's private record without the room's consent."
+  paro: "Lives in the care-home ward, set in the laps of dementia patients among the least able to consent to being soothed by a robot."
+  zenith-radio-nurse: "Stationed in the 1938 nursery to relay a baby's sounds next door — the ancestor of every monitor aimed at the least-consenting occupant."
+  irobot-roomba: "Lives loose on the living-room floor, roaming every room it can reach and quietly mapping the home's interior layout as it cleans."
+  amazon-echo-alexa: "Sits on the kitchen counter or bedside table always listening for its wake word — the same object reads as helper in one room, eavesdropper in the next."
+  rayban-meta-smart-glasses: "Worn on the face into shops, streets and dinners, its camera points outward at everyone around — the consumer heir to WearCam, now indistinguishable from ordinary glasses."
 ---
 
-Sorted by where it lives, the same sensing reads as care in one room and surveillance in another: an Oura Ring tracking your pulse in the bedroom and a Roomba mapping the floor feel domestic, but a Ring at the doorway and Ray-Ban Meta glasses on the street point the same cameras outward at people who never opted in, and a Limitless pendant quietly recording the workplace turns a meeting into a transcript. The set also splits by who the location is for — a June oven and a Nest Hub serve the able-bodied household, while PARO in the care home and Moxie in a child's room are designed for the most watched, least consenting occupants — and only Waymo, roaming the public street, carries AI as its whole reason to exist rather than as an embedded feature of an appliance.
+Sorted by where it lives, the same sensing flips from care to surveillance depending on which way it faces. The June oven's camera looks inward at the food and the Nest Hub aids the household — but move that Hub to the nightstand and it watches you sleep, while Ring at the doorway, WearCam on the body, and a Limitless pendant in a meeting all point outward at people who never opted in. The set splits again by who a room is for: the kitchen serves the able household, whereas PARO in the care-home ward and the 1938 Zenith Radio Nurse in the nursery are aimed squarely at the least-consenting occupants. Even the two outdoor cases divide the same way — Husqvarna's mower keeps to the private lawn, while Waymo, alone on the public street, is the one place where the AI is the entire reason the thing exists rather than a feature folded into an appliance.

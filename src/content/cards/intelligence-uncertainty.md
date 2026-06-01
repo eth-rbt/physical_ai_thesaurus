@@ -3,34 +3,38 @@ category: Intelligence
 subcategory: Uncertainty / Confidence / Failure Handling
 title: Uncertainty & Failure Handling
 card_question: How does the AI behave when perception, inference, or action is uncertain?
-one_line_summary: What a system does when it is not sure — mishear and ask again, get stuck and stop, pull over, confirm before acting, or escalate to a human.
+one_line_summary: Where a system puts its doubt when it isn't sure — into its body (pull over, steer around), into talk (ask again, hedge), into a human (escalate) — or, fatally, hides it behind false confidence.
 status: draft
 display:
   mode: grid
 project_ids:
-  - amazon-echo-alexa
   - apple-siri
+  - dragon-naturallyspeaking
   - waymo-driver
-  - irobot-roomba
   - roborock
-  - figure-02
+  - shakey-robot
+  - physical-intelligence-pi-zero
   - hello-robot-stretch
   - lifeline-pers
   - claude-computer-use
   - humane-ai-pin
   - microsoft-seeing-ai
+  - boston-dynamics-atlas
+  - sperry-autopilot
 project_notes:
-  amazon-echo-alexa: "The canonical mishearing machine — when speech is ambiguous it guesses, asks 'did you mean…', or simply says it didn't understand, making confidence audible in everyday speech."
-  apple-siri: "Disambiguation as interaction design — offers a list to choose from, asks a follow-up, or punts to a web search rather than commit to a wrong action."
-  waymo-driver: "Failure handling at 5/5 autonomy: when the scene is unreadable it slows, pulls over, and escalates to remote assistance — disengagement as a designed graceful degradation, not a crash."
-  irobot-roomba: "The 'do nothing / ask for help' end of the spectrum — cliff sensors halt it at the stairs, and when wedged or lost it stops and announces an error code instead of pushing on."
-  roborock: "AI obstacle vision that hedges — it identifies and steers around objects it can't classify (cables, pet waste) and flags 'I avoided something' rather than risk plowing through."
-  figure-02: "A vision-language-action humanoid that can ground a request and, when an instruction is ambiguous, clarify or confirm before manipulating — uncertainty handled at the level of the task plan."
-  hello-robot-stretch: "Assistive manipulation where confirming before moving someone's objects matters — a research platform where 'are you sure?' and human-in-the-loop checks are part of safe operation."
-  lifeline-pers: "The pure-escalation case with no AI at all: a rule-based fall/emergency button whose entire design is the false-alarm cancel window and the handoff to a live human responder."
-  claude-computer-use: "An LLM agent built around confidence and refusal — it can decline, ask for clarification, or pause for a human at risky steps, making 'I'm not sure, you confirm' an explicit affordance."
-  humane-ai-pin: "The cautionary failure case — a wearable LLM assistant whose hallucinated and uncertain answers, delivered with false confidence, showed what happens when a device hides its own doubt."
-  microsoft-seeing-ai: "Accessibility vision that has to voice its uncertainty honestly — narrating a scene to a blind user, hedged descriptions and 'probably' are safety features, not bugs."
+  apple-siri: "Puts doubt into talk: an ambiguous request gets a disambiguation list, a follow-up question, or a punt to web search instead of one confidently wrong action."
+  dragon-naturallyspeaking: "Recognition uncertainty made into an explicit fix-and-learn loop — low-confidence words flagged, the user corrects, and the per-speaker acoustic model folds in the correction."
+  waymo-driver: "Doubt handled with the body at full autonomy — an unreadable scene means slow, pull over, and call remote assistance; the construction-zone pullbacks show the same reflex failing."
+  roborock: "Hedges with motion: its obstacle vision steers around a cable or pet mess it can't classify and reports 'I avoided something' rather than risk plowing through."
+  shakey-robot: "The original uncertain-world recovery — when its symbolic map of the room stopped matching what it sensed, STRIPS replanning was how it got un-wrong, no probabilities needed."
+  physical-intelligence-pi-zero: "Failure recovery as a learned frontier (ai:core): the VLA model grasps, slips, and retries on tasks like laundry-folding rather than freezing when a grip goes wrong."
+  hello-robot-stretch: "Confirm-before-moving in someone's home — an assistive manipulator where human-in-the-loop checks and teleop oversight are how it handles touching a person's objects safely."
+  lifeline-pers: "The pure-escalation extreme with no AI at all: the whole design is the false-alarm cancel window and the handoff to a live human, who is the failure handler."
+  claude-computer-use: "Doubt made first-class (ai:core): it can decline, ask for clarification, and on a suspected prompt injection its classifiers pause for a human before proceeding."
+  humane-ai-pin: "The anti-example: a wearable LLM that masked latency and hallucination behind false confidence — getting the weather wrong with a straight face is why it failed."
+  microsoft-seeing-ai: "Honest hedging as a safety feature (ai:core): narrating a scene to a blind user, 'probably' and approximate age beat a confident wrong label it can't take back."
+  boston-dynamics-atlas: "Doubt absorbed by the body at the limit: a slip or misjudged step triggers a balance catch or a get-up routine, so a fall is recovered from rather than catastrophic."
+  sperry-autopilot: "The genealogical root of delegated-control failure handling: it flies steadily within its envelope and the design assumption is the human takes back the controls when conditions exceed it."
 ---
 
-Read together these projects map the full repertoire a system reaches for when it is not sure, and the range is striking: at one end the Roomba and Waymo handle doubt with their bodies — stop at the cliff, announce an error, pull over and call for remote help — while smart speakers like Alexa and Siri turn uncertainty into talk, re-asking, offering a list, or admitting they didn't catch it. The AI-embedded split is itself the lesson: Lifeline's emergency button carries no AI at all and works precisely because a human is the failure handler, Claude Computer Use and Seeing AI (both ai:core) make refusal, confirmation, and hedged "probably" into first-class affordances, and the Humane AI Pin stands as the warning — an LLM device that masked its own doubt with false confidence and failed for exactly that.
+What this set really sorts by is *where* a system parks its uncertainty. Some put it in the body — Waymo pulls over and calls remote assistance, Roborock steers around the thing it can't classify — while Siri and Dragon route it into language, offering a disambiguation list or flagging a low-confidence word to correct. Others put it in a person: Lifeline carries no AI at all and works precisely because the human on the call is the failure handler, and Stretch and Claude pause for confirmation at the risky step. The AI-embedded reading is the lesson, though, when you set Seeing AI and pi-zero against the Humane Pin: the honest systems make hedging and retry first-class — "probably," a re-grasp — while the Pin masked latency and hallucination behind false confidence, which is the one failure mode none of the others commit and the one that sank it.

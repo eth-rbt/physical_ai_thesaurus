@@ -3,7 +3,7 @@ category: Genealogy
 subcategory: Social Robotics
 title: Social Robotics
 card_question: Where did robots built for relationship rather than work come from?
-one_line_summary: The lineage of robots designed to be social actors — from a lab head that reads faces to commercial creatures and humanoids built for the home.
+one_line_summary: Robots that trade utility for relationship — and the recurring catch that the bond is produced by legible behavior and human projection far more than by intelligence.
 status: draft
 summary:
   label: Forms of the social robot
@@ -13,40 +13,34 @@ display:
   mode: grid
 project_ids:
   - grey-walter-tortoises
+  - wabot-1
   - mit-cog
-  - tamagotchi
   - kismet
+  - tamagotchi
   - paro
-  - technological-dreams-robots
-  - aldebaran-nao
-  - softbank-pepper
-  - furhat
-  - jibo
   - sony-aibo
   - lovot
-  - anki-vector
+  - furhat
+  - aldebaran-nao
+  - technological-dreams-robots
+  - jibo
+  - softbank-pepper
   - moxie
-  - elliq
-  - moflin
 project_notes:
-  grey-walter-tortoises: "The first autonomous robots with reactive, light-seeking behavior — widely cited as the founding moment of behavior-based robotics and an acknowledged precursor to social robotics."
-  mit-cog: "Rodney Brooks's humanoid upper-torso robot at MIT, the direct research platform from which Kismet and the field of social robotics grew; demonstrated face tracking, joint attention, and human-style physical interaction."
-  tamagotchi: "First mass-market digital companion — a handheld egg that required ongoing emotional care, proving millions of people would form attachment bonds with artificial creatures and establishing the 'always-on' companion paradigm."
-  kismet: "The MIT lab origin — an expressive robotic head that engaged people face-to-face and founded the idea of a robot as a social partner."
-  paro: "Carried the lineage into clinical care: a baby-seal robot used like a therapy animal in hospitals and elder care."
-  technological-dreams-robots: "Dunne & Raby's sculptural non-robots — speculative companions imagined with their own needs and temperaments, a critical counterpoint to the servile commercial creatures."
-  aldebaran-nao: "The standard HRI research platform for a decade — Aldebaran's affordable, programmable humanoid became the robot used in more social robotics studies than any other, normalizing the field's methods and curriculum."
-  softbank-pepper: "Scaled the social robot commercially as a 1.2 m 'emotion engine' humanoid deployed across retail, hospitality, and education."
-  furhat: "A back-projected human face built for expressive, multi-party conversation — the research platform descendant of Kismet's social head."
-  jibo: "The first mass-market 'family robot' for the countertop — a swiveling, expressive body that brought social robotics into the living room."
-  sony-aibo: "The iconic robotic dog — an animal companion whose adaptive, expressive behavior made the creature form mainstream."
-  lovot: "Pushed companionship to its purest form: a Japanese robot whose only job is to be loved, never to perform tasks."
-  anki-vector: "A tiny desk creature with an animated face and cloud assistant — social robotics packaged as an affordable consumer gadget."
-  moxie: "Aimed the lineage at children — a desktop companion that coaches social-emotional skills through daily conversation and play."
-  elliq: "A proactive tabletop companion for older adults living alone, using relationship to push back against loneliness."
-  moflin: "A palm-sized furry companion that grows its own personality through touch and voice, shrinking the creature robot to a pet."
+  grey-walter-tortoises: "The projection root, 1948: analog shells never meant to be social, yet their light-seeking wander read as a creature with intentions — the effect the field would later engineer."
+  wabot-1: "A human-shaped robot from 1973, before relationship was the goal — it could answer spoken questions but was built to function, not to be befriended."
+  mit-cog: "The research lineage, not the product: a torso doing face tracking and joint attention, the developmental platform Kismet's social head grew directly out of."
+  kismet: "The deliberate origin — a head built only to hold your gaze and read your tone, founding the robot-as-partner idea on hand-tuned rules, no learning."
+  tamagotchi: "The purest proof of the catch: a deterministic egg with no robot body and zero AI that still made millions grieve a creature they kept alive."
+  paro: "Relationship as medicine — a baby-seal robot cleared as a therapy device, soothing dementia and pain through responsive touch rather than conversation."
+  sony-aibo: "The creature form made mainstream and mournable — an adaptive dog owners held Buddhist funerals for once Sony stopped repairing the bodies."
+  lovot: "Companionship stripped to its essence: a warm, needy robot deliberately incapable of any task, whose only job is to be loved and to act jealous."
+  furhat: "Kismet's conversational descendant — a back-projected face that turns to whoever is speaking, betting multi-party legibility is what makes talk feel social."
+  aldebaran-nao: "Not a companion but the substrate — the affordable humanoid most social-robotics studies actually ran on, normalizing the field's methods worldwide."
+  technological-dreams-robots: "The critical inversion — Dunne & Raby's sculptural non-robots with neuroses and needs of their own, refusing the eager servility the market shipped."
+  jibo: "The home social robot as icon and cautionary tale — a swiveling expressive desk companion hyped as a family member, then bricked when the servers died."
+  softbank-pepper: "The bond at scale — the most widely deployed humanoid social robot, a waist-high greeter reading emotion and chatting in stores and care homes worldwide."
+  moxie: "The LLM-era companion — a expressive child's robot using a language model to hold open-ended conversations and coach social-emotional skills, relationship as the whole product."
 ---
 
-Social robots descend from MIT's Kismet, a lab head built to hold a person's gaze and read emotion rather than do work, and the lineage carries its intelligence unevenly: PARO's therapeutic seal and Sony's aibo run on hand-tuned classical models, while Moxie and ElliQ now route their conversations through large language models. The branches all trade utility for relationship — companion creatures (aibo, LOVOT, Moflin), expressive faces and humanoids (Furhat, Pepper), and countertop home companions (Jibo, Moxie, ElliQ, Vector) — and Dunne & Raby's Technological Dreams robots sit beside them as non-working sculptures, imagining machines with needs of their own rather than the eager, agreeable companions the market actually shipped.
-</content>
-</invoke>
+Lined up together, these projects show that the social bond rarely comes from intelligence. Grey Walter's 1948 tortoises were never built to be social, yet their wandering already read as having intentions — and that projection is the effect Kismet later engineered deliberately, on hand-tuned rules, while Tamagotchi produced real grief from a deterministic egg with no robot body and no AI at all. PARO, aibo, and LOVOT push the creature form from clinical therapy to a robot whose only job is to be loved, NAO sits apart as the lab substrate that standardized how the field studies all of this, and Dunne & Raby's Technological Dreams robots invert the whole premise — imagining companions with neuroses and needs of their own instead of the agreeable servants every other project here ships.

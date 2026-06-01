@@ -3,34 +3,38 @@ category: Intelligence
 subcategory: Learning / Adaptability
 title: Learning & Adaptability
 card_question: How does the system change over time — calibrating, personalizing, or learning routines?
-one_line_summary: How physical systems change over time — from a thermostat that learns your schedule to robots that learn manipulation from demonstration.
+one_line_summary: Home devices personalize at the edges behind opaque labels while the robot frontier learns the skill itself off-site — and the surest sign of real in-place adaptation is a research block, not a product.
 status: draft
 display:
   mode: grid
 project_ids:
   - nest-learning-thermostat
-  - irobot-roomba
-  - apple-watch
   - oura-ring
-  - amazon-echo-alexa
+  - ecovacs-deebot
+  - june-oven
   - elliq
-  - moxie
-  - figure-02
+  - sony-aibo
   - physical-intelligence-pi-zero
   - boston-dynamics-atlas
+  - tesla-optimus
   - roombots
+  - figure-02
+  - waymo-driver
+  - lovot
 project_notes:
-  nest-learning-thermostat: "The namesake of the category — watches a week of manual adjustments and presence, then builds and keeps refining a heating schedule on its own."
-  irobot-roomba: "Learns the house as it cleans, accumulating persistent floor maps and no-go zones so each run is calibrated to your specific rooms."
-  apple-watch: "Personalizes against your own baselines — resting heart rate, cardio fitness, gait — so its coaching and alerts are tuned to you rather than a population average."
-  oura-ring: "Spends its first weeks calibrating a personal sleep and temperature baseline, then scores nightly readiness as deviations from your normal."
-  amazon-echo-alexa: "Adapts mostly by explicit teaching — user-built Routines, voice-profile recognition, and 'Alexa, learn this' shortcuts rather than silent inference."
-  elliq: "Builds a longer memory of one older adult — preferences, routines, who they are — to time check-ins and proactive prompts to that person."
-  moxie: "Tracks a child across sessions, remembering past conversations and adjusting its social and educational interactions to that individual over weeks."
-  figure-02: "A humanoid driven by a vision-language-action model — the frontier where household and factory skills are learned from data and demonstration rather than scripted."
-  physical-intelligence-pi-zero: "A robotics foundation model fine-tuned across many embodiments and tasks — the RT/OpenVLA lineage of learning general manipulation from large datasets."
-  boston-dynamics-atlas: "Uses reinforcement learning for locomotion and whole-body control — adaptation that happens in training and simulation rather than in your living room."
-  roombots: "Modular furniture blocks that learn their own gaits online via reinforcement learning — a rare research precursor that genuinely adapts rather than merely reacting."
+  nest-learning-thermostat: "The category's namesake learns at the edge: a week of manual adjustments and occupancy become a self-built heating schedule it keeps refining."
+  oura-ring: "Calibration as learning — its first weeks settle onto your personal baseline, then it scores readiness as deviation from your own normal, not a population average."
+  ecovacs-deebot: "Accumulates a persistent floor map over repeated runs, refining routes and no-go zones so cleaning is tuned to your specific rooms rather than reset each time."
+  june-oven: "Adaptation narrowed to one task: vision models trained on labeled meals recognize the food and pick a program, improving on the foods it sees most."
+  elliq: "Learns a person, not a skill — it builds a long memory of one older adult's preferences and routines to time its self-initiated check-ins to them."
+  sony-aibo: "Personality as drift: onboard learning lets the robot dog's behavior diverge over months, shaped into a distinct character by how its household treats it."
+  physical-intelligence-pi-zero: "Learning is the whole product — a foundation model trained across eight robot bodies to generalize dexterous manipulation, the RT/OpenVLA lineage made concrete."
+  boston-dynamics-atlas: "Reinforcement-learned locomotion and whole-body control, but the learning happens in simulation and training, not in the room it ends up working in."
+  tesla-optimus: "The frontier bet: a vision-language-action humanoid acquiring factory and household skills from data and demonstration rather than from scripted motions."
+  roombots: "The standout — modular blocks that tune their own gaits online as they reconfigure, genuinely adapting in place where almost every tangible ancestor learns nothing."
+  figure-02: "Same frontier bet as Optimus: a robotics foundation model humanoid that acquires manipulation skills from data and demonstration rather than scripted motions."
+  waymo-driver: "Fleet learning at scale — deep and reinforcement-learned driving policies refined off millions of logged miles, then shipped to the car, not learned on your street."
+  lovot: "Learns one household — onboard models tune its attachment behavior to how each owner holds and treats it, drifting into a pet shaped by its specific home."
 ---
 
-Learning here runs from quiet domestic calibration to the open frontier of robot skill acquisition, and the split between them is also a split in honesty about what is learned: the commercial home devices mostly carry an opaque "unknown" AI label and personalize at the edges — Nest infers a heating schedule, Roomba accumulates floor maps, Apple Watch and Oura settle onto your physiological baselines, while Alexa mostly waits to be taught explicit Routines, and ElliQ and Moxie build a longer memory of one specific person. Against them sit the systems whose learning is the whole point: Figure 02 and Physical Intelligence's π0 are core-AI vision-language-action models learning manipulation from data and demonstration (the RT/OpenVLA lineage), and Atlas's reinforcement-learned locomotion is trained in simulation rather than your home. The surprise is the lone research precursor that truly adapts in place — Roombots, modular blocks that learn their own gaits online — standing out precisely because almost every other tangible-interface ancestor in the archive learns nothing at all.
+The split that runs through this set is where the learning happens and how much of it you can see. The home devices personalize at the edges: Nest infers a heating schedule, Deebot accumulates floor maps, June recognizes the food in the oven, Oura settles onto your physiological baseline, ElliQ builds a long memory of one older adult, and Sony's aibo drifts into a personality shaped by its household. Against them sit the systems for which learning is the whole point — Tesla Optimus and Physical Intelligence's π0 are core-AI vision-language-action models acquiring manipulation from data and demonstration, while Atlas's reinforcement-learned locomotion is trained in simulation, not in the room it works in. The quiet surprise is Roombots: modular blocks that tune their own gaits online, the one project here that genuinely adapts in place rather than learning somewhere else and arriving finished.

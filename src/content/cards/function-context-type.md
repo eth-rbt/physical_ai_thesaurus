@@ -3,34 +3,36 @@ category: Function
 subcategory: Context Type Used
 title: Context Type Used
 card_question: What kind of context does the interaction rely on — spatial, activity, social, emotional, physiological?
-one_line_summary: The kind of context a system reads to act — spatial maps, objects in view, physiological signals, occupancy and time, presence, and the sensitive social and emotional cues at the doorway and in the room.
+one_line_summary: What kind of context a system reads runs from inert (walls, objects, who's in the room) to the body and finally to feelings — and the intimacy of the signal tracks its risk, not its cleverness.
 status: draft
 display:
   mode: grid
 project_ids:
-  - irobot-roomba
+  - easyliving-microsoft-research
   - google-lens
-  - rayban-meta-smart-glasses
-  - apple-watch
   - oura-ring
   - nest-learning-thermostat
   - google-now
   - google-soli
   - mediacup
-  - ring-doorbell
+  - active-badge-location-system
   - elliq
+  - cyberguide-georgia-tech
+  - microsoft-kinect
+  - apple-watch
 project_notes:
-  irobot-roomba: "Spatial context — builds and reasons over a map of the floor, where furniture and walls are, what it has already cleaned."
-  google-lens: "Object and text context — points the camera at a thing and the whole interaction hinges on recognizing what it is and what it says."
-  rayban-meta-smart-glasses: "Visual object context from your exact line of sight — the assistant answers about whatever is in front of your face."
-  apple-watch: "Physiological context — heart rate, motion, and on-body sensors tell it you are exercising, fallen, or stressed."
-  oura-ring: "Physiological context narrowed to sleep and recovery — reads the body overnight to infer readiness for the day."
-  nest-learning-thermostat: "Temporal and occupancy context — learns the daily schedule and senses whether anyone is home before it acts."
-  google-now: "Historical and digital context — mines your location history, mail, and calendar to push a card before you ask."
-  google-soli: "Presence context — radar that senses a hand or body approaching, the bare environmental cue that someone is there."
-  mediacup: "Activity context, the 1999 precursor — a coffee cup whose temperature and motion betray whether it is in use, idle, or being carried."
-  ring-doorbell: "Doorway and bystander context — the most socially loaded reading here, classifying who is at the threshold and recording passers-by."
-  elliq: "Routine, social, and emotional context — tracks an older adult's day and mood to decide when to check in, the most sensitive cue of all."
+  active-badge-location-system: "The ur-case, and it reads the most inert signal of all — identity plus which room you're in — with infrared pulses and no AI."
+  mediacup: "Activity from an everyday object: a 1999 cup whose warmth and motion betray whether it's being drunk from, idle, or carried — rule-based, no learning."
+  google-soli: "Presence as a bare environmental cue — radar that senses a hand or body approaching, reading that someone is simply there."
+  easyliving-microsoft-research: "Spatial context — cameras keep a live map of who stands where, so the room itself becomes the thing that knows your position."
+  google-lens: "Object and text context: aim the camera and the whole interaction hinges on what the thing in front of you is and says."
+  nest-learning-thermostat: "Occupancy and time — it learns the daily rhythm and senses whether anyone's home, context inferred from comings and goings."
+  oura-ring: "The body as context — overnight it reads temperature and pulse off the finger, intimate but consensual, sensing inward rather than outward."
+  google-now: "The riskiest digital context — it mines your location history, mail, and calendar, fusing what you didn't volunteer into a pushed card."
+  elliq: "The most sensitive signal here — it reads an older adult's routine and mood to time a check-in, the context being feelings, not walls."
+  cyberguide-georgia-tech: "Location as the whole context — the canonical context-aware tour guide that serves information purely from where in the building you're standing."
+  microsoft-kinect: "Activity from the body without a wearable — depth cameras read your skeleton and pose, sensing what you're doing rather than where you are."
+  apple-watch: "The body as continuous context — heart rate, motion, and activity read off the wrist all day, consensual physiological sensing rather than ambient surveillance."
 ---
 
-Read across these, the card's claim holds: the same word "context" hides wildly different things to sense and wildly different stakes. Spatial and object context are largely instrumental — Roomba's floor map, Google Lens and Ray-Ban Meta naming what is in view — and the body-reading layer (Apple Watch, Oura) is intimate but consensual, while the physical precursor MediaCup shows how cheaply activity could be inferred from a cup's temperature long before AI. The split by AI embedding is telling: occupancy, time, and presence were read by rule-based or non-AI sensing (Nest learning a schedule, Soli's radar, MediaCup), whereas the riskiest context types lean on heavier inference — Google Now mining your history and mail, and the genuinely sensitive cases, Ring classifying strangers at the threshold and ElliQ reading an older adult's routine and mood, where the context being sensed is other people and feelings rather than walls.
+Lined up, the word "context" sorts into a ladder of intimacy, and intimacy — not cleverness — is what raises the stakes. The inert end was read decades ago with no AI at all: the Active Badge pulsing your room over infrared, MediaCup reading a mug's warmth, Soli's radar sensing a body approaching — clever sensing, not intelligence. The instrumental middle stays largely external (EasyLiving mapping who stands where, Lens naming what's in view, Nest inferring occupancy). The sharp point is at the top: reading the body needs real inference but stays consensual (Oura on the finger), while the genuinely fraught types fuse what you never volunteered — Google Now mining your mail and history, and ElliQ reading an older adult's mood — where the context being sensed is feelings, and the heaviest AI sits exactly where the signal is most personal.
