@@ -39,7 +39,8 @@
     "mobility": 3,
     "autonomy": 4,
     "form_specificity": 5,
-    "generality": 4
+    "generality": 4,
+    "scale": 5
   },
   "images": [
     {

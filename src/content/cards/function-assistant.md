@@ -3,7 +3,7 @@ category: Function
 subcategory: Assistant-Based Interactions
 title: Assistant
 card_question: Where does the assistant live, and how do you reach it?
-one_line_summary: The everyday AI helper you summon to answer, fetch, and act — and the range of bodies it inhabits, from speakers and phones to glasses and pocket gadgets.
+one_line_summary: "\"Assistant\" is one job with no native body — and every era pours it into a different container, from concept tablets to speakers, glasses, and finally no body at all."
 status: draft
 summary:
   label: Where the assistant lives
@@ -13,28 +13,36 @@ display:
   mode: grid
 project_ids:
   - apple-knowledge-navigator
-  - apple-siri
-  - home-assistant
+  - dragon-naturallyspeaking
+  - general-magic-telescript
   - amazon-echo-alexa
-  - google-assistant
-  - google-lens
   - google-nest-hub
+  - google-assistant
+  - home-assistant
+  - google-lens
   - rayban-meta-smart-glasses
   - rabbit-r1
-  - humane-ai-pin
   - limitless-pendant
+  - claude-computer-use
+  - apple-siri
+  - google-now
+  - humane-ai-pin
 project_notes:
-  apple-knowledge-navigator: "A 1987 Apple concept video depicting a bow-tied AI agent on a tablet that schedules, researches, and communicates on command — the foundational design fiction that predicted Siri and GPT-4o by decades."
-  apple-siri: "Built into every Apple device; through Shortcuts you can also wire its voice trigger to chains of custom actions across apps."
-  home-assistant: "A private, local-first assistant for the whole house — its on-device Assist voice control answers without sending speech to the cloud."
-  amazon-echo-alexa: "An always-listening room speaker you summon by name — voice-only, no screen, the hub that runs music, timers, and the smart home."
-  google-assistant: "Not one device but a layer that follows you across phone, speaker, watch, TV, and car — ask anywhere by voice or text."
-  google-lens: "A camera-first assistant: point the phone at an object, sign, or receipt and it identifies, reads, and translates what you see."
-  google-nest-hub: "A countertop assistant with a screen — answers by voice but also shows recipes, video calls, and a glanceable photo frame when idle."
-  rayban-meta-smart-glasses: "An assistant on your face that sees what you see — say 'Hey Meta, look and...' and it answers about whatever's in front of you."
-  rabbit-r1: "A dedicated pocket gadget with a push-to-talk wheel and camera — a purpose-built assistant body rather than another phone app."
-  humane-ai-pin: "A screenless pin you talk to and gesture at, projecting answers onto your palm — a bet on body-worn assistance with no display."
-  limitless-pendant: "A clip-on pendant that listens to your day and recalls it on demand — an always-on memory assistant you query after the fact, not in the moment."
+  apple-knowledge-navigator: "The fiction that named the brief: a 1987 bow-tied agent on a tablet, scheduling and researching on command decades before any of it shipped."
+  dragon-naturallyspeaking: "The earliest body that actually worked — locked inside a desktop PC, the assistant as a dictation tool you reached by speaking, pre-cloud."
+  general-magic-telescript: "A 1994 handheld whose agent leaves the device entirely — dispatched into the network to transact and report back, the assistant as errand-runner."
+  amazon-echo-alexa: "The body that mainstreamed the idea: a faceless room speaker you summon by name, voice-only, no screen, the hub of the home."
+  google-nest-hub: "The same job given a face — a countertop screen that answers aloud but also shows the recipe, then idles as a photo frame."
+  google-assistant: "Refuses a single body: a layer that follows you across phone, watch, TV, and car, the assistant as something ambient rather than a thing."
+  home-assistant: "The assistant retreated into the walls — a local-first one living in the house's own infrastructure, answering without your speech leaving home."
+  google-lens: "Poured into the phone's camera — point it and the assistant reads, identifies, and translates, summoned by aiming rather than asking."
+  rayban-meta-smart-glasses: "The body that sees what you see: 'look and...' moves the assistant onto your face and into your line of sight, hands free."
+  rabbit-r1: "A bet that the assistant deserves its own dedicated pocket object — push-to-talk and a camera in a gadget that isn't just another phone app."
+  limitless-pendant: "The assistant as a clip-on that records the day, so you query your own past rather than ask it to fetch the world's."
+  claude-computer-use: "The job with no body at all — it lives inside the machine, driving the screen, mouse, and keyboard to do the task for you."
+  apple-siri: "The body that mainstreamed asking aloud — a voice layer baked into the phone in your pocket, summoned by name and answering wherever you carry it."
+  google-now: "The assistant that stopped waiting to be summoned — it lives as cards that surface on the phone before you ask, the body as a proactive feed."
+  humane-ai-pin: "A bet on a screenless body you wear — a chest pin you talk to and that projects onto your palm, the assistant as a standalone garment-clip."
 ---
 
-These are the AI helpers you summon to answer, fetch, and act, and the same job inhabits strikingly different bodies: a voice-only speaker you call by name (Alexa), a screen-forward countertop hub (Nest Hub), a layer that follows you across phone and watch (Google Assistant, Siri), glasses and pins worn on the body (Ray-Ban Meta, Humane AI Pin), and dedicated pocket gadgets (Rabbit R1). Read together they show the assistant pulling in two directions at once — toward seeing, as cameras let Google Lens and the smart glasses answer about whatever is in front of you, and toward remembering, as the always-on Limitless Pendant lets you query your own past rather than only the present moment; Home Assistant marks a third axis, keeping the whole exchange local rather than in the cloud.
+Lined up, these reveal that "assistant" is a single job — summon it to answer, fetch, act — with no body of its own, and each container says what its era thought help should look like. The arc starts as pure fiction (Knowledge Navigator's 1987 tablet) and a working desktop tool (Dragon), passes through a 1994 handheld whose agent left the device entirely (Telescript), and settles into the domestic forms that mainstreamed it — the faceless speaker (Alexa), the screen-faced hub (Nest Hub), the device-less layer (Google Assistant). Then it disperses in every direction at once: onto the face and into seeing (Ray-Ban Meta, Google Lens), into a dedicated pocket gadget (Rabbit R1), into an always-on memory of your own day (Limitless), back into the walls as private infrastructure (Home Assistant), and finally to no body at all (Claude computer use) — proof that the only constant is the errand, never the thing that runs it.

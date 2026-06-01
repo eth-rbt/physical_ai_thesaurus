@@ -3,7 +3,7 @@ category: Function
 subcategory: Trust / Delegation Level
 title: Trust & Delegation
 card_question: How much do you actually hand off to the system — does it just alert you, act on a request, or run on its own?
-one_line_summary: How much agency you delegate — from devices that only notify you and wait, to ones you trust to act fully on their own.
+one_line_summary: How much of the deciding and acting you hand off — from a device that only flashes and waits, to one that perceives, chooses, and does the whole job with no one watching.
 status: draft
 summary:
   label: What you delegate to
@@ -16,31 +16,33 @@ display:
     label: Notify only → acts autonomously
     direction: asc
 project_ids:
-  - sperry-autopilot
   - ambient-orb
-  - irobot-roomba
-  - nest-learning-thermostat
-  - home-assistant
+  - lifeline-pers
+  - apple-siri
   - august-smart-lock
-  - amazon-echo-alexa
-  - apple-watch
+  - samsung-smartthings
+  - sperry-autopilot
+  - husqvarna-automower
+  - roborock
+  - claude-computer-use
   - waymo-driver
-  - rayban-meta-smart-glasses
-  - figure-02
+  - nest-learning-thermostat
+  - irobot-roomba
+  - shakey-robot
 project_notes:
-  sperry-autopilot: "The first mechanical system to actively control an aircraft without human input — Lawrence Sperry's gyroscope-stabilized autopilot is the historical origin of delegating control authority to a machine, the precursor to every modern autonomy tier."
-  ambient-orb: "Pure notify-only — it just glows to signal the weather or your stocks, taking no action and asking nothing of you."
-  irobot-roomba: "Hand it the floors — it leaves the dock, navigates the whole home, and cleans unsupervised until done."
-  nest-learning-thermostat: "You delegate the schedule: after watching you, it quietly programs itself to heat and cool without prompts."
-  home-assistant: "You delegate by writing the rules — it then fires automations across the house on its own, but only what you scripted."
-  august-smart-lock: "Trusted with the door: senses you arriving and unlocks automatically, a small but real physical action on your behalf."
-  amazon-echo-alexa: "Acts on request — does what you ask out loud, then stops; little happens unless you speak first."
-  apple-watch: "Mostly notifies — taps your wrist about your heart or a fall, but waits for you to decide and act."
-  waymo-driver: "Full delegation of the drive — no human at the wheel; it perceives, decides, and operates the car end to end."
-  rayban-meta-smart-glasses: "Answers what you ask and captures on command — it observes and informs, but never acts in the world for you."
-  figure-02: "Trusted with physical labor — takes a task and carries out the manipulation steps autonomously in a human workspace."
+  ambient-orb: "The zero-delegation floor — it only glows to signal stocks or weather, takes no action, and asks nothing back of you."
+  lifeline-pers: "You stay the decider: the pendant does nothing until you press it, then it just relays your call to a human responder."
+  apple-siri: "Acts only on request and then stops — speak the command and it runs, but nothing happens until you do."
+  august-smart-lock: "A first real handoff: it senses you arriving and throws the bolt itself, acting on the threshold without being told each time."
+  samsung-smartthings: "Delegation by script — it fires automations and guards the home on its own, but only ever the rules you wrote for it."
+  sperry-autopilot: "The 1914 origin of all of this: a gyro holding a plane level, hands off the stick — the first delegation of physical control to a machine."
+  husqvarna-automower: "The whole lawn, handed over — it leaves the dock on schedule, mows the yard unsupervised, and returns to recharge."
+  roborock: "Trusted with the floors: it maps the home, plans its own routes, avoids obstacles, and cleans until the job is finished."
+  claude-computer-use: "High delegation in software — given a goal it drives a real screen through multi-step tasks, pausing only when told to check in."
+  waymo-driver: "Total handoff: no one at the wheel as it perceives, decides, and operates the car through live city traffic end to end."
+  nest-learning-thermostat: "Mid-axis: you stop programming it and hand off the schedule — it learns your habits and sets the temperature on its own."
+  irobot-roomba: "The signature delegated chore — set it loose and it roams, senses walls, and vacuums the whole floor with no one steering."
+  shakey-robot: "The 1960s ancestor of delegation as planning: it perceived a room, reasoned out its own steps, and executed the task unsupervised."
 ---
 
-Trust runs from devices that only signal and wait — an Ambient Orb that merely glows, an Apple Watch tapping your wrist, glasses answering when asked — through ones you let act on a standing rule, like a Nest programming its own schedule, a Home Assistant firing the automations you scripted, or an August lock that unlocks as you arrive, out to systems you hand the job entirely: a Roomba and a Figure humanoid that work unsupervised, and a Waymo that drives a public road with no one at the wheel.
-</content>
-</invoke>
+What climbs along this axis is not capability but who decides and acts: an Ambient Orb only glows and a Lifeline pendant waits for your press, keeping you the decision-maker; Siri acts on a spoken request and stops; an August lock and SmartThings act on standing rules, but only the ones you authored; and at the top an Automower, a Roborock, Claude driving a screen, and a Waymo with no one at the wheel each take the whole job and run it unsupervised. The telling outlier is Lawrence Sperry's 1914 gyro-autopilot — no computation at all, yet the first time control authority was handed to a machine, which is why every tier above it is a question of trust before it is a question of intelligence.

@@ -3,34 +3,39 @@ category: Intelligence
 subcategory: Inference vs Generation vs Control
 title: Inference vs Generation vs Control
 card_question: Is the AI fundamentally recognizing, generating, deciding, or physically controlling?
-one_line_summary: What the AI is actually doing under the hood — recognizing a state, generating media or language, or controlling a device — and how that changes the way you interact with it.
+one_line_summary: Recognize, generate, or control — one word covers all three, yet you trust a recognizer, converse with a generator, and delegate to a controller, and the projects doing the most physical work often run the least intelligence.
 status: draft
 display:
   mode: grid
 project_ids:
   - lifeline-pers
   - microsoft-seeing-ai
-  - amazon-echo-alexa
+  - dragon-naturallyspeaking
   - be-the-beat
   - reactable
-  - nest-learning-thermostat
-  - irobot-roomba
-  - inform
+  - june-oven
+  - grey-walter-tortoises
   - unimate
+  - inform
   - waymo-driver
-  - figure-02
+  - physical-intelligence-pi-zero
+  - microsoft-kinect
+  - sperry-autopilot
+  - shakey-robot
 project_notes:
-  lifeline-pers: "Pure inference at its most minimal: it recognizes a single deliberate button press (later a fall) and relays it, deciding nothing."
-  microsoft-seeing-ai: "Inference only: computer vision recognizes text, faces, products, and scenes, then narrates what it sees — no generation or control."
-  amazon-echo-alexa: "Primarily generation: it recognizes speech but its core act is generating spoken language and calling tools to answer you."
-  be-the-beat: "Generation driven by inference: it recognizes a dancer's freestyle movement, then generates matching music in response."
-  reactable: "Generation: it recognizes tangible puck arrangements via fiducial vision and generates synthesized sound in real time."
-  nest-learning-thermostat: "Inference plus control: it predicts a household's heating habits, then actuates the HVAC to match — recognizing and physically controlling."
-  irobot-roomba: "Control with light inference: it senses and maps the room, then decides paths and physically drives itself to clean."
-  inform: "Pure control: depth-camera sensing directly actuates a 900-pin array to push digital shapes into physical form, with no learned model."
-  unimate: "Control with zero perception: it replays pre-programmed joint positions to weld and lift — physical manipulation, no inference or generation."
-  waymo-driver: "The full loop: it fuses perception, prediction, planning, and control to recognize, decide, and physically drive a car."
-  figure-02: "The full loop embodied: it perceives, plans, and physically controls a humanoid body to manipulate objects and perform labor."
----
+  lifeline-pers: "Inference stripped to one bit — it recognizes a deliberate press (later a fall) and relays it to a human, generating and deciding nothing of its own."
+  microsoft-seeing-ai: "Pure recognition, ai:core: vision identifies text, faces, products, and scenes and narrates them — it tells you what is there but changes nothing in the world."
+  dragon-naturallyspeaking: "Recognition only: an HMM speech engine maps a stream of sound onto text, deciding nothing and actuating nothing — the cleanest case of inference as the whole product."
+  be-the-beat: "Generation gated by inference: deep models read a dancer's freestyle, then an LLM generates matching music — you converse with it through movement."
+  reactable: "Generation without learning: fiducial vision reads puck arrangements and rule-based synthesis voices them in real time — a generator that runs on no model."
+  june-oven: "Recognize then act: a camera identifies the food, then the oven decides a program and physically drives its heating elements — inference handing off to control."
+  grey-walter-tortoises: "Control with almost no inference: two-tube reflex circuits steer toward light and around touch, lifelike behavior from analog wiring and zero model."
+  unimate: "Control with zero perception — drum-memory playback of joint positions welds and lifts on a GM line, consequential physical work and not a shred of inference."
+  inform: "Control as the point: depth sensing drives a 900-pin array that pushes digital shape into graspable matter, actuation with no learned model anywhere in it."
+  waymo-driver: "The full loop on the road: it fuses perception, prediction, planning, and control to recognize a scene, decide, and physically drive a car through it."
+  physical-intelligence-pi-zero: "The full loop folded into one model — a VLA foundation model perceives, reasons, and emits the motor commands, collapsing recognize/decide/control into a single net."
+  microsoft-kinect: "Inference as the whole job: depth and ML map the room into skeletons and gestures, recognizing bodies and pose while deciding and actuating nothing itself."
+  sperry-autopilot: "Pure control, zero inference — a gyroscope feeds an error signal straight to the flight surfaces, holding a heading by feedback with no perception or model."
+  shakey-robot: "Recognize then decide then act, the textbook sense-plan-act loop — vision builds a world model, a planner reasons over it, and the robot drives the result."
 
-Seen together these projects refuse to collapse into one kind of "AI": the same word covers a Lifeline pendant doing nothing but inferring that a fall happened, Seeing AI recognizing a scene and reading it aloud, an Echo generating language and calling tools, Be the Beat and the reacTable generating music from gesture and tangible tokens, a Nest thermostat predicting-then-actuating, a Roomba mapping-then-driving, inFORM pushing pixels up into physical shape, and a Unimate arm that only ever controls a weld — pure manipulation with no perception at all. The interaction you have flips entirely with that verb: you trust a recognizer, converse with a generator, and delegate to a controller. The cleanest split is along the AI-embedded axis — Seeing AI is ai:core inference and the Echo is generative language, while the projects doing the most consequential physical acting (Unimate, the original Roomba, inFORM) carry little or no learned intelligence at all, and Waymo and Figure 02 are the rare cases that fuse perception, prediction, planning, and control into a single loop.
+The verb decides the relationship. You trust a recognizer to report truly — Lifeline relays a fall, Seeing AI and Dragon turn world into words and decide nothing. You converse with a generator — Be the Beat answers a dancer's movement with music, the reacTable voices an arrangement of pucks. And you delegate to a controller — the June oven cooks, Waymo drives, inFORM pushes pixels into graspable shape. The split that cuts hardest is the AI-embedded one: the projects doing the most consequential physical work carry the least intelligence — Unimate welds from drum memory with no perception, the Grey Walter tortoises steer on two vacuum tubes, inFORM actuates with no learned model — while only Waymo and π0 fold recognize, decide, and control into a single loop.

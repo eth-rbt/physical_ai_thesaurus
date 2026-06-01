@@ -3,7 +3,7 @@ category: Genealogy
 subcategory: Home Assistants
 title: Home Assistants
 card_question: How did the home assistant evolve from a speaker into a connected platform?
-one_line_summary: The lineage of the household assistant — from voice-only speakers to screens, and the platforms and open standards that wire every device together behind them.
+one_line_summary: The lineage in which the household assistant dissolves — from a faceless speaker on the counter into the invisible plumbing that wires every device together.
 status: draft
 summary:
   label: Forms & footholds
@@ -14,29 +14,33 @@ display:
 project_ids:
   - x10-home-automation
   - nabaztag
-  - apple-siri
-  - nest-learning-thermostat
-  - samsung-smartthings
-  - home-assistant
+  - general-magic-telescript
   - amazon-echo-alexa
-  - google-assistant
   - amazon-echo-show
   - apple-homepod
-  - google-nest-hub
+  - apple-siri
+  - google-assistant
+  - samsung-smartthings
+  - home-assistant
   - matter-smart-home
+  - google-nest-hub
+  - ifttt
+  - amazon-astro
 project_notes:
-  x10-home-automation: "The first general-purpose home automation protocol: powerline signaling that let a command console switch lights and appliances in any room, originating in Scotland in 1975 and reaching RadioShack shelves in 1978."
-  nabaztag: "The ancestor: a 2005 Wi-Fi rabbit that read your email and weather aloud — a connected household object years before the Echo gave the idea a faceless body."
-  apple-siri: "Apple's cross-device assistant layer — the same voice on phone, watch, and HomePod, now stitched to Shortcuts to drive the home."
-  nest-learning-thermostat: "The first consumer smart thermostat that learned a household's schedule and programmed itself — a landmark of ambient domestic AI that quietly perceives occupancy and acts without requiring explicit commands."
-  samsung-smartthings: "A platform, not a device: hubs and apps that tie lights, locks, and sensors from many brands into one automated home."
-  home-assistant: "The open-source, local-first platform — unifies a thousand device brands and runs its own private voice assistant without the cloud."
-  amazon-echo-alexa: "The founding device — a faceless, always-listening speaker that put a voice assistant in the room and defined the whole category in 2014."
-  google-assistant: "The disembodied brain behind the hardware — one assistant that follows you across phones, speakers, displays, watches, and cars."
-  amazon-echo-show: "The Echo with a face: a touchscreen, camera, and video calls turn the voice speaker into a visual home hub."
-  apple-homepod: "Apple's screenless take on the speaker — Siri in a fixed, room-tuned body that stays socially low-key while anchoring the home."
-  google-nest-hub: "Where the speaker grew a screen: a countertop touch display that answers by voice and shows the answer too."
-  matter-smart-home: "The connecting standard: a shared, open language so devices from rival brands commission and respond on one network."
+  x10-home-automation: "The 1975 wiring, decades early: powerline codes that switched any lamp from a console — the actuation layer every later assistant would eventually ride."
+  nabaztag: "One ancestry, the connected object — a 2005 Wi-Fi rabbit reading email and weather aloud, a household assistant with a body before the Echo decided faces were optional."
+  general-magic-telescript: "The other ancestry, disembodied — a 1990s agent dispatched across the network to book and fetch on your behalf, the assistant as roaming code with no speaker to live in."
+  amazon-echo-alexa: "Where the two fused in 2014: an always-listening cylinder that stripped away the face entirely and made a faceless speaker the category's default body."
+  amazon-echo-show: "The speaker grows a face back — a touchscreen, camera, and motorized swivel that watches the room, the visual fork of the same Alexa."
+  apple-homepod: "The screenless fork — Siri in a fixed, room-tuned cylinder that stays socially low-key, anchoring the home by sound rather than sight."
+  apple-siri: "The intelligence detaching from any one body: the same assistant on phone, watch, and HomePod, wired through Shortcuts to fire physical routines."
+  google-assistant: "The fully disembodied layer — one assistant threaded across phones, Nest speakers, displays, watches, and cars, living in no single object."
+  samsung-smartthings: "Past product into plumbing: hubs and rules that tie many brands' lights, locks, and sensors into one home that acts on its own."
+  home-assistant: "The local-first answer — open-source software unifying a thousand device brands and running its own voice assistant with no audio leaving the house."
+  matter-smart-home: "The connective tissue itself: a shared open standard so rival ecosystems' devices commission and respond on one fabric, the assistant reduced to substrate."
+  google-nest-hub: "Google's screen-bearing body, the Echo Show's rival: Assistant gets a fixed touchscreen face on the counter to show as well as speak."
+  ifttt: "The plumbing before the platforms: simple if-this-then-that rules wiring one brand's trigger to another's action, the assistant as cross-service glue."
+  amazon-astro: "The faceless speaker grows wheels — Alexa on a roving base that patrols the home, the home assistant turning back into a moving body."
 ---
 
-The household assistant began as a single connected object — Nabaztag's email-reading rabbit in 2005 — before the Echo stripped away the face in 2014 and made a faceless, always-listening speaker the default body. From there it forked two ways: the speaker grew a screen (HomePod stayed screenless, the Echo Show and Nest Hub added touch displays and cameras), while the intelligence detached from any one device into assistant layers like Google Assistant and Siri that follow you across phones, watches, and cars. The endpoint is plumbing rather than product: platforms like SmartThings and the open-source Home Assistant, and the Matter standard, that let rival brands' devices commission and respond on one shared network — the assistant dissolving from a thing on the counter into the connective tissue of the home.
+The household assistant has two ancestries: connected objects like Nabaztag's 2005 email-reading rabbit, and disembodied software agents like General Magic's Telescript, dispatched to fetch and transact for you with no speaker to live in. The Echo fused them in 2014, stripping away the face to make a faceless, always-listening speaker the default body. From there it forked — the Echo Show grew a screen and camera while the HomePod stayed screenless, and the intelligence peeled off into cross-device layers like Siri and Google Assistant that follow you across phones, watches, and cars. The endpoint is the least AI-laden of all: the plumbing. X10's 1975 powerline codes, SmartThings' rules, the open-source Home Assistant, and the Matter standard carry little or no learning, yet they are where the assistant finally lands — dissolved from a thing on the counter into the connective tissue rival brands all speak through.

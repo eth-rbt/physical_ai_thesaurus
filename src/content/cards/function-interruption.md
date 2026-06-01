@@ -3,36 +3,36 @@ category: Function
 subcategory: Interruption / Attention Demand
 title: Interruption & Attention Demand
 card_question: How does the AI claim your attention — silently, an ambient cue, or a spoken interruption?
-one_line_summary: How physical AI claims attention — from calm ambient cues designed to barely register, to wrist haptics and chimes, to spoken bids and emergency alarms that cut through everything.
+one_line_summary: How a machine decides to break in — from cues built to barely register, to a private channel tapped into the skin, to AI that picks its own moment to interrupt.
 status: draft
 display:
   mode: grid
 project_ids:
-  - little-signals
-  - ambient-orb
-  - dangling-string
   - pinwheels
-  - apple-watch
+  - dangling-string
+  - ambient-orb
+  - little-signals
+  - tacttoo
+  - tamagotchi
   - google-now
-  - ring-doorbell
-  - amazon-echo-alexa
-  - irobot-roomba
-  - jibo
   - elliq
   - lifeline-pers
+  - ambientroom
+  - nabaztag
+  - amazon-echo-alexa
 project_notes:
-  little-signals: "Designed so a notification stays peripheral until you choose to look — air, taps, and shadows that barely register rather than demand attention."
-  ambient-orb: "Claims attention only as a slow color shift in the corner of the room, never a chime or alert — pure ambient cue."
-  dangling-string: "The calmest bid possible: a whirling string and faint hum that you sense at the edge of awareness instead of being interrupted by."
-  pinwheels: "Lowest-initiative interrupter here — spins data into background movement and sound meant to be felt peripherally, never to break focus."
-  apple-watch: "Escalates to a channel you cannot miss: a haptic tap on the wrist, plus chimes and notifications that quietly nudge the body."
-  google-now: "AI-driven push that decides for itself when to interrupt, surfacing unrequested cards just before you need them — context-timed attention bids."
-  ring-doorbell: "Interrupts by pushing a phone alert the moment motion or a person is detected at the door, demanding you check who's there."
-  amazon-echo-alexa: "Mostly waits for a wake word, but breaks the room's silence with spoken reminders, timers, and alarm chimes when set."
-  irobot-roomba: "Claims attention through utilitarian chirps and error tones — a beep when stuck or done — rather than any spoken or social bid."
-  jibo: "Takes the initiative to speak into the room, using its swiveling body and animated face to make a social, conversational bid for attention."
-  elliq: "The most proactive social interrupter (initiative 5): self-starts spoken conversations, exercise prompts, and reminders rather than waiting to be asked."
-  lifeline-pers: "The loudest extreme: a deliberate pendant press fires an emergency alarm and call routed to a 24/7 responder — an interruption meant to be impossible to ignore."
+  pinwheels: "The quietest bid: network data spun into rows of background rotation and faint sound, meant to be felt peripherally, never to break focus."
+  dangling-string: "Interruption reduced to almost nothing — a whirling string and faint hum you notice at the edge of awareness, not something that stops you."
+  ambient-orb: "Claims you only as a slow color shift across the room; no chime, no alert, a cue you can leave unread at will."
+  little-signals: "Notifications engineered to stay peripheral until you choose to look — air puffs, soft taps, moving shadows that barely register."
+  tacttoo: "Opens a channel you can't miss but no one else can sense: an on-skin tattoo that taps a silent alert into the body."
+  tamagotchi: "Interruption disguised as care — a rule-based creature that beeps and sickens to nag you into tending it, no AI required."
+  google-now: "AI that picks its own moment (ai:core, initiative 5): pushes a card just before you need it, deciding when to break in."
+  elliq: "The most proactive social interrupter (initiative 5) — it starts the conversation, the exercise prompt, the reminder, rather than waiting."
+  lifeline-pers: "The loud extreme by design: a deliberate pendant press fires an alarm to a 24/7 responder, meant to be impossible to ignore."
+  ambientroom: "The canonical calm-tech room: data pushed into light, sound, and airflow at the edge of awareness, designed never to seize foreground attention."
+  nabaztag: "An ambient creature that escalates from glowing ears to wiggles to spoken alerts — interruption that climbs from peripheral cue to demanding voice."
+  amazon-echo-alexa: "The everyday spoken interrupter: timers and alerts break in out loud on its own schedule (timing 5), claiming the room with voice."
 ---
 
-Read together these projects sort into a spectrum of how loudly a machine knocks: at the quiet end sit the calm-technology precursors built to barely register — the Dangling String twitching with network traffic, the Ambient Orb glowing a color, Pinwheels turning at the edge of sight, and Google's Little Signals, whose whole premise is that a notification should stay peripheral until you choose to look. In the middle a device escalates to a channel it knows you will feel: the Apple Watch tapping your wrist, a Roomba chirping an error chime, a Ring alert pushed to your phone. At the loud end the AI takes the initiative and speaks into the room — Alexa's reminders and timers, Jibo's conversational bids, ElliQ proactively starting a chat (initiative:5) — and at the absolute limit Lifeline's pendant fires an emergency alarm that is meant to be impossible to ignore. The split is telling: the gentlest, least interruptive objects here are the older, AI-free ambient pieces, while the proactive interrupters lean on AI to decide when to break in — Google Now's context-driven push is ai:core, and the spoken companions carry language models — so the more intelligence a thing has, the more willing it seems to interrupt you, which is exactly where interruption tips from helpful into socially awkward or exhausting.
+What separates these projects is not loudness but who chooses the moment. The quiet end is all calm-technology precursors that leave the timing to you — Pinwheels turning at the edge of sight, the Dangling String twitching with traffic, the Ambient Orb glowing a color, Little Signals keeping a notification peripheral until you glance over. The middle adds a channel you will physically feel without surrendering control: Tacttoo taps a silent alert into the skin, and a Tamagotchi beeps a creature's plea until you tend it, interruption reframed as care. The shift comes when the machine starts deciding for itself — Google Now surfaces a card on its own read of your context (ai:core, initiative 5), ElliQ opens the conversation unprompted (initiative 5). Tellingly, the gentlest pieces here run no AI, and even Lifeline's loud alarm is a human's deliberate press; it is the AI-driven ones that claim the right to pick the moment — which is exactly where a notification tips from helpful into intrusive.

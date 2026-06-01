@@ -3,7 +3,7 @@ category: Genealogy
 subcategory: Spatial Computing
 title: Spatial Computing
 card_question: "How did computing learn to organize itself around 3D space and the body?"
-one_line_summary: "The lineage of spatial and immersive interfaces \u2014 from a 1960s multisensory arcade and the first head-tracked display to today's passthrough headsets."
+one_line_summary: "Two ways to wrap computing around the body \u2014 strap a tracked display to the head or watch the body in the room \u2014 and an illusion built almost entirely from optics and tracking, not AI."
 status: draft
 display:
   mode: grid
@@ -12,17 +12,27 @@ project_ids:
   - sutherland-sword-of-damocles
   - videoplace
   - vpl-research-eyephone
+  - steve-mann-wearcomp
+  - microsoft-kinect
   - oculus-rift
   - google-glass
   - apple-vision-pro
+  - rayban-meta-smart-glasses
+  - nintendo-wii
+  - steve-mann-wearcam
 project_notes:
-  sensorama: "Morton Heilig's multi-sensory arcade simulator — stereoscopic film, spatial sound, vibration, scent — is the earliest physical prototype of immersive, body-engaged virtual experience before digital computation."
-  sutherland-sword-of-damocles: "The first head-mounted 3D display with real-time head tracking, establishing the core HMD paradigm — stereoscopic display plus positional sensing — that every spatial headset descends from."
-  videoplace: "Myron Krueger's camera-based responsive environment created a shared 'artificial reality' through full-body silhouette interaction without goggles or gloves, pioneering controller-free spatial interaction."
-  vpl-research-eyephone: "Jaron Lanier's VPL commercialized the first consumer VR glove (DataGlove, 1987) and HMD (EyePhone), establishing 'virtual reality' as a term and the glove-plus-headset body interface still referenced today."
-  oculus-rift: "Palmer Luckey's Kickstarter prototype and 2016 consumer launch reignited the VR industry after a decade of dormancy, making low-latency 6-DOF head-tracking affordable and seeding the current headset generation."
-  google-glass: "The first widely-distributed consumer AR monocle brought spatial overlays (navigation, photos, voice search) to everyday eyewear, triggering the first mainstream cultural debate about always-on head-worn cameras."
-  apple-vision-pro: "Apple's first 'spatial computer' — micro-OLED passthrough, eye/hand/voice control, visionOS — is the current state-of-the-art consumer device and the broadest public articulation of spatial computing as a daily-life platform."
+  sensorama: "The deepest root and a pure mechanical illusion: a 1962 cabinet that enclosed the body in stereo film, wind, and scent on pre-recorded tape, no computation at all."
+  sutherland-sword-of-damocles: "The 1968 device that fixed the two commitments every headset still keeps — track the head's position, render perspective-correct for each eye — with zero AI."
+  videoplace: "Founds the other thread: Krueger's camera tracked your whole-body silhouette so the room itself was the interface, no goggles, gloves, or controllers worn."
+  vpl-research-eyephone: "Names the field and sets the rig — VPL's glove-plus-headset coined 'virtual reality' and fixed the canonical body interface, still running no learned model."
+  steve-mann-wearcomp: "The body-worn AR thread in person — Mann's decades of head-mounted rigs computing over his own field of view, the link from VPL's headset to smart glasses."
+  microsoft-kinect: "Videoplace made cheap and mainstream — a $150 depth camera that put markerless full-body 3D tracking in the living room and into every robotics lab."
+  oculus-rift: "The unlock, not the invention: low-latency head tracking made cheap enough to end VR's long dormancy and seed every consumer headset that followed."
+  google-glass: "Pushes the head-worn thread onto everyday eyewear with spatial overlays — and triggers the first public fight over an always-on camera on your face."
+  apple-vision-pro: "The broadest reframing — passthrough plus eye, hand, and voice control pitched not as VR but as a 'spatial computer' for ordinary daily use."
+  rayban-meta-smart-glasses: "Where the head-worn thread actually landed: ordinary-looking eyewear with a camera and on-board AI that people will wear, succeeding where Glass stalled."
+  nintendo-wii: "Videoplace's goggle-free thread hits the mass market — a handheld plus sensor bar tracking your body's motion in the room as the controller itself."
+  steve-mann-wearcam: "The camera-on-the-face thread made political — Mann's body-worn rig pointed outward as 'sousveillance,' previewing the privacy fight Glass later ignited."
 ---
 
-Spatial computing began before digital screens, with Morton Heilig's Sensorama (1962) immersing the body in stereoscopic film, sound, and scent, and crystallized into the modern paradigm with Sutherland's head-tracked Sword of Damocles (1968). The lineage then split between goggle-free responsive environments (Krueger's Videoplace) and the glove-and-headset interface VPL commercialized as 'virtual reality' — dormant for decades until Oculus made low-latency head tracking cheap, Google Glass put overlays on everyday eyewear, and Apple's Vision Pro reframed the whole idea as a 'spatial computer' for daily life.
+Two things stand out across this set. First, it splits cleanly into two ways of binding computing to the body: a head-worn line (Sutherland, VPL, Mann, Glass, Oculus, Vision Pro) that straps a tracked display to your face, and a goggle-free line (Videoplace, Kinect) that watches the body in the room with nothing worn — with Sensorama's enclosing cabinet as the pre-digital root of both. Second, almost none of it runs AI: Sensorama, the Sword of Damocles, Videoplace, and VPL are flagged `none`, and the sense of being inside a space is built from optics, head tracking, and image processing, not intelligence. The threads stayed niche for decades until Oculus made low-latency tracking cheap and Vision Pro rebranded the whole idea as an everyday 'spatial computer.'

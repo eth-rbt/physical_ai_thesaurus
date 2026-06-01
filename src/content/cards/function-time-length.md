@@ -3,38 +3,40 @@ category: Function
 subcategory: Time Length of Interaction
 title: Time Length of Interaction
 card_question: How long does a single interaction last — a glance, a session, or an ongoing relationship?
-one_line_summary: The duration of a single encounter, from a half-second glance or tapped command to extended conversation, day-long background awareness, and years-long co-presence.
+one_line_summary: Each duration is really a different contract — a half-second glance, a one-shot command, a bounded session, hours of unattended background, or a bond meant never to end.
 status: draft
 display:
   mode: grid
 project_ids:
   - apple-watch
-  - philips-hue
-  - amazon-echo-alexa
-  - rayban-meta-smart-glasses
-  - irobot-roomba
-  - nest-learning-thermostat
-  - dangling-string
-  - little-signals
-  - jibo
+  - ambient-orb
+  - rabbit-r1
+  - dragon-naturallyspeaking
+  - oculus-rift
   - moxie
-  - elliq
-  - sony-aibo
+  - husqvarna-automower
+  - dangling-string
+  - tamagotchi
   - lovot
+  - paro
+  - amazon-echo-alexa
+  - waymo-driver
+  - sony-aibo
 project_notes:
-  apple-watch: "Glance register: a sub-second look at the wrist for the time or a haptic tap, closing before any real exchange begins."
-  philips-hue: "Command register: a single tap or 'Alexa, lights off' fires the bulbs and the interaction is over in under a second."
-  amazon-echo-alexa: "Command register: a wake word opens one closed request-and-answer exchange — timer, song, weather — then the room goes quiet again."
-  rayban-meta-smart-glasses: "Command register: a 'Hey Meta, look and...' query is a single hands-free exchange that resolves and ends, even while worn all day."
-  irobot-roomba: "Session register, but unattended: a cleaning cycle runs for an autonomous half-hour in the background with no one engaged with it."
-  nest-learning-thermostat: "Persistent background register: continuous occupancy sensing and self-programming run for years with no one ever 'interacting' at all."
-  dangling-string: "Persistent co-presence register: an AI-free string twitches at the edge of hallway attention indefinitely, asking nothing and never logging off."
-  little-signals: "Persistent co-presence register: ambient objects puff, tap, and cast shadows continuously at the periphery rather than in any discrete session."
-  jibo: "Session register: holds an extended back-and-forth conversation — a story, a photo, a greeting by name — as a bounded social encounter."
-  moxie: "Session register: a roughly 20-minute Daily Mission is a sustained guided conversation with a clear start and end each day."
-  elliq: "Long-term relationship register: proactively initiates dozens of check-ins a day over years, designed never to end the companionship."
-  sony-aibo: "Long-term relationship register: a creature you raise and teach tricks over years, bonded enough that owners hold funerals when it dies."
-  lovot: "Long-term relationship register: a warm body that follows you for years, learns your mealtimes, and exists only to be a permanent companion."
+  apple-watch: "The glance contract: a sub-second look at the wrist or a haptic tap that closes before any exchange has really opened."
+  ambient-orb: "Glance, and no AI to do it — a color shift you read in a quarter-second from across the room before attention moves on."
+  rabbit-r1: "The one-shot command: hold the button, get a single spoken answer, and the handheld goes idle — a closed transaction, not a thread."
+  dragon-naturallyspeaking: "The command contract circa 1997 — dictate a sentence, speak a keystroke, each turn resolved and done, no conversation persisting."
+  oculus-rift: "The bounded session: the headset goes on for one intense sitting and comes off when fatigue, not dialogue, decides it's over."
+  moxie: "A scheduled session — the ~20-minute Daily Mission has a clear start and stop, a guided conversation that resumes fresh tomorrow."
+  husqvarna-automower: "Hours of clock time, zero social presence: it mows the yard unattended, the longest 'interaction' here and the least felt."
+  dangling-string: "Pure co-presence — an AI-free string twitches at the edge of hallway attention indefinitely, asking nothing and never logging off."
+  tamagotchi: "A relationship measured in weeks of small recurring care; skip the feedings and the bond, and the creature, simply ends."
+  lovot: "A bond meant never to close — a warm body that learns your mealtimes and follows you for years, its whole purpose to stay."
+  paro: "Familiarity built across months of care visits, accruing through repeated stroking rather than any one bounded session."
+  amazon-echo-alexa: "The canonical one-shot command — 'Alexa, set a timer' resolves in a single spoken turn, then the room goes quiet again."
+  waymo-driver: "The bounded trip: you get in, it drives, you get out — an interaction whose length is exactly one ride, start to destination."
+  sony-aibo: "The far relationship end — a robot dog raised over years, mourned when discontinued, a bond clocked in seasons not sessions."
 ---
 
-Read across its full span, this set shows that interaction time is less a dial than a set of distinct social contracts: the Apple Watch glance and a Philips Hue tap close in under a second, an Alexa command or a Ray-Ban "hey, what am I looking at" is a single closed exchange, and a Roomba cycle or a Nest's continuous thermostat learning runs in the background with no one engaged at all — none of these stay socially present once they finish. The far end is where embedded AI concentrates and changes the terms: Jibo and Moxie hold extended conversations, and ElliQ, aibo, and LOVOT (all ai:unknown to envisioned, the most affectively expressive in the set) are designed never to end the interaction, persisting as companions you live with for years rather than tools you invoke. Between those poles sit the ambient precursors — the AI-free Dangling String twitching with network traffic and Google's Little Signals — which prove the longest interaction can also be the lightest: a persistent co-presence at the edge of attention that asks for nothing and never logs off.
+Lined up, this set shows that interaction time is less a dial than a set of distinct contracts. A glance closes almost instantly — an Apple Watch wrist-check, an Ambient Orb color you read in a quarter-second — while a Rabbit R1 query or a dictated Dragon command is a single closed transaction. Bounded sessions come next: an Oculus Rift sitting ends with fatigue, Moxie's Daily Mission with a fixed twenty minutes. The revealing twist is that clock time and engagement come apart entirely — a Husqvarna Automower runs for hours with no one socially present, and the AI-free Dangling String twitches at the edge of attention indefinitely, so the longest interactions here are also the lightest. Only at the far end does duration become relationship: a Tamagotchi raised over weeks, PARO familiar across months, a LOVOT meant to stay for years.

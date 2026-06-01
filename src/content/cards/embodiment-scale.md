@@ -3,7 +3,7 @@ category: Embodiment
 subcategory: Scale of Object
 title: Scale of Object
 card_question: How big is the AI artifact, from jewelry to a whole room?
-one_line_summary: How physical size reshapes intimacy and expectation, from a ring on a finger to a car or a whole responsive room.
+one_line_summary: "Size rewrites the social contract: the smallest things disappear against skin and into walls, the largest demand to be met as bodies and infrastructure."
 status: draft
 display:
   mode: axis-1d
@@ -13,30 +13,34 @@ display:
     direction: asc
 project_ids:
   - skinmarks
+  - smart-dust-uc-berkeley
   - oura-ring
-  - apple-watch
-  - humane-ai-pin
   - rabbit-r1
-  - jibo
+  - zooids
   - lovot
-  - irobot-roomba
-  - amazon-astro
+  - willow-garage-pr2
+  - transform-shape-display
   - tesla-optimus
   - waymo-driver
   - ambientroom
+  - apple-watch
+  - amazon-echo-alexa
+  - figure-02
 project_notes:
-  skinmarks: "Jewelry-scale at the limit: rub-on tattoo circuitry sits on a single knuckle or tendon, smaller than any worn object."
-  oura-ring: "A literal ring on a finger, the device shrinks all its sensing to jewelry size so it disappears against the body."
-  apple-watch: "Wrist-scale wearable that crosses the threshold where a body-worn object grows big enough to host a screen and talk back."
-  humane-ai-pin: "Pin-sized and chest-clipped, it keeps a wearable footprint while packing a camera and laser projector into a brooch."
-  rabbit-r1: "Palm-held and pocketable, it nudges up from worn to carried — a handheld object you grip rather than wear."
-  jibo: "Tabletop-scale: a swiveling countertop body too big to carry but small enough to share a desk, sitting between handheld and floor."
-  lovot: "Lap-sized rolling pet, scaled to be picked up and held, occupying the middle ground between handheld gadget and floor robot."
-  irobot-roomba: "Floor-scale disc that roams underfoot — wide enough to claim room territory yet low and small enough to vanish under furniture."
-  amazon-astro: "Knee-high mobile body, clearly bigger than a vacuum, scaled up toward a presence that shares the room as a housemate."
-  tesla-optimus: "Human-scale at roughly 5'8\", the artifact reaches body size and demands to be met as a social actor, not handled."
-  waymo-driver: "Vehicle-scale: a whole car you ride inside, the largest mobile body here, sized as infrastructure you trust with your safety."
-  ambientroom: "Room-scale at the far extreme — not an object at all but motorized light, sound, and airflow filling the entire enclosure."
+  smart-dust-uc-berkeley: "Smallest point on the axis: a 1990s aim for complete sensors in one cubic millimeter, scattered to disappear as dust."
+  skinmarks: "Sub-jewelry: rub-on tattoo circuitry conformed to a single knuckle or tendon, sized to laminate onto the body unseen."
+  oura-ring: "Jewelry proper — a titanium band that hides a full sensor suite at finger size, vanishing as ordinary worn metal."
+  rabbit-r1: "The worn-to-carried threshold: palm-sized and pocketable, an object you grip in a hand rather than wear."
+  zooids: "Tabletop swarm: each robot is coin-sized, but the fleet claims desk territory together as a single moving display."
+  lovot: "Lap-scale companion built to be lifted and held, sitting between a handheld gadget and a floor-roaming robot."
+  willow-garage-pr2: "Torso-on-a-base: a two-armed research body sized to reach human worktops, well past any tabletop machine."
+  transform-shape-display: "Furniture-scale: a bench-length field of a thousand motorized pins you stand beside, not an object you pick up."
+  tesla-optimus: "Human-scale at body size: the humanoid frame asks to be met as a social actor, not picked up or handled."
+  waymo-driver: "Vehicle-scale and the largest mobile body here: a whole car you sit inside and trust with your life."
+  ambientroom: "Room-scale far extreme: not an object but the enclosure itself, signaling through light, sound, airflow, and rippling water."
+  apple-watch: "Wrist-scale wearable: a screen-and-sensor slab strapped to the body, slightly larger than ring or tattoo yet still worn rather than carried."
+  amazon-echo-alexa: "Countertop-object scale: a hand-tall cylinder you set down and leave, the canonical domestic appliance between handheld gadget and furniture."
+  figure-02: "Human-scale alongside Optimus: a full bipedal humanoid frame you meet at body height, not an object you pick up or set on a surface."
 ---
 
-Laid out by size, the set shows how scale rewrites the relationship: at the jewelry end SkinMarks rub-on circuitry and the silent Oura Ring read the body without ever announcing themselves, while the Apple Watch and the chest-worn Humane AI Pin sit at the threshold where a wearable starts to talk back. Through the handheld Rabbit R1, the tabletop Jibo, the palm-sized LOVOT pet, and the floor-roaming Roomba and knee-high Astro, the artifact graduates from tool to companion to housemate — and the AI-embedded lens cuts across that span unevenly, since the tiny on-skin and ambient pieces (SkinMarks, ambientROOM) carry essentially no onboard intelligence while the large social and mobile bodies (Astro, a human-scale Tesla Optimus, a whole Waymo car) are precisely where envisioned or core AI concentrates. The biggest surprise is the two extremes meeting in ambition: a fingernail of conformal circuitry and a room full of motorized ambient fixtures both aim to disappear into the environment, where the human-scale Optimus and the vehicle-scale Waymo instead demand to be treated as social actors and infrastructure you must trust with your safety.
+Laid out by size, the strangest thing is that the two extremes share an ambition. Smart Dust's cubic-millimeter motes and ambientROOM's whole enclosure of light and rippling water both aim to vanish — one too small to see, the other too large to be an object — while everything between them grows steadily harder to ignore: the finger-hidden Oura Ring, the pocketed Rabbit R1, the desk-claiming Zooids swarm, the lap-held LOVOT, then PR2 and TRANSFORM crossing into furniture you stand beside. At the far end Optimus and a Waymo car stop being things you handle and start being a body you must acknowledge and infrastructure you trust with your life. The AI tracks that arc: the tiny on-skin, mote, and ambient pieces run essentially no onboard model, while the heaviest intelligence — Optimus's vision-language-action stack, Waymo's driving system — rides in the largest frames.

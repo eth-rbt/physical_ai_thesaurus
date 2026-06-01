@@ -3,7 +3,7 @@ category: Embodiment
 subcategory: Modalities of Expression
 title: Modalities of Expression
 card_question: How does the system show what it's feeling or doing — and does it read as a social being?
-one_line_summary: The channels a system uses to express itself — light, sound, motion, face, voice — and whether those signals add up to a presence you treat as a social actor.
+one_line_summary: The channels a system expresses through — light, motion, face, voice — and the surprise that loud expression and reading-as-a-social-being are two different axes that come apart.
 status: draft
 summary:
   label: Forms behind the expression
@@ -21,36 +21,36 @@ display:
     direction: asc
 project_ids:
   - disney-audio-animatronics-lincoln
-  - dangling-string
-  - kismet
   - ambient-orb
-  - paro
-  - philips-hue
-  - furhat
+  - dangling-string
   - transform-shape-display
-  - jibo
-  - sony-aibo
-  - lovot
-  - anki-vector
+  - lumen-shape-display
+  - nabaztag
+  - kismet
+  - furhat
   - moxie
-  - little-signals
+  - sony-aibo
+  - paro
   - stochastic-parrot
+  - jibo
+  - softbank-pepper
+  - lovot
 project_notes:
-  disney-audio-animatronics-lincoln: "The first publicly exhibited life-sized humanoid figure whose face, lips, and limbs were synchronized to recorded speech — the origin point of expressive mechanical performance and the lineage all later emotive robots descend from."
-  dangling-string: "A motor spins a hanging string faster as network traffic rises — expression as raw movement, no model behind it."
-  kismet: "Eyebrows, ears, eyelids, and lips move into readable emotions — the original face built purely to be social."
-  ambient-orb: "A frosted globe shifts color to convey a single trend — light alone, glanceable, never mistaken for a being."
-  paro: "A furry seal that blinks, cries, and nuzzles to touch — affect through fur, sound, and motion alone."
-  philips-hue: "Pure light: color and brightness convey mood or alerts, but the bulb is an appliance, not a being."
-  furhat: "A projected, swappable human face with eyes, gaze, and speech — engineered to be read as a social actor."
-  transform-shape-display: "A bank of motorized pins ripples and reaches in pure kinetic motion — expressive surface, no face, no AI."
-  jibo: "Swivels its whole one-eyed body to face and address you — a countertop creature that performs presence."
-  sony-aibo: "Expresses through doglike motion, ear and tail posture, and glowing eyes — a pet you read like a pet."
-  lovot: "Big eyes, wheeled nuzzling, and warm body exist only to be held and loved, not to do tasks."
-  anki-vector: "Animated eyes, chirps, and head turns give a desk robot a reactive, characterful presence."
-  moxie: "An animated face and warm voice hold eye contact and coach kids through real social-emotional exchange."
-  little-signals: "Ambient objects that signal through air, taps, shadow, and sound — legible cues without ever posing as a creature."
-  stochastic-parrot: "A fuzzy shoulder parrot that interjects in voice with opinions — expressive presence on its own terms."
+  disney-audio-animatronics-lincoln: "Face, lips, and limbs synced to recorded speech — read as a figure, the origin of emotive machines."
+  ambient-orb: "Bottom-left anchor: one shifting color signals a trend, glanceable, never mistaken for a being."
+  dangling-string: "Low-left: a string whirls with network load — raw expressive motion, nothing behind it that wants to be social."
+  transform-shape-display: "High expression, low legibility: pins ripple and reach in pure kinetic motion, no face, no creature."
+  lumen-shape-display: "Right but low: glowing pins bloom to convey affect — an expressive surface that stays an object."
+  nabaztag: "Mid-mid bridge: a rabbit wiggles its ears and glows — a lamp drifting toward creature."
+  kismet: "Top-right: eyebrows, ears, and lips form readable emotions — the original face built only to be read as social."
+  furhat: "Top-right: a projected human face with gaze and speech — about as expressive and socially legible as it gets."
+  moxie: "Top-right: animated face and warm voice hold eye contact, coaching kids through real social exchange."
+  sony-aibo: "Upper band: doglike motion, ear and tail posture, glowing eyes — read unmistakably as a pet."
+  paro: "Upper-mid: a furry seal blinks, cries, and nuzzles — modest expression, unmistakably a creature."
+  stochastic-parrot: "Upper band: a shoulder parrot interjects with unsolicited opinions — a presence on its own social terms."
+  jibo: "Top-right: its whole body swivels, leans, and dances toward you — motion is its expressive channel, read as a social being."
+  softbank-pepper: "Top-right: arms, gaze, and a chest tablet animate emotion; built to read your mood and emote back."
+  lovot: "Upper band: warm, wheeled creature with animated eyes and needy nuzzling — modest channels, unmistakably read as alive."
 ---
 
-Expression here splits along a line the AI-embedded lens makes visible: the systems that read as social actors — Kismet, Furhat, Moxie, the creature-robots Aibo, LOVOT, PARO and Vector — almost all run perception or language models to time a glance, a nuzzle, or a reply to you, while the most purely expressive non-creatures run no AI at all. TRANSFORM ripples a field of pins, Dangling String spins with network load, and Ambient Orb and Hue simply change color — vivid, legible output with nothing behind it that wants to be a being. The two axes come apart: a smart bulb can be moderately expressive yet read as an appliance, and a furry seal can be modestly expressive yet unmistakably a social presence, because legibility comes from creaturely form and contingent timing, not from how loud the signal is.
+The AI-embedded lens makes the split visible: the systems that read as social actors — Kismet, Furhat, Moxie, and the creature-robots aibo and PARO — almost all run perception or language models to time a glance, a nuzzle, or a reply to you, while the most purely expressive non-creatures run no AI at all. TRANSFORM ripples a field of pins, Lumen blooms soft glowing ones, Dangling String spins with network load, Ambient Orb simply changes color — vivid, legible output with nothing behind it that wants to be a being. So the two axes come apart, which is the whole point of plotting them separately: a shape display can be loudly expressive yet read as an object, while PARO's furry seal is only modestly expressive yet unmistakably a creature — and Disney's Lincoln got there in 1964 with pure tape and pneumatics, proving that legibility comes from creaturely form and contingent timing, not from how much intelligence or how loud a signal sits behind the face.

@@ -70,6 +70,63 @@ a:hover { text-decoration: underline; }
 .gallery-empty { color: var(--muted); padding: 2rem 0; }
 .gallery-cell.hidden { display: none; }
 
+/* --- trends feed --- */
+.trend-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1rem; margin-top: 1.75rem; }
+.trend-card {
+  display: block; background: var(--panel); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 1.1rem 1.2rem 1.2rem; color: var(--text);
+  border-left: 3px solid var(--border); transition: border-color 0.12s ease, transform 0.12s ease;
+}
+.trend-card:hover { border-color: var(--accent); transform: translateY(-2px); text-decoration: none; }
+.trend-card.horizon-now { border-left-color: #7ce0a3; }
+.trend-card.horizon-next { border-left-color: var(--accent); }
+.trend-card.horizon-emerging { border-left-color: #ffcf7c; }
+.trend-badges { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin-bottom: 0.6rem; }
+.trend-badges .hz, .trend-badges .kind, .trend-badges .updated {
+  font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.05em;
+  border: 1px solid var(--border); border-radius: 999px; padding: 0.12rem 0.5rem; color: var(--muted);
+}
+.trend-badges .hz-now { color: #7ce0a3; border-color: #2f5a43; }
+.trend-badges .hz-next { color: var(--accent); border-color: #3a4470; }
+.trend-badges .hz-emerging { color: #ffcf7c; border-color: #5a4a2f; }
+.trend-badges .updated { border-color: transparent; margin-left: auto; }
+.trend-title { font-weight: 700; font-size: 1.05rem; letter-spacing: -0.01em; }
+.trend-summary { color: var(--muted); font-size: 0.9rem; line-height: 1.5; margin: 0.45rem 0 0.75rem; }
+.trend-foot { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+/* trend detail: reuse .card-prose / .question; just space the badges + sources */
+.card-prose .trend-badges { margin-bottom: 1rem; }
+.trend-sources { margin-top: 1.9rem; padding-top: 1.3rem; border-top: 1px solid var(--border); }
+.trend-sources h2 { font-size: 1.1rem; margin: 0 0 0.8rem; }
+
+/* trend detail structured sections */
+.trend-section { margin-top: 1.9rem; }
+.trend-section h2 { font-size: 1.1rem; margin: 0 0 0.7rem; }
+.use-cases { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.55rem; }
+.use-cases li { padding-left: 0.9rem; position: relative; line-height: 1.5; }
+.use-cases li::before { content: "▸"; position: absolute; left: 0; color: var(--accent); }
+.use-cases .uc-title { font-weight: 650; }
+.use-cases .uc-desc { color: var(--muted); }
+.aud-customers { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.9rem; }
+.personas { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.6rem; }
+.personas li { line-height: 1.5; }
+.personas .persona-name { font-weight: 650; }
+.personas .persona-desc { color: var(--muted); }
+
+/* --- growth plot --- */
+.growth { margin: 1.4rem 0 0.4rem; }
+.growth-label { font-size: 0.82rem; font-weight: 650; color: var(--text); margin-bottom: 0.2rem; }
+.growth-label .growth-unit { color: var(--muted); font-weight: 400; }
+.growth svg { width: 100%; height: auto; display: block; overflow: visible; }
+.growth .g-axis { stroke: var(--border); stroke-width: 1; }
+.growth .g-line { stroke: var(--accent); stroke-width: 2.5; fill: none; stroke-linecap: round; }
+.growth .g-line.g-proj { stroke-dasharray: 5 5; opacity: 0.8; }
+.growth .g-dot { fill: var(--accent); stroke: var(--bg); stroke-width: 2; }
+.growth .g-dot.g-proj { fill: var(--panel); stroke: var(--accent); }
+.growth .g-val { fill: var(--text); font-size: 12px; font-weight: 650; font-variant-numeric: tabular-nums; }
+.growth .g-yr { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.growth-caption { font-size: 0.76rem; margin: 0.4rem 0 0; }
+.growth-caption .g-key { opacity: 0.7; }
+
 h1, h2, h3 { line-height: 1.25; }
 .muted { color: var(--muted); }
 .chip {

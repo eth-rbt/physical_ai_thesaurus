@@ -3,34 +3,36 @@ category: Embodiment
 subcategory: Sensor Types
 title: Sensor Types
 card_question: What physical sensing hardware lets the AI perceive daily life?
-one_line_summary: The physical sensing channels — cameras, mics, IMUs, physiological, depth, radar, environmental — that let AI perceive daily life, and what each reveals or misses.
+one_line_summary: Perception is a stack of narrow physical channels — camera, depth, radar, physiology, location, embedded motes — each with a structural blind spot, and what differs most is who infers behind it.
 status: draft
 display:
   mode: grid
 project_ids:
-  - rayban-meta-smart-glasses
-  - apple-watch
-  - oura-ring
   - nest-cam
-  - ring-doorbell
-  - nest-learning-thermostat
-  - irobot-roomba
+  - oura-ring
   - microsoft-kinect
   - google-soli
+  - microsoft-sensecam
+  - active-badge-location-system
+  - smart-dust-uc-berkeley
   - mediacup
   - smart-its
+  - apple-watch
+  - nintendo-wii
+  - skinput
 project_notes:
-  rayban-meta-smart-glasses: "Cameras and microphones riding on the face, capturing exactly what the wearer sees and hears — and, controversially, everyone around them."
-  apple-watch: "A wrist-bound sensor bundle: optical heart-rate, accelerometer and gyroscope for motion and fall detection, plus environmental sensors, all on the skin all day."
-  oura-ring: "Physiological sensing condensed into a ring — temperature, motion, and pulse read from the finger to infer sleep and recovery, invisibly."
-  nest-cam: "The home camera proper — vision, audio, and motion streamed indoors, the richest and most intrusive channel in the house."
-  ring-doorbell: "Camera, microphone, and motion sensor bolted to the threshold, watching the perimeter and the people who approach it."
-  nest-learning-thermostat: "Occupancy sensing as a side effect of climate control — a PIR motion sensor and environmental readings infer whether anyone is home."
-  irobot-roomba: "A roving sensor platform: camera, bump and cliff sensors, and environmental sensing that incidentally map the floorplan of the home."
-  microsoft-kinect: "The breakthrough consumer depth sensor — structured-light then time-of-flight 3D, turning a living room into a tracked skeleton."
-  google-soli: "Miniature mmWave radar that senses presence and micro-gestures without a camera — perception without an image, sidestepping some privacy tension."
-  mediacup: "A 1999 coffee cup with embedded temperature and motion sensors — an early bet that everyday objects could quietly report their own state."
-  smart-its: "Postage-stamp sensor boards meant to be stuck onto ordinary objects, pioneering distributed motion and environmental telemetry before the smart home existed."
+  nest-cam: "The camera channel at full richness: vision, audio, and motion streamed indoors, with proprietary face and scene inference behind the lens."
+  oura-ring: "Physiology off the skin — optical pulse, temperature, and motion read from a finger, blind to the room but reading the body."
+  microsoft-kinect: "Depth as a consumer sensor: infrared structured-light reconstructs a 3D skeleton from one fixed vantage, the breakthrough that cheapened depth perception."
+  google-soli: "Radar that deliberately gives up the image — 60GHz mmWave reads presence and micro-gesture without ever forming a picture."
+  microsoft-sensecam: "Sensing decides when to shoot: a neck-worn camera firing on light, heat, and motion shifts, not on command."
+  active-badge-location-system: "The pure location channel — infrared badges pulse IDs to ceiling receivers so the building knows who's where, no camera."
+  smart-dust-uc-berkeley: "Sensing pushed toward the invisible: a 1990s aim to bundle light, motion, and environmental sensors into scatterable cubic-millimeter motes."
+  mediacup: "An everyday coffee cup with temperature and motion sensors inside — a 1999 bet that ordinary objects could report their own state."
+  smart-its: "Postage-stamp sensor boards stuck onto any object, distributing motion and environmental telemetry across things before the smart home existed."
+  apple-watch: "A multi-sensor suite on the wrist: optical heart rate, accelerometer, gyroscope, and barometer fused on-body, with trained models inferring activity and falls."
+  nintendo-wii: "The device that mainstreamed inertial sensing — accelerometers plus an infrared pointer turning arm motion into the input channel itself."
+  skinput: "Bio-acoustic sensing: turns the skin into a touch surface by reading the acoustic signatures a tap sends through bone and tissue."
 ---
 
-Laid side by side, these eleven reveal that "perception" is really a stack of narrow physical channels, each with a blind spot: the Ray-Ban Meta glasses and Nest Cam capture rich vision and audio but only where they point; the Apple Watch and Oura Ring read physiology off the skin yet see nothing of the room; the Nest thermostat infers occupancy from a crude motion blip; and Project Soli senses presence and micro-gesture through radar with no image at all — perception that deliberately gives up detail to dodge the camera's privacy cost. The deepest split is in who does the inferring: MediaCup and Smart-Its (ai:none) simply embedded sensors in objects and streamed raw state, the Kinect and Soli are research-grade sensing decoupled from any one model, while today's Watch, Ring, Roomba and Oura (ai:unknown) fold proprietary inference directly behind the sensor — so the same accelerometer trace becomes a fall alert, a sleep score, or a floorplan depending on whose model is listening.
+Side by side, these nine show "perception" as a stack of narrow channels, each defined as much by what it refuses as by what it catches. The Nest Cam grabs rich vision and audio but only where it points; the Oura Ring reads physiology off a finger yet sees nothing of the room; Kinect pulls a 3D skeleton from one fixed vantage; and Soli gives up the image entirely, sensing presence and micro-gesture through radar to dodge the camera's privacy cost. Two channels rarely shown together round it out: the Active Badge fixes people by infrared ID with no picture, and Smart Dust pushes the same idea toward invisibility with scatterable motes. The sharper split, though, is who infers behind the sensor: MediaCup, Smart-Its, the Active Badge, and Smart Dust just stream raw state with no AI at all; SenseCam lets a crude light-and-motion trigger decide when to fire; and Nest Cam, Oura, Kinect, and Soli fold a trained model right behind the hardware — so one accelerometer trace becomes a capture cue, a sleep score, or a gesture depending on whose model is listening.

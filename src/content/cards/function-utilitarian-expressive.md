@@ -3,7 +3,7 @@ category: Function
 subcategory: Utilitarian vs Expressive
 title: Utilitarian vs Expressive
 card_question: Is the value task efficiency, or emotional, aesthetic, and symbolic meaning?
-one_line_summary: Why a system earns its place at home — from doing a chore well to feeling cute, calming, or socially alive.
+one_line_summary: What a system is for — from getting a chore done and asking to be felt by no one, to existing only to be held, soothed by, or loved.
 status: draft
 display:
   mode: axis-1d
@@ -12,33 +12,35 @@ display:
     label: Purely utilitarian → affective / expressive
     direction: asc
 project_ids:
-  - irobot-roomba
-  - nest-learning-thermostat
-  - amazon-echo-alexa
-  - philips-hue
+  - cochrane-dishwasher
+  - husqvarna-automower
   - ambient-orb
   - tamagotchi
+  - little-signals
+  - nabaztag
   - be-the-beat
   - paro
   - moflin
   - sony-aibo
   - lovot
+  - irobot-roomba
   - jibo
-  - moxie
+  - kismet
 project_notes:
-  irobot-roomba: "The utilitarian floor of the axis: it earns its keep by clearing the floor, with zero affective performance (expressiveness 1)."
-  nest-learning-thermostat: "Purely utilitarian comfort — it quietly tunes the house and saves energy, never asking to be felt or noticed."
-  amazon-echo-alexa: "The coldest case despite all its chatter: a flat-voiced, faceless assistant that maximizes capability while registering almost no warmth."
-  philips-hue: "A step off the utilitarian pole — it still just makes light, but sells atmosphere and mood, leaning faintly expressive."
-  ambient-orb: "Mid-axis: it conveys data not as numbers but as a glowing color you feel across the room, information rendered as ambience."
-  tamagotchi: "Tilts expressive on pure rule-based charm — a creature you keep alive and grieve, proving feeling needs no real intelligence."
-  be-the-beat: "Expressive use rather than chore: it turns a dancer's movement into music, making the device a performing creative partner."
-  paro: "Affective by design — a soft seal that soothes dementia patients through touch, delivering care as felt comfort, not task output."
-  moflin: "Near the expressive pole: a faceless fluff whose only job is to be held and bonded with, growing a personality over weeks."
-  sony-aibo: "Deep in expressive territory (expressiveness 5): a doglike companion that exists to be loved and performed to, not to work."
-  lovot: "Maximally expressive — deliberately incapable of any task, its sole purpose is to ask for affection and be loved."
-  jibo: "Expressive pole: a swiveling tabletop presence built to feel like a social family member, its emotion system over any chore."
-  moxie: "Among the most expressive — a believable social actor children bonded with so deeply its shutdown read as a real loss."
+  cochrane-dishwasher: "The pure-utility floor: an 1886 mechanical machine that earns its place by scrubbing dishes and asks to be felt by no one."
+  husqvarna-automower: "Still all task, no affect — a faceless robot that trims the lawn on its own and was never meant to be noticed."
+  ambient-orb: "A first lean toward feeling: data arrives not as numbers but as a color you sense across the room, information made ambient."
+  tamagotchi: "Tilts expressive on rule-based charm alone — a creature you keep alive and genuinely grieve, with no AI behind the bond."
+  little-signals: "Calm middle objects: a puff of air or a soft tap nudges attention, communicating presence rather than performing emotion."
+  nabaztag: "An early connected bunny wiggling its ears for weather or mail — half useful notifier, half expressive desk creature."
+  be-the-beat: "Value as performance, not chore: it reads a dancer's freestyle and answers with music, acting as a creative partner."
+  paro: "Affective by design — a soft seal that drops agitation and pain in care wards through touch, delivering comfort, not output."
+  moflin: "Near the far pole: a faceless fluff whose only job is to be held, growing one of millions of personalities over weeks."
+  sony-aibo: "Deep in expressive territory — a doglike companion mourned at Buddhist funerals, made to be loved rather than to work."
+  lovot: "The expressive ceiling: deliberately incapable of any task, built solely to ask for affection and be picked up."
+  irobot-roomba: "Near the utilitarian floor: a faceless disc that just vacuums the floor, yet owners name it and grieve it anyway."
+  jibo: "Far up the expressive axis: a swiveling desk robot whose charm and personality outweighed any chore it could actually do."
+  kismet: "The expressive origin: an MIT face built only to emote and engage, doing no work but pioneering machines made to be felt."
 ---
 
-Laid end to end, these systems trace how physical AI justifies its presence — at the utilitarian pole a Roomba just clears the floor, a Nest thermostat quietly tunes comfort, and an Echo answers in a flat voice despite its chatter, all earning their keep by working; at the expressive pole a creature like aibo or LOVOT, or a tabletop agent like Jibo and Moxie, exists chiefly to be loved, performed to, or kept alive. The most telling cases sit in the middle and lean affective without abandoning use: Philips Hue sells atmosphere as much as light, an Ambient Orb glows mood instead of data, PARO soothes dementia patients through touch, and the AI-driven Be the Beat turns input into performance — and notably the warmest of them are the least AI-laden (a rule-based Tamagotchi or aibo's scripted charm) while the most capable assistants, Alexa and the smart home, register as the coldest, suggesting that feeling meaningful and being intelligent are nearly orthogonal axes.
+Laid end to end, these trace how a system justifies its presence. At the utilitarian pole a Cochrane dishwasher and a Husqvarna automower simply do the chore, faceless and unfelt; at the expressive pole aibo, LOVOT, and the bondable Moflin do no useful work at all and exist to be held and loved. The middle is where it gets interesting — objects that lean affective without abandoning use: an Ambient Orb glowing mood instead of numbers, Little Signals puffing air to nudge attention, a Nabaztag caught between notifying and charming, and Be the Beat turning a dancer's movement into music. The sharpest pattern is that warmth and intelligence barely correlate: the most genuinely felt objects here, the rule-based Tamagotchi people grieve and aibo's scripted affection, carry the least AI, while the data-mapping Be the Beat runs an LLM to do something nobody cries over.
