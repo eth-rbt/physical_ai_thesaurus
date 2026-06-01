@@ -50,5 +50,66 @@
       "year": 2012
     }
   ],
+  "interactions": [
+    {
+      "title": "Sculpt clay that snaps to perfect geometry",
+      "description": "In the Perfect Red scenario, you roll a lump of the material in your hands and it snaps into a true sphere, then join two pieces and the shapes Boolean-add together — physical sculpting that carries CAD logic inside the matter itself.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/perfect-red/",
+      "source_label": "MIT Tangible Media Group — Perfect Red"
+    },
+    {
+      "title": "Cut and pin like a parametric tool",
+      "description": "Draw a line along the surface and tap it with a knife to cut along that spline, or draw ten dots and stick a pin into one to drill all ten holes at once — hand gestures that trigger parametric, repeatable operations in the live material.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/perfect-red/",
+      "source_label": "MIT Tangible Media Group — Perfect Red"
+    },
+    {
+      "title": "Split a piece and edit both halves at once",
+      "description": "Divide the material into two linked parts so that an edit you make to one half is instantly mirrored in the other, keeping the physical object in two-way sync with its underlying computational model.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/perfect-red/",
+      "source_label": "MIT Tangible Media Group — Perfect Red"
+    },
+    {
+      "title": "The material tells you what it can become",
+      "description": "Radical Atoms are framed by three behaviors — transform (change shape to reflect the model), conform (yield to constraints from the environment and your hands), and inform (signal their own dynamic affordances) — so the surface itself shows you the moves it will allow rather than relying on a screen or manual.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/vision/",
+      "source_label": "MIT Tangible Media Group — Vision"
+    },
+    {
+      "title": "Push a pin-array surface up into a 3D model",
+      "description": "inFORM, the group's working shape display built toward this vision, renders 3D content as a grid of motorized pins you can touch and reshape, and pushes back to move real objects sitting on the table — a buildable step toward matter that mirrors a digital model.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/inform/",
+      "source_label": "MIT Tangible Media Group — inFORM"
+    },
+    {
+      "title": "Shake hands with a remote collaborator's shape",
+      "description": "Over a video link, inFORM raises its surface to physically reproduce a distant participant's hands, so a remote person can nudge an object or 'reach across' the table and you feel the shape they make.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/inform/",
+      "source_label": "MIT Tangible Media Group — inFORM"
+    },
+    {
+      "title": "Walk through the vision at the MIT Museum",
+      "description": "The MIT Museum has staged a Radical Atoms exhibition where visitors encounter the Tangible Media Group's transformable-interface work in person, bringing the lab vision out to a public audience.",
+      "provenance": "observed",
+      "source_url": "https://mitmuseum.mit.edu/exhibitions/radical-atoms",
+      "source_label": "MIT Museum — Radical Atoms exhibition"
+    },
+    {
+      "title": "Knead a budget into a hillside",
+      "description": "Press your thumbs into a tabletop of the material to carve a terrain model, and have it conform to a real watershed constraint — every dent reshaping the underlying simulation and snapping back when a rule is violated, grounded in the transform/conform coupling the vision specifies.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Pull a part back to an earlier shape",
+      "description": "Because each physical edit is bound to a computational model, you could scrub the object's history — flatten a finished bracket back to its blank and replay the changes — treating undo and version control as something you do with your hands on the material.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

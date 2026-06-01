@@ -35,6 +35,60 @@
       "alt_text": "A thin, flexible electronic-paper display prototype held in a hand, showing a contacts list, demonstrating the PaperPhone bendable smartphone."
     }
   ],
+  "interactions": [
+    {
+      "title": "Flip the corner to turn a page",
+      "description": "Reading a book on the thin E Ink sheet, you flex the top corner up or down to flip to the next or previous page, the same motion you would use on a real paper page rather than tapping a screen.",
+      "provenance": "documented",
+      "source_url": "https://research.cs.queensu.ca/home/audrey/papers/CHI11.Lahey.pdf",
+      "source_label": "Lahey et al., CHI 2011 (paper PDF)"
+    },
+    {
+      "title": "Bend through a contacts list and place a call",
+      "description": "To find someone, you bend the side of the display up and down to scroll the contacts list, flex to select a name to see their details, and bend again to call them or to drop the call.",
+      "provenance": "documented",
+      "source_url": "https://research.cs.queensu.ca/home/audrey/papers/CHI11.Lahey.pdf",
+      "source_label": "Lahey et al., CHI 2011 (paper PDF)"
+    },
+    {
+      "title": "Skip songs by flexing the music player",
+      "description": "In the music app you bend the device to play or pause the current track and bend in the opposite direction to jump to the previous or next song, with the play state and song title shown on the sheet.",
+      "provenance": "documented",
+      "source_url": "https://research.cs.queensu.ca/home/audrey/papers/CHI11.Lahey.pdf",
+      "source_label": "Lahey et al., CHI 2011 (paper PDF)"
+    },
+    {
+      "title": "Steer a grid of app icons by bending four ways",
+      "description": "On a 3x4 grid of twelve app icons you move the selection left, right, up, and down by bending the corresponding edge or corner of the display, then flex to open an app and bend back to close it.",
+      "provenance": "documented",
+      "source_url": "https://research.cs.queensu.ca/home/audrey/papers/CHI11.Lahey.pdf",
+      "source_label": "Lahey et al., CHI 2011 (paper PDF)"
+    },
+    {
+      "title": "Zoom a map with a single bend",
+      "description": "Looking at a map, you bend the display one way to zoom in and the other way to zoom out, implemented as discrete steps because the E Ink screen refreshes slowly.",
+      "provenance": "documented",
+      "source_url": "https://research.cs.queensu.ca/home/audrey/papers/CHI11.Lahey.pdf",
+      "source_label": "Lahey et al., CHI 2011 (paper PDF)"
+    },
+    {
+      "title": "A vocabulary of bends people agree on",
+      "description": "Ten participants invented their own bend gestures for twenty actions, and the study found strong agreement on three pairs (bend the side, the top corner, or the bottom corner up/down) and on direction, where bending up went left or back and bending down went right or forward.",
+      "provenance": "documented",
+      "source_url": "https://research.cs.queensu.ca/home/audrey/papers/CHI11.Lahey.pdf",
+      "source_label": "Lahey et al., CHI 2011 (paper PDF)"
+    },
+    {
+      "title": "A phone that conforms to your pocket",
+      "description": "Because the whole device is a flexible sheet, you could let it curl to the shape of your pocket or roll it around a wrist, and a gentle bend could silence or snooze an alert the way you would fold down a sticky note, an extension of the bend-as-input mechanic the prototype already recognizes.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Eyes-free track control by feel",
+      "description": "Since the input is a physical deformation rather than a screen target, you could pause music or skip a track by squeezing a corner with the device still in a bag or pocket, no looking required, building directly on the play/skip bend gestures the music app demonstrated.",
+      "provenance": "proposed"
+    }
+  ],
   "sources": [
     {
       "source_id": "source-paperphone-001",

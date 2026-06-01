@@ -54,5 +54,59 @@
       "year": 2016
     }
   ],
+  "interactions": [
+    {
+      "title": "Press a spot and watch it ripple like water",
+      "description": "Push a finger into the pin surface and the dimple radiates outward in concentric waves, the pins rising and falling as the system runs shallow-water equations to make the display behave like a pool of liquid.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/materiable/",
+      "source_label": "MIT Tangible Media Group — Materiable"
+    },
+    {
+      "title": "Feel rubber, water, and sand from the same pins",
+      "description": "The motorized pins are programmed with different material models so the surface can mimic the springy push-back of rubber, the flow of water, or the crumbling give of sand, all from one display.",
+      "provenance": "documented",
+      "source_url": "https://blog.arduino.cc/2016/05/11/shape-shifting-interface-can-mimic-rubber-water-and-sand/",
+      "source_label": "Arduino Blog"
+    },
+    {
+      "title": "Push a deformable solid that springs back",
+      "description": "Press into a region tuned as an elastic solid and the pins yield under your hand, then recover toward their resting height when you let go, conveying flexibility and elasticity through touch rather than just a static shape.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2858036.2858104",
+      "source_label": "CHI 2016 paper (ACM)"
+    },
+    {
+      "title": "Sense viscosity as the surface resists you",
+      "description": "Drag or press across a region authored with high viscosity and the pins move sluggishly, building a perceptive sense of a thick, slow material in the hand even without precise force-feedback motors.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2858036.2858104",
+      "source_label": "CHI 2016 paper (ACM)"
+    },
+    {
+      "title": "Mock up and sculpt a landscape by hand",
+      "description": "Designers use the responsive surface to prototype landscape and terrain concepts, shaping the pin field directly and watching material-like behavior instead of editing a screen model.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/materiable/",
+      "source_label": "MIT Tangible Media Group — Materiable"
+    },
+    {
+      "title": "Stage an earthquake or tsunami you can touch",
+      "description": "The display can run dynamic scenarios such as earthquakes and tsunamis, letting a person feel the ground heave and waves propagate across the pins as a physical, embodied simulation.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/materiable/",
+      "source_label": "MIT Tangible Media Group — Materiable"
+    },
+    {
+      "title": "Knead virtual clay before you 3D print it",
+      "description": "A maker pushes and smooths a region tuned as soft, plastic material to rough out a form by hand, using the same spring-and-flow physics to give digital clay a yielding tactile feel ahead of fabrication.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Feel a material-science lesson under your fingers",
+      "description": "A student presses the same patch of surface as the instructor dials it from rigid to elastic to viscous, comparing how each behaves by touch to build intuition for material properties.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

@@ -61,5 +61,59 @@
       "year": 2004
     }
   ],
+  "interactions": [
+    {
+      "title": "Teach a dog to walk by hand",
+      "description": "Snap together a four-legged creature from Passive and Active parts, press the button on an Active, then physically twist and push its body and legs through a walking gait; press again and it loops that motion, walking across the table on its own.",
+      "provenance": "documented",
+      "source_url": "https://www-ui.is.s.u-tokyo.ac.jp/~takeo/course/2007/media/papers/topobo.pdf",
+      "source_label": "Raffle, Parkes & Ishii, CHI 2004 (PDF)"
+    },
+    {
+      "title": "Record once, replay until you stop it",
+      "description": "A red LED shows an Active is recording your manipulation and a green LED shows playback; the creation keeps replaying your demonstrated motion in a loop until you press the button a third time to freeze it.",
+      "provenance": "documented",
+      "source_url": "https://www-ui.is.s.u-tokyo.ac.jp/~takeo/course/2007/media/papers/topobo.pdf",
+      "source_label": "Raffle, Parkes & Ishii, CHI 2004 (PDF)"
+    },
+    {
+      "title": "Roll a ring of joints like a tank tread",
+      "description": "Build a closed ring of Actives, set them all recording at once, and roll the whole loop across the floor like a tank tread; each Active remembers only its own local rotation, so on playback the ring crawls forward by replaying those local motions together.",
+      "provenance": "documented",
+      "source_url": "https://www-ui.is.s.u-tokyo.ac.jp/~takeo/course/2007/media/papers/topobo.pdf",
+      "source_label": "Raffle, Parkes & Ishii, CHI 2004 (PDF)"
+    },
+    {
+      "title": "Conduct the whole creature with a Queen",
+      "description": "Hold a special Queen Active that broadcasts its angle to every Active in the network; wiggle the Queen and a linear chain mirrors it, curling toward a circle as you add rotation — and the Queen need not be attached, so you can use it as a handheld remote while watching the body move.",
+      "provenance": "documented",
+      "source_url": "https://www-ui.is.s.u-tokyo.ac.jp/~takeo/course/2007/media/papers/topobo.pdf",
+      "source_label": "Raffle, Parkes & Ishii, CHI 2004 (PDF)"
+    },
+    {
+      "title": "Make a wave ripple down a chain",
+      "description": "Swap in an augmented Queen and one demonstrated motion transforms by position: a Decay Queen scales each joint's angle by its distance so a straight string curls into a spiral, while a Time Delay Queen staggers each joint so a wave-like motion ripples down the body.",
+      "provenance": "documented",
+      "source_url": "https://www-ui.is.s.u-tokyo.ac.jp/~takeo/course/2007/media/papers/topobo.pdf",
+      "source_label": "Raffle, Parkes & Ishii, CHI 2004 (PDF)"
+    },
+    {
+      "title": "Debug a gait that won't walk",
+      "description": "In classroom studies with children ages 5-13, kids compared their walking creations to their own bodies; when a creature failed to walk, one second grader stopped and asked \"Why is it not walking?\", then rebuilt and re-demonstrated until the gait worked — physically debugging balance and leverage.",
+      "provenance": "documented",
+      "source_url": "https://www-ui.is.s.u-tokyo.ac.jp/~takeo/course/2007/media/papers/topobo.pdf",
+      "source_label": "Raffle, Parkes & Ishii, CHI 2004 (PDF)"
+    },
+    {
+      "title": "Choreograph a tabletop dance troupe",
+      "description": "Build several small creatures and hand-animate each with its own looping motion, then start them together so a set of independently recorded gaits plays back as a synchronized little performance — grounded in the per-Active record-and-loop playback the system already supports.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Feel out a prosthetic or gait idea in plastic",
+      "description": "A designer studying locomotion sketches a leg linkage in Passive parts, demonstrates a stride by hand, and watches it loop to test whether the timing balances — using Topobo as a quick physical motion-prototyping rig before any code or simulation, which its programming-by-demonstration mechanics directly afford.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

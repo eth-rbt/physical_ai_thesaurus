@@ -61,5 +61,59 @@
       "year": null
     }
   ],
+  "interactions": [
+    {
+      "title": "Tap a button projected onto your forearm",
+      "description": "A pico-projector paints a UI directly onto the skin and the armband senses which spot you tap, so you press a glowing button on your own arm to trigger an action instead of reaching for a phone.",
+      "provenance": "documented",
+      "source_url": "http://www.chrisharrison.net/index.php/Research/Skinput",
+      "source_label": "Skinput project page"
+    },
+    {
+      "title": "Dial a number on your palm",
+      "description": "With a keypad projected across the hand and fingers, you tap out a phone number on your own skin to place a call, the body standing in for a touchscreen dialer.",
+      "provenance": "documented",
+      "source_url": "http://www.chrisharrison.net/index.php/Research/Skinput",
+      "source_label": "Skinput project page"
+    },
+    {
+      "title": "Play Tetris and Frogger by tapping your arm",
+      "description": "Demonstrations turn the forearm into a game controller — steering Frogger with four-way directional taps and playing Tetris using on-body buttons.",
+      "provenance": "documented",
+      "source_url": "http://www.chrisharrison.net/index.php/Research/Skinput",
+      "source_label": "Skinput project page"
+    },
+    {
+      "title": "Slide and pinch to move through menus",
+      "description": "Beyond discrete buttons, the system reads continuous sliding gestures along the skin to scroll a hierarchical menu and a pinch gesture to go back up a level.",
+      "provenance": "documented",
+      "source_url": "http://www.chrisharrison.net/index.php/Research/Skinput",
+      "source_label": "Skinput project page"
+    },
+    {
+      "title": "Control it eyes-free using proprioception",
+      "description": "Because you always know where your own fingers and arm are in space, you can tap the right location without looking, operating the interface while it stays hidden under a sleeve or in a pocket.",
+      "provenance": "documented",
+      "source_url": "http://www.chrisharrison.net/index.php/Research/Skinput",
+      "source_label": "Skinput project page"
+    },
+    {
+      "title": "Train the classifier to your own arm",
+      "description": "A short training pass has you tap each on-arm location a few times so the support vector machine learns your body's acoustic signature, then it localizes taps to roughly five spots with over 90% accuracy.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1753326.1753394",
+      "source_label": "Skinput, CHI 2010 (ACM)"
+    },
+    {
+      "title": "Accept a call by tapping your fingertips together",
+      "description": "Using the same fingertip-tap vocabulary it already classifies, an always-worn band could let you answer or dismiss an incoming call with a discreet tap of finger to thumb, no device pulled out.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Eyes-free volume and skip on a hidden player",
+      "description": "Mapping forearm locations to play, skip, and a sliding volume gesture would let a runner control music by tapping their sleeve, leaning on the proprioceptive, screenless control the technique was built for.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

@@ -61,5 +61,59 @@
       "year": null
     }
   ],
+  "interactions": [
+    {
+      "title": "The cup tells the office you stepped out",
+      "description": "Lift the cup, sip, and set it down and its base reads the motion and the warmth of the coffee, deriving states like 'being drunk from', 'filled and stationary', or 'cold and idle' and quietly broadcasting them over infrared to the room — no button, no screen, you just use the cup as a cup.",
+      "provenance": "documented",
+      "source_url": "https://link.springer.com/chapter/10.1007/3-540-48157-5_30",
+      "source_label": "MediaCup paper (HUC '99)"
+    },
+    {
+      "title": "An electronic doorplate that says 'Meeting'",
+      "description": "When several cups holding hot coffee are moving inside one room, the door's electronic plate flips to 'Meeting', so a passer-by can tell from the hallway that people have gathered without anyone announcing it.",
+      "provenance": "documented",
+      "source_url": "https://www.ibr.cs.tu-bs.de/users/beigl/publication/mediacup.pdf",
+      "source_label": "The MediaCup (Beigl/Gellersen, full text)"
+    },
+    {
+      "title": "Meetings detected by the density of warm cups",
+      "description": "Because each cup reports where it is and whether its drink is hot, a cluster of co-located hot cups is read as a spontaneous get-together — context the surrounding systems infer rather than something a person logs.",
+      "provenance": "documented",
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S1389128600001808",
+      "source_label": "Mediacups (Computer Networks, 2001)"
+    },
+    {
+      "title": "Overhead infrared cells track where the cup is",
+      "description": "Ceiling-mounted IrDA transceivers, each covering roughly a square metre, pick up a cup's beacon as it travels between offices, so the system knows which room the cup — and by extension its owner's coffee break — is currently in.",
+      "provenance": "documented",
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S1389128600001808",
+      "source_label": "Mediacups (Computer Networks, 2001)"
+    },
+    {
+      "title": "Living with a cup you recharge in its saucer",
+      "description": "The team used the cups in daily office life as ordinary mugs, dropping them onto an inductive coaster/saucer to top up the battery between coffees — the augmentation stayed invisible and the ritual of getting coffee was unchanged.",
+      "provenance": "documented",
+      "source_url": "https://link.springer.com/chapter/10.1007/3-540-48157-5_30",
+      "source_label": "MediaCup paper (HUC '99)"
+    },
+    {
+      "title": "Hearing a distant office as soft background noise",
+      "description": "In an Ambient Telepresence study, the everyday activity captured by MediaCups and other instrumented objects in one office was rendered at a remote workplace as subtle ambient sound, giving colleagues a peripheral, non-intrusive sense that the other room was busy.",
+      "provenance": "documented",
+      "source_url": "https://www.ibr.cs.tu-bs.de/users/beigl/publication/manse.pdf",
+      "source_label": "Ambient Telepresence (Beigl et al.)"
+    },
+    {
+      "title": "A coffee break that nudges your calendar status",
+      "description": "Since a warm, in-motion cup already signals you are away from the desk and probably with others, that same state could flip a shared status to 'on a break' or hold notifications — grounded in the cup's existing drinking/stationary/hot states and IR location, no new sensing required.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "The cup that learns your hydration rhythm",
+      "description": "By logging the cadence of sip events and refills it already detects, a deskful of MediaCups could surface a gentle ambient cue when the afternoon coffee has gone cold and untouched for an hour — purely from the temperature and movement signals the base reports.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

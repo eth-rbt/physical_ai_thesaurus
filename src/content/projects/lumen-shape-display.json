@@ -63,5 +63,59 @@
       "year": 2004
     }
   ],
+  "interactions": [
+    {
+      "title": "Sculpt light and shape with your hand",
+      "description": "Place a hand on the surface and the capacitive SmartSkin sensor reads your hand shape and finger motion, raising and coloring the grid of light guides under your touch so you form glowing shapes and images directly with your hands.",
+      "provenance": "documented",
+      "source_url": "https://history.siggraph.org/experience/lumen-interactive-visual-and-shape-display-for-calm-computing-by-poupyrev-nashida-maruyama-rekimoto-and-yamaji/",
+      "source_label": "ACM SIGGRAPH History — Lumen"
+    },
+    {
+      "title": "Feel a picture by touch",
+      "description": "Because every pixel is a physical rod, an image like a fish or water flowing from a tap is rendered as a touchable relief you can actively explore with a moving hand, with no glove or stylus in between — the shape is felt directly.",
+      "provenance": "documented",
+      "source_url": "https://courses.media.mit.edu/2014fall/mas834/wp-content/uploads/sites/6/2014/09/p205-poupyrev.pdf",
+      "source_label": "Poupyrev et al., TEI 2007 (Actuation and TUIs)"
+    },
+    {
+      "title": "A character that touches back",
+      "description": "In a demonstrated scenario, rest your hand on the surface and a virtual fish swims over and taps it with its nose, or a bouncing ball rebounds off your palm so you feel the impact — the figure on screen reaches back out into the physical surface.",
+      "provenance": "documented",
+      "source_url": "https://courses.media.mit.edu/2014fall/mas834/wp-content/uploads/sites/6/2014/09/p205-poupyrev.pdf",
+      "source_label": "Poupyrev et al., TEI 2007 (Actuation and TUIs)"
+    },
+    {
+      "title": "Buttons that rise only when you need them",
+      "description": "The team built pressable tangible buttons that the display raises on demand and lowers away when unused, so physical controls appear out of a flat surface and reshape themselves to match the current state and function.",
+      "provenance": "documented",
+      "source_url": "https://courses.media.mit.edu/2014fall/mas834/wp-content/uploads/sites/6/2014/09/p205-poupyrev.pdf",
+      "source_label": "Poupyrev et al., TEI 2007 (Actuation and TUIs)"
+    },
+    {
+      "title": "Motion as an extra layer of meaning",
+      "description": "A single graphic can be overlaid with different physical motion to change its meaning: a play triangle with a slow wave passing through it reads as playback, a fast wave as fast-forward, and a reversed wave as rewind, so shape encodes the state the icon alone cannot.",
+      "provenance": "documented",
+      "source_url": "https://courses.media.mit.edu/2014fall/mas834/wp-content/uploads/sites/6/2014/09/p205-poupyrev.pdf",
+      "source_label": "Poupyrev et al., TEI 2007 (Actuation and TUIs)"
+    },
+    {
+      "title": "Touch someone over the network",
+      "description": "Linking two Lumen units over a network creates a haptic communication link where two distant people can touch and draw simple traces on each other's hand — your own graphics give feedback on your input while the remote person's actions arrive as moving physical shape.",
+      "provenance": "documented",
+      "source_url": "https://courses.media.mit.edu/2014fall/mas834/wp-content/uploads/sites/6/2014/09/p205-poupyrev.pdf",
+      "source_label": "Poupyrev et al., TEI 2007 (Actuation and TUIs)"
+    },
+    {
+      "title": "A wall that breathes the weather",
+      "description": "Scaled up and embedded in a wall or ceiling as the authors envisioned, a calm tile could let through a slow rolling swell of raised, tinted rods when rain is coming and lie flat and warm-lit on a clear day, read at a glance with no screen to attend to — grounded in Lumen's silent SMA actuation and per-pixel color and height control.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A goodnight squeeze across distance",
+      "description": "Extending the demonstrated remote-touch link, a child and a traveling parent could each press a palm to their own tile so a slow pulse rises under the other's hand as a wordless goodnight — built only on the paired-device haptic touch-and-trace already shown.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

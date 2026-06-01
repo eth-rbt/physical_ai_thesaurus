@@ -63,5 +63,52 @@
       "year": 2001
     }
   ],
+  "interactions": [
+    {
+      "title": "Watch the network breathe as a 'bit wind'",
+      "description": "An array of pinwheels is driven by a live data stream so they spin faster or slower as the value changes; a busy stretch of network or server packet activity reads as a quickening whir of blades at the edge of the room.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/pinwheels/",
+      "source_label": "MIT Tangible Media Group — Pinwheels"
+    },
+    {
+      "title": "Feel the markets without a screen",
+      "description": "The pinwheels are mapped to data such as stock-market activity or website hits, so a person sitting nearby senses a rising or falling trend as a change in spin speed rather than by checking a monitor.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/pinwheels/",
+      "source_label": "MIT Tangible Media Group — Pinwheels"
+    },
+    {
+      "title": "Rain of bits rippling on the ceiling",
+      "description": "In the companion Water Lamp, a light shines up through a pan of water while computer-controlled solenoids tap the surface in time with incoming digital data, casting shifting ripple shadows across the ceiling overhead.",
+      "provenance": "documented",
+      "source_url": "https://www.researchgate.net/publication/2447397_Water_Lamp_and_Pinwheels_Ambient_Projection_of_Digital_Information_into_Architectural_Space",
+      "source_label": "Dahley, Wisneski & Ishii, CHI '98"
+    },
+    {
+      "title": "Information you process at the edge of attention",
+      "description": "The fixtures present digital activity as subtle background motion, light, and sound so a person can stay aware of an ongoing data stream peripherally, glancing over only when the movement shifts, instead of foregrounding a display.",
+      "provenance": "documented",
+      "source_url": "https://www.researchgate.net/publication/2447397_Water_Lamp_and_Pinwheels_Ambient_Projection_of_Digital_Information_into_Architectural_Space",
+      "source_label": "Dahley, Wisneski & Ishii, CHI '98"
+    },
+    {
+      "title": "Turn the whole room into the interface",
+      "description": "Built as part of the ambientROOM, the pinwheels and Water Lamp let architectural space itself carry information through airflow and water movement, so the walls and ceiling of a study become the readout rather than a desktop.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/ambientroom/",
+      "source_label": "MIT Tangible Media Group — ambientROOM"
+    },
+    {
+      "title": "A loved one's presence felt as gentle motion",
+      "description": "Tie the spin to a remote partner's activity at their desk, so a slow idle turning quickens when they sit down to work, giving an unobtrusive sense of their presence in the room without a notification.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Ambient build-status for a workshop",
+      "description": "Map the pinwheels to a continuous-integration pipeline so the array slows and stalls when a build breaks and spins smoothly when everything is green, letting a team read the health of their system from across the studio.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

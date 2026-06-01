@@ -64,5 +64,59 @@
       "year": 2008
     }
   ],
+  "interactions": [
+    {
+      "title": "Snap a touch block onto a light",
+      "description": "A child stacks a touch sensor block directly under a light action block; press the sensor plate and the bulb lights up, let go and it goes dark. The simplest stack makes the sense-then-act link physical in one move.",
+      "provenance": "documented",
+      "source_url": "https://dblp.org/rec/conf/interact/WyethW01.html",
+      "source_label": "Wyeth & Wyeth, INTERACT 2001"
+    },
+    {
+      "title": "A lamp that hates noise",
+      "description": "Slide a NOT logic block between a hearing block and a light block, and the light glows only when the room is quiet and switches off the moment someone makes a sound, letting a preschooler build and feel a logical inversion by hand.",
+      "provenance": "documented",
+      "source_url": "https://www.semanticscholar.org/paper/Electronic-Blocks:-Tangible-Programming-Elements-Wyeth-Wyeth/30e71bbe5195fb9664ec1b5701df08b8154d0347",
+      "source_label": "Electronic Blocks (full paper, Semantic Scholar)"
+    },
+    {
+      "title": "A light that flashes when you clap",
+      "description": "Pair a hearing sensor block with a light block so the bulb blinks each time a child claps, turning a noisy room into the program's input and the child's own body into the trigger.",
+      "provenance": "documented",
+      "source_url": "https://dblp.org/rec/conf/interact/WyethW01.html",
+      "source_label": "Wyeth & Wyeth, INTERACT 2001"
+    },
+    {
+      "title": "Drive a four-wheeled block-car by sound",
+      "description": "The movement action block is a small four-wheel car; stacking a sensor on top lets children steer it with claps or touch, building improvised remote-control cars and robots out of the same stackable bricks.",
+      "provenance": "documented",
+      "source_url": "https://www.semanticscholar.org/paper/Electronic-Blocks:-Tangible-Programming-Elements-Wyeth-Wyeth/30e71bbe5195fb9664ec1b5701df08b8154d0347",
+      "source_label": "Electronic Blocks (full paper, Semantic Scholar)"
+    },
+    {
+      "title": "Robots that crash into each other",
+      "description": "Children aged four to six built moving block-robots that respond to light or sound and sent them careening into one another, discovering reactive behaviour through play rather than instruction.",
+      "provenance": "documented",
+      "source_url": "https://www.semanticscholar.org/paper/Electronic-Blocks:-Tangible-Programming-Elements-Wyeth-Wyeth/30e71bbe5195fb9664ec1b5701df08b8154d0347",
+      "source_label": "Electronic Blocks (full paper, Semantic Scholar)"
+    },
+    {
+      "title": "Six days in a real preschool",
+      "description": "Across a six-day evaluation, more than thirty preschool children assembled and debugged working block stacks with minimal adult help, showing the sense-think-act loop could be taught without screen, keyboard, or symbolic code.",
+      "provenance": "documented",
+      "source_url": "https://www.semanticscholar.org/paper/How-Young-Children-Learn-to-Program-With-Sensor,-Wyeth/9cf7867b9f03559bb4f4fa66c9cca22b5a8d015a",
+      "source_label": "Wyeth, Journal of the Learning Sciences (2008)"
+    },
+    {
+      "title": "A delayed-reaction night light",
+      "description": "Using the delay logic block between a sensor and a light, a child could build a lamp that stays on for a beat after a clap or touch before fading, exploring the idea of timed behaviour with the same physical grammar of stacking.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A burglar-alarm tower for the play corner",
+      "description": "Stack a hearing block, a toggle logic block, and a sound block so the tower latches into an alarm the first time it hears a noise and keeps wailing until reset, giving children a graspable model of state and memory.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

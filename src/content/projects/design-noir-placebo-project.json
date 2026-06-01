@@ -53,5 +53,66 @@
       "year": 2002
     }
   ],
+  "interactions": [
+    {
+      "title": "Set your phone on the table and watch the needles twitch",
+      "description": "Place a switched-on mobile phone or other electronic device on the Compass Table and the 25 compass needles embedded in its surface twitch and spin, tracing the otherwise invisible electromagnetic field of the gadget sitting on top.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/70/0",
+      "source_label": "Dunne & Raby — Placebo Project"
+    },
+    {
+      "title": "Feel the radiation through the seat of your chair",
+      "description": "Sit in the Nipple Chair and the nodules set into its back vibrate when electromagnetic radiation passes through your upper body, turning ambient exposure into something you can physically feel against your spine.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/70/0",
+      "source_label": "Dunne & Raby — Placebo Project"
+    },
+    {
+      "title": "A lamp that only lights up in a field of leaked radiation",
+      "description": "The Parasite Light has no plug; carry it around the home and it glows only when it sits inside the stray radiation leaking from other electronic products, mapping the invisible hot spots room by room.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/70/0",
+      "source_label": "Dunne & Raby — Placebo Project"
+    },
+    {
+      "title": "A table that tells you it is lost",
+      "description": "The GPS Table shows its coordinates when it can see enough sky through a window, but displays the single word \"lost\" when the signal drops; one volunteer described being shaken by it — \"I thought, 'Bloody hell, the poor thing's lost.'\"",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/70/0",
+      "source_label": "Dunne & Raby — Placebo Project"
+    },
+    {
+      "title": "Hide the phone in a drawer to silence the room",
+      "description": "Drop the cordless phone into the Phone Table's drawer and its ring is muffled; when a call comes in, the tabletop simply glows green instead, swapping an intrusive sound for a quiet ambient signal.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/70/0",
+      "source_label": "Dunne & Raby — Placebo Project"
+    },
+    {
+      "title": "Live with the objects for weeks and invent stories about them",
+      "description": "The prototypes were loaned to volunteers who kept them at home for several weeks; Dunne & Raby photographed the objects in use and interviewed the owners, collecting the personal narratives people built to explain the invisible electromagnetic life of their houses.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/778712.778714",
+      "source_label": "Dunne & Raby, \"The Placebo project\" (DIS 2002)"
+    },
+    {
+      "title": "Shown at Droog with the volunteers' own photos and interviews",
+      "description": "The full set of Placebo furniture was exhibited at Droog & Co., presenting the objects alongside photographs of them in volunteers' homes and the recorded interviews about living with them.",
+      "provenance": "observed",
+      "source_url": "https://www.droog.com/projects/the-placebo-project/",
+      "source_label": "Droog — The Placebo Project"
+    },
+    {
+      "title": "A bedside compass dial that reveals a hidden sleep-time field",
+      "description": "Borrowing the Compass Table's passive-needle mechanism, a small bedside dial could quietly register the field from a clock radio or charger left running all night, giving a sleeper a tangible morning read of what hummed beside them in the dark.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A parasite night-light for a child's room",
+      "description": "Using the Parasite Light's plug-free, field-fed glow, a soft lamp placed near a household appliance would brighten and dim with the device's activity, letting a child watch the otherwise invisible electrical life of the home as a gentle, changing nightlight.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

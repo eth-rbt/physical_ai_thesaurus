@@ -58,5 +58,59 @@
       "year": null
     }
   ],
+  "interactions": [
+    {
+      "title": "Watch the market without watching the market",
+      "description": "Out of the box the Orb tracks the Dow Jones Industrial Average, glowing greener as the index climbs, redder as it falls, and amber when it holds flat, so you read the day's mood with a single glance across the room.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Ambient_device",
+      "source_label": "Wikipedia — Ambient device"
+    },
+    {
+      "title": "Re-point the glow at any feed you choose",
+      "description": "Through a web-based interface you remap the same sphere to a different channel, telling it to show your local weather, traffic congestion, the pollen count, or wind speed instead of stocks, with no screen or app to open.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Ambient_device",
+      "source_label": "Wikipedia — Ambient device"
+    },
+    {
+      "title": "Pulse for incoming weather",
+      "description": "Set to weather, the Orb can match its color to the temperature and softly pulse when rain is on the way, turning a forecast into a peripheral cue you notice while doing something else.",
+      "provenance": "documented",
+      "source_url": "https://www.wbur.org/radioboston/2014/07/17/enchanted-objects-rose",
+      "source_label": "WBUR Radio Boston — Enchanted Objects (David Rose)"
+    },
+    {
+      "title": "Information you absorb in a quarter-second",
+      "description": "Because it conveys one trend as color rather than text, you take in the state of your chosen feed in a fraction of a second from across the room, the calm-technology idea of living information at the edge of attention.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Ambient_device",
+      "source_label": "Wikipedia — Ambient device"
+    },
+    {
+      "title": "Glow red, power down",
+      "description": "PG&E distributed about 2,000 Orbs to customers on demand-response plans; wired to the grid's pricing signal, the sphere glows green when electricity is cheap and red when demand and prices spike, prompting households to cut peak-period use.",
+      "provenance": "observed",
+      "source_url": "https://www.technologyreview.com/2007/11/14/270921/gadgets-to-spur-energy-conservation/",
+      "source_label": "MIT Technology Review — Gadgets to Spur Energy Conservation"
+    },
+    {
+      "title": "A nudge that measurably cut consumption",
+      "description": "In the utility demand-response trials the glowing orb worked as an ambient conscience: participants reportedly trimmed their peak-period electricity use sharply within weeks of having one on the shelf.",
+      "provenance": "observed",
+      "source_url": "https://grist.org/article/glowing-orbs-for-everyone/",
+      "source_label": "Grist — Making electricity visible helps reduce consumption"
+    },
+    {
+      "title": "A household chore meter on the mantel",
+      "description": "Point the same single-feed glow at a home data source such as an open task list or a shared calendar, so the Orb drifts toward red as deadlines pile up and back to green once they clear, a quiet whole-room status light.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "An away-from-home presence cue",
+      "description": "Map the feed to a distant relative's activity sensor so the Orb warms in color when they are up and about and cools when the house goes quiet, giving family a glanceable sense of wellbeing without a camera or call.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

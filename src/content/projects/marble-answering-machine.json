@@ -52,5 +52,52 @@
       "year": 2013
     }
   ],
+  "interactions": [
+    {
+      "title": "A message arrives as a marble in your hand",
+      "description": "When a caller leaves a voice message, the machine rolls out a single physical marble, so the count of unheard messages is something you can see and pick up rather than a number on a display.",
+      "provenance": "documented",
+      "source_url": "https://dataphys.org/list/durrell-bishops-marble-answering-machine/",
+      "source_label": "dataphys.org project page"
+    },
+    {
+      "title": "Read your inbox by the row of marbles",
+      "description": "The marbles line up in the order the messages came in, so a glance at the row tells you how many people called and in what sequence, without scrolling through anything.",
+      "provenance": "documented",
+      "source_url": "https://dataphys.org/list/durrell-bishops-marble-answering-machine/",
+      "source_label": "dataphys.org project page"
+    },
+    {
+      "title": "Drop a marble into a dimple to hear it",
+      "description": "Set a marble into a small dent on the device and it plays back the message that marble represents; lift it out and the message stays bound to that marble for later.",
+      "provenance": "documented",
+      "source_url": "https://dataphys.org/list/durrell-bishops-marble-answering-machine/",
+      "source_label": "dataphys.org project page"
+    },
+    {
+      "title": "Hand a message to a housemate",
+      "description": "If a message is for someone else in the house, you place its marble on a small side dish labeled with that person's name, physically routing the message to them.",
+      "provenance": "documented",
+      "source_url": "https://boingboing.net/2013/03/21/internet-of-things-answering-m.html",
+      "source_label": "Boing Boing"
+    },
+    {
+      "title": "Call someone back by placing their marble on the phone",
+      "description": "The telephone has a marble receptor; drop the message's marble into it and the device dials the original caller back, so returning a call is a single physical gesture.",
+      "provenance": "documented",
+      "source_url": "https://dataphys.org/list/durrell-bishops-marble-answering-machine/",
+      "source_label": "dataphys.org project page"
+    },
+    {
+      "title": "Pocket a message to deal with later",
+      "description": "Because each message is a discrete object, you could carry an important marble with you and drop it into the dimple when you get home, treating a voicemail like a to-do token you physically hold onto.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A shared family tray of pending calls",
+      "description": "Extending the labeled-dish idea, a household could keep a communal tray where unanswered marbles accumulate, making the backlog of calls to return a visible, tangible pile anyone can pick from.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "medium"
 }

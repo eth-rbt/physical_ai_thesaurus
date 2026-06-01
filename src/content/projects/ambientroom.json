@@ -54,5 +54,52 @@
       "year": 1997
     }
   ],
-  "confidence": "high"
+  "confidence": "high",
+  "interactions": [
+    {
+      "title": "Watch a loved one's day ripple across the ceiling",
+      "description": "Grasp a small motorized phicon and point it at the ceiling to map a distant person's activity onto a solenoid in a water tank, so the lamp casts gentle rippling shadows overhead that quicken or calm as they move about. In the first build the authors drove it from a lab hamster's instrumented wheel, light level, and cage temperature.",
+      "provenance": "documented",
+      "source_url": "http://www.cs.columbia.edu/~feiner/courses/csw4170/resources/ambientROOM_CHI98.pdf",
+      "source_label": "ambientROOM, CHI '98 (PDF)"
+    },
+    {
+      "title": "Sense who is around through light on the wall",
+      "description": "Electric-field sensors measure how much people are moving in the adjacent work area and project that activity as a patch of light on an inner wall, an 'active wallpaper' you barely notice until a sudden surge or a new arrival shifts the pattern.",
+      "provenance": "documented",
+      "source_url": "http://www.cs.columbia.edu/~feiner/courses/csw4170/resources/ambientROOM_CHI98.pdf",
+      "source_label": "ambientROOM, CHI '98 (PDF)"
+    },
+    {
+      "title": "Monitor your inbox as birdsong and rainfall",
+      "description": "A soft soundtrack of birds and rain swells or thins in step with a quantity you want to keep half an ear on, so you can gauge unread email or the value of a stock portfolio by how busy the room sounds rather than by checking a screen.",
+      "provenance": "documented",
+      "source_url": "http://www.cs.columbia.edu/~feiner/courses/csw4170/resources/ambientROOM_CHI98.pdf",
+      "source_label": "ambientROOM, CHI '98 (PDF)"
+    },
+    {
+      "title": "Uncork a bottle to let information into the room",
+      "description": "A small glass bottle acts as a graspable container for digital content; pulling the cork 'releases' a stream into the space, in the demo instantiating the load on the computer network as the sound of vehicular traffic that you can stopper again when you want quiet.",
+      "provenance": "documented",
+      "source_url": "http://www.cs.columbia.edu/~feiner/courses/csw4170/resources/ambientROOM_CHI98.pdf",
+      "source_label": "ambientROOM, CHI '98 (PDF)"
+    },
+    {
+      "title": "Turn back a clock to replay the room's past",
+      "description": "Manually rotating the hands of the wall clock scrubs the ambient displays to their former or future states, so someone returning from an absence can wind back through the light, sound, and ripple patterns of the past few hours or preview anticipated events.",
+      "provenance": "documented",
+      "source_url": "http://www.cs.columbia.edu/~feiner/courses/csw4170/resources/ambientROOM_CHI98.pdf",
+      "source_label": "ambientROOM, CHI '98 (PDF)"
+    },
+    {
+      "title": "Feel a build status without breaking focus",
+      "description": "Bind the soundscape and ripple displays to a software build or deployment pipeline so a passing failure registers as a brief darkening and a louder patter of rain, letting a developer stay in the foreground task and only glance up when the room's mood changes. Grounded in the existing sound, light, and water-ripple channels driven by external data streams.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "An air-quality weather inside the room",
+      "description": "Map indoor CO2 or particulate readings to airflow and the density of the birdsong layer, so a stuffy meeting room slowly stills its 'breeze' and quiets its birds as a calm cue to open a window, using the airflow actuation and soundscape the room already provides.",
+      "provenance": "proposed"
+    }
+  ]
 }

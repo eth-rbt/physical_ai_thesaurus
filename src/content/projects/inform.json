@@ -62,5 +62,59 @@
       "year": 2013
     }
   ],
+  "interactions": [
+    {
+      "title": "Reach across a video call and push a ball",
+      "description": "On a video call your remote partner's hands appear on your table as a moving relief of pins, and they can nudge a ball or block across to you while you feel the surface rise under their 'touch.'",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/inform/",
+      "source_label": "MIT Tangible Media Group — inFORM"
+    },
+    {
+      "title": "Watch a 3D model lift out of the table",
+      "description": "An architect or product designer loads a CAD model and the surface extrudes it as a low-resolution physical relief you can lean over and discuss, instead of printing it or spinning it on a screen.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/inform/",
+      "source_label": "MIT Tangible Media Group — inFORM"
+    },
+    {
+      "title": "Buttons and sliders that rise when you need them",
+      "description": "The display renders dynamic physical affordances on demand, pushing up a knob or button where an interface element should be and then flattening it away, so controls only exist as graspable bumps while they are in use.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2501988.2502032",
+      "source_label": "Follmer et al., UIST '13"
+    },
+    {
+      "title": "The surface herds an object for you",
+      "description": "Pins rise around an object resting on the table to corral, guide, or transport it, imposing a dynamic physical constraint that walls off where it can go or actuates it across the surface.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2501988.2502032",
+      "source_label": "Follmer et al., UIST '13"
+    },
+    {
+      "title": "Feel a CT scan slice by slice",
+      "description": "Volumetric data such as a medical CT scan is sliced and rendered as a physical cross-section you can run your hand over, scrubbing through the volume to feel its contours rather than reading them off a flat image.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/inform/",
+      "source_label": "MIT Tangible Media Group — inFORM"
+    },
+    {
+      "title": "Put your hand on a moving shape display in a museum",
+      "description": "inFORM was shown as a live interactive exhibit in the MIT Museum's Radical Atoms / 'Making Digital Tangible' showing, letting ordinary visitors touch a rippling pin surface alongside SandScape and TRANSFORM.",
+      "provenance": "observed",
+      "source_url": "https://www.media.mit.edu/events/mit-museum-exhibit-making-digital-tangible/",
+      "source_label": "MIT Media Lab — Making Digital Tangible exhibit"
+    },
+    {
+      "title": "A surface that builds the right jig mid-task",
+      "description": "Because the pins can raise constraints anywhere on demand, the table could pop up a temporary fence or cradle to hold a part steady while you work, then dissolve it once you move on.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Physical waveforms you can grab and bend",
+      "description": "A musician or engineer could see a live signal or math function extruded as a ridge across the table and press it down or pull it up to reshape the underlying data by hand.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

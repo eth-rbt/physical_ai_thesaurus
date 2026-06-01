@@ -59,5 +59,59 @@
       "year": 1999
     }
   ],
+  "interactions": [
+    {
+      "title": "Your shoe announces who you are as you walk",
+      "description": "A piezoelectric insole harvests power from each footfall and uses it to broadcast a 12-bit RFID identifier, so simply walking across a room transmits your ID with no battery to charge.",
+      "provenance": "documented",
+      "source_url": "https://resenv.media.mit.edu/power.html",
+      "source_label": "MIT Media Lab — Parasitic Power in Shoes"
+    },
+    {
+      "title": "A handshake passes a business card through your body",
+      "description": "Wearing a Personal Area Network transmitter, you shake someone's hand and a digital business card flows through the tiny electric fields coupled across both bodies, arriving in their device without a wire or radio.",
+      "provenance": "documented",
+      "source_url": "https://legacy.iftf.org/future-now/article-detail/before-body-area-networks?p=future-now/article-detail/before-body-area-networks",
+      "source_label": "IFTF — Before Body Area Networks"
+    },
+    {
+      "title": "Badges that read the room's agreement",
+      "description": "At lab meetings, attendees wore sensor badges that gauged 'intellectual proximity' between people and lit colored bars to show agreement; within minutes participants reinvented the handshake, exposing their chests to swap information.",
+      "provenance": "documented",
+      "source_url": "https://www.salon.com/1999/01/26/feature_236/",
+      "source_label": "Salon — Have my shoe talk to your refrigerator"
+    },
+    {
+      "title": "A cello that enlarges its own sound space",
+      "description": "An instrument augmented with sensors lets a cellist like Yo-Yo Ma control more sounds in more ways, the bow and fingering driving computation that expands the sonic palette beyond the strings alone.",
+      "provenance": "documented",
+      "source_url": "https://www.salon.com/1999/01/26/feature_236/",
+      "source_label": "Salon — Have my shoe talk to your refrigerator"
+    },
+    {
+      "title": "Coming home, your shoes brief the house",
+      "description": "Before you take off your coat, the computing in your shoes talks to the carpet, which cues delivery of the day's personalized news to your glasses — the consortium's vision of everyday objects relaying you to one another.",
+      "provenance": "documented",
+      "source_url": "https://ttt.media.mit.edu/",
+      "source_label": "MIT Media Lab — Things That Think"
+    },
+    {
+      "title": "A power-generating shoe on museum display",
+      "description": "An early shoe-mounted rotary magnetic generator that powered a portable radio as the wearer walked was exhibited at the London Museum of Science and Industry, putting the parasitic-power idea in front of the public.",
+      "provenance": "observed",
+      "source_url": "https://resenv.media.mit.edu/power.html",
+      "source_label": "MIT Media Lab — Parasitic Power in Shoes"
+    },
+    {
+      "title": "Grab a doorknob and unlock by touch alone",
+      "description": "Building on body-coupled signaling, a doorknob or transit gate could read the credential a person already carries in their shoe the instant skin meets metal, with no card to tap or phone to wake.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A walked-in charge for the device you forgot to plug in",
+      "description": "The same footfall harvesting that powered an RFID beacon could top up a hearing aid or a low-energy sensor over the course of a stroll, so the act of getting somewhere quietly refuels what you carry.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

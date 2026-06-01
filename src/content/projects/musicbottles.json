@@ -53,5 +53,52 @@
       "year": 2001
     }
   ],
+  "interactions": [
+    {
+      "title": "Uncork an instrument",
+      "description": "Lift the cork off one bottle on the lit table and that instrument's part of Lalo's Piano Trio in C Minor becomes audible; recork it and the violin, cello, or piano drops back out of the mix.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/musicbottles/",
+      "source_label": "MIT Tangible Media Group - musicBottles"
+    },
+    {
+      "title": "Conduct the trio by hand",
+      "description": "With three bottles on the stage, a person opens and closes them in different combinations to build the piece up or strip it down to a solo, arranging the music with the everyday gesture of opening a bottle rather than any screen or control.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/musicbottles/",
+      "source_label": "MIT Tangible Media Group - musicBottles"
+    },
+    {
+      "title": "Watch the music in light",
+      "description": "As tracks play, a pattern of colored light is rear-projected up through the translucent tabletop, shifting with the pitch and volume of the sound so the bottles appear to glow in time with what you hear.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/musicbottles/",
+      "source_label": "MIT Tangible Media Group - musicBottles"
+    },
+    {
+      "title": "A bottle that holds the weather",
+      "description": "In the design that seeded the project, Ishii imagined bottles delivering weather, news, and music to his mother: opening one to a chirp of birdsong meant a fine day, while another held the sound of a jazz trio.",
+      "provenance": "documented",
+      "source_url": "https://medium.com/mit-media-lab/tangible-influence-a-stroll-through-hiroshi-ishiis-living-legacy-412e60cf950b",
+      "source_label": "MIT Media Lab - Ishii's living legacy"
+    },
+    {
+      "title": "Open a bottle to a jazz trio",
+      "description": "Beyond the classical trio, the bottles were filled with the recording of a jazz ensemble, so uncorking each one releases a single player and lets a listener pull the band apart instrument by instrument.",
+      "provenance": "documented",
+      "source_url": "https://medium.com/mit-media-lab/tangible-influence-a-stroll-through-hiroshi-ishiis-living-legacy-412e60cf950b",
+      "source_label": "MIT Media Lab - Ishii's living legacy"
+    },
+    {
+      "title": "A scent-bottle inbox for messages",
+      "description": "Following the weather-bottle idea, a small set of perfume-style bottles on a nightstand could each hold a voice from a particular family member, so uncorking one at the end of the day plays back a short message they left, grounded in the same tag-and-cork sensing.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Pour out a soundscape for a room",
+      "description": "Using the cork-open sensing to fade ambient audio in and out, a cafe could set bottles on each table so guests open one to release birdsong, rain, or a string quartet into their corner without touching a phone or speaker.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

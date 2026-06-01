@@ -54,5 +54,59 @@
       "year": null
     }
   ],
+  "interactions": [
+    {
+      "title": "Bend to zoom, bend harder to commit",
+      "description": "Holding the card in two hands, you flex it to zoom or scroll continuously like an analog joystick; push the bend past a threshold and it registers a discrete \"click\" that locks in your selection.",
+      "provenance": "documented",
+      "source_url": "https://www.sonycsl.co.jp/project/410/",
+      "source_label": "Sony CSL — Gummi project page"
+    },
+    {
+      "title": "Steer a cursor from behind the screen",
+      "description": "Your thumb drags across a 2D position sensor on the back of the device to move an on-screen cursor, so your finger never covers the small flexible display while you point.",
+      "provenance": "documented",
+      "source_url": "https://www.sonycsl.co.jp/project/410/",
+      "source_label": "Sony CSL — Gummi project page"
+    },
+    {
+      "title": "Browse the web with no buttons",
+      "description": "With no buttons or switches anywhere on the body, you navigate a graphical web browser by positioning the rear cursor over a link and bending the whole device to follow it.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/985692.985726",
+      "source_label": "Schwesig, Poupyrev & Mori, CHI 2004"
+    },
+    {
+      "title": "Pan and zoom a map by hand",
+      "description": "Touch the back of the card to recenter the map on a place, then bend the device to zoom in until it switches into a detailed street view.",
+      "provenance": "documented",
+      "source_url": "https://www.sonycsl.co.jp/project/410/",
+      "source_label": "Sony CSL — Gummi project page"
+    },
+    {
+      "title": "Learn the whole interface in minutes",
+      "description": "In informal evaluations people picked up bending-plus-rear-touch within a few minutes and described it as easy, fun, and natural, with the rear touchpad an especially popular way to drive a tiny screen.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/985692.985726",
+      "source_label": "Schwesig, Poupyrev & Mori, CHI 2004"
+    },
+    {
+      "title": "Flip through photos and play a game",
+      "description": "Beyond browsing and maps, the prototype was shown handling image viewing, simple 3D gaming, and text entry, all driven by the same bend-and-touch vocabulary.",
+      "provenance": "documented",
+      "source_url": "https://www.sonycsl.co.jp/project/410/",
+      "source_label": "Sony CSL — Gummi project page"
+    },
+    {
+      "title": "Squeeze-to-confirm reading device",
+      "description": "An e-reader built on the same bend-as-push, bend-past-threshold-as-click mechanic: lightly flex to page forward at a speed set by how far you bend, and a firmer bend bookmarks the spot, with no rim buttons to fumble for in the dark.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Two-handed accessibility pointer",
+      "description": "For someone who finds precise on-screen tapping hard, the rear position pad plus gross bending gesture offers a coarse, whole-hand way to point and select that never requires occluding the display.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

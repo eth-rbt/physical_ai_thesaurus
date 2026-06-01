@@ -51,5 +51,52 @@
       "year": 1996
     }
   ],
+  "interactions": [
+    {
+      "title": "Read the network from a dangling string",
+      "description": "An eight-foot plastic strand hangs from the ceiling, spun by a small motor wired to the office Ethernet; a quiet network gives it an occasional twitch, a busy one sets it whirling with a soft whir, so people sense traffic load from across the hall without looking at a screen.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology",
+      "source_label": "Weiser & Brown, Designing Calm Technology"
+    },
+    {
+      "title": "Time your coffee break through an inner office window",
+      "description": "Glass windows between offices and the hallway let someone notice motion in the periphery — colleagues heading to lunch, a meeting starting — and decide when to step out, all without consciously watching the corridor.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology",
+      "source_label": "Weiser & Brown, Designing Calm Technology"
+    },
+    {
+      "title": "Keep a far-off room in the corner of your eye",
+      "description": "A continuous multicast video feed acts as a window of awareness rather than a video call: you catch the weather outside a distant office or the unusual quiet of a normally busy room out of the corner of your eye, and only turn to look when something seems off.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology",
+      "source_label": "Weiser & Brown, Designing Calm Technology"
+    },
+    {
+      "title": "Notice the engine before you listen for it",
+      "description": "The essay uses driving to explain peripheral attunement: a driver's focus rests on the road and conversation, not the engine note, yet an unusual sound is caught instantly and pulled to the center — the model calm displays aim to imitate.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology",
+      "source_label": "Weiser & Brown, Designing Calm Technology"
+    },
+    {
+      "title": "Let a glance pull detail to the center and back",
+      "description": "Because a peripheral display informs without demanding focus, a worker can stay attuned to an ambient signal all day and, the moment it matters, attend to it fully, then let it recede again — the back-and-forth between periphery and center the essay calls 'calm'.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology",
+      "source_label": "Weiser & Brown, Designing Calm Technology"
+    },
+    {
+      "title": "A whirling-string status line for any quiet system",
+      "description": "Borrowing the Dangling String's mechanic, a fragile-but-recoverable system (a build queue, a backlog, a river gauge) could drive a slow physical motion in a hallway so a team feels its state ambiently and only crowds the screen when the motion turns frantic.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Peripheral 'window of awareness' for a remote collaborator",
+      "description": "Extending the multicast example, a low-detail always-on view of a teammate's workspace could sit at the edge of a shared room, conveying presence and rhythm without the focal demand of a video call, and surfacing to the center only on a wave or a knock.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

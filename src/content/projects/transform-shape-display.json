@@ -61,5 +61,59 @@
       "year": 2014
     }
   ],
+  "interactions": [
+    {
+      "title": "The table breathes when you walk past",
+      "description": "A sensor reads the kinetic energy of viewers moving nearby and drives it into the pin field, so the tabletop ripples with wind-and-water-like waves that rise and fall in response to people approaching.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/transform/",
+      "source_label": "MIT Tangible Media Group — TRANSFORM"
+    },
+    {
+      "title": "A bowl of fruit that ferries itself",
+      "description": "The actuated pins cradle everyday objects — fruit, game tokens, office supplies, a tablet — and slide them across the surface, so the furniture physically delivers an item toward you instead of waiting to be reached for.",
+      "provenance": "documented",
+      "source_url": "https://www.media.mit.edu/projects/transform-adaptive-and-dynamic-furniture/overview/",
+      "source_label": "MIT Media Lab — TRANSFORM project overview"
+    },
+    {
+      "title": "Raise a wall on demand",
+      "description": "On command, a band of pins climbs up to form a divider across the tabletop, partitioning the surface into zones and then sinking flat again when it is no longer needed.",
+      "provenance": "documented",
+      "source_url": "https://www.media.mit.edu/projects/transform-adaptive-and-dynamic-furniture/overview/",
+      "source_label": "MIT Media Lab — TRANSFORM project overview"
+    },
+    {
+      "title": "Kinetic sculpture that delivers a message",
+      "description": "The same pins assemble into expressive moving sculptures that convey messages and accompany audio, turning the tabletop into a performer rather than a passive piece of furniture.",
+      "provenance": "documented",
+      "source_url": "https://www.media.mit.edu/projects/transform-adaptive-and-dynamic-furniture/overview/",
+      "source_label": "MIT Media Lab — TRANSFORM project overview"
+    },
+    {
+      "title": "Nature versus machine, told in moving sand",
+      "description": "Across three joined shape displays the surface enacts a continuous narrative of conflict and reconciliation between nature and machine, with motion inspired by wind, water, sand, and Escher's perpetual-motion drawings.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/transform/",
+      "source_label": "MIT Tangible Media Group — TRANSFORM"
+    },
+    {
+      "title": "Debuted as a living centerpiece in Milan",
+      "description": "TRANSFORM was first shown publicly at LEXUS DESIGN AMAZING 2014 in Milan, where gallery visitors walking the room set the thousand-pin tabletop rippling in real time.",
+      "provenance": "documented",
+      "source_url": "https://www.media.mit.edu/projects/transform/overview/",
+      "source_label": "MIT Media Lab — TRANSFORM overview"
+    },
+    {
+      "title": "A desk that clears itself for the next task",
+      "description": "Grounded in TRANSFORM's demonstrated ability to slide objects and raise dividers, the table could sweep pens and a phone to one side and lift a low ridge to fence off a clean work zone when you sit down to focus.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Board-game host with no human dealer",
+      "description": "Extending the shown game-token handling, the surface could ferry pieces to each player in turn and raise temporary walls to hide a hand, acting as a physical game master built only from raising and lowering pins.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

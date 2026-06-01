@@ -33,6 +33,60 @@
       "alt_text": "Photograph of people gathered around a table connecting rectangular physical command blocks together to form a tangible computer program."
     }
   ],
+  "interactions": [
+    {
+      "title": "Drive the submarine by snapping commands together",
+      "description": "Children physically connect command blocks in a row on the shared table to assemble a Logo-like program, then run it to steer an on-screen submarine through a maze toward a goal.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.3115/222020.222828",
+      "source_label": "Suzuki & Kato, CSCL '95 (ACM)"
+    },
+    {
+      "title": "Dial in how far it goes",
+      "description": "Blocks like FORWARD carry a parameter switch the learner turns to set a value, so tuning the submarine's distance or turn is a physical adjustment on the block itself rather than a typed number.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.3115/222020.222828",
+      "source_label": "Suzuki & Kato, CSCL '95 (ACM)"
+    },
+    {
+      "title": "Loop and branch with control blocks",
+      "description": "Repeat-until and if-then-else blocks let learners build loops and conditionals out of the same graspable pieces, structuring a real program by hand instead of on a screen.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.3115/222020.222828",
+      "source_label": "Suzuki & Kato, CSCL '95 (ACM)"
+    },
+    {
+      "title": "Watch the program light up block by block",
+      "description": "As the program runs, a lamp on each block flashes in turn, so learners can literally see the flow of control travel down the row of blocks and connect a misbehaving submarine to the block that caused it.",
+      "provenance": "documented",
+      "source_url": "https://www.researchgate.net/publication/242383829",
+      "source_label": "Suzuki & Kato — AlgoBlock paper (ResearchGate)"
+    },
+    {
+      "title": "Step through a bug by pressing buttons",
+      "description": "In debug mode learners trace the program one command at a time by pushing a button on each block, watching the submarine inch forward so they can localise where the logic goes wrong.",
+      "provenance": "documented",
+      "source_url": "https://www.researchgate.net/publication/242383829",
+      "source_label": "Suzuki & Kato — AlgoBlock paper (ResearchGate)"
+    },
+    {
+      "title": "Point at the blocks instead of describing them",
+      "description": "Because the program sits in shared physical space, the authors observed children pointing directly at and grabbing blocks while talking, using abridged deictic speech and each other's eye lines and gestures to coordinate who changes what.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.3115/222020.222828",
+      "source_label": "Suzuki & Kato, CSCL '95 (ACM)"
+    },
+    {
+      "title": "Hand a teammate the loop block",
+      "description": "Because each command is a separate graspable object, a group could split a task by passing physical blocks around the table — one child owns the turn, another the repeat — making division of labour in coding a literal exchange of pieces.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Race two submarines from rival block programs",
+      "description": "Two teams each assemble their own block sequence and run them against the same maze, turning the trace-the-lamps debugging loop into a side-by-side contest over whose program reaches the goal in fewer moves.",
+      "provenance": "proposed"
+    }
+  ],
   "sources": [
     {
       "source_id": "source-algoblock-001",

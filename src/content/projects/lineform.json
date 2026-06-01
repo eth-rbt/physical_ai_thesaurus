@@ -62,5 +62,59 @@
       "year": 2015
     }
   ],
+  "interactions": [
+    {
+      "title": "A phone that reshapes to its task",
+      "description": "The same line of motors curls into a wristband on your arm, straightens into a handset when a call comes in, and lies flat as a tablet-like surface to read on — one object physically reconfiguring itself for each use.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2807442.2807452",
+      "source_label": "Nakagaki, Follmer & Ishii, UIST '15"
+    },
+    {
+      "title": "Bend it and it remembers the move",
+      "description": "You grab the chain and physically pose it into a curve; the integrated joint sensors record the gesture so the line can replay or hold that shape on its own — programming by direct physical demonstration rather than code.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2807442.2807452",
+      "source_label": "Nakagaki, Follmer & Ishii, UIST '15"
+    },
+    {
+      "title": "Joints that stiffen to snap into place",
+      "description": "As you push and deform the line, its variable-stiffness joints resist or give way to guide your hand into discrete positions — a physical snap-to-grid you feel in your fingers instead of see on a screen.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2807442.2807452",
+      "source_label": "Nakagaki, Follmer & Ishii, UIST '15"
+    },
+    {
+      "title": "A cord that ties and re-routes itself",
+      "description": "Demonstrated as shape-changing cords and mobiles, the actuated line coils, wraps, and re-routes on its own — a power cord that tidies itself or a hanging mobile that rearranges its form over time.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/lineform/",
+      "source_label": "MIT Tangible Media Group — LineFORM"
+    },
+    {
+      "title": "A line that becomes a physical constraint",
+      "description": "Treating the curve as a boundary or borderline, LineFORM forms a body constraint — wrapping or bracing against a limb to gently limit or guide movement, turning a line into a tangible barrier.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/lineform/",
+      "source_label": "MIT Tangible Media Group — LineFORM"
+    },
+    {
+      "title": "Data you can read off a curve",
+      "description": "Because a line can encode abstract data in its shape, LineFORM bends into graphs, gauges, or ambient indicators that physically rise and fall as the underlying values change.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2807442.2807452",
+      "source_label": "Nakagaki, Follmer & Ishii, UIST '15"
+    },
+    {
+      "title": "A desk ruler that bends to your measurement",
+      "description": "Grounded in its programming-by-demonstration and shape-holding, the line could act as a tool that curves to a target length or angle on command, then stiffens its joints so you can trace or measure against the physical reference.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A posture reminder on your wrist",
+      "description": "Building on the wristband form and variable-stiffness joints, the worn line could subtly tighten or shift shape as a tactile nudge — a slow physical cue to sit up or take a break, felt rather than heard.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

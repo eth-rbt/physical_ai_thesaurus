@@ -61,5 +61,60 @@
       "year": 2016
     }
   ],
+  "interactions": [
+    {
+      "title": "Draw a line and watch the swarm become it",
+      "description": "Drag the freehand-drawing zooid across the table and the idle robots waiting at the top peel off one by one to fill in behind it, forming a physical trail that follows your hand like a snake; you can then reshape the curve by nudging individual robots or sweeping a whole group aside with the side of your arm.",
+      "provenance": "documented",
+      "source_url": "https://shape.stanford.edu/research/swarm/SwarmUIs_no_copyright.pdf",
+      "source_label": "Zooids paper (UIST 2016) — Swarm Drawing",
+      "image_id": "img-zooids-001"
+    },
+    {
+      "title": "Rubber-band a circle that grows and shrinks its own robot count",
+      "description": "Grab two zooids as control points and pull them apart, and the swarm lays out the circle between them; as you enlarge or shrink the diameter the system automatically rolls extra robots in to complete the arc or sends surplus ones away, so the shape always has just enough physical pixels.",
+      "provenance": "documented",
+      "source_url": "https://shape.stanford.edu/research/swarm/SwarmUIs_no_copyright.pdf",
+      "source_label": "Zooids paper (UIST 2016) — Shapes"
+    },
+    {
+      "title": "Bend a physical Bézier curve by its handles",
+      "description": "A row of zooids stands in for a curve while paired control-point robots act as the anchor and tangent handles; tug a tangent zooid and the whole collection re-curves in place, giving you a tangible version of the Bézier editing you'd normally do with a mouse.",
+      "provenance": "documented",
+      "source_url": "https://shape.stanford.edu/research/swarm/SwarmUIs_no_copyright.pdf",
+      "source_label": "Zooids paper (UIST 2016) — Bézier Curves"
+    },
+    {
+      "title": "Scrub a live line chart with two robot thumbs",
+      "description": "A CPU-usage line chart is drawn by the swarm over a paper backdrop of printed axes, sliding left as new data arrives; two zooids at the bottom-right behave like the thumbs of a range slider, so you slide one out to stretch the visible window or push both left to scroll into the past, and another robot toggles the chart between CPU and memory.",
+      "provenance": "documented",
+      "source_url": "https://shape.stanford.edu/research/swarm/SwarmUIs_no_copyright.pdf",
+      "source_label": "Zooids paper (UIST 2016) — Interactive Swarm Visualization"
+    },
+    {
+      "title": "Pick up a data point and drop it into another plot",
+      "description": "In the multiple-scatterplot tool each zooid is a single data record; spot an interesting cluster, physically lift one of those robots and set it down in a neighboring plot to see how that same point maps onto different dimensions, or park it on a phone or tablet to pull up its full details.",
+      "provenance": "documented",
+      "source_url": "https://shape.stanford.edu/research/swarm/SwarmUIs_no_copyright.pdf",
+      "source_label": "Zooids paper (UIST 2016) — Multiple Scatterplots"
+    },
+    {
+      "title": "Record a layout, step the timeline, get stop-motion in robots",
+      "description": "Arrange the zooids into a pose, tap the timeline zooid forward to bank it as a keyframe, repeat for the next pose, then flip the playback zooid and the swarm runs through your keyframes as a physical stop-motion animation.",
+      "provenance": "documented",
+      "source_url": "https://shape.stanford.edu/research/swarm/SwarmUIs_no_copyright.pdf",
+      "source_label": "Zooids paper (UIST 2016) — Stop Motion Swarm Animation"
+    },
+    {
+      "title": "A desktop pet that taps the glass to remind you",
+      "description": "Building on the paper's sketched in-the-wild idea of zooids as ambient desk objects, a robot could trundle over and tap a nearby glass or chime when a meeting starts or to nudge you to drink water — using the same touch-and-motion robots, just deployed as a notification device rather than a chart.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Tabletop board-game pieces that move themselves",
+      "description": "Because zooids run on any flat surface including a game board and can be manipulated individually as tokens, an opponent's pieces could advance under computer control during the AI's turn while you slide your own by hand, blending a physical board game with self-moving adversaries.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

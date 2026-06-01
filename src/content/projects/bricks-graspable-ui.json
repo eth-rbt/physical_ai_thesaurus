@@ -63,5 +63,59 @@
       "year": 1995
     }
   ],
+  "interactions": [
+    {
+      "title": "Set a brick down to grab the shape under it",
+      "description": "You place a small block on the ActiveDesk and it latches onto the virtual object beneath it; slide or twist the block and the shape translates and rotates with it, then lift the block off the surface to let go.",
+      "provenance": "documented",
+      "source_url": "https://www.billbuxton.com/bricks.html",
+      "source_label": "Buxton - Bricks project page"
+    },
+    {
+      "title": "Stretch a shape between two hands",
+      "description": "Anchor one brick at a corner of a rectangle and pull a second brick away with your other hand, and the shape scales and deforms between the two grasped points like a piece of clay held at both ends.",
+      "provenance": "documented",
+      "source_url": "https://www.billbuxton.com/bricks.html",
+      "source_label": "Buxton - Bricks project page"
+    },
+    {
+      "title": "Move, rotate, and scale all at once",
+      "description": "Because each hand holds a real handle, people in the study naturally dragged a square toward its target while simultaneously rotating and resizing it, collapsing steps that a single mouse forces you to do one at a time.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/223904.223964",
+      "source_label": "Fitzmaurice, Ishii, Buxton - CHI '95"
+    },
+    {
+      "title": "Dunk a brick to pick a tool",
+      "description": "In GraspDraw you dip a brick into a compartment of a physical tray as if into an inkwell; a soft beep confirms the switch and the chosen tool or shape icon (rectangle, line, circle, select, delete) attaches to that brick.",
+      "provenance": "documented",
+      "source_url": "https://www.billbuxton.com/bricks.html",
+      "source_label": "Buxton - Bricks project page"
+    },
+    {
+      "title": "Bend a curve by its control points",
+      "description": "Set several bricks down on the control points of a spline and tug them independently, reshaping the curve by grabbing its handles directly rather than clicking each vertex in turn.",
+      "provenance": "documented",
+      "source_url": "https://www.billbuxton.com/bricks.html",
+      "source_label": "Buxton - Bricks project page"
+    },
+    {
+      "title": "Lay out a room by shuffling furniture blocks",
+      "description": "The paper sketches a floor planner where each piece of furniture carries its own brick, so you rearrange the room in rapid trial-and-error by pushing the physical handles around the surface with both hands.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/223904.223964",
+      "source_label": "Fitzmaurice, Ishii, Buxton - CHI '95"
+    },
+    {
+      "title": "Two people editing the same canvas",
+      "description": "Because each handle is its own physical object on a shared surface, two collaborators could each grab a brick and reposition different elements of the same drawing at the same time, without contending for one cursor.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A tactile keyframe rig for animation",
+      "description": "Drop bricks on the path nodes of a moving object and slide them to retime or reroute the motion, using the same grasp-the-control-point mechanic the spline demo showed, but applied to a timeline.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

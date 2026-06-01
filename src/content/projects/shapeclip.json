@@ -36,6 +36,60 @@
       "alt_text": "An array of small motorized clip modules attached to the surface of a flat display, each raised to a different height to create a relief of physical pixels."
     }
   ],
+  "interactions": [
+    {
+      "title": "Animate physical pixels by drawing greyscale",
+      "description": "A designer animates a row of clips just by sweeping a black-to-white gradient across a PowerPoint slide or Photoshop layer: darker pixels drop the motor, brighter pixels raise it, so the relief rises and falls with the on-screen animation and no code is written.",
+      "provenance": "documented",
+      "source_url": "https://csweichel.de/papers/2015-shapeclip.pdf",
+      "source_label": "ShapeClip paper (PDF) — End User Development"
+    },
+    {
+      "title": "Physicalise a map by placing clips on it (LensClips)",
+      "description": "On a Surface table or tablet showing a population-density map, a user scatters clips onto interesting regions and each one rises to the local value, or slides a grid of clips as a single 'magic lens' across the map to feel trends emerge under their hand.",
+      "provenance": "documented",
+      "source_url": "https://csweichel.de/papers/2015-shapeclip.pdf",
+      "source_label": "ShapeClip paper — LensClips scenario"
+    },
+    {
+      "title": "Draw the motion onto a teddy bear (PaintClips)",
+      "description": "A child slides a clip-augmented teddy bear across an interactive surface and its arms wave; designers author this by painting motion behaviours directly on the screen, using a fill tool for snappy state changes and a gradient tool for slow, subtle movement.",
+      "provenance": "documented",
+      "source_url": "https://csweichel.de/papers/2015-shapeclip.pdf",
+      "source_label": "ShapeClip paper — PaintClips scenario"
+    },
+    {
+      "title": "Press a stretchy table that pushes back (ForceClips)",
+      "description": "A spandex sheet stretched over a 48-clip (8x6) array becomes a continuous deformable surface; wearing a pressure-sensing glove, a person presses into it and the table reacts to how hard they push at each point.",
+      "provenance": "documented",
+      "source_url": "https://csweichel.de/papers/2015-shapeclip.pdf",
+      "source_label": "ShapeClip paper — ForceClips scenario"
+    },
+    {
+      "title": "Controls that surface from a sofa when you need them (TangibleClips)",
+      "description": "Clips embedded in a sofa prototype a shape-changing TV remote whose buttons physically rise only when required, and a four-clip assembly tilts a propped iPad to re-orient toward the user in response to gestures picked up by a Kinect.",
+      "provenance": "documented",
+      "source_url": "https://csweichel.de/papers/2015-shapeclip.pdf",
+      "source_label": "ShapeClip paper — TangibleClips scenario"
+    },
+    {
+      "title": "Bar charts that pop out of a magazine page (PortableClips)",
+      "description": "Battery-powered clips are clipped onto a tablet over a magazine layout and held by a laser-cut template, turning on-screen bar charts into physical bars the reader can touch to inspect specific values, all without external control circuitry.",
+      "provenance": "documented",
+      "source_url": "https://csweichel.de/papers/2015-shapeclip.pdf",
+      "source_label": "ShapeClip paper — PortableClips scenario"
+    },
+    {
+      "title": "Feel a live dataset rise on your desk",
+      "description": "Because clips track on-screen luminance in real time, a dashboard could drive a small clip array so an analyst feels server load or stock movements rise and dip as physical bars at the edge of an ordinary monitor.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Ambient calendar that builds the day in relief",
+      "description": "A web page rendering greyscale blocks per appointment could push clips up across the morning and let them settle as meetings pass, giving a glanceable physical sense of how full the day still is.",
+      "provenance": "proposed"
+    }
+  ],
   "sources": [
     {
       "source_id": "source-shapeclip-001",

@@ -69,5 +69,59 @@
       "year": null
     }
   ],
+  "interactions": [
+    {
+      "title": "Modules crawl across a connector grid to assemble furniture",
+      "description": "Several Roombot modules rotate end-over-end and grip into a grid of connector plates on the floor and walls, climbing into position and latching to each other and to passive panels to build up a stool, chair, or table.",
+      "provenance": "documented",
+      "source_url": "https://www.epfl.ch/labs/biorob/research/modular/roombots/",
+      "source_label": "EPFL BioRob — Roombots"
+    },
+    {
+      "title": "A piece of furniture reconfigures itself over the day",
+      "description": "The same set of modules changes role as needs change — a stool grows into a chair, or a row of chairs merges into a sofa — by detaching and reconnecting rather than being replaced.",
+      "provenance": "documented",
+      "source_url": "https://www.epfl.ch/labs/biorob/research/modular/roombots/",
+      "source_label": "EPFL BioRob — Roombots"
+    },
+    {
+      "title": "Modules learn an efficient gait for a new shape",
+      "description": "When modules form a new structure like a tripod or snake, central pattern generator controllers are tuned online by stochastic optimization so the assembly discovers an efficient way to locomote across the floor.",
+      "provenance": "documented",
+      "source_url": "https://journals.sagepub.com/doi/10.1177/0278364907088401",
+      "source_label": "IJRR — CPGs + online optimization"
+    },
+    {
+      "title": "Two modules cooperate to climb over a corner",
+      "description": "One module braces and lifts while a second swings over the edge of a step or corner, letting the pair traverse 3D obstacles that a single module could not climb alone.",
+      "provenance": "documented",
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0921889013001632",
+      "source_label": "Robotics and Autonomous Systems — hardware paper"
+    },
+    {
+      "title": "An ordinary IKEA table gets up and walks to you",
+      "description": "Roombot modules clipped onto the legs of a normal table turn it into mobile furniture that walks to a chosen spot, demonstrated alongside a jamming gripper that lets a module pick small objects up off the floor.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/roombot-swarm-on-demand-mobile-furniture",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "Furniture summoned, dismissed, or shooed by gesture",
+      "description": "With overhead Kinect hand tracking, a person waves a stool over to sit on or sends it away — including the demo of 'chairs that flee from you' — closing the loop between human gesture and furniture that comes and goes.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/roombot-swarm-on-demand-mobile-furniture",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "An older adult asks the room to help them stand",
+      "description": "Grounded in the lab's assistive-furniture vision, a resident recovering from a fall could have nearby modules grow into a graded sequence of supports — low cushion to seat to standing rail — guiding the transition between lying, sitting, and standing.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A conference room that re-lays itself out between meetings",
+      "description": "Between bookings the modular benches and tables crawl across the connector grid to switch the room from rows to a circle to clustered pods, matching the next session's format without anyone moving furniture by hand.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

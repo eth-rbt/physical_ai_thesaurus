@@ -60,5 +60,59 @@
       "year": 2015
     }
   ],
+  "interactions": [
+    {
+      "title": "Sweat opens the back of your shirt",
+      "description": "A runner heats up and starts to perspire, and the bacteria-coated flaps over the back's sweat zones curl open on their own, venting heat and letting moisture evaporate; as the skin cools and dries the flaps lie flat again.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/biologic/",
+      "source_label": "MIT Tangible Media Group — bioLogic"
+    },
+    {
+      "title": "A teabag that signals its own steeping",
+      "description": "A living teabag changes shape in the hot water as the steam and heat reach the natto film, giving a physical cue about temperature and steeping rather than a printed timer.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/biologic/",
+      "source_label": "MIT Tangible Media Group — bioLogic"
+    },
+    {
+      "title": "Flowers that bloom and wilt with the air",
+      "description": "An artificial plant made from the biofilm opens and closes its petals and shifts color as humidity rises and falls, blossoming when breathed on or in a damp room and curling shut as it dries.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/biologic/",
+      "source_label": "MIT Tangible Media Group — bioLogic"
+    },
+    {
+      "title": "A lampshade sculpted by the bulb's heat",
+      "description": "The heat coming off a light bulb activates the bacterial film of a lampshade, making it flex and reshape and so change how the light is thrown into the room.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/biologic/",
+      "source_label": "MIT Tangible Media Group — bioLogic"
+    },
+    {
+      "title": "Origami toys that fold themselves when you breathe on them",
+      "description": "Animated origami pieces printed with the natto film bend and reconfigure in response to moisture, so a person can drive the folding just by exhaling on them or holding them over steam.",
+      "provenance": "documented",
+      "source_url": "https://www.media.mit.edu/publications/biologic-natto-cells-as-nanoactuators-for-shape-changing-interfaces-2/",
+      "source_label": "MIT Media Lab — bioLogic publication"
+    },
+    {
+      "title": "Drawing the actuation with a bio-printer",
+      "description": "A designer lays down living cells in patterned lines with the custom micron-resolution bioprinter, programming exactly where a flat film will bend or curl when humidity hits it — printing behavior, not motors.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/biologic/",
+      "source_label": "MIT Tangible Media Group — bioLogic"
+    },
+    {
+      "title": "Wound dressing that breathes with the skin",
+      "description": "A bandage patterned with the humidity-responsive film could lift and vent over a sweaty or weeping area to release trapped moisture, then settle closed as the skin dries — a passive dressing that opens and shuts with no electronics.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A tent skin that ventilates itself",
+      "description": "Camping fabric printed with the natto actuators could open its weave when the humid air inside builds up from breath and body heat overnight, then close again as the interior dries, regulating airflow without zips or fans.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

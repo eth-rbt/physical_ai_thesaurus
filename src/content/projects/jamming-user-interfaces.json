@@ -35,6 +35,60 @@
       "alt_text": "A flexible interface surface using particle jamming, shown deforming and stiffening, demonstrating programmable shape and stiffness on a handheld device."
     }
   ],
+  "interactions": [
+    {
+      "title": "Sculpt a form, then freeze it",
+      "description": "With the Tunable Clay prototype you press and mold a soft, granular surface freely by hand; pull a vacuum and the material instantly locks rigid, holding the exact shape you just sculpted so it can be inspected or used as a control.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/jamming-user-interfaces/",
+      "source_label": "MIT Tangible Media Group — project page"
+    },
+    {
+      "title": "Buttons that rise and vanish under the screen",
+      "description": "The Behind-the-Tablet prototype puts a jamming layer beneath a touch surface so the device can stiffen selected regions into physical buttons or ridges when you need them, then soften back to a flat slate when you do not.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2380116.2380181",
+      "source_label": "ACM UIST '12 paper"
+    },
+    {
+      "title": "A see-through pad that pushes back",
+      "description": "The Transparent Haptic Lens uses index-matched particles and fluid so the jamming cell stays optically clear over a display, letting you feel programmable tactile resistance on top of an image you can still see through.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2380116.2380181",
+      "source_label": "ACM UIST '12 paper"
+    },
+    {
+      "title": "Bend a phone, and it stays bent",
+      "description": "The ShapePhone prototype is a handheld device with a compact, low-power pneumatic jamming core, so you can flex it into a curved or folded posture and have it hold that form as a saved physical configuration.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/jamming-user-interfaces/",
+      "source_label": "MIT Tangible Media Group — project page"
+    },
+    {
+      "title": "The surface reads the shape you made",
+      "description": "Because the jamming cells double as sensors — via optical capture of index-matched particles or capacitive and electric-field sensing — the system captures the high-resolution deformation you impose, so manipulating the material is itself an input.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2380116.2380181",
+      "source_label": "ACM UIST '12 paper"
+    },
+    {
+      "title": "Dial the stiffness of a stylus or knob",
+      "description": "Programmable particle stiffness lets a tool change how hard it pushes back: a jamming-based grip or slider can feel loose and pliable for coarse moves, then firm up to give precise, detented resistance for fine control.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2380116.2380181",
+      "source_label": "ACM UIST '12 paper"
+    },
+    {
+      "title": "A rehab grip that stiffens to match the patient",
+      "description": "A handheld jamming cell could soften for a weak grasp and progressively firm up as a patient regains strength, turning the same object into a tunable resistance device a therapist sets per session — grounded in the technique's programmable, per-region stiffness control.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Capture a clay maquette straight into CAD",
+      "description": "Sculpt a quick form on the Tunable Clay surface, freeze it, and let the built-in shape sensing digitize the deformation as a 3D mesh — using the same optical/capacitive sensing the prototypes already demonstrate to turn hand-molded shapes into editable models.",
+      "provenance": "proposed"
+    }
+  ],
   "sources": [
     {
       "source_id": "source-jamming-user-interfaces-001",

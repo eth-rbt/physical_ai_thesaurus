@@ -53,5 +53,73 @@
       "year": null
     }
   ],
+  "interactions": [
+    {
+      "title": "Push tiles into a pile to group them",
+      "description": "Shove several photo-bearing tiles together into a cluster and the system reads the near-simultaneous bumps through their accelerometers and infrared neighbor sensors, binding those images into one group on the host computer the way you would sort prints into stacks on a table.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1226969.1226984",
+      "source_label": "Merrill et al., TEI '07 — Photo Sorting"
+    },
+    {
+      "title": "Shake yes or no",
+      "description": "Shake a single tile vertically or horizontally to hand the system a positive or negative answer, a gestural stand-in for clicking confirm or cancel without any buttons.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1226969.1226984",
+      "source_label": "Merrill et al., TEI '07 — Yes/No gesture"
+    },
+    {
+      "title": "Snap a tile down to clear it",
+      "description": "Give a tile a sharp downward 'sugar-pack snap' and it drops its current data association, wiping the slate so the tile can take on a new piece of content.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1226969.1226984",
+      "source_label": "Merrill et al., TEI '07 — Sugar Pack Snap"
+    },
+    {
+      "title": "Thump the table to reshuffle the deck",
+      "description": "Bang your fist on the surface so every tile jolts at once; the shared accelerometer spike is read as a single command to swap a fresh set of data associations onto the whole collection.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1226969.1226984",
+      "source_label": "Merrill et al., TEI '07 — Thump gesture"
+    },
+    {
+      "title": "Gather a group into one tile",
+      "description": "With a single gesture on one member of an established pile, that tile is made to stand in for all the data in the group, collapsing a cluster down to a single representative handle you can carry off.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1226969.1226984",
+      "source_label": "Merrill et al., TEI '07 — Gather gesture"
+    },
+    {
+      "title": "Mix paint by setting tiles side by side",
+      "description": "In David Merrill's TED demo, placing a tile holding one 'bucket' of color next to another blends the two on screen, so a blue tile beside a yellow tile yields green where they meet.",
+      "provenance": "observed",
+      "source_url": "https://www.ted.com/talks/david_merrill_demos_siftables_the_smart_blocks",
+      "source_label": "David Merrill, TED 2009 demo"
+    },
+    {
+      "title": "Build an equation or a word by lining up tiles",
+      "description": "At TED, Merrill arranged number tiles next to an operator tile to compute sums and grow a Fibonacci sequence, and lined up letter tiles to spell words, turning arithmetic and spelling into something you assemble with your hands.",
+      "provenance": "observed",
+      "source_url": "https://www.ted.com/talks/david_merrill_demos_siftables_the_smart_blocks",
+      "source_label": "David Merrill, TED 2009 demo"
+    },
+    {
+      "title": "Sequence music by arranging sound tiles",
+      "description": "Merrill's TED talk also showed tiles each holding a sound, played back as a phrase by ordering them in a row, so composing a short loop becomes a matter of physically rearranging blocks.",
+      "provenance": "observed",
+      "source_url": "https://www.ted.com/talks/david_merrill_demos_siftables_the_smart_blocks",
+      "source_label": "David Merrill, TED 2009 demo"
+    },
+    {
+      "title": "Tilt a tile to pour content into its neighbor",
+      "description": "Lean one tile toward an adjacent one and treat the tilt as a pour, draining items or a value from the raised tile into the lower one — a gesture the onboard accelerometer plus 1cm infrared neighbor sensing already make possible.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A tabletop spelling game for a child",
+      "description": "Scatter letter tiles across a table and let a kid drag the right ones into a row to build a word, with each tile flashing or buzzing as it snaps into a correct neighbor — a direct extension of the neighbor-detection and per-tile display the platform was built around.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

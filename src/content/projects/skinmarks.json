@@ -61,5 +61,59 @@
       "year": 2017
     }
   ],
+  "interactions": [
+    {
+      "title": "Tap your knuckles like buttons, then flatten your hand to scrub",
+      "description": "A touch tattoo on the knuckles reads a fist as four discrete buttons sitting on the protruding peaks, and reads a flat hand as a smooth slider running along the same row of knuckles, so the same patch changes function with your pose.",
+      "provenance": "documented",
+      "source_url": "https://martinweigel.com/research/skinmarks/2017-SkinMarks.pdf",
+      "source_label": "SkinMarks paper (CHI 2017, PDF)"
+    },
+    {
+      "title": "A music remote on the side of your index finger",
+      "description": "A bend-plus-touch display worn along the index finger acts as a volume slider when the finger is straight, and snaps into three play/pause, next, and previous buttons when you bend the finger, with the lit-up segments showing which mode is active.",
+      "provenance": "documented",
+      "source_url": "https://martinweigel.com/research/skinmarks/2017-SkinMarks.pdf",
+      "source_label": "SkinMarks paper (CHI 2017, PDF)"
+    },
+    {
+      "title": "Slide your thumb along a finger crease to change volume while running",
+      "description": "The Wrinkle Slide places a touch sensor over a flexure line on a finger, so you can feel the crease through the thin tattoo and slide your thumb along it to adjust a value eyes-free, with a tap to select — built as a one-handed remote for a mobile music player.",
+      "provenance": "documented",
+      "source_url": "https://martinweigel.com/research/skinmarks/2017-SkinMarks.pdf",
+      "source_label": "SkinMarks paper (CHI 2017, PDF)"
+    },
+    {
+      "title": "Squeeze the bump on your wrist to catch a virtual creature",
+      "description": "The CaptureMark, a circular tattoo over the ulna bump on the wrist, distinguishes a touch from a squeeze: when an AR game pings you about a nearby object, you squeeze the tattoo to try to catch it, and it blinks and then glows to confirm the capture.",
+      "provenance": "documented",
+      "source_url": "https://martinweigel.com/research/skinmarks/2017-SkinMarks.pdf",
+      "source_label": "SkinMarks paper (CHI 2017, PDF)"
+    },
+    {
+      "title": "Touch a heart over your birthmark to call a loved one",
+      "description": "The HeartMark is a touch-sensitive heart-shaped display laid over a birthmark that lights up to signal a chosen person is available; tapping it places a call to them, using the existing skin mark as a personal, memorable button location.",
+      "provenance": "documented",
+      "source_url": "https://martinweigel.com/research/skinmarks/2017-SkinMarks.pdf",
+      "source_label": "SkinMarks paper (CHI 2017, PDF)"
+    },
+    {
+      "title": "Touch your wedding ring to make your partner's ring glow",
+      "description": "A hidden tattoo under a plain wedding ring makes the ring touch-sensitive and adds a sliver of display around it, so touching your own ring sends a soft glow to your partner's ring for subtle, wordless contact — without modifying the ring itself.",
+      "provenance": "documented",
+      "source_url": "https://martinweigel.com/research/skinmarks/2017-SkinMarks.pdf",
+      "source_label": "SkinMarks paper (CHI 2017, PDF)"
+    },
+    {
+      "title": "A discreet glance-free accept/decline for incoming calls",
+      "description": "Building on the demonstrated wrinkle toggle, a slim two-electrode sensor over a finger crease could let you swipe one way across the wrinkle to accept a call and the other way to decline, feeling the crease as your guide so you never look at a screen.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "An eyes-free brightness or temperature dial worn on a knuckle",
+      "description": "Because the knuckle slider already supports tactile-tick continuous input, the same patch could be mapped to a home dimmer or thermostat, letting you run a thumb across your knuckles to nudge a value up or down while your hands stay busy.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

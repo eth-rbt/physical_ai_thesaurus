@@ -54,5 +54,59 @@
       "year": 2017
     }
   ],
+  "interactions": [
+    {
+      "title": "Flatten the table to gather close, raise a wall to step back",
+      "description": "A small group leans in around a low horizontal tabletop for hands-on work; when they want to present, the surface tilts and rises into a near-vertical wall display, pushing people upright and back into a standing audience arrangement.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/3025453.3025487",
+      "source_label": "ACM — Proxemic Transitions (CHI 2017)"
+    },
+    {
+      "title": "Pace the room by how fast the furniture moves",
+      "description": "The authors treat transition speed as a design knob: a slow creep lets people drift and rearrange themselves comfortably, while a brisk shift commands attention and signals a change of activity, so the furniture sets the social tempo of the meeting.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/3025453.3025487",
+      "source_label": "ACM — Proxemic Transitions (CHI 2017)"
+    },
+    {
+      "title": "Step through intermediate layouts instead of all-or-nothing",
+      "description": "Through stepwise reconfiguration the surface pauses at in-between angles and heights, letting a group settle into a half-raised, half-flat arrangement that suits a hybrid sit-and-discuss moment rather than snapping straight to a finished shape.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/3025453.3025487",
+      "source_label": "ACM — Proxemic Transitions (CHI 2017)"
+    },
+    {
+      "title": "Trigger a radical shift to reset the gathering",
+      "description": "A radical shift dramatically re-forms the furniture between fundamentally different configurations, physically breaking up one spatial formation and herding people into a new one to mark the boundary between, say, brainstorming and review.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/3025453.3025487",
+      "source_label": "ACM — Proxemic Transitions (CHI 2017)"
+    },
+    {
+      "title": "Balance physical motion against on-screen change",
+      "description": "Grounded in proxemics theory and field studies of informal meetings, the design steers when to move the physical form versus when to transform the digital content on its interactive surface, so the room's geometry and the shared display shift in concert.",
+      "provenance": "documented",
+      "source_url": "https://pure.au.dk/portal/en/publications/proxemic-transitions-designing-shapechanging-furniture-for-informal-meetings(c72738ba-ae9b-45a1-a68b-1395eb1db380).html",
+      "source_label": "Aarhus University — publication record"
+    },
+    {
+      "title": "Carried forward into the KirigamiTable tabletop",
+      "description": "The same group reworked these ideas into KirigamiTable (CHI 2020), an actuated shape-changing tabletop that physically deforms its surface to support proxemic transitions in collaborative work, testing cooperative control and how people anticipate the shape change.",
+      "provenance": "observed",
+      "source_url": "https://dl.acm.org/doi/abs/10.1145/3313831.3376834",
+      "source_label": "ACM — KirigamiTable (CHI 2020)"
+    },
+    {
+      "title": "Furniture that opens a circle for a newcomer",
+      "description": "When someone new approaches a huddle, the table could ease its edge down and widen its footprint to physically make room, using a slow stepwise transition to invite them in without anyone having to scoot their chair.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Standing-meeting timer you can feel",
+      "description": "For a time-boxed stand-up, the surface starts as a tall, lean-against wall and gradually lowers toward a sit-down tabletop as the clock runs out, letting the room read the remaining time from the furniture's posture instead of a screen.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

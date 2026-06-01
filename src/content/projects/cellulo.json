@@ -62,5 +62,59 @@
       "year": null
     }
   ],
+  "interactions": [
+    {
+      "title": "Grab a planet and feel its orbit pull back",
+      "description": "A student takes hold of one robot standing in for a planet and drags it across the paper solar system; the robot pushes back through its ball drive so the gravitational tug between bodies is something the hand actually feels, not just watches on a screen.",
+      "provenance": "documented",
+      "source_url": "https://www.epfl.ch/labs/chili/index-html/research/cellulo/",
+      "source_label": "EPFL CHILI Lab — Cellulo"
+    },
+    {
+      "title": "Plant a high-pressure zone and watch a balloon drift",
+      "description": "In the Windfield activity, children set down robots as high-pressure points on a weather map and a free robot, acting like a hot-air balloon, is shoved away from them toward low pressure with a force that fades with distance — felt in the hand as well as seen.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/cellulo-introduces-classrooms-to-tangible-learning-with-robots",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "Get nudged back onto the line of a letter",
+      "description": "A child drives a robot along a printed letter's stroke; when their hand wanders off the path the robot gently steers back toward it, its top lights glowing blue on track and red when astray, turning green when the letter is done.",
+      "provenance": "documented",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7805874/",
+      "source_label": "Frontiers in Robotics and AI (2020)"
+    },
+    {
+      "title": "Rest a hand and let the robot write the letter for you",
+      "description": "In the 'Feel the Robot' mode a child lays a hand loosely on top of the robot and it autonomously traces the letter's shape, carrying their fingers through the motion so the correct movement is learned kinesthetically before they try it alone.",
+      "provenance": "documented",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7805874/",
+      "source_label": "Frontiers in Robotics and AI (2020)"
+    },
+    {
+      "title": "Guess the letter from a partner's robot",
+      "description": "One child writes a letter by moving their robot while classmates watch their own robots mirror the motion in sync, then call out which letter is being formed — turning solitary practice into a small group game.",
+      "provenance": "documented",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7805874/",
+      "source_label": "Frontiers in Robotics and AI (2020)"
+    },
+    {
+      "title": "Talk a teammate across a coordinate grid",
+      "description": "In a three-player game on a printed coordinate map, students give each other directions to steer a robot to a lost astronaut, practicing coordinate navigation through a shared physical search rather than on paper alone.",
+      "provenance": "documented",
+      "source_url": "https://www.epfl.ch/labs/chili/index-html/research/cellulo/learning-activities/",
+      "source_label": "EPFL CHILI — Cellulo learning activities"
+    },
+    {
+      "title": "Trace a coastline without looking",
+      "description": "Because the robot can pull a hand along a printed path and signal with haptics rather than sight, a visually impaired learner could follow the outline of a country, river, or graph by feel, the robot resisting when the hand strays from the line — an extension of the same path-guidance the handwriting activity already uses.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Feel a circuit's current as resistance",
+      "description": "Print a circuit diagram on a microdot sheet and have a robot stand in for an electron: as a student raises the 'voltage' it speeds along the wire, dragging harder where a resistor sits, making an abstract flow into something pushed against the palm.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

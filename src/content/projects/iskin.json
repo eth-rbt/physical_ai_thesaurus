@@ -53,5 +53,59 @@
       "year": null
     }
   ],
+  "interactions": [
+    {
+      "title": "Decline a call by pinching your finger",
+      "description": "With a sensor strip worn along a finger, you press it to silence or decline an incoming call, or press harder using the second pressure level to answer — no reaching for the phone in your pocket.",
+      "provenance": "documented",
+      "source_url": "https://www.sciencedaily.com/releases/2015/03/150304075218.htm",
+      "source_label": "Saarland University / ScienceDaily"
+    },
+    {
+      "title": "Music ClickWheel printed on your skin",
+      "description": "A round, LP-styled sticker acts as a four-zone rotational click wheel: you swipe and tap around it to skip tracks and adjust the volume of a music player, the way you would on an old iPod, but worn on the body.",
+      "provenance": "documented",
+      "source_url": "https://martinweigel.com/research/iskin/",
+      "source_label": "iSkin project page"
+    },
+    {
+      "title": "EarSticker for a headset",
+      "description": "A thin sensor conforms to the back of the ear so you can tap or press near the earpiece to control a headset — accepting a call or pausing audio with a discreet touch instead of fumbling for an inline button.",
+      "provenance": "documented",
+      "source_url": "https://martinweigel.com/research/iskin/",
+      "source_label": "iSkin project page"
+    },
+    {
+      "title": "A keyboard you wear on your forearm",
+      "description": "A keypad-shaped sticker applied to the forearm turns a stretch of skin into a typing surface, letting you tap out and send short messages without a screen.",
+      "provenance": "documented",
+      "source_url": "https://www.sciencedaily.com/releases/2015/03/150304075218.htm",
+      "source_label": "Saarland University / ScienceDaily"
+    },
+    {
+      "title": "Two-level press: tap versus push",
+      "description": "Because the overlay senses two pressure levels, a light tap and a firm push register as different commands — so one widget can both, say, lower the volume on a light touch and skip a track on a hard press.",
+      "provenance": "documented",
+      "source_url": "https://martinweigel.com/research/iskin/",
+      "source_label": "iSkin project page"
+    },
+    {
+      "title": "Design your own patch in a graphics program",
+      "description": "Before fabrication you draw the sensor's shape and look in an ordinary graphics editor — one example mimics musical notation, another is a circular LP — so the touch surface doubles as personal body decoration that still reads buttons and sliders.",
+      "provenance": "documented",
+      "source_url": "https://www.sciencedaily.com/releases/2015/03/150304075218.htm",
+      "source_label": "Saarland University / ScienceDaily"
+    },
+    {
+      "title": "Eyes-free control for a head-mounted display",
+      "description": "A forearm slider acts as the input surface for smart glasses or an AR headset, letting you scrub through a menu or notification by feeling for the strip on your arm rather than waving in mid-air — an extension of iSkin's role as an input surface for other devices.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Discreet quick-replies during a meeting",
+      "description": "A small finger-worn patch maps firm and light presses to a couple of canned text responses, so you can fire off an \"on my way\" without pulling out a phone or visibly looking down.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

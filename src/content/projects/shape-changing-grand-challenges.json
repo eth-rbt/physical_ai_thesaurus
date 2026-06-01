@@ -65,5 +65,59 @@
       "year": 2018
     }
   ],
+  "interactions": [
+    {
+      "title": "A phone that grows a game controller",
+      "description": "The paper describes adaptive affordance, where a handheld device physically mutates its form to fit the task at hand — a flat phone bulging into a gamepad with ridges and grips when you launch a game, then flattening again afterward.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/publications/alexander_chi18_grand_challenges.pdf",
+      "source_label": "CHI 2018 paper (author PDF)"
+    },
+    {
+      "title": "Curl the screen away from a stranger's gaze",
+      "description": "As an example of adaptation to the user, the paper cites a device that changes its shape to hide screen content from a passerby — bending or shielding its surface so only the person holding it can see what's displayed on a crowded train.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/publications/alexander_chi18_grand_challenges.pdf",
+      "source_label": "CHI 2018 paper (author PDF)"
+    },
+    {
+      "title": "A notification you feel, not hear, in a meeting",
+      "description": "The authors point to quiet shape-changing notifications that avoid disrupting a meeting: instead of a buzz or chime, a handheld object subtly deforms in your palm to signal an incoming message, so you can read its urgency by touch without looking down.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/publications/alexander_chi18_grand_challenges.pdf",
+      "source_label": "CHI 2018 paper (author PDF)"
+    },
+    {
+      "title": "Grab a bar chart and reshape the data",
+      "description": "Under data physicalization, the paper describes pin-array displays such as inFORM where a dataset rises as a physical 3D bar chart you can reach into and manipulate by hand, exploiting lifelong haptic and visual perception rather than reading numbers off a flat screen.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/publications/alexander_chi18_grand_challenges.pdf",
+      "source_label": "CHI 2018 paper (author PDF)"
+    },
+    {
+      "title": "Eyes-free navigation that nudges your hand",
+      "description": "The paper notes shape-change can convey information haptically: a handheld device deforms to tell you which way to turn while walking a map route, letting you follow directions eyes-free with your phone still in your pocket or your eyes on the street.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/publications/alexander_chi18_grand_challenges.pdf",
+      "source_label": "CHI 2018 paper (author PDF)"
+    },
+    {
+      "title": "Wearables and walls that move for their own sake",
+      "description": "Among hedonic and symbolic uses, the paper points to shape-changing garments, actuated architecture, and works of art — clothing or building facades that morph for aesthetic, sensorial, or expressive pleasure rather than to complete a task.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/publications/alexander_chi18_grand_challenges.pdf",
+      "source_label": "CHI 2018 paper (author PDF)"
+    },
+    {
+      "title": "A surface that firms up around an aching joint",
+      "description": "Building on the paper's 'augment users' theme of smart fabric that changes stiffness around joints, a rehab sleeve could stiffen to gently restrict a recovering knee during one exercise and soften for free movement in the next — grounded in the actuated-materials techniques the agenda calls for.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Feel a molecule before you understand it",
+      "description": "Extending the paper's 'simulate objects' purpose of exposing things humans could not normally grasp, a desktop pin-and-material display could let a chemistry student physically push and feel a protein fold, with the surface dynamically rendering both shape and hardness as in the integration-of-modalities challenge.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

@@ -51,5 +51,59 @@
       "year": 2016
     }
   ],
+  "interactions": [
+    {
+      "title": "A flat sheet folds itself into a crane",
+      "description": "A printed paper sheet with sealed seam patterns lies flat on the table; pump air into it and the creases bend in sequence until it stands up as a folded origami crane, with no hands touching it.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/aeromorph/",
+      "source_label": "MIT Tangible Media Group - aeroMorph"
+    },
+    {
+      "title": "Design a shape, watch it inflate before you build it",
+      "description": "In the software tool you sketch the bending pattern for a target geometry and the simulator shows how the sheet will transform when pressurized, before you commit a sheet to the CNC heat-sealing head.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2984511.2984520",
+      "source_label": "aeroMorph, UIST '16 (ACM)"
+    },
+    {
+      "title": "A wearable that changes shape on your body",
+      "description": "The same bending mechanism is sealed into fabric and worn, so a garment or accessory can stiffen, curl, or reshape against the body when air is pushed through its channels.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2984511.2984520",
+      "source_label": "aeroMorph, UIST '16 (ACM)"
+    },
+    {
+      "title": "Packaging that reconfigures itself",
+      "description": "Sealed bending patterns let a flat plastic sheet inflate into protective, shaped packaging or fold around an object on demand, an envisioned use the authors call out for the packaging industry.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/aeromorph/",
+      "source_label": "MIT Tangible Media Group - aeroMorph"
+    },
+    {
+      "title": "Programmable bends across paper, plastic, and fabric",
+      "description": "Because the universal bending mechanism works in any inextensible material, you can make a paper toy, a plastic box, or a cloth element bend along the exact creases you patterned, all driven by air rather than motors.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2984511.2984520",
+      "source_label": "aeroMorph, UIST '16 (ACM)"
+    },
+    {
+      "title": "A CNC machine seals the air channels for you",
+      "description": "The fabrication step runs on a standard CNC prototyping machine fitted with a custom heat-sealing head, which presses the seam pattern into the layered sheet so the bends land exactly where the software placed them.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/aeromorph/",
+      "source_label": "MIT Tangible Media Group - aeroMorph"
+    },
+    {
+      "title": "Turn-by-turn felt through the glove",
+      "description": "A cycling glove with sealed air channels could inflate a ridge against the back of one hand to signal turn left or right, giving a rider directions by touch without a screen, grounded in the technique's pneumatic on-body bending.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Furniture that ships flat and inflates to use",
+      "description": "A flat-packed seat or shelf sealed with aeroMorph patterns could be pumped up into a load-bearing folded form at home and deflated for storage, extending the demonstrated flat-to-3D folding to room-scale objects.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

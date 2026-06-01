@@ -60,5 +60,52 @@
       "year": 2011
     }
   ],
+  "interactions": [
+    {
+      "title": "Sit in the calm spot the robot keeps finding",
+      "description": "Robot 1, a ring-shaped machine, continually drifts to the quietest, least electromagnetically noisy part of the room; the owner is invited to place a chair inside the ring or stand in its centre to share that good, interference-free space.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/10/0",
+      "source_label": "Dunne & Raby — project page"
+    },
+    {
+      "title": "Get scrutinised the moment you walk in",
+      "description": "Walk into the room and Robot 2 swivels to face you, studying you with its many eyes; step too close and it grows agitated and even hysterical, turning the act of approaching a machine into something fraught.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/10/0",
+      "source_label": "Dunne & Raby — project page"
+    },
+    {
+      "title": "Stare it down to unlock your own data",
+      "description": "To reach your personal information you must lean in and hold a long retinal gaze with Robot 3, the sentinel; it makes you stare into its eyes until it is satisfied you are really you before granting access.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/10/0",
+      "source_label": "Dunne & Raby — project page"
+    },
+    {
+      "title": "Carry the genius that cannot move itself",
+      "description": "Robot 4 is brilliant but trapped in an underdeveloped body, so the owner must physically pick it up and ferry it around the home; it keeps you needed, speaking back in an evolved language that still carries traces of a human voice.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/10/0",
+      "source_label": "Dunne & Raby — project page"
+    },
+    {
+      "title": "Meet Robot 4 in a museum vitrine",
+      "description": "The oak, acrylic and epoxy model of the needy Robot 4 entered MoMA's collection (gift of the Speyer Family Foundation) and was shown in the 2011 'Talk to Me' exhibition, where visitors encounter the personality-driven robot as a sculptural object rather than a working machine.",
+      "provenance": "observed",
+      "source_url": "https://www.moma.org/collection/works/110127",
+      "source_label": "MoMA — collection record"
+    },
+    {
+      "title": "A design-class prompt for emotional robotics",
+      "description": "An HCI or interaction-design studio could stage the four temperaments as a critique exercise: students live alongside each behaviour (the anxious watcher, the demanding sentinel, the dependent genius) to surface what kinds of relationship we are willing to accept from domestic machines, grounded in the work's 'design for debate' intent.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Neediness as a real interface tactic",
+      "description": "Building on Robot 4's premise that designed dependence preserves the owner's sense of control, a connected-home device could deliberately route certain actions through the person rather than automating them, testing whether engineered neediness keeps people feeling in charge instead of sidelined.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

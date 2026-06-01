@@ -61,5 +61,59 @@
       "year": 2004
     }
   ],
+  "interactions": [
+    {
+      "title": "Snap bricks into a stack, slot in a card",
+      "description": "You build a program by clutching LEGO-style bricks one on top of another and pushing a parameter card into the slot on a brick's side; the two affordances are literally 'stack a brick' and 'insert a card,' and the smart-card connectors let the stack sense its own order so the assembled tower simply runs as the program.",
+      "provenance": "documented",
+      "source_url": "https://alumni.media.mit.edu/~mcnerney/personal-ubicomp.pdf",
+      "source_label": "McNerney, Personal and Ubiquitous Computing 2004"
+    },
+    {
+      "title": "Build a bike trip computer from scratch",
+      "description": "A toy bicycle gets a magnet on the wheel and a Hall-effect sensor on the frame; you wire it to a TRIGGER brick, stack a CLICK brick (beeps once per wheel pass), then COUNTS/T and DISPLAY, and the tower counts revolutions over a 10-second window and shows the speed — opening up the 'black box' of a real cycle computer.",
+      "provenance": "documented",
+      "source_url": "https://alumni.media.mit.edu/~mcnerney/personal-ubicomp.pdf",
+      "source_label": "McNerney, Personal and Ubiquitous Computing 2004"
+    },
+    {
+      "title": "Debug by ear with the CLICK brick",
+      "description": "Drop a CLICK brick onto a stack to hear what is flowing through it: above MEASURE it chatters rapidly, above TRIGGER it beeps only on a rising signal, and turning a KNOB card clockwise makes it click once per step — so you find bugs by listening instead of reaching for a screen or debugger.",
+      "provenance": "documented",
+      "source_url": "https://alumni.media.mit.edu/~mcnerney/personal-ubicomp.pdf",
+      "source_label": "McNerney, Personal and Ubiquitous Computing 2004"
+    },
+    {
+      "title": "Swap a card and watch the number change",
+      "description": "Because CONSTANT, KNOB, SENSOR and THUMBWHEEL cards are interchangeable, a child can pop a THUMBWHEEL into a MEASURE brick, cap it with a DISPLAY, and turn it into a game — spin the digits and watch the readout track them, learning one block's behavior before assembling anything bigger.",
+      "provenance": "documented",
+      "source_url": "https://alumni.media.mit.edu/~mcnerney/personal-ubicomp.pdf",
+      "source_label": "McNerney, Personal and Ubiquitous Computing 2004"
+    },
+    {
+      "title": "Transform a data stream as it climbs the stack",
+      "description": "Each brick can rewrite the values passing up through it: put a MULTIPLY brick with a '2' card in the middle of a tower and every number arriving from below is doubled before it continues upward — a 21 leaves as a 42 — so the physical order of the bricks is the computation.",
+      "provenance": "documented",
+      "source_url": "https://alumni.media.mit.edu/~mcnerney/personal-ubicomp.pdf",
+      "source_label": "McNerney, Personal and Ubiquitous Computing 2004"
+    },
+    {
+      "title": "Program everyday machines like toy cars and a microwave",
+      "description": "The earliest brick experiments were aimed at end-user programming of external devices — arranging bricks to drive toy cars and to set the steps of a kitchen microwave oven — letting someone author an appliance's behavior by hand rather than through its built-in panel.",
+      "provenance": "documented",
+      "source_url": "https://alumni.media.mit.edu/~mcnerney/personal-ubicomp.pdf",
+      "source_label": "McNerney, Personal and Ubiquitous Computing 2004"
+    },
+    {
+      "title": "Invent your own brick vocabulary",
+      "description": "Using the IR/BUS card you could download fresh Logo code into a brick to give it a new behavior, so a science class could mint its own domain-specific blocks — say a 'pH' or 'tilt' brick — and hand-build a microworld tailored to whatever experiment they are running that week.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A tabletop greenhouse data logger",
+      "description": "Wire a light or temperature SENSOR card into a MEASURE brick, stack COUNTS/T and DISPLAY, and leave the tower beside a seedling so kids can read off how conditions rise and fall through the day — grounded in the same stream-of-samples bricks the bike computer already uses.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

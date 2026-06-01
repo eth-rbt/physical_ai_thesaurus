@@ -60,5 +60,59 @@
       "year": 2015
     }
   ],
+  "interactions": [
+    {
+      "title": "Grab a pixel out of the air",
+      "description": "Instead of looking at voxels on a screen, you reach into a cluster of hovering PixelDrones and physically touch, drag, or nudge one — each drone is a self-levitating pixel you handle with your bare hand, no headset required.",
+      "provenance": "documented",
+      "source_url": "https://hml.cs.ru.nl/bitdrones",
+      "source_label": "Human Media Lab — BitDrones"
+    },
+    {
+      "title": "Resize a model by stretching it with two hands",
+      "description": "The system supports unimanual and bimanual techniques, so you can two-hand a compound model and pull it wider or pinch it smaller, the constituent drones flying apart or together to follow your gesture.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2858036.2858519",
+      "source_label": "BitDrones — CHI '16"
+    },
+    {
+      "title": "Throw a drone across the room",
+      "description": "Beyond touch and drag, you can throw an individual drone to send it to a new location in the volumetric workspace, treating mid-air data objects with the same physicality as real objects.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2858036.2858519",
+      "source_label": "BitDrones — CHI '16"
+    },
+    {
+      "title": "Open a folder and watch it bloom into a cone tree",
+      "description": "Touch a PixelDrone representing a folder and its contents fan out as other drones hovering in a horizontal wheel beneath it; you browse the files by physically swiping the drones left or right.",
+      "provenance": "documented",
+      "source_url": "https://hml.cs.ru.nl/bitdrones",
+      "source_label": "Human Media Lab — BitDrones"
+    },
+    {
+      "title": "Assemble a 3D shape from flying blocks",
+      "description": "ShapeDrones carry lightweight geometric mesh bodies that act as building blocks, so you snap and stack them in mid-air to compose and edit a real-time three-dimensional model out of actual hovering pieces.",
+      "provenance": "documented",
+      "source_url": "https://hml.cs.ru.nl/bitdrones",
+      "source_label": "Human Media Lab — BitDrones"
+    },
+    {
+      "title": "Send a flying face to a meeting you can't attend",
+      "description": "A DisplayDrone carrying a thin-film touchscreen and camera becomes a videoconferencing avatar: a remote person joins over Skype, the drone flies around the local space and replicates their head movements, letting them inspect a model and talk to people without a wheeled robot body.",
+      "provenance": "documented",
+      "source_url": "https://hml.cs.ru.nl/bitdrones",
+      "source_label": "Human Media Lab — BitDrones"
+    },
+    {
+      "title": "Walk around a building model that floats in the room",
+      "description": "An architect could lay out a massing study as a cloud of ShapeDrones at room scale, then walk around it and tug individual volumes higher or wider by hand — editing the design in the same physical space the client is standing in, grounded in the existing touch, drag, and resize techniques.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A self-rearranging desktop notification",
+      "description": "Building on the demonstrated self-levitating alert boxes, a single PixelDrone could drift up to eye level and pulse to flag an incoming message, then settle back into the cluster once you swat it away — a notification you dismiss with a wave instead of a click.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }
