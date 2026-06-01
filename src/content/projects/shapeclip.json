@@ -1,0 +1,66 @@
+{
+  "name": "ShapeClip",
+  "year": 2015,
+  "organization": ["Lancaster University"],
+  "project_type": "academic_paper",
+  "short_description": "A modular toolkit of clip-on z-actuating modules that turns any computer screen into a shape-changing display, driven by on-screen greyscale luminance.",
+  "long_description": "ShapeClip is a CHI 2015 prototyping toolkit from Lancaster University that lets designers transform an ordinary screen into a tangible, z-actuating shape-changing display by physically clipping stepper-motor modules onto it. Each clip reads the brightness of the screen pixels beneath it via a light sensor and translates that greyscale value into vertical extension, so motion can be authored in everyday tools like presentation software, image editors, or web pages without electronics or programming. As a piece of physical AI / interaction design, it matters because it lowered the barrier to rapidly prototyping dynamic, deformable physical interfaces, demonstrating how visual content alone can drive room-scale tangible actuation. The system is portable, scalable, fault-tolerant, and supports runtime rearrangement of modules.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/2702123.2702599",
+  "ai_embedded": "none",
+  "ai_note": "Purely a mechanical actuation and sensing technique: stepper-motor clips map screen luminance to height, with classic OpenCV blob detection for clip tracking and no machine learning.",
+  "attributes": {
+    "embodiment.form": ["Distributed object ecology", "Architectural / environmental system"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.actuation": ["Motorized"],
+    "embodiment.materiality": ["Shape-changing"],
+    "intelligence.model": ["Rule-based system"],
+    "intelligence.input": ["Vision"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces", "Shape-changing interfaces", "Human-computer interaction"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 4,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-shapeclip-001",
+      "caption": "ShapeClip modules clipped onto a screen, extending vertically to form a z-actuating shape-changing display.",
+      "image_type": "research_figure",
+      "source_url": "https://dl.acm.org/doi/10.1145/2702123.2702599",
+      "rights_status": "needs_permission",
+      "alt_text": "An array of small motorized clip modules attached to the surface of a flat display, each raised to a different height to create a relief of physical pixels."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-shapeclip-001",
+      "title": "ShapeClip: Towards Rapid Prototyping with Shape-Changing Displays for Designers",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2702123.2702599",
+      "publisher": "ACM (CHI 2015)",
+      "year": 2015
+    },
+    {
+      "source_id": "source-shapeclip-002",
+      "title": "ShapeClip: Towards Rapid Prototyping with Shape-Changing Displays for Designers (PDF)",
+      "source_type": "academic_paper",
+      "url": "https://csweichel.de/papers/2015-shapeclip.pdf",
+      "publisher": "Christian Weichel / Lancaster University",
+      "year": 2015
+    },
+    {
+      "source_id": "source-shapeclip-003",
+      "title": "LUHCI/ShapeClip: The shape of things to come: a prototyping toolkit for shape-changing displays",
+      "source_type": "documentation",
+      "url": "https://github.com/LUHCI/ShapeClip",
+      "publisher": "Lancaster University HCI Group (GitHub)",
+      "year": null
+    }
+  ],
+  "confidence": "high"
+}

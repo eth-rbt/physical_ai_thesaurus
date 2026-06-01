@@ -60,5 +60,59 @@
       "access_notes": "Describes HSR capabilities, remote operation, and history since 2012."
     }
   ],
+  "interactions": [
+    {
+      "title": "Pick up what you dropped",
+      "description": "Drop a pen, a remote, or a phone on the floor and the HSR rolls over, lowers its single arm, and hands it back up to you — the task it was built around for people who can't easily bend down.",
+      "provenance": "documented",
+      "source_url": "https://mag.toyota.co.uk/toyota-human-support-robot/",
+      "source_label": "Toyota UK Magazine"
+    },
+    {
+      "title": "A relative drives it into your living room",
+      "description": "A distant family member or caregiver takes remote control of the robot, their face and voice on its display, and steers it around your home to check on you and fetch things in real time.",
+      "provenance": "documented",
+      "source_url": "https://mag.toyota.co.uk/toyota-human-support-robot/",
+      "source_label": "Toyota UK Magazine"
+    },
+    {
+      "title": "A grip that yields instead of breaking",
+      "description": "When the arm presses a cup onto the floor or works a door handle, backdrivable QDD-actuated joints let it soak up the unexpected force on contact rather than jamming or snapping — a softer touch for cluttered, imprecise homes.",
+      "provenance": "documented",
+      "source_url": "https://global.toyota/en/mobility/frontier-research/44105171.html",
+      "source_label": "Toyota — Changing the Future Through Gentle Touch"
+    },
+    {
+      "title": "Draw what you want done",
+      "description": "Instead of joysticking the arm, an operator sketches on the camera feed: a line on the floor for where to drive, a C-shape around an object to grasp it. The robot reads the depth behind the doodle and turns it into motion.",
+      "provenance": "documented",
+      "source_url": "https://global.toyota/en/mobility/frontier-research/40518791.html",
+      "source_label": "Toyota — Controlling Robots Remotely with Sketches"
+    },
+    {
+      "title": "The same body, contested by labs worldwide",
+      "description": "Chosen as the standard robot for RoboCup@Home's Domestic Standard Platform League, identical HSRs face off at international tournaments running each team's own code for fetching, carrying, and finding people around a mock house.",
+      "provenance": "observed",
+      "source_url": "https://www.robocup.org/news/11",
+      "source_label": "RoboCup — HSR named standard platform"
+    },
+    {
+      "title": "Raising your hand from a hospital bed",
+      "description": "Homebound students who normally attend class through wheeled telepresence robots piloted the HSR in a study and used its arm to literally raise a hand and pass plastic fruit to classmates — small physical acts their flat-screen-on-wheels robots couldn't do.",
+      "provenance": "observed",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10237621/",
+      "source_label": "Evaluation of the HSR for Social Interaction and Learning (PMC)"
+    },
+    {
+      "title": "Morning routine on a map",
+      "description": "Because it navigates autonomously between any two points on a stored floor map, the HSR could run a fixed daily loop — open the curtains, bring the pill organizer from the kitchen, then park itself by the door — triggered by a single voice command.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Fetch by name from the shelf",
+      "description": "With its RGB-D head and arm that already reaches high shelves, the robot could let you say which book or mug you want and have it visually pick that one out of a row and bring it over, rather than only grasping whatever is pointed at.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

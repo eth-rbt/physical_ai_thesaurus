@@ -70,5 +70,59 @@
       "access_notes": "Describes RTK satellite positioning, virtual boundaries, and AI vision navigation."
     }
   ],
+  "interactions": [
+    {
+      "title": "Draw the lawn's edges on your phone",
+      "description": "Instead of burying a boundary wire, you walk the mower's RTK-positioned map in the Automower Connect app and paint virtual boundaries and temporary stay-out zones around a new flower bed or a storm-soaked patch.",
+      "provenance": "documented",
+      "source_url": "https://www.husqvarna.com/us/discover/epos/",
+      "source_label": "Husqvarna EPOS"
+    },
+    {
+      "title": "Lift it and it screams for a PIN",
+      "description": "Pick the mower up off the grass and a ticking warning starts; if the right PIN isn't entered within 30 seconds a loud alarm sounds, and on GPS models a GeoFence pings your phone if it's carried past an invisible perimeter.",
+      "provenance": "documented",
+      "source_url": "https://us-support.husqvarna.com/en/automower/KA-01567",
+      "source_label": "Husqvarna support — theft protection"
+    },
+    {
+      "title": "Mow the lawn into stripes",
+      "description": "Set the mower to systematic mowing and it lays the grass in neat parallel tracks or a checkerboard, alternating 90 degrees each session, instead of wandering randomly — the manicured-pitch look without a push mower.",
+      "provenance": "documented",
+      "source_url": "https://www.husqvarna.com/uk/support/husqvarna-self-service/what-is-systematic-mowing-ka-70248/",
+      "source_label": "Husqvarna support — systematic mowing"
+    },
+    {
+      "title": "Asleep from dusk to dawn for the hedgehogs",
+      "description": "A Wildlife Consideration schedule keeps the mower parked overnight when nocturnal animals are out, and its blades pivot and tuck under the skid plate to limit harm in a collision.",
+      "provenance": "documented",
+      "source_url": "https://www.husqvarna.com/my/learn-and-discover/news-and-media/hedgehogs/",
+      "source_label": "Husqvarna — robotic mower safety"
+    },
+    {
+      "title": "It becomes a named member of the household",
+      "description": "Owners routinely christen the mower — Mowzilla, Grassinator, a pet's name — and talk about it as a family member rather than an appliance, waving at it as it trundles across the yard.",
+      "provenance": "observed",
+      "source_url": "https://robot-lawn-mower.net/mowzilla-and-grassinator-funny-and-creative-names-for-your-robot-lawn-mower/",
+      "source_label": "Robot Lawn Mower — naming culture"
+    },
+    {
+      "title": "A test subject for hedgehog crash dummies",
+      "description": "Oxford and Aalborg researchers built 3D-printed hedgehog dummies and ran collision trials across robotic mowers — Husqvarna among the brands now using the findings — turning a garden appliance into the object of a wildlife-safety study.",
+      "provenance": "observed",
+      "source_url": "https://www.ox.ac.uk/news/2024-01-16-researchers-develop-hedgehog-safety-test-robotic-lawnmowers",
+      "source_label": "University of Oxford"
+    },
+    {
+      "title": "A roaming sprinkler-skip zone for the gardener",
+      "description": "Because stay-out zones can be drawn and erased in seconds from the app, you could fence off a freshly seeded patch in the morning and reopen it weeks later without touching the mower — grounded in its existing virtual-boundary editing.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Quiet enough to mow while you sleep in",
+      "description": "Its low noise and self-scheduling mean it can finish the lawn before you're awake, so you wake to a freshly cut yard and never hear an engine — built on the autonomous scheduling and charging-station return it already does.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

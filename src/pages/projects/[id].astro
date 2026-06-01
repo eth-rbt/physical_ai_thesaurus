@@ -19,17 +19,29 @@ const { project, appearsIn } = Astro.props;
 const d = project.data;
 const attrKeys = Object.keys(d.attributes);
 const metricKeys = Object.keys(d.metrics);
+
+const AI_LABEL = {
+  none: 'No AI embedded',
+  some: 'Partial AI',
+  core: 'AI-driven',
+  envisioned: 'AI envisioned',
+  unknown: 'AI: unclear',
+} as const;
 ---
 
 <Base title={d.name}>
   <p class="muted"><a href="/">← Thesaurus</a></p>
-  <span class="chip">{d.project_type.replace(/_/g, ' ')}</span>
+  <p class="chips">
+    <span class="chip">{d.project_type.replace(/_/g, ' ')}</span>
+    <span class={`ai-badge ai-${d.ai_embedded}`}>{AI_LABEL[d.ai_embedded]}</span>
+  </p>
   <h1 style="margin-top:0.5rem">{d.name}</h1>
   <p class="muted">
     {d.organization.join(', ')}{d.year ? ` · ${d.year}` : ''} · confidence: {d.confidence}
   </p>
 
   <p>{d.long_description ?? d.short_description}</p>
+  {d.ai_note && <p class="ai-note"><strong>AI:</strong> {d.ai_note}</p>}
   {d.primary_url && <p><a href={d.primary_url}>{d.primary_url}</a></p>}
 
   {appearsIn.length > 0 && (
@@ -37,6 +49,28 @@ const metricKeys = Object.keys(d.metrics);
       <strong>Appears in:</strong>
       {appearsIn.map((c) => <a href={`/cards/${c.id}/`}>{c.data.title}</a>)}
     </p>
+  )}
+
+  {d.interactions.length > 0 && (
+    <>
+      <h2>Possible interactions</h2>
+      <ul class="interactions">
+        {d.interactions.map((ix) => (
+          <li class="interaction">
+            <div class="ix-head">
+              <span class={`ix-prov ${ix.provenance}`}>{ix.provenance}</span>
+              <span class="ix-title">{ix.title}</span>
+            </div>
+            <p>{ix.description}</p>
+            {ix.source_url && (
+              <p class="ix-src">
+                <a href={ix.source_url}>{ix.source_label ?? 'source'}</a>
+              </p>
+            )}
+          </li>
+        ))}
+      </ul>
+    </>
   )}
 
   {attrKeys.length > 0 && (

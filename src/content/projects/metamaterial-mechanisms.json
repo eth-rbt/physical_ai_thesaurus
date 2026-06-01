@@ -1,0 +1,65 @@
+{
+  "name": "Metamaterial Mechanisms",
+  "year": 2016,
+  "organization": ["Hasso Plattner Institute", "Carnegie Mellon University"],
+  "project_type": "academic_paper",
+  "short_description": "3D-printed objects whose internal cellular microstructure makes the object itself a working machine, with mechanical function encoded directly in geometry.",
+  "long_description": "Metamaterial Mechanisms, presented by Alexandra Ion and colleagues (including Patrick Baudisch) at UIST 2016, reconceives metamaterials as machines rather than passive materials. By arranging 3D-printed cellular grids that include specialized shearing cells, a single printed block can convert input motion into controlled macroscopic movement, demonstrated through examples such as a door latch that turns rotary handle motion into linear latch motion and a Jansen-style walker. It matters to physical AI and interaction design as a foundational tangible-fabrication technique: behavior lives in the structure and material itself rather than in motors, electronics, or computation, expanding the vocabulary of programmable matter and embodied interaction.",
+  "primary_url": "https://interactive-structures.org/publications/2016-10-metamaterial-mechanisms/",
+  "ai_embedded": "none",
+  "ai_note": "Function is encoded purely in the printed cellular geometry; there is no AI, ML, electronics, or computation running inside the object.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.materiality": ["3D-printed", "Programmable matter", "Metamaterial"],
+    "embodiment.actuation": ["Passive mechanical", "Compliant structure"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces", "Programmable matter", "Personal fabrication"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-metamaterial-mechanisms-001",
+      "caption": "Teaser figure showing a 3D-printed metamaterial door latch whose cellular microstructure converts rotary handle motion into linear latch motion.",
+      "image_type": "research_figure",
+      "source_url": "https://interactive-structures.org/publications/2016-10-metamaterial-mechanisms/",
+      "rights_status": "needs_permission",
+      "alt_text": "A white 3D-printed block made of a fine grid of cells forming a door latch mechanism, with arrows indicating rotational input motion converting to linear output motion."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-metamaterial-mechanisms-001",
+      "title": "Metamaterial Mechanisms",
+      "source_type": "project_page",
+      "url": "https://interactive-structures.org/publications/2016-10-metamaterial-mechanisms/",
+      "publisher": "Interactive Structures Lab, Carnegie Mellon University",
+      "year": 2016
+    },
+    {
+      "source_id": "source-metamaterial-mechanisms-002",
+      "title": "Metamaterial Mechanisms (Proceedings of UIST '16)",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2984511.2984540",
+      "publisher": "ACM",
+      "year": 2016
+    },
+    {
+      "source_id": "source-metamaterial-mechanisms-003",
+      "title": "Metamaterial Mechanisms",
+      "source_type": "lab_page",
+      "url": "https://hpi.de/baudisch/projects/metamaterial-mechanisms.html",
+      "publisher": "Hasso Plattner Institute",
+      "year": 2016
+    }
+  ],
+  "confidence": "high"
+}

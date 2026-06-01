@@ -1,0 +1,54 @@
+{
+  "name": "Radical Atoms",
+  "year": 2012,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "concept",
+  "short_description": "A vision for transformable physical materials that are as dynamically reconfigurable as on-screen pixels and bidirectionally coupled to an underlying digital model.",
+  "long_description": "Radical Atoms, proposed by Hiroshi Ishii and colleagues at the MIT Media Lab Tangible Media Group, extends the earlier Tangible Bits agenda toward a future in which the material itself becomes the interface. The vision imagines computationally transformable matter that changes its shape, appearance, and properties in real time, kept in two-way sync with a digital model so physical and digital states continuously reflect one another. As physical AI and interaction design, it reframes embodiment itself as a malleable medium rather than a fixed enclosure for computation, anticipating shape-changing and programmable-matter interfaces. It is an articulated vision and research agenda rather than a single built system.",
+  "primary_url": "https://tangible.media.mit.edu/vision/",
+  "ai_embedded": "none",
+  "ai_note": "Radical Atoms is a vision about computationally transformable, bidirectionally coupled materials and tangible interaction; it does not posit or implement AI/ML.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Distributed object ecology"],
+    "embodiment.materiality": ["Transformable / shape-changing material", "Programmable matter"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.model": ["Rule-based system"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"],
+    "genealogy.research_community": ["Human-computer interaction"]
+  },
+  "metrics": {
+    "mobility": 1,
+    "scale": 4,
+    "social_legibility": 1,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-radical-atoms-001",
+      "caption": "Diagram of the Tangible Bits to Radical Atoms progression and the Material User Interface concept from the Tangible Media Group vision page.",
+      "image_type": "system_diagram",
+      "source_url": "https://tangible.media.mit.edu/vision/",
+      "rights_status": "needs_permission",
+      "alt_text": "A conceptual diagram illustrating the evolution from Tangible Bits to Radical Atoms, showing materials whose physical form is bidirectionally coupled with an underlying digital model."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-radical-atoms-001",
+      "title": "Radical Atoms (Vision)",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/vision/",
+      "publisher": "MIT Media Lab, Tangible Media Group",
+      "year": null
+    },
+    {
+      "source_id": "source-radical-atoms-002",
+      "title": "Radical atoms: beyond tangible bits, toward transformable materials",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2065327.2065337",
+      "publisher": "ACM Interactions, Vol. 19 No. 1",
+      "year": 2012
+    }
+  ],
+  "confidence": "high"
+}

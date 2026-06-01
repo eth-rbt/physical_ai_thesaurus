@@ -59,5 +59,54 @@
       "access_notes": "Background and history; Siri integrated into iPhone 4S on October 4, 2011."
     }
   ],
+  "interactions": [
+    {
+      "title": "Call for help without touching the phone",
+      "description": "Say \"Hey Siri, call Victoria\" while pinned, fallen, or unable to reach the screen, and the unlocked phone places the call hands-free. A 70-year-old stroke victim used exactly this line to reach his daughter after crawling for two days.",
+      "provenance": "observed",
+      "source_url": "https://appleinsider.com/articles/25/02/10/after-crawling-for-two-days-stroke-victim-uses-siri-to-make-a-call-that-saved-his-life",
+      "source_label": "AppleInsider"
+    },
+    {
+      "title": "An NFC tag that runs your evening",
+      "description": "Tap your phone to a sticker by the bed and a Shortcuts automation fires: lights dim, alarm sets, Do Not Disturb on. The Shortcuts app turns physical triggers like NFC tags, arriving home, or a time of day into chained actions across apps and accessories.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/guide/shortcuts/create-a-new-personal-automation-apdfbdbd7123/ios",
+      "source_label": "Apple Support — personal automation"
+    },
+    {
+      "title": "Ask the downstairs speaker a question",
+      "description": "From the kitchen HomePod, say \"Ask downstairs, has anyone seen my keys?\" and Siri relays your recorded voice to the speaker in that room, with replies coming back the same way.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/en-us/101606",
+      "source_label": "Apple Support — HomePod intercom"
+    },
+    {
+      "title": "Arriving-home routine that knows the time",
+      "description": "Cross the threshold after sunset and a single \"Arrive\" automation switches on the lights and warms the den heater, but stays quiet during daylight. People wire these conditional homecomings in Shortcuts to skip the wall switches entirely.",
+      "provenance": "observed",
+      "source_url": "https://applemagazine.com/shortcuts/",
+      "source_label": "AppleMagazine"
+    },
+    {
+      "title": "A custom app on the Home Screen that is really a script",
+      "description": "Save a multi-step shortcut as a Home Screen icon with its own name and artwork, so tapping a \"Coffee\" tile silently runs a chain of actions that looks like launching an app.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/guide/shortcuts/run-shortcuts-from-the-home-screen-widget-apd029b36d05/ios",
+      "source_label": "Apple Support — Shortcuts"
+    },
+    {
+      "title": "The assistant kids forget to thank",
+      "description": "Because Siri answers a barked command with no expectation of \"please,\" researchers and parents worry it quietly normalizes curt speech in young children, prompting rival assistants to add politeness-rewarding modes.",
+      "provenance": "observed",
+      "source_url": "https://studyfinds.org/voice-assistants-child-development/",
+      "source_label": "StudyFinds"
+    },
+    {
+      "title": "Narrate a medication round by voice",
+      "description": "A caregiver with hands full could say \"Hey Siri, log Dad's 2pm dose\" and have a Shortcut append the entry to a shared note or reminder, building on Siri's speech input and Shortcuts' app-chaining rather than any new sensor.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

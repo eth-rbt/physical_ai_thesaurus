@@ -1,0 +1,68 @@
+{
+  "name": "Electronic Blocks",
+  "year": 2001,
+  "organization": ["University of Queensland"],
+  "project_type": "research_prototype",
+  "short_description": "Stackable electronic LEGO Duplo blocks that let preschoolers build the sense-think-act loop by hand, programming behaviour with no keyboard, mouse, or screen.",
+  "long_description": "Electronic Blocks are tangible programming elements created by Peta Wyeth and Gordon Wyeth, presented at INTERACT 2001. Built on LEGO Duplo bricks, they come in three kinds: sensor blocks (light, sound, touch), action blocks (lights, sound, movement), and logic blocks (and, not, toggle) that pass signals upward through the stack. By snapping blocks together, children aged roughly 3-8 assemble working behaviours such as a light that flashes when you clap or a robot that reacts to touch, making the sense-think-act loop physically graspable. The project matters as an early demonstration that the core loop of an embodied, reactive system can be expressed as a tangible interaction rather than abstract code, prefiguring later tangible-programming and embodied-computing toolkits.",
+  "primary_url": "https://dblp.org/rec/conf/interact/WyethW01.html",
+  "ai_embedded": "none",
+  "ai_note": "The blocks are fixed-function sensing, signal-passing logic, and actuation hardware; there is no machine learning or adaptive model running in the system.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed", "Handheld"],
+    "embodiment.materiality": ["Tangible / physical blocks"],
+    "embodiment.actuation": ["Light", "Sound", "Movement"],
+    "intelligence.model": ["Rule-based system"],
+    "intelligence.input": ["Touch", "Light", "Sound"],
+    "intelligence.autonomy": ["Reactive"],
+    "function.role": ["Teacher", "Creative collaborator"],
+    "function.task_domain": ["Education", "Computational thinking"],
+    "genealogy.lineage": ["Tangible user interfaces", "Tangible programming"]
+  },
+  "metrics": {
+    "proximity": 3,
+    "mobility": 2,
+    "scale": 2,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-electronic-blocks-001",
+      "caption": "Figure from Wyeth & Wyeth (2001) showing stacked sensor, logic, and action Electronic Blocks built on LEGO Duplo bricks.",
+      "image_type": "research_figure",
+      "source_url": "https://www.researchgate.net/publication/43462811_Electronic_blocks_Tangible_programming_elements_for_preschoolers",
+      "rights_status": "needs_permission",
+      "alt_text": "Chunky plastic blocks resembling LEGO Duplo bricks stacked into a tower, each block embedded with electronics for sensing, logic, or action."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-electronic-blocks-001",
+      "title": "Electronic Blocks: Tangible Programming Elements for Preschoolers",
+      "source_type": "conference_page",
+      "url": "https://dblp.org/rec/conf/interact/WyethW01.html",
+      "publisher": "INTERACT 2001 (IFIP TC13 Conference on Human-Computer Interaction)",
+      "year": 2001
+    },
+    {
+      "source_id": "source-electronic-blocks-002",
+      "title": "Electronic blocks: Tangible programming elements for preschoolers (full paper)",
+      "source_type": "academic_paper",
+      "url": "https://www.researchgate.net/publication/43462811_Electronic_blocks_Tangible_programming_elements_for_preschoolers",
+      "publisher": "ResearchGate",
+      "year": 2001
+    },
+    {
+      "source_id": "source-electronic-blocks-003",
+      "title": "How Young Children Learn to Program With Sensor, Action, and Logic Blocks",
+      "source_type": "academic_paper",
+      "url": "https://www.semanticscholar.org/paper/How-Young-Children-Learn-to-Program-With-Sensor,-Wyeth/9cf7867b9f03559bb4f4fa66c9cca22b5a8d015a",
+      "publisher": "Journal of the Learning Sciences",
+      "year": 2008
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Gummi: A Bendable Computer",
+  "year": 2004,
+  "organization": ["Sony Computer Science Laboratories", "Sony Design Center"],
+  "project_type": "research_prototype",
+  "short_description": "A credit-card-sized handheld whose flexible body is physically bent as a continuous input, paired with a flexible display.",
+  "long_description": "Gummi is an interaction technique and device concept in which a thin, flexible handheld is deformed by bending as a primary input modality, combined with 2D position control on its surface. Built from layers of flexible electronic components and deformation sensors with a bendable display, it explores how physical flexibility of future flexible electronics could become an interface in its own right rather than a defect to engineer away. As an early demonstration of deformation-based and shape-changing interaction, it is a foundational reference for tangible and organic user interfaces in physical AI and interaction design.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/985692.985726",
+  "ai_embedded": "none",
+  "ai_note": "Gummi is a deformation-sensing tangible input technique with bend and position sensors and a flexible display; no AI or machine learning runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Handheld", "Wearable"],
+    "embodiment.mobility": ["Handheld"],
+    "embodiment.scale": ["Handheld"],
+    "embodiment.actuation": ["Deformation / bending"],
+    "embodiment.materiality": ["Flexible / soft"],
+    "intelligence.input": ["Touch", "Force / torque", "Motion"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 4,
+    "mobility": 2,
+    "scale": 1,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-gummi-bendable-computer-001",
+      "caption": "The Gummi device and its bending interaction: a thin flexible handheld bent by both hands as continuous input.",
+      "image_type": "research_figure",
+      "source_url": "https://www.sonycsl.co.jp/project/410/",
+      "rights_status": "needs_permission",
+      "alt_text": "A thin, credit-card-sized flexible handheld device held in two hands and bent into a curve, with a small display on its surface."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-gummi-bendable-computer-001",
+      "title": "Gummi: a bendable computer",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/985692.985726",
+      "publisher": "ACM (CHI 2004)",
+      "year": 2004
+    },
+    {
+      "source_id": "source-gummi-bendable-computer-002",
+      "title": "Gummi - Sony Computer Science Laboratories",
+      "source_type": "lab_page",
+      "url": "https://www.sonycsl.co.jp/project/410/",
+      "publisher": "Sony Computer Science Laboratories",
+      "year": null
+    }
+  ],
+  "confidence": "high"
+}

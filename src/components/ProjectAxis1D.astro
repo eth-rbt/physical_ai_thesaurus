@@ -5,8 +5,9 @@ import ProjectTile from './ProjectTile.astro';
 interface Props {
   projects: CollectionEntry<'projects'>[];
   axis: { metric: string; label: string; direction: 'asc' | 'desc' };
+  notes?: Record<string, string>;
 }
-const { projects, axis } = Astro.props;
+const { projects, axis, notes } = Astro.props;
 
 // Only projects that have a value for this metric can be placed on the axis.
 const placed = projects.filter((p) => typeof p.data.metrics[axis.metric] === 'number');
@@ -27,21 +28,37 @@ const ordered = [...placed].sort((a, b) =>
     ? b.data.metrics[axis.metric] - a.data.metrics[axis.metric]
     : a.data.metrics[axis.metric] - b.data.metrics[axis.metric],
 );
+
+// Many projects share the same ordinal value — stack them in a vertical column at
+// that position instead of overprinting a single label.
+const bins = new Map<number, CollectionEntry<'projects'>[]>();
+for (const p of placed) {
+  const v = p.data.metrics[axis.metric];
+  (bins.get(v) ?? bins.set(v, []).get(v)!).push(p);
+}
+const columns = [...bins.entries()]
+  .sort((a, b) => a[0] - b[0])
+  .map(([value, items]) => ({ value, left: pos(value), items }));
+const maxStack = Math.max(...columns.map((c) => c.items.length));
 ---
 
-<div class="axis-1d">
+<div class="axis-1d" style={`--max-stack:${maxStack}`}>
   <div class="axis-labels"><span>{axis.label}</span></div>
   <div class="axis-line">
-    {placed.map((p) => (
-      <span class="axis-node" style={`left:${pos(p.data.metrics[axis.metric])}%`}>
+    {columns.map((c) => (
+      <span class="axis-col" style={`left:${c.left}%`}>
         <span class="dot"></span>
-        <span class="lab">{p.data.name}</span>
+        <span class="axis-stack">
+          {c.items.map((p) => (
+            <a class="lab" href={`/projects/${p.id}/`} title={notes?.[p.id]}>{p.data.name}</a>
+          ))}
+        </span>
       </span>
     ))}
   </div>
   <div class="proj-grid">
     {ordered.map((p) => (
-      <ProjectTile project={p} sub={`${axis.metric}: ${p.data.metrics[axis.metric]}`} />
+      <ProjectTile project={p} sub={`${axis.metric}: ${p.data.metrics[axis.metric]}`} note={notes?.[p.id]} />
     ))}
   </div>
   {missing.length > 0 && (

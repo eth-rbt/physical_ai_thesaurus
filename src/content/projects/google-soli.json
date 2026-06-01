@@ -1,21 +1,46 @@
 {
   "name": "Project Soli",
   "year": 2015,
-  "organization": ["Google ATAP", "Infineon"],
+  "organization": [
+    "Google ATAP",
+    "Infineon"
+  ],
   "project_type": "research_prototype",
   "short_description": "A miniature 60 GHz radar chip from Google ATAP that senses fine touchless hand micro-gestures and human presence.",
   "long_description": "Soli is a millimeter-wave frequency-modulated continuous-wave (FMCW) radar sensor and antenna array shrunk onto a single chip a few millimeters across. Announced at Google I/O 2015 and led by Ivan Poupyrev, it detects sub-millimeter hand motions at very high frame rates without cameras, light, or contact, and works through materials. It moved from a developer kit into consumer products: 'Motion Sense' touchless gestures and presence detection in the 2019 Pixel 4, and contactless 'Sleep Sensing' (breathing and movement tracking) in the 2nd-gen Nest Hub in 2021. As physical AI, Soli is significant as ambient, infrastructure-grade sensing: the device perceives gesture and presence while staying invisible, raising it as a privacy-friendlier alternative to cameras for in-the-environment interaction.",
   "primary_url": "https://atap.google.com/soli/",
   "attributes": {
-    "embodiment.form": ["Smart appliance", "Architectural / environmental system"],
-    "embodiment.mobility": ["Fixed"],
-    "intelligence.input": ["Gesture", "Motion", "Environmental sensors"],
-    "intelligence.model": ["Deep learning", "Classical machine learning"],
-    "intelligence.perception": ["Gesture", "Motion"],
-    "function.role": ["Tool"],
-    "function.environmental": ["Presence sensing"],
-    "genealogy.lineage": ["Ubiquitous computing", "Ambient intelligence", "Internet of Things"],
-    "genealogy.interaction": ["Touchless interaction", "Gesture interaction"]
+    "embodiment.form": [
+      "Smart appliance",
+      "Architectural / environmental system"
+    ],
+    "embodiment.mobility": [
+      "Fixed"
+    ],
+    "intelligence.input": [
+      "Gesture",
+      "Motion",
+      "Environmental sensors"
+    ],
+    "intelligence.model": [
+      "Deep learning",
+      "Classical machine learning"
+    ],
+    "function.role": [
+      "Tool"
+    ],
+    "function.environmental": [
+      "Presence sensing"
+    ],
+    "genealogy.lineage": [
+      "Ubiquitous computing",
+      "Ambient intelligence",
+      "Internet of Things"
+    ],
+    "genealogy.interaction": [
+      "Touchless interaction",
+      "Gesture interaction"
+    ]
   },
   "metrics": {
     "proximity": 2,
@@ -77,6 +102,64 @@
       "publisher": "9to5Google",
       "year": 2015,
       "access_notes": "Documents the Google I/O 2015 announcement by ATAP."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Wave to skip a song",
+      "description": "Swipe a hand left or right above the Pixel 4 to skip forward or back a track — no screen contact, and it works even with the display off or the music app closed.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/pixelphone/answer/9517454?hl=en-GB",
+      "source_label": "Pixel Phone Help — Motion Sense"
+    },
+    {
+      "title": "Silence a ringing phone with one swipe",
+      "description": "Wave once across the screen to snooze an alarm, quiet a timer, or mute an incoming call without grabbing the phone.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/pixelphone/answer/9517454?hl=en-GB",
+      "source_label": "Pixel Phone Help — Motion Sense"
+    },
+    {
+      "title": "The phone quiets as you reach for it",
+      "description": "Soli senses a hand approaching and lights up notifications and the clock before you touch it — and a ringing call drops to a softer volume the moment you reach toward the phone.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/pixelphone/answer/9517454?hl=en-GB",
+      "source_label": "Pixel Phone Help — Reach detection"
+    },
+    {
+      "title": "Pause music from across the bedroom",
+      "description": "Lying in bed with your eyes closed, an imprecise air-tap over the 2nd-gen Nest Hub — accurate from roughly 18 inches away — stops the music, and a wave snoozes the morning alarm.",
+      "provenance": "documented",
+      "source_url": "https://9to5google.com/2021/03/30/nest-hub-2nd-gen-review/",
+      "source_label": "9to5Google — Nest Hub (2nd gen) review"
+    },
+    {
+      "title": "Track your breathing all night with no camera",
+      "description": "Set on the nightstand a foot or two away, the Nest Hub's radar reads chest movement and breathing to chart your sleep, coughs, and snores through the dark without ever taking a picture.",
+      "provenance": "documented",
+      "source_url": "https://techcrunch.com/2021/03/16/googles-soli-returns-to-track-sleep-on-the-new-nest-hub/",
+      "source_label": "TechCrunch — Sleep Sensing"
+    },
+    {
+      "title": "Pokemon that wave back",
+      "description": "A Pixel 4 demo, Pokemon Wave Hello, turned the radar into play: wave at the screen and the Pokemon waves, reacts, and lets you pet it with a gesture.",
+      "provenance": "observed",
+      "source_url": "https://beebom.com/pixel-4-will-teach-you-motion-sense-gestures-with-new-pokemon-game/",
+      "source_label": "Beebom — Pokemon Wave Hello"
+    },
+    {
+      "title": "Telling steel from glass by radar alone",
+      "description": "Researchers at St Andrews repurposed the Soli chip into RadarCat, training it to recognize materials and objects from their radar return — distinguishing metals, transparent liquids, and even individual body parts placed against the sensor.",
+      "provenance": "observed",
+      "source_url": "https://news.st-andrews.ac.uk/archive/new-technology-using-radar-can-identify-materials-and-objects-in-real-time/",
+      "source_label": "University of St Andrews — RadarCat"
+    },
+    {
+      "title": "A counter that knows when you've turned away",
+      "description": "Mounted in a kitchen, the radar reads orientation as well as presence: a recipe display could hold its place when you turn to grab an ingredient and resume the moment you face it again — grounded in ATAP's 'Fields' proxemic sensing, not just on/off presence.",
+      "provenance": "proposed",
+      "source_url": "https://blog.google/products-and-platforms/products/atap/how-computers-can-use-radar-to-understand-nonverbal-cues/",
+      "source_label": "Google ATAP — nonverbal cues"
     }
   ],
   "confidence": "high"

@@ -1,0 +1,65 @@
+{
+  "name": "Zooids: Swarm User Interfaces",
+  "year": 2016,
+  "organization": ["Stanford University", "Inria"],
+  "project_type": "academic_paper",
+  "short_description": "A tabletop interface of many small wheeled micro-robots that self-arrange as a reconfigurable physical display and tangible control.",
+  "long_description": "Zooids introduced 'swarm user interfaces,' a class of human-computer interface made of many small (26mm) custom wheeled robots that collectively handle both display and interaction on a tabletop. A high-speed DLP structured-light projector tracks each robot via embedded photodiodes, while PID and reciprocal-velocity-obstacle controllers coordinate motion so the swarm can render data physically, act as movable handles, and respond to touch and manipulation. It matters for physical AI and interaction design as a foundational demonstration of distributed, shape- and arrangement-changing tangible interfaces where a population of actuated objects becomes the medium of display and control.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/2984511.2984547",
+  "ai_embedded": "none",
+  "ai_note": "Coordination relies on PID controllers, state machines, and reciprocal velocity obstacle path planning, with optical tracking; no machine learning or AI is involved.",
+  "attributes": {
+    "embodiment.form": ["Mobile robot", "Distributed object ecology"],
+    "embodiment.mobility": ["Wheeled"],
+    "embodiment.scale": ["Tabletop"],
+    "intelligence.input": ["Touch", "Motion"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces", "Human-robot interaction", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 2,
+    "scale": 2,
+    "social_legibility": 2,
+    "expressiveness": 2,
+    "autonomy": 2
+  },
+  "images": [
+    {
+      "image_id": "img-zooids-001",
+      "caption": "A swarm of Zooids micro-robots arranged on a tabletop as a reconfigurable physical display.",
+      "image_type": "research_figure",
+      "source_url": "https://shape.stanford.edu/research/swarm/",
+      "rights_status": "needs_permission",
+      "alt_text": "Many small cylindrical wheeled robots clustered on a flat surface, forming a pattern as a tangible swarm display."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-zooids-001",
+      "title": "Zooids: Building Blocks for Swarm User Interfaces",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2984511.2984547",
+      "publisher": "ACM (UIST '16 Proceedings)",
+      "year": 2016
+    },
+    {
+      "source_id": "source-zooids-002",
+      "title": "Zooids: Building Blocks for Swarm User Interfaces",
+      "source_type": "lab_page",
+      "url": "https://shape.stanford.edu/research/swarm/",
+      "publisher": "Stanford SHAPE Lab",
+      "year": 2016
+    },
+    {
+      "source_id": "source-zooids-003",
+      "title": "Zooids: Building Blocks for Swarm User Interfaces (open access)",
+      "source_type": "academic_paper",
+      "url": "https://hal.science/hal-01391281",
+      "publisher": "HAL (Inria open archive)",
+      "year": 2016
+    }
+  ],
+  "confidence": "high"
+}

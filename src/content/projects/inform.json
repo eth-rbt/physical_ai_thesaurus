@@ -1,0 +1,66 @@
+{
+  "name": "inFORM",
+  "year": 2013,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "A 900-pin motorized 2.5D dynamic shape display that physically renders 3D digital content and lets users touch and manipulate it.",
+  "long_description": "inFORM is a tabletop shape display built from a grid of roughly 900 motorized pins, actuated in real time to render 3D forms and surfaces that users can touch, push, and feel. A depth camera senses hand gestures and physical objects while an overhead projector adds color, so the surface can present dynamic physical affordances, impose constraints, and even actuate objects placed on it. As an exemplar of Tangible Media Group's vision of 'Radical Atoms,' it matters as physical AI / interaction design by showing how bits can become directly graspable matter, reframing displays as shape-changing physical interfaces rather than flat screens.",
+  "primary_url": "https://tangible.media.mit.edu/project/inform/",
+  "ai_embedded": "none",
+  "ai_note": "inFORM is a motorized pin array driven by depth-camera sensing and direct actuation; no machine learning runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.actuation": ["Shape change", "Object actuation"],
+    "embodiment.materiality": ["Shape-changing surface"],
+    "intelligence.input": ["Touch", "Gesture", "Vision", "Motion"],
+    "intelligence.output": ["Shape change", "Force / haptic"],
+    "function.role": ["Tool", "Creative collaborator"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 1,
+    "expressiveness": 3,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-inform-001",
+      "caption": "The inFORM dynamic shape display rendering 3D content through its grid of motorized pins.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/inform/",
+      "rights_status": "needs_permission",
+      "alt_text": "A tabletop array of hundreds of small white square pins extruded to different heights to form a physical relief surface, lit by overhead colored projection."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-inform-001",
+      "title": "inFORM",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/project/inform/",
+      "publisher": "MIT Media Lab, Tangible Media Group",
+      "year": 2013
+    },
+    {
+      "source_id": "source-inform-002",
+      "title": "inFORM: Dynamic Physical Affordances and Constraints through Shape and Object Actuation",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2501988.2502032",
+      "publisher": "ACM (Proceedings of UIST '13)",
+      "year": 2013
+    },
+    {
+      "source_id": "source-inform-003",
+      "title": "inFORM: An Interactive Dynamic Shape Display that Physically Renders 3-D Content",
+      "source_type": "credible_news",
+      "url": "https://www.technologyreview.com/2013/12/30/174761/inform-an-interactive-dynamic-shape-display-that-physically-renders-3-d-content/",
+      "publisher": "MIT Technology Review",
+      "year": 2013
+    }
+  ],
+  "confidence": "high"
+}

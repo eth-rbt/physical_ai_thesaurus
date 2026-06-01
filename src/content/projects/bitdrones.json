@@ -1,0 +1,64 @@
+{
+  "name": "BitDrones",
+  "year": 2016,
+  "organization": ["Human Media Lab, Queen's University"],
+  "project_type": "research_prototype",
+  "short_description": "A toolbox of touchable nano-quadcopters that act as self-levitating, mid-air physical voxels for interactive 3D displays.",
+  "long_description": "BitDrones is a research prototype that uses swarms of small nano-quadcopters as tangible, self-levitating building blocks for what its authors call a 'real reality' 3D display. Three drone types (PixelDrones with an RGB LED and OLED, ShapeDrones with a geometric mesh body, and DisplayDrones with a thin-film touchscreen) are tracked via motion capture so users can touch, drag, throw, and resize individual drones and compound models in mid-air. It matters as physical AI / interaction design because it explores programmable matter and direct, unmediated tangible manipulation of volumetric information without a headset, prefiguring shape-changing interfaces made of many actuated physical elements.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/2858036.2858519",
+  "ai_embedded": "none",
+  "ai_note": "Drones are positioned via external motion-capture tracking and scripted control; no AI/ML runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Drone", "Distributed object ecology"],
+    "embodiment.mobility": ["Flying"],
+    "embodiment.actuation": ["Flying"],
+    "intelligence.input": ["Touch", "Gesture", "Motion"],
+    "function.role": ["Tool", "Creative collaborator"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing", "Human-robot interaction"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 5,
+    "scale": 4,
+    "social_legibility": 2,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-bitdrones-001",
+      "caption": "A user touching a ShapeDrone among a group of self-levitating BitDrones acting as mid-air physical voxels.",
+      "image_type": "research_figure",
+      "source_url": "https://hml.cs.ru.nl/bitdrones",
+      "rights_status": "needs_permission",
+      "alt_text": "Small quadcopter drones hovering in mid-air, each fitted with a geometric body, while a person's hand reaches in to touch one of them."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-bitdrones-001",
+      "title": "BitDrones: Towards Using 3D Nanocopter Displays as Interactive Self-Levitating Programmable Matter",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2858036.2858519",
+      "publisher": "ACM (CHI '16)",
+      "year": 2016
+    },
+    {
+      "source_id": "source-bitdrones-002",
+      "title": "BitDrones: Interactive Flying Microbots Show Future of Virtual Reality is Physical",
+      "source_type": "lab_page",
+      "url": "https://hml.cs.ru.nl/bitdrones",
+      "publisher": "Human Media Lab",
+      "year": 2015
+    },
+    {
+      "source_id": "source-bitdrones-003",
+      "title": "Queen's University professor to unveil self-levitating displays, allowing physical interactions with mid-air virtual objects",
+      "source_type": "credible_news",
+      "url": "https://www.queensu.ca/gazette/media/news-release-queen-s-university-professor-unveil-self-levitating-displays-allowing-physical",
+      "publisher": "Queen's Gazette",
+      "year": 2015
+    }
+  ],
+  "confidence": "high"
+}

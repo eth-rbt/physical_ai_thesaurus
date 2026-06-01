@@ -1,0 +1,66 @@
+{
+  "name": "Tern",
+  "year": 2007,
+  "organization": ["Tufts University HCI Lab"],
+  "project_type": "research_prototype",
+  "short_description": "A tangible programming language for children built from interlocking wooden blocks that a webcam reads via fiducial markers to assemble runnable robot programs.",
+  "long_description": "Tern is a tangible programming interface designed for classroom use in which children snap together jigsaw-shaped wooden blocks representing actions, loops, branches, and subroutines to compose a physical program. A standard webcam photographs the assembled program and the TopCodes computer-vision library detects fiducial markers printed on each block to convert the layout into executable code for robots such as LEGO Mindstorms or iRobot Create. The blocks contain no electronics or power, making the system inexpensive and durable; it matters as physical AI / interaction design because it demonstrates how computation can be made graspable and collaborative through pure tangible interaction rather than embedded intelligence.",
+  "primary_url": "https://doi.org/10.1145/1226969.1227003",
+  "ai_embedded": "none",
+  "ai_note": "The webcam pipeline is fiducial-marker (TopCodes) detection and symbolic compilation, not learned/AI vision; the blocks are passive with no embedded computation.",
+  "attributes": {
+    "embodiment.form": ["Tangible user interface", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.materiality": ["Wood", "Passive / unpowered"],
+    "intelligence.input": ["Vision"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Teacher", "Tool"],
+    "function.task_domain": ["Education", "Programming"],
+    "genealogy.lineage": ["Tangible user interfaces", "Educational technology"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-tern-001",
+      "caption": "Tern's interlocking wooden programming blocks shaped like jigsaw pieces, each printed with a TopCode fiducial marker.",
+      "image_type": "research_figure",
+      "source_url": "https://tufts-hci-lab.github.io/project_images/tern/tangk.jpg",
+      "rights_status": "needs_permission",
+      "alt_text": "A set of flat wooden blocks shaped like jigsaw puzzle pieces, labeled with action words and small circular printed markers, connected together to form a sequence."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-tern-001",
+      "title": "Designing tangible programming languages for classroom use",
+      "source_type": "academic_paper",
+      "url": "https://doi.org/10.1145/1226969.1227003",
+      "publisher": "ACM (Proceedings of TEI '07)",
+      "year": 2007
+    },
+    {
+      "source_id": "source-tern-002",
+      "title": "Tangible programming in the classroom with tern",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/1240866.1240933",
+      "publisher": "ACM (CHI '07 Extended Abstracts)",
+      "year": 2007
+    },
+    {
+      "source_id": "source-tern-003",
+      "title": "Tangible Programming Languages: A practical approach to computer programming in educational settings",
+      "source_type": "lab_page",
+      "url": "https://tufts-hci-lab.github.io/projects/Tangible_Programming_Languages_A_practical_approach_to_computer_programming_in_educational_settings.html",
+      "publisher": "Tufts University HCI Lab",
+      "year": null
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "MediaCup",
+  "year": 1999,
+  "organization": ["TecO (Telecooperation Office), University of Karlsruhe"],
+  "project_type": "research_prototype",
+  "short_description": "An ordinary coffee cup invisibly augmented with sensing, processing, and infrared communication so it can broadcast its context into a networked environment.",
+  "long_description": "MediaCup is an everyday coffee cup whose base houses a temperature sensor, a movement sensor, a microcontroller, and an ultra-low-power infrared transceiver, letting the object sense how it is being handled and report derived states such as drinking, stationary/filled, and hot or cold. It is a foundational ubiquitous-computing experiment in embedding context-awareness into a familiar artifact rather than a screen, and in using the resulting signals (for example the density of co-located cups) as ambient context for surrounding information systems. As a 'smart object' precedent it shows how mundane things can become communicating participants in an environment without changing how people use them.",
+  "primary_url": "https://www.sciencedirect.com/science/article/abs/pii/S1389128600001808",
+  "ai_embedded": "none",
+  "ai_note": "Context states are derived by threshold and rule-based interpretation of temperature and movement sensor signals; no machine learning runs in the system, so the 'some' hint is overridden to 'none'.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology"],
+    "embodiment.mobility": ["Handheld"],
+    "embodiment.materiality": ["Everyday object"],
+    "intelligence.model": ["Rule-based system"],
+    "intelligence.input": ["Temperature", "Motion", "Environmental sensors"],
+    "function.role": ["Context sensor", "Memory aid"],
+    "genealogy.lineage": ["Ubiquitous computing", "Tangible user interfaces", "Internet of Things", "Ambient intelligence", "Smart objects"]
+  },
+  "metrics": {
+    "proximity": 4,
+    "mobility": 2,
+    "scale": 1,
+    "social_legibility": 1,
+    "expressiveness": 1,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-mediacup-001",
+      "caption": "MediaCup prototype: sensors, microcontroller, and infrared diode built into the base of an ordinary coffee cup.",
+      "image_type": "research_figure",
+      "source_url": "https://www.teco.kit.edu/research/media_cup/",
+      "rights_status": "needs_permission",
+      "alt_text": "A white ceramic coffee cup whose base has been opened to reveal a small circuit board carrying sensors, a microcontroller, and an infrared transmitter."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-mediacup-001",
+      "title": "Mediacups: experience with design and use of computer-augmented everyday artefacts",
+      "source_type": "academic_paper",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1389128600001808",
+      "publisher": "Computer Networks 35(4), Elsevier",
+      "year": 2001
+    },
+    {
+      "source_id": "source-mediacup-002",
+      "title": "The MediaCup: Awareness Technology Embedded in an Everyday Object",
+      "source_type": "conference_page",
+      "url": "https://link.springer.com/chapter/10.1007/3-540-48157-5_30",
+      "publisher": "Handheld and Ubiquitous Computing (HUC '99), Springer",
+      "year": 1999
+    },
+    {
+      "source_id": "source-mediacup-003",
+      "title": "MediaCup project page",
+      "source_type": "lab_page",
+      "url": "https://www.teco.kit.edu/research/media_cup/",
+      "publisher": "TecO, Karlsruhe Institute of Technology",
+      "year": null
+    }
+  ],
+  "confidence": "high"
+}

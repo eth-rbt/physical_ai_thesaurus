@@ -1,0 +1,70 @@
+{
+  "name": "Smart-Its",
+  "year": 2005,
+  "organization": [
+    "Lancaster University",
+    "ETH Zurich",
+    "University of Karlsruhe",
+    "Viktoria Institute"
+  ],
+  "project_type": "research_prototype",
+  "short_description": "A platform of small embedded modules that add sensing, processing, and wireless communication to any everyday artifact, turning it into a networked smart object.",
+  "long_description": "Smart-Its were postage-stamp-scale electronic modules that could be attached post hoc to ordinary objects, augmenting them with multi-sensor perception, a microcontroller, and short-range wireless networking so artifacts could perceive their situation and exchange information. Developed under the EU Disappearing Computer initiative, the platform embodied an artifact-centered vision of ubiquitous computing in which computation recedes into the physical world rather than appearing as a screen-based device. Its best-known interaction technique, Smart-Its Friends, let a user pair two devices simply by holding them together and shaking them, with the modules detecting their shared motion via correlated accelerometer signals. The work is a foundational example of tangible, embedded, context-aware interaction and a precursor to today's Internet of Things.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/1047671.1047707",
+  "ai_embedded": "none",
+  "ai_note": "Smart-Its rely on embedded sensing, microcontroller processing, and signal-correlation matching (e.g. accelerometer coherence for shake-pairing), not on any machine-learning model running inside the system.",
+  "attributes": {
+    "embodiment.form": ["Distributed object ecology", "Domestic object"],
+    "embodiment.mobility": ["Fixed", "Handheld"],
+    "embodiment.materiality": ["Embedded electronics"],
+    "intelligence.model": ["Rule-based system"],
+    "intelligence.input": ["Motion", "Environmental sensors", "Force / torque"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Ubiquitous computing", "Tangible user interfaces", "Internet of Things", "Ambient intelligence", "Smart home"]
+  },
+  "metrics": {
+    "proximity": 4,
+    "mobility": 2,
+    "scale": 1,
+    "social_legibility": 1,
+    "expressiveness": 1,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-smart-its-001",
+      "caption": "Smart-Its embedded sensor module attached to an everyday artifact, as presented in the Communications of the ACM article.",
+      "image_type": "research_figure",
+      "source_url": "https://dl.acm.org/doi/10.1145/1047671.1047707",
+      "rights_status": "needs_permission",
+      "alt_text": "A small circuit board module with sensors and a microcontroller, designed to be attached to an everyday object to give it sensing and wireless networking capabilities."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-smart-its-001",
+      "title": "Smart-Its: computers for artifacts in the physical world",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/1047671.1047707",
+      "publisher": "Communications of the ACM (ACM), Vol. 48, No. 3",
+      "year": 2005
+    },
+    {
+      "source_id": "source-smart-its-002",
+      "title": "Smart-Its Friends: A Technique for Users to Easily Establish Connections between Smart Artefacts",
+      "source_type": "conference_page",
+      "url": "https://link.springer.com/chapter/10.1007/3-540-45427-6_10",
+      "publisher": "Springer (Ubicomp 2001)",
+      "year": 2001
+    },
+    {
+      "source_id": "source-smart-its-003",
+      "title": "The Disappearing Computer Initiative - SMART-ITS",
+      "source_type": "project_page",
+      "url": "http://www.disappearing-computer.org/projects/SMARTITS.html",
+      "publisher": "The Disappearing Computer Initiative",
+      "year": null
+    }
+  ],
+  "confidence": "high"
+}

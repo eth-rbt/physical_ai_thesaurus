@@ -60,5 +60,52 @@
       "access_notes": "Background on company history, LiDAR mass production in 2016, and AI obstacle avoidance."
     }
   ],
+  "interactions": [
+    {
+      "title": "Steers around the dog's accident in the dark",
+      "description": "Mid-clean it spots a pet mess, a charging cable, or a stray shoe and routes around it instead of smearing it across the room, calling out what it saw in the app afterward.",
+      "provenance": "documented",
+      "source_url": "https://www.techgearlab.com/reviews/smart-home/robot-vacuum/roborock-saros-10r",
+      "source_label": "TechGearLab — Saros 10R review (StarSight, 108 obstacle types)"
+    },
+    {
+      "title": "Picks your socks up off the floor",
+      "description": "On the Saros Z70, a folding five-axis arm flags light objects under 300g — socks, sandals, small dog toys — while it vacuums, then circles back to lift each one into a chosen spot and clean the floor underneath.",
+      "provenance": "documented",
+      "source_url": "https://www.engadget.com/home/roborocks-new-flagship-robot-vacuum-has-an-arm-that-can-grab-small-objects-170020390.html",
+      "source_label": "Engadget — Roborock OmniGrip arm"
+    },
+    {
+      "title": "A rolling pet cam you can talk through",
+      "description": "From your phone you drive the robot around the empty house, watch the live camera feed, and speak to an anxious dog through its onboard speaker and mic to settle it down.",
+      "provenance": "documented",
+      "source_url": "https://newsroom.roborock.com/us/news/roborock-s-pet-friendly-product-designs-bring-innovation-into-pet-care",
+      "source_label": "Roborock newsroom — pet-friendly designs"
+    },
+    {
+      "title": "The cat commandeers it as a slow taxi",
+      "description": "Cats discover the docked robot is a warm moving platform and ride it around the living room; the clips rack up millions of views, with behaviorists warning about long fur near the moving parts.",
+      "provenance": "observed",
+      "source_url": "https://www.newsweek.com/people-are-obsessed-cat-living-best-life-riding-vacuum-1755407",
+      "source_label": "Newsweek — cat riding a robot vacuum"
+    },
+    {
+      "title": "Owners root it to cut the cloud out",
+      "description": "Privacy-minded users root the robot and install Valetudo, a community 'brain parasite' that keeps the vendor's navigation but runs the whole thing locally — no account, no cloud upload, no in-app upsells.",
+      "provenance": "observed",
+      "source_url": "https://valetudo.cloud/pages/installation/roborock/",
+      "source_label": "Valetudo — Roborock rooting"
+    },
+    {
+      "title": "Go find the cat",
+      "description": "Ask it to patrol and locate a specific pet by name, leaning on the same camera, obstacle-recognition map, and two-way audio it already uses for remote viewing, so you can check on a hiding animal from the office.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Ten-minute pre-guest tidy",
+      "description": "Before visitors arrive, one tap sends it on a pickup pass — the arm clears stray socks and dog toys into their bins and it mops the entry — using the object-pickup and route planning the Z70 already ships with.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

@@ -1,0 +1,63 @@
+{
+  "name": "Things That Think (TTT)",
+  "year": 1995,
+  "organization": ["MIT Media Lab"],
+  "project_type": "concept",
+  "short_description": "An MIT Media Lab research consortium founded in 1995 to explore moving computation out of conventional computers and into everyday objects.",
+  "long_description": "Things That Think (TTT) was a sponsored research consortium at the MIT Media Lab, initiated in 1995 and active through 2014, that brought together dozens of companies and research groups around a single vision: computation and communication migrating out of PCs and into ordinary objects like toasters, doorknobs, shoes, and coffee mugs. Co-directed by Neil Gershenfeld and articulated in his 1999 book 'When Things Start to Think', it framed everyday objects sensing their owners, learning habits, and communicating with one another to solve real problems. As a foundational vision for ubiquitous computing and tangible interaction, TTT matters to physical AI as an early, influential articulation of intelligence dissolving into the material world rather than living on a screen.",
+  "primary_url": "https://ttt.media.mit.edu/",
+  "ai_embedded": "envisioned",
+  "ai_note": "TTT is a research vision and consortium for embedding intelligence into everyday objects; it framed the concept of objects that sense and learn rather than shipping a single implemented AI system.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Touch", "Motion", "Environmental sensors"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Ubiquitous computing", "Ambient intelligence", "Internet of Things", "Tangible user interfaces"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 4,
+    "social_legibility": 2,
+    "expressiveness": 2,
+    "autonomy": 2
+  },
+  "images": [
+    {
+      "image_id": "img-things-that-think-001",
+      "caption": "Things That Think consortium page at the MIT Media Lab, framing the migration of computation into everyday objects.",
+      "image_type": "screenshot",
+      "source_url": "https://ttt.media.mit.edu/",
+      "rights_status": "needs_permission",
+      "alt_text": "MIT Media Lab Things That Think consortium web page describing digitally augmented objects and environments."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-things-that-think-001",
+      "title": "MIT Media Lab: Things That Think Consortium",
+      "source_type": "lab_page",
+      "url": "https://ttt.media.mit.edu/",
+      "publisher": "MIT Media Lab",
+      "year": null
+    },
+    {
+      "source_id": "source-things-that-think-002",
+      "title": "Group Overview - Things That Think, MIT Media Lab",
+      "source_type": "lab_page",
+      "url": "https://www.media.mit.edu/groups/things-that-think/overview/",
+      "publisher": "MIT Media Lab",
+      "year": null
+    },
+    {
+      "source_id": "source-things-that-think-003",
+      "title": "When Things Start to Think",
+      "source_type": "documentation",
+      "url": "https://www.publishersweekly.com/978-0-8050-5874-1",
+      "publisher": "Henry Holt and Co. (reviewed by Publishers Weekly)",
+      "year": 1999
+    }
+  ],
+  "confidence": "high"
+}

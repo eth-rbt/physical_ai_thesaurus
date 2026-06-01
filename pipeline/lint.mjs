@@ -33,10 +33,10 @@ function parseFrontmatter(text) {
   if (!m) return null;
   const lines = m[1].split('\n').filter((l) => l.trim() !== '' && !l.trim().startsWith('#'));
   const root = {};
-  // stack of { indent, container } where container is the object/array being filled
-  const stack = [{ indent: -1, container: root, key: null }];
+  // Each frame owns entries that appear at an indent strictly greater than `parentIndent`.
+  const stack = [{ parentIndent: -1, container: root, key: null, parent: null }];
   const coerce = (raw) => {
-    let v = raw.trim();
+    const v = raw.trim();
     if (v === '') return undefined;
     if ((v.startsWith('{') && v.endsWith('}')) || (v.startsWith('[') && v.endsWith(']'))) {
       try { return JSON.parse(v); } catch { /* fall through */ }
@@ -50,43 +50,32 @@ function parseFrontmatter(text) {
     if (/^-?\d+(\.\d+)?$/.test(v)) return Number(v);
     return v;
   };
-  const top = () => stack[stack.length - 1];
   for (const line of lines) {
     const indent = line.length - line.trimStart().length;
-    while (stack.length > 1 && indent <= top().indent) stack.pop();
+    while (stack.length > 1 && indent <= stack[stack.length - 1].parentIndent) stack.pop();
+    const frame = stack[stack.length - 1];
     const content = line.trim();
     if (content.startsWith('- ')) {
-      // list item; parent container should be an array bound to top().key
-      const parent = top();
-      if (!Array.isArray(parent.container[parent.key])) parent.container[parent.key] = [];
-      parent.container[parent.key].push(coerce(content.slice(2)));
+      // list item: the current frame's key holds an array
+      if (!Array.isArray(frame.parent[frame.key])) frame.parent[frame.key] = [];
+      frame.parent[frame.key].push(coerce(content.slice(2)));
       continue;
     }
     const ci = content.indexOf(':');
     if (ci === -1) continue;
     const key = content.slice(0, ci).trim();
-    const rest = content.slice(ci + 1);
-    const parent = top();
-    const target = Array.isArray(parent.container[parent.key])
-      ? parent.container[parent.key]
-      : parent.container;
-    if (coerce(rest) === undefined) {
-      // nested block (object) OR a list follows on subsequent lines
-      const obj = {};
-      target[key] = obj;
-      stack.push({ indent, container: target, key, nested: obj });
-      // also allow this key to become an array if `- ` lines follow:
-      stack[stack.length - 1].container = target;
+    const value = coerce(content.slice(ci + 1));
+    if (value === undefined) {
+      // opens a nested block — object now, may become an array if `- ` lines follow
+      const child = {};
+      frame.container[key] = child;
+      stack.push({ parentIndent: indent, container: child, key, parent: frame.container });
     } else {
-      target[key] = coerce(rest);
+      frame.container[key] = value;
     }
   }
   return root;
 }
-
-// Re-walk for nested objects: the simple parser above sets nested objects via stack.
-// To keep it robust we re-parse nested blocks by indentation in a second pass helper.
-// (For the card schema the depth is shallow: display -> axis/x/y.)
 
 function loadProjects() {
   const map = new Map();
@@ -191,6 +180,19 @@ for (const p of projects.values()) {
       if (risky.includes(img.rights_status))
         add('WARN', 'rights', p.id, `hosts local_image but rights_status="${img.rights_status}" — confirm license before publishing`);
     }
+  }
+}
+
+// --- CHECK: interactions honor the "verified" contract ---
+for (const p of projects.values()) {
+  for (const ix of p.interactions || []) {
+    const where = `"${ix.title || '?'}"`;
+    if ((ix.provenance === 'documented' || ix.provenance === 'observed') && !ix.source_url)
+      add('ERROR', 'interaction', p.id, `${ix.provenance} interaction ${where} has no source_url — cite it or mark it "proposed"`);
+    if (ix.source_url && !/^https?:\/\//.test(ix.source_url))
+      add('ERROR', 'interaction', p.id, `interaction ${where} has a non-URL source_url`);
+    if (!ix.description || !String(ix.description).trim())
+      add('WARN', 'interaction', p.id, `interaction ${where} has an empty description`);
   }
 }
 

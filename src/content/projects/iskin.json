@@ -1,0 +1,57 @@
+{
+  "name": "iSkin: Flexible, Stretchable and Visually Customizable On-Body Touch Sensors",
+  "year": 2015,
+  "organization": ["Saarland University", "Max Planck Institute for Informatics", "Carnegie Mellon University", "Aalto University", "Sorbonne Universite (CNRS, LTCI)"],
+  "project_type": "research_prototype",
+  "short_description": "A thin, flexible, stretchable on-skin sensor overlay that turns the body's surface into a touch input area for mobile and wearable computing.",
+  "long_description": "iSkin is a class of skin-worn touch sensors built from biocompatible silicone with embedded conductive carbon-black electrodes, combining capacitive and resistive sensing to detect touch at two pressure levels even when the overlay is stretched by 30% or bent to a 0.5 cm radius. Produced in customizable shapes for the finger, forearm, or ear, it supports buttons, sliders, and click wheels worn directly on the skin, enabling discreet, always-available input. Presented at ACM CHI 2015 (Best Paper Award), it matters to physical AI and interaction design as an early on-body input surface that explores how computation can become continuous with the human body rather than confined to a rigid device.",
+  "primary_url": "https://martinweigel.com/research/iskin/",
+  "ai_embedded": "none",
+  "ai_note": "iSkin is a passive capacitive/resistive touch-sensing material; touch detection is signal thresholding with no AI or machine learning involved.",
+  "attributes": {
+    "embodiment.form": ["Wearable"],
+    "embodiment.mobility": ["Body-worn"],
+    "embodiment.materiality": ["Soft / flexible", "Skin-worn"],
+    "embodiment.scale": ["Wearable"],
+    "intelligence.input": ["Touch"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Wearable computing", "Tangible user interfaces", "On-body interaction"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 1,
+    "scale": 1,
+    "social_legibility": 1,
+    "expressiveness": 1,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-iskin-001",
+      "caption": "iSkin stretchable on-body touch sensor overlay worn on the skin as a customizable input surface.",
+      "image_type": "research_figure",
+      "source_url": "https://martinweigel.com/research/iskin/",
+      "rights_status": "needs_permission",
+      "alt_text": "A thin, semi-transparent silicone sensor sticker with printed touch buttons applied directly to a person's skin, used as a touch input surface."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-iskin-001",
+      "title": "iSkin: Flexible, Stretchable and Visually Customizable On-Body Touch Sensors for Mobile Computing",
+      "source_type": "academic_paper",
+      "url": "https://hal.science/hal-02288418",
+      "publisher": "ACM (Proc. CHI 2015)",
+      "year": 2015
+    },
+    {
+      "source_id": "source-iskin-002",
+      "title": "iSkin - Martin Weigel Research Project Page",
+      "source_type": "project_page",
+      "url": "https://martinweigel.com/research/iskin/",
+      "publisher": "Martin Weigel",
+      "year": null
+    }
+  ],
+  "confidence": "high"
+}

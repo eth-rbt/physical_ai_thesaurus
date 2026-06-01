@@ -1,0 +1,65 @@
+{
+  "name": "Tacttoo",
+  "year": 2018,
+  "organization": ["Saarland University", "Human-Computer Interaction Lab, Saarland University"],
+  "project_type": "academic_paper",
+  "short_description": "A sub-35-micrometer feel-through temporary tattoo that delivers high-density electro-tactile output on the skin.",
+  "long_description": "Tacttoo is a research prototype from Saarland University's HCI Lab that integrates electro-tactile electrodes into an ultra-thin temporary tattoo (under 35 micrometers thick) that conforms to complex body geometry such as a fingertip. It is 'feel-through': it preserves the wearer's natural tactile acuity while superimposing computer-generated electro-tactile stimuli, enabling tactile augmented reality, private notifications, and on-skin interaction. As physical AI and wearable interaction design, it matters because it pushes haptic output to a near-imperceptible epidermal layer, reframing the body's surface itself as a high-resolution display channel.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/3242587.3242645",
+  "ai_embedded": "none",
+  "ai_note": "Tacttoo is an electro-tactile output and fabrication technique; the paper describes no AI/ML running in the system.",
+  "attributes": {
+    "embodiment.form": ["Wearable"],
+    "embodiment.mobility": ["Body-worn"],
+    "embodiment.materiality": ["On-skin / epidermal"],
+    "embodiment.actuation": ["Electro-tactile stimulation"],
+    "intelligence.output": ["Touch"],
+    "function.role": ["Tool", "Memory aid"],
+    "genealogy.lineage": ["Wearable computing", "Tangible user interfaces", "Augmented reality"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 2,
+    "scale": 1,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-tacttoo-001",
+      "caption": "A Tacttoo electro-tactile temporary tattoo applied to a fingertip.",
+      "image_type": "research_figure",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/projects/body_interaction/tacttoo/tactoo_finger_square-600x600-1.jpg",
+      "rights_status": "needs_permission",
+      "alt_text": "A close-up of a fingertip with a thin, nearly transparent printed-circuit tattoo bearing small electrodes conforming to the skin."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-tacttoo-001",
+      "title": "Tacttoo: A Thin and Feel-Through Tattoo for On-Skin Tactile Output",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/3242587.3242645",
+      "publisher": "ACM (Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology, UIST '18)",
+      "year": 2018
+    },
+    {
+      "source_id": "source-tacttoo-002",
+      "title": "Tacttoo - Human-Computer Interaction Lab, Saarland University",
+      "source_type": "lab_page",
+      "url": "https://hci.cs.uni-saarland.de/projects/tacttoo/",
+      "publisher": "Saarland University HCI Lab",
+      "year": 2018
+    },
+    {
+      "source_id": "source-tacttoo-003",
+      "title": "Tacttoo: A Thin and Feel-Through Tattoo for On-Skin Tactile Output (author PDF)",
+      "source_type": "academic_paper",
+      "url": "https://hci.cs.uni-saarland.de/wp-content/uploads/projects/body_interaction/tacttoo/withana_uist18_tacttoo.pdf",
+      "publisher": "Saarland University HCI Lab",
+      "year": 2018
+    }
+  ],
+  "confidence": "high"
+}

@@ -9,10 +9,11 @@ import ProjectScatter2D from './ProjectScatter2D.astro';
 interface Props {
   projects: CollectionEntry<'projects'>[];
   display: CollectionEntry<'cards'>['data']['display'];
+  notes?: Record<string, string>;
 }
-const { projects, display } = Astro.props;
+const { projects, display, notes } = Astro.props;
 ---
 
-{display.mode === 'grid' && <ProjectGrid projects={projects} groupBy={display.groupBy} />}
-{display.mode === 'axis-1d' && <ProjectAxis1D projects={projects} axis={display.axis} />}
-{display.mode === 'scatter-2d' && <ProjectScatter2D projects={projects} x={display.x} y={display.y} />}
+{display.mode === 'grid' && <ProjectGrid projects={projects} groupBy={display.groupBy} notes={notes} />}
+{display.mode === 'axis-1d' && <ProjectAxis1D projects={projects} axis={display.axis} notes={notes} />}
+{display.mode === 'scatter-2d' && <ProjectScatter2D projects={projects} x={display.x} y={display.y} notes={notes} />}

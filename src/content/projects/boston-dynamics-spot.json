@@ -41,5 +41,61 @@
       "access_notes": "Official product page; commercial availability from 2020."
     }
   ],
+  "interactions": [
+    {
+      "title": "Walk the plant and flag the hot motor",
+      "description": "Spot runs a scheduled route through a facility with a thermal camera payload, reading pixel-level temperatures off pumps and switchgear so a maintenance team catches an overheating motor before it fails.",
+      "provenance": "documented",
+      "source_url": "https://bostondynamics.com/solutions/inspection/thermal/",
+      "source_label": "Boston Dynamics — thermal inspection"
+    },
+    {
+      "title": "Let itself through the locked door",
+      "description": "On a security patrol Spot uses its arm to turn a handle, and with embedded Bluetooth credentials it can unlock and pass through automated doors on its own, then carry on to the next gauge.",
+      "provenance": "documented",
+      "source_url": "https://techcrunch.com/2024/09/23/boston-dynamics-spot-can-now-autonomously-unlock-doors/",
+      "source_label": "TechCrunch"
+    },
+    {
+      "title": "Map radiation no human should walk into",
+      "description": "Researchers fitted a collimated radiation sensor to Spot and sent it through Chernobyl's exclusion zone, building a 3D map of contamination while its careful legged gait avoided kicking up radioactive dust.",
+      "provenance": "observed",
+      "source_url": "https://spectrum.ieee.org/boston-dynamics-spot-chernobyl",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "Herd sheep across a hillside, piloted from another continent",
+      "description": "A New Zealand startup put Spot to work mustering a flock over creeks and steep terrain, with a Boston Dynamics team monitoring the run remotely from the United States.",
+      "provenance": "observed",
+      "source_url": "https://www.sciencealert.com/spot-the-robot-dog-is-now-herding-sheep-in-new-zealand",
+      "source_label": "ScienceAlert"
+    },
+    {
+      "title": "Pull a steampunk rickshaw with its owner aboard",
+      "description": "Adam Savage bolted a wheelchair-chassis carriage to Spot's cargo rails and rode behind it, turning an industrial inspection robot into a Victorian-flavored personal cart for a weekend build.",
+      "provenance": "observed",
+      "source_url": "https://laughingsquid.com/adam-savage-builds-spot-robot-rickshaw/",
+      "source_label": "Laughing Squid"
+    },
+    {
+      "title": "Nail the Running Man on the internet",
+      "description": "Boston Dynamics choreographed Spot alongside Atlas and Handle dancing to 'Do You Love Me,' a video that drew tens of millions of views and reframed the machine as charming rather than menacing.",
+      "provenance": "observed",
+      "source_url": "https://www.cnn.com/2020/12/30/tech/boston-dynamics-robots-dancing-trnd/index.html",
+      "source_label": "CNN"
+    },
+    {
+      "title": "Become a flashpoint for surveillance fears",
+      "description": "When the NYPD deployed Spot at a public housing complex, the backlash over policing and militarization was loud enough that the department pulled the robot, an early lesson in how its creature-like form reads as threat in the wrong setting.",
+      "provenance": "observed",
+      "source_url": "https://www.scientificamerican.com/article/the-nypds-robot-dog-was-a-really-bad-idea-heres-what-went-wrong/",
+      "source_label": "Scientific American"
+    },
+    {
+      "title": "Hear a leak before anyone smells it",
+      "description": "With an acoustic-imaging payload on its sensor rails, Spot could patrol a compressed-air or gas line and localize a faint hiss to a specific fitting, logging the spot for repair on its next autonomous round.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

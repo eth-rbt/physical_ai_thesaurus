@@ -1,0 +1,65 @@
+{
+  "name": "SkinMarks",
+  "year": 2017,
+  "organization": ["Saarland University", "Google"],
+  "project_type": "academic_paper",
+  "short_description": "Rub-on temporary-tattoo skin electronics that turn precise body landmarks into touch, squeeze, and bend input surfaces with integrated visual output.",
+  "long_description": "SkinMarks are ultra-thin conformal skin-electronic devices, printed with the conductive polymer PEDOT:PSS and applied to the body like temporary rub-on tattoos, that align with fine body landmarks such as knuckles, tendons, and skin folds. They sense touch, squeeze, and bend gestures and provide co-located visual output (e.g. electroluminescent or LED displays), letting people control devices through eyes-free, body-relative gestures. As physical AI and interaction design move computation onto and into the body, SkinMarks demonstrates how the skin itself can become a high-resolution, tangible on-body interface that exploits existing anatomical reference points.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/3025453.3025704",
+  "ai_embedded": "none",
+  "ai_note": "A skin-conformal sensing and actuation technique using printed PEDOT:PSS electrodes wired to an Arduino; no machine learning or AI runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Wearable"],
+    "embodiment.mobility": ["Body-worn"],
+    "embodiment.materiality": ["On-skin electronics", "Flexible / conformal"],
+    "intelligence.input": ["Touch", "Gesture", "Force / torque"],
+    "intelligence.output": ["Visual output"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Wearable computing", "Tangible user interfaces", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 1,
+    "scale": 1,
+    "social_legibility": 2,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-skinmarks-001",
+      "caption": "SkinMarks conformal skin-electronic tattoos applied to body landmarks for touch, squeeze, and bend input.",
+      "image_type": "research_figure",
+      "source_url": "https://www.olwal.com/projects/research/skinmarks/",
+      "rights_status": "needs_permission",
+      "alt_text": "Thin electronic tattoos printed on a person's fingers and hand, with conductive traces aligned along the knuckles and tendons acting as touch-sensitive buttons."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-skinmarks-001",
+      "title": "SkinMarks: Enabling Interactions on Body Landmarks Using Conformal Skin Electronics",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/3025453.3025704",
+      "publisher": "ACM (Proceedings of CHI 2017)",
+      "year": 2017
+    },
+    {
+      "source_id": "source-skinmarks-002",
+      "title": "SkinMarks: Enabling Interactions on Body Landmarks (project page)",
+      "source_type": "project_page",
+      "url": "https://www.olwal.com/projects/research/skinmarks/",
+      "publisher": "Alex Olwal",
+      "year": 2017
+    },
+    {
+      "source_id": "source-skinmarks-003",
+      "title": "Electronic tattoos: Using distinctive body locations to control mobile devices intuitively",
+      "source_type": "credible_news",
+      "url": "https://phys.org/news/2017-05-electronic-tattoos-distinctive-body-mobile.html",
+      "publisher": "Phys.org / Saarland University",
+      "year": 2017
+    }
+  ],
+  "confidence": "high"
+}

@@ -69,5 +69,61 @@
       "access_notes": "Technical design paper describing Stretch's base, mast, telescoping arm, and wrist."
     }
   ],
+  "interactions": [
+    {
+      "title": "Scratch an itch you can't reach",
+      "description": "Henry Evans, who has quadriplegia, fits a modified hairbrush into Stretch's gripper and drives it to his head to scratch an itch himself, instead of waiting on a caregiver.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/stretch-assistive-robot",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "Feed yourself a forkful of eggs",
+      "description": "Using on-screen controls, a person with limited arm movement positions Stretch's gripper to bring scrambled eggs up to their mouth, taking a bite on their own schedule.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/stretch-assistive-robot",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "Drive the robot with your head from across the room",
+      "description": "Wearing the Head-Worn Assistive Teleoperation rig, a user maps head tilts and speech to the arm and base — no fine hand motion needed — to fetch a drink or open the blinds.",
+      "provenance": "observed",
+      "source_url": "https://arxiv.org/html/2312.15071v2",
+      "source_label": "HRI 2024 best-paper (arXiv)"
+    },
+    {
+      "title": "Teach it a chore in five minutes",
+      "description": "With NYU's Dobb-E, you record about five minutes of demonstrations using a phone-on-a-stick — opening blinds, pouring marshmallows, closing a drawer — and Stretch learns to repeat the task at home.",
+      "provenance": "observed",
+      "source_url": "https://dobb-e.com/",
+      "source_label": "Dobb-E project"
+    },
+    {
+      "title": "Deal a hand of poker, present a rose",
+      "description": "Beyond chores, Henry Evans has used Stretch to manipulate playing cards in a poker game with friends and to hand his wife Jane a rose — social gestures, not just utility.",
+      "provenance": "observed",
+      "source_url": "https://spectrum.ieee.org/stretch-assistive-robot",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "Pilot it from another city",
+      "description": "Because the web teleop interface runs over the internet, a remote helper or therapist can log in from anywhere, see the head and gripper camera feeds, and drive the arm to retrieve an object in someone's home.",
+      "provenance": "documented",
+      "source_url": "https://docs.hello-robot.com/0.3/getting_started/demos_web_teleop/",
+      "source_label": "Stretch web teleop docs"
+    },
+    {
+      "title": "Ask it in plain language to bring you something",
+      "description": "Stretch AI routes a spoken request through an LLM that emits robot API calls, so 'find my mug and bring it here' becomes a navigate-find-grasp-deliver sequence the robot runs on its own.",
+      "provenance": "documented",
+      "source_url": "https://github.com/hello-robot/stretch_ai/blob/main/docs/llm_agent.md",
+      "source_label": "stretch_ai LLM agent docs"
+    },
+    {
+      "title": "A standing reminder that gently nudges your hand",
+      "description": "Given its force-sensing gripper and a scheduler, Stretch could roll up at a set time, hold out a pill cup, and wait at low force until you take it — extending its proven fetch-and-hold skills into a medication-prompt ritual.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

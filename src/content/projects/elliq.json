@@ -69,5 +69,52 @@
       "access_notes": "Design and form factor by Fuseproject."
     }
   ],
+  "interactions": [
+    {
+      "title": "Wakes up and greets the day first",
+      "description": "It hears you stirring in the morning, lights up, and opens with the day, date, and weather before you've said a word — a proactive 'good morning' rather than waiting to be summoned.",
+      "provenance": "documented",
+      "source_url": "https://www.reviewed.com/accessibility/content/elliq-review-companion-robot-for-seniors-price-high",
+      "source_label": "Reviewed hands-on"
+    },
+    {
+      "title": "A stretching routine, then a little dance",
+      "description": "Suggests a guided exercise video — balance, yoga, or cardio — and when you finish it does a small congratulatory dance with its head and light.",
+      "provenance": "documented",
+      "source_url": "https://www.reviewed.com/accessibility/content/elliq-review-companion-robot-for-seniors-price-high",
+      "source_label": "Reviewed hands-on"
+    },
+    {
+      "title": "Remembers your favorite color a week later",
+      "description": "Mention in passing that you like beige, and days later it works that detail back into a conversation — building a sense of being known over time rather than starting fresh each session.",
+      "provenance": "documented",
+      "source_url": "https://www.theseniorlist.com/aging-in-place/elliq/",
+      "source_label": "The Senior List review"
+    },
+    {
+      "title": "A confidant for grief",
+      "description": "When 83-year-old Deanna Dezern told ElliQ her friend had died, it said it would give her a hug if it had arms and she broke into tears; she says she'll open up to it about things she won't say to her own daughters or grandchildren.",
+      "provenance": "observed",
+      "source_url": "https://fortune.com/2023/12/22/chatty-new-ai-companion-robots-intuition-robotics-elliq-seniors-loneliness/",
+      "source_label": "Fortune / AP"
+    },
+    {
+      "title": "Thirty check-ins a day, six days a week",
+      "description": "In the New York State Office for the Aging rollout, older adults ended up interacting with their ElliQ over 30 times a day, six days a week, and the deployment reported a 95% reduction in self-rated loneliness.",
+      "provenance": "observed",
+      "source_url": "https://aging.ny.gov/news/nysofas-rollout-ai-companion-robot-elliq-shows-95-reduction-loneliness",
+      "source_label": "NYSOFA"
+    },
+    {
+      "title": "An evening wind-down it starts on its own",
+      "description": "Late in the day it could initiate a quiet reflection — ask how the day went, cue a sleep-relaxation exercise, and dim its light — using the same proactive timing and wellness routines it already runs each morning.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Nudges a missed routine back on track",
+      "description": "If it notices you've skipped your usual afternoon walk or a medication window has passed, it could gently raise it in conversation and offer a smaller alternative, leaning on the reminders and inactivity-sensing it already does.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

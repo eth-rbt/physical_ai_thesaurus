@@ -59,5 +59,54 @@
       "access_notes": "Founding history (launched September 7, 2011; founders Linden Tibbets et al.) and platform description."
     }
   ],
+  "interactions": [
+    {
+      "title": "Lights waiting when you pull in",
+      "description": "Your phone crossing the geofence around the house tells the Hue bulbs to switch on, so the porch and hallway are already lit as you walk in after dark.",
+      "provenance": "documented",
+      "source_url": "https://ifttt.com/explore/what-is-ifttt",
+      "source_label": "IFTTT — what is IFTTT"
+    },
+    {
+      "title": "The lamp blinks when the doorbell rings",
+      "description": "Whenever someone presses the Ring doorbell, an Applet makes the LIFX bulbs flash a chosen color across the room, so a visitor registers even with headphones on or the TV loud.",
+      "provenance": "documented",
+      "source_url": "https://ifttt.com/applets/WFNmwzvy-flash-lights-when-your-ring-doorbell-rings",
+      "source_label": "IFTTT — flash lights when Ring rings"
+    },
+    {
+      "title": "Every rainfall logged to a spreadsheet",
+      "description": "When the local weather condition flips to rain, a row lands in a Google Sheet with the time, temperature, and forecast link, quietly building a personal weather diary nobody has to maintain by hand.",
+      "provenance": "documented",
+      "source_url": "https://ifttt.com/applets/bDyVtvcL-log-rain-in-your-city-to-a-spreadsheet-as-it-happens",
+      "source_label": "IFTTT — log rain to a spreadsheet"
+    },
+    {
+      "title": "A nudge to step outside for the space station",
+      "description": "Enthusiasts wire a polling trigger to fire when the ISS is about to pass over their exact location, sending a phone notification minutes before so they can go outside and catch it overhead.",
+      "provenance": "observed",
+      "source_url": "https://ifttt.com/applets/YfkYtQB2-get-a-notification-when-the-international-space-station-passes-over-your-house",
+      "source_label": "IFTTT — ISS overhead applet"
+    },
+    {
+      "title": "A library of 200,000 homemade automations",
+      "description": "Researchers cataloguing 224,590 publicly shared Applets found over 100,000 ordinary people composing trigger-action rules with no code, evidence of how widely non-programmers reached for this to stitch their own ambient routines together.",
+      "provenance": "observed",
+      "source_url": "https://par.nsf.gov/biblio/10026427",
+      "source_label": "Ur et al., CHI 2016 — Trigger-Action Programming in the Wild"
+    },
+    {
+      "title": "A panic button on the home screen",
+      "description": "One tap of the Button widget fires an alarm to a chosen safety service or sends a preset SMS with your location to a trusted contact, turning a phone-screen tile into a discreet call for help.",
+      "provenance": "documented",
+      "source_url": "https://ifttt.com/applets/kybX5Tq6-panic-button",
+      "source_label": "IFTTT — panic button applet"
+    },
+    {
+      "title": "Say one phrase, run a whole scene",
+      "description": "A single spoken command to Alexa or Google Assistant could fan out into a coordinated good-night routine — locking the door, dimming the lights, and dropping the thermostat — by chaining the voice trigger to several device actions IFTTT already brokers.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

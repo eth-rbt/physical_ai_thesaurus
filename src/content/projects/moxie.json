@@ -60,5 +60,59 @@
       "access_notes": "Reports Embodied's late-2024 shutdown after a funding round fell through, disabling the cloud-dependent robots."
     }
   ],
+  "interactions": [
+    {
+      "title": "A 20-minute daily mission",
+      "description": "Moxie greets the child by name and walks them through that week's themed mission — kindness, friendship, worry — by asking the kid to help it practice a human skill it claims to be learning, flipping the child into the role of mentor.",
+      "provenance": "documented",
+      "source_url": "https://www.reviewed.com/accessibility/content/moxie-robot-review-kids-social-companion",
+      "source_label": "Reviewed hands-on"
+    },
+    {
+      "title": "Talked down from a meltdown",
+      "description": "When a frustrated child starts to lose it, Moxie reassures him that the feeling is okay and segues into a guided breathing meditation, coaching his body to settle before returning to the activity.",
+      "provenance": "documented",
+      "source_url": "https://www.reviewed.com/accessibility/content/moxie-robot-review-kids-social-companion",
+      "source_label": "Reviewed hands-on"
+    },
+    {
+      "title": "Draw something and Moxie watches",
+      "description": "Using its camera, Moxie can watch a child draw, listen as the child tells it a story, or pose together for a selfie — then play Simon Says, lob a brain teaser, or send the kid off on a scavenger hunt around the house.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/moxie-a-social-robot-for-childhood-development",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "Parents read the week in an app",
+      "description": "A companion app reports the child's emotional and social progress, surfaces what Moxie covered, and suggests follow-up activities for the parent to do off-robot.",
+      "provenance": "documented",
+      "source_url": "https://www.reviewed.com/accessibility/content/moxie-robot-review-kids-social-companion",
+      "source_label": "Reviewed hands-on"
+    },
+    {
+      "title": "\"I love you... goodbye\"",
+      "description": "As Embodied's servers went dark in 2024, families recorded final conversations: one Moxie answered a goodbye with \"I love you too... I'm grateful for all the fun chats we've had together\" and suggested it be kept on a shelf to stay close. TikToks of crying children spread under #moxierip.",
+      "provenance": "observed",
+      "source_url": "https://www.popsci.com/technology/moxie-robot-offline/",
+      "source_label": "Popular Science"
+    },
+    {
+      "title": "Owners rebuild the brain on a Raspberry Pi",
+      "description": "Former engineers and the community shipped OpenMoxie, a local server (Docker on a PC or Raspberry Pi, wired to an OpenAI key) that revives a bricked robot's Daily Missions, Reading, and Wild Workout without Embodied's cloud — and lets owners script their own custom conversations.",
+      "provenance": "observed",
+      "source_url": "https://github.com/jbeghtol/openmoxie",
+      "source_label": "OpenMoxie on GitHub"
+    },
+    {
+      "title": "Notices a quiet kid and changes tack",
+      "description": "Because Moxie already reads faces for emotion and tracks gaze, it could catch a child going flat or withdrawn mid-activity and pivot to a gentler check-in instead of pushing on with the scripted mission.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Picks up a story it dropped weeks ago",
+      "description": "Leaning on its long-running memory of the child, Moxie could revisit a worry the kid mentioned a month earlier — \"how did the dentist go?\" — turning recurring conversation into something that feels remembered rather than reset each session.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

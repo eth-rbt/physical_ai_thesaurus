@@ -1,0 +1,65 @@
+{
+  "name": "reacTable",
+  "year": 2007,
+  "organization": ["Music Technology Group, Universitat Pompeu Fabra"],
+  "project_type": "research_prototype",
+  "short_description": "A round, multi-user tangible tabletop instrument where physical pucks are arranged to patch a modular synthesizer in real time.",
+  "long_description": "The reacTable is a translucent round table on which performers place and rotate physical objects (tangibles) that represent the modules of a modular synthesizer; their positions, orientations, and proximities dynamically patch and parameterize the audio graph, with the connections and waveforms projected back onto the table surface. A camera beneath the table tracks fiducial markers on the underside of each puck via the reacTIVision computer-vision system, communicated through the TUIO protocol. It is a landmark tangible user interface for collaborative live music, demonstrating how shared, graspable physical objects can make a complex generative system legible and playable by multiple people at once.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/1226969.1226998",
+  "ai_embedded": "none",
+  "ai_note": "The system uses fiducial-marker computer vision (reacTIVision) and audio synthesis rules; no machine learning or AI model runs inside it.",
+  "attributes": {
+    "embodiment.form": ["Distributed object ecology", "Architectural / environmental system", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Vision", "Touch", "Gesture"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Creative collaborator", "Performer"],
+    "genealogy.lineage": ["Tangible user interfaces"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 4,
+    "social_legibility": 2,
+    "expressiveness": 4,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-reactable-001",
+      "caption": "A reacTable in use, showing tangible pucks and projected synth connections on the round translucent surface (Altman Center, 2007).",
+      "image_type": "interaction_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Reactable_Multitouch.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A glowing round translucent table in a dark room with several small physical blocks arranged on its surface and bright projected lines connecting them, with a person's hands interacting.",
+      "local_image": "/projects/reactable.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-reactable-001",
+      "title": "The reacTable: exploring the synergy between live music performance and tabletop tangible interfaces",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/1226969.1226998",
+      "publisher": "ACM (Proceedings of TEI 2007)",
+      "year": 2007
+    },
+    {
+      "source_id": "source-reactable-002",
+      "title": "Reactable - Music Technology Group, Universitat Pompeu Fabra",
+      "source_type": "lab_page",
+      "url": "https://www.upf.edu/web/mtg/reactable",
+      "publisher": "Music Technology Group, Universitat Pompeu Fabra",
+      "year": null
+    },
+    {
+      "source_id": "source-reactable-003",
+      "title": "reacTIVision: a computer-vision framework for table-based tangible interaction",
+      "source_type": "project_page",
+      "url": "https://reactivision.sourceforge.net/",
+      "publisher": "Martin Kaltenbrunner and Ross Bencina",
+      "year": null
+    }
+  ],
+  "confidence": "high"
+}

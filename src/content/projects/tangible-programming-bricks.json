@@ -1,0 +1,65 @@
+{
+  "name": "Tangible Programming Bricks",
+  "year": 2004,
+  "organization": ["MIT Media Lab"],
+  "project_type": "research_prototype",
+  "short_description": "Stackable electronic LEGO-style bricks that let people build, rather than type, computer programs by physically arranging blocks that drive real devices.",
+  "long_description": "Tangible Programming Bricks, developed by Timothy McNerney at the MIT Media Lab, are electronic LEGO-compatible bricks each embedding a Cricket microprocessor and ISO 'smart card' connectors on top and bottom so a stack can sense its own order and identity. Each brick can accept a parameter card that acts as a constant, timer, sensor, or other adjustable value, and the resulting physical stack runs as a program that controls real devices such as LEGO machines, sounds, and household appliances. It matters as physical AI / interaction design because it gives code a persistent, graspable form, turning programming into hands-on construction and exemplifying the tangible user interface tradition of moving computation out of the screen and into manipulable physical objects.",
+  "primary_url": "https://doi.org/10.1007/s00779-004-0295-6",
+  "ai_embedded": "none",
+  "ai_note": "The system is an embedded-microcontroller tangible interface: bricks sense their stacking order and execute the arranged program; no machine learning or AI runs in it.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology"],
+    "embodiment.mobility": ["Handheld"],
+    "embodiment.materiality": ["Tangible blocks"],
+    "intelligence.model": ["Rule-based system"],
+    "intelligence.input": ["Touch"],
+    "function.role": ["Tool", "Teacher"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 4,
+    "mobility": 2,
+    "scale": 1,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-tangible-programming-bricks-001",
+      "caption": "Stack of Tangible Programming Bricks with parameter cards, from McNerney's MIT Media Lab work.",
+      "image_type": "research_figure",
+      "source_url": "https://www.media.mit.edu/publications/from-turtles-to-tangible-programming-bricks-explorations-in-physical-language-design/",
+      "rights_status": "needs_permission",
+      "alt_text": "A vertical stack of LEGO-like electronic bricks, each with a connector on top and a small inserted parameter card, forming a physical program."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-tangible-programming-bricks-001",
+      "title": "From turtles to Tangible Programming Bricks: explorations in physical language design",
+      "source_type": "academic_paper",
+      "url": "https://doi.org/10.1007/s00779-004-0295-6",
+      "publisher": "Personal and Ubiquitous Computing (Springer), vol. 8(5), pp. 326-337",
+      "year": 2004
+    },
+    {
+      "source_id": "source-tangible-programming-bricks-002",
+      "title": "Tangible programming bricks: an approach to making programming accessible to everyone",
+      "source_type": "academic_paper",
+      "url": "https://dspace.mit.edu/handle/1721.1/62094",
+      "publisher": "MIT Media Lab (MS thesis), Timothy McNerney",
+      "year": 1999
+    },
+    {
+      "source_id": "source-tangible-programming-bricks-003",
+      "title": "From Turtles to Tangible Programming Bricks: Explorations in physical language design",
+      "source_type": "lab_page",
+      "url": "https://www.media.mit.edu/publications/from-turtles-to-tangible-programming-bricks-explorations-in-physical-language-design/",
+      "publisher": "MIT Media Lab",
+      "year": 2004
+    }
+  ],
+  "confidence": "high"
+}

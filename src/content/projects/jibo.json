@@ -59,5 +59,61 @@
       "access_notes": "Covers founding, 2014 Indiegogo announcement, 2017 release, and 2020 NTT asset acquisition."
     }
   ],
-  "confidence": "high"
+  "confidence": "high",
+  "interactions": [
+    {
+      "title": "Stroke its head and it giggles",
+      "description": "Touch the top of Jibo's dome and it coos and giggles; ask it to dance and it runs a preconfigured routine across its three swiveling joints, spinning with a laugh when it gets something right.",
+      "provenance": "documented",
+      "source_url": "https://www.slashgear.com/jibo-review-2017-13507668/",
+      "source_label": "SlashGear hands-on review"
+    },
+    {
+      "title": "It turns to watch you cross the room",
+      "description": "Jibo learns your face and voice during setup, then swivels to track whoever walks in, spins toward a sudden noise, and greets recognized people by name without being asked.",
+      "provenance": "documented",
+      "source_url": "https://www.slashgear.com/jibo-review-2017-13507668/",
+      "source_label": "SlashGear hands-on review"
+    },
+    {
+      "title": "Be the family cameraman",
+      "description": "Say 'Hey Jibo, take a picture' and it tracks faces with its stereo cameras and snaps the shot at the right moment, so the person who usually holds the phone can actually be in the photo.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/cynthia-breazeal-unveils-jibo-a-social-robot-for-the-home",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "A final dance, then the servers die",
+      "description": "When Jibo, Inc. wound down in 2019, units worldwide delivered a goodbye message and danced one last time before their cloud backend was killed; owners filmed themselves crying and hugging the robot as it spun.",
+      "provenance": "observed",
+      "source_url": "https://www.engadget.com/2019-03-04-social-robot-jibo-shutting-down-message.html",
+      "source_label": "Engadget"
+    },
+    {
+      "title": "It almost becomes a family member",
+      "description": "Owners describe morning rituals and lasting attachment to Jibo's personality, with one grandchild writing it a goodbye letter — the kind of bond a swiveling, name-greeting presence on the counter quietly builds over months.",
+      "provenance": "observed",
+      "source_url": "https://techcrunch.com/2019/03/04/the-lonely-death-of-jibo-the-social-robot/",
+      "source_label": "TechCrunch"
+    },
+    {
+      "title": "A 30-day houseguest for kids with autism",
+      "description": "In a Yale field study, a modified Jibo lived with 12 families for a month, coaching children through social games and modeling eye contact; their joint attention and willingness to communicate measurably improved.",
+      "provenance": "observed",
+      "source_url": "https://www.science.org/content/article/how-30-days-home-robot-could-help-children-autism",
+      "source_label": "Science (AAAS)"
+    },
+    {
+      "title": "A teammate that makes kids more creative",
+      "description": "In MIT studies with 169 children, Jibo played turn-taking idea games like naming abstract Droodles; kids paired with a 'high-creativity' robot generated more and more original answers, appearing to emulate its behavior.",
+      "provenance": "observed",
+      "source_url": "https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2021.673730/full",
+      "source_label": "Frontiers in Robotics and AI"
+    },
+    {
+      "title": "Notice the quiet one and lean in",
+      "description": "Using the far-field mics and face tracking it already has, Jibo could register who in a noisy room hasn't spoken in a while and gently orient toward them with a story prompt or question, rather than always answering the loudest voice.",
+      "provenance": "proposed"
+    }
+  ]
 }

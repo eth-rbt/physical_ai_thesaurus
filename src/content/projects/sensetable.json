@@ -1,0 +1,63 @@
+{
+  "name": "Sensetable",
+  "year": 2001,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "A tabletop platform that wirelessly tracks the position and orientation of multiple physical pucks via electromagnetic sensing for tangible user interfaces.",
+  "long_description": "Sensetable is a tangible user interface platform from the MIT Media Lab's Tangible Media Group that electromagnetically tracks the positions and orientations of multiple wireless objects (pucks) on a flat display surface quickly and without susceptibility to occlusion or lighting changes. Each puck carries digital state that users can modify directly by attaching physical dials and modifiers, and a projector renders graphics around the objects to close the loop between physical manipulation and on-screen simulation. Demonstrated with chemistry and business supply-chain (system dynamics) simulations, it matters to physical AI and interaction design as an influential precedent for tabletop tangible interaction, showing how everyday graspable objects can become the controls of a computational system.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/365024.365112",
+  "ai_embedded": "none",
+  "ai_note": "Sensetable is an electromagnetic object-tracking and tabletop projection technique with no machine learning; sensing and state-tracking are purely electromagnetic and rule-based.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Architectural / environmental system"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Motion", "Touch"],
+    "function.role": ["Tool", "Creative collaborator"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-sensetable-001",
+      "caption": "The Sensetable tabletop platform with wireless tracked pucks and projected graphics.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/sensetable/",
+      "rights_status": "needs_permission",
+      "alt_text": "A flat tabletop surface with several round physical pucks placed on it, surrounded by projected graphical interface elements, used as a tangible interaction platform."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-sensetable-001",
+      "title": "Sensetable: A Wireless Object Tracking Platform for Tangible User Interfaces",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/365024.365112",
+      "publisher": "ACM (Proceedings of CHI 2001)",
+      "year": 2001
+    },
+    {
+      "source_id": "source-sensetable-002",
+      "title": "Sensetable - Tangible Media Group",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/project/sensetable/",
+      "publisher": "MIT Media Lab, Tangible Media Group",
+      "year": null
+    },
+    {
+      "source_id": "source-sensetable-003",
+      "title": "Sensetable: A Wireless Object Tracking Platform for Tangible User Interfaces — MIT Media Lab",
+      "source_type": "lab_page",
+      "url": "https://www.media.mit.edu/publications/sensetable-a-wireless-object-tracking-platform-for-tangible-user-interfaces/",
+      "publisher": "MIT Media Lab",
+      "year": 2001
+    }
+  ],
+  "confidence": "high"
+}

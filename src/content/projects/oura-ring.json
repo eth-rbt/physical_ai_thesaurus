@@ -60,5 +60,52 @@
       "access_notes": "Company and product history: founded 2013 in Oulu, Finland; first ring via Kickstarter in 2015-2016; Gen 2 (2018), Gen 3 (2021), Ring 4 (2024)."
     }
   ],
+  "interactions": [
+    {
+      "title": "The ring notices you're getting sick first",
+      "description": "Days before you feel run-down, Symptom Radar flags that your skin temperature, resting heart rate, and respiratory rate are drifting off baseline and quietly suggests you might be coming down with something.",
+      "provenance": "documented",
+      "source_url": "https://ouraring.com/blog/symptom-radar/",
+      "source_label": "Oura — Symptom Radar"
+    },
+    {
+      "title": "Read your cycle from body temperature",
+      "description": "Without logging anything, the ring tracks the temperature shift around ovulation to map your fertile window and predict periods months out, accurate enough to detect ovulation in over 96% of cycles in a validation study.",
+      "provenance": "documented",
+      "source_url": "https://ouraring.com/womens-health",
+      "source_label": "Oura — Women's Health"
+    },
+    {
+      "title": "Ask your own body data a question",
+      "description": "Type \"why was my sleep bad this week?\" into Oura Advisor and an LLM-powered companion answers using your own short- and long-term metrics, drawing charts and suggesting a plan rather than handing you raw numbers.",
+      "provenance": "documented",
+      "source_url": "https://ouraring.com/blog/oura-advisor/",
+      "source_label": "Oura — Advisor"
+    },
+    {
+      "title": "An early-warning system for a whole league",
+      "description": "During the 2020 NBA bubble, more than 2,000 players and staff wore Oura rings whose temperature and heart-rate signals fed a daily illness-risk score, part of a protocol that finished the season with zero player COVID cases.",
+      "provenance": "observed",
+      "source_url": "https://time.com/collection-post/5911381/oura-ring/",
+      "source_label": "TIME — The NBA Bubble Booster"
+    },
+    {
+      "title": "It knew she was pregnant before the test did",
+      "description": "Wearers describe noticing a sustained rise in nightly temperature and resting heart rate weeks before a positive test or a missed period, reading conception in the data before they consciously suspected it.",
+      "provenance": "observed",
+      "source_url": "https://www.tomsguide.com/features/my-oura-ring-knew-i-was-pregnant-before-i-did-here-were-the-early-signs",
+      "source_label": "Tom's Guide — first-person account"
+    },
+    {
+      "title": "Replay last night's drink",
+      "description": "Wake up to see a dented readiness score and a flattened heart-rate-variability curve, and read directly off the graph how a late dinner or a couple of glasses of wine cost you recovery — grounded in the HRV, resting-heart-rate, and temperature streams the ring already logs overnight.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Hand the trends to your clinician",
+      "description": "Bring months of continuous temperature, heart-rate, and respiratory baselines to an appointment so a doctor can see the slow drift behind a symptom — using the long-term biometric history the ring continuously stores rather than a single in-office snapshot.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

@@ -60,5 +60,52 @@
       "access_notes": "Describes dexterous manipulation, general object handling, and extended workspace features."
     }
   ],
+  "interactions": [
+    {
+      "title": "Pour you a glass of wine",
+      "description": "The single arm picks up a bottle, tilts it over a stemmed glass, and pours without overfilling or shattering the glass — the demo Samsung led with at CES 2021.",
+      "provenance": "documented",
+      "source_url": "https://news.samsung.com/global/samsung-introduces-latest-innovations-for-a-better-normal-at-ces-2021",
+      "source_label": "Samsung CES 2021 newsroom"
+    },
+    {
+      "title": "Clear the table into the dishwasher",
+      "description": "It reads a cluttered table, decides a plate goes in the dishwasher rather than the fridge, and loads dishes one at a time — grasping each with the right force so nothing chips.",
+      "provenance": "documented",
+      "source_url": "https://thespoon.tech/ces-2021-samsungs-bot-handy-helps-with-dishes-and-pour-you-wine/",
+      "source_label": "The Spoon — CES 2021 hands-on"
+    },
+    {
+      "title": "Arrange cut flowers in a vase",
+      "description": "Beyond chores, the gripper picks up loose flowers and sets them into a vase, a delicate-handling demo Samsung used to show off material- and shape-aware grasping.",
+      "provenance": "documented",
+      "source_url": "https://www.digitaltrends.com/news/watch-samsungs-clever-home-robot-lay-the-table-and-pour-wine/",
+      "source_label": "Digital Trends"
+    },
+    {
+      "title": "Stretch up to reach a high shelf",
+      "description": "The body extends taller or shrinks shorter so the same arm can put away an item on an upper shelf or pick laundry off the floor, working across a three-dimensional room.",
+      "provenance": "documented",
+      "source_url": "https://research.samsung.com/news/-CES-2022-Samsung-Research-New-Tech-Trio-Samsung-Bot-Handy-Housework-robot",
+      "source_label": "Samsung Research — CES 2022"
+    },
+    {
+      "title": "Grab the clear glass you can barely see",
+      "description": "The CES 2022 upgrade lets it recognize transparent or partly hidden objects and pick up several dishes in a row without bumping the things around them.",
+      "provenance": "documented",
+      "source_url": "https://research.samsung.com/news/-CES-2022-Samsung-Research-New-Tech-Trio-Samsung-Bot-Handy-Housework-robot",
+      "source_label": "Samsung Research — CES 2022"
+    },
+    {
+      "title": "Tidy a kid's room back to baseline",
+      "description": "Roll through a strewn room and return loose toys, cups, and clothes to their bins and hampers — combining the wheeled base, vision, and per-object grasping the concept already pairs together.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Hand-off helper for someone with limited reach",
+      "description": "Fetch a dropped item or bring a filled glass to a person who can't easily bend or stand, using the force-aware grip to pass fragile things gently — an assist grounded in its arm, mobility, and force sensing.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

@@ -60,5 +60,61 @@
       "access_notes": "Company history; Deebot floor-cleaning series introduced by 2007."
     }
   ],
-  "confidence": "high"
+  "confidence": "high",
+  "interactions": [
+    {
+      "title": "Send it to one room by name",
+      "description": "Say \"OK YIKO, go clean the kitchen\" and the robot heads to that room on its stored map — no app, no remote, just naming a place out loud across the house.",
+      "provenance": "documented",
+      "source_url": "https://www.ecovacs.com/us/innovation/yiko-voice-assistant",
+      "source_label": "Ecovacs — YIKO voice assistant"
+    },
+    {
+      "title": "Steer it like a toy by voice",
+      "description": "Mid-clean you can talk it around a spill: \"OK YIKO, turn left, move forward one meter, and clean there,\" nudging the vacuum in real time the way you'd direct a person.",
+      "provenance": "documented",
+      "source_url": "https://www.techhive.com/article/2103162/ecovacs-deebot-x2-omni-review.html",
+      "source_label": "TechHive — Deebot X2 Omni review"
+    },
+    {
+      "title": "Ask where the robot went",
+      "description": "When it disappears behind the couch and goes quiet, you call out to YIKO to locate it instead of crawling around the floor hunting for a stuck robot.",
+      "provenance": "documented",
+      "source_url": "https://help.ecovacs.com/us/support/faq-detail?id=1061",
+      "source_label": "Ecovacs support — using YIKO"
+    },
+    {
+      "title": "Drive it to the cat bed from the office",
+      "description": "Using Video Manager in the app, you send the robot on a patrol to a preset spot and watch a live feed — checking the back door, the cat's bed, or a package — and speak through its onboard speaker.",
+      "provenance": "documented",
+      "source_url": "https://www.ecovacs.com/us/blog/robot-vacuum-camera",
+      "source_label": "Ecovacs — robot vacuums with camera"
+    },
+    {
+      "title": "A roving pet cam you talk through",
+      "description": "A reviewer drove the vacuum around the house to follow her cat and talked to it through the speakers while away — turning a floor cleaner into an improvised mobile pet camera with two-way audio.",
+      "provenance": "observed",
+      "source_url": "https://www.androidcentral.com/ecovacs-deebot-ozmo-t8-aivi-review",
+      "source_label": "Android Central — Deebot OZMO T8 AIVI review"
+    },
+    {
+      "title": "Hijacked into a spy that follows you",
+      "description": "At DEF CON 32, researchers showed Deebots could be taken over over Bluetooth from across the street, granting attackers the camera and microphone — and the warning audio meant to announce the camera could be silently deleted.",
+      "provenance": "observed",
+      "source_url": "https://techcrunch.com/2024/08/09/ecovacs-home-robots-can-be-hacked-to-spy-on-their-owners-researchers-say/",
+      "source_label": "TechCrunch — Ecovacs robots can be hacked"
+    },
+    {
+      "title": "Threads the cable-and-poop minefield",
+      "description": "Its AIVI camera and 3D structured light recognize clutter on the floor, so a dropped charging cable or a pet accident gets identified and routed around instead of dragged across the room.",
+      "provenance": "documented",
+      "source_url": "https://www.ecovacs.com/us/blog/robot-vacuum-avoid-poop",
+      "source_label": "Ecovacs — can robot vacuums avoid pet waste"
+    },
+    {
+      "title": "A standing patrol on a schedule",
+      "description": "Set the camera-equipped robot to roam preset rooms at fixed times and capture clips, so the cleaning appliance doubles as a nightly walkthrough of an empty house — grounded in its existing patrol, mapping, and onboard camera.",
+      "provenance": "proposed"
+    }
+  ]
 }

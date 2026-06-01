@@ -1,0 +1,57 @@
+{
+  "name": "musicBottles",
+  "year": 1999,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "A tangible interface in which uncorking glass bottles releases individual instrumental tracks of a musical composition.",
+  "long_description": "musicBottles is a tangible user interface from the MIT Media Lab's Tangible Media Group consisting of a custom table and three corked glass bottles that 'contain' the violin, cello, and piano tracks of Edouard Lalo's Piano Trio in C Minor. Custom electromagnetic tags embedded in the bottles let the table wirelessly identify each one and sense when its cork is removed, at which point the corresponding instrument becomes audible while colored light is rear-projected onto the translucent surface to reflect pitch and volume. It matters as physical AI / interaction design because it exemplifies the transparent, ambient interface ideal — using the everyday, emotional affordance of opening a bottle as a minimal, embodied control for digital media, weaving computation into familiar objects rather than screens.",
+  "primary_url": "https://tangible.media.mit.edu/project/musicbottles/",
+  "ai_embedded": "none",
+  "ai_note": "The system uses electromagnetic tag sensing and audio playback with no machine learning or AI components.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology"],
+    "embodiment.mobility": ["Handheld"],
+    "embodiment.materiality": ["Glass"],
+    "intelligence.model": ["Rule-based system"],
+    "intelligence.input": ["Touch", "Environmental sensors"],
+    "function.role": ["Creative collaborator"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 2,
+    "scale": 3,
+    "social_legibility": 2,
+    "expressiveness": 4,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-musicbottles-001",
+      "caption": "The musicBottles table with three corked glass bottles, each containing an instrumental track that plays when uncorked.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/musicbottles/",
+      "rights_status": "needs_permission",
+      "alt_text": "Three glass bottles arranged on a glowing translucent table; uncorking a bottle releases its instrument's audio."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-musicbottles-001",
+      "title": "musicBottles",
+      "source_type": "project_page",
+      "url": "https://tangible.media.mit.edu/project/musicbottles/",
+      "publisher": "MIT Media Lab Tangible Media Group",
+      "year": 1999
+    },
+    {
+      "source_id": "source-musicbottles-002",
+      "title": "Bottles as a minimal interface to access digital information",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/634067.634180",
+      "publisher": "CHI '01 Extended Abstracts on Human Factors in Computing Systems, ACM",
+      "year": 2001
+    }
+  ],
+  "confidence": "high"
+}

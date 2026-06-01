@@ -60,5 +60,66 @@
       "access_notes": "Covers Adaptive Audio, Conversation Awareness, and the Hearing Aid feature."
     }
   ],
+  "interactions": [
+    {
+      "title": "Hold both stems and hear a stranger translated",
+      "description": "Press and hold both AirPods at once and the person across the table keeps speaking their language while you hear it rendered into yours, a beat behind, hands-free.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/en-us/123185",
+      "source_label": "Apple Support — Live Translation with AirPods"
+    },
+    {
+      "title": "Music ducks the moment you start talking",
+      "description": "Start a sentence to the barista mid-song and Conversation Awareness drops the volume, quiets the room behind you, and lifts the voice in front of you — then brings the music back when you stop.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/en-us/104979",
+      "source_label": "Apple Support — Adaptive Audio"
+    },
+    {
+      "title": "Run a five-minute hearing test on your couch",
+      "description": "AirPods Pro 2 play soft tones at different frequencies and chart your hearing in decibels, then quietly turn into a self-fitting, FDA-authorized hearing aid for mild-to-moderate loss.",
+      "provenance": "documented",
+      "source_url": "https://www.fda.gov/news-events/press-announcements/fda-authorizes-first-over-counter-hearing-aid-software",
+      "source_label": "FDA — first OTC hearing aid software"
+    },
+    {
+      "title": "Nod yes, shake no, say nothing",
+      "description": "A call comes in on a crowded train; instead of speaking to Siri you nod to answer or shake your head to decline, with the H2 chip reading the motion of your skull.",
+      "provenance": "documented",
+      "source_url": "https://www.engadget.com/airpods-pro-update-adds-head-nodding-gesture-to-silently-respond-to-siri-174141928.html",
+      "source_label": "Engadget — head-gesture Siri Interactions"
+    },
+    {
+      "title": "Your earbuds count your heart rate mid-workout",
+      "description": "On AirPods Pro 3 an in-ear sensor pulses infrared light hundreds of times a second to read blood flow, logging heart rate and calories for a run without a watch.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/guide/airpods/track-heart-rate-workouts-airpods-pro-3-dev1b40fb47d/web",
+      "source_label": "Apple Support — heart rate on AirPods Pro 3"
+    },
+    {
+      "title": "Leave the phone on the table to eavesdrop politely",
+      "description": "People prop the iPhone near a soft-spoken relative across a noisy restaurant and use Live Listen to pipe that microphone straight into their ears — an accessibility feature repurposed as a long-range listening trick.",
+      "provenance": "observed",
+      "source_url": "https://support.apple.com/en-us/102479",
+      "source_label": "Apple Support — Live Listen"
+    },
+    {
+      "title": "Falling asleep with them in, every night",
+      "description": "Many wearers never take them out at bedtime, using a quiet audiobook or noise blocking to drown out a snoring partner or city traffic until the habit becomes hard to sleep without.",
+      "provenance": "observed",
+      "source_url": "https://ozlosleep.com/blogs/news/sleeping-with-airpods",
+      "source_label": "Ozlo — sleeping with AirPods"
+    },
+    {
+      "title": "A nudge when your resting pulse drifts up",
+      "description": "Because the buds already read heart rate in the ear, an idle day of wearing them could flag a quietly elevated resting rate or post-workout recovery trend, surfacing a health signal you never sat down to measure.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Posture and head-tilt coaching during a call",
+      "description": "The same motion sensors that detect a nod could notice you slumping or constantly turning away from your desk mic on long calls and offer a gentle in-ear reminder to sit up and face forward.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

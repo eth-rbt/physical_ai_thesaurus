@@ -60,5 +60,54 @@
       "access_notes": "Founding year (2013, Paulus Schoutsen), Apache 2.0 license, Open Home Foundation governance, Nabu Casa cloud service."
     }
   ],
+  "interactions": [
+    {
+      "title": "Talk to the house without the cloud",
+      "description": "Say \"Hey Jarvis, turn off the kitchen\" to a dedicated voice puck and have speech-to-text, intent, and the reply all run on the box in the closet — no audio ever leaves the home.",
+      "provenance": "documented",
+      "source_url": "https://www.home-assistant.io/voice_control/",
+      "source_label": "Home Assistant — Assist voice control"
+    },
+    {
+      "title": "Give the house a personality",
+      "description": "Wire an LLM in as the conversation agent and hand it a character prompt, so asking about the weather comes back answered in the voice of Super Mario instead of a flat status read-out.",
+      "provenance": "documented",
+      "source_url": "https://www.home-assistant.io/voice_control/assist_create_open_ai_personality/",
+      "source_label": "Home Assistant — create an AI personality"
+    },
+    {
+      "title": "Plain-language commands an LLM acts on",
+      "description": "Expose your entities to an OpenAI or local Ollama agent and say \"it's getting dark in here\" — the model maps the request to the actual lights it's allowed to touch and turns them on.",
+      "provenance": "documented",
+      "source_url": "https://www.home-assistant.io/integrations/openai_conversation/",
+      "source_label": "Home Assistant — OpenAI conversation"
+    },
+    {
+      "title": "A nudge when the laundry is actually done",
+      "description": "People put a power-monitoring smart plug on the washing machine and watch the wattage: when draw drops below a threshold for a few minutes the cycle is over, and the phone buzzes — sometimes nagging until the door is opened.",
+      "provenance": "observed",
+      "source_url": "https://www.howtogeek.com/how-i-get-home-assistant-to-tell-me-my-laundry-is-done/",
+      "source_label": "How-To Geek — laundry-done notification"
+    },
+    {
+      "title": "\"Wasp in a box\" so the lights don't quit on you",
+      "description": "A community pattern treats a person like a wasp trapped in a room: once motion is seen and the door stays shut, occupancy holds even while you sit perfectly still reading, so the lights don't snap off mid-chapter.",
+      "provenance": "observed",
+      "source_url": "https://community.home-assistant.io/t/witb-wasp-in-the-box-plus-blueprint/721520",
+      "source_label": "HA community — Wasp in the Box blueprint"
+    },
+    {
+      "title": "Pretend someone's home while you're away",
+      "description": "Owners replay their own logged routines on vacation — lights, blinds, and the TV switching at slightly randomized times — so an empty house looks lived-in to anyone casing it from the street.",
+      "provenance": "observed",
+      "source_url": "https://sascha-brockel.de/en/presence-simulation-in-home-assistant/",
+      "source_label": "Sascha Brockel — presence simulation"
+    },
+    {
+      "title": "A house that whispers instead of barking",
+      "description": "Tie the existing motion sensors and time-of-day together so that after midnight the hallway light wakes only to a dim warm glow and any spoken reply drops to a near-whisper — grounded in the motion, time, and local TTS the platform already runs.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

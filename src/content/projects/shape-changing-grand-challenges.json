@@ -1,0 +1,69 @@
+{
+  "name": "Grand Challenges in Shape-Changing Interface Research",
+  "year": 2018,
+  "organization": [
+    "University of Bristol",
+    "Saarland University",
+    "University of Copenhagen",
+    "Eindhoven University of Technology",
+    "Stanford University",
+    "Aalborg University"
+  ],
+  "project_type": "academic_paper",
+  "short_description": "A CHI 2018 agenda paper that synthesizes 12 grand challenges to guide the maturing field of shape-changing interface research.",
+  "long_description": "Authored by Alexander, Roudaut, Steimle, Hornbaek, Bruns Alonso, Follmer, and Merritt, this field-defining paper distills a workshop of 25 experts across design, computer science, HCI, engineering, robotics, and materials science into 12 grand challenges spanning technological, behavioural, and design concerns. Shape-changing interfaces use dynamic changes in a device's physical form as both input and output, making the body of the device itself a medium of interaction rather than a static enclosure for a screen. As a research agenda, it matters to physical AI and interaction design because it frames how dynamic physical embodiment, actuated materials, and morphing form factors should move from one-off prototypes toward coherent theory, evaluation, and ethics.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/3173574.3173873",
+  "ai_embedded": "none",
+  "ai_note": "This is an overview/agenda paper proposing research challenges; it contains no running AI/ML system, and shape-changing interfaces themselves are actuation and tangible-interaction techniques rather than AI.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Domestic object"],
+    "embodiment.actuation": ["Shape-changing"],
+    "embodiment.materiality": ["Actuated materials"],
+    "genealogy.lineage": ["Tangible user interfaces", "Human-computer interaction"],
+    "genealogy.research_community": ["Human-computer interaction"]
+  },
+  "metrics": {
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 2,
+    "autonomy": 1,
+    "expressiveness": 3
+  },
+  "images": [
+    {
+      "image_id": "img-shape-changing-grand-challenges-001",
+      "caption": "Figure from the CHI 2018 paper illustrating shape-changing interface research challenges.",
+      "image_type": "research_figure",
+      "source_url": "https://dl.acm.org/doi/10.1145/3173574.3173873",
+      "rights_status": "needs_permission",
+      "alt_text": "Diagram from an academic paper organizing grand challenges for shape-changing interface research across technological, behavioural, and design categories."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-shape-changing-grand-challenges-001",
+      "title": "Grand Challenges in Shape-Changing Interface Research",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/3173574.3173873",
+      "publisher": "ACM (Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems)",
+      "year": 2018
+    },
+    {
+      "source_id": "source-shape-changing-grand-challenges-002",
+      "title": "Grand Challenges in Shape-Changing Interface Research (author PDF)",
+      "source_type": "academic_paper",
+      "url": "https://hci.cs.uni-saarland.de/wp-content/uploads/publications/alexander_chi18_grand_challenges.pdf",
+      "publisher": "Saarland University, Human-Computer Interaction Lab",
+      "year": 2018
+    },
+    {
+      "source_id": "source-shape-changing-grand-challenges-003",
+      "title": "Grand Challenges in Shape-Changing Interface Research",
+      "source_type": "lab_page",
+      "url": "https://biglab.co.uk/publication/132",
+      "publisher": "Bristol Interaction Group, University of Bristol",
+      "year": 2018
+    }
+  ],
+  "confidence": "high"
+}

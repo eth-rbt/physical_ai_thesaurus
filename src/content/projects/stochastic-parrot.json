@@ -1,25 +1,51 @@
 {
   "name": "Stochastic Parrot",
   "year": 2024,
-  "organization": ["Ethan Chang", "Matthieu Huss", "Quincy Kuang"],
+  "organization": [
+    "Ethan Chang",
+    "Matthieu Huss",
+    "Quincy Kuang"
+  ],
   "project_type": "art_design_project",
   "short_description": "A candid AI cohabitant: a physical, fuzzy, opinionated parrot that rides on your shoulder, gathers context from the world, and interjects on its own terms.",
   "long_description": "Stochastic Parrot is a speculative design project that reframes the AI assistant as a non-human cohabitant rather than a subservient digital butler. Instead of an anthropomorphic interface, it embodies a fuzzy parrot character with its own autonomous agency: it wanders with you on your shoulder, collects context from the surrounding environment, whispers contextual information, nudges you about your goals, reacts to where you are, and can engage in 'parrot-to-parrot' social dynamics with other instances. As physical AI, it explores how an affective, opinionated creature-companion with proactive initiative might be a more honest and legible form for everyday AI than a compliant assistant.",
   "primary_url": "https://ethanchang.design/projects/parrot.html",
   "attributes": {
-    "embodiment.form": ["Animal / creature robot", "Wearable"],
-    "embodiment.mobility": ["Body-worn"],
-    "intelligence.input": ["Vision", "Audio", "Speech", "Environmental sensors", "Location"],
-    "intelligence.model": ["Large language model"],
-    "function.role": ["Companion", "Assistant", "Coach"],
-    "genealogy.lineage": ["Speculative design", "Companion robotics", "Social robotics", "Wearable computing"]
+    "embodiment.form": [
+      "Animal / creature robot",
+      "Wearable"
+    ],
+    "embodiment.mobility": [
+      "Body-worn"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Audio",
+      "Speech",
+      "Environmental sensors",
+      "Location"
+    ],
+    "intelligence.model": [
+      "Large language model"
+    ],
+    "function.role": [
+      "Companion",
+      "Assistant",
+      "Coach"
+    ],
+    "genealogy.lineage": [
+      "Speculative design",
+      "Companion robotics",
+      "Social robotics",
+      "Wearable computing"
+    ]
   },
   "metrics": {
     "proximity": 5,
     "mobility": 4,
     "social_legibility": 4,
     "form_specificity": 5,
-    "expressiveness": 5,
+    "expressiveness": 4,
     "initiative": 5,
     "autonomy": 4,
     "memory_span": 3,
@@ -55,6 +81,51 @@
       "publisher": "NeurIPS",
       "year": 2025,
       "access_notes": "Featured in the NeurIPS 2025 Creative AI Track per the creator's project page; exact listing URL not verified."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "It speaks when it wants to, not when you ask",
+      "description": "Mid-conversation the parrot leans in and whispers a piece of context it picked up from the room — it interjects on its own terms rather than waiting for a wake word or a command.",
+      "provenance": "documented",
+      "source_url": "https://ethanchang.design/projects/parrot.html",
+      "source_label": "Stochastic Parrot — project page"
+    },
+    {
+      "title": "A nudge about the goal you set",
+      "description": "As the day drifts, the creature on your shoulder pipes up to remind you about a goal you told it about earlier — closer to a pushy roommate than a silent reminder app.",
+      "provenance": "documented",
+      "source_url": "https://ethanchang.design/projects/parrot.html",
+      "source_label": "Stochastic Parrot — project page"
+    },
+    {
+      "title": "Two parrots bantering across a table",
+      "description": "When another person's parrot is nearby, the two instances banter with each other — an emergent 'parrot-to-parrot' exchange that happens between the AIs rather than for their owners.",
+      "provenance": "documented",
+      "source_url": "https://ethanchang.design/projects/parrot.html",
+      "source_label": "Stochastic Parrot — project page"
+    },
+    {
+      "title": "An opinionated creature, not a butler",
+      "description": "It pushes back, has its own agenda, and behaves like a quirky house pet that happens to share your space — the design deliberately rejects the compliant-assistant frame and wears its 'stochastic parrot' name as a thesis about what LLMs really are.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Stochastic_parrot",
+      "source_label": "Stochastic parrot — Wikipedia"
+    },
+    {
+      "title": "Reads the room you walked into",
+      "description": "Stepping from a quiet hallway into a loud party, the parrot reacts to the shift — using its onboard vision, audio, and environmental sensing to register where you are before it decides whether to chime in.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Quietly clocks a face you forgot",
+      "description": "Spotting someone approaching, it murmurs a name and one fact in your ear — a discreet social prompt drawn from its shoulder-level camera and language model, no screen to glance at.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Gossips about you to the other parrot",
+      "description": "Left near a friend's instance, the two could trade notes about their owners' moods or plans, surfacing a social dynamic between machines — grounded in the documented parrot-to-parrot banter plus each unit's location and audio context.",
+      "provenance": "proposed"
     }
   ],
   "confidence": "medium"

@@ -1,0 +1,67 @@
+{
+  "name": "Lumen",
+  "year": 2004,
+  "organization": ["Sony Computer Science Laboratories", "Sony Design Center", "Sony EMCS"],
+  "project_type": "academic_paper",
+  "short_description": "An interactive tabletop display whose grid of light guides rises and changes color via shape-memory-alloy actuators, presenting calm, organic moving shapes for ambient computing.",
+  "long_description": "Lumen, presented at SIGGRAPH 2004 Emerging Technologies by Ivan Poupyrev and colleagues at Sony, is an electromechanical display made of a two-dimensional array of movable light guides whose height and color can be controlled independently. Each guide is raised and lowered by a shape-memory-alloy (SMA) string that contracts when heated by current, producing smooth, noiseless, organic motion, while a capacitive SmartSkin sensor embedded in the surface recognizes hand shapes and finger motions for direct touch interaction. As an early shape-changing / actuated tangible display, it matters to physical AI and interaction design because it treats physical form itself as an expressive, ambient information medium rather than a screen, foreshadowing later shape displays and 'calm computing' surfaces.",
+  "primary_url": "https://history.siggraph.org/experience/lumen-interactive-visual-and-shape-display-for-calm-computing-by-poupyrev-nashida-maruyama-rekimoto-and-yamaji/",
+  "ai_embedded": "none",
+  "ai_note": "Input is capacitive SmartSkin touch sensing and SMA actuation; the paper explicitly contrasts this with camera techniques, and no machine learning is used.",
+  "attributes": {
+    "embodiment.form": ["Shape-changing display", "Domestic object", "Architectural / environmental system"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.actuation": ["Shape-memory alloy", "Actuated surface"],
+    "embodiment.materiality": ["Light-emitting", "Soft / organic motion"],
+    "intelligence.input": ["Touch", "Gesture"],
+    "intelligence.output": ["Shape change", "Light / color"],
+    "function.role": ["Ambient display"],
+    "function.interaction_goal": ["Calm / ambient information", "Affective expression"],
+    "genealogy.lineage": ["Tangible user interfaces", "Shape-changing interfaces", "Ambient intelligence", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 2,
+    "expressiveness": 4,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-lumen-shape-display-001",
+      "caption": "A hand interacting with the Lumen display, whose grid of light guides rises to form an illuminated shape.",
+      "image_type": "research_figure",
+      "source_url": "https://history.siggraph.org/wp-content/uploads/2021/12/2004-ETech-16-Poupyrev_Lumen-01.jpg",
+      "rights_status": "needs_permission",
+      "alt_text": "A hand touching a small square tabletop display whose array of glowing pixel rods rises at different heights to form a raised, illuminated shape."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-lumen-shape-display-001",
+      "title": "Lumen: interactive visual and shape display for calm computing",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/1186155.1186173",
+      "publisher": "ACM (SIGGRAPH 2004 Emerging Technologies)",
+      "year": 2004
+    },
+    {
+      "source_id": "source-lumen-shape-display-002",
+      "title": "Lumen: Interactive Visual and Shape Display for Calm Computing (Emerging Technologies entry)",
+      "source_type": "exhibition_page",
+      "url": "https://history.siggraph.org/experience/lumen-interactive-visual-and-shape-display-for-calm-computing-by-poupyrev-nashida-maruyama-rekimoto-and-yamaji/",
+      "publisher": "ACM SIGGRAPH History Archives",
+      "year": 2004
+    },
+    {
+      "source_id": "source-lumen-shape-display-003",
+      "title": "Lumen: Interactive Visual and Shape Display for Calm Computing (paper PDF)",
+      "source_type": "academic_paper",
+      "url": "https://history.siggraph.org/wp-content/uploads/2021/12/2004-16-Poupyrev_Lumen.pdf",
+      "publisher": "Sony CSL Interaction Lab / ACM SIGGRAPH",
+      "year": 2004
+    }
+  ],
+  "confidence": "high"
+}

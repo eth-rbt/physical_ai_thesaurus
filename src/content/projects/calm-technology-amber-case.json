@@ -1,0 +1,54 @@
+{
+  "name": "Calm Technology (Amber Case)",
+  "year": 2015,
+  "organization": ["O'Reilly Media"],
+  "project_type": "concept",
+  "short_description": "Amber Case's 2015 book proposing eight design principles for technology that demands the least possible attention while informing through the periphery.",
+  "long_description": "Calm Technology: Principles and Patterns for Non-Intrusive Design extends the Xerox PARC notion of calm computing (Weiser and Brown, 1995) into the era of the Internet of Things and billions of connected devices. Amber Case offers eight practical design principles - including requiring the smallest possible amount of attention, informing while creating calm, exploiting peripheral awareness, communicating without demanding speech, and degrading gracefully when systems fail. As physical AI moves into homes and bodies as ambient sensing and actuation, the book is a foundational interaction-design reference for how embedded devices should behave: present but not intrusive, legible at the edge of attention rather than commanding the center of it.",
+  "primary_url": "https://www.oreilly.com/library/view/calm-technology/9781491925874/",
+  "ai_embedded": "none",
+  "ai_note": "It is a book of design principles, not a system; no AI or ML runs anywhere in it.",
+  "attributes": {
+    "embodiment.form": ["Distributed object ecology"],
+    "function.role": ["Mediator"],
+    "genealogy.lineage": ["Ubiquitous computing", "Ambient intelligence", "Internet of Things"],
+    "genealogy.precedent_field": ["Ubiquitous computing", "Calm technology"]
+  },
+  "metrics": {
+    "proximity": 3,
+    "mobility": 1,
+    "scale": 5,
+    "social_legibility": 2,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-calm-technology-amber-case-001",
+      "caption": "Cover of Calm Technology: Principles and Patterns for Non-Intrusive Design by Amber Case (O'Reilly, 2015).",
+      "image_type": "product_photo",
+      "source_url": "https://www.oreilly.com/library/view/calm-technology/9781491925874/",
+      "rights_status": "needs_permission",
+      "alt_text": "Book cover for Calm Technology by Amber Case, published by O'Reilly, featuring the title text over a light background with a small animal illustration in the O'Reilly style."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-calm-technology-amber-case-001",
+      "title": "Calm Technology",
+      "source_type": "documentation",
+      "url": "https://www.oreilly.com/library/view/calm-technology/9781491925874/",
+      "publisher": "O'Reilly Media",
+      "year": 2015
+    },
+    {
+      "source_id": "source-calm-technology-amber-case-002",
+      "title": "Calm Technology: Principles and Patterns for Non-Intrusive Design",
+      "source_type": "documentation",
+      "url": "https://calmtech.com/book",
+      "publisher": "Amber Case",
+      "year": 2015
+    }
+  ],
+  "confidence": "high"
+}

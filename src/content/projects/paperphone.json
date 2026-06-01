@@ -1,0 +1,65 @@
+{
+  "name": "PaperPhone",
+  "year": 2011,
+  "organization": ["Human Media Lab, Queen's University", "Arizona State University", "E Ink Corporation"],
+  "project_type": "research_prototype",
+  "short_description": "A smartphone-inspired flexible E Ink prototype that is controlled through bend gestures of its thin, paper-like display.",
+  "long_description": "PaperPhone is a research prototype built around a 9.5 cm thin-film flexible E Ink display that looks, feels, and operates like a sheet of interactive paper. Users navigate and trigger actions by physically bending the device (e.g. flipping a corner to turn pages) rather than tapping a rigid touchscreen. Presented at CHI 2011, the project elicited a vocabulary of bend gestures from participants and showed which deformation-based interactions felt most natural, making it a landmark in flexible-display and organic/deformable user interface research where the body of the device itself becomes the input surface.",
+  "primary_url": "https://cil.csit.carleton.ca/paperphone/",
+  "ai_embedded": "none",
+  "ai_note": "PaperPhone is a flexible-display interaction-technique prototype using bend-sensor input and E Ink output; no AI/ML runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Handheld", "Domestic object"],
+    "embodiment.mobility": ["Handheld"],
+    "embodiment.materiality": ["Flexible / deformable"],
+    "intelligence.input": ["Touch", "Gesture", "Motion"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 4,
+    "mobility": 2,
+    "scale": 1,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-paperphone-001",
+      "caption": "PaperPhone flexible E Ink prototype shown in the Creative Interactions Lab publication thumbnail.",
+      "image_type": "research_figure",
+      "source_url": "https://cil.csit.carleton.ca/b/wp-content/uploads/2013/12/cropped-flexDisplayContacts.jpg",
+      "rights_status": "needs_permission",
+      "alt_text": "A thin, flexible electronic-paper display prototype held in a hand, showing a contacts list, demonstrating the PaperPhone bendable smartphone."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-paperphone-001",
+      "title": "PaperPhone: Understanding the Use of Bend Gestures in Mobile Devices with Flexible Electronic Paper Displays",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/1978942.1979136",
+      "publisher": "ACM (Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, CHI 2011)",
+      "year": 2011
+    },
+    {
+      "source_id": "source-paperphone-002",
+      "title": "PaperPhone",
+      "source_type": "lab_page",
+      "url": "https://cil.csit.carleton.ca/paperphone/",
+      "publisher": "Creative Interactions Lab, Carleton University",
+      "year": null
+    },
+    {
+      "source_id": "source-paperphone-003",
+      "title": "Revolutionary new paper computer shows flexible future for smartphones and tablets",
+      "source_type": "credible_news",
+      "url": "https://www.sciencedaily.com/releases/2011/05/110504111147.htm",
+      "publisher": "ScienceDaily",
+      "year": 2011
+    }
+  ],
+  "confidence": "high"
+}

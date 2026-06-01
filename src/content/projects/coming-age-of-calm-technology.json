@@ -1,0 +1,53 @@
+{
+  "name": "The Coming Age of Calm Technology",
+  "year": 1997,
+  "organization": ["Xerox PARC"],
+  "project_type": "academic_paper",
+  "short_description": "Weiser and Brown's foundational essay arguing that ubiquitous computing should engage the periphery of attention so technology stays calm and in the background.",
+  "long_description": "Written by Mark Weiser and John Seely Brown of Xerox PARC and published in the 1997 Springer volume Beyond Calculation: The Next Fifty Years of Computing, this essay introduces 'calm technology' as a design philosophy for a world saturated with embedded computation. Its central claim is that human attention is the scarce resource: well-designed systems should move smoothly between the center and the periphery of our awareness, informing without demanding focus (illustrated by examples such as the 'Dangling String' ambient network monitor). The essay is a cornerstone reference for physical AI and interaction design because it frames how embodied, ambient, and tangible systems should occupy the environment without overwhelming the people who live among them.",
+  "primary_url": "https://link.springer.com/chapter/10.1007/978-1-4612-0685-9_6",
+  "ai_embedded": "none",
+  "ai_note": "This is a conceptual design essay, not a working system; it describes ambient and peripheral interaction principles and contains no AI/ML.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system"],
+    "embodiment.mobility": ["Fixed"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Ubiquitous computing", "Ambient intelligence", "Tangible user interfaces"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 5,
+    "social_legibility": 1,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-coming-age-of-calm-technology-001",
+      "caption": "Opening page of Weiser and Brown's 'The Coming Age of Calm Technology' as published in Beyond Calculation.",
+      "image_type": "research_figure",
+      "source_url": "https://link.springer.com/chapter/10.1007/978-1-4612-0685-9_6",
+      "rights_status": "needs_permission",
+      "alt_text": "Title page of the academic essay 'The Coming Age of Calm Technology' by Mark Weiser and John Seely Brown."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-coming-age-of-calm-technology-001",
+      "title": "The Coming Age of Calm Technology",
+      "source_type": "academic_paper",
+      "url": "https://link.springer.com/chapter/10.1007/978-1-4612-0685-9_6",
+      "publisher": "Springer (in Beyond Calculation: The Next Fifty Years of Computing)",
+      "year": 1997
+    },
+    {
+      "source_id": "source-coming-age-of-calm-technology-002",
+      "title": "The Coming Age of Calm Technology",
+      "source_type": "documentation",
+      "url": "https://calmtech.com/papers/coming-age-calm-technology",
+      "publisher": "calmtech.com",
+      "year": 1996
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Pinwheels / Ambient Fixtures",
+  "year": 1998,
+  "organization": ["MIT Media Lab Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "Computer-controlled pinwheels and a Water Lamp that spin and ripple in a \"bit wind,\" displaying digital data streams as ambient movement at the periphery of attention.",
+  "long_description": "Pinwheels are kinetic ambient displays from MIT's Tangible Media Group: arrays of motorized pinwheels (and a companion Water Lamp projecting computational water ripples onto a ceiling) whose spinning speed is driven by online data such as stock activity, web traffic, or network packets. Part of the ambientROOM / Ambient Fixtures vision, they treat architectural space itself as an interface, presenting information through subtle background movement and sound rather than foreground screens. The work matters to physical AI and interaction design as a foundational example of calm, ambient, tangible representation of digital information in physical form—shaping how later systems convey state through embodied motion instead of explicit displays.",
+  "primary_url": "https://tangible.media.mit.edu/project/pinwheels/",
+  "ai_embedded": "none",
+  "ai_note": "The system is a mechanical kinetic display: computer-controlled motors map data-stream values to pinwheel spin speed, with no machine learning or AI inference involved.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed", "Environmental / room-scale"],
+    "embodiment.actuation": ["Motorized rotation"],
+    "intelligence.model": ["Rule-based system"],
+    "intelligence.output": ["Motion", "Light", "Sound"],
+    "function.role": ["Ambient display", "Notification"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ambient intelligence", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 5,
+    "social_legibility": 1,
+    "expressiveness": 3,
+    "autonomy": 1,
+    "initiative": 1,
+    "visibility": 2
+  },
+  "images": [
+    {
+      "image_id": "img-pinwheels-001",
+      "caption": "Array of computer-controlled pinwheels from MIT Tangible Media Group's Pinwheels ambient display project.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/pinwheels/",
+      "rights_status": "needs_permission",
+      "alt_text": "Multiple small pinwheels mounted in an architectural space, spinning to display digital information as ambient movement."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-pinwheels-001",
+      "title": "Pinwheels",
+      "source_type": "project_page",
+      "url": "https://tangible.media.mit.edu/project/pinwheels/",
+      "publisher": "MIT Media Lab Tangible Media Group",
+      "year": 2001
+    },
+    {
+      "source_id": "source-pinwheels-002",
+      "title": "Water Lamp and Pinwheels: Ambient Projection of Digital Information into Architectural Space",
+      "source_type": "academic_paper",
+      "url": "https://www.researchgate.net/publication/2447397_Water_Lamp_and_Pinwheels_Ambient_Projection_of_Digital_Information_into_Architectural_Space",
+      "publisher": "ACM CHI '98 Conference Summary",
+      "year": 1998
+    },
+    {
+      "source_id": "source-pinwheels-003",
+      "title": "Pinwheels: Visualizing Information Flow in an Architectural Space",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/634067.634135",
+      "publisher": "ACM CHI '01 Extended Abstracts",
+      "year": 2001
+    }
+  ],
+  "confidence": "high"
+}

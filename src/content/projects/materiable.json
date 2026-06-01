@@ -1,0 +1,58 @@
+{
+  "name": "Materiable",
+  "year": 2016,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "A pin-based shape-changing display that renders dynamic material properties such as flexibility, elasticity, and viscosity in response to a user's direct touch.",
+  "long_description": "Materiable is a research prototype from MIT Media Lab's Tangible Media Group, presented at CHI 2016, that uses a pin-based shape display to make digital data feel like physical material. Rather than rendering only static shapes, it runs physics algorithms (including shallow-water equations for liquids and spring models for deformable solids) so that pressing on the surface elicits material-like responses, letting people perceive flexibility, elasticity, and viscosity through touch. As physical AI / interaction design, it matters because it extends shape-changing interfaces from shape alone toward rich, tangible material sensation, advancing how computational surfaces can communicate haptic and dynamic qualities to the body.",
+  "primary_url": "https://tangible.media.mit.edu/project/materiable/",
+  "ai_embedded": "none",
+  "ai_note": "The system is driven by hand-authored physics simulations (shallow-water equations and spring models) on a motorized pin display, with no AI or machine learning involved.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.actuation": ["Pin array / shape display"],
+    "embodiment.materiality": ["Shape-changing"],
+    "intelligence.input": ["Touch", "Force / torque"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 1,
+    "expressiveness": 3,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-materiable-001",
+      "caption": "A user presses into the Materiable pin-based shape display, which responds with liquid- and material-like deformation rendered by physics algorithms.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/materiable/",
+      "rights_status": "needs_permission",
+      "alt_text": "A hand pressing down on a grid of motorized white pins that form a deformable surface, with the pins around the touch point lowered to mimic a soft, yielding material."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-materiable-001",
+      "title": "Materiable",
+      "source_type": "project_page",
+      "url": "https://tangible.media.mit.edu/project/materiable/",
+      "publisher": "MIT Media Lab Tangible Media Group",
+      "year": 2016
+    },
+    {
+      "source_id": "source-materiable-002",
+      "title": "Materiable: Rendering Dynamic Material Properties in Response to Direct Physical Touch with Shape Changing Interfaces",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2858036.2858104",
+      "publisher": "Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems (ACM)",
+      "year": 2016
+    }
+  ],
+  "confidence": "high"
+}

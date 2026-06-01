@@ -6,8 +6,10 @@ interface Props {
   projects: CollectionEntry<'projects'>[];
   /** Optional categorical attribute key to cluster by, e.g. "embodiment.form". */
   groupBy?: string;
+  /** Optional card-specific one-liners keyed by project id. */
+  notes?: Record<string, string>;
 }
-const { projects, groupBy } = Astro.props;
+const { projects, groupBy, notes } = Astro.props;
 
 // Build ordered groups. A project with multiple values for the grouping
 // attribute appears under its first value. Ungrouped projects fall under "Other".
@@ -29,7 +31,7 @@ if (groupBy) {
   {groups.map((g) => (
     <>
       {g.label && <div class="group-label">{g.label}</div>}
-      {g.items.map((p) => <ProjectTile project={p} />)}
+      {g.items.map((p) => <ProjectTile project={p} note={notes?.[p.id]} />)}
     </>
   ))}
 </div>

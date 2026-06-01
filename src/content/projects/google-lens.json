@@ -62,5 +62,61 @@
       "access_notes": "Background on announcement at Google I/O 2017 and rollout history."
     }
   ],
+  "interactions": [
+    {
+      "title": "Read a foreign menu through the camera",
+      "description": "Hold the phone over a sign or restaurant menu in another language and watch the translated words drop into place over the original, repositioning as you pan and tilt.",
+      "provenance": "documented",
+      "source_url": "https://lens.google/",
+      "source_label": "Google Lens"
+    },
+    {
+      "title": "Copy text off paper straight to your laptop",
+      "description": "Point Lens at a printed page, highlight a paragraph, and hit \"copy to computer\" to drop it onto the clipboard of a Chrome browser signed in on your desktop.",
+      "provenance": "documented",
+      "source_url": "https://www.digitaltrends.com/phones/google-lens-copy-text-to-computer/",
+      "source_label": "Digital Trends"
+    },
+    {
+      "title": "Price-check a product on the shelf",
+      "description": "Snap a photo of an item and Lens surfaces its price across retailers, reviews, and where to buy it; you can add words like \"brown\" or \"velvet\" to steer toward a closer match.",
+      "provenance": "documented",
+      "source_url": "https://blog.google/products-and-platforms/products/shopping/visual-search-lens-shopping/",
+      "source_label": "Google blog"
+    },
+    {
+      "title": "Photograph a rash to start a search",
+      "description": "Aim the camera at a mole, bump, or skin patch you can't describe in words and Lens returns visually similar images to inform a search; Google is explicit that it is not a diagnosis.",
+      "provenance": "documented",
+      "source_url": "https://petapixel.com/2023/06/14/google-lens-can-now-search-skin-conditions-with-just-a-photo/",
+      "source_label": "PetaPixel"
+    },
+    {
+      "title": "Grab codes and book quotes you'd otherwise retype",
+      "description": "People reach for Lens to lift a delivery tracking number, a serial key, or a passage from a paper book into a notes app, replacing a surprising amount of manual typing.",
+      "provenance": "observed",
+      "source_url": "https://www.androidpolice.com/google-lens-feature-ignored-for-years-is-now-my-favorite/",
+      "source_label": "Android Police"
+    },
+    {
+      "title": "Foragers point it at mushrooms — and get poisoned",
+      "description": "Despite being built for visual search, not edibility calls, people use Lens to ID wild mushrooms; one case saw it rate a toxic Chlorophyllum molybdites as a \"Choice edible,\" landing two people seriously ill.",
+      "provenance": "observed",
+      "source_url": "https://www.citizen.org/article/mushroom-risk-ai-app-misinformation/",
+      "source_label": "Public Citizen"
+    },
+    {
+      "title": "Decipher a doctor's handwritten prescription",
+      "description": "Photograph a scrawled prescription and have Lens detect and highlight the medication names, reading them back to you — grounded in the handwriting-recognition prototype Google has demoed but not shipped.",
+      "provenance": "proposed",
+      "source_url": "https://9to5google.com/2022/12/19/google-lens-will-soon-be-able-to-decipher-prescriptions-from-your-doctors-bad-handwriting/",
+      "source_label": "9to5Google"
+    },
+    {
+      "title": "Catalog a bookshelf by panning across the spines",
+      "description": "Sweep the camera along a shelf and let Lens read each title off the spines into a running list — built on the same real-world OCR and object recognition it already runs for text and product capture.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

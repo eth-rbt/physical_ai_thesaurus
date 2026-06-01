@@ -61,5 +61,56 @@
       "access_notes": "Historical account of the tabs/pads/boards program and its prototype devices."
     }
   ],
+  "interactions": [
+    {
+      "title": "Point your tab at the room and dim the lights",
+      "description": "Because the ParcTab knew which room it was in from the ceiling infrared transceivers, it doubled as a programmable remote control — you could adjust the lights and temperature for wherever you happened to be standing, with no fixed wall panel.",
+      "provenance": "documented",
+      "source_url": "http://www.roywant.com/cv/papers/pubs/1995-12%20(IEEE%20PCom)%20parctab.pdf",
+      "source_label": "Want et al., IEEE Personal Communications (1995)"
+    },
+    {
+      "title": "Ask the building where a colleague is",
+      "description": "A 'where is' query on the tab returned the last room a person's tab had been seen in, turning the office into something you could search — find the meeting that already moved, or whether someone is at their desk before walking over.",
+      "provenance": "documented",
+      "source_url": "http://www.roywant.com/cv/papers/pubs/1995-12%20(IEEE%20PCom)%20parctab.pdf",
+      "source_label": "Want et al., IEEE Personal Communications (1995)"
+    },
+    {
+      "title": "Walk to another room and your work follows",
+      "description": "Application state migrated with you: a document or session you started in one office could be picked back up on the nearest display when you moved, the system using your tab's location to hand the work off rather than tying it to one machine.",
+      "provenance": "documented",
+      "source_url": "http://www.roywant.com/cv/papers/pubs/1995-12%20(IEEE%20PCom)%20parctab.pdf",
+      "source_label": "Want et al., IEEE Personal Communications (1995)"
+    },
+    {
+      "title": "Draw on a wall in two cities at once",
+      "description": "Two people at LiveBoards in different buildings shared one pen-driven surface over phone lines — sketch a diagram on the wall here and watch it appear, editable, on the wall there, the yard-scale 'board' acting as a networked whiteboard for a distributed meeting.",
+      "provenance": "documented",
+      "source_url": "https://www.computerhistory.org/revolution/input-output/14/349/1829",
+      "source_label": "Computer History Museum — Liveboard"
+    },
+    {
+      "title": "Vote and fill in forms from your palm during a meeting",
+      "description": "In the live PARC deployment people used tab-based dynamic forms and polling during group sessions — answering a question on the handheld and having the tallied result appear on the shared board, an early taste of the audience-response patterns we now take for granted.",
+      "provenance": "observed",
+      "source_url": "http://www.roywant.com/cv/papers/pubs/1995-12%20(IEEE%20PCom)%20parctab.pdf",
+      "source_label": "Want et al., IEEE Personal Communications (1995)"
+    },
+    {
+      "title": "Glance, don't open: the tab as a peripheral display",
+      "description": "Staff in the experiment leaned on the tab for ambient glances — weather, clock, a buzz when a message arrived — checking a fact at arm's length rather than sitting down at a workstation, the everyday version of Weiser's 'calm' computing the program was built to test.",
+      "provenance": "observed",
+      "source_url": "http://www.roywant.com/cv/papers/pubs/1995-12%20(IEEE%20PCom)%20parctab.pdf",
+      "source_label": "Want et al., IEEE Personal Communications (1995)"
+    },
+    {
+      "title": "The room greets the work, not the login",
+      "description": "Extending the tab's location model: walk into a conference room and the nearest board could quietly pull up the agenda for the people now present and the lights they prefer — no badge tap or sign-in, the space reacting to who is in it. Grounded in the system's room-level location sensing and environment control, in the spirit of Weiser's Sal scenario.",
+      "provenance": "proposed",
+      "source_url": "https://calmtechnology.wordpress.com/2007/02/04/mark-weiser-the-father-of-ubiquitous-computing/",
+      "source_label": "On Weiser's calm-computing / Sal scenario"
+    }
+  ],
   "confidence": "high"
 }

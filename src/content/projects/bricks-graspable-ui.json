@@ -1,0 +1,67 @@
+{
+  "name": "Bricks (Graspable User Interfaces)",
+  "year": 1995,
+  "organization": ["University of Toronto", "MIT Media Lab"],
+  "project_type": "academic_paper",
+  "short_description": "A CHI 1995 system in which small physical blocks act as graspable handles for directly manipulating virtual objects on a horizontal display.",
+  "long_description": "Bricks, introduced by Fitzmaurice, Ishii, and Buxton at CHI 1995, founded the notion of Graspable User Interfaces: LEGO-sized physical artifacts that, when placed on the rear-projected ActiveDesk surface, attach to the virtual object beneath them so users can translate, rotate, and deform digital content by moving the brick itself. Tracked with Ascension Flock of Birds 6D sensors, multiple bricks afford two-handed, parallel manipulation such as stretching a shape between two grasped handles. The work is a foundational precedent for tangible and physical interaction design, replacing the single time-multiplexed mouse with space-multiplexed physical handles that give virtual objects literal graspable form.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/223904.223964",
+  "ai_embedded": "none",
+  "ai_note": "Bricks is a tangible-interaction technique built on 6D magnetic position tracking and graphical manipulation; no machine learning or AI runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology"],
+    "embodiment.mobility": ["Handheld"],
+    "embodiment.actuation": ["None"],
+    "embodiment.materiality": ["Rigid block"],
+    "intelligence.input": ["Touch", "Motion", "Gesture"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool", "Creative collaborator"],
+    "function.task_domain": ["Direct manipulation", "Graphics editing"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing", "Direct manipulation"]
+  },
+  "metrics": {
+    "proximity": 3,
+    "mobility": 2,
+    "scale": 2,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-bricks-graspable-ui-001",
+      "caption": "Bricks used as physical handles on the ActiveDesk to manipulate virtual objects in the GraspDraw application (CHI 1995).",
+      "image_type": "research_figure",
+      "source_url": "https://www.billbuxton.com/bricks.html",
+      "rights_status": "needs_permission",
+      "alt_text": "A pair of hands grasping small block-shaped physical handles resting on a large horizontal display surface, manipulating projected graphical shapes."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-bricks-graspable-ui-001",
+      "title": "Bricks: laying the foundations for graspable user interfaces",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/223904.223964",
+      "publisher": "ACM (CHI '95), pp. 442-449",
+      "year": 1995
+    },
+    {
+      "source_id": "source-bricks-graspable-ui-002",
+      "title": "Bricks: Laying the Foundations for Graspable User Interfaces",
+      "source_type": "project_page",
+      "url": "https://www.billbuxton.com/bricks.html",
+      "publisher": "Bill Buxton",
+      "year": 1995
+    },
+    {
+      "source_id": "source-bricks-graspable-ui-003",
+      "title": "Bricks: Laying the Foundations for Graspable User Interfaces (publication record)",
+      "source_type": "lab_page",
+      "url": "https://www.media.mit.edu/publications/bricks-laying-the-foundations-for-graspable-user-interfaces-2/",
+      "publisher": "MIT Media Lab",
+      "year": 1995
+    }
+  ],
+  "confidence": "high"
+}

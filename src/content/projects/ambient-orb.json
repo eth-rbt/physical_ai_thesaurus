@@ -1,0 +1,62 @@
+{
+  "name": "Ambient Orb (Ambient Devices)",
+  "year": 2002,
+  "organization": ["Ambient Devices"],
+  "project_type": "commercial_product",
+  "short_description": "A frosted-glass ball lamp that maps a single data stream to a slowly shifting color glow.",
+  "long_description": "The Ambient Orb, introduced in 2002 by Ambient Devices (an MIT Media Lab spin-off founded by David Rose, Ben Resner, Nabeel Hyatt, and Pritesh Gandhi), is a frosted-glass sphere that maps one chosen data feed (such as a stock index, weather, or traffic) onto a linear color spectrum, glowing green to red to signal trends at a glance. It is a touchstone of calm technology and ambient intelligence: information lives at the edge of attention as a glanceable, pre-attentive cue rather than a screen demanding focus. As physical AI, it matters as an early commercial bridge from Weiser's ubiquitous-computing vision to consumer ambient and IoT objects, demonstrating peripheral, non-screen information display in everyday domestic form.",
+  "primary_url": "https://en.wikipedia.org/wiki/Ambient_device",
+  "ai_embedded": "none",
+  "ai_note": "No AI/ML; a wireless data feed is mapped directly to a color on a fixed linear spectrum and shown as a glow.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Smart appliance"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.materiality": ["Frosted glass", "Light / glow"],
+    "intelligence.input": ["Location", "Environmental sensors"],
+    "intelligence.output": ["Light / color"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Notifier", "Memory aid"],
+    "genealogy.lineage": ["Ambient intelligence", "Calm technology", "Ubiquitous computing", "Internet of Things"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 2,
+    "expressiveness": 3,
+    "autonomy": 1,
+    "initiative": 1,
+    "visibility": 2,
+    "generality": 1,
+    "intensity": 1
+  },
+  "images": [
+    {
+      "image_id": "img-ambient-orb-001",
+      "caption": "The Ambient Orb, a frosted-glass ball lamp that conveys data trends through changing color.",
+      "image_type": "product_photo",
+      "source_url": "https://en.wikipedia.org/wiki/Ambient_device",
+      "rights_status": "needs_permission",
+      "alt_text": "A small frosted-glass sphere on a base, glowing with a soft colored light to indicate the state of a data feed."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-ambient-orb-001",
+      "title": "Ambient device",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/Ambient_device",
+      "publisher": "Wikipedia",
+      "year": null
+    },
+    {
+      "source_id": "source-ambient-orb-002",
+      "title": "David L. Rose",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/David_L._Rose",
+      "publisher": "Wikipedia",
+      "year": null
+    }
+  ],
+  "confidence": "high"
+}

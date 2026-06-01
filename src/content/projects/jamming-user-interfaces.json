@@ -1,0 +1,65 @@
+{
+  "name": "Jamming User Interfaces",
+  "year": 2012,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "academic_paper",
+  "short_description": "A technique using programmable particle jamming to make interface surfaces switch between soft and rigid on command, with high-resolution shape sensing for malleable, shape-changing devices.",
+  "long_description": "Jamming User Interfaces, presented at UIST 2012 by Sean Follmer, Daniel Leithinger, Alex Olwal, Nadia Cheng, and Hiroshi Ishii, applies particle jamming, a phenomenon where granular material packed in a flexible membrane stiffens under vacuum, to create surfaces whose stiffness is programmatically controlled, enabling tunable haptic feedback, deformation, and adjustable affordances. The authors built a compact, low-power pneumatic system for mobile devices and a fast, silent hydraulic system, and added high-resolution shape sensing using index-matched particles and fluids with optical capture as well as capacitive and electric-field sensing. As physical AI and interaction design, it matters because it lets a single physical surface dynamically reconfigure its material properties, blurring the line between input device, display, and tangible interface. It is a foundational reference in the shape-changing and malleable interface literature.",
+  "primary_url": "https://leithinger.com/Jamming-User-Interfaces-2012",
+  "ai_embedded": "none",
+  "ai_note": "The system is a material, actuation, and sensing technique (particle jamming with pneumatic/hydraulic control and optical/capacitive shape sensing); no AI/ML is involved.",
+  "attributes": {
+    "embodiment.form": ["Smart object", "Tangible interface"],
+    "embodiment.mobility": ["Fixed", "Handheld"],
+    "embodiment.actuation": ["Pneumatic", "Hydraulic", "Shape-changing"],
+    "embodiment.materiality": ["Particle jamming", "Soft / deformable"],
+    "intelligence.input": ["Touch", "Force / torque"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces", "Shape-changing interfaces"]
+  },
+  "metrics": {
+    "proximity": 3,
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-jamming-user-interfaces-001",
+      "caption": "Jamming User Interfaces: a malleable particle-jamming surface that switches between soft and rigid states for tablets and mobile devices.",
+      "image_type": "research_figure",
+      "source_url": "https://payload.cargocollective.com/1/18/593347/9522229/jamming_coverimage2_1000.jpg",
+      "rights_status": "needs_permission",
+      "alt_text": "A flexible interface surface using particle jamming, shown deforming and stiffening, demonstrating programmable shape and stiffness on a handheld device."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-jamming-user-interfaces-001",
+      "title": "Jamming User Interfaces (2012) - Daniel Leithinger",
+      "source_type": "project_page",
+      "url": "https://leithinger.com/Jamming-User-Interfaces-2012",
+      "publisher": "Daniel Leithinger",
+      "year": 2012
+    },
+    {
+      "source_id": "source-jamming-user-interfaces-002",
+      "title": "Jamming user interfaces: programmable particle stiffness and sensing for malleable and shape-changing devices",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2380116.2380181",
+      "publisher": "ACM (Proceedings of UIST '12)",
+      "year": 2012
+    },
+    {
+      "source_id": "source-jamming-user-interfaces-003",
+      "title": "Jamming User Interfaces",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/project/jamming-user-interfaces/",
+      "publisher": "MIT Media Lab Tangible Media Group",
+      "year": 2012
+    }
+  ],
+  "confidence": "high"
+}

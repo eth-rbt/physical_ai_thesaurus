@@ -1,0 +1,57 @@
+{
+  "name": "PneUI",
+  "year": 2013,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "An enabling technology for shape-changing interfaces built from pneumatically actuated soft composite materials that combine input sensing with active shape output.",
+  "long_description": "PneUI is a fabrication and actuation technique from the MIT Media Lab's Tangible Media Group that builds shape-changing interfaces out of multi-layer soft composite materials whose transformations are driven by pneumatics and a pre-defined internal structure. The composites integrate both input sensing and active shape output, and the design space is demonstrated through applications such as height-changing tangible phicons, a shape-changing mobile, a transformable tablet case, and a shape-shifting lamp. As physical AI and interaction design, it matters as a foundational soft-robotics and tangible-interface technique: it shows how everyday objects and surfaces can computationally change their physical form to convey information and adapt to use, expanding the material vocabulary for embodied interfaces.",
+  "primary_url": "https://tangible.media.mit.edu/project/pneui/",
+  "ai_embedded": "none",
+  "ai_note": "PneUI is a pneumatic soft-material actuation and sensing technique; shape states are computationally controlled through air pressure and pre-defined structure, with no AI/ML in the system.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Architectural / environmental system"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.actuation": ["Pneumatic"],
+    "embodiment.materiality": ["Soft / compliant"],
+    "intelligence.input": ["Touch"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 1,
+    "expressiveness": 3,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-pneui-001",
+      "caption": "PneUI shape-changing interface applications built from pneumatically actuated soft composite materials.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/pneui/",
+      "rights_status": "needs_permission",
+      "alt_text": "Pneumatically actuated soft objects from the PneUI project, including a shape-shifting lamp and transformable surfaces that inflate and change form."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-pneui-001",
+      "title": "PneUI: Pneumatically Actuated Soft Composite Materials for Shape Changing Interfaces",
+      "source_type": "project_page",
+      "url": "https://tangible.media.mit.edu/project/pneui/",
+      "publisher": "MIT Media Lab, Tangible Media Group",
+      "year": 2013
+    },
+    {
+      "source_id": "source-pneui-002",
+      "title": "PneUI: pneumatically actuated soft composite materials for shape changing interfaces",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2501988.2502037",
+      "publisher": "ACM (Proceedings of UIST 2013)",
+      "year": 2013
+    }
+  ],
+  "confidence": "high"
+}

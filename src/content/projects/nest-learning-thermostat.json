@@ -60,5 +60,54 @@
       "access_notes": "Coverage of the October 2011 launch by Nest Labs, co-founded by Tony Fadell and Matt Rogers."
     }
   ],
+  "interactions": [
+    {
+      "title": "It writes your schedule by watching you",
+      "description": "For the first week you just nudge the temperature up when you're cold and down at night; the thermostat quietly logs every turn and then stops asking, having built a heating and cooling schedule it now runs on its own.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/googlenest/answer/9209007?hl=en",
+      "source_label": "Google Nest Help — Auto-Schedule"
+    },
+    {
+      "title": "A leaf for nudging the dial colder",
+      "description": "Dial the heat down a degree and a small green leaf lights up on the ring as a reward; over time the device quietly raises the bar, so the temperature that earned a leaf last winter no longer does.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/googlenest/answer/9244106?hl=en",
+      "source_label": "Google Nest Help — Nest Leaf"
+    },
+    {
+      "title": "The grid asks your house to ease off",
+      "description": "On a sweat-heavy afternoon when the whole neighborhood's AC kicks on at once, the thermostat pre-cools the house and then drifts a few degrees during the peak demand window so the utility doesn't have to fire up another plant — and your provider credits you for it.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/googlenest/answer/9749812?hl=en",
+      "source_label": "Google Nest Help — Rush Hour Rewards"
+    },
+    {
+      "title": "It lights up before you reach it",
+      "description": "Walk into a dim room and the black ring senses you from across the floor, waking to show the time and temperature in numerals big enough to read from the doorway, then fades back to sleep once you pass.",
+      "provenance": "documented",
+      "source_url": "https://blog.google/products/nest/new-views-farsight/",
+      "source_label": "Google — New views for Farsight"
+    },
+    {
+      "title": "Repurposed as a tripwire",
+      "description": "Tinkerers wire the thermostat's occupancy sensor into IFTTT so that the moment it flips from Away to Home it pings their phone — an improvised intruder alert built from a device that was only ever supposed to manage the furnace.",
+      "provenance": "observed",
+      "source_url": "https://www.howtogeek.com/249093/how-to-use-your-nest-thermostat-as-a-motion-detector/",
+      "source_label": "How-To Geek — Nest as a motion detector"
+    },
+    {
+      "title": "The dog keeps the heat on",
+      "description": "Families leave for the day expecting the house to drop into Eco mode, then find it stayed warm: the motion sensors caught the dog padding past and decided someone was still home, so people learn to keep pets clear of the sensor's sightline.",
+      "provenance": "observed",
+      "source_url": "https://support.google.com/googlenest/answer/9261489?hl=en",
+      "source_label": "Google Nest Help — Home/Away Assist & pets"
+    },
+    {
+      "title": "Heat the bedroom right before the alarm",
+      "description": "Building on the schedule it already learns and its sense of when the house wakes, the thermostat could time a short pre-heat so the bathroom tile is warm the minute your feet hit the floor — comfort staged ahead of need rather than chased after it.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

@@ -1,0 +1,55 @@
+{
+  "name": "AlgoBlock",
+  "year": 1995,
+  "organization": ["NEC Corporation"],
+  "project_type": "academic_paper",
+  "short_description": "A set of physically connectable command blocks that children assemble by hand to build Logo-like programs, designed to support collaborative learning.",
+  "long_description": "AlgoBlock, presented by Hideyuki Suzuki and Hiroshi Kato at the first International Conference on Computer Support for Collaborative Learning (CSCL 1995), is a set of graspable physical blocks that each correspond to a command in a Logo-like language; learners snap the blocks together on a shared work surface to construct a program that drives an on-screen submarine. By making the program a manipulable physical artifact placed in shared space, it deliberately turns coding into a visible, jointly accessible activity that stimulates conversation and cooperation among learners. It is widely credited as an early instance of tangible programming and a foundational example of tangible user interfaces, where computation is represented and manipulated through physical objects rather than only screen symbols.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/222020.222828",
+  "ai_embedded": "none",
+  "ai_note": "AlgoBlock is a tangible programming interface where physical blocks map to fixed Logo-like commands; there is no machine learning or AI inference in the system.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Touch"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Teacher", "Mediator"],
+    "genealogy.lineage": ["Tangible user interfaces"]
+  },
+  "metrics": {
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 2,
+    "autonomy": 1,
+    "expressiveness": 2
+  },
+  "images": [
+    {
+      "image_id": "img-algoblock-001",
+      "caption": "Learners collaboratively assembling AlgoBlock's connectable command blocks to build a program.",
+      "image_type": "research_figure",
+      "source_url": "https://www.researchgate.net/figure/AlgoBlock-users-Suzuki-and-Kato-1993_fig13_228789675",
+      "rights_status": "needs_permission",
+      "alt_text": "Photograph of people gathered around a table connecting rectangular physical command blocks together to form a tangible computer program."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-algoblock-001",
+      "title": "Interaction-level support for collaborative learning: AlgoBlock — an open programming language",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/222020.222828",
+      "publisher": "Association for Computing Machinery (CSCL '95)",
+      "year": 1995
+    },
+    {
+      "source_id": "source-algoblock-002",
+      "title": "Interaction-level support for collaborative learning: AlgoBlock - an open programming language",
+      "source_type": "academic_paper",
+      "url": "https://www.semanticscholar.org/paper/Interaction-level-support-for-collaborative-an-open-Suzuki-Kato/0e5175376671417a79417200e18075dff3f13384",
+      "publisher": "Semantic Scholar",
+      "year": 1995
+    }
+  ],
+  "confidence": "high"
+}

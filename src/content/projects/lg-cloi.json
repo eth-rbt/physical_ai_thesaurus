@@ -60,5 +60,57 @@
       "access_notes": "Press release announcing the CLOiD home robot, successor to the CLOi line."
     }
   ],
+  "interactions": [
+    {
+      "title": "Tell the room to start the wash",
+      "description": "Speak to the CLOi Hub Robot and have it change a washing-machine cycle, switch on the TV, or push a recipe to the fridge — a single voice front-end for the connected ThinQ appliances around the house.",
+      "provenance": "documented",
+      "source_url": "https://www.lg.com/uk/lg-experience/lg-lab/ifa-2018-your-ultimate-guide-to-lg-cloi-robots/",
+      "source_label": "LG — CLOi guide, IFA 2018"
+    },
+    {
+      "title": "Walk a hotel guest to the elevators",
+      "description": "The GuideBot greets an arriving guest, answers a question about the bar or local attractions, then rolls ahead at walking pace to physically escort them to the elevators.",
+      "provenance": "documented",
+      "source_url": "https://www.lg.com/us/business/press-release/new-lg-cloi-guidebot-an-autonomous-tour-guide-debuts-at-infocomm-2022",
+      "source_label": "LG — CLOi GuideBot, InfoComm 2022"
+    },
+    {
+      "title": "Run a museum exhibit on wheels",
+      "description": "Stationed in a gallery, the GuideBot plays exhibit video on its twin touchscreens, recites information aloud, and lets visitors tap through interactive content as it leads them between displays.",
+      "provenance": "documented",
+      "source_url": "https://www.lg.com/us/business/press-release/new-lg-cloi-guidebot-an-autonomous-tour-guide-debuts-at-infocomm-2022",
+      "source_label": "LG — CLOi GuideBot, InfoComm 2022"
+    },
+    {
+      "title": "Pull the milk and start breakfast",
+      "description": "On command the two-armed CLOiD opens the fridge to take out milk, sets a croissant into the oven, and once everyone has left it begins a laundry cycle and folds the dried clothes into stacks.",
+      "provenance": "documented",
+      "source_url": "https://www.lg.com/global/newsroom/news/home-appliance-solution/lg-electronics-presents-lg-cloid-home-robot-to-demonstrate-zero-labor-home-at-ces-2026/",
+      "source_label": "LG Newsroom — CLOiD at CES 2026"
+    },
+    {
+      "title": "The stage-fright robot",
+      "description": "At its CES 2018 keynote debut the Hub Robot went silent three times in a row as an LG executive asked it about the laundry, dinner, and a chicken recipe, until he conceded on stage that \"even robots have bad days.\"",
+      "provenance": "observed",
+      "source_url": "https://techcrunch.com/2018/01/08/smart-home-robot-gives-lg-exec-the-silent-treatment-during-ces-keynote/",
+      "source_label": "TechCrunch — CLOi at CES 2018"
+    },
+    {
+      "title": "A face that reacts when you talk to it",
+      "description": "Because CLOiD answers through both voice and on-screen facial expressions, it could mirror a small acknowledging look — a nod or smile — when you hand it a task, so a chore feels like a request to a companion rather than a command to a speaker.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A patrol pass before bed",
+      "description": "Reusing the GuideBot's pre-planned patrol routes and onboard cameras, a home unit could roll a quiet last loop of the house at night, checking that doors are shut and lights are off and flagging anything out of place.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Hand off the folded laundry",
+      "description": "With seven-degree-of-freedom arms and five-fingered hands that already fold and stack clothes, CLOiD could carry a finished stack to the right bedroom and set it on the bed, closing the loop between washing and putting away.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

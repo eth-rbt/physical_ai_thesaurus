@@ -1,0 +1,57 @@
+{
+  "name": "Organic User Interfaces",
+  "year": 2008,
+  "organization": ["Queen's University (Human Media Lab)"],
+  "project_type": "academic_paper",
+  "short_description": "A founding manifesto proposing computers with non-flat, deformable, and shape-changing displays where physical form-change is itself the interaction.",
+  "long_description": "Organic User Interfaces (OUIs), articulated by David Holman and Roel Vertegaal in a 2008 Communications of the ACM special issue, are user interfaces built on non-flat displays whose surface is the locus of interaction. The manifesto sets out three design principles—input equals output, function equals form, and form follows flow—and three interface types: flexible/deformable, shaped, and actuated/kinetic. It matters as physical AI / interaction design because it reframes the screen from a flat output window into a malleable physical material, where bending, shaping, and actuating the device body become the primary mode of expression and control rather than indirect point-and-click.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/1349026.1349037",
+  "ai_embedded": "none",
+  "ai_note": "A vision/manifesto for deformable and shape-changing displays as an interaction technique; it describes no AI/ML running inside any system.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Architectural / environmental system"],
+    "embodiment.materiality": ["Flexible / deformable", "Shape-changing"],
+    "embodiment.actuation": ["Shape-changing / actuated"],
+    "intelligence.input": ["Touch", "Gesture", "Force / torque"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing", "Human-computer interaction"]
+  },
+  "metrics": {
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 1,
+    "autonomy": 1,
+    "expressiveness": 3
+  },
+  "images": [
+    {
+      "image_id": "img-organic-user-interfaces-001",
+      "caption": "Figure from the Holman & Vertegaal CACM article illustrating non-flat, deformable organic display concepts.",
+      "image_type": "research_figure",
+      "source_url": "https://dl.acm.org/doi/10.1145/1349026.1349037",
+      "rights_status": "needs_permission",
+      "alt_text": "Diagram of curved and flexible display surfaces being bent and shaped by hand, illustrating organic user interface concepts from the paper."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-organic-user-interfaces-001",
+      "title": "Organic user interfaces: designing computers in any way, shape, or form",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/1349026.1349037",
+      "publisher": "Communications of the ACM",
+      "year": 2008,
+      "access_notes": "CACM vol. 51, no. 6, pp. 48-55, June 2008. Authors: David Holman and Roel Vertegaal."
+    },
+    {
+      "source_id": "source-organic-user-interfaces-002",
+      "title": "Organic user interface",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/Organic_user_interface",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Summary of the OUI definition, three design principles, and three interface types (flexible/deformable, shaped, actuated/kinetic)."
+    }
+  ],
+  "confidence": "high"
+}

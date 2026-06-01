@@ -1,0 +1,56 @@
+{
+  "name": "Marble Answering Machine",
+  "year": 1992,
+  "organization": ["Royal College of Art"],
+  "project_type": "concept",
+  "short_description": "A conceptual answering machine that ejects a physical marble for each voice message, which can be replayed, redirected, or used to call back by placing it in different dimples.",
+  "long_description": "Designed by Durrell Bishop as a Royal College of Art student in 1992, the Marble Answering Machine represents each incoming voice message as a physical marble dispensed by the device. Placing a marble in a small dimple plays its message, setting it on a labeled dish forwards it to another person, and dropping it into the telephone's receptor calls the original caller back. Widely cited as one of the earliest tangible user interfaces, it matters as physical AI and interaction design because it demonstrates how digital information can be made graspable, persistent, and physically manipulable in everyday objects rather than confined to a screen.",
+  "primary_url": "https://dataphys.org/list/durrell-bishops-marble-answering-machine/",
+  "ai_embedded": "none",
+  "ai_note": "An electromechanical conceptual prototype mapping voice messages to physical marbles; it involves no AI or machine learning.",
+  "attributes": {
+    "embodiment.form": ["Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.materiality": ["Tangible object"],
+    "function.role": ["Tool", "Memory aid"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"],
+    "genealogy.interaction_paradigm": ["Tangible user interfaces"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-marble-answering-machine-001",
+      "caption": "Durrell Bishop's Marble Answering Machine, which dispenses a marble for each recorded voice message.",
+      "image_type": "interaction_photo",
+      "source_url": "https://dataphys.org/list/durrell-bishops-marble-answering-machine/",
+      "rights_status": "needs_permission",
+      "alt_text": "A small desktop device with a row of marbles and dimples; each marble represents a recorded voice message that can be placed in a dent to play it back."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-marble-answering-machine-001",
+      "title": "Durrell Bishop's Marble Answering Machine",
+      "source_type": "project_page",
+      "url": "https://dataphys.org/list/durrell-bishops-marble-answering-machine/",
+      "publisher": "dataphys.org (List of Physical Visualizations)",
+      "year": 1992
+    },
+    {
+      "source_id": "source-marble-answering-machine-002",
+      "title": "Internet-of-Things answering machine from 1992, with marbles",
+      "source_type": "credible_news",
+      "url": "https://boingboing.net/2013/03/21/internet-of-things-answering-m.html",
+      "publisher": "Boing Boing",
+      "year": 2013
+    }
+  ],
+  "confidence": "medium"
+}

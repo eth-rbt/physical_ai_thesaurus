@@ -1,0 +1,64 @@
+{
+  "name": "bioLogic",
+  "year": 2015,
+  "organization": ["MIT Media Lab", "Tangible Media Group", "New Balance"],
+  "project_type": "academic_paper",
+  "short_description": "A shape-changing material and garment that uses living Bacillus subtilis natto bacteria as humidity-responsive nanoactuators to open ventilation flaps in response to body heat and sweat.",
+  "long_description": "bioLogic introduces living Bacillus subtilis natto cells as humidity-sensitive nanoactuators: the cells expand and contract with atmospheric moisture, and when bio-printed onto flexible films they bend and curl, producing programmable shape change without motors or electronics. The flagship application, a 'Second Skin' garment, places these biofilm flaps over the body's heat zones so they open as the wearer sweats, enabling evaporative cooling. As physical AI and interaction design, bioLogic is significant for treating a living biological material as a directly actuated, environmentally responsive interface, framing shape-changing matter and the body itself as a computational and interactive medium.",
+  "primary_url": "https://tangible.media.mit.edu/project/biologic/",
+  "ai_embedded": "none",
+  "ai_note": "The actuation is a biological hygromorphic response of living natto cells to humidity, paired with computational design and fabrication tools; no AI/ML runs in the system itself.",
+  "attributes": {
+    "embodiment.form": ["Wearable"],
+    "embodiment.mobility": ["Body-worn"],
+    "embodiment.actuation": ["Hygromorphic / moisture-responsive", "Shape-changing material"],
+    "embodiment.materiality": ["Living / biological material", "Biofilm"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces", "Wearable computing", "Speculative design"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 1,
+    "scale": 1,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-biologic-001",
+      "caption": "bioLogic 'Second Skin' garment with bacteria-actuated flaps that open over the body's heat zones in response to sweat.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/biologic/",
+      "rights_status": "needs_permission",
+      "alt_text": "A close-fitting athletic garment whose fabric panels have curled-open flaps revealing the skin beneath, demonstrating moisture-triggered ventilation."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-biologic-001",
+      "title": "bioLogic",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/project/biologic/",
+      "publisher": "MIT Media Lab Tangible Media Group",
+      "year": 2015
+    },
+    {
+      "source_id": "source-biologic-002",
+      "title": "bioLogic: Natto Cells as Nanoactuators for Shape Changing Interfaces",
+      "source_type": "academic_paper",
+      "url": "https://www.media.mit.edu/publications/biologic-natto-cells-as-nanoactuators-for-shape-changing-interfaces-2/",
+      "publisher": "ACM CHI 2015",
+      "year": 2015
+    },
+    {
+      "source_id": "source-biologic-003",
+      "title": "bioLogic: Natto Cells as Nanoactuators for Shape Changing Interfaces (DBLP record)",
+      "source_type": "academic_paper",
+      "url": "https://dblp.uni-trier.de/rec/conf/chi/YaoOCSWWI15.html",
+      "publisher": "DBLP / ACM CHI 2015",
+      "year": 2015
+    }
+  ],
+  "confidence": "high"
+}

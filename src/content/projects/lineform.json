@@ -1,0 +1,66 @@
+{
+  "name": "LineFORM",
+  "year": 2015,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "An actuated curve interface built from a serpentine chain of servo motors that can change its own shape for display, interaction, and physical constraint.",
+  "long_description": "LineFORM is a shape-changing interface from the MIT Media Lab Tangible Media Group that explores the design space of actuated lines and curves. Inspired by serpentine robotics, it is a series chain of one-degree-of-freedom servo motors with integrated sensors, letting it dynamically reshape itself while users directly deform, touch, and feel it through variable-stiffness joints. As physical AI / interaction design it matters because it treats a single line as a programmable physical medium for data representation, ambient display, body constraints, and haptic feedback, expanding tangible and shape-changing UI vocabulary beyond flat pin-array displays.",
+  "primary_url": "https://tangible.media.mit.edu/project/lineform/",
+  "ai_embedded": "none",
+  "ai_note": "It is a mechanical shape-changing actuation system (servo-motor chain with sensors and variable-stiffness joints); no machine learning or AI runs in it.",
+  "attributes": {
+    "embodiment.form": ["Distributed object ecology", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.actuation": ["Servo motors", "Shape-changing"],
+    "embodiment.materiality": ["Rigid links", "Variable stiffness"],
+    "intelligence.input": ["Touch", "Motion", "Force / torque"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool", "Display"],
+    "genealogy.lineage": ["Tangible user interfaces", "Human-robot interaction"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-lineform-001",
+      "caption": "LineFORM, an actuated curve interface composed of a chain of servo motors that reshapes itself for display, interaction, and constraint.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/lineform/",
+      "rights_status": "needs_permission",
+      "alt_text": "A long articulated line-like device made of a chain of small motorized segments, bent into a curving shape on a surface."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-lineform-001",
+      "title": "LineFORM",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/project/lineform/",
+      "publisher": "MIT Media Lab, Tangible Media Group",
+      "year": 2015
+    },
+    {
+      "source_id": "source-lineform-002",
+      "title": "LineFORM: Actuated Curve Interfaces for Display, Interaction, and Constraint",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2807442.2807452",
+      "publisher": "ACM (Proceedings of UIST '15)",
+      "year": 2015
+    },
+    {
+      "source_id": "source-lineform-003",
+      "title": "LineFORM: Actuated Curve Interfaces for Display, Interaction, and Constraint",
+      "source_type": "project_page",
+      "url": "https://www.media.mit.edu/publications/lineform-actuated-curve-interfaces-for-display-interaction-and-constraint/",
+      "publisher": "MIT Media Lab",
+      "year": 2015
+    }
+  ],
+  "confidence": "high"
+}

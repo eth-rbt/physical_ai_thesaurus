@@ -1,0 +1,65 @@
+{
+  "name": "TRANSFORM",
+  "year": 2014,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "A shape-changing furniture installation whose tabletop of over one thousand motorized pins moves in real time to display dynamic shapes and physically relocate objects.",
+  "long_description": "TRANSFORM is a Tangible Media Group installation, overseen by Hiroshi Ishii, that joins three pin-array shape displays into a single piece of dynamic furniture with more than a thousand vertically actuated pins. Sensors capture nearby viewers' motion and drive wave-like patterns across the surface, while the same actuated pins can raise dividers on demand, hold and slide objects such as fruit, game tokens, and tablets, and form expressive kinetic sculptures. Part of the lab's Radical Atoms vision, it matters to physical AI and interaction design as a landmark exploration of shape-changing material interfaces, where digital state becomes literally graspable and the environment itself rearranges physical objects.",
+  "primary_url": "https://tangible.media.mit.edu/project/transform/",
+  "ai_embedded": "none",
+  "ai_note": "It is a motorized pin-array shape display driven by direct sensor input and motion mappings; no machine learning runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.actuation": ["Robotic arm"],
+    "intelligence.input": ["Motion", "Environmental sensors"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool", "Performer"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 4,
+    "social_legibility": 2,
+    "expressiveness": 4,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-transform-shape-display-001",
+      "caption": "TRANSFORM's three shape displays render dynamic pin patterns across a tabletop surface during the Lexus Design Amazing 2014 Milan exhibition.",
+      "image_type": "exhibition_photo",
+      "source_url": "https://tangible.media.mit.edu/project/transform/",
+      "rights_status": "needs_permission",
+      "alt_text": "A long wooden table whose surface is covered in a grid of small white pins raised to different heights, forming rippling wave-like shapes."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-transform-shape-display-001",
+      "title": "TRANSFORM",
+      "source_type": "project_page",
+      "url": "https://tangible.media.mit.edu/project/transform/",
+      "publisher": "MIT Media Lab Tangible Media Group",
+      "year": 2014
+    },
+    {
+      "source_id": "source-transform-shape-display-002",
+      "title": "TRANSFORM as Adaptive and Dynamic Furniture",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2702613.2732494",
+      "publisher": "ACM (CHI 2015 Extended Abstracts)",
+      "year": 2015
+    },
+    {
+      "source_id": "source-transform-shape-display-003",
+      "title": "Movie: Hiroshi Ishii on MIT Media Lab's Transform shape-shifting table",
+      "source_type": "credible_news",
+      "url": "https://www.dezeen.com/2014/05/09/movie-hiroshi-ishii-transform-shape-shifting-table-top-mit-media-lab/",
+      "publisher": "Dezeen",
+      "year": 2014
+    }
+  ],
+  "confidence": "high"
+}

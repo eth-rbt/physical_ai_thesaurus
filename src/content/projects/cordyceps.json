@@ -40,6 +40,49 @@
       "local_image": "/projects/cordyceps.jpg"
     }
   ],
+  "interactions": [
+    {
+      "title": "Three objects, one task, no hub app",
+      "description": "Instead of a single humanoid assistant or a phone full of automations, a mirror, lamp, and radio split a request among themselves — each acting through its own form rather than a shared screen.",
+      "provenance": "documented",
+      "source_url": "https://ethanchang.design/projects/cordyceps.html",
+      "source_label": "Cordyceps — project page"
+    },
+    {
+      "title": "Behavior shaped by what each object already is",
+      "description": "Each agent's response is constrained by its modality and physical affordances: the lamp answers in light, the radio in sound, the mirror in reflection — the design's premise that an object should act through the thing it already does.",
+      "provenance": "documented",
+      "source_url": "https://ethanchang.design/projects/cordyceps.html",
+      "source_label": "Cordyceps — project page"
+    },
+    {
+      "title": "Hackathon-floor demo of objects coming to life",
+      "description": "Shown live as the Grand Prize project at the Hardmode MIT AI Hackathon and again at Anthropic Dev Day 2026, where the linked household objects coordinate in front of an audience.",
+      "provenance": "documented",
+      "source_url": "https://ethanchang.design/projects/cordyceps.html",
+      "source_label": "Cordyceps — project page"
+    },
+    {
+      "title": "Ask the room, not a device",
+      "description": "Speak a request out loud and let the ecology decide who answers — the radio picks up the audio, confers with the others, and the most fitting object responds, drawing on the speech and audio inputs the system already takes.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "The lamp leans toward what matters",
+      "description": "Using the system's vision input, the articulated lamp could swing and brighten over the spot you're working at while the radio drops its volume — two agents negotiating attention without you touching either.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A morning handoff between objects",
+      "description": "The radio reads the day's first headline aloud, the mirror's agent chimes in as you stand in front of it, and the lamp warms its color — a relay choreographed by the multi-agent coordination at the project's core.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Watching the network disagree",
+      "description": "Because behavior is shaped by each object's relations to the others, a designer could stage moments where the lamp and radio reach different conclusions and resolve them out loud — making the coordination itself legible rather than hidden.",
+      "provenance": "proposed"
+    }
+  ],
   "sources": [
     {
       "source_id": "source-cordyceps-001",

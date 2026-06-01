@@ -1,0 +1,65 @@
+{
+  "name": "Skinput",
+  "year": 2010,
+  "organization": ["Carnegie Mellon University", "Microsoft Research"],
+  "project_type": "academic_paper",
+  "short_description": "A bio-acoustic sensing armband that turns the skin of the arm and hand into a tappable input surface.",
+  "long_description": "Skinput is a CHI 2010 research system by Chris Harrison, Desney Tan, and Dan Morris that uses a wearable array of piezoelectric sensors to detect the acoustic vibrations that finger taps produce as they travel through the body, letting any spot on the arm or hand act as a button. The captured bio-acoustic signals are turned into time-independent acoustic features and classified by a trained support vector machine, which localizes taps to roughly five on-arm locations with over 90% accuracy. Paired with a pico-projector that displays a UI directly on the skin, it matters as an early demonstration of always-available, on-body interaction that treats the body itself as the interface rather than a separate screen.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/1753326.1753394",
+  "ai_embedded": "some",
+  "ai_note": "A trained support vector machine classifies bio-acoustic features to localize taps, so a real machine-learning component drives recognition, but it is a narrow classifier rather than the core of the system.",
+  "attributes": {
+    "embodiment.form": ["Wearable"],
+    "embodiment.mobility": ["Body-worn"],
+    "embodiment.body_mapping": ["On-body surface"],
+    "intelligence.model": ["Classical machine learning"],
+    "intelligence.input": ["Touch", "Gesture", "Audio"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Wearable computing", "Tangible user interfaces"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 3,
+    "scale": 1,
+    "social_legibility": 1,
+    "expressiveness": 1,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-skinput-001",
+      "caption": "The Skinput prototype armband with its bio-acoustic piezoelectric sensor array, used to localize finger taps on the arm.",
+      "image_type": "research_figure",
+      "source_url": "https://chrisharrison.net/projects/skinput/",
+      "rights_status": "needs_permission",
+      "alt_text": "A sensor-laden armband worn on a person's upper arm, with a projected interface shown on the forearm below it for tapping."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-skinput-001",
+      "title": "Skinput: Appropriating the Body as an Input Surface",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/1753326.1753394",
+      "publisher": "ACM (Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, CHI 2010)",
+      "year": 2010
+    },
+    {
+      "source_id": "source-skinput-002",
+      "title": "Skinput (project page)",
+      "source_type": "project_page",
+      "url": "https://chrisharrison.net/projects/skinput/",
+      "publisher": "Chris Harrison",
+      "year": 2010
+    },
+    {
+      "source_id": "source-skinput-003",
+      "title": "Skinput",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/Skinput",
+      "publisher": "Wikipedia",
+      "year": null
+    }
+  ],
+  "confidence": "high"
+}

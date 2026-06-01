@@ -1,0 +1,65 @@
+{
+  "name": "Topobo",
+  "year": 2004,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "A 3D constructive assembly system with kinetic memory: snap-together active and passive components that record hand-animated motion and replay it.",
+  "long_description": "Topobo is a tangible construction kit, built by Hayes Raffle, Amanda Parkes, and Hiroshi Ishii at the MIT Media Lab and presented at CHI 2004, in which people snap together Passive (static) and Active (motorized) parts to build biomorphic forms like animals and skeletons. By pressing a button and physically pushing, pulling, and twisting an Active joint, a person teaches the structure a motion that the system then plays back repeatedly, giving the toy 'kinetic memory.' It matters as physical AI / interaction design because it pioneers coincident physical input and output, programming by physical demonstration through the body rather than abstract code, letting children grasp balance, leverage, and locomotion by directly manipulating a responsive object.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/985692.985774",
+  "ai_embedded": "none",
+  "ai_note": "No AI or ML: Active joints record and replay sampled motor positions via embedded microcontrollers, a tangible record-and-playback mechanism with no learning or inference.",
+  "attributes": {
+    "embodiment.form": ["Distributed object ecology", "Domestic object"],
+    "embodiment.mobility": ["Legged", "Fixed"],
+    "embodiment.actuation": ["Servo / motorized joints"],
+    "intelligence.input": ["Motion", "Touch", "Gesture"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Creative collaborator", "Teacher"],
+    "genealogy.lineage": ["Tangible user interfaces"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 2,
+    "scale": 2,
+    "social_legibility": 2,
+    "expressiveness": 3,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-topobo-001",
+      "caption": "A Topobo creation assembled from Passive and Active components, animated by physical demonstration.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/remixrobo-topobo/",
+      "rights_status": "needs_permission",
+      "alt_text": "A biomorphic toy structure built from white modular snap-together segments with motorized joints, posed on a surface to walk."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-topobo-001",
+      "title": "Topobo: a constructive assembly system with kinetic memory",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/985692.985774",
+      "publisher": "ACM (CHI 2004)",
+      "year": 2004
+    },
+    {
+      "source_id": "source-topobo-002",
+      "title": "Topobo — Tangible Media Group project page",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/project/remixrobo-topobo/",
+      "publisher": "MIT Media Lab Tangible Media Group",
+      "year": null
+    },
+    {
+      "source_id": "source-topobo-003",
+      "title": "Topobo: A Constructive Assembly System with Kinetic Memory (PDF)",
+      "source_type": "academic_paper",
+      "url": "https://trackr-media.tangiblemedia.org/publishedmedia/Papers/187-Topobo%20A%20Constructive%20Assembly/Published/PDF",
+      "publisher": "MIT Media Lab Tangible Media Group",
+      "year": 2004
+    }
+  ],
+  "confidence": "high"
+}

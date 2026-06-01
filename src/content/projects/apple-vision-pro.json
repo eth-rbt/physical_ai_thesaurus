@@ -69,5 +69,59 @@
       "access_notes": "Background on hardware (M2/R1 silicon, micro-OLED displays) and visionOS."
     }
   ],
+  "interactions": [
+    {
+      "title": "Drag your Mac's screen into the air",
+      "description": "Glance at your MacBook and a single giant, private 4K display floats out of it into the room — you keep typing on the physical keyboard and trackpad while the window hangs wherever you parked it.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/guide/apple-vision-pro/use-mac-virtual-display-tan357ede966/visionos",
+      "source_label": "Apple Support — Mac Virtual Display"
+    },
+    {
+      "title": "Sit across from someone who isn't there",
+      "description": "On a FaceTime call with another headset, each person appears as a life-scale spatial Persona placed in your room, with spatial audio coming from where they're 'sitting' so it feels like you're at the same table.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/guide/apple-vision-pro/use-spatial-persona-tana1ea03f18/visionos",
+      "source_label": "Apple Support — spatial Persona"
+    },
+    {
+      "title": "Step back inside a memory",
+      "description": "Open a spatial video your iPhone captured and the moment unfolds around you in depth — a kid's birthday, a dog mid-leap — close enough that you instinctively lean in to look around it.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/guide/apple-vision-pro/capture-dev7068c3c93/visionos",
+      "source_label": "Apple Support — spatial photos and videos"
+    },
+    {
+      "title": "Surgeon's heads-up display in the OR",
+      "description": "A surgeon performed cataract surgery wearing Vision Pro running a custom app (ScopeXR), seeing the microscope feed in stereoscopic 3D with preoperative scans overlaid, all without breaking sterile technique.",
+      "provenance": "observed",
+      "source_url": "https://www.popsci.com/technology/cataract-surgery-apple-vision-pro/",
+      "source_label": "Popular Science"
+    },
+    {
+      "title": "Wearing it behind the wheel",
+      "description": "Viral videos showed drivers piloting Teslas while wearing the headset, prompting safety warnings from US officials and a reminder that Apple's own guide says not to use it while operating a vehicle.",
+      "provenance": "observed",
+      "source_url": "https://www.npr.org/2024/02/08/1230001568/apple-vision-pro-drivers-safety",
+      "source_label": "NPR"
+    },
+    {
+      "title": "Typing on thin air in public",
+      "description": "Days after launch, clips of people pinching at invisible windows on the NYC subway and city sidewalks went viral, turning the disembodied hand gestures into a meme about wearing a spatial computer in public.",
+      "provenance": "observed",
+      "source_url": "https://knowyourmeme.com/memes/apple-vision-pro-in-public",
+      "source_label": "Know Your Meme"
+    },
+    {
+      "title": "Pin reference material around a physical task",
+      "description": "Repairing something at a workbench, you anchor a wiring diagram and a how-to video to the wall beside the part, then look back and forth between the floating panels and your hands without picking up a phone — using the same passthrough and gaze-and-pinch control the headset already runs.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A quiet label on what you're looking at",
+      "description": "Glance at an appliance's controls or a houseplant and ask aloud what it is, getting a spoken answer drawn from the forward cameras' view — grounded in the device's existing vision input, microphones, and voice control, not a shipped feature.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

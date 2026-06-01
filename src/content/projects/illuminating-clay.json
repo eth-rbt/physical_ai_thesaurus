@@ -1,0 +1,68 @@
+{
+  "name": "Illuminating Clay",
+  "year": 2002,
+  "organization": ["MIT Media Lab Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "A tangible interface in which users reshape a physical clay landscape model while a ceiling-mounted laser scanner captures its topography and projects real-time geospatial analyses back onto the surface.",
+  "long_description": "Illuminating Clay, by Ben Piper, Carlo Ratti, and Hiroshi Ishii (CHI 2002), lets designers freely sculpt a clay model of a terrain while a laser scanner continuously captures the changing geometry as a depth image. That depth image feeds a library of landscape analyses adapted largely from the open-source GRASS GIS project (slope, aspect, curvature, shadow casting, water flow, visibility, travel time), and the results are projected directly back onto the clay. It matters to physical AI and interaction design as a canonical tangible-user-interface example of coupling malleable physical form to live computational simulation, letting spatial reasoning happen in the hands rather than on a screen.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/503376.503439",
+  "ai_embedded": "none",
+  "ai_note": "The system is a tangible interface built from laser-scan capture, deterministic GIS/geospatial analysis (largely from GRASS), and projection; no machine learning runs in it.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Tangible interface"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.materiality": ["Malleable / clay"],
+    "intelligence.model": ["Rule-based system"],
+    "intelligence.input": ["Vision", "Touch"],
+    "intelligence.output": ["Projection"],
+    "function.role": ["Tool", "Creative collaborator"],
+    "function.task_domain": ["Landscape analysis", "Spatial design"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"],
+    "genealogy.research_community": ["MIT Tangible Media Group"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 4,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-illuminating-clay-001",
+      "caption": "Users sculpting the clay landscape model while geospatial analyses are projected onto its surface.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/illuminating-clay/",
+      "rights_status": "needs_permission",
+      "alt_text": "A hand reshaping a tabletop clay terrain model with colored topographic analysis projected onto the clay surface."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-illuminating-clay-001",
+      "title": "Illuminating Clay: A 3-D Tangible Interface for Landscape Analysis",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/503376.503439",
+      "publisher": "ACM (Proceedings of CHI 2002)",
+      "year": 2002
+    },
+    {
+      "source_id": "source-illuminating-clay-002",
+      "title": "Illuminating Clay (project page)",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/project/illuminating-clay/",
+      "publisher": "MIT Media Lab Tangible Media Group",
+      "year": 2002
+    },
+    {
+      "source_id": "source-illuminating-clay-003",
+      "title": "Illuminating Clay: A 3-D Tangible Interface for Landscape Analysis (PDF)",
+      "source_type": "academic_paper",
+      "url": "https://senseable.mit.edu/papers/pdf/20020425_Piper_etal_IlluminatingClay_Proceedings_ACMCHI.pdf",
+      "publisher": "MIT Senseable City Lab",
+      "year": 2002
+    }
+  ],
+  "confidence": "high"
+}

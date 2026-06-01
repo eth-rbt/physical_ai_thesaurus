@@ -1,0 +1,50 @@
+{
+  "name": "Speculative Everything: Design, Fiction, and Social Dreaming",
+  "year": 2013,
+  "organization": ["Anthony Dunne", "Fiona Raby", "MIT Press"],
+  "project_type": "concept",
+  "short_description": "A foundational book and manifesto by Anthony Dunne and Fiona Raby proposing speculative and critical design as a way to imagine and debate possible futures rather than solve immediate problems.",
+  "long_description": "Speculative Everything argues that design can be used not just to make products but to pose provocative \"what if\" questions, building fictional objects and scenarios that open debate about the futures people want and want to avoid. It is the most articulate statement of speculative, critical, and design-fiction practice, drawing on fine art, cinema, futurology, and the philosophy of technology, with examples ranging from a menstruation machine to robotic devices and synthetic-biology food-foraging tools. For physical AI and interaction design it matters as a methodological touchstone: it frames how designers prototype envisioned, often un-built artifacts to interrogate the social, ethical, and political consequences of technology before it is real.",
+  "primary_url": "https://mitpress.mit.edu/9780262019842/speculative-everything/",
+  "ai_embedded": "none",
+  "ai_note": "It is a printed book and design-theory manifesto; no AI or computation runs inside it, and the speculative artifacts it discusses are propositional rather than working AI systems.",
+  "attributes": {
+    "genealogy.lineage": ["Speculative design", "Design fiction", "Critical design"],
+    "function.role": ["Mediator", "Teacher"],
+    "embodiment.form": ["Distributed object ecology"]
+  },
+  "metrics": {
+    "autonomy": 1,
+    "mobility": 1,
+    "expressiveness": 4
+  },
+  "images": [
+    {
+      "image_id": "img-speculative-everything-001",
+      "caption": "Cover of Speculative Everything: Design, Fiction, and Social Dreaming by Anthony Dunne and Fiona Raby (MIT Press, 2013).",
+      "image_type": "product_photo",
+      "source_url": "https://mitpress.mit.edu/9780262019842/speculative-everything/",
+      "rights_status": "needs_permission",
+      "alt_text": "Book cover for Speculative Everything showing the title text on a plain background, published by MIT Press."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-speculative-everything-001",
+      "title": "Speculative Everything: Design, Fiction, and Social Dreaming",
+      "source_type": "official_product_page",
+      "url": "https://mitpress.mit.edu/9780262019842/speculative-everything/",
+      "publisher": "MIT Press",
+      "year": 2013
+    },
+    {
+      "source_id": "source-speculative-everything-002",
+      "title": "Speculative Everything: Design, Fiction, and Social Dreaming",
+      "source_type": "documentation",
+      "url": "https://books.google.com/books/about/Speculative_Everything.html?id=9gQyAgAAQBAJ",
+      "publisher": "Google Books",
+      "year": 2013
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,55 @@
+{
+  "name": "aeroMorph",
+  "year": 2016,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "A design, simulation, and fabrication pipeline for heat-sealed inflatable structures that fold into programmable shapes when pressurized with air.",
+  "long_description": "aeroMorph is a research prototype from the MIT Media Lab Tangible Media Group that introduces a universal bending mechanism for creating programmable shape-change in inextensible materials such as paper, plastics, and fabrics. A software tool generates the heat-sealing pattern for a target geometry, simulates its transformation, and exports digital fabrication files, while a custom CNC-mountable heat-sealing head fabricates the inflatables. As physical AI and interaction design, it advances shape-changing interfaces and pneumatic actuation as a low-cost, lightweight medium for responsive wearables, toys, and packaging that move and reconfigure on demand.",
+  "primary_url": "https://tangible.media.mit.edu/project/aeromorph/",
+  "ai_embedded": "none",
+  "ai_note": "No AI/ML is involved; aeroMorph is a pneumatic shape-change fabrication technique driven by a geometric folding-pattern generator and air pressure, not learned models.",
+  "attributes": {
+    "embodiment.form": ["Distributed object ecology", "Wearable"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.materiality": ["Paper", "Plastic", "Fabric", "Inflatable"],
+    "embodiment.actuation": ["Pneumatic", "Shape-change"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces", "Shape-changing interfaces"]
+  },
+  "metrics": {
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 1,
+    "expressiveness": 3,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-aeromorph-001",
+      "caption": "Heat-sealed inflatable structures from aeroMorph folding into programmed shapes when pressurized.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/aeromorph/",
+      "rights_status": "needs_permission",
+      "alt_text": "Flat sheets of paper and plastic with sealed seam patterns that bend and fold into three-dimensional forms when inflated with air."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-aeromorph-001",
+      "title": "aeroMorph",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/project/aeromorph/",
+      "publisher": "MIT Media Lab, Tangible Media Group",
+      "year": 2016
+    },
+    {
+      "source_id": "source-aeromorph-002",
+      "title": "aeroMorph - Heat-sealing Inflatable Shape-change Materials for Interaction Design",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2984511.2984520",
+      "publisher": "ACM (UIST '16)",
+      "year": 2016
+    }
+  ],
+  "confidence": "high"
+}

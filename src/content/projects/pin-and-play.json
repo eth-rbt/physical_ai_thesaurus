@@ -1,0 +1,56 @@
+{
+  "name": "Pin&Play",
+  "year": 2002,
+  "organization": ["Lancaster University"],
+  "project_type": "research_prototype",
+  "short_description": "A ubicomp networking technique that turns everyday surfaces into a two-dimensional power-and-data bus, so objects pinned to a wall or board with pushpin connectors gain network connectivity and power.",
+  "long_description": "Pin&Play augments familiar surfaces such as walls and notice-boards with layered conductive sheets, turning the surface itself into a shared communication and power medium; objects are connected simply by pinning them with a pushpin-style connector. The authors demonstrated the idea with a smart notice-board, in which pinned notes, controls, and pictures become networked objects without wiring or configuration. It matters as physical AI / interaction design because it reframes attachment-by-pinning - an established everyday gesture - as the act of joining a network, making device ecologies ad hoc, spatial, and tangible rather than hidden in cabling.",
+  "primary_url": "https://link.springer.com/chapter/10.1007/3-540-45809-3_17",
+  "ai_embedded": "none",
+  "ai_note": "Pin&Play is a conductive-surface power and networking technique using pushpin connectors; no AI or ML runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.materiality": ["Conductive surface"],
+    "intelligence.input": ["Touch"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Ubiquitous computing", "Tangible user interfaces", "Internet of Things"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 5,
+    "social_legibility": 1,
+    "expressiveness": 1,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-pin-and-play-001",
+      "caption": "Pin&Play smart notice-board: objects attached to a conductive surface via pushpin connectors receive power and network connectivity (research figure).",
+      "image_type": "research_figure",
+      "source_url": "https://link.springer.com/chapter/10.1007/3-540-45809-3_17",
+      "rights_status": "needs_permission",
+      "alt_text": "Diagram of a notice-board surface with a pushpin connector attaching an object, illustrating how conductive layers carry power and data through the pin."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-pin-and-play-001",
+      "title": "Pin&Play: Networking Objects through Pins",
+      "source_type": "academic_paper",
+      "url": "https://link.springer.com/chapter/10.1007/3-540-45809-3_17",
+      "publisher": "Springer, UbiComp 2002: Ubiquitous Computing",
+      "year": 2002
+    },
+    {
+      "source_id": "source-pin-and-play-002",
+      "title": "Pin & Play: Networking Objects through Pins",
+      "source_type": "lab_page",
+      "url": "https://eprints.lancs.ac.uk/id/eprint/57284/",
+      "publisher": "Lancaster University EPrints",
+      "year": 2002
+    }
+  ],
+  "confidence": "high"
+}

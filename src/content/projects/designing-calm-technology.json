@@ -1,0 +1,55 @@
+{
+  "name": "Designing Calm Technology",
+  "year": 1995,
+  "organization": ["Xerox PARC"],
+  "project_type": "concept",
+  "short_description": "A foundational essay by Mark Weiser and John Seely Brown proposing technology that moves fluidly between the center and periphery of human attention.",
+  "long_description": "Designing Calm Technology is a 1995/96 essay by Mark Weiser and John Seely Brown of Xerox PARC that argues the dominant design challenge of ubiquitous computing is not raw capability but how technology engages human attention. They define calm technology as that which informs but does not demand focus, moving easily from the periphery of attention to the center and back, and using both focal and peripheral perception to keep people attuned to their surroundings without overload. The essay grounds physical AI and interaction design by reframing ambient, embedded systems as actors in a person's attentional field, illustrated through examples such as Natalie Jeremijenko's Dangling String network-traffic visualizer.",
+  "primary_url": "https://calmtech.com/papers/designing-calm-technology",
+  "ai_embedded": "none",
+  "ai_note": "It is a design concept and essay about attention and ambient interaction, not an implemented system, and the techniques it advocates are sensing and physical display rather than AI/ML.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed"],
+    "function.role": ["Mediator"],
+    "intelligence.model": ["Rule-based system"],
+    "genealogy.lineage": ["Ubiquitous computing", "Ambient intelligence", "Calm technology"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 5,
+    "social_legibility": 1,
+    "autonomy": 1,
+    "visibility": 2
+  },
+  "images": [
+    {
+      "image_id": "img-designing-calm-technology-001",
+      "caption": "Title and opening of Weiser and Brown's \"Designing Calm Technology\" essay as hosted on calmtech.com.",
+      "image_type": "screenshot",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology",
+      "rights_status": "needs_permission",
+      "alt_text": "A web page showing the heading 'Designing Calm Technology' with body text of the essay by Mark Weiser and John Seely Brown."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-designing-calm-technology-001",
+      "title": "Designing Calm Technology",
+      "source_type": "documentation",
+      "url": "https://calmtech.com/papers/designing-calm-technology",
+      "publisher": "calmtech.com (Mark Weiser and John Seely Brown, Xerox PARC)",
+      "year": 1995
+    },
+    {
+      "source_id": "source-designing-calm-technology-002",
+      "title": "Designing Calm Technology (archived essay)",
+      "source_type": "documentation",
+      "url": "https://people.csail.mit.edu/rudolph/Teaching/weiser.pdf",
+      "publisher": "MIT CSAIL (mirror of ubiq.com/weiser/calmtech/calmtech.htm)",
+      "year": 1996
+    }
+  ],
+  "confidence": "high"
+}

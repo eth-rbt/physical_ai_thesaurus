@@ -1,0 +1,58 @@
+{
+  "name": "ambientROOM (Ambient Displays)",
+  "year": 1998,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "An augmented room that conveys digital information at the periphery of awareness through ambient light, shadow, sound, airflow, and water movement.",
+  "long_description": "ambientROOM is a Tangible Media Group prototype that turns architectural space into a slow, calm interface, using subtle ambient displays such as patterns of light cast by a water tank, sound, airflow, and physical handles like bottles and a clock to keep people aware of background information without demanding foreground attention. Introduced as part of Ishii and Ullmer's Tangible Bits vision, it is a foundational example of ambient/peripheral displays and calm technology, framing information delivery as an environmental, embodied experience rather than a screen-based one. It matters to physical AI and interaction design as an early articulation of how computation can recede into the periphery of a physical space and communicate through material change rather than explicit notification.",
+  "primary_url": "https://link.springer.com/chapter/10.1007/3-540-69706-3_4",
+  "ai_embedded": "none",
+  "ai_note": "ambientROOM is a tangible/ambient display technique mapping data to light, sound, airflow, and water movement; no AI or machine learning runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed", "Environmental / room-scale"],
+    "embodiment.actuation": ["Light", "Sound", "Airflow", "Water movement"],
+    "intelligence.input": ["Touch", "Environmental sensors"],
+    "intelligence.output": ["Light", "Sound", "Movement"],
+    "function.role": ["Memory aid"],
+    "function.environmental_function": ["Ambient information display", "Peripheral awareness"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 5,
+    "social_legibility": 1,
+    "expressiveness": 3,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-ambientroom-001",
+      "caption": "The ambientROOM prototype, in which a water tank projects rippling caustic light patterns onto surfaces as an ambient display of background information.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/ambientroom/",
+      "rights_status": "needs_permission",
+      "alt_text": "A small augmented office space with shifting patterns of rippling light projected onto a wall and ceiling, alongside everyday physical objects used as controls."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-ambientroom-001",
+      "title": "Ambient Displays: Turning Architectural Space into an Interface between People and Digital Information",
+      "source_type": "academic_paper",
+      "url": "https://link.springer.com/chapter/10.1007/3-540-69706-3_4",
+      "publisher": "Springer (CoBuild 1998 proceedings)",
+      "year": 1998
+    },
+    {
+      "source_id": "source-ambientroom-002",
+      "title": "ambientROOM",
+      "source_type": "project_page",
+      "url": "https://tangible.media.mit.edu/project/ambientroom/",
+      "publisher": "MIT Media Lab, Tangible Media Group",
+      "year": 1997
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Proxemic Transitions (Shape-Changing Furniture)",
+  "year": 2017,
+  "organization": ["Aarhus University"],
+  "project_type": "academic_paper",
+  "short_description": "A CHI 2017 study of actuated shape-changing furniture that reconfigures between tabletop and wall-display arrangements to mediate the proxemics of informal meetings.",
+  "long_description": "Proxemic Transitions investigates how furniture-scale shape-changing interfaces can physically reconfigure to support collaboration, gradually transitioning between tabletop and vertical wall-display layouts to reshape how people stand, sit, and orient toward one another in informal workplace meetings. Grounded in proxemics theory and empirical studies, the authors articulate three design aspects: transition speed, stepwise reconfiguration, and radical shifts. As physical AI / interaction design, it matters because it treats the built environment itself as an active, motorized participant whose changing form steers human spatial behavior, rather than treating intelligence as something hidden in a screen.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/3025453.3025487",
+  "ai_embedded": "none",
+  "ai_note": "The system is an actuated, human-controlled shape-changing furniture prototype with interactive surfaces; no AI/ML drives its behavior.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.actuation": ["Shape change"],
+    "embodiment.materiality": ["Furniture-scale"],
+    "function.role": ["Mediator"],
+    "function.task_domain": ["Collaboration", "Meetings"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"],
+    "genealogy.interaction_paradigm": ["Shape-changing interfaces"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 5,
+    "social_legibility": 2,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-proxemic-transitions-001",
+      "caption": "Shape-changing furniture prototype transitioning between tabletop and wall-display configurations to mediate meeting proxemics.",
+      "image_type": "research_figure",
+      "source_url": "https://dl.acm.org/doi/10.1145/3025453.3025487",
+      "rights_status": "needs_permission",
+      "alt_text": "A motorized interactive furniture surface shown reconfiguring from a flat tabletop into an upright wall-like display around which people gather."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-proxemic-transitions-001",
+      "title": "Proxemic Transitions: Designing Shape-Changing Furniture for Informal Meetings",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/3025453.3025487",
+      "publisher": "ACM (CHI 2017)",
+      "year": 2017
+    },
+    {
+      "source_id": "source-proxemic-transitions-002",
+      "title": "Proxemic Transitions: Designing Shape-Changing Furniture for Informal Meetings (Aarhus University record)",
+      "source_type": "lab_page",
+      "url": "https://pure.au.dk/portal/en/publications/proxemic-transitions-designing-shapechanging-furniture-for-informal-meetings(c72738ba-ae9b-45a1-a68b-1395eb1db380).html",
+      "publisher": "Aarhus University",
+      "year": 2017
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,41 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+// "Takeaways" module for a card's left column. Aggregates one categorical
+// attribute across all of the card's projects and renders the distribution as
+// a labeled bar chart — e.g. "the range of forms" or "the sensing methods in
+// play". Each distinct attribute value is one bar; the bar length is how many
+// of the card's projects exhibit that value.
+interface Props {
+  projects: CollectionEntry<'projects'>[];
+  summary: { label: string; attribute: string; caption?: string };
+}
+const { projects, summary } = Astro.props;
+
+const counts = new Map<string, number>();
+for (const p of projects) {
+  for (const v of p.data.attributes[summary.attribute] ?? []) {
+    counts.set(v, (counts.get(v) ?? 0) + 1);
+  }
+}
+const rows = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+const max = Math.max(1, ...rows.map((r) => r[1]));
+---
+
+{rows.length > 0 && (
+  <div class="card-summary">
+    <div class="cs-title">{summary.label} <span class="cs-total">{rows.length}</span></div>
+    <ul class="cs-list">
+      {rows.map(([value, n]) => (
+        <li class="cs-row">
+          <div class="cs-head">
+            <span class="cs-name">{value}</span>
+            <span class="cs-count">{n}</span>
+          </div>
+          <div class="cs-track"><span class="cs-fill" style={`width:${(n / max) * 100}%`}></span></div>
+        </li>
+      ))}
+    </ul>
+    {summary.caption && <p class="cs-caption">{summary.caption}</p>}
+  </div>
+)}

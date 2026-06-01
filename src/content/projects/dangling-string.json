@@ -1,0 +1,58 @@
+{
+  "name": "Dangling String (Live Wire)",
+  "year": 1995,
+  "organization": ["Xerox PARC"],
+  "project_type": "art_design_project",
+  "short_description": "An 8-foot motorized string in an office hallway that twitches and whirls in proportion to passing Ethernet network traffic.",
+  "long_description": "Created by artist-in-residence Natalie Jeremijenko at Xerox PARC under Mark Weiser, the Dangling String is a length of plastic spaghetti hung from a ceiling-mounted electric motor wired to a nearby Ethernet cable, so each passing bit produces a tiny twitch: a busy network sends the string madly whirling and humming, while a quiet one yields only an occasional flick. Weiser cited it as a defining example of calm technology, an ambient peripheral display that conveys information at the edge of attention without demanding focus. It matters to physical AI and interaction design as one of the foundational demonstrations that digital state can be made physically legible through motion in shared space rather than through screens.",
+  "primary_url": "https://en.wikipedia.org/wiki/Natalie_Jeremijenko",
+  "ai_embedded": "none",
+  "ai_note": "Purely a motor electromechanically driven by raw Ethernet traffic; there is no machine learning or inference of any kind.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.actuation": ["Motor / rotary"],
+    "embodiment.materiality": ["String / fiber"],
+    "intelligence.input": ["Environmental sensors"],
+    "intelligence.output": ["Motion"],
+    "function.role": ["Ambient display"],
+    "genealogy.lineage": ["Ubiquitous computing", "Ambient intelligence", "Calm technology"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 5,
+    "social_legibility": 2,
+    "expressiveness": 3,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-dangling-string-001",
+      "caption": "The Dangling String, an 8-foot motorized cord that whirls in response to Ethernet traffic, cited by Mark Weiser as an example of calm technology.",
+      "image_type": "exhibition_photo",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology",
+      "rights_status": "needs_permission",
+      "alt_text": "A long thin plastic string hanging from a ceiling motor in an office hallway, blurred from spinning to indicate network activity."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-dangling-string-001",
+      "title": "Natalie Jeremijenko",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/Natalie_Jeremijenko",
+      "publisher": "Wikipedia",
+      "year": null
+    },
+    {
+      "source_id": "source-dangling-string-002",
+      "title": "Designing Calm Technology",
+      "source_type": "documentation",
+      "url": "https://calmtech.com/papers/designing-calm-technology",
+      "publisher": "Mark Weiser and John Seely Brown, Xerox PARC",
+      "year": 1995
+    }
+  ],
+  "confidence": "high"
+}

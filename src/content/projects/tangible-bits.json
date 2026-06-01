@@ -1,0 +1,62 @@
+{
+  "name": "Tangible Bits",
+  "year": 1997,
+  "organization": ["MIT Media Lab Tangible Media Group"],
+  "project_type": "academic_paper",
+  "short_description": "The CHI 1997 paper by Ishii and Ullmer that founded the Tangible User Interface paradigm by coupling digital information to graspable physical objects, surfaces, and ambient media.",
+  "long_description": "Tangible Bits proposed giving physical form to digital information so that 'bits' could be grasped, manipulated, and perceived through everyday physical objects ('atoms') rather than confined to screens. The vision was demonstrated through three prototypes: the metaDESK (a graphical surface driven by graspable instruments and physical icons, or 'phicons'), the transBOARD (an instrumented whiteboard), and the ambientROOM (which used light, sound, airflow, and water movement as ambient displays at the periphery of attention). It matters for physical AI and interaction design as the foundational articulation of tangible, embodied, and ambient interfaces, reframing how computation can inhabit physical space and the human body's natural manipulation skills.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/258549.258715",
+  "ai_embedded": "none",
+  "ai_note": "Tangible Bits is a tangible-interaction paradigm built on physical sensing and ambient display; the prototypes use optical, mechanical, and electromagnetic sensing rather than any AI/ML.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Touch", "Gesture", "Motion"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing", "Ambient intelligence"]
+  },
+  "metrics": {
+    "mobility": 1,
+    "scale": 4,
+    "social_legibility": 1,
+    "autonomy": 1,
+    "expressiveness": 2
+  },
+  "images": [
+    {
+      "image_id": "img-tangible-bits-001",
+      "caption": "Figure from the Tangible Bits paper illustrating the metaDESK, transBOARD, and ambientROOM prototypes.",
+      "image_type": "research_figure",
+      "source_url": "https://www.media.mit.edu/publications/tangible-bits-towards-seamless-interfaces-between-people-bits-and-atoms-2/",
+      "rights_status": "needs_permission",
+      "alt_text": "Diagram of tangible interface prototypes showing a graphical desk surface with graspable physical objects, an instrumented whiteboard, and an ambient room environment."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-tangible-bits-001",
+      "title": "Tangible bits: towards seamless interfaces between people, bits and atoms",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/258549.258715",
+      "publisher": "ACM (Proceedings of CHI '97)",
+      "year": 1997
+    },
+    {
+      "source_id": "source-tangible-bits-002",
+      "title": "Tangible Bits: Towards Seamless Interfaces between People, Bits, and Atoms",
+      "source_type": "lab_page",
+      "url": "https://www.media.mit.edu/publications/tangible-bits-towards-seamless-interfaces-between-people-bits-and-atoms-2/",
+      "publisher": "MIT Media Lab",
+      "year": 1997
+    },
+    {
+      "source_id": "source-tangible-bits-003",
+      "title": "metaDESK",
+      "source_type": "project_page",
+      "url": "https://tangible.media.mit.edu/project/metadesk/",
+      "publisher": "MIT Media Lab Tangible Media Group",
+      "year": 1997
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Rovables",
+  "year": 2016,
+  "organization": ["MIT Media Lab", "Stanford University"],
+  "project_type": "research_prototype",
+  "short_description": "Miniature untethered robots that drive freely over a person's clothing using magnetic wheels, turning wearables into relocatable, mobile on-body devices.",
+  "long_description": "Rovables are centimeter-scale robots that move across unmodified clothing, gripping the fabric between magnetic wheels so they can even climb vertically. Each robot is untethered, with an onboard battery, microcontroller, wireless radio, and a low-power localization system based on wheel encoders and an IMU that supports limited autonomous navigation on the body. By making wearables mobile rather than fixed, the project opens an interaction design space for on-body sensing, modular displays, tactile feedback, and interactive clothing and jewelry, reframing the body itself as a navigable surface for physical devices.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/2984511.2984531",
+  "ai_embedded": "none",
+  "ai_note": "Navigation relies on wheel-encoder and IMU odometry plus magnetic-wheel actuation; the paper describes no machine learning or AI component.",
+  "attributes": {
+    "embodiment.form": ["Mobile robot", "Wearable", "Distributed object ecology"],
+    "embodiment.mobility": ["Wheeled", "Body-worn"],
+    "embodiment.scale": ["Jewelry / small wearable"],
+    "embodiment.actuation": ["Wheeled locomotion", "Magnetic adhesion"],
+    "intelligence.input": ["Motion", "Force / torque"],
+    "intelligence.autonomy": ["Limited autonomous navigation"],
+    "function.role": ["Tool", "Sensor", "Display"],
+    "genealogy.lineage": ["Wearable computing", "Human-robot interaction", "Swarm robotics"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 3,
+    "scale": 1,
+    "social_legibility": 2,
+    "expressiveness": 2,
+    "autonomy": 2
+  },
+  "images": [
+    {
+      "image_id": "img-rovables-001",
+      "caption": "A Rovables prototype with magnetic wheels climbing a piece of vertical clothing.",
+      "image_type": "research_figure",
+      "source_url": "https://www.media.mit.edu/publications/rovables-miniature-on-body-robots-as-mobile-wearables/",
+      "rights_status": "needs_permission",
+      "alt_text": "A small two-wheeled robot the size of a coin grips and climbs a vertical piece of fabric, held against the cloth by its wheels."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-rovables-001",
+      "title": "Rovables: Miniature On-Body Robots as Mobile Wearables",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2984511.2984531",
+      "publisher": "ACM (UIST 2016)",
+      "year": 2016
+    },
+    {
+      "source_id": "source-rovables-002",
+      "title": "Rovables: Miniature On-Body Robots as Mobile Wearables (MIT Media Lab publication page)",
+      "source_type": "lab_page",
+      "url": "https://www.media.mit.edu/publications/rovables-miniature-on-body-robots-as-mobile-wearables/",
+      "publisher": "MIT Media Lab",
+      "year": 2016
+    },
+    {
+      "source_id": "source-rovables-003",
+      "title": "Rovables: Miniature On-Body Robots as Mobile Wearables (open-access PDF)",
+      "source_type": "academic_paper",
+      "url": "https://shape.stanford.edu/research/rovables/Rovables_UIST_2016.pdf",
+      "publisher": "Stanford SHAPE Lab",
+      "year": 2016
+    }
+  ],
+  "confidence": "high"
+}

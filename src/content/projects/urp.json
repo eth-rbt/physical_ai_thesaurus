@@ -1,0 +1,64 @@
+{
+  "name": "Urp",
+  "year": 1999,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "A luminous-tangible workbench where physical building models on a table cast computationally simulated shadows, reflections, and wind for urban planning.",
+  "long_description": "Urp, by John Underkoffler and Hiroshi Ishii, is a tangible interface for urban planning built on the I/O Bulb infrastructure, which pairs a projector with a camera so that ordinary physical architectural models placed on a table become handles for digital information. Moving or rotating a model updates projected shadows for any time of day, reflections off glass facades, and a real-time pedestrian-level windflow simulation; physical tools like a clock dial or wind probe alter the simulation. As an early, influential example of tangible user interfaces, Urp matters to physical AI and interaction design because it grounds abstract computation in graspable physical form, letting people reason about a complex spatial simulation through direct manipulation rather than screens and pointers.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/302979.303114",
+  "ai_embedded": "none",
+  "ai_note": "Urp couples optical object tracking with physics-based shadow and windflow simulation; no machine learning runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Tangible interface"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Vision", "Motion"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool", "Creative collaborator"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing", "Augmented reality"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 4,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-urp-001",
+      "caption": "Physical building models on the Urp workbench cast projected digital shadows and a wind-flow simulation.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/urp/",
+      "rights_status": "needs_permission",
+      "alt_text": "A tabletop with small physical building models, surrounded by projected lines and shadows representing simulated sun shadows and wind flow."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-urp-001",
+      "title": "Urp: A Luminous-Tangible Workbench for Urban Planning and Design",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/302979.303114",
+      "publisher": "ACM (Proceedings of CHI 1999)",
+      "year": 1999
+    },
+    {
+      "source_id": "source-urp-002",
+      "title": "Urp: A Luminous-Tangible Workbench for Urban Planning and Design (MIT Media Lab publication)",
+      "source_type": "lab_page",
+      "url": "https://www.media.mit.edu/publications/urp-a-luminous-tangible-workbench-for-urban-planning-and-design-2/",
+      "publisher": "MIT Media Lab, Tangible Media Group",
+      "year": 1999
+    },
+    {
+      "source_id": "source-urp-003",
+      "title": "Urp: A Luminous-Tangible Workbench for Urban Planning and Design (dblp record)",
+      "source_type": "documentation",
+      "url": "https://dblp.org/rec/conf/chi/UnderkofflerI99.html",
+      "publisher": "dblp",
+      "year": 1999
+    }
+  ],
+  "confidence": "high"
+}
