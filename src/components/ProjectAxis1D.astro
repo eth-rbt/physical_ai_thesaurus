@@ -39,30 +39,47 @@ for (const p of placed) {
 const columns = [...bins.entries()]
   .sort((a, b) => a[0] - b[0])
   .map(([value, items]) => ({ value, left: pos(value), items }));
-const maxStack = Math.max(...columns.map((c) => c.items.length));
+const maxStack = Math.max(1, ...columns.map((c) => c.items.length));
+
+// Split a "low → high" style label into its two ends so we can anchor them at the
+// left/right of the axis. Falls back to a single right-hand label if there's no arrow.
+const ends = axis.label.split(/\s*(?:→|->|↔|—|–|:)\s*/).filter(Boolean);
+const hasTwoEnds = ends.length >= 2;
+const lowEnd = hasTwoEnds ? ends[0] : '';
+const highEnd = hasTwoEnds ? ends[ends.length - 1] : axis.label;
+// desc means the high value sits on the left, so swap which end label goes where.
+const leftLabel = axis.direction === 'desc' ? highEnd : lowEnd;
+const rightLabel = axis.direction === 'desc' ? lowEnd : highEnd;
 ---
 
 <div class="axis-1d" style={`--max-stack:${maxStack}`}>
-  <div class="axis-labels"><span>{axis.label}</span></div>
-  <div class="axis-line">
-    {columns.map((c) => (
-      <span class="axis-col" style={`left:${c.left}%`}>
-        <span class="dot"></span>
-        <span class="axis-stack">
+  <div class="axis-plot">
+    <div class="axis-line">
+      {columns.map((c) => (
+        <span class="axis-col" style={`left:${c.left}%`}>
           {c.items.map((p) => (
-            <a class="lab" href={`/projects/${p.id}/`} title={notes?.[p.id]}>{p.data.name}</a>
+            <a class="axis-dot" href={`/projects/${p.id}/`} title={notes?.[p.id] ?? p.data.name}>
+              <span class="dot"></span>
+              <span class="lab">{p.data.name}</span>
+            </a>
           ))}
         </span>
-      </span>
-    ))}
+      ))}
+    </div>
+    <div class="axis-ends">
+      <span>{leftLabel}</span>
+      <span>{rightLabel}</span>
+    </div>
   </div>
+
   <div class="proj-grid">
     {ordered.map((p) => (
       <ProjectTile project={p} sub={`${axis.metric}: ${p.data.metrics[axis.metric]}`} note={notes?.[p.id]} />
     ))}
   </div>
+
   {missing.length > 0 && (
-    <p class="muted" style="font-size:0.8rem;margin-top:1rem">
+    <p class="muted not-placed">
       Not placed (no <code>{axis.metric}</code> value): {missing.map((p) => p.data.name).join(', ')}
     </p>
   )}

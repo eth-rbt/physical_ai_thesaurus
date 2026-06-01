@@ -38,8 +38,37 @@ a:hover { text-decoration: underline; }
 .site-header .wrap { padding: 0.9rem 1.25rem; display: flex; align-items: baseline; gap: 1rem; }
 .site-header a.brand { font-weight: 700; color: var(--text); }
 .site-header .tag { color: var(--muted); font-size: 0.85rem; }
+.site-header .nav { display: flex; gap: 1rem; margin-left: 1.5rem; }
+.site-header .nav a { color: var(--muted); font-size: 0.85rem; }
+.site-header .nav a:hover { color: var(--accent); }
 .site-header a.logout { margin-left: auto; color: var(--muted); font-size: 0.8rem; }
 .site-header a.logout:hover { color: var(--accent); }
+
+/* --- all-projects gallery --- */
+.gallery-head { display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap; }
+.gallery-head .count { color: var(--muted); font-size: 0.9rem; }
+.gallery-controls {
+  position: sticky; top: 3.4rem; z-index: 5;
+  display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center;
+  margin: 1.25rem 0 1.75rem; padding: 0.85rem 0;
+  background: rgba(14, 15, 19, 0.9); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+.gallery-controls input[type="search"] {
+  flex: 1 1 240px; min-width: 0;
+  padding: 0.5rem 0.8rem; border-radius: 999px;
+  border: 1px solid var(--border); background: var(--panel); color: var(--text);
+  font: inherit; font-size: 0.9rem;
+}
+.gallery-controls input[type="search"]:focus { outline: none; border-color: var(--accent); }
+.gallery-controls select {
+  padding: 0.5rem 0.7rem; border-radius: 999px;
+  border: 1px solid var(--border); background: var(--panel); color: var(--text);
+  font: inherit; font-size: 0.85rem; cursor: pointer;
+}
+.gallery-controls select:focus { outline: none; border-color: var(--accent); }
+.gallery-empty { color: var(--muted); padding: 2rem 0; }
+.gallery-cell.hidden { display: none; }
 
 h1, h2, h3 { line-height: 1.25; }
 .muted { color: var(--muted); }
@@ -149,47 +178,102 @@ h1, h2, h3 { line-height: 1.25; }
    so let the thumbnail sit a touch shorter to keep the text the focal point. */
 .proj-tile:has(.note) .proj-thumb { aspect-ratio: 16 / 9; }
 
-/* --- 1D axis --- */
-.axis-1d { position: relative; padding: 2.5rem 0 1rem; }
-.axis-line { position: relative; height: 2px; background: var(--border); margin: 0 0.5rem 1rem; }
-.axis-labels { display: flex; justify-content: space-between; color: var(--muted); font-size: 0.8rem; margin-bottom: 0.5rem; }
-/* reserve room under the line for the tallest stack of labels */
-.axis-1d .proj-grid { margin-top: calc(1rem + var(--max-stack, 1) * 1.35rem); }
-.axis-col { position: absolute; top: 50%; transform: translate(-50%, -50%); display: flex; flex-direction: column; align-items: center; }
-.axis-col .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--accent); }
-.axis-stack { display: flex; flex-direction: column; align-items: center; margin-top: 8px; gap: 2px; }
-.axis-stack .lab { font-size: 0.68rem; color: var(--muted); white-space: nowrap; }
-.axis-stack .lab:hover { color: var(--accent); text-decoration: none; }
+/* shared: projects that couldn't be placed/plotted */
+.not-placed { font-size: 0.8rem; margin-top: 1.25rem; }
 
-/* --- 2D scatter --- */
+/* --- 1D axis: a dot-plot; names reveal on hover, and live in the grid below --- */
+.axis-1d { position: relative; }
+/* reserve vertical room for the tallest stack of dots, above and below the line */
+.axis-plot { position: relative; margin: 0 0.5rem; padding: calc(var(--max-stack, 1) * 9px + 8px) 0; }
+.axis-line { position: relative; height: 2px; background: var(--border); border-radius: 2px; }
+.axis-col {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+.axis-dot { position: relative; display: block; line-height: 0; }
+.axis-dot .dot { display: block; width: 11px; height: 11px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); }
+.axis-dot .lab {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 5px);
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 0.66rem;
+  line-height: 1.2;
+  color: var(--text);
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  padding: 2px 6px;
+  border-radius: 6px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.1s ease;
+  z-index: 5;
+}
+.axis-dot:hover { z-index: 6; }
+.axis-dot:hover .dot { box-shadow: 0 0 0 4px rgba(124, 156, 255, 0.25); }
+.axis-dot:hover .lab { opacity: 1; }
+.axis-ends { display: flex; justify-content: space-between; gap: 1rem; color: var(--muted); font-size: 0.78rem; margin-top: 0.6rem; }
+.axis-ends span { max-width: 46%; }
+.axis-ends span:last-child { text-align: right; }
+.axis-1d .proj-grid { margin-top: 1.75rem; }
+
+/* --- 2D scatter: dot-plot; names reveal on hover, and live in the grid below --- */
 .scatter {
   position: relative;
   aspect-ratio: 1 / 1;
   border-left: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
-  margin: 0 0 2rem 2.5rem;
+  margin: 0.5rem 0 2.5rem 2.6rem;
 }
-.scatter .pt { position: absolute; transform: translate(-50%, 50%); text-align: center; z-index: 1; }
+.scatter .pt { position: absolute; transform: translate(-50%, 50%); z-index: 1; }
 .scatter .pt:hover { z-index: 6; }
-.scatter .pt .dot { width: 11px; height: 11px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); margin: 0 auto; }
+.scatter .pt .dot { width: 11px; height: 11px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); }
 .scatter .pt:hover .dot { box-shadow: 0 0 0 4px rgba(124, 156, 255, 0.25); }
 .scatter .pt .lab {
   position: absolute;
   left: 50%;
-  top: 13px;
+  top: calc(100% + 4px);
   transform: translateX(-50%);
-  font-size: 0.62rem;
-  line-height: 1.1;
-  color: var(--muted);
+  font-size: 0.66rem;
+  line-height: 1.2;
+  color: var(--text);
   white-space: nowrap;
-  background: rgba(14, 15, 19, 0.72);
-  padding: 0 3px;
-  border-radius: 4px;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  padding: 2px 6px;
+  border-radius: 6px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.1s ease;
 }
-.scatter .pt.pt-below .lab { top: auto; bottom: 13px; }
-.scatter .pt:hover .lab { color: var(--text); background: var(--panel-2); }
-.scatter .axlabel-x { position: absolute; right: 0; bottom: -1.8rem; color: var(--muted); font-size: 0.8rem; }
-.scatter .axlabel-y { position: absolute; left: -2.2rem; top: 0; transform: rotate(-90deg); transform-origin: left top; color: var(--muted); font-size: 0.8rem; }
+.scatter .pt.pt-below .lab { top: auto; bottom: calc(100% + 4px); }
+.scatter .pt:hover .lab { opacity: 1; }
+.scatter .axlabel-x {
+  position: absolute;
+  left: 50%;
+  bottom: -1.9rem;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+.scatter .axlabel-y {
+  position: absolute;
+  left: -1.9rem;
+  top: 50%;
+  transform: translateY(-50%) rotate(180deg);
+  writing-mode: vertical-rl;
+  white-space: nowrap;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+.scatter-wrap .proj-grid { margin-top: 1.5rem; }
 
 /* --- thesaurus index --- */
 .cat-section { margin-top: 2.5rem; }
@@ -248,6 +332,21 @@ h1, h2, h3 { line-height: 1.25; }
 .ai-tag.ai-some { color: #ffcf7c; border-color: #5a4a2f; }
 .ai-tag.ai-core { color: #7ce0a3; border-color: #2f5a43; }
 .ai-tag.ai-envisioned { color: var(--accent); border-color: #3a4470; }
+.year-tag {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 1;
+  font-size: 0.62rem;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
+  padding: 0.1rem 0.4rem;
+  border-radius: 999px;
+  background: rgba(14, 15, 19, 0.82);
+  border: 1px solid var(--border);
+  color: var(--text);
+}
 .appears-in a { margin-right: 0.5rem; }
 ul.sources { padding-left: 1.1rem; }
 ul.sources li { margin-bottom: 0.4rem; }

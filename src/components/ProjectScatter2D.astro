@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import ProjectTile from './ProjectTile.astro';
 
 interface Props {
   projects: CollectionEntry<'projects'>[];
@@ -27,9 +28,10 @@ function scaler(metric: string, direction: 'asc' | 'desc') {
 const sx = scaler(x.metric, x.direction);
 const sy = scaler(y.metric, y.direction);
 
-// Many projects share the same ordinal (x, y) — without spreading, their dots and
-// labels stack and become unreadable. Group co-located points and fan each cluster
-// out on a small deterministic ring so every project is visible and clickable.
+// Many projects share the same ordinal (x, y) — without spreading, their dots
+// stack on one spot. Group co-located points and fan each cluster out on a small
+// deterministic ring so every dot is visible and clickable. Labels are revealed on
+// hover (and listed in the grid below), so dots can sit close without overprinting.
 type Pt = { p: CollectionEntry<'projects'>; left: number; bottom: number; below: boolean };
 const clamp = (v: number) => Math.max(3, Math.min(97, v));
 const groups = new Map<string, CollectionEntry<'projects'>[]>();
@@ -54,25 +56,45 @@ for (const members of groups.values()) {
     pts.push({ p, left: clamp(left), bottom: clamp(bottom), below: i % 2 === 1 });
   });
 }
+
+// Sort the readable grid below by x then y so it roughly tracks the plot left→right.
+const ordered = [...placed].sort(
+  (a, b) =>
+    sx(a.data.metrics[x.metric]) - sx(b.data.metrics[x.metric]) ||
+    sy(a.data.metrics[y.metric]) - sy(b.data.metrics[y.metric]),
+);
 ---
 
-<div class="scatter">
-  <span class="axlabel-x">{x.label} →</span>
-  <span class="axlabel-y">{y.label} →</span>
-  {pts.map(({ p, left, bottom, below }) => (
-    <a
-      class={`pt${below ? ' pt-below' : ''}`}
-      href={`/projects/${p.id}/`}
-      title={notes?.[p.id]}
-      style={`left:${left}%; bottom:${bottom}%`}
-    >
-      <span class="dot"></span>
-      <span class="lab">{p.data.name}</span>
-    </a>
-  ))}
+<div class="scatter-wrap">
+  <div class="scatter">
+    <span class="axlabel-x">{x.label}</span>
+    <span class="axlabel-y">{y.label}</span>
+    {pts.map(({ p, left, bottom, below }) => (
+      <a
+        class={`pt${below ? ' pt-below' : ''}`}
+        href={`/projects/${p.id}/`}
+        title={notes?.[p.id] ?? p.data.name}
+        style={`left:${left}%; bottom:${bottom}%`}
+      >
+        <span class="dot"></span>
+        <span class="lab">{p.data.name}</span>
+      </a>
+    ))}
+  </div>
+
+  <div class="proj-grid">
+    {ordered.map((p) => (
+      <ProjectTile
+        project={p}
+        sub={`${x.metric}: ${p.data.metrics[x.metric]} · ${y.metric}: ${p.data.metrics[y.metric]}`}
+        note={notes?.[p.id]}
+      />
+    ))}
+  </div>
+
+  {missing.length > 0 && (
+    <p class="muted not-placed">
+      Not plotted (missing <code>{x.metric}</code>/<code>{y.metric}</code>): {missing.map((p) => p.data.name).join(', ')}
+    </p>
+  )}
 </div>
-{missing.length > 0 && (
-  <p class="muted" style="font-size:0.8rem">
-    Not plotted (missing <code>{x.metric}</code>/<code>{y.metric}</code>): {missing.map((p) => p.data.name).join(', ')}
-  </p>
-)}
