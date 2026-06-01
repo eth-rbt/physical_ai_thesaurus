@@ -37,5 +37,6 @@ project_notes:
   microsoft-kinect: "Inference as the whole job: depth and ML map the room into skeletons and gestures, recognizing bodies and pose while deciding and actuating nothing itself."
   sperry-autopilot: "Pure control, zero inference — a gyroscope feeds an error signal straight to the flight surfaces, holding a heading by feedback with no perception or model."
   shakey-robot: "Recognize then decide then act, the textbook sense-plan-act loop — vision builds a world model, a planner reasons over it, and the robot drives the result."
+---
 
 The verb decides the relationship. You trust a recognizer to report truly — Lifeline relays a fall, Seeing AI and Dragon turn world into words and decide nothing. You converse with a generator — Be the Beat answers a dancer's movement with music, the reacTable voices an arrangement of pucks. And you delegate to a controller — the June oven cooks, Waymo drives, inFORM pushes pixels into graspable shape. The split that cuts hardest is the AI-embedded one: the projects doing the most consequential physical work carry the least intelligence — Unimate welds from drum memory with no perception, the Grey Walter tortoises steer on two vacuum tubes, inFORM actuates with no learned model — while only Waymo and π0 fold recognize, decide, and control into a single loop.
