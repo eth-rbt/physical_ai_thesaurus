@@ -1,18 +1,39 @@
 {
   "name": "Little Signals",
   "year": 2022,
-  "organization": ["Google", "Map Project Office"],
+  "organization": [
+    "Google",
+    "Map Project Office"
+  ],
   "project_type": "research_prototype",
   "short_description": "A calm-technology design study of six ambient notification objects that signal through air, taps, light, shadow, sound, and movement.",
   "long_description": "Little Signals is a 2022 design study from Google's Seed Studio in collaboration with London's Map Project Office, comprising six small objects (Air, Button, Movement, Rhythm, Shadow, and Tap) that deliver notifications through gentle, peripheral cues rather than screens and alerts. Building explicitly on calm-technology principles, the objects use pulses of air that stir a plant's leaves, soft taps on surfaces, rising pegs, ambient sound, and moving shadows to keep a person informed while staying at the edge of attention. It matters as physical AI because it reframes the notification layer as a distributed ecology of expressive domestic objects, trading high-attention displays for legible, low-intensity environmental signals. Google released build instructions, code, and STEP files so the objects can be reproduced with an Arduino board.",
   "primary_url": "https://littlesignals.withgoogle.com/",
   "attributes": {
-    "embodiment.form": ["Domestic object", "Distributed object ecology"],
-    "embodiment.mobility": ["Fixed"],
-    "intelligence.input": ["Touch", "Location"],
-    "intelligence.model": ["Rule-based system"],
-    "function.role": ["Memory aid", "Mediator"],
-    "genealogy.lineage": ["Ambient intelligence", "Ubiquitous computing", "Tangible user interfaces", "Speculative design"]
+    "embodiment.form": [
+      "Domestic object",
+      "Distributed object ecology"
+    ],
+    "embodiment.mobility": [
+      "Fixed"
+    ],
+    "intelligence.input": [
+      "Touch",
+      "Location"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "function.role": [
+      "Memory aid",
+      "Mediator"
+    ],
+    "genealogy.lineage": [
+      "Ambient intelligence",
+      "Ubiquitous computing",
+      "Tangible user interfaces",
+      "Speculative design"
+    ]
   },
   "metrics": {
     "proximity": 2,
@@ -26,7 +47,7 @@
     "visibility": 2,
     "generality": 1,
     "intensity": 1,
-    "expressiveness": 4,
+    "expressiveness": 3,
     "timing": 3
   },
   "images": [
@@ -75,6 +96,60 @@
       "publisher": "Map Project Office",
       "year": 2022,
       "access_notes": "Design studio's project page documenting the collaboration."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Notified by your houseplant",
+      "description": "The Air object sits beside a plant and releases a soft pulse of air that stirs the leaves, so a new message registers as a flutter of greenery you catch from across the room rather than a buzz in your pocket.",
+      "provenance": "documented",
+      "source_url": "https://littlesignals.withgoogle.com/",
+      "source_label": "Little Signals (Google)"
+    },
+    {
+      "title": "Twist for more or less",
+      "description": "The Button grows taller as information accumulates and chimes softly when full; you twist its top right to pull more detail or left to dismiss, controlling how much the device tells you with a single hand gesture.",
+      "provenance": "documented",
+      "source_url": "https://www.designboom.com/design/google-little-signals-ambient-notifications-04-26-2022/",
+      "source_label": "Designboom"
+    },
+    {
+      "title": "A glance at the pegs",
+      "description": "The Movement object raises and lowers a row of seven pegs, so the shape of the bar — a single peg up versus the whole row — tells you at a glance how much is waiting without naming any of it.",
+      "provenance": "documented",
+      "source_url": "https://littlesignals.withgoogle.com/",
+      "source_label": "Little Signals (Google)"
+    },
+    {
+      "title": "Wave to silence the melody",
+      "description": "Rhythm plays a short ambient melody whose tone carries the urgency of what arrived; if it comes at a bad moment you wave a hand over it or flip it to mute, treating a notification like a sound you can shoo away.",
+      "provenance": "documented",
+      "source_url": "https://littlesignals.withgoogle.com/",
+      "source_label": "Little Signals (Google)"
+    },
+    {
+      "title": "A shadow that breathes and stretches",
+      "description": "The Shadow object signals by moving the shadow it casts — gently breathing when idle and stretching toward you when it senses your presence — so the cue lives on the wall and tabletop instead of on a screen.",
+      "provenance": "documented",
+      "source_url": "https://littlesignals.withgoogle.com/",
+      "source_label": "Little Signals (Google)"
+    },
+    {
+      "title": "Build your own from a plant and a pill bottle",
+      "description": "Google released the code, STEP files, and household-materials instructions, so makers reproduce the objects on an Arduino MKR1000 — wiring Air to puff at a plant for new email, or Tap to knock on a prescription bottle as a medication reminder.",
+      "provenance": "observed",
+      "source_url": "https://blog.arduino.cc/2022/04/20/googles-arduino-powered-device-provide-soothing-signals/",
+      "source_label": "Arduino Blog"
+    },
+    {
+      "title": "A household of objects sharing one alert",
+      "description": "Because the six objects run the same rule-based notification logic, they could be distributed through a home so an urgent message escalates across them — Rhythm chiming in the kitchen while the Movement pegs rise in the study — grounded in their shared signaling design rather than any single screen.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Quieter where you are",
+      "description": "With location as an input, the objects could read which room you have entered and route a signal to the nearest one — a tap on the desk while you work, the plant fluttering when you are in the living room — keeping the cue at the edge of wherever your attention already is.",
+      "provenance": "proposed"
     }
   ],
   "confidence": "high"

@@ -1,0 +1,122 @@
+{
+  "name": "Illuminating Clay",
+  "year": 2002,
+  "organization": ["MIT Media Lab Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "A tangible interface in which users reshape a physical clay landscape model while a ceiling-mounted laser scanner captures its topography and projects real-time geospatial analyses back onto the surface.",
+  "long_description": "Illuminating Clay, by Ben Piper, Carlo Ratti, and Hiroshi Ishii (CHI 2002), lets designers freely sculpt a clay model of a terrain while a laser scanner continuously captures the changing geometry as a depth image. That depth image feeds a library of landscape analyses adapted largely from the open-source GRASS GIS project (slope, aspect, curvature, shadow casting, water flow, visibility, travel time), and the results are projected directly back onto the clay. It matters to physical AI and interaction design as a canonical tangible-user-interface example of coupling malleable physical form to live computational simulation, letting spatial reasoning happen in the hands rather than on a screen.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/503376.503439",
+  "ai_embedded": "none",
+  "ai_note": "The system is a tangible interface built from laser-scan capture, deterministic GIS/geospatial analysis (largely from GRASS), and projection; no machine learning runs in it.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Tangible interface"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.materiality": ["Malleable / clay"],
+    "intelligence.model": ["Rule-based system"],
+    "intelligence.input": ["Vision", "Touch"],
+    "intelligence.output": ["Projection"],
+    "function.role": ["Tool", "Creative collaborator"],
+    "function.task_domain": ["Landscape analysis", "Spatial design"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"],
+    "genealogy.research_community": ["MIT Tangible Media Group"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 4,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-illuminating-clay-001",
+      "caption": "Users sculpting the clay landscape model while geospatial analyses are projected onto its surface.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/illuminating-clay/",
+      "rights_status": "needs_permission",
+      "alt_text": "A hand reshaping a tabletop clay terrain model with colored topographic analysis projected onto the clay surface."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-illuminating-clay-001",
+      "title": "Illuminating Clay: A 3-D Tangible Interface for Landscape Analysis",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/503376.503439",
+      "publisher": "ACM (Proceedings of CHI 2002)",
+      "year": 2002
+    },
+    {
+      "source_id": "source-illuminating-clay-002",
+      "title": "Illuminating Clay (project page)",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/project/illuminating-clay/",
+      "publisher": "MIT Media Lab Tangible Media Group",
+      "year": 2002
+    },
+    {
+      "source_id": "source-illuminating-clay-003",
+      "title": "Illuminating Clay: A 3-D Tangible Interface for Landscape Analysis (PDF)",
+      "source_type": "academic_paper",
+      "url": "https://senseable.mit.edu/papers/pdf/20020425_Piper_etal_IlluminatingClay_Proceedings_ACMCHI.pdf",
+      "publisher": "MIT Senseable City Lab",
+      "year": 2002
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Sculpt a hill and watch the steep faces light up",
+      "description": "A designer pushes up a ridge with their thumbs and, as the clay rises, the laser scanner re-reads the surface and projects a slope map back onto it in real time — gentle grades stay cool, the cliff faces flush red where the terrain is too steep to build.",
+      "provenance": "documented",
+      "source_url": "https://senseable.mit.edu/papers/pdf/20020425_Piper_etal_IlluminatingClay_Proceedings_ACMCHI.pdf",
+      "source_label": "Piper, Ratti & Ishii, CHI 2002 (PDF)"
+    },
+    {
+      "title": "Cut a road and see it bleed into the cut-and-fill",
+      "description": "In the highway-siting study, landscape architects carved a roadbed into the clay and read the projected curvature and slope to judge where they were cutting into a hillside versus filling a valley — adjusting the alignment with their hands until the earthwork balanced.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/503376.503439",
+      "source_label": "Illuminating Clay, ACM CHI 2002"
+    },
+    {
+      "title": "Pour water with a gesture",
+      "description": "The terrain is run through a water-flow analysis so that, after reshaping a basin, the projection shows where runoff collects and which way streams would drain — letting a designer spot a flooding hollow they just accidentally created.",
+      "provenance": "documented",
+      "source_url": "https://senseable.mit.edu/papers/pdf/20020425_Piper_etal_IlluminatingClay_Proceedings_ACMCHI.pdf",
+      "source_label": "Piper, Ratti & Ishii, CHI 2002 (PDF)"
+    },
+    {
+      "title": "Swing the sun across the model",
+      "description": "Shadow-casting analysis projects the cast shadows of the sculpted terrain for a given sun position, so reshaping a ridgeline immediately shows which slopes fall into shade — useful for judging where a valley stays dark in winter.",
+      "provenance": "documented",
+      "source_url": "https://senseable.mit.edu/papers/pdf/20020425_Piper_etal_IlluminatingClay_Proceedings_ACMCHI.pdf",
+      "source_label": "Piper, Ratti & Ishii, CHI 2002 (PDF)"
+    },
+    {
+      "title": "Ask what you can see from the overlook",
+      "description": "A visibility (viewshed) analysis paints the area visible from a chosen vantage point onto the clay, so a designer can raise or lower a ridge and watch the seen-from-here region shrink or open up — and pair it with a travel-time map to weigh access against the view.",
+      "provenance": "documented",
+      "source_url": "https://senseable.mit.edu/papers/pdf/20020425_Piper_etal_IlluminatingClay_Proceedings_ACMCHI.pdf",
+      "source_label": "Piper, Ratti & Ishii, CHI 2002 (PDF)"
+    },
+    {
+      "title": "From clay to sand: the technique gets handed forward",
+      "description": "The same scan-analyze-project loop was carried into later Tangible Media Group work — SandScape swapped the clay for a box of sand users rake by hand, and the lineage is recounted in the team's own 'Bringing clay and sand into digital design' write-up.",
+      "provenance": "observed",
+      "source_url": "http://web.mit.edu/ebj/www/Clay-Sand_BTTJ04.pdf",
+      "source_label": "Ishii et al., BT Technology Journal 2004"
+    },
+    {
+      "title": "A studio crit you can reach into",
+      "description": "A class of students gathers around the table reshaping a shared site model together, the projected slope and water layers updating live so the critique argues over the actual terrain in front of them rather than slides on a wall.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Restoration planning by hand",
+      "description": "Ecologists rebuild a degraded floodplain in clay and use the runoff and visibility projections to test where a re-meandered channel would slow water and where a planted berm would screen a trail — iterating the grading with their fingers before any earth is moved.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,23 +1,45 @@
 {
   "name": "Amazon Astro",
   "year": 2021,
-  "organization": ["Amazon"],
+  "organization": [
+    "Amazon"
+  ],
   "project_type": "commercial_product",
   "short_description": "A wheeled household robot for home monitoring, video calls, and Alexa-based assistance.",
   "long_description": "A small wheeled domestic robot with a screen 'face', a periscope camera, and Alexa built in. It moves the smart-speaker assistant into a mobile body, sitting between appliance, pet, and roving security camera in the home.",
   "primary_url": "https://www.amazon.com/astro",
   "attributes": {
-    "embodiment.form": ["Mobile robot", "Domestic object"],
-    "embodiment.mobility": ["Wheeled"],
-    "intelligence.input": ["Vision", "Speech", "Audio", "Location"],
-    "intelligence.model": ["Speech model", "Deep learning"],
-    "function.role": ["Assistant", "Security monitor"],
-    "genealogy.lineage": ["Smart home", "Social robotics"]
+    "embodiment.form": [
+      "Mobile robot",
+      "Domestic object"
+    ],
+    "embodiment.mobility": [
+      "Wheeled"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Speech",
+      "Audio",
+      "Location"
+    ],
+    "intelligence.model": [
+      "Speech model",
+      "Deep learning"
+    ],
+    "function.role": [
+      "Assistant",
+      "Security monitor"
+    ],
+    "genealogy.lineage": [
+      "Smart home",
+      "Social robotics"
+    ]
   },
   "metrics": {
     "social_legibility": 3,
     "proximity": 3,
-    "mobility": 4
+    "mobility": 4,
+    "scale": 3
   },
   "images": [
     {
@@ -41,5 +63,59 @@
       "access_notes": "Official product page."
     }
   ],
-  "confidence": "high"
+  "confidence": "high",
+  "interactions": [
+    {
+      "title": "Send it to check the back room",
+      "description": "From the app, tap a spot on the home map and Astro drives there on its own, then raises its periscope camera so you can peer over a counter or into a crib for a live look while you're out.",
+      "provenance": "documented",
+      "source_url": "https://www.aboutamazon.com/news/devices/meet-astro-a-home-robot-unlike-any-other",
+      "source_label": "About Amazon — Meet Astro"
+    },
+    {
+      "title": "Night patrol that goes to investigate",
+      "description": "With a Ring subscription Astro roams the house on a schedule while you're away, and can be set to drive toward the source of a glass-break sound or a triggered alarm and start recording.",
+      "provenance": "documented",
+      "source_url": "https://press.aboutamazon.com/2023/11/introducing-astro-for-business-a-customizable-security-solution-bringing-peace-of-mind-to-owners-of-small-and-medium-sized-businesses",
+      "source_label": "Amazon press — Astro security"
+    },
+    {
+      "title": "Carry a drink to whoever's on the couch",
+      "description": "Drop a snack or a can (under 4.4 lb) in the cargo bin and tell Astro to find a specific household member by their visual ID; it locates them by face and rolls the item over.",
+      "provenance": "documented",
+      "source_url": "https://www.amazon.com/Introducing-Amazon-Astro/dp/B078NSDFSB",
+      "source_label": "Amazon — Astro product page"
+    },
+    {
+      "title": "A roving check-in on an aging parent",
+      "description": "Linked through Alexa Together, Astro finds a relative living alone to deliver reminders and follow them on a video call, giving a remote caregiver a moving set of eyes plus a hands-free emergency line.",
+      "provenance": "documented",
+      "source_url": "https://www.aboutamazon.com/news/devices/meet-astro-a-home-robot-unlike-any-other",
+      "source_label": "About Amazon — Meet Astro"
+    },
+    {
+      "title": "It becomes the family pet",
+      "description": "Owners and Amazon's own testers describe bonding with Astro as if it were a member of the household, swayed by its big blinking screen-eyes that recall a baby animal more than an appliance.",
+      "provenance": "observed",
+      "source_url": "https://www.technologyreview.com/2021/10/04/1036413/amazons-astro-robot-pet/",
+      "source_label": "MIT Technology Review"
+    },
+    {
+      "title": "Party-trick beatboxing and charades",
+      "description": "Families discover Astro will dance, 'do the robot', beatbox, burp, make animal noises and run a charades game on command, turning the security robot into the evening's entertainment.",
+      "provenance": "observed",
+      "source_url": "https://wagnerstechtalk.com/astro/",
+      "source_label": "Wagner's TechTalk — Astro commands"
+    },
+    {
+      "title": "Greet you at the door with your music",
+      "description": "Because Astro already knows household members by face and follows you room to room playing audio, it could recognize you arriving home and roll over with your evening playlist queued up.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A wandering reading-light companion",
+      "description": "Leaning on its self-navigation and find-a-person skill, Astro could be told to track down a kid at bedtime and park beside them as a moving night-light and lullaby speaker.",
+      "provenance": "proposed"
+    }
+  ]
 }

@@ -1,0 +1,114 @@
+{
+  "name": "DuoSkin",
+  "year": 2016,
+  "organization": ["MIT Media Lab", "Microsoft Research"],
+  "project_type": "research_prototype",
+  "short_description": "A fabrication process for making jewelry-like on-skin interfaces from gold leaf that sense touch, display thermochromic output, and communicate over NFC.",
+  "long_description": "DuoSkin is a research prototype and fabrication method that lets people create customized functional devices applied directly to the skin like temporary metallic tattoos, using inexpensive, skin-friendly gold leaf as the conductive material. Gold-leaf traces support three interaction modalities: capacitive touch input (buttons, sliders, 2D trackpads), thermochromic color-changing displays driven by resistive heating, and wireless NFC communication via custom gold-leaf coils. As a piece of physical AI / interaction-design work it matters because it reframes the body itself as an aesthetic, intimate interface surface, pushing wearable computing toward the most proximal possible embodiment while foregrounding ornamentation and self-expression rather than utilitarian gadgetry.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/2971763.2971777",
+  "ai_embedded": "none",
+  "ai_note": "DuoSkin is a materials-and-fabrication technique for on-skin sensing, thermochromic actuation, and NFC; no AI or machine learning runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Wearable"],
+    "embodiment.materiality": ["Gold leaf", "Thermochromic pigment", "Skin"],
+    "embodiment.mobility": ["Body-worn"],
+    "embodiment.proximity": ["On-body"],
+    "embodiment.actuation": ["Thermochromic display"],
+    "intelligence.input": ["Touch"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Wearable computing", "Tangible user interfaces"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 2,
+    "scale": 1,
+    "social_legibility": 2,
+    "expressiveness": 4,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-duoskin-001",
+      "caption": "Gold-leaf DuoSkin on-skin devices worn as jewelry-like temporary tattoos, supporting touch input, thermochromic display, and NFC.",
+      "image_type": "research_figure",
+      "source_url": "https://duoskin.media.mit.edu/img/jewelry_v2.jpg",
+      "rights_status": "needs_permission",
+      "alt_text": "Close-up of a person's skin decorated with metallic gold temporary-tattoo patterns that function as on-skin electronic interfaces resembling jewelry."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-duoskin-001",
+      "title": "DuoSkin: Rapidly Prototyping On-Skin User Interfaces Using Skin-Friendly Materials",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2971763.2971777",
+      "publisher": "ACM (ISWC '16)",
+      "year": 2016
+    },
+    {
+      "source_id": "source-duoskin-002",
+      "title": "DuoSkin",
+      "source_type": "project_page",
+      "url": "https://duoskin.media.mit.edu/",
+      "publisher": "MIT Media Lab",
+      "year": 2016
+    },
+    {
+      "source_id": "source-duoskin-003",
+      "title": "DuoSkin: Rapidly Prototyping On-Skin User Interfaces Using Skin-Friendly Materials",
+      "source_type": "lab_page",
+      "url": "https://www.microsoft.com/en-us/research/publication/duoskin-rapidly-prototyping-skin-user-interfaces-using-skin-friendly-materials/",
+      "publisher": "Microsoft Research",
+      "year": 2016
+    }
+  ],
+  "interactions": [
+    {
+      "title": "A music controller stuck to your arm",
+      "description": "In the project's workshops, people laid out gold-leaf buttons and sliders as a temporary tattoo on their forearm and tapped or swiped along their own skin to control music playback, each layout shaped to their personal aesthetic.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2971763.2971777",
+      "source_label": "DuoSkin paper (ISWC '16)"
+    },
+    {
+      "title": "Swipe a trackpad drawn on your skin",
+      "description": "A two-layer gold-leaf patch forms a 2D touchpad that senses where a fingertip lands using row-column scanning, so you can drag across a pattern on your forearm the way you would a laptop trackpad.",
+      "provenance": "documented",
+      "source_url": "https://duoskin.media.mit.edu/",
+      "source_label": "DuoSkin project page (MIT Media Lab)"
+    },
+    {
+      "title": "A tattoo that changes color with your mood",
+      "description": "Thermochromic pigment over a gold-leaf heating element shifts color when warmed past body temperature, so a tattoo can be driven to glow or change shade to display the wearer's mood on the skin itself.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2971763.2971777",
+      "source_label": "DuoSkin paper (ISWC '16)"
+    },
+    {
+      "title": "Tap your skin to share data",
+      "description": "A coil cut from gold leaf turns part of the tattoo into an NFC tag, so holding the decorated patch of skin near a phone or reader transmits stored information contactlessly.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2971763.2971777",
+      "source_label": "DuoSkin paper (ISWC '16)"
+    },
+    {
+      "title": "Jewelry that doubles as an interface",
+      "description": "Because the conductive traces are gold leaf shaped like ornamental designs, the working buttons, displays, and coils look like jewelry or body art, blurring the line between a decorative temporary tattoo and a functional device.",
+      "provenance": "documented",
+      "source_url": "https://duoskin.media.mit.edu/",
+      "source_label": "DuoSkin project page (MIT Media Lab)"
+    },
+    {
+      "title": "A wearable mood ring for two",
+      "description": "Two people could wear matching thermochromic patches wired to read each other's skin temperature over NFC, so each tattoo shifts color to reflect the other person's warmth, building on DuoSkin's real heat-driven display and contactless coil.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A concealed transit pass on the wrist",
+      "description": "An NFC coil patterned as a bracelet-like tattoo could carry a transit or door-access credential, letting someone tap their bare wrist at a turnstile without carrying a card, using the same gold-leaf coil the authors demonstrated.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

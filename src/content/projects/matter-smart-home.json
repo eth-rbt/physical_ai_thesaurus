@@ -69,5 +69,52 @@
       "access_notes": "Background on the 1.0 specification release on 4 October 2022."
     }
   ],
+  "interactions": [
+    {
+      "title": "One lock, two homes",
+      "description": "Pair a smart lock once and have it appear in both Apple Home and Google Home at the same time — your partner controls it from Android, you from an iPhone, no re-pairing.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/en-us/102135",
+      "source_label": "Apple Support — pair and manage Matter accessories"
+    },
+    {
+      "title": "Point your camera at the sticker",
+      "description": "Unbox a new bulb or plug, scan the QR code on it with your phone, and the device joins your network without an account or brand-specific app.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/en-us/102135",
+      "source_label": "Apple Support — pair and manage Matter accessories"
+    },
+    {
+      "title": "The house preheats when power is cheap",
+      "description": "With Matter 1.4, a heat pump, home battery, and EV charger report their energy needs to a home energy manager, which shifts the car's charging and the pump's warm-up into off-peak hours.",
+      "provenance": "documented",
+      "source_url": "https://csa-iot.org/newsroom/matter-1-4-enables-more-capable-smart-homes/",
+      "source_label": "CSA — Matter 1.4 enables more capable smart homes"
+    },
+    {
+      "title": "A hobbyist hub that runs when the cloud is down",
+      "description": "People run Home Assistant as a Matter controller and commission devices straight onto their own local network, so lights and locks keep responding even with the internet unplugged.",
+      "provenance": "observed",
+      "source_url": "https://www.home-assistant.io/integrations/matter/",
+      "source_label": "Home Assistant — Matter integration"
+    },
+    {
+      "title": "Smuggling a custom setup back into Apple Home",
+      "description": "Tinkerers use the Home Assistant Matter Hub to re-expose their hand-rolled automations and oddball devices as standard Matter accessories, so Alexa, Apple Home, and Google Home see them locally — no per-device bridge.",
+      "provenance": "observed",
+      "source_url": "https://github.com/t0bst4r/home-assistant-matter-hub",
+      "source_label": "home-assistant-matter-hub (GitHub)"
+    },
+    {
+      "title": "An assistant that reaches every brand at once",
+      "description": "Because Matter is a shared substrate across ecosystems, a home AI could read occupancy sensors and actuate lights, locks, and thermostats from different makers through one fabric instead of juggling per-brand clouds.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Ride out a grid event automatically",
+      "description": "During a peak-demand alert, the home could lean on Matter 1.4's energy device types to discharge the wall battery, pause EV charging, and coast the heat pump on stored heat — all coordinated locally without a person at the app.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

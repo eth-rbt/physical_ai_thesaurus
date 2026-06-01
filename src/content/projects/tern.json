@@ -1,0 +1,127 @@
+{
+  "name": "Tern",
+  "year": 2007,
+  "organization": ["Tufts University HCI Lab"],
+  "project_type": "research_prototype",
+  "short_description": "A tangible programming language for children built from interlocking wooden blocks that a webcam reads via fiducial markers to assemble runnable robot programs.",
+  "long_description": "Tern is a tangible programming interface designed for classroom use in which children snap together jigsaw-shaped wooden blocks representing actions, loops, branches, and subroutines to compose a physical program. A standard webcam photographs the assembled program and the TopCodes computer-vision library detects fiducial markers printed on each block to convert the layout into executable code for robots such as LEGO Mindstorms or iRobot Create. The blocks contain no electronics or power, making the system inexpensive and durable; it matters as physical AI / interaction design because it demonstrates how computation can be made graspable and collaborative through pure tangible interaction rather than embedded intelligence.",
+  "primary_url": "https://doi.org/10.1145/1226969.1227003",
+  "ai_embedded": "none",
+  "ai_note": "The webcam pipeline is fiducial-marker (TopCodes) detection and symbolic compilation, not learned/AI vision; the blocks are passive with no embedded computation.",
+  "attributes": {
+    "embodiment.form": ["Tangible user interface", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.materiality": ["Wood", "Passive / unpowered"],
+    "intelligence.input": ["Vision"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Teacher", "Tool"],
+    "function.task_domain": ["Education", "Programming"],
+    "genealogy.lineage": ["Tangible user interfaces", "Educational technology"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-tern-001",
+      "caption": "Tern's interlocking wooden programming blocks shaped like jigsaw pieces, each printed with a TopCode fiducial marker.",
+      "image_type": "research_figure",
+      "source_url": "https://tufts-hci-lab.github.io/project_images/tern/tangk.jpg",
+      "rights_status": "needs_permission",
+      "alt_text": "A set of flat wooden blocks shaped like jigsaw puzzle pieces, labeled with action words and small circular printed markers, connected together to form a sequence."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-tern-001",
+      "title": "Designing tangible programming languages for classroom use",
+      "source_type": "academic_paper",
+      "url": "https://doi.org/10.1145/1226969.1227003",
+      "publisher": "ACM (Proceedings of TEI '07)",
+      "year": 2007
+    },
+    {
+      "source_id": "source-tern-002",
+      "title": "Tangible programming in the classroom with tern",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/1240866.1240933",
+      "publisher": "ACM (CHI '07 Extended Abstracts)",
+      "year": 2007
+    },
+    {
+      "source_id": "source-tern-003",
+      "title": "Tangible Programming Languages: A practical approach to computer programming in educational settings",
+      "source_type": "lab_page",
+      "url": "https://tufts-hci-lab.github.io/projects/Tangible_Programming_Languages_A_practical_approach_to_computer_programming_in_educational_settings.html",
+      "publisher": "Tufts University HCI Lab",
+      "year": null
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Snap together a program on the floor",
+      "description": "Children lay out jigsaw-shaped wooden blocks on a desk or floor, clicking a START block to a FORWARD, a TURN RIGHT, and another FORWARD to spell out a robot's path; the shapes physically prevent illegal moves, so a STOP block simply won't connect anywhere but the end.",
+      "provenance": "documented",
+      "source_url": "https://doi.org/10.1145/1226969.1227003",
+      "source_label": "Horn & Jacob, TEI '07"
+    },
+    {
+      "title": "Photograph the program to run it",
+      "description": "When a team is satisfied, they carry their assembled blocks to a scanning station, press a single button, and a webcam photographs the layout; the TopCodes vision pipeline reads the markers and compiles the whole program into runnable robot code in a few seconds.",
+      "provenance": "documented",
+      "source_url": "https://doi.org/10.1145/1226969.1227003",
+      "source_label": "Horn & Jacob, TEI '07"
+    },
+    {
+      "title": "Make the robot react with branches and loops",
+      "description": "Kids add a conditional block so the robot moves forward only if it isn't blocked by a wall, and wire a JUMP-to-LAND loop with a coil of wire to repeat steps, building flow-of-control they can see and hold rather than type.",
+      "provenance": "documented",
+      "source_url": "https://doi.org/10.1145/1226969.1227003",
+      "source_label": "Horn & Jacob, TEI '07"
+    },
+    {
+      "title": "Get a picture-pointed error message",
+      "description": "If a block is left dangling and disconnected, the compiler shows the photo of the child's own program with an arrow pointing at the exact spot that went wrong, instead of a cryptic text error.",
+      "provenance": "documented",
+      "source_url": "https://doi.org/10.1145/1226969.1227003",
+      "source_label": "Horn & Jacob, TEI '07"
+    },
+    {
+      "title": "Four teams share one projected world",
+      "description": "Instead of crowding around a single monitor, several teams each build programs at their own tables and send virtual robots into a shared grid world projected on the classroom wall, where the robots can interact in one collaborative problem.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1240866.1240933",
+      "source_label": "Horn & Jacob, CHI '07 EA"
+    },
+    {
+      "title": "Bundle commands into a reusable Skill",
+      "description": "Children define a subroutine with a START SKILL block once, then drop a single skill-action block into the main program to invoke it from anywhere, turning a repeated dance of moves into one named gesture.",
+      "provenance": "documented",
+      "source_url": "https://tufts-hci-lab.github.io/projects/Tangible_Programming_Languages_A_practical_approach_to_computer_programming_in_educational_settings.html",
+      "source_label": "Tufts HCI Lab — Tangible Programming Languages"
+    },
+    {
+      "title": "Light up the sign at Robot Park",
+      "description": "At the permanent Robot Park exhibit in the Boston Museum of Science, visiting families assemble blocks with SHAKE, BEEP and TURN actions plus bump and infrared sensors, press compile, and a real iRobot Create drives off via Bluetooth to a target that lights up and moves the exhibit sign; the study found visitors were far more likely to try the tangible version and to participate as a group.",
+      "provenance": "observed",
+      "source_url": "https://www.justinecassell.com/discourse09/readings/horn.pdf",
+      "source_label": "Horn et al., CHI '09 — Robot Park study"
+    },
+    {
+      "title": "A whole-class debugging huddle",
+      "description": "Because the program is a physical object on the table, a teacher could gather a class around one team's blocks to trace the flow-of-control by hand and rearrange a misplaced loop together — grounded in Tern's passive, electronics-free blocks that anyone can pick up and reconnect.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Accessible coding for low-vision learners",
+      "description": "The distinct jigsaw shapes and physical connectors could let a low-vision child compose and check a program entirely by touch before a sighted partner scans it, leaning on the fact that Tern's syntax is enforced by tactile shape rather than on-screen text.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

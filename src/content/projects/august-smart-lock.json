@@ -60,5 +60,59 @@
       "access_notes": "Company history; first August Smart Lock released May 2013, founded 2012 by Yves Behar and Jason Johnson."
     }
   ],
+  "interactions": [
+    {
+      "title": "The door opens before you reach it",
+      "description": "Walk up with both arms full of groceries and the deadbolt turns itself as your phone's geofence registers that you're home, so you never set the bags down to fish for keys.",
+      "provenance": "documented",
+      "source_url": "https://august.com/products/august-wifi-smart-lock",
+      "source_label": "August — Wi-Fi Smart Lock"
+    },
+    {
+      "title": "It locks the second the door clicks shut",
+      "description": "DoorSense feels the door settle into the frame and throws the bolt instantly, so the lock distinguishes a genuinely closed door from one left ajar instead of blindly locking on a timer.",
+      "provenance": "documented",
+      "source_url": "https://august.com/products/august-wifi-smart-lock",
+      "source_label": "August — Wi-Fi Smart Lock"
+    },
+    {
+      "title": "Ask out loud if you locked up",
+      "description": "From bed you ask Alexa, Siri, or Google whether the front door is locked, and unlock by voice after speaking a PIN — no phone in hand, no trip downstairs.",
+      "provenance": "documented",
+      "source_url": "https://august.com/blogs/home/august-smart-lock-works-with-alexa-siri-the-google-assistant",
+      "source_label": "August — works with voice assistants"
+    },
+    {
+      "title": "Guests let themselves in while you're away",
+      "description": "Airbnb hosts wire the lock to the booking so each guest's code goes live only for the dates of their stay, and the same panel hands a recurring code to the cleaner between bookings.",
+      "provenance": "documented",
+      "source_url": "https://august.com/pages/airbnb",
+      "source_label": "August — Airbnb hosts"
+    },
+    {
+      "title": "Unlocking the door starts the house",
+      "description": "People route the lock through IFTTT so that turning the bolt fires a chain reaction: Hue lights come up, the ecobee shifts to Home, the garage closes — the lock becoming the trigger for an arrival routine August never shipped.",
+      "provenance": "observed",
+      "source_url": "https://ifttt.com/augusthome",
+      "source_label": "IFTTT — August Home applets"
+    },
+    {
+      "title": "The door that unlocks itself for no one",
+      "description": "Owners report the bolt occasionally springing open on its own — usually GPS drift or a geofence overlapping a neighbor's tripping auto-unlock — turning a convenience feature into the most unnerving thing the lock can do.",
+      "provenance": "observed",
+      "source_url": "https://smartlocksguide.com/august-smart-lock-problems/",
+      "source_label": "Smart Locks Guide — August problems"
+    },
+    {
+      "title": "A quiet ping when the kid gets home",
+      "description": "Tie a notification to a named family key so a parent gets a discreet alert the moment that specific person unlocks the door after school — built from the per-user activity feed the lock already keeps.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Flag the day the pattern breaks",
+      "description": "Let the lock learn the household's usual lock-and-leave rhythm from its own log and surface a gentle nudge when something is off — the door left unlocked past the time it's normally secured, or opened at an hour no one is usually home.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

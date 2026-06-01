@@ -1,0 +1,123 @@
+{
+  "name": "Grand Challenges in Shape-Changing Interface Research",
+  "year": 2018,
+  "organization": [
+    "University of Bristol",
+    "Saarland University",
+    "University of Copenhagen",
+    "Eindhoven University of Technology",
+    "Stanford University",
+    "Aalborg University"
+  ],
+  "project_type": "academic_paper",
+  "short_description": "A CHI 2018 agenda paper that synthesizes 12 grand challenges to guide the maturing field of shape-changing interface research.",
+  "long_description": "Authored by Alexander, Roudaut, Steimle, Hornbaek, Bruns Alonso, Follmer, and Merritt, this field-defining paper distills a workshop of 25 experts across design, computer science, HCI, engineering, robotics, and materials science into 12 grand challenges spanning technological, behavioural, and design concerns. Shape-changing interfaces use dynamic changes in a device's physical form as both input and output, making the body of the device itself a medium of interaction rather than a static enclosure for a screen. As a research agenda, it matters to physical AI and interaction design because it frames how dynamic physical embodiment, actuated materials, and morphing form factors should move from one-off prototypes toward coherent theory, evaluation, and ethics.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/3173574.3173873",
+  "ai_embedded": "none",
+  "ai_note": "This is an overview/agenda paper proposing research challenges; it contains no running AI/ML system, and shape-changing interfaces themselves are actuation and tangible-interaction techniques rather than AI.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Domestic object"],
+    "embodiment.actuation": ["Shape-changing"],
+    "embodiment.materiality": ["Actuated materials"],
+    "genealogy.lineage": ["Tangible user interfaces", "Human-computer interaction"],
+    "genealogy.research_community": ["Human-computer interaction"]
+  },
+  "metrics": {
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 2,
+    "autonomy": 1,
+    "expressiveness": 3
+  },
+  "images": [
+    {
+      "image_id": "img-shape-changing-grand-challenges-001",
+      "caption": "Figure from the CHI 2018 paper illustrating shape-changing interface research challenges.",
+      "image_type": "research_figure",
+      "source_url": "https://dl.acm.org/doi/10.1145/3173574.3173873",
+      "rights_status": "needs_permission",
+      "alt_text": "Diagram from an academic paper organizing grand challenges for shape-changing interface research across technological, behavioural, and design categories."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-shape-changing-grand-challenges-001",
+      "title": "Grand Challenges in Shape-Changing Interface Research",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/3173574.3173873",
+      "publisher": "ACM (Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems)",
+      "year": 2018
+    },
+    {
+      "source_id": "source-shape-changing-grand-challenges-002",
+      "title": "Grand Challenges in Shape-Changing Interface Research (author PDF)",
+      "source_type": "academic_paper",
+      "url": "https://hci.cs.uni-saarland.de/wp-content/uploads/publications/alexander_chi18_grand_challenges.pdf",
+      "publisher": "Saarland University, Human-Computer Interaction Lab",
+      "year": 2018
+    },
+    {
+      "source_id": "source-shape-changing-grand-challenges-003",
+      "title": "Grand Challenges in Shape-Changing Interface Research",
+      "source_type": "lab_page",
+      "url": "https://biglab.co.uk/publication/132",
+      "publisher": "Bristol Interaction Group, University of Bristol",
+      "year": 2018
+    }
+  ],
+  "interactions": [
+    {
+      "title": "A phone that grows a game controller",
+      "description": "The paper describes adaptive affordance, where a handheld device physically mutates its form to fit the task at hand — a flat phone bulging into a gamepad with ridges and grips when you launch a game, then flattening again afterward.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/publications/alexander_chi18_grand_challenges.pdf",
+      "source_label": "CHI 2018 paper (author PDF)"
+    },
+    {
+      "title": "Curl the screen away from a stranger's gaze",
+      "description": "As an example of adaptation to the user, the paper cites a device that changes its shape to hide screen content from a passerby — bending or shielding its surface so only the person holding it can see what's displayed on a crowded train.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/publications/alexander_chi18_grand_challenges.pdf",
+      "source_label": "CHI 2018 paper (author PDF)"
+    },
+    {
+      "title": "A notification you feel, not hear, in a meeting",
+      "description": "The authors point to quiet shape-changing notifications that avoid disrupting a meeting: instead of a buzz or chime, a handheld object subtly deforms in your palm to signal an incoming message, so you can read its urgency by touch without looking down.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/publications/alexander_chi18_grand_challenges.pdf",
+      "source_label": "CHI 2018 paper (author PDF)"
+    },
+    {
+      "title": "Grab a bar chart and reshape the data",
+      "description": "Under data physicalization, the paper describes pin-array displays such as inFORM where a dataset rises as a physical 3D bar chart you can reach into and manipulate by hand, exploiting lifelong haptic and visual perception rather than reading numbers off a flat screen.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/publications/alexander_chi18_grand_challenges.pdf",
+      "source_label": "CHI 2018 paper (author PDF)"
+    },
+    {
+      "title": "Eyes-free navigation that nudges your hand",
+      "description": "The paper notes shape-change can convey information haptically: a handheld device deforms to tell you which way to turn while walking a map route, letting you follow directions eyes-free with your phone still in your pocket or your eyes on the street.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/publications/alexander_chi18_grand_challenges.pdf",
+      "source_label": "CHI 2018 paper (author PDF)"
+    },
+    {
+      "title": "Wearables and walls that move for their own sake",
+      "description": "Among hedonic and symbolic uses, the paper points to shape-changing garments, actuated architecture, and works of art — clothing or building facades that morph for aesthetic, sensorial, or expressive pleasure rather than to complete a task.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/publications/alexander_chi18_grand_challenges.pdf",
+      "source_label": "CHI 2018 paper (author PDF)"
+    },
+    {
+      "title": "A surface that firms up around an aching joint",
+      "description": "Building on the paper's 'augment users' theme of smart fabric that changes stiffness around joints, a rehab sleeve could stiffen to gently restrict a recovering knee during one exercise and soften for free movement in the next — grounded in the actuated-materials techniques the agenda calls for.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Feel a molecule before you understand it",
+      "description": "Extending the paper's 'simulate objects' purpose of exposing things humans could not normally grasp, a desktop pin-and-material display could let a chemistry student physically push and feel a protein fold, with the surface dynamically rendering both shape and hardness as in the integration-of-modalities challenge.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

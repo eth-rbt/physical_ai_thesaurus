@@ -66,5 +66,61 @@
       "year": null
     }
   ],
+  "interactions": [
+    {
+      "title": "Wake to a slow sunrise",
+      "description": "Set the bedroom bulbs to fade up over 10 to 30 minutes before your alarm, mimicking a sunrise so you surface out of sleep instead of being jolted awake.",
+      "provenance": "documented",
+      "source_url": "https://www.philips-hue.com/en-us/explore-hue/blog/wake-up",
+      "source_label": "Philips Hue — gentle wake up"
+    },
+    {
+      "title": "Wind down without blue light",
+      "description": "A go-to-sleep automation dims the lights to warm tones and strips out the blue wavelengths that suppress melatonin, nudging the body toward sleep on a schedule.",
+      "provenance": "documented",
+      "source_url": "https://www.philips-hue.com/en-us/explore-hue/blog/home-automation",
+      "source_label": "Philips Hue — home automation"
+    },
+    {
+      "title": "Make an empty house look lived-in",
+      "description": "While you're away, Mimic Presence cycles lights on and off across different rooms on a believable schedule so the home reads as occupied to anyone watching from outside.",
+      "provenance": "documented",
+      "source_url": "https://www.philips-hue.com/en-us/explore-hue/blog/home-automation",
+      "source_label": "Philips Hue — home automation"
+    },
+    {
+      "title": "Flash the whole house red on an intruder",
+      "description": "Paired with Hue Secure cameras and contact sensors, a detected break-in can flash every bulb red and sound the siren at once, turning the lighting itself into a deterrent.",
+      "provenance": "documented",
+      "source_url": "https://www.signify.com/global/our-company/news/press-releases/2023/20230831-philips-hue-integrates-smart-lighting-sensors-and-cameras-to-help-secure-your-home",
+      "source_label": "Signify — Hue Secure announcement"
+    },
+    {
+      "title": "Light that chases the movie",
+      "description": "With the Play HDMI sync box reading the video feed, color-capable bulbs throw matching light past the edges of the TV, so an explosion or a sunset spills into the room in real time.",
+      "provenance": "documented",
+      "source_url": "https://www.philips-hue.com/en-us/explore-hue/propositions/entertainment/sync-with-tv",
+      "source_label": "Philips Hue — sync with TV"
+    },
+    {
+      "title": "Fixing a broken sleep schedule with the hidden Labs",
+      "description": "A user who moved time zones rigged a Personal Wake-up Lab formula to fade the bedroom up to 70% at 8am and a time-based formula to dim to warm tones by night, and reports waking naturally on the dot for two winters running.",
+      "provenance": "observed",
+      "source_url": "https://www.androidauthority.com/hue-lights-sleep-wake-up-3182713/",
+      "source_label": "Android Authority — first-person account"
+    },
+    {
+      "title": "Flash the bulb when the doorbell rings",
+      "description": "Home Assistant tinkerers wire a Hue bulb to a Ring doorbell's ding so the light pulses when someone is at the door — a visual alert for anyone who can't hear the chime.",
+      "provenance": "observed",
+      "source_url": "https://community.home-assistant.io/t/making-my-philips-hue-bulb-flash-when-ring-door-bell-pushed/425993",
+      "source_label": "Home Assistant community thread"
+    },
+    {
+      "title": "Lights that follow you down the hall",
+      "description": "Hue motion sensors already trip lights on entry; chaining a sequence of them along a hallway or stairwell could let a warm pool of light travel just ahead of you at night, then fade behind, using only motion input and the Zigbee mesh the system already runs.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

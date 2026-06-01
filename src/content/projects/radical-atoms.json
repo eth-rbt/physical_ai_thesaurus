@@ -1,0 +1,115 @@
+{
+  "name": "Radical Atoms",
+  "year": 2012,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "concept",
+  "short_description": "A vision for transformable physical materials that are as dynamically reconfigurable as on-screen pixels and bidirectionally coupled to an underlying digital model.",
+  "long_description": "Radical Atoms, proposed by Hiroshi Ishii and colleagues at the MIT Media Lab Tangible Media Group, extends the earlier Tangible Bits agenda toward a future in which the material itself becomes the interface. The vision imagines computationally transformable matter that changes its shape, appearance, and properties in real time, kept in two-way sync with a digital model so physical and digital states continuously reflect one another. As physical AI and interaction design, it reframes embodiment itself as a malleable medium rather than a fixed enclosure for computation, anticipating shape-changing and programmable-matter interfaces. It is an articulated vision and research agenda rather than a single built system.",
+  "primary_url": "https://tangible.media.mit.edu/vision/",
+  "ai_embedded": "none",
+  "ai_note": "Radical Atoms is a vision about computationally transformable, bidirectionally coupled materials and tangible interaction; it does not posit or implement AI/ML.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Distributed object ecology"],
+    "embodiment.materiality": ["Transformable / shape-changing material", "Programmable matter"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.model": ["Rule-based system"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"],
+    "genealogy.research_community": ["Human-computer interaction"]
+  },
+  "metrics": {
+    "mobility": 1,
+    "scale": 4,
+    "social_legibility": 1,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-radical-atoms-001",
+      "caption": "Diagram of the Tangible Bits to Radical Atoms progression and the Material User Interface concept from the Tangible Media Group vision page.",
+      "image_type": "system_diagram",
+      "source_url": "https://tangible.media.mit.edu/vision/",
+      "rights_status": "needs_permission",
+      "alt_text": "A conceptual diagram illustrating the evolution from Tangible Bits to Radical Atoms, showing materials whose physical form is bidirectionally coupled with an underlying digital model."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-radical-atoms-001",
+      "title": "Radical Atoms (Vision)",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/vision/",
+      "publisher": "MIT Media Lab, Tangible Media Group",
+      "year": null
+    },
+    {
+      "source_id": "source-radical-atoms-002",
+      "title": "Radical atoms: beyond tangible bits, toward transformable materials",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2065327.2065337",
+      "publisher": "ACM Interactions, Vol. 19 No. 1",
+      "year": 2012
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Sculpt clay that snaps to perfect geometry",
+      "description": "In the Perfect Red scenario, you roll a lump of the material in your hands and it snaps into a true sphere, then join two pieces and the shapes Boolean-add together — physical sculpting that carries CAD logic inside the matter itself.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/perfect-red/",
+      "source_label": "MIT Tangible Media Group — Perfect Red"
+    },
+    {
+      "title": "Cut and pin like a parametric tool",
+      "description": "Draw a line along the surface and tap it with a knife to cut along that spline, or draw ten dots and stick a pin into one to drill all ten holes at once — hand gestures that trigger parametric, repeatable operations in the live material.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/perfect-red/",
+      "source_label": "MIT Tangible Media Group — Perfect Red"
+    },
+    {
+      "title": "Split a piece and edit both halves at once",
+      "description": "Divide the material into two linked parts so that an edit you make to one half is instantly mirrored in the other, keeping the physical object in two-way sync with its underlying computational model.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/perfect-red/",
+      "source_label": "MIT Tangible Media Group — Perfect Red"
+    },
+    {
+      "title": "The material tells you what it can become",
+      "description": "Radical Atoms are framed by three behaviors — transform (change shape to reflect the model), conform (yield to constraints from the environment and your hands), and inform (signal their own dynamic affordances) — so the surface itself shows you the moves it will allow rather than relying on a screen or manual.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/vision/",
+      "source_label": "MIT Tangible Media Group — Vision"
+    },
+    {
+      "title": "Push a pin-array surface up into a 3D model",
+      "description": "inFORM, the group's working shape display built toward this vision, renders 3D content as a grid of motorized pins you can touch and reshape, and pushes back to move real objects sitting on the table — a buildable step toward matter that mirrors a digital model.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/inform/",
+      "source_label": "MIT Tangible Media Group — inFORM"
+    },
+    {
+      "title": "Shake hands with a remote collaborator's shape",
+      "description": "Over a video link, inFORM raises its surface to physically reproduce a distant participant's hands, so a remote person can nudge an object or 'reach across' the table and you feel the shape they make.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/inform/",
+      "source_label": "MIT Tangible Media Group — inFORM"
+    },
+    {
+      "title": "Walk through the vision at the MIT Museum",
+      "description": "The MIT Museum has staged a Radical Atoms exhibition where visitors encounter the Tangible Media Group's transformable-interface work in person, bringing the lab vision out to a public audience.",
+      "provenance": "observed",
+      "source_url": "https://mitmuseum.mit.edu/exhibitions/radical-atoms",
+      "source_label": "MIT Museum — Radical Atoms exhibition"
+    },
+    {
+      "title": "Knead a budget into a hillside",
+      "description": "Press your thumbs into a tabletop of the material to carve a terrain model, and have it conform to a real watershed constraint — every dent reshaping the underlying simulation and snapping back when a rule is violated, grounded in the transform/conform coupling the vision specifies.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Pull a part back to an earlier shape",
+      "description": "Because each physical edit is bound to a computational model, you could scrub the object's history — flatten a finished bracket back to its blank and replay the changes — treating undo and version control as something you do with your hands on the material.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

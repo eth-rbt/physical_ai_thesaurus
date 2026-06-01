@@ -1,0 +1,100 @@
+{
+  "name": "The Coming Age of Calm Technology",
+  "year": 1997,
+  "organization": ["Xerox PARC"],
+  "project_type": "academic_paper",
+  "short_description": "Weiser and Brown's foundational essay arguing that ubiquitous computing should engage the periphery of attention so technology stays calm and in the background.",
+  "long_description": "Written by Mark Weiser and John Seely Brown of Xerox PARC and published in the 1997 Springer volume Beyond Calculation: The Next Fifty Years of Computing, this essay introduces 'calm technology' as a design philosophy for a world saturated with embedded computation. Its central claim is that human attention is the scarce resource: well-designed systems should move smoothly between the center and the periphery of our awareness, informing without demanding focus (illustrated by examples such as the 'Dangling String' ambient network monitor). The essay is a cornerstone reference for physical AI and interaction design because it frames how embodied, ambient, and tangible systems should occupy the environment without overwhelming the people who live among them.",
+  "primary_url": "https://link.springer.com/chapter/10.1007/978-1-4612-0685-9_6",
+  "ai_embedded": "none",
+  "ai_note": "This is a conceptual design essay, not a working system; it describes ambient and peripheral interaction principles and contains no AI/ML.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system"],
+    "embodiment.mobility": ["Fixed"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Ubiquitous computing", "Ambient intelligence", "Tangible user interfaces"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 5,
+    "social_legibility": 1,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-coming-age-of-calm-technology-001",
+      "caption": "Opening page of Weiser and Brown's 'The Coming Age of Calm Technology' as published in Beyond Calculation.",
+      "image_type": "research_figure",
+      "source_url": "https://link.springer.com/chapter/10.1007/978-1-4612-0685-9_6",
+      "rights_status": "needs_permission",
+      "alt_text": "Title page of the academic essay 'The Coming Age of Calm Technology' by Mark Weiser and John Seely Brown."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-coming-age-of-calm-technology-001",
+      "title": "The Coming Age of Calm Technology",
+      "source_type": "academic_paper",
+      "url": "https://link.springer.com/chapter/10.1007/978-1-4612-0685-9_6",
+      "publisher": "Springer (in Beyond Calculation: The Next Fifty Years of Computing)",
+      "year": 1997
+    },
+    {
+      "source_id": "source-coming-age-of-calm-technology-002",
+      "title": "The Coming Age of Calm Technology",
+      "source_type": "documentation",
+      "url": "https://calmtech.com/papers/coming-age-calm-technology",
+      "publisher": "calmtech.com",
+      "year": 1996
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Read the network from a string in the hallway",
+      "description": "Walk past Natalie Jeremijenko's 'Dangling String' and watch an eight-foot plastic cord twitch and whirl with each packet of Ethernet traffic, so you sense whether the network is busy or quiet without ever looking at a screen.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/coming-age-calm-technology",
+      "source_label": "Weiser & Brown — The Coming Age of Calm Technology"
+    },
+    {
+      "title": "Glance through an inner office window",
+      "description": "Catch motion in the hallway through a glass office window and read it as a cue — people heading to lunch, a meeting forming, or a colleague pausing because they want to chat — picking up the signal at the edge of attention without anyone having to interrupt you.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/coming-age-calm-technology",
+      "source_label": "Weiser & Brown — The Coming Age of Calm Technology"
+    },
+    {
+      "title": "Notice the one engine noise that matters",
+      "description": "While driving, your attention rests on the road and conversation, not the hum of the engine — but an unusual rattle jumps instantly to the center of your awareness, the essay's illustration of how the periphery quietly monitors and promotes only what changes.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/coming-age-calm-technology",
+      "source_label": "Weiser & Brown — The Coming Age of Calm Technology"
+    },
+    {
+      "title": "Keep a remote room as a window of awareness",
+      "description": "Leave a continuous video feed of a distant office running like a window rather than a meeting — you absorb whether the space is busy, who is around, and the general rhythm of the day from the periphery, glancing over only when something there draws you in.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/coming-age-calm-technology",
+      "source_label": "Weiser & Brown — The Coming Age of Calm Technology"
+    },
+    {
+      "title": "Attune to body language over a video link",
+      "description": "On a video connection you pick up nuances of posture and facial expression that a phone call hides, letting a remote presence sit comfortably in your peripheral awareness instead of demanding focused listening.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/coming-age-calm-technology",
+      "source_label": "Weiser & Brown — The Coming Age of Calm Technology"
+    },
+    {
+      "title": "Feel your home's energy use as ambient motion",
+      "description": "Apply the Dangling String principle to a household meter — a slowly drifting object in the hallway that quickens when many appliances run — so a family senses its energy draw at the edge of attention and notices the unusual spike without staring at a dashboard.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Let a shared workspace breathe in the periphery",
+      "description": "Render a distributed team's activity as a soft ambient surface — light or gentle sound that swells when collaborators are heads-down and stills when they step away — extending the 'window of awareness' idea so presence informs without pinging.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

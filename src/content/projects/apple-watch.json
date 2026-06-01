@@ -60,5 +60,59 @@
       "access_notes": "Confirms announcement September 2014 and release April 24, 2015, plus sensor and feature history."
     }
   ],
+  "interactions": [
+    {
+      "title": "It calls for help when you go still",
+      "description": "After a hard fall it taps your wrist and starts a countdown; if you don't move for about a minute it dials emergency services on its own and reads out your location. People have been pulled off cliffsides and bathroom floors this way.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/en-us/108896",
+      "source_label": "Apple Support — Fall Detection"
+    },
+    {
+      "title": "A tap on the wrist that says 'see a cardiologist'",
+      "description": "Between glances at the time, it quietly samples your pulse in the background and, if several readings look irregular, warns you of a rhythm that may be atrial fibrillation. For many wearers it's the first hint of a heart condition they had no symptoms of.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/en-us/120276",
+      "source_label": "Apple Support — heart health notifications"
+    },
+    {
+      "title": "It listens to you breathe while you sleep",
+      "description": "Worn to bed, it uses the accelerometer to track how your body moves with each breath, and after weeks of disturbed nights it hands you a notification — and a PDF to take to a doctor — suggesting possible sleep apnea.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/en-us/120031",
+      "source_label": "Apple Support — sleep apnea notifications"
+    },
+    {
+      "title": "Press your wrist to talk to someone far away",
+      "description": "Hold the talk button and speak, and your voice crackles out of a relative's watch across the country a second later, like a walkie-talkie with no range limit — parents and kids use it to check in without dialing.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/en-us/108416",
+      "source_label": "Apple Support — Walkie-Talkie"
+    },
+    {
+      "title": "The rollercoaster that dials 911",
+      "description": "The same accelerometer that catches car crashes can't tell a thrill ride from a wreck. Riders at Kings Island and Six Flags have stepped off coasters to find their watch had already auto-called emergency dispatchers, flooding park-area 911 lines with phantom crashes.",
+      "provenance": "observed",
+      "source_url": "https://www.macworld.com/article/1349829/rollercoaster-crash-detection-iphone-14-apple-watch.html",
+      "source_label": "Macworld"
+    },
+    {
+      "title": "Pacing the living room at 11:45 to close the rings",
+      "description": "The three daily rings turn movement into a streak you can break, and some wearers describe walking laps of an airport or shaking their wrist in class to avoid losing it — a few have ditched the watch entirely to escape the pressure.",
+      "provenance": "observed",
+      "source_url": "https://fortune.com/well/2025/01/24/apple-watch-bullied-burn-calories-close-rings-obsession-fitness-trackers-notifications/",
+      "source_label": "Fortune Well"
+    },
+    {
+      "title": "Notifications you feel instead of hear",
+      "description": "Deaf and hard-of-hearing wearers turn up the Taptic Engine so a text or a doorbell arrives as a distinct pattern of taps on the wrist — a quiet channel that works in a loud room or when the phone is buried in a bag. Grounded in the watch's haptic engine and always-on body contact.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A nudge to stand before the meeting drags on",
+      "description": "Reading its accelerometer and your calendar, the watch could time its hourly stand reminder to land in the gap between back-to-back meetings rather than mid-sentence — using the motion sensing and on-device timing it already runs.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

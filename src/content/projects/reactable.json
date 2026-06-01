@@ -1,0 +1,126 @@
+{
+  "name": "reacTable",
+  "year": 2007,
+  "organization": ["Music Technology Group, Universitat Pompeu Fabra"],
+  "project_type": "research_prototype",
+  "short_description": "A round, multi-user tangible tabletop instrument where physical pucks are arranged to patch a modular synthesizer in real time.",
+  "long_description": "The reacTable is a translucent round table on which performers place and rotate physical objects (tangibles) that represent the modules of a modular synthesizer; their positions, orientations, and proximities dynamically patch and parameterize the audio graph, with the connections and waveforms projected back onto the table surface. A camera beneath the table tracks fiducial markers on the underside of each puck via the reacTIVision computer-vision system, communicated through the TUIO protocol. It is a landmark tangible user interface for collaborative live music, demonstrating how shared, graspable physical objects can make a complex generative system legible and playable by multiple people at once.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/1226969.1226998",
+  "ai_embedded": "none",
+  "ai_note": "The system uses fiducial-marker computer vision (reacTIVision) and audio synthesis rules; no machine learning or AI model runs inside it.",
+  "attributes": {
+    "embodiment.form": ["Distributed object ecology", "Architectural / environmental system", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Vision", "Touch", "Gesture"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Creative collaborator", "Performer"],
+    "genealogy.lineage": ["Tangible user interfaces"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 4,
+    "social_legibility": 2,
+    "expressiveness": 4,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-reactable-001",
+      "caption": "A reacTable in use, showing tangible pucks and projected synth connections on the round translucent surface (Altman Center, 2007).",
+      "image_type": "interaction_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Reactable_Multitouch.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A glowing round translucent table in a dark room with several small physical blocks arranged on its surface and bright projected lines connecting them, with a person's hands interacting.",
+      "local_image": "/projects/reactable.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-reactable-001",
+      "title": "The reacTable: exploring the synergy between live music performance and tabletop tangible interfaces",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/1226969.1226998",
+      "publisher": "ACM (Proceedings of TEI 2007)",
+      "year": 2007
+    },
+    {
+      "source_id": "source-reactable-002",
+      "title": "Reactable - Music Technology Group, Universitat Pompeu Fabra",
+      "source_type": "lab_page",
+      "url": "https://www.upf.edu/web/mtg/reactable",
+      "publisher": "Music Technology Group, Universitat Pompeu Fabra",
+      "year": null
+    },
+    {
+      "source_id": "source-reactable-003",
+      "title": "reacTIVision: a computer-vision framework for table-based tangible interaction",
+      "source_type": "project_page",
+      "url": "https://reactivision.sourceforge.net/",
+      "publisher": "Martin Kaltenbrunner and Ross Bencina",
+      "year": null
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Rotate a puck to bend its pitch",
+      "description": "A performer twists an oscillator puck by hand and its frequency slides up or down in real time, with the change shown as a tightening or loosening waveform projected around the object.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1226969.1226998",
+      "source_label": "reacTable paper (TEI 2007)"
+    },
+    {
+      "title": "Patch a synth by sliding objects together",
+      "description": "Dropping a filter puck between an oscillator and the central output makes the connections snap into place automatically — the system links the oscillator into the filter and the filter into the output purely from proximity, drawing bright lines between them.",
+      "provenance": "documented",
+      "source_url": "https://www.upf.edu/web/mtg/reactable",
+      "source_label": "MTG, Universitat Pompeu Fabra"
+    },
+    {
+      "title": "Park an LFO nearby to add wobble",
+      "description": "Setting a low-frequency oscillator puck close to a sound generator starts modulating it; nudging it nearer or farther changes how strongly the modulation bites, so vibrato and tremolo become a matter of where you place an object on the table.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1226969.1226998",
+      "source_label": "reacTable paper (TEI 2007)"
+    },
+    {
+      "title": "Draw a level with your fingertip",
+      "description": "Touching the glowing halo that surrounds a puck and dragging a finger around it sets the amplitude of that voice, mixing tangible objects and direct multi-touch on the same lit surface.",
+      "provenance": "documented",
+      "source_url": "https://www.upf.edu/web/mtg/reactable",
+      "source_label": "MTG, Universitat Pompeu Fabra"
+    },
+    {
+      "title": "Lock everything to a scale with the tonalizer",
+      "description": "Placing the tonalizer puck constrains the oscillators on the table to a chosen musical scale, while a sequencer or radar puck spins as a periodic trigger so non-musicians can keep a patch sounding tuneful and in time.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Reactable",
+      "source_label": "Reactable overview"
+    },
+    {
+      "title": "Several hands jamming on one table",
+      "description": "Because the round surface has no front or privileged seat, multiple performers stand around it and rearrange each other's pucks at once, building and dismantling one shared audio graph collaboratively.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1226969.1226998",
+      "source_label": "reacTable paper (TEI 2007)"
+    },
+    {
+      "title": "Björk plays it live on the Volta tour",
+      "description": "Björk made the reacTable a centerpiece instrument of her 2007 Volta world tour, debuting it on stage at Coachella on April 27, 2007 and using it through songs like \"Declare Independence.\"",
+      "provenance": "observed",
+      "source_url": "https://www.upf.edu/web/mtg/news/-/asset_publisher/WM181VyAQipW/content/id/8747382/maximized",
+      "source_label": "MTG/UPF news"
+    },
+    {
+      "title": "A museum floor that teaches synthesis by touch",
+      "description": "Visitors with no studio training rearrange a handful of pucks and immediately hear cause and effect — move the filter closer, the sound brightens — turning an exhibit into a hands-on lesson in how a modular synth is wired.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Tabletop scoring for a tangible game",
+      "description": "Game tokens that already carry fiducial markers could double as sound objects on the same surface, so where a player parks a piece on the board also shapes the live soundtrack — grounded in the table's existing puck-tracking and proximity rules.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

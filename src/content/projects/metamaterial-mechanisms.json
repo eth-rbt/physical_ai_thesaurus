@@ -1,0 +1,119 @@
+{
+  "name": "Metamaterial Mechanisms",
+  "year": 2016,
+  "organization": ["Hasso Plattner Institute", "Carnegie Mellon University"],
+  "project_type": "academic_paper",
+  "short_description": "3D-printed objects whose internal cellular microstructure makes the object itself a working machine, with mechanical function encoded directly in geometry.",
+  "long_description": "Metamaterial Mechanisms, presented by Alexandra Ion and colleagues (including Patrick Baudisch) at UIST 2016, reconceives metamaterials as machines rather than passive materials. By arranging 3D-printed cellular grids that include specialized shearing cells, a single printed block can convert input motion into controlled macroscopic movement, demonstrated through examples such as a door latch that turns rotary handle motion into linear latch motion and a Jansen-style walker. It matters to physical AI and interaction design as a foundational tangible-fabrication technique: behavior lives in the structure and material itself rather than in motors, electronics, or computation, expanding the vocabulary of programmable matter and embodied interaction.",
+  "primary_url": "https://interactive-structures.org/publications/2016-10-metamaterial-mechanisms/",
+  "ai_embedded": "none",
+  "ai_note": "Function is encoded purely in the printed cellular geometry; there is no AI, ML, electronics, or computation running inside the object.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.materiality": ["3D-printed", "Programmable matter", "Metamaterial"],
+    "embodiment.actuation": ["Passive mechanical", "Compliant structure"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces", "Programmable matter", "Personal fabrication"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-metamaterial-mechanisms-001",
+      "caption": "Teaser figure showing a 3D-printed metamaterial door latch whose cellular microstructure converts rotary handle motion into linear latch motion.",
+      "image_type": "research_figure",
+      "source_url": "https://interactive-structures.org/publications/2016-10-metamaterial-mechanisms/",
+      "rights_status": "needs_permission",
+      "alt_text": "A white 3D-printed block made of a fine grid of cells forming a door latch mechanism, with arrows indicating rotational input motion converting to linear output motion."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-metamaterial-mechanisms-001",
+      "title": "Metamaterial Mechanisms",
+      "source_type": "project_page",
+      "url": "https://interactive-structures.org/publications/2016-10-metamaterial-mechanisms/",
+      "publisher": "Interactive Structures Lab, Carnegie Mellon University",
+      "year": 2016
+    },
+    {
+      "source_id": "source-metamaterial-mechanisms-002",
+      "title": "Metamaterial Mechanisms (Proceedings of UIST '16)",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2984511.2984540",
+      "publisher": "ACM",
+      "year": 2016
+    },
+    {
+      "source_id": "source-metamaterial-mechanisms-003",
+      "title": "Metamaterial Mechanisms",
+      "source_type": "lab_page",
+      "url": "https://hpi.de/baudisch/projects/metamaterial-mechanisms.html",
+      "publisher": "Hasso Plattner Institute",
+      "year": 2016
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Turn a handle, throw the latch — no hinges, no screws",
+      "description": "Press down on a one-piece 3D-printed door latch and its internal grid of cells shears, converting the rotary motion of the handle into the straight-line travel that retracts the bolt. The whole machine is a single printed block with no assembled moving parts.",
+      "provenance": "documented",
+      "source_url": "https://interactive-structures.org/publications/2016-10-metamaterial-mechanisms/",
+      "source_label": "Interactive Structures Lab — project page"
+    },
+    {
+      "title": "A block of cells that walks",
+      "description": "Drive a single printed block patterned as a Jansen linkage and its coordinated cells flex in sequence so the whole object steps forward like a walking machine, with the gait encoded entirely in the microstructure rather than in any motor or joint.",
+      "provenance": "documented",
+      "source_url": "https://interactive-structures.org/publications/2016-10-metamaterial-mechanisms/",
+      "source_label": "Interactive Structures Lab — project page"
+    },
+    {
+      "title": "One special cell that does all the work: the shear cell",
+      "description": "Designers compose mechanisms by placing a specialized cell whose only ability is to shear; rigid cells hold shape while shear cells let force route through the block, so pushing on one face produces controlled, predictable movement somewhere else in the solid.",
+      "provenance": "documented",
+      "source_url": "https://interactive-structures.org/publications/2016-10-metamaterial-mechanisms/",
+      "source_label": "Interactive Structures Lab — project page"
+    },
+    {
+      "title": "Draw a machine in a 3D cell editor, then print it",
+      "description": "Instead of CAD-modeling gears and linkages, a maker opens the team's custom 3D editor, paints rigid and shear cells into a grid to lay out the motion they want, and sends the single block straight to a printer with the mechanism already built in.",
+      "provenance": "documented",
+      "source_url": "https://interactive-structures.org/publications/2016-10-metamaterial-mechanisms/",
+      "source_label": "Interactive Structures Lab — project page"
+    },
+    {
+      "title": "Dial a code into a block of plastic to unlock a door",
+      "description": "A follow-on extends the technique into a combination door lock printed as one block: a person turns dials to enter a numeric code, the cell structure itself checks the code, and only a correct entry mechanically releases the latch — computation done purely in geometry.",
+      "provenance": "observed",
+      "source_url": "https://hpi.de/fileadmin/user_upload/fachgebiete/baudisch/projects/metamaterial/digital-metamaterials/2017CHI_Digital_mechanical_metamaterials.pdf",
+      "source_label": "Digital Mechanical Metamaterials (CHI 2017)"
+    },
+    {
+      "title": "Re-grounding the technique for engineers and editors",
+      "description": "A later CHI 2019 paper formalizes how these cell mechanisms deform and constrains them so a tool can simulate and verify a design before printing, turning the original demos into a reusable design method others can build on.",
+      "provenance": "observed",
+      "source_url": "https://interactive-structures.org/publications/2019-05-understanding-mm/",
+      "source_label": "Understanding Metamaterial Mechanisms (CHI 2019)"
+    },
+    {
+      "title": "Assembly-free assistive grips",
+      "description": "Print a one-piece jar opener or pull-tab tool whose shearing cells amplify a weak squeeze into a stronger pinch at the tip — a compliant gripper with no pins or springs to wear out or trap fingers, sized to an individual hand.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Tamper-evident shipping seals",
+      "description": "Embed a metamaterial latch in a printed enclosure so it can only be opened by a specific motion or key shape; the structure stays sealed under any other push or pull, giving a mechanically encoded, electronics-free closure for sensitive packages.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

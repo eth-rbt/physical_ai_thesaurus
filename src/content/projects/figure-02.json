@@ -1,23 +1,45 @@
 {
   "name": "Figure 02",
   "year": 2024,
-  "organization": ["Figure AI"],
+  "organization": [
+    "Figure AI"
+  ],
   "project_type": "commercial_product",
   "short_description": "A general-purpose humanoid robot aimed at manipulation and labor tasks in human environments.",
   "long_description": "A bipedal humanoid with arms, hands, and onboard cameras intended to work in warehouses and other human-shaped spaces. Its anthropomorphic form sets strong expectations of dexterity and instruction-following, which is exactly the expectation-mismatch risk humanoids carry.",
   "primary_url": "https://www.figure.ai/",
   "attributes": {
-    "embodiment.form": ["Humanoid robot"],
-    "embodiment.mobility": ["Legged"],
-    "intelligence.input": ["Vision", "Force / torque", "Speech"],
-    "intelligence.model": ["Vision-language-action model", "Robotics foundation model"],
-    "function.role": ["Coworker", "Manufacturing worker"],
-    "genealogy.lineage": ["Human-robot interaction", "Industrial automation"]
+    "embodiment.form": [
+      "Humanoid robot"
+    ],
+    "embodiment.mobility": [
+      "Legged"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Force / torque",
+      "Speech"
+    ],
+    "intelligence.model": [
+      "Vision-language-action model",
+      "Robotics foundation model"
+    ],
+    "function.role": [
+      "Coworker",
+      "Manufacturing worker"
+    ],
+    "genealogy.lineage": [
+      "Human-robot interaction",
+      "Industrial automation"
+    ]
   },
   "metrics": {
     "social_legibility": 5,
     "proximity": 2,
-    "mobility": 3
+    "mobility": 3,
+    "autonomy": 4,
+    "form_specificity": 5,
+    "generality": 4
   },
   "images": [
     {
@@ -39,6 +61,62 @@
       "publisher": "Figure AI",
       "year": 2024,
       "access_notes": "Company site."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Load sheet metal onto the welding line",
+      "description": "On the floor at BMW Spartanburg, the robot picks sheet-metal parts from a rack and seats them on a welding fixture within a 5 mm tolerance, working 10-hour shifts that helped build over 30,000 X3 vehicles.",
+      "provenance": "documented",
+      "source_url": "https://www.figure.ai/news/production-at-bmw",
+      "source_label": "Figure — production at BMW"
+    },
+    {
+      "title": "Put the groceries away when simply asked",
+      "description": "Tell the pair of robots \"can you put these away?\" and they survey the counter, divide up unfamiliar items, open the fridge and drawers, and stow each thing — then close the drawer and shut the fridge without being told.",
+      "provenance": "documented",
+      "source_url": "https://www.figure.ai/news/helix",
+      "source_label": "Figure — Helix"
+    },
+    {
+      "title": "Hand the cookies to the robot on your right",
+      "description": "Two Figure 02 units running identical Helix weights coordinate purely from plain-language prompts — \"hand the bag of cookies to the robot on your right\" — passing objects between them with no pre-programmed choreography or assigned roles.",
+      "provenance": "documented",
+      "source_url": "https://www.figure.ai/news/helix",
+      "source_label": "Figure — Helix"
+    },
+    {
+      "title": "Pick up 'the desert item'",
+      "description": "Asked for an abstract category rather than a named object, the robot reasons over the scene and plucks a toy cactus from a pile of unfamiliar things — grounding language in vision without a per-object demonstration.",
+      "provenance": "documented",
+      "source_url": "https://newatlas.com/robotics/helix-vla-figure-02-robot/",
+      "source_label": "New Atlas hands-on"
+    },
+    {
+      "title": "Pat a wrinkled poly bag flat to read its barcode",
+      "description": "Sorting packages for an hour straight, the robot meets a soft mailer whose label lies on a curved surface and briefly presses and smooths it flat so the scanner can see the barcode — a tactic that emerged from training data, never explicitly programmed.",
+      "provenance": "observed",
+      "source_url": "https://www.figure.ai/news/scaling-helix-logistics",
+      "source_label": "Figure — scaling Helix logistics"
+    },
+    {
+      "title": "The uncanny pause where two robots 'stare' at each other",
+      "description": "Watching the kitchen demo, observers noticed the two units freeze and seem to look at one another between handoffs — a telepathic-looking beat that reads as deliberation but is really the shared policy resolving who acts next.",
+      "provenance": "observed",
+      "source_url": "https://www.therobotreport.com/figure-humanoid-robots-demonstrate-helix-model-household-chores/",
+      "source_label": "The Robot Report"
+    },
+    {
+      "title": "Alpha-test life in a real, messy home",
+      "description": "Figure plans early in-home testing where the same body that loaded car panels must instead navigate uneven lighting, scattered clutter, pets, and stairs while doing chores like food prep — a far harder, less structured world than the factory.",
+      "provenance": "documented",
+      "source_url": "https://techcrunch.com/2025/02/27/figure-will-start-alpha-testing-its-humanoid-robot-in-the-home-in-2025/",
+      "source_label": "TechCrunch"
+    },
+    {
+      "title": "Voice-direct a tote-to-shelf restock",
+      "description": "A worker could speak a stocking goal — \"empty this tote onto the second shelf, fragile items at the front\" — and let the robot interpret and execute it, building on the same language-grounded pick-and-place and barcode handling it already does in logistics demos.",
+      "provenance": "proposed"
     }
   ],
   "confidence": "medium"

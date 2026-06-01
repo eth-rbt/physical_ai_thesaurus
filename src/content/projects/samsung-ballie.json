@@ -60,5 +60,52 @@
       "access_notes": "Reports bowling-ball size, spatial LiDAR, dual-lens 1080p projector, 2-3 hour battery."
     }
   ],
+  "interactions": [
+    {
+      "title": "Lie on the floor and the movie follows you up to the ceiling",
+      "description": "Ballie detects your posture and facial angle and repositions its dual-lens projector accordingly — casting a workout video onto the wall while you stand, then onto the ceiling once you lie down on the mat.",
+      "provenance": "documented",
+      "source_url": "https://www.digitaltrends.com/home/samsung-ballie-ces-2024-new-details/",
+      "source_label": "Digital Trends — CES 2024 hands-on"
+    },
+    {
+      "title": "Calms the dog while you are out",
+      "description": "Spotting the dog getting into mischief on its patrol, Ballie rolls over, triggers a connected feeder to dispense food, and projects a moving video onto the floor for the pet to chase — then sends you a clip of it on your phone.",
+      "provenance": "documented",
+      "source_url": "https://www.cepro.com/control/whole-house-systems/samsung-reintroduces-ballie-robot-smart-home-hub-with-ai-features/",
+      "source_label": "CE Pro — Ballie features"
+    },
+    {
+      "title": "Blasts the old window AC with an infrared zap",
+      "description": "Beyond SmartThings gadgets, Ballie carries an infrared transmitter, so it can roll up and switch on \"dumb\" devices like an older air conditioner or a pre-smart TV the way a remote would.",
+      "provenance": "documented",
+      "source_url": "https://techcrunch.com/2024/01/08/samsung-brings-back-ballie-its-home-robot-at-ces-2024-with-a-few-upgrades/",
+      "source_label": "TechCrunch — CES 2024"
+    },
+    {
+      "title": "\"Hey Ballie, how do I look?\"",
+      "description": "Standing in front of it while getting dressed, you ask Ballie how your outfit reads; using its camera and the onboard Gemini model, it offers styling suggestions for the day ahead.",
+      "provenance": "documented",
+      "source_url": "https://techcrunch.com/2025/04/09/samsung-adds-google-gemini-ai-assistant-to-its-home-robot-ballie/",
+      "source_label": "TechCrunch — Gemini on Ballie"
+    },
+    {
+      "title": "The companion that never quite moves in",
+      "description": "First teased in 2020 and re-demoed every CES since, Ballie has been repeatedly delayed and, by 2026, indefinitely shelved — reporters note Samsung itself struggled to say what a $2,000 rolling robot is for when homes already have speakers, tablets, and a vacuum.",
+      "provenance": "observed",
+      "source_url": "https://www.sammobile.com/opinion/samsung-ballie-whirs-to-a-halt-as-it-misses-usa-summer-launch-window/",
+      "source_label": "SamMobile — missed launch window"
+    },
+    {
+      "title": "Projects the recipe onto the counter, not a phone you have to wipe",
+      "description": "Because it can already aim a focused image onto any nearby surface and tracks where you are standing, Ballie could throw the next step of a recipe onto the kitchen counter beside you so messy hands never touch a screen.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Walks a guest to the spare room using its floor map",
+      "description": "Ballie builds a LiDAR floor plan of the home and knows where things are; a visitor could follow the rolling bot down the hall as it projects a soft arrow on the floor and leads them to the guest bedroom.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

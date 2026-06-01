@@ -1,0 +1,121 @@
+{
+  "name": "Cyberguide — Mobile Context-Aware Tour Guide",
+  "year": 1996,
+  "organization": [
+    "Georgia Institute of Technology",
+    "GVU Center"
+  ],
+  "project_type": "research_prototype",
+  "short_description": "A handheld tour guide that used infrared and GPS positioning to deliver place-specific information to visitors — one of the first field-deployed context-aware mobile applications.",
+  "long_description": "Cyberguide was developed at Georgia Tech's Future Computing Environments (FCE) / GVU Center by Sue Long, Dietmar Aust, Gregory Abowd, and Chris Atkeson, with prototypes running from 1995 through 1997. The core system ran on an Apple Newton MessagePad and used a custom IR beacon network to determine a visitor's location and orientation within the GVU Lab, automatically surfacing hypertext-linked exhibit information without manual browsing. A companion outdoor variant, CyBARguide, swapped IR for GPS to cover Atlanta establishments. Cyberguide is a landmark in context-aware computing — among the first field prototypes to make location and orientation first-class inputs that drive application behavior rather than merely being displayed — and a direct ancestor of modern location-aware mobile apps and indoor positioning systems.",
+  "primary_url": "https://sites.cc.gatech.edu/fce/cyberguide/",
+  "ai_embedded": "none",
+  "ai_note": "No machine learning; context-awareness is entirely rule-based: IR beacon signals are decoded into location/orientation and used to look up the matching exhibit record. Intelligence lives in the sensing and retrieval infrastructure, not a statistical or learned model.",
+  "attributes": {
+    "embodiment.form": [
+      "Handheld"
+    ],
+    "embodiment.mobility": [
+      "Handheld"
+    ],
+    "intelligence.input": [
+      "Location",
+      "Motion"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "function.role": [
+      "Assistant",
+      "Memory aid"
+    ],
+    "function.task_domain": [
+      "Navigation",
+      "Education"
+    ],
+    "genealogy.lineage": [
+      "Ubiquitous computing",
+      "Context-aware computing",
+      "Mobile computing"
+    ],
+    "genealogy.interaction": [
+      "Location-aware interaction",
+      "Context-driven retrieval"
+    ]
+  },
+  "metrics": {
+    "proximity": 3,
+    "mobility": 3,
+    "scale": 1,
+    "social_legibility": 1,
+    "form_specificity": 2,
+    "autonomy": 2,
+    "initiative": 3,
+    "memory_span": 1,
+    "visibility": 2,
+    "generality": 2,
+    "intensity": 2,
+    "expressiveness": 1,
+    "timing": 3
+  },
+  "images": [
+    {
+      "image_id": "img-cyberguide-georgia-tech-001",
+      "caption": "Apple Newton MessagePad 100 — the handheld platform on which the original Cyberguide prototype ran, using IR beacon triangulation to detect visitor location and orientation.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Apple_Newton_MessagePad_100.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "An Apple Newton MessagePad 100 handheld computer lying flat, showing its large LCD screen and pen-input surface — the device type used for the Cyberguide context-aware tour guide prototype.",
+      "local_image": "/projects/cyberguide-georgia-tech.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-cyberguide-georgia-tech-001",
+      "title": "Cyberguide: Prototyping Context-Aware Mobile Applications",
+      "source_type": "academic_paper",
+      "url": "https://sites.cc.gatech.edu/fce/cyberguide/pubs/chi96-cyberguide.html",
+      "publisher": "ACM CHI 1996 (Short Paper)",
+      "year": 1996,
+      "access_notes": "Authors: Sue Long, Dietmar Aust, Gregory D. Abowd, Chris Atkeson. GVU Center & College of Computing, Georgia Institute of Technology. The canonical Cyberguide publication describing the Newton-based IR-beacon prototype deployed in the GVU Lab."
+    },
+    {
+      "source_id": "source-cyberguide-georgia-tech-002",
+      "title": "Cyberguide Project Page — Future Computing Environments, Georgia Tech",
+      "source_type": "lab_page",
+      "url": "https://sites.cc.gatech.edu/fce/cyberguide/",
+      "publisher": "Georgia Institute of Technology",
+      "year": 1997,
+      "access_notes": "Official FCE lab page documenting all Cyberguide prototypes (Newton, Palmtop PC I & II, CyBARguide), devices used, positioning technologies (IR beacons and GPS), and publications list including MobiCom'96 and Wireless Networks journal (1997)."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Walk up to an exhibit and the guide opens automatically",
+      "description": "As a visitor moves within range of an IR beacon in the GVU Lab, the Newton MessagePad detects the position and orientation, looks up the matching exhibit, and surfaces its hypertext description — no tapping, no menu navigation.",
+      "provenance": "documented",
+      "source_url": "https://sites.cc.gatech.edu/fce/cyberguide/pubs/chi96-cyberguide.html",
+      "source_label": "CHI'96 — Cyberguide paper"
+    },
+    {
+      "title": "The map updates as you move through the building",
+      "description": "A floor map on the handheld display tracks the visitor's position in real time as they walk from room to room, so orientation in the physical space and the digital guide stay synchronized throughout the tour.",
+      "provenance": "documented",
+      "source_url": "https://sites.cc.gatech.edu/fce/cyberguide/",
+      "source_label": "Georgia Tech FCE — Cyberguide project page"
+    },
+    {
+      "title": "Follow a walking tour of Atlanta bars without a printed map",
+      "description": "The CyBARguide variant replaced IR beacons with GPS to cover outdoor Atlanta establishments, letting a visitor walk a self-guided tour of local bars with location-triggered descriptions and a live GPS dot on a street map.",
+      "provenance": "documented",
+      "source_url": "https://sites.cc.gatech.edu/fce/cyberguide/",
+      "source_label": "Georgia Tech FCE — Cyberguide project page (CyBARguide)"
+    },
+    {
+      "title": "A museum that knows exactly where you are standing",
+      "description": "The same IR beacon + handheld architecture could be dropped into a museum to replace printed audio-tour devices, delivering richer hypertext content keyed to each exhibit's physical location without requiring visitors to punch in exhibit numbers.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

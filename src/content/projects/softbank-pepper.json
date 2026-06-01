@@ -65,5 +65,59 @@
       "access_notes": "Technical reporting on Pepper's emotion engine and sensing."
     }
   ],
+  "interactions": [
+    {
+      "title": "Greeted at the door of a store",
+      "description": "Pepper rolls up as you walk into a shop or bank branch, opens with conversation, and pulls product pages and offers onto the tablet on its chest to help you find or compare things.",
+      "provenance": "documented",
+      "source_url": "https://us.softbankrobotics.com/pepper",
+      "source_label": "SoftBank Robotics America — Pepper"
+    },
+    {
+      "title": "Read for an emotional reaction",
+      "description": "Pepper watches your face and listens to the tone of your voice with its 'emotion engine', then adjusts its replies and gestures to seem upbeat, sympathetic, or playful in response.",
+      "provenance": "documented",
+      "source_url": "https://www.softbank.jp/en/corp/group/sbm/news/press/2014/20140605_01/",
+      "source_label": "SoftBank — Pepper unveiling press release"
+    },
+    {
+      "title": "Cross-examined by Parliament",
+      "description": "In 2018 a Pepper from Middlesex University sat before the UK House of Commons Education Committee and delivered pre-scripted answers — arms and head moving — about how care robots might support older people.",
+      "provenance": "observed",
+      "source_url": "https://abcnews.com/International/robot-presented-evidence-artificial-intelligence-british-parliament-committee/story?id=58529454",
+      "source_label": "ABC News — robot gives evidence to Parliament"
+    },
+    {
+      "title": "Robed as a funeral monk",
+      "description": "A Japanese funeral company dressed Pepper in Buddhist robes and programmed it to chant sutras at services, pitched as a far cheaper stand-in for a human priest.",
+      "provenance": "observed",
+      "source_url": "https://www.digitaltrends.com/cool-tech/pepper-robot-monk-funerals-japan/",
+      "source_label": "Digital Trends — Pepper as a funeral monk"
+    },
+    {
+      "title": "The face that meets you in quarantine",
+      "description": "During COVID-19, masked Peppers staffed reception at Tokyo quarantine hotels, telling arriving patients 'I am cheering for you' and nudging them to rest and eat well — a contactless stand-in for staff who couldn't be in the room.",
+      "provenance": "observed",
+      "source_url": "https://www.thejakartapost.com/life/2020/05/01/im-cheering-for-you-robot-welcome-at-tokyo-quarantine.html",
+      "source_label": "The Jakarta Post — robot welcome at Tokyo quarantine"
+    },
+    {
+      "title": "A predictable partner for autistic children",
+      "description": "Researchers embedded Pepper in a special-needs school, letting autistic children set the pace of interaction; the robot's consistent, low-pressure manner drew steady engagement from a small group and lifted their wellbeing.",
+      "provenance": "observed",
+      "source_url": "https://link.springer.com/article/10.1007/s12369-022-00928-4",
+      "source_label": "Int. Journal of Social Robotics — Pepper in a school for autistic children"
+    },
+    {
+      "title": "Remembers a regular",
+      "description": "Using the face recognition and short-term memory it already runs, Pepper could recognize a repeat customer it greeted last week and open with a callback to that visit instead of a generic hello.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Reads the queue and softens the wait",
+      "description": "With its camera and emotion classifier, Pepper could notice a frustrated person stuck in a long line, roll over, and offer an apology, an explanation, or a quick task on its chest tablet to pass the time.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

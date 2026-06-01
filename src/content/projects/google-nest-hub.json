@@ -60,5 +60,59 @@
       "access_notes": "Release history: Google Home Hub launched Oct 22, 2018; rebranded Nest Hub May 2019; Nest Hub Max Sept 2019."
     }
   ],
-  "confidence": "high"
+  "confidence": "high",
+  "interactions": [
+    {
+      "title": "Sleep that the bedside table watches",
+      "description": "Set the 2nd-gen Hub on a nightstand and its Soli radar reads your breathing and movement through the night, with the mic catching coughs and snores and ambient sensors logging room light and temperature, to hand you a sleep summary at breakfast.",
+      "provenance": "documented",
+      "source_url": "https://blog.google/products/google-nest/new-nest-hub-soli/",
+      "source_label": "Google blog — new Nest Hub"
+    },
+    {
+      "title": "Wake to a fake dawn",
+      "description": "The screen slowly glows from navy to warm gold over the 5–30 minutes before your alarm, with optional birdsong rising underneath, so the room brightens before the buzzer ever sounds.",
+      "provenance": "documented",
+      "source_url": "https://www.techhive.com/article/579642/how-to-set-a-sunrise-alarm-on-a-google-nest-hub-display.html",
+      "source_label": "TechHive — sunrise alarm how-to"
+    },
+    {
+      "title": "An idle slab that becomes a window of faces",
+      "description": "When nobody is talking to it, the Hub falls back to a Photo Frame, cycling Google Photos Live Albums that auto-update with a particular kid or pet, or showing curated art and a clock instead.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/googlenest/answer/9136992?hl=en",
+      "source_label": "Google Nest Help — Photo Frame"
+    },
+    {
+      "title": "Raise a hand across the kitchen to pause",
+      "description": "On the camera-equipped Hub Max, Face Match recognizes who walks up and surfaces just their reminders and calendar, and a raised palm from across the room pauses the music — all processed on-device without sending video to Google.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/googlenest/answer/9449279?hl=en&co=GENIE.Platform%3DAndroid",
+      "source_label": "Google Nest Help — camera sensing"
+    },
+    {
+      "title": "Shout up the stairs without shouting",
+      "description": "Say “Hey Google, broadcast: dinner's ready” and your voice plays out of every Nest speaker and display in the house at once, with whoever's downstairs able to reply straight back.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/googlenest/answer/7531913?hl=en&co=GENIE.Platform%3DAndroid",
+      "source_label": "Google Nest Help — Broadcast"
+    },
+    {
+      "title": "The kitchen gadget that quietly stopped cooking",
+      "description": "People who bought the Hub for hands-free, step-by-step recipes found Google removed the cookbook and saved-recipe feature in 2024, leaving cooks to fall back on a crash-prone YouTube workaround and venting on the Nest forums.",
+      "provenance": "observed",
+      "source_url": "https://piunikaweb.com/2024/03/25/nest-hub-google-assistant-cookbook-and-saved-recipes/",
+      "source_label": "PiunikaWeb — cookbook removal"
+    },
+    {
+      "title": "A room that lifts its own brightness",
+      "description": "Because the Hub already carries an ambient light sensor for Ambient EQ, a routine could let it nudge connected smart bulbs up or down to match the room as dusk falls — using sensing it does today only to tune its own screen.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Presence-aware quiet hours",
+      "description": "The bedside Soli radar already knows when someone is in front of it; that same motion sensing could hold notifications and dim the display the moment it detects you've settled into bed, without a camera or a wearable.",
+      "provenance": "proposed"
+    }
+  ]
 }

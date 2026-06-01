@@ -1,0 +1,124 @@
+{
+  "name": "Google Now",
+  "year": 2012,
+  "organization": ["Google"],
+  "project_type": "platform",
+  "short_description": "A proactive context-aware assistant that delivered unrequested 'cards' based on location, calendar, search history, and time-of-day — the first mainstream push-model ambient assistant.",
+  "long_description": "Google Now launched with Android 4.1 'Jelly Bean' in July 2012 as the first mainstream system to fuse location, calendar appointments, search history, and time-of-day into a continuous stream of proactively delivered information cards. Rather than waiting to be asked, it predicted what users needed — a boarding pass surfaced before a flight, commute traffic before the morning departure, a weather card as a storm approached — defining the ambient push model of context-aware computing. Popular Science named it 'Innovation of the Year' for 2012. The 'Google Now' branding was phased out around 2016 in favour of the Google Feed (later Discover), and its two-way-conversation successor, Google Assistant, was announced at Google I/O 2016.",
+  "primary_url": "https://en.wikipedia.org/wiki/Google_Now",
+  "ai_embedded": "core",
+  "ai_note": "Uses machine learning to rank and surface personalized cards from fused signals — search history, location patterns, calendar data, and behavioral signals — entirely without explicit user queries.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Wearable"],
+    "embodiment.mobility": ["Fixed", "Handheld", "Body-worn"],
+    "intelligence.input": ["Location", "Text", "Motion", "Environmental sensors"],
+    "intelligence.model": ["Classical machine learning", "Deep learning"],
+    "function.role": ["Assistant", "Memory aid"],
+    "genealogy.lineage": ["Ubiquitous computing", "Ambient intelligence", "Internet of Things"],
+    "genealogy.interaction": ["Proactive push", "Context-aware computing"]
+  },
+  "metrics": {
+    "proximity": 3,
+    "mobility": 2,
+    "scale": 1,
+    "social_legibility": 1,
+    "form_specificity": 1,
+    "autonomy": 3,
+    "initiative": 5,
+    "memory_span": 3,
+    "visibility": 2,
+    "generality": 4,
+    "intensity": 2,
+    "expressiveness": 1,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-google-now-001",
+      "caption": "A Nexus 7 tablet displaying Google Now cards, photographed August 2012 shortly after the service launched.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nexus_7_with_Google_Now.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A Nexus 7 tablet held in a hand showing the Google Now interface, with a scrollable feed of contextual information cards on screen."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-google-now-001",
+      "title": "Google Now",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Google_Now",
+      "publisher": "Wikipedia",
+      "year": 2012,
+      "access_notes": "Launch date (July 9, 2012, Android 4.1 Jelly Bean), core features, phaseout timeline, and innovation-of-the-year award from Popular Science."
+    },
+    {
+      "source_id": "source-google-now-002",
+      "title": "Google Now Named Popular Science Innovation of the Year 2012",
+      "source_type": "credible_news",
+      "url": "https://www.popsci.com/technology/article/2012-11/best-of-whats-new-2012-innovation-year/",
+      "publisher": "Popular Science",
+      "year": 2012,
+      "access_notes": "Names Google Now as 'Innovation of the Year' for its proactive context-aware card system."
+    },
+    {
+      "source_id": "source-google-now-003",
+      "title": "Google unveils Google Assistant, a big upgrade to Google Now",
+      "source_type": "credible_news",
+      "url": "https://techcrunch.com/2016/05/18/google-unveils-google-assistant-a-big-upgrade-to-google-now/",
+      "publisher": "TechCrunch",
+      "year": 2016,
+      "access_notes": "Documents the Google I/O 2016 announcement of Google Assistant as the conversational successor to Google Now."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "A boarding pass that appears before you ask",
+      "description": "Gmail detects a flight-confirmation email; Google Now surfaces a boarding-pass card with gate, seat, and departure time on the lock screen the morning of the flight — without the user searching for anything.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Google_Now",
+      "source_label": "Wikipedia — Google Now (flight/boarding-pass cards)"
+    },
+    {
+      "title": "Traffic warning that leaves before the jam",
+      "description": "The system reads the user's recurring calendar appointments, infers the usual commute window, and pushes a travel-time card that warns 'leave 15 minutes early today' before gridlock peaks — a prediction rather than a query.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Google_Now",
+      "source_label": "Wikipedia — Google Now (commute/traffic cards)"
+    },
+    {
+      "title": "Sports score for a team you never declared",
+      "description": "By observing which sports-related searches a user ran and which teams they had Googled, Now learned team allegiances and surfaced live scores and match outcomes without any explicit sports preferences being set.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Google_Now",
+      "source_label": "Wikipedia — Google Now (sports cards)"
+    },
+    {
+      "title": "Package tracking from an email you forgot you got",
+      "description": "Now scanned Gmail for shipping confirmations and, as the delivery date approached, posted a tracking card with the latest courier status — surfacing information the user possessed but had not thought to check.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Google_Now",
+      "source_label": "Wikipedia — Google Now (package tracking cards)"
+    },
+    {
+      "title": "Weather card timed to your leaving",
+      "description": "Using a combination of location, calendar events, and typical departure times learned from movement patterns, Now surfaced a rain warning at the moment it mattered — right before the user was likely to walk out the door — rather than on a fixed morning schedule.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Google_Now",
+      "source_label": "Wikipedia — Google Now (weather card)"
+    },
+    {
+      "title": "Discovering a restaurant nearby when you were already looking",
+      "description": "Frequent restaurant searchers in a given area found that Now began surfacing dining suggestions with hours, rating, and walking distance as they moved through a neighborhood — an inferred intent card from location and search-history fusion.",
+      "provenance": "observed",
+      "source_url": "https://en.wikipedia.org/wiki/Google_Now",
+      "source_label": "Wikipedia — Google Now (nearby places)"
+    },
+    {
+      "title": "A card that knows you changed your mind",
+      "description": "Building on the system's existing awareness of calendar events and location history, a future iteration could surface a quiet 'you might be running late — do you want to send a message?' card as the user lingers far from a meeting location — proactive social coordination rather than only information delivery.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

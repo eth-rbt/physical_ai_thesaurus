@@ -1,0 +1,124 @@
+{
+  "name": "Relief",
+  "year": 2010,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "academic_paper",
+  "short_description": "A scalable actuated tabletop shape display with 120 motorized pins that renders and animates 3D forms while sensing users pushing and pulling on its surface.",
+  "long_description": "Relief is an actuated tabletop display whose malleable surface is driven by an array of 120 individually addressable motorized pins, built on low-cost open-source hardware and software to make actuated shape displays scalable. Beyond physically rendering 3D models such as geographic terrain, each pin senses user input like pushing and pulling, turning the display into a bidirectional tangible interface for both output and input. As an early MIT Media Lab shape display, Relief is a direct ancestor of inFORM and Recompose, and it matters to physical AI and interaction design as a foundational demonstration of shape-changing interfaces in which the physical material itself becomes the medium of interaction.",
+  "primary_url": "https://www.media.mit.edu/publications/relief-a-scalable-actuated-shape-display/",
+  "ai_embedded": "none",
+  "ai_note": "Relief is a motorized pin display with mechanical push/pull sensing and no machine learning; intelligence resides in the user and the rendered models, not in any AI component.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Touch", "Force / torque", "Motion"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-relief-shape-display-001",
+      "caption": "The Relief actuated tabletop shape display rendering a 3D terrain surface with its array of 120 motorized pins.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/relief/",
+      "rights_status": "needs_permission",
+      "alt_text": "A tabletop grid of many white cylindrical pins raised to different heights to form a rolling three-dimensional terrain surface, lit by overhead projection."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-relief-shape-display-001",
+      "title": "Relief: A Scalable Actuated Shape Display",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/1709886.1709928",
+      "publisher": "ACM (TEI '10: Proceedings of the Fourth International Conference on Tangible, Embedded, and Embodied Interaction)",
+      "year": 2010
+    },
+    {
+      "source_id": "source-relief-shape-display-002",
+      "title": "Relief: A Scalable Actuated Shape Display",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/project/relief/",
+      "publisher": "MIT Media Lab, Tangible Media Group",
+      "year": 2009
+    },
+    {
+      "source_id": "source-relief-shape-display-003",
+      "title": "Relief: A Scalable Actuated Shape Display (publication record)",
+      "source_type": "lab_page",
+      "url": "https://www.media.mit.edu/publications/relief-a-scalable-actuated-shape-display/",
+      "publisher": "MIT Media Lab",
+      "year": 2010
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Push and pull the surface like clay",
+      "description": "Press a pin down or lift it up with your fingers and the display registers the change, so the same motorized surface that shows you a form also lets you reshape it by hand.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/relief/",
+      "source_label": "MIT Tangible Media Group - Relief"
+    },
+    {
+      "title": "Feel a landscape rise out of the table",
+      "description": "Load a geographic terrain model and the array of 120 pins lifts into hills and valleys you can run your hand across, turning an abstract elevation map into a surface you actually touch.",
+      "provenance": "documented",
+      "source_url": "https://www.media.mit.edu/publications/relief-a-scalable-actuated-shape-display/",
+      "source_label": "MIT Media Lab - Relief publication"
+    },
+    {
+      "title": "Watch a 3D form animate in physical relief",
+      "description": "The pins move in real time to render and animate three-dimensional shapes, so a model can morph, ripple, or play back a sequence as moving physical relief rather than a screen image.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/relief/",
+      "source_label": "MIT Tangible Media Group - Relief"
+    },
+    {
+      "title": "Gesture above the pins to pan, zoom, and rotate",
+      "description": "In the 2.5D follow-up, you hover and wave your hands over the surface to translate, scale, and rotate the content while touching the pins directly, so freehand gestures and direct touch together resolve what a single input alone leaves ambiguous.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2047196.2047268",
+      "source_label": "Direct and Gestural Interaction with Relief (UIST '11)"
+    },
+    {
+      "title": "Drape it in color with a rubber skin and projector",
+      "description": "Stretch a rubber sheet over the pins and project an image onto it, and the moving relief becomes a continuous colored surface where height and imagery line up across the whole tabletop.",
+      "provenance": "documented",
+      "source_url": "https://dataphys.org/list/daniel-leithingers-interactive-shape-displays/",
+      "source_label": "dataphys.org - Leithinger's shape displays"
+    },
+    {
+      "title": "Build your own from off-the-shelf parts",
+      "description": "Because the 120 pins run on a low-cost open-source hardware and software platform, other researchers can replicate and scale up the display rather than depend on one bespoke rig.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1709886.1709928",
+      "source_label": "Relief: A Scalable Actuated Shape Display (TEI '10)"
+    },
+    {
+      "title": "Crowds reach out and play at Ars Electronica",
+      "description": "Relief was demonstrated for several days to the public at Ars Electronica 2009, where visitors pushed and pulled on the moving terrain and reactions were reported as very promising.",
+      "provenance": "observed",
+      "source_url": "https://www.media.mit.edu/publications/relief-a-scalable-actuated-shape-display/",
+      "source_label": "MIT Media Lab - Relief publication"
+    },
+    {
+      "title": "Pull a slope back to test a what-if",
+      "description": "Grab a ridge on a rendered terrain and physically push it lower, letting the display recompute and re-render the changed landscape - a tangible edit-and-preview loop grounded in the pins' existing push/pull sensing.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Feel a remote partner's hand across the table",
+      "description": "Mirror two Relief tables so that the pins you press down rise up on the other display, letting two people shape and feel the same form at a distance - building directly on the surface's paired output-and-input capability.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

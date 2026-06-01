@@ -1,0 +1,136 @@
+{
+  "name": "Steve Mann WearCam / ShootingBack",
+  "year": 1994,
+  "organization": ["MIT Media Lab", "University of Toronto"],
+  "project_type": "research_prototype",
+  "short_description": "The earliest sustained wearable always-on camera, deliberately inverting surveillance — the conceptual origin of the wearable-camera privacy debate.",
+  "long_description": "Beginning in 1994, Steve Mann wore a wireless wearable camera continuously, transmitting first-person video to the internet in near real time. The practice, which he later named 'sousveillance' (French: observation from below), framed the camera not as a recording device but as a counter-surveillance instrument — citizens 'shooting back' at institutions that surveilled them. Decades before Google Glass or Ray-Ban Meta, WearCam posed every foundational question the field now debates: who consents when a wearable always-on camera enters shared space, where the footage goes, and whether symmetric access to recording changes power. The ShootingBack page at wearcam.org documents Mann's theoretical and activist framing of this work.",
+  "primary_url": "https://wearcam.org/shootingback.html",
+  "ai_embedded": "none",
+  "ai_note": "No AI or ML in the system; WearCam is a camera-and-transmission rig with analogue/digital video and a radio link. Its significance is the sousveillance concept and the privacy questions it posed, not machine intelligence.",
+  "attributes": {
+    "embodiment.form": ["Wearable", "Head-worn"],
+    "embodiment.mobility": ["Body-worn"],
+    "intelligence.input": ["Vision", "Audio"],
+    "function.role": ["Memory aid", "Tool"],
+    "genealogy.lineage": ["Wearable computing", "Ubiquitous computing", "Augmented reality"]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 4,
+    "scale": 1,
+    "social_legibility": 2,
+    "visibility": 2,
+    "autonomy": 1,
+    "initiative": 1,
+    "memory_span": 5,
+    "generality": 2,
+    "intensity": 3,
+    "expressiveness": 1,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-steve-mann-wearcam-001",
+      "caption": "Steve Mann wearing the wearable wireless webcam on December 13, 1994, with a visual filter applied to the transmitted image.",
+      "image_type": "research_figure",
+      "source_url": "https://commons.wikimedia.org/wiki/File:WearableWirelessWebcamSteveMannVisualFilter1994December13th.png",
+      "rights_status": "creative_commons",
+      "alt_text": "A self-portrait of Steve Mann taken on December 13, 1994, showing him wearing an early wearable camera system. The image has a visible filter effect applied, indicating real-time video processing. Mann is seen from slightly above, wearing the camera rig on his head."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-wearcam-001",
+      "title": "ShootingBack — WearCam",
+      "source_type": "project_page",
+      "url": "https://wearcam.org/shootingback.html",
+      "publisher": "Steve Mann / wearcam.org",
+      "year": null,
+      "access_notes": "Primary project page documenting the sousveillance / ShootingBack concept and practice."
+    },
+    {
+      "source_id": "source-wearcam-002",
+      "title": "Smart clothing: The wearable computer and WearCam",
+      "source_type": "academic_paper",
+      "url": "https://link.springer.com/article/10.1007/BF01682587",
+      "publisher": "Personal Technologies (Springer)",
+      "year": 1997,
+      "access_notes": "Mann's key early paper describing the WearCam system and its wearable computing context. 249 citations (Google Scholar)."
+    },
+    {
+      "source_id": "source-wearcam-003",
+      "title": "'WearCam' (The wearable camera): personal imaging systems for long-term use in wearable tetherless computer-mediated reality",
+      "source_type": "academic_paper",
+      "url": "https://ieeexplore.ieee.org/document/712406",
+      "publisher": "IEEE — International Symposium on Wearable Computers (ISWC)",
+      "year": 1998,
+      "access_notes": "Conference paper explicitly defining WearCam as a sustained personal imaging system. 145 citations (Google Scholar)."
+    },
+    {
+      "source_id": "source-wearcam-004",
+      "title": "Sousveillance: Inventing and Using Wearable Computing Devices for Data Collection in Surveillance Environments",
+      "source_type": "academic_paper",
+      "url": "https://journals.uic.edu/ojs/index.php/survs/article/view/3598",
+      "publisher": "Surveillance & Society",
+      "year": 2003,
+      "access_notes": "The foundational paper coining and defining sousveillance; establishes the theoretical basis for ShootingBack."
+    },
+    {
+      "source_id": "source-wearcam-005",
+      "title": "'Reflectionism' and 'Diffusionism': New Tactics for Deconstructing the Video Surveillance Superhighway",
+      "source_type": "academic_paper",
+      "url": "https://www.mitpressjournals.org/doi/10.1162/leon.1998.31.2.93",
+      "publisher": "Leonardo (MIT Press)",
+      "year": 1998,
+      "access_notes": "Mann's essay in the art/technology journal Leonardo, framing the camera as a counter-surveillance tool. 129 citations (Google Scholar)."
+    },
+    {
+      "source_id": "source-wearcam-006",
+      "title": "Steve Mann (inventor) — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Steve_Mann_(inventor)",
+      "publisher": "Wikipedia",
+      "year": 2024,
+      "access_notes": "Documents the 1994–1996 continuous personal broadcasting experiments and Mann's institutional affiliations (MIT Media Lab, University of Toronto)."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Walk into a store and flip the camera on the cameras",
+      "description": "Mann would enter surveillance-heavy environments — department stores, government buildings — wearing the camera so that security footage of him was simultaneously captured of them, making the power of observation reciprocal.",
+      "provenance": "documented",
+      "source_url": "https://wearcam.org/shootingback.html",
+      "source_label": "wearcam.org — ShootingBack"
+    },
+    {
+      "title": "Broadcast first-person video to the internet in real time",
+      "description": "From 1994 onward, Mann transmitted his wearable camera's feed wirelessly to a server visible on the early web, making his daily life the subject of one of the first continuous personal broadcasts — before YouTube, podcasting, or social media livestreaming existed.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Steve_Mann_(inventor)",
+      "source_label": "Wikipedia — Steve Mann (inventor): 1994–1996 broadcasting experiments"
+    },
+    {
+      "title": "Apply a visual filter to your own view of the world",
+      "description": "WearCam was paired with EyeTap optics that could mediate Mann's own vision — showing him a processed or filtered version of the scene in real time, not just recording for others but augmenting his own perception.",
+      "provenance": "documented",
+      "source_url": "https://link.springer.com/article/10.1007/BF01682587",
+      "source_label": "Mann (1997) — Smart clothing: The wearable computer and WearCam"
+    },
+    {
+      "title": "Ask a security guard why you're being filmed if they can't film you",
+      "description": "Mann used the visible presence of his wearable camera as a conversational tool: by making it clear he was recording, he could ask security personnel to justify their own cameras — making the ethical asymmetry visible and discussable.",
+      "provenance": "observed",
+      "source_url": "https://wearcam.org/shootingback.html",
+      "source_label": "wearcam.org — ShootingBack"
+    },
+    {
+      "title": "Use always-on capture as a lifelogging memory prosthetic",
+      "description": "Beyond political activism, continuous capture served as autobiographical memory: Mann could search his video record for details of past conversations or experiences, anticipating by decades the lifelogging products (Narrative Clip, Limitless Pendant) that would commercialize the idea.",
+      "provenance": "documented",
+      "source_url": "https://journals.uic.edu/ojs/index.php/survs/article/view/3598",
+      "source_label": "Mann (2003) — Sousveillance (Surveillance & Society)"
+    }
+  ],
+  "confidence": "high"
+}

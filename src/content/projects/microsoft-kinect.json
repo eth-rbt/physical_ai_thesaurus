@@ -60,5 +60,52 @@
       "access_notes": "Retrospective on Kinect's influence on robotics, 3D scanning, and depth-sensing research beyond gaming."
     }
   ],
+  "interactions": [
+    {
+      "title": "Become the controller",
+      "description": "Stand in the living room and steer a raft down rapids or spike a volleyball by swinging your own arms and legs — the sensor reads your whole skeleton, no controller in hand.",
+      "provenance": "documented",
+      "source_url": "https://news.microsoft.com/source/2010/10/18/countdown-to-kinect-17-controller-free-games-launch-in-november/",
+      "source_label": "Microsoft — Kinect launch games"
+    },
+    {
+      "title": "Wave a room into a 3D model",
+      "description": "Walk a Kinect around your office and watch a geometrically accurate 3D mesh of the room and its furniture build up on screen in real time, using only the depth stream.",
+      "provenance": "documented",
+      "source_url": "https://www.microsoft.com/en-us/research/publication/kinectfusion-real-time-3d-reconstruction-and-interaction-using-a-moving-depth-camera/",
+      "source_label": "Microsoft Research — KinectFusion"
+    },
+    {
+      "title": "Cracked open in hours",
+      "description": "Within days of the 2010 launch a hacker wrote open-source drivers to pull the raw depth and color feeds off the sensor, claiming Adafruit's bounty and turning a $150 game peripheral into the depth camera researchers couldn't otherwise afford.",
+      "provenance": "observed",
+      "source_url": "https://techcrunch.com/2010/11/09/adafruit-ups-kinect-hack-bounty-to-3000-just-to-spite-microsoft/",
+      "source_label": "TechCrunch — Adafruit Kinect bounty"
+    },
+    {
+      "title": "Scrub-in gestures over the operating table",
+      "description": "Surgeons mount a Kinect in theatre and flip through a patient's scans mid-operation with a wave of a gloved hand, never breaking sterility to touch a keyboard or mouse.",
+      "provenance": "observed",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3672422/",
+      "source_label": "PMC — touchless surgical imaging"
+    },
+    {
+      "title": "A $20 motion-capture studio",
+      "description": "Indie animators stand in front of a secondhand Kinect with tools like Brekel and record their own performance straight onto a 3D character rig, sidestepping a professional mocap stage entirely.",
+      "provenance": "observed",
+      "source_url": "https://www.cgchannel.com/2018/11/get-free-indie-mocap-tool-kinect-mocap-toolkit-for-windows/",
+      "source_label": "CG Channel — Kinect mocap toolkit"
+    },
+    {
+      "title": "Coach that watches your form",
+      "description": "Doing squats or rehab exercises in front of the sensor, get told you're leaning too far forward or not going deep enough — built on the same skeletal joint tracking the fitness games already use.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A room that knows it's empty",
+      "description": "Left running on a shelf, the depth camera notices when the last person leaves and how many are present, letting lights and heat idle down without anyone wearing a tag or pressing a switch — grounded in its fixed-position body and motion sensing.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

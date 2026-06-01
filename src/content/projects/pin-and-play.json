@@ -1,0 +1,103 @@
+{
+  "name": "Pin&Play",
+  "year": 2002,
+  "organization": ["Lancaster University"],
+  "project_type": "research_prototype",
+  "short_description": "A ubicomp networking technique that turns everyday surfaces into a two-dimensional power-and-data bus, so objects pinned to a wall or board with pushpin connectors gain network connectivity and power.",
+  "long_description": "Pin&Play augments familiar surfaces such as walls and notice-boards with layered conductive sheets, turning the surface itself into a shared communication and power medium; objects are connected simply by pinning them with a pushpin-style connector. The authors demonstrated the idea with a smart notice-board, in which pinned notes, controls, and pictures become networked objects without wiring or configuration. It matters as physical AI / interaction design because it reframes attachment-by-pinning - an established everyday gesture - as the act of joining a network, making device ecologies ad hoc, spatial, and tangible rather than hidden in cabling.",
+  "primary_url": "https://link.springer.com/chapter/10.1007/3-540-45809-3_17",
+  "ai_embedded": "none",
+  "ai_note": "Pin&Play is a conductive-surface power and networking technique using pushpin connectors; no AI or ML runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.materiality": ["Conductive surface"],
+    "intelligence.input": ["Touch"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Ubiquitous computing", "Tangible user interfaces", "Internet of Things"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 5,
+    "social_legibility": 1,
+    "expressiveness": 1,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-pin-and-play-001",
+      "caption": "Pin&Play smart notice-board: objects attached to a conductive surface via pushpin connectors receive power and network connectivity (research figure).",
+      "image_type": "research_figure",
+      "source_url": "https://link.springer.com/chapter/10.1007/3-540-45809-3_17",
+      "rights_status": "needs_permission",
+      "alt_text": "Diagram of a notice-board surface with a pushpin connector attaching an object, illustrating how conductive layers carry power and data through the pin."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-pin-and-play-001",
+      "title": "Pin&Play: Networking Objects through Pins",
+      "source_type": "academic_paper",
+      "url": "https://link.springer.com/chapter/10.1007/3-540-45809-3_17",
+      "publisher": "Springer, UbiComp 2002: Ubiquitous Computing",
+      "year": 2002
+    },
+    {
+      "source_id": "source-pin-and-play-002",
+      "title": "Pin & Play: Networking Objects through Pins",
+      "source_type": "lab_page",
+      "url": "https://eprints.lancs.ac.uk/id/eprint/57284/",
+      "publisher": "Lancaster University EPrints",
+      "year": 2002
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Pin a note and it joins the network",
+      "description": "Press a pushpin-connector through a sheet of paper into the conductive notice-board and the attached object instantly receives power and joins a shared data bus, no wiring or pairing - the everyday act of pinning becomes the act of connecting.",
+      "provenance": "documented",
+      "source_url": "https://link.springer.com/chapter/10.1007/3-540-45809-3_17",
+      "source_label": "Pin&Play, UbiComp 2002"
+    },
+    {
+      "title": "Color-coded priority pins set a reminder",
+      "description": "Fasten a document with a red, orange, or green pin and the board sets a reminder for a day, a week, or a month respectively - the choice of pin encodes how urgently you want to be reminded.",
+      "provenance": "documented",
+      "source_url": "https://link.springer.com/chapter/10.1007/3-540-45809-3_17",
+      "source_label": "Pin&Play, UbiComp 2002"
+    },
+    {
+      "title": "An expired note lights its own pin",
+      "description": "When a pinned document's reminder time elapses, a small bright blue LED in the pin switches on, standing out clearly among everything else on the board so you can spot what needs attention at a glance.",
+      "provenance": "documented",
+      "source_url": "https://link.springer.com/chapter/10.1007/3-540-45809-3_17",
+      "source_label": "Pin&Play, UbiComp 2002"
+    },
+    {
+      "title": "Rearrange the board freely, nodes come and go",
+      "description": "Move a pinned object to another spot or pull it off entirely and the bus treats it as ad-hoc add and removal - the surface itself is the medium, so connectivity follows wherever you stick the pin.",
+      "provenance": "documented",
+      "source_url": "https://eprints.lancs.ac.uk/id/eprint/57284/",
+      "source_label": "Lancaster University EPrints"
+    },
+    {
+      "title": "Conductive wallpaper powers wall fixtures",
+      "description": "The authors envision the same layered conductive wallpaper carrying power and data to mundane wall-mounted devices - light switches, lamps, and thermostats - so a fixture is installed simply by attaching it to the surface rather than running cable to it.",
+      "provenance": "documented",
+      "source_url": "https://link.springer.com/chapter/10.1007/3-540-45809-3_17",
+      "source_label": "Pin&Play, UbiComp 2002"
+    },
+    {
+      "title": "A studio wall that knows its layout",
+      "description": "Pin sketches, swatches, and small displays across a conductive board so each pinned item reports where it sits; rearranging the pins reorganizes a project's digital record - grounded in the system's ad-hoc bus that registers objects as they are pinned and moved.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Errand pins that nag until done",
+      "description": "Extend the priority-pin reminder idea to a household chore board: pin a bill or a permission slip with a short-fuse pin and its blue LED lights when it is overdue, clearing only when you unpin the finished task.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

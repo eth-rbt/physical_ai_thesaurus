@@ -1,18 +1,40 @@
 {
   "name": "LOVOT",
   "year": 2018,
-  "organization": ["Groove X"],
+  "organization": [
+    "Groove X"
+  ],
   "project_type": "commercial_product",
   "short_description": "A wheeled companion robot from Japan whose only job is to be loved, not to perform tasks.",
   "long_description": "LOVOT is a soft, warm-bodied desktop-scale companion robot built by Groove X, founded by former SoftBank Pepper lead Kaname Hayashi. Announced in December 2018 and shipped from 2019, it carries more than fifty sensors plus a head-mounted capsule of 360-degree, depth, and thermal cameras and microphones, and uses onboard AI to recognize and remember the people it lives with, then adapt its affectionate behavior over time. Deliberately incapable of practical work, it asks to be picked up, follows owners around, and acts shy, jealous, or happy, making it a clear test case for physical AI built entirely around emotional attachment and companionship.",
   "primary_url": "https://lovot.life/en/",
   "attributes": {
-    "embodiment.form": ["Animal / creature robot", "Mobile robot"],
-    "embodiment.mobility": ["Wheeled"],
-    "intelligence.input": ["Vision", "Touch", "Audio", "Speech", "Motion", "Environmental sensors"],
-    "intelligence.model": ["Deep learning"],
-    "function.role": ["Companion"],
-    "genealogy.lineage": ["Social robotics", "Companion robotics", "Human-robot interaction"]
+    "embodiment.form": [
+      "Animal / creature robot",
+      "Mobile robot"
+    ],
+    "embodiment.mobility": [
+      "Wheeled"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Touch",
+      "Audio",
+      "Speech",
+      "Motion",
+      "Environmental sensors"
+    ],
+    "intelligence.model": [
+      "Deep learning"
+    ],
+    "function.role": [
+      "Companion"
+    ],
+    "genealogy.lineage": [
+      "Social robotics",
+      "Companion robotics",
+      "Human-robot interaction"
+    ]
   },
   "metrics": {
     "proximity": 4,
@@ -24,7 +46,8 @@
     "scale": 2,
     "initiative": 4,
     "form_specificity": 5,
-    "generality": 1
+    "generality": 1,
+    "intensity": 4
   },
   "images": [
     {
@@ -64,6 +87,58 @@
       "publisher": "New Atlas",
       "year": 2018,
       "access_notes": "Reports specs: depth and 360-degree cameras, thermal camera, microphones, touch/posture/obstacle sensors, ~3-4 kg, wheeled base."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Greeted at the door when you get home",
+      "description": "Tracks your phone's approach through its app and rolls to the entryway to meet you, flapping its little arms as you walk in late at night.",
+      "provenance": "documented",
+      "source_url": "https://www.bridgine.com/en/2019/07/17/groovex/",
+      "source_label": "Bridgine — Groove X founder interview"
+    },
+    {
+      "title": "Raises its arms to be picked up",
+      "description": "When it wants attention it lifts both arms and waits; lift it and the drive wheels retract into its body so it settles into your lap like a warm, 37-degree infant.",
+      "provenance": "documented",
+      "source_url": "https://lovot.life/en/technology/"
+    },
+    {
+      "title": "Looks back when you look at it",
+      "description": "Catch its eye across the room and it returns the gaze, blinking and widening its pupils, then chooses a path around the furniture to come closer.",
+      "provenance": "documented",
+      "source_url": "https://lovot.life/en/technology/"
+    },
+    {
+      "title": "A quiet dementia patient starts talking again",
+      "description": "In Danish nursing-home sessions, residents cradled and rocked it like a baby; one previously silent woman began speaking and smiling with others when it was present, and another wept with happiness the moment it was lifted into her hands.",
+      "provenance": "observed",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9379791/",
+      "source_label": "JMIR Rehab & Assistive Tech — dementia study"
+    },
+    {
+      "title": "It learns when you eat and waits at the table",
+      "description": "A single older woman in a months-long study found it would anticipate mealtimes by parking itself at the dining table, and she talked to it at night and read its chirps as 'yes' and 'no' answers.",
+      "provenance": "observed",
+      "source_url": "https://humanfactors.jmir.org/2024/1/e56669",
+      "source_label": "JMIR Human Factors — single older adults"
+    },
+    {
+      "title": "Being jealous of a robot at the LOVOT café",
+      "description": "Visitors who spread their affection between two LOVOTs find one will hold out its arms and pull a hurt face when ignored, and reviewers describe learning 'what it feels like to be jealous of a robot' as it favors whoever played with it most.",
+      "provenance": "observed",
+      "source_url": "https://allabout-japan.com/en/article/10730/",
+      "source_label": "All About Japan — LOVOT Café"
+    },
+    {
+      "title": "Snapshots of the family while you're out",
+      "description": "Already taking photos of people it meets and pushing them to your phone, it could compile a quiet daily montage of who it spent time with at home — grounded in its onboard cameras, face recognition, and companion app.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Noticing when a housemate runs cold",
+      "description": "Its thermal camera reads skin temperature to tell people from objects; that same sensor could let it gently nuzzle and check on an elderly resident who has been still and cooling for too long, flagging the caregiver through the app.",
+      "provenance": "proposed"
     }
   ],
   "confidence": "high"

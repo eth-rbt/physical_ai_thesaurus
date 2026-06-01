@@ -1,0 +1,128 @@
+{
+  "name": "Active Badge Location System",
+  "year": 1992,
+  "organization": [
+    "Olivetti Research Ltd"
+  ],
+  "project_type": "research_prototype",
+  "short_description": "A wearable infrared-emitting badge system that tracked office occupants room-by-room, enabling the first identity-and-location-aware call routing and personnel directory services.",
+  "long_description": "Developed at Olivetti Research Ltd in Cambridge (UK) and described in a landmark 1992 ACM TOIS paper by Roy Want, Andy Hopper, Veronica Falcao, and Jonathan Gibbons, the Active Badge system gave every staff member a small wearable badge that pulsed a unique infrared signal every 15 seconds. A network of fixed IR sensors — one or more per room — picked up those pulses and reported them to a centralized location service, which maintained a live map of who was where. Applications built on that service included automatic call routing (telephone calls followed the person to whichever room they were in) and a real-time personnel directory. The system is a canonical origin point for context-aware computing: it showed how a thin, passive-sensing infrastructure could give software a meaningful model of the physical world — who is present, where — without any AI or machine learning, just sensing, networking, and identity lookup. It directly seeded later ubicomp work at Xerox PARC (PARCTab) and the broader context-awareness research agenda.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/128756.128759",
+  "ai_embedded": "none",
+  "ai_note": "No AI or machine learning — the system is pure sensing infrastructure: IR pulses detected by fixed sensors, location reported to a centralized service, applications driven by simple lookup and routing rules.",
+  "attributes": {
+    "embodiment.form": [
+      "Wearable",
+      "Architectural / environmental system",
+      "Distributed object ecology"
+    ],
+    "embodiment.mobility": [
+      "Body-worn",
+      "Fixed"
+    ],
+    "intelligence.input": [
+      "Location"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "function.role": [
+      "Assistant",
+      "Tool"
+    ],
+    "genealogy.lineage": [
+      "Ubiquitous computing",
+      "Ambient intelligence",
+      "Internet of Things"
+    ],
+    "genealogy.interaction": [
+      "Context-aware computing",
+      "Indoor location systems"
+    ]
+  },
+  "metrics": {
+    "proximity": 2,
+    "memory_span": 1,
+    "autonomy": 1,
+    "expressiveness": 1,
+    "social_legibility": 1,
+    "visibility": 1,
+    "scale": 4,
+    "initiative": 1,
+    "generality": 2,
+    "intensity": 1,
+    "timing": 3
+  },
+  "images": [
+    {
+      "image_id": "img-active-badge-location-system-001",
+      "caption": "Active Badge components on a blue background — the wearable infrared-emitting badge (left) and a fixed IR sensor unit (right), photographed by Roy Want.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Active_Badge.png",
+      "rights_status": "creative_commons",
+      "alt_text": "Two electronic components against a blue background: a small rectangular wearable badge with circuit board visible, and a larger fixed sensor unit, both part of the Olivetti Active Badge indoor location tracking system.",
+      "local_image": "/projects/active-badge-location-system.png"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-active-badge-location-system-001",
+      "title": "The Active Badge Location System",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/128756.128759",
+      "publisher": "ACM Transactions on Information Systems (TOIS), Vol. 10, No. 1",
+      "year": 1992,
+      "access_notes": "Authors: Roy Want, Andy Hopper, Veronica Falcao, Jonathan Gibbons (Olivetti Research Ltd, Cambridge). Primary reference establishing the system design, IR sensing approach, location service architecture, call-routing applications, and privacy considerations. DOI: 10.1145/128756.128759."
+    },
+    {
+      "source_id": "source-active-badge-location-system-002",
+      "title": "Roy Want ubicomp archive — Active Badge",
+      "source_type": "project_page",
+      "url": "https://www.roywant.com/ubicomp/",
+      "publisher": "Roy Want",
+      "year": null,
+      "access_notes": "Personal archive maintained by Roy Want (lead inventor); documents Active Badge Version 1 (1988 prototype) and the 1991 Active Badge Map X-windows application. Source for the CC BY-SA 4.0 image hosted on Wikimedia Commons."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Your desk phone rings wherever you actually are",
+      "description": "Rather than ringing the phone at your desk while you're across the building in a meeting, incoming calls are routed to the nearest handset to your current badge location — the building knows where you are and the telephone system follows.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/128756.128759",
+      "source_label": "Want et al. — The Active Badge Location System (1992)"
+    },
+    {
+      "title": "The receptionist sees who is in the building on a live map",
+      "description": "An X-windows application (Active Badge Map, 1991) shows a map of the offices so a receptionist can locate team members as their badges send infrared pulses to networked sensors around the building.",
+      "provenance": "documented",
+      "source_url": "https://www.roywant.com/ubicomp/",
+      "source_label": "Roy Want ubicomp archive"
+    },
+    {
+      "title": "Walking into a room triggers it",
+      "description": "Because presence is detected the moment the badge's IR pulse reaches a room sensor, any application subscribed to the location service can fire immediately on entry — a door unlocking, a display personalizing, a message queued — without the person doing anything.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/128756.128759",
+      "source_label": "Want et al. — The Active Badge Location System (1992)"
+    },
+    {
+      "title": "Cover the badge to go off the grid",
+      "description": "Because IR cannot pass through an opaque palm, users could simply cover their badge to stop broadcasting their location — a tangible privacy gesture that gave individuals control without needing a software setting.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/128756.128759",
+      "source_label": "Want et al. — The Active Badge Location System (1992)"
+    },
+    {
+      "title": "A visitor's badge that expires at the door",
+      "description": "Because the system assigns a unique ID to each badge, temporary badges issued to visitors could be logged into the location service with a time-limited credential — their presence visible to the directory during the visit, automatically gone when the badge is returned.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "The location trail as a meeting-reconstruction tool",
+      "description": "If the system logs timestamps alongside badge positions, the movement history reveals who was co-located and when — a raw substrate for reconstructing who attended an impromptu meeting or was near an incident, grounded in the location service's natural event stream.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,182 @@
+{
+  "name": "Willow Garage PR2",
+  "year": 2010,
+  "organization": [
+    "Willow Garage"
+  ],
+  "project_type": "research_prototype",
+  "short_description": "The first open-platform mobile manipulator — dual 7-DOF arms on an omnidirectional base — that seeded ROS and made household manipulation a credible research agenda.",
+  "long_description": "Released in 2010 by Willow Garage (Menlo Park, CA), the PR2 is a two-armed mobile manipulation platform built on a custom omnidirectional base. Each arm has seven degrees of freedom, force-sensitive joints, and fingertip pressure sensors; the sensor suite spans stereo cameras, a Kinect RGB-D camera, a tilting LIDAR, and an IMU. Willow Garage distributed 11 units at no cost to universities worldwide under its Beta Program, then made the robot commercially available at $400,000 per unit. The PR2 served as the primary hardware testbed for the Robot Operating System (ROS), which Willow Garage open-sourced under BSD license — seeding a global research community that has sustained household manipulation as a credible AI research agenda ever since. The company shut down in 2014, but PR2 hardware and ROS continue to be used and supported by Clearpath Robotics and Open Robotics.",
+  "primary_url": "https://robots.ros.org/PR2/",
+  "ai_embedded": "some",
+  "ai_note": "The PR2 platform itself is hardware + ROS middleware; AI/ML systems (perception, planning, grasping) ran on top of ROS and varied by research group. The platform supported early deep learning and classical ML grasping and navigation work but did not ship a fixed AI model.",
+  "attributes": {
+    "embodiment.form": [
+      "Mobile robot",
+      "Humanoid robot"
+    ],
+    "embodiment.mobility": [
+      "Wheeled"
+    ],
+    "embodiment.actuation": [
+      "Robotic arm",
+      "Gripper"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Force / torque",
+      "Touch",
+      "Environmental sensors"
+    ],
+    "intelligence.model": [
+      "Classical machine learning",
+      "Rule-based system"
+    ],
+    "function.role": [
+      "Coworker",
+      "Tool",
+      "Manufacturing worker"
+    ],
+    "function.task": [
+      "Manipulation",
+      "Navigation",
+      "Object grasping"
+    ],
+    "genealogy.lineage": [
+      "Human-robot interaction",
+      "Industrial automation",
+      "Ubiquitous computing"
+    ],
+    "genealogy.research_community": [
+      "ROS ecosystem",
+      "Mobile manipulation research",
+      "Household robotics"
+    ]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 3,
+    "scale": 3,
+    "social_legibility": 2,
+    "autonomy": 3,
+    "initiative": 2,
+    "memory_span": 2,
+    "visibility": 3,
+    "generality": 5,
+    "expressiveness": 1,
+    "timing": 3,
+    "intensity": 2
+  },
+  "images": [
+    {
+      "image_id": "img-willow-garage-pr2-001",
+      "caption": "PR2 robot with advanced grasping hands, photographed by Oleg Alexandrov at a robotics event in January 2013.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:PR2_robot_with_advanced_grasping_hands.JPG",
+      "rights_status": "creative_commons",
+      "alt_text": "The Willow Garage PR2 mobile manipulation robot showing its upper body: two 7-DOF arms fitted with advanced grasping hands, mounted on a white torso with a sensor-laden head."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-willow-garage-pr2-001",
+      "title": "Willow Garage — Wikipedia",
+      "source_type": "unknown",
+      "url": "https://en.wikipedia.org/wiki/Willow_Garage",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Overview of Willow Garage founding (2006, Scott Hassan), PR2 specifications, Beta Program (11 units to universities, June 2010), commercial sale (August 2010, $400,000 per unit), ROS open-sourcing under BSD license, and company closure (2014). Confirmed against IEEE Spectrum and PRWeb primary sources."
+    },
+    {
+      "source_id": "source-willow-garage-pr2-002",
+      "title": "Willow Garage Sells First PR2 Robots",
+      "source_type": "credible_news",
+      "url": "https://spectrum.ieee.org/willow-garage-sells-first-pr2-robots",
+      "publisher": "IEEE Spectrum",
+      "year": 2010,
+      "access_notes": "Reports first four commercial PR2 buyers (Samsung Electronics, LAAS-CNRS, University of Washington, George Washington University), price ($400,000 per unit), and robot specs (omnidirectional base, two arms and grippers, two onboard servers, cameras, LIDAR, IMU). 16 research labs worldwide had units at that point."
+    },
+    {
+      "source_id": "source-willow-garage-pr2-003",
+      "title": "Willow Garage Giving Away 11 PR2 Robots Worth Over $4 Million",
+      "source_type": "credible_news",
+      "url": "https://spectrum.ieee.org/050410-willow-garage-giving-away-11-pr2-robots-worth-over-4-million",
+      "publisher": "IEEE Spectrum",
+      "year": 2010,
+      "access_notes": "Covers the PR2 Beta Program: 78 proposals received from institutions worldwide; 11 winners selected for two-year loan programs; robots sent to labs in Germany, Japan, Belgium, and the United States."
+    },
+    {
+      "source_id": "source-willow-garage-pr2-004",
+      "title": "Wizards of ROS: Willow Garage and the Making of the Robot Operating System",
+      "source_type": "credible_news",
+      "url": "https://spectrum.ieee.org/wizards-of-ros-willow-garage-and-the-making-of-the-robot-operating-system",
+      "publisher": "IEEE Spectrum",
+      "year": null,
+      "access_notes": "Covers ROS origins (SourceForge commit November 7, 2007 by Ken Conley), PR1 predecessor at Stanford by Eric Berger and Keenan Wyrobek, PR2 prototypes built 2008, Beta Program delivery 2010. Notes that the primary motivation was avoiding duplicated effort across robotics grad students."
+    },
+    {
+      "source_id": "source-willow-garage-pr2-005",
+      "title": "PR2 — robots.ros.org",
+      "source_type": "documentation",
+      "url": "https://robots.ros.org/PR2/",
+      "publisher": "ROS.org / Clearpath Robotics",
+      "year": null,
+      "access_notes": "Official ROS robot directory entry for the PR2. Confirms Willow Garage as builder, Clearpath Robotics as current support, and that all PR2 software is written in ROS."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Send it off to find a wall outlet and recharge itself",
+      "description": "In a 2009 milestone demo the PR2 roamed Willow Garage's office, opened doors, dodged officemates, and plugged its own power cord into wall outlets with its arm and gripper — repositioning and retrying when it fumbled the plug, and skipping a room when it found the door locked.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/willow-garage-pr2-robot-navigates-through-office",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "Hand it a pile of crumpled towels and watch it fold them",
+      "description": "A UC Berkeley team (Maitin-Shepard, Cusumano-Towner, Lei, and Abbeel) taught the PR2 to grasp a wrinkled towel, visually find its corners, and fold it flat on a table — solving the hard problem of manipulating a deformable object whose shape can't be predicted in advance.",
+      "provenance": "documented",
+      "source_url": "https://news.berkeley.edu/2010/04/02/robot/",
+      "source_label": "Berkeley News"
+    },
+    {
+      "title": "Tap 'Beer Me' and have a bottle brought from the fridge",
+      "description": "During a Willow Garage hackathon week, engineers built a 'Beer Me' web app that sent the PR2 to open the refrigerator, recognize the right bottle by sight, and carry it back to a person — with cupholders added to its base and a sloped shelf fitted in the fridge to make the task tractable.",
+      "provenance": "documented",
+      "source_url": "https://singularityhub.com/2010/07/07/willow-garage-robot-fetches-beer-engineers-rejoice-video/",
+      "source_label": "Singularity Hub"
+    },
+    {
+      "title": "Set it loose at a pool table",
+      "description": "In a one-week sprint, a small team gave the PR2 a custom cue grip and bridge and wired up ball detection and table localization; using the open-source FastFiz billiards physics engine to pick shots, it sank five balls by week's end.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/061610-willow-garage-pr2-robot-now-plays-pool",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "Have it bake cookies from scratch",
+      "description": "MIT CSAIL's BakeBot project (Mario Bollini, in Daniela Rus's lab) programmed the PR2 to locate a cookie sheet and ingredients by color and size with its laser scanner and stereo camera, then mix dough and load it into an oven — following a long recipe of vision, object detection, and careful arm motions.",
+      "provenance": "documented",
+      "source_url": "https://ilp.mit.edu/node/39936",
+      "source_label": "MIT ILP"
+    },
+    {
+      "title": "Write a new manipulation skill once and run it on robots worldwide",
+      "description": "Because every PR2 ran the same open-source ROS stack, a researcher who developed a grasping or navigation behavior on one machine could share the code and have labs in Germany, Japan, Belgium, and the US run it on identical hardware — the shared platform that let mobile-manipulation results actually be reproduced.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/050410-willow-garage-giving-away-11-pr2-robots-worth-over-4-million",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "A returns-desk helper that re-shelves mixed objects",
+      "description": "Building on the same vision-plus-dual-arm grasping the PR2 used to fetch beer and identify ingredients, it could pick assorted returned items off a counter, recognize each by shape and color, and carry them to the correct bin or shelf around a small store.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "An accessibility errand-runner in the home",
+      "description": "Given its proven door-opening, autonomous navigation, and object-fetching behaviors, the PR2 could act as a fetch-and-carry aid for someone with limited mobility — retrieving a dropped item from another room or bringing a labeled medication bottle from the kitchen.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

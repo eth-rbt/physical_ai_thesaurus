@@ -1,25 +1,48 @@
 {
   "name": "Nabaztag",
   "year": 2005,
-  "organization": ["Violet"],
+  "organization": [
+    "Violet"
+  ],
   "project_type": "commercial_product",
   "short_description": "A Wi-Fi connected ambient 'smart rabbit' that signals notifications through motorized ears, colored LEDs, and spoken messages.",
   "long_description": "Introduced in 2005 by the French company Violet (invented by Rafi Haladjian and Olivier Mevel), Nabaztag was one of the first consumer Internet-of-Things ambient objects. The rabbit-shaped desk device connected over Wi-Fi to relay weather, news, stock prices, email and message alerts by wiggling its motorized ears, pulsing RGB LEDs, and reading text aloud through a speaker. Later revisions (Nabaztag/tag, 2006) added microphones, an RFID reader, and an accelerometer. It matters as an early demonstration that networked intelligence could live in an expressive, glanceable domestic object rather than a screen, prefiguring ambient computing and smart-home assistants.",
   "primary_url": "https://en.wikipedia.org/wiki/Nabaztag",
   "attributes": {
-    "embodiment.form": ["Animal / creature robot", "Domestic object"],
-    "embodiment.mobility": ["Fixed"],
-    "intelligence.input": ["Speech", "Audio", "Location"],
-    "intelligence.model": ["Rule-based system"],
-    "function.role": ["Assistant", "Memory aid"],
-    "function.social_function": ["Companion"],
-    "genealogy.lineage": ["Internet of Things", "Ambient intelligence", "Ubiquitous computing", "Smart home"]
+    "embodiment.form": [
+      "Animal / creature robot",
+      "Domestic object"
+    ],
+    "embodiment.mobility": [
+      "Fixed"
+    ],
+    "intelligence.input": [
+      "Speech",
+      "Audio",
+      "Location"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "function.role": [
+      "Assistant",
+      "Memory aid"
+    ],
+    "function.social_function": [
+      "Companion"
+    ],
+    "genealogy.lineage": [
+      "Internet of Things",
+      "Ambient intelligence",
+      "Ubiquitous computing",
+      "Smart home"
+    ]
   },
   "metrics": {
     "proximity": 2,
     "memory_span": 1,
     "autonomy": 1,
-    "expressiveness": 4,
+    "expressiveness": 3,
     "social_legibility": 3,
     "mobility": 1,
     "scale": 2,
@@ -59,6 +82,60 @@
       "publisher": "Victoria and Albert Museum",
       "year": 2005,
       "access_notes": "Museum collection record for the Nabaztag as a design object."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Wiggle your partner's ears from across the city",
+      "description": "Pair two rabbits and the gesture travels: physically tilt your Nabaztag's ears and your partner's rabbit tilts its ears the same way, a wordless 'I'm thinking of you' with no screen or message involved.",
+      "provenance": "documented",
+      "source_url": "https://www.govtech.com/dc/articles/Nabaztag-the-First-Smart-Rabbit-for.html",
+      "source_label": "Government Technology"
+    },
+    {
+      "title": "A glanceable weather forecast in the corner of the room",
+      "description": "Rather than checking a screen, you read the morning off the rabbit: its belly glows a color code for the day's weather or air quality and its ears settle into a pose, ambient enough to ignore until you want it.",
+      "provenance": "documented",
+      "source_url": "https://www.engadget.com/2014-07-06-gadget-rewind-2005-nabaztag.html",
+      "source_label": "Engadget — Gadget Rewind 2005"
+    },
+    {
+      "title": "Email and headlines read aloud while you do something else",
+      "description": "Pipe in RSS feeds, email alerts, or news headlines and the rabbit speaks them through its belly speaker, lights flashing in time, so you hear the update without opening an inbox.",
+      "provenance": "documented",
+      "source_url": "https://www.engadget.com/2014-07-06-gadget-rewind-2005-nabaztag.html",
+      "source_label": "Engadget — Gadget Rewind 2005"
+    },
+    {
+      "title": "The rabbit does tai chi when it's idle",
+      "description": "With nothing to report, the Nabaztag would run slow choreographed ear movements described as tai chi, and could surprise you with a stray message beamed from another connected rabbit somewhere in the world.",
+      "provenance": "documented",
+      "source_url": "https://www.engadget.com/2014-07-06-gadget-rewind-2005-nabaztag.html",
+      "source_label": "Engadget — Gadget Rewind 2005"
+    },
+    {
+      "title": "Bricked overnight when the company's servers went dark",
+      "description": "Because every wiggle and word routed through Violet's cloud, the 2011 server shutdown turned thousands of rabbits into mute plastic ornaments — a stark early lesson in how cloud-tethered objects die.",
+      "provenance": "observed",
+      "source_url": "https://hackaday.com/2020/05/26/teardown-nabaztag/",
+      "source_label": "Hackaday — Teardown: Nabaztag"
+    },
+    {
+      "title": "Resurrected on a Raspberry Pi in someone's spare room",
+      "description": "A hobbyist points their dead rabbit at a self-hosted open-source server running on a Raspberry Pi, and the ears move and the speaker talks again — owners keeping a discontinued object alive a decade after its maker gave up on it.",
+      "provenance": "observed",
+      "source_url": "https://github.com/droso-hass/openab",
+      "source_label": "openab — open-source Nabaztag server"
+    },
+    {
+      "title": "Tap an RFID-tagged book to make the rabbit read it",
+      "description": "Using the Ztamp RFID reader it already shipped with, set a tagged object or children's book on the rabbit and have it trigger the matching audio — a tangible bookmark that starts the story aloud.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Leave a goodnight message on a tagged keepsake",
+      "description": "Building on its RFID reader and recorded-message playback, a parent away on travel records a goodnight note bound to a tagged stuffed animal, so a child tapping it to the rabbit hears the parent's voice on cue.",
+      "provenance": "proposed"
     }
   ],
   "confidence": "high"

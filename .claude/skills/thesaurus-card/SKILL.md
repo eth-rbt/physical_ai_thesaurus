@@ -32,6 +32,54 @@ links to its single `/projects/<id>` page.
 If a project exists, add the new card's attributes to it rather than duplicating it
 under a new id. Never create two ids for the same real-world project.
 
+## Selecting projects: relevance over coverage
+
+A card is an argument, not a catalog. The projects you choose **are** the analysis — a tight,
+honest set makes the one-paragraph insight obvious; a padded set buries it. Be strict.
+
+For each candidate project, ask three questions and write the answer to yourself:
+
+1. **Is it genuinely an instance of THIS subcategory?** Not "related to," not "also has a
+   screen" — does the project actually exemplify the card's question? If you can't say in one
+   line *why it belongs here specifically*, drop it.
+2. **What does it add that another pick doesn't?** Prefer projects that mark out the *range* of
+   the subcategory (the revealing extremes and the telling middle) over near-duplicates. Two
+   robot vacuums rarely both earn a place.
+3. **Does it sharpen or blur the paragraph?** Keep the projects that, read together, force a
+   point; cut the ones that are merely plausible.
+
+Then:
+
+- **Prune aggressively.** A weak reference is worse than a missing one — it signals the
+  category is fuzzy. Removing a loosely-related project (or one already better covered) is a
+  valid, expected edit; say what you removed and why.
+- **Reuse the WHOLE atom pool.** List `src/content/projects/` and weigh *every* existing atom,
+  not just the obvious consumer products. Research prototypes and concepts often instantiate a
+  subcategory more purely than a shipped product does.
+- **Span the kinds that genuinely apply** — commercial products, research prototypes,
+  HCI/ubicomp systems, robotics, art/design — but only where each truly instantiates the
+  subcategory. Breadth is a tiebreaker, never a license to include an off-topic project.
+- For `axis-1d` / `scatter-2d` cards, a project belongs only if it has (or clearly warrants)
+  the metric; otherwise it renders unplaced. Backfill the metric on the atom or leave it off.
+
+### The AI-embedded lens
+
+Every atom carries an `ai_embedded` tag (`none` / `some` / `core` / `envisioned`). Treat it as a
+source of insight, not just a badge. Many physical-interaction techniques (shape displays,
+tangibles, ambient media) run **no AI at all** — and the interesting story is often that a
+subcategory is carried by clever sensing/actuation rather than intelligence, or that products
+bolt AI onto a pre-AI interaction idea. When the AI-embedded split across a card's chosen set
+*says* something, say it in the paragraph (e.g. "almost none of these run AI — the legibility is
+mechanical").
+
+### Write the paragraph FROM the selected set
+
+Only once the set is final, write the one paragraph. It must report what the chosen projects
+**reveal together**: the range they span, the tension between them, or the surprise (including
+the AI-embedded split where it sharpens the point). Name concrete examples from the set. Test:
+if the paragraph could have been written *without* looking at these specific projects, it is too
+generic — rewrite it.
+
 ## Process
 
 1. Read `readme.md` (methodology + vocabularies) and `src/content.config.ts` (schema).
@@ -41,8 +89,9 @@ under a new id. Never create two ids for the same real-world project.
    pages, credible journalism, video demos. **Do not invent sources, projects, years,
    or technical details.** Mark anything unverified as `confidence: low` and list it
    under Open Questions in your final message.
-4. Pick 6–10 representative projects spanning commercial products, research prototypes,
-   HCI/ubicomp systems, robotics, and art/design where relevant.
+4. **Select projects by relevance, not coverage** — see "Selecting projects" below. Aim for
+   a tight set (typically 6–12) where every project is genuinely an instance of *this*
+   subcategory, then write the paragraph FROM that set.
 5. Choose the `display` mode (see below) that best fits the subcategory.
 6. Write/update the project JSON files, then write the card markdown.
 7. Fetch an image for each new project (see "Fetching images" below).
@@ -121,6 +170,8 @@ projects on the right carry the detail; the paragraph just frames them.
   "short_description": "One sentence.",
   "long_description": "2–4 sentences on the project and why it matters for this card.",
   "primary_url": "https://...",
+  "ai_embedded": "none",
+  "ai_note": "One line: does real AI/ML run inside it? Most interaction techniques are 'none'.",
   "attributes": {
     "embodiment.form": ["Glasses / eyewear", "Wearable"],
     "intelligence.input": ["Vision", "Audio", "Speech"]
@@ -150,8 +201,10 @@ projects on the right carry the detail; the paragraph just frames them.
 controlled vocabularies in `readme.md` (use normalized labels like `Glasses / eyewear`,
 not `Ray-Ban shaped AI glasses`). Tag obvious attributes across all four categories, not
 just the requested card, but don't over-tag with speculative values. Enum values
-(`project_type`, `image_type`, `rights_status`, `source_type`, `confidence`) must match
-the schema exactly.
+(`project_type`, `image_type`, `rights_status`, `source_type`, `confidence`, `ai_embedded`)
+must match the schema exactly. `ai_embedded` ∈ `none` / `some` / `core` / `envisioned` /
+`unknown` — answer honestly (a motorized pin display is `none`; a learned classifier is
+`some`; a vision/concept is `envisioned`), and always add a one-line `ai_note`.
 
 ## Fetching images
 

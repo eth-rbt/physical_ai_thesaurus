@@ -1,0 +1,142 @@
+{
+  "name": "Shakey the Robot",
+  "year": 1966,
+  "organization": [
+    "SRI International"
+  ],
+  "project_type": "research_prototype",
+  "short_description": "The first mobile robot to integrate perception, planning, and action — an AI-driven wheeled platform that could decompose high-level goals into physical sub-tasks.",
+  "long_description": "Developed at SRI International's Artificial Intelligence Center from 1966 to 1972, Shakey was the first robot to reason about its environment and plan sequences of physical actions autonomously. Equipped with a television camera, sonar range finders, bump detectors, and a radio link to off-board computers running LISP, Shakey used the STRIPS planner to decompose instructions like 'push the block off the platform' into goal-directed sub-tasks — navigating rooms, toggling light switches, and pushing objects. Its development produced two foundational algorithms: the A* search method for pathfinding and the STRIPS planning formalism that became a cornerstone of AI planning research. While primarily a navigation and reasoning testbed, Shakey's use of pushing to manipulate objects made it the earliest working example of planning-integrated physical manipulation. Inducted into the Robot Hall of Fame in 2004 and awarded an IEEE Milestone in 2017, it now resides at the Computer History Museum.",
+  "primary_url": "https://www.sri.com/hoi/shakey-the-robot/",
+  "ai_embedded": "core",
+  "ai_note": "Shakey used the STRIPS logical planner and A* search to reason about goals and generate plans — genuine symbolic AI at the core of its operation, not scripted playback.",
+  "attributes": {
+    "embodiment.form": [
+      "Mobile robot"
+    ],
+    "embodiment.mobility": [
+      "Wheeled"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Environmental sensors"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "intelligence.planning": [
+      "Goal decomposition",
+      "Task planning"
+    ],
+    "function.role": [
+      "Tool"
+    ],
+    "genealogy.lineage": [
+      "Human-robot interaction",
+      "Industrial automation",
+      "Ambient intelligence"
+    ]
+  },
+  "metrics": {
+    "autonomy": 3,
+    "mobility": 3,
+    "social_legibility": 1,
+    "expressiveness": 1,
+    "generality": 2
+  },
+  "images": [
+    {
+      "image_id": "img-shakey-robot-001",
+      "caption": "Shakey the Robot (developed 1966–1972 at SRI International), photographed at the Computer History Museum, 1969.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:SRI_Shakey_robot,_1969,_Computer_History_Museum.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A tall wheeled robot with a boxy white chassis, a cylindrical sensor mast topped with a camera, and a radio antenna, displayed in a museum setting against a neutral background.",
+      "local_image": "/projects/shakey-robot.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-shakey-robot-001",
+      "title": "Shakey the Robot",
+      "source_type": "lab_page",
+      "url": "https://www.sri.com/hoi/shakey-the-robot/",
+      "publisher": "SRI International",
+      "year": null,
+      "access_notes": "Official SRI heritage page. Describes Shakey as the first mobile robot with the ability to perceive and reason about its surroundings; notes active period 1966–1972 and current residence at the Computer History Museum."
+    },
+    {
+      "source_id": "source-shakey-robot-002",
+      "title": "Shakey the robot",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Shakey_the_robot",
+      "publisher": "Wikipedia",
+      "year": 2024,
+      "access_notes": "Comprehensive overview: team (Rosen, Nilsson, Hart, Fikes, Raphael, Duda, and others), sensors (TV camera, sonar, bump detectors, radio), software (STRIPS planner, LISP, A* search, Hough transform), capabilities, DARPA funding, and IEEE Milestone (2017)."
+    },
+    {
+      "source_id": "source-shakey-robot-003",
+      "title": "Shakey: First Mobile Reasoning Robot",
+      "source_type": "exhibition_page",
+      "url": "https://www.computerhistory.org/revolution/artificial-intelligence-robotics/13/289",
+      "publisher": "Computer History Museum",
+      "year": null,
+      "access_notes": "CHM Revolution exhibition entry. Confirms Shakey could understand natural language instructions such as 'push the block off the platform,' plan autonomously, and execute sub-tasks. Notes A* and STRIPS as key algorithmic outputs."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Type a goal, watch it figure out the steps",
+      "description": "A researcher sat at a console and typed a terse instruction such as \"push the block off the platform.\" Rather than being walked through each step, Shakey broke the goal into its own sub-tasks and carried them out, the first robot to bridge typed instruction and physical action.",
+      "provenance": "documented",
+      "source_url": "https://www.computerhistory.org/revolution/artificial-intelligence-robotics/13/289",
+      "source_label": "Computer History Museum — Shakey"
+    },
+    {
+      "title": "Improvise a ramp to reach a block it can't touch",
+      "description": "Told to push a block off a raised platform it couldn't reach from the floor, Shakey located a ramp, pushed it against the platform, rolled up it, found the block, and shoved it off — a multi-step plan it assembled itself.",
+      "provenance": "documented",
+      "source_url": "https://cyberneticzoo.com/cyberneticanimals/1967-shakey-charles-rosen-nils-nilsson-bertram-raphael-et-al-american/",
+      "source_label": "cyberneticzoo.com — Shakey archive"
+    },
+    {
+      "title": "Compound errands across rooms",
+      "description": "Operators gave it layered goals like \"go to room D and push block 9 over to where doorway 4 is,\" combining navigation, object identification, and pushing into a single instruction the planner had to untangle.",
+      "provenance": "documented",
+      "source_url": "https://www.computerhistory.org/revolution/artificial-intelligence-robotics/13/289",
+      "source_label": "Computer History Museum — Shakey"
+    },
+    {
+      "title": "Instruct it in a slice of plain English",
+      "description": "Shakey understood roughly 100 words of written English; a typed instruction was translated into a verbal code and then into the formal expressions its planner reasoned over, all running on a PDP-10 in another room linked by radio.",
+      "provenance": "documented",
+      "source_url": "https://cyberneticzoo.com/cyberneticanimals/1967-shakey-charles-rosen-nils-nilsson-bertram-raphael-et-al-american/",
+      "source_label": "cyberneticzoo.com — Shakey archive"
+    },
+    {
+      "title": "Send it to flip a light switch or open a door",
+      "description": "Its action repertoire included moving between locations, toggling light switches on and off, opening and closing doors, climbing over rigid objects, and pushing movable ones — the building blocks the planner strung together.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Shakey_the_robot",
+      "source_label": "Wikipedia — Shakey the robot"
+    },
+    {
+      "title": "Find its own way through a cluttered room",
+      "description": "Steering by the baseboards and pausing at open doorways, Shakey could pick a path through an arrangement of obstacles and later recall it to return by a different route — early autonomous route-finding rather than a fixed track.",
+      "provenance": "documented",
+      "source_url": "https://cyberneticzoo.com/cyberneticanimals/1967-shakey-charles-rosen-nils-nilsson-bertram-raphael-et-al-american/",
+      "source_label": "cyberneticzoo.com — Shakey archive"
+    },
+    {
+      "title": "Stage a tidy-the-room demo",
+      "description": "Given its block-pushing and room-to-room navigation, an operator could type a goal like consolidating scattered blocks against one wall and let the planner decide the order of pushes and routes — a clean-up errand built entirely from actions Shakey already had.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Inspection round at lights-out",
+      "description": "Drawing on its move-and-toggle repertoire, Shakey could be told to visit each room in turn and switch the lights off, planning a route that hits every switch — a nightly walk-through expressed as one high-level goal.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

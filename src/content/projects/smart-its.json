@@ -1,0 +1,124 @@
+{
+  "name": "Smart-Its",
+  "year": 2005,
+  "organization": [
+    "Lancaster University",
+    "ETH Zurich",
+    "University of Karlsruhe",
+    "Viktoria Institute"
+  ],
+  "project_type": "research_prototype",
+  "short_description": "A platform of small embedded modules that add sensing, processing, and wireless communication to any everyday artifact, turning it into a networked smart object.",
+  "long_description": "Smart-Its were postage-stamp-scale electronic modules that could be attached post hoc to ordinary objects, augmenting them with multi-sensor perception, a microcontroller, and short-range wireless networking so artifacts could perceive their situation and exchange information. Developed under the EU Disappearing Computer initiative, the platform embodied an artifact-centered vision of ubiquitous computing in which computation recedes into the physical world rather than appearing as a screen-based device. Its best-known interaction technique, Smart-Its Friends, let a user pair two devices simply by holding them together and shaking them, with the modules detecting their shared motion via correlated accelerometer signals. The work is a foundational example of tangible, embedded, context-aware interaction and a precursor to today's Internet of Things.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/1047671.1047707",
+  "ai_embedded": "none",
+  "ai_note": "Smart-Its rely on embedded sensing, microcontroller processing, and signal-correlation matching (e.g. accelerometer coherence for shake-pairing), not on any machine-learning model running inside the system.",
+  "attributes": {
+    "embodiment.form": ["Distributed object ecology", "Domestic object"],
+    "embodiment.mobility": ["Fixed", "Handheld"],
+    "embodiment.materiality": ["Embedded electronics"],
+    "intelligence.model": ["Rule-based system"],
+    "intelligence.input": ["Motion", "Environmental sensors", "Force / torque"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Ubiquitous computing", "Tangible user interfaces", "Internet of Things", "Ambient intelligence", "Smart home"]
+  },
+  "metrics": {
+    "proximity": 4,
+    "mobility": 2,
+    "scale": 1,
+    "social_legibility": 1,
+    "expressiveness": 1,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-smart-its-001",
+      "caption": "Smart-Its embedded sensor module attached to an everyday artifact, as presented in the Communications of the ACM article.",
+      "image_type": "research_figure",
+      "source_url": "https://dl.acm.org/doi/10.1145/1047671.1047707",
+      "rights_status": "needs_permission",
+      "alt_text": "A small circuit board module with sensors and a microcontroller, designed to be attached to an everyday object to give it sensing and wireless networking capabilities."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-smart-its-001",
+      "title": "Smart-Its: computers for artifacts in the physical world",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/1047671.1047707",
+      "publisher": "Communications of the ACM (ACM), Vol. 48, No. 3",
+      "year": 2005
+    },
+    {
+      "source_id": "source-smart-its-002",
+      "title": "Smart-Its Friends: A Technique for Users to Easily Establish Connections between Smart Artefacts",
+      "source_type": "conference_page",
+      "url": "https://link.springer.com/chapter/10.1007/3-540-45427-6_10",
+      "publisher": "Springer (Ubicomp 2001)",
+      "year": 2001
+    },
+    {
+      "source_id": "source-smart-its-003",
+      "title": "The Disappearing Computer Initiative - SMART-ITS",
+      "source_type": "project_page",
+      "url": "http://www.disappearing-computer.org/projects/SMARTITS.html",
+      "publisher": "The Disappearing Computer Initiative",
+      "year": null
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Shake two objects together to pair them",
+      "description": "Hold two Smart-Its-equipped artifacts in one hand and shake them; their accelerometers register the same motion signature and the pair connects, so only the objects you deliberately joined start talking to each other.",
+      "provenance": "documented",
+      "source_url": "https://link.springer.com/chapter/10.1007/3-540-45427-6_10",
+      "source_label": "Smart-Its Friends (Ubicomp 2001)"
+    },
+    {
+      "title": "A chemical drum that warns when stored next to the wrong neighbor",
+      "description": "Augmented containers carry ranging sensors and share what they hold; set two incompatible chemicals side by side and the drums compare type and mass with nearby containers and raise an alert about the hazardous arrangement.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1047671.1047707",
+      "source_label": "Smart-Its, CACM 48(3) 2005"
+    },
+    {
+      "title": "Find a misplaced personal object",
+      "description": "Clip a Smart-Its module onto a everyday item so it can be tracked, and the once-dumb object becomes locatable when it goes missing.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1047671.1047707",
+      "source_label": "Smart-Its, CACM 48(3) 2005"
+    },
+    {
+      "title": "A tamper-evident electronic seal on physical goods",
+      "description": "Attach an eSeal Smart-Its to a sealed item; the module continuously asserts the item's authenticity and physical integrity, flagging if the goods are opened or interfered with in transit.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1047671.1047707",
+      "source_label": "Smart-Its, CACM 48(3) 2005"
+    },
+    {
+      "title": "Cups that infer a meeting is happening",
+      "description": "Embed modules with accelerometer, thermometer, and proximity sensing into ordinary cups; when several warm cups gather close together, the objects read the situation as people meeting at that spot.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1047671.1047707",
+      "source_label": "Smart-Its, CACM 48(3) 2005"
+    },
+    {
+      "title": "An exhibition hall turned reactive overnight",
+      "description": "At SIGGRAPH 2003 the team rapidly embedded a network of Smart-Its into tables, chairs, and smaller artifacts, converting an ordinary exhibition space into an interactive environment that responded to how visitors used the furniture.",
+      "provenance": "observed",
+      "source_url": "https://dl.acm.org/doi/10.1145/1047671.1047707",
+      "source_label": "Smart-Its, CACM 48(3) 2005 (SIGGRAPH 2003 demo)"
+    },
+    {
+      "title": "Pair a tool to its toolbox by shaking them as one",
+      "description": "Give a hand tool and its case each a module, then shake them together to bond them; later the case notices when its shake-partner has wandered off and reminds you before you leave it behind.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A medicine bottle that compares notes with its shelf",
+      "description": "Using the same proximity-and-context sharing as the chemical-drum demo, a pill bottle could check the temperature and identity of bottles around it and warn when a heat-sensitive medication is shelved somewhere too warm.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

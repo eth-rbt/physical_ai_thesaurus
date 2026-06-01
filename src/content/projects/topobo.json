@@ -1,0 +1,119 @@
+{
+  "name": "Topobo",
+  "year": 2004,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "A 3D constructive assembly system with kinetic memory: snap-together active and passive components that record hand-animated motion and replay it.",
+  "long_description": "Topobo is a tangible construction kit, built by Hayes Raffle, Amanda Parkes, and Hiroshi Ishii at the MIT Media Lab and presented at CHI 2004, in which people snap together Passive (static) and Active (motorized) parts to build biomorphic forms like animals and skeletons. By pressing a button and physically pushing, pulling, and twisting an Active joint, a person teaches the structure a motion that the system then plays back repeatedly, giving the toy 'kinetic memory.' It matters as physical AI / interaction design because it pioneers coincident physical input and output, programming by physical demonstration through the body rather than abstract code, letting children grasp balance, leverage, and locomotion by directly manipulating a responsive object.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/985692.985774",
+  "ai_embedded": "none",
+  "ai_note": "No AI or ML: Active joints record and replay sampled motor positions via embedded microcontrollers, a tangible record-and-playback mechanism with no learning or inference.",
+  "attributes": {
+    "embodiment.form": ["Distributed object ecology", "Domestic object"],
+    "embodiment.mobility": ["Legged", "Fixed"],
+    "embodiment.actuation": ["Servo / motorized joints"],
+    "intelligence.input": ["Motion", "Touch", "Gesture"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Creative collaborator", "Teacher"],
+    "genealogy.lineage": ["Tangible user interfaces"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 2,
+    "scale": 2,
+    "social_legibility": 2,
+    "expressiveness": 3,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-topobo-001",
+      "caption": "A Topobo creation assembled from Passive and Active components, animated by physical demonstration.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/remixrobo-topobo/",
+      "rights_status": "needs_permission",
+      "alt_text": "A biomorphic toy structure built from white modular snap-together segments with motorized joints, posed on a surface to walk."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-topobo-001",
+      "title": "Topobo: a constructive assembly system with kinetic memory",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/985692.985774",
+      "publisher": "ACM (CHI 2004)",
+      "year": 2004
+    },
+    {
+      "source_id": "source-topobo-002",
+      "title": "Topobo — Tangible Media Group project page",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/project/remixrobo-topobo/",
+      "publisher": "MIT Media Lab Tangible Media Group",
+      "year": null
+    },
+    {
+      "source_id": "source-topobo-003",
+      "title": "Topobo: A Constructive Assembly System with Kinetic Memory (PDF)",
+      "source_type": "academic_paper",
+      "url": "https://trackr-media.tangiblemedia.org/publishedmedia/Papers/187-Topobo%20A%20Constructive%20Assembly/Published/PDF",
+      "publisher": "MIT Media Lab Tangible Media Group",
+      "year": 2004
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Teach a dog to walk by hand",
+      "description": "Snap together a four-legged creature from Passive and Active parts, press the button on an Active, then physically twist and push its body and legs through a walking gait; press again and it loops that motion, walking across the table on its own.",
+      "provenance": "documented",
+      "source_url": "https://www-ui.is.s.u-tokyo.ac.jp/~takeo/course/2007/media/papers/topobo.pdf",
+      "source_label": "Raffle, Parkes & Ishii, CHI 2004 (PDF)"
+    },
+    {
+      "title": "Record once, replay until you stop it",
+      "description": "A red LED shows an Active is recording your manipulation and a green LED shows playback; the creation keeps replaying your demonstrated motion in a loop until you press the button a third time to freeze it.",
+      "provenance": "documented",
+      "source_url": "https://www-ui.is.s.u-tokyo.ac.jp/~takeo/course/2007/media/papers/topobo.pdf",
+      "source_label": "Raffle, Parkes & Ishii, CHI 2004 (PDF)"
+    },
+    {
+      "title": "Roll a ring of joints like a tank tread",
+      "description": "Build a closed ring of Actives, set them all recording at once, and roll the whole loop across the floor like a tank tread; each Active remembers only its own local rotation, so on playback the ring crawls forward by replaying those local motions together.",
+      "provenance": "documented",
+      "source_url": "https://www-ui.is.s.u-tokyo.ac.jp/~takeo/course/2007/media/papers/topobo.pdf",
+      "source_label": "Raffle, Parkes & Ishii, CHI 2004 (PDF)"
+    },
+    {
+      "title": "Conduct the whole creature with a Queen",
+      "description": "Hold a special Queen Active that broadcasts its angle to every Active in the network; wiggle the Queen and a linear chain mirrors it, curling toward a circle as you add rotation — and the Queen need not be attached, so you can use it as a handheld remote while watching the body move.",
+      "provenance": "documented",
+      "source_url": "https://www-ui.is.s.u-tokyo.ac.jp/~takeo/course/2007/media/papers/topobo.pdf",
+      "source_label": "Raffle, Parkes & Ishii, CHI 2004 (PDF)"
+    },
+    {
+      "title": "Make a wave ripple down a chain",
+      "description": "Swap in an augmented Queen and one demonstrated motion transforms by position: a Decay Queen scales each joint's angle by its distance so a straight string curls into a spiral, while a Time Delay Queen staggers each joint so a wave-like motion ripples down the body.",
+      "provenance": "documented",
+      "source_url": "https://www-ui.is.s.u-tokyo.ac.jp/~takeo/course/2007/media/papers/topobo.pdf",
+      "source_label": "Raffle, Parkes & Ishii, CHI 2004 (PDF)"
+    },
+    {
+      "title": "Debug a gait that won't walk",
+      "description": "In classroom studies with children ages 5-13, kids compared their walking creations to their own bodies; when a creature failed to walk, one second grader stopped and asked \"Why is it not walking?\", then rebuilt and re-demonstrated until the gait worked — physically debugging balance and leverage.",
+      "provenance": "documented",
+      "source_url": "https://www-ui.is.s.u-tokyo.ac.jp/~takeo/course/2007/media/papers/topobo.pdf",
+      "source_label": "Raffle, Parkes & Ishii, CHI 2004 (PDF)"
+    },
+    {
+      "title": "Choreograph a tabletop dance troupe",
+      "description": "Build several small creatures and hand-animate each with its own looping motion, then start them together so a set of independently recorded gaits plays back as a synchronized little performance — grounded in the per-Active record-and-loop playback the system already supports.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Feel out a prosthetic or gait idea in plastic",
+      "description": "A designer studying locomotion sketches a leg linkage in Passive parts, demonstrates a stride by hand, and watches it loop to test whether the timing balances — using Topobo as a quick physical motion-prototyping rig before any code or simulation, which its programming-by-demonstration mechanics directly afford.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,23 +1,44 @@
 {
   "name": "Tesla Optimus",
   "year": 2022,
-  "organization": ["Tesla"],
+  "organization": [
+    "Tesla"
+  ],
   "project_type": "research_prototype",
   "short_description": "Tesla's general-purpose humanoid robot, first revealed in 2022 and iterated since.",
   "long_description": "A bipedal humanoid Tesla positions for repetitive or unsafe labor, leveraging perception and control work from its vehicle program. Still pre-commercial, it is a prominent example of the humanoid form being used to signal future general-purpose capability.",
   "primary_url": "https://www.tesla.com/we-robot",
   "attributes": {
-    "embodiment.form": ["Humanoid robot"],
-    "embodiment.mobility": ["Legged"],
-    "intelligence.input": ["Vision", "Force / torque"],
-    "intelligence.model": ["Vision-language-action model", "Deep learning"],
-    "function.role": ["Coworker", "Manufacturing worker"],
-    "genealogy.lineage": ["Human-robot interaction", "Industrial automation"]
+    "embodiment.form": [
+      "Humanoid robot"
+    ],
+    "embodiment.mobility": [
+      "Legged"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Force / torque"
+    ],
+    "intelligence.model": [
+      "Vision-language-action model",
+      "Deep learning"
+    ],
+    "function.role": [
+      "Coworker",
+      "Manufacturing worker"
+    ],
+    "genealogy.lineage": [
+      "Human-robot interaction",
+      "Industrial automation"
+    ]
   },
   "metrics": {
     "social_legibility": 5,
     "proximity": 2,
-    "mobility": 3
+    "mobility": 3,
+    "form_specificity": 5,
+    "generality": 4,
+    "scale": 5
   },
   "images": [
     {
@@ -39,6 +60,51 @@
       "publisher": "Tesla",
       "year": 2024,
       "access_notes": "Reveal year 2022; year field reflects first reveal — see Open Questions."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Sort battery cells on its own, fixing its own slips",
+      "description": "On a factory bench Optimus picks 4680 cells and orients them into a tray run entirely by an on-board neural net on the FSD computer, using only cameras and the force and tactile sensors in its hands — and self-corrects when a cell goes in crooked.",
+      "provenance": "documented",
+      "source_url": "https://www.teslarati.com/tesla-optimus-sorting-battery-cells/",
+      "source_label": "Teslarati"
+    },
+    {
+      "title": "Fold a shirt on a folding table",
+      "description": "In a Tesla clip the robot pinches a wrinkled shirt off a table and folds it into a neat square — a deliberately fiddly manipulation task, driven by teleoperation to collect training data rather than running fully autonomously.",
+      "provenance": "documented",
+      "source_url": "https://electrek.co/2024/01/15/tesla-optimus-robot-cant-build-cars-folding-clothes/",
+      "source_label": "Electrek"
+    },
+    {
+      "title": "A dance routine, balanced on two legs",
+      "description": "Tesla released footage of Optimus running through ballet-like leg raises, the running man, and pirouettes without toppling — a public demonstration of whole-body balance and limb coordination on the humanoid frame.",
+      "provenance": "documented",
+      "source_url": "https://www.teslarati.com/tesla-optimus-dances-video/",
+      "source_label": "Teslarati"
+    },
+    {
+      "title": "Tend bar at a launch party — with a human behind the curtain",
+      "description": "At the 2024 'We, Robot' event, guests filmed Optimus units pouring drinks, dancing, and playing rock-paper-scissors; reporters later confirmed Tesla staff were remotely teleoperating the bots' interactions the whole night.",
+      "provenance": "observed",
+      "source_url": "https://techcrunch.com/2024/10/14/tesla-optimus-bots-were-controlled-by-humans-during-the-we-robot-event/",
+      "source_label": "TechCrunch"
+    },
+    {
+      "title": "Step aside for a coworker on the floor",
+      "description": "Sharing aisle space with people and moving carts, the robot reroutes its walk around a coworker who steps into its path — grounded in its legged mobility and vision-based navigation already shown moving through Tesla factory spaces.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Feel for the bolt before it cranks down",
+      "description": "Seating a fastener it can't fully see, Optimus uses the force and torque sensing in its arms to detect the moment of contact and back off rather than stripping the thread — an extension of the force or torque input it already carries.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Hand a tool across the bench when asked",
+      "description": "A worker says 'pass me the 10 mil' and the robot picks the right tool out of a cluttered tray and holds it out handle-first, leaning on the vision-language-action model it runs to map spoken intent to a grasp.",
+      "provenance": "proposed"
     }
   ],
   "confidence": "medium"

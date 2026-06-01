@@ -1,0 +1,120 @@
+{
+  "name": "Cellulo",
+  "year": 2017,
+  "organization": ["EPFL", "CHILI Lab"],
+  "project_type": "research_prototype",
+  "short_description": "A platform of low-cost, palm-sized tangible robots that localize on printed paper via a microdot pattern and provide haptic feedback for hands-on learning.",
+  "long_description": "Cellulo is a research platform of handheld, holonomic tangible robots developed at EPFL's CHILI lab that move across ordinary paper activity sheets, localizing with sub-millimeter accuracy by reading a printed optical microdot pattern through a downward-facing camera. Each robot offers haptic feedback and omnidirectional motion driven by magnet-assisted ball drives, letting groups of robots make abstract concepts (orbital mechanics, molecular vibration, handwriting) physically graspable in classrooms and rehabilitation. As a physical AI artifact it is significant as a tangible, embodied interface that blends robots into the everyday material ecology of paper and tablets rather than as an autonomous agent, foregrounding manipulation and haptics over machine intelligence.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/2909824.3020247",
+  "ai_embedded": "none",
+  "ai_note": "Cellulo is a tangible-robotics technique: camera-based microdot localization, holonomic ball-drive actuation, and haptic feedback, with no AI/ML model running inside the robots.",
+  "attributes": {
+    "embodiment.form": ["Mobile robot", "Domestic object", "Distributed object ecology"],
+    "embodiment.mobility": ["Wheeled"],
+    "embodiment.actuation": ["Holonomic ball drive", "Haptic feedback"],
+    "intelligence.input": ["Vision", "Touch"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Teacher", "Tool"],
+    "function.task_domain": ["Education", "Rehabilitation"],
+    "genealogy.lineage": ["Tangible user interfaces", "Human-robot interaction", "Swarm robotics"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 2,
+    "scale": 2,
+    "social_legibility": 2,
+    "expressiveness": 2,
+    "autonomy": 2
+  },
+  "images": [
+    {
+      "image_id": "img-cellulo-001",
+      "caption": "Cellulo handheld tangible robots on a printed paper activity sheet, showing the palm-sized form and illuminated buttons.",
+      "image_type": "research_figure",
+      "source_url": "https://www.semanticscholar.org/paper/Cellulo:-Versatile-Handheld-Robots-for-Education-%C3%96zg%C3%BCr-Lemaignan/3f642fb8187b0364067e51d3b2a056fb224cad99/figure/2",
+      "rights_status": "needs_permission",
+      "alt_text": "Several small rounded palm-sized robots with illuminated top buttons sitting on a printed paper sheet, held and moved by a person's hands."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-cellulo-001",
+      "title": "Cellulo: Versatile Handheld Robots for Education",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2909824.3020247",
+      "publisher": "ACM/IEEE (Proceedings of the 2017 ACM/IEEE International Conference on Human-Robot Interaction)",
+      "year": 2017
+    },
+    {
+      "source_id": "source-cellulo-002",
+      "title": "Cellulo — CHILI Lab Research Page",
+      "source_type": "lab_page",
+      "url": "https://www.epfl.ch/labs/chili/index-html/research/cellulo/",
+      "publisher": "EPFL CHILI Lab",
+      "year": null
+    },
+    {
+      "source_id": "source-cellulo-003",
+      "title": "Cellulo Introduces Classrooms to Tangible Learning With Robots",
+      "source_type": "credible_news",
+      "url": "https://spectrum.ieee.org/automaton/robotics/robotics-hardware/cellulo-introduces-classrooms-to-tangible-learning-with-robots",
+      "publisher": "IEEE Spectrum",
+      "year": null
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Grab a planet and feel its orbit pull back",
+      "description": "A student takes hold of one robot standing in for a planet and drags it across the paper solar system; the robot pushes back through its ball drive so the gravitational tug between bodies is something the hand actually feels, not just watches on a screen.",
+      "provenance": "documented",
+      "source_url": "https://www.epfl.ch/labs/chili/index-html/research/cellulo/",
+      "source_label": "EPFL CHILI Lab — Cellulo"
+    },
+    {
+      "title": "Plant a high-pressure zone and watch a balloon drift",
+      "description": "In the Windfield activity, children set down robots as high-pressure points on a weather map and a free robot, acting like a hot-air balloon, is shoved away from them toward low pressure with a force that fades with distance — felt in the hand as well as seen.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/cellulo-introduces-classrooms-to-tangible-learning-with-robots",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "Get nudged back onto the line of a letter",
+      "description": "A child drives a robot along a printed letter's stroke; when their hand wanders off the path the robot gently steers back toward it, its top lights glowing blue on track and red when astray, turning green when the letter is done.",
+      "provenance": "documented",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7805874/",
+      "source_label": "Frontiers in Robotics and AI (2020)"
+    },
+    {
+      "title": "Rest a hand and let the robot write the letter for you",
+      "description": "In the 'Feel the Robot' mode a child lays a hand loosely on top of the robot and it autonomously traces the letter's shape, carrying their fingers through the motion so the correct movement is learned kinesthetically before they try it alone.",
+      "provenance": "documented",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7805874/",
+      "source_label": "Frontiers in Robotics and AI (2020)"
+    },
+    {
+      "title": "Guess the letter from a partner's robot",
+      "description": "One child writes a letter by moving their robot while classmates watch their own robots mirror the motion in sync, then call out which letter is being formed — turning solitary practice into a small group game.",
+      "provenance": "documented",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7805874/",
+      "source_label": "Frontiers in Robotics and AI (2020)"
+    },
+    {
+      "title": "Talk a teammate across a coordinate grid",
+      "description": "In a three-player game on a printed coordinate map, students give each other directions to steer a robot to a lost astronaut, practicing coordinate navigation through a shared physical search rather than on paper alone.",
+      "provenance": "documented",
+      "source_url": "https://www.epfl.ch/labs/chili/index-html/research/cellulo/learning-activities/",
+      "source_label": "EPFL CHILI — Cellulo learning activities"
+    },
+    {
+      "title": "Trace a coastline without looking",
+      "description": "Because the robot can pull a hand along a printed path and signal with haptics rather than sight, a visually impaired learner could follow the outline of a country, river, or graph by feel, the robot resisting when the hand strays from the line — an extension of the same path-guidance the handwriting activity already uses.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Feel a circuit's current as resistance",
+      "description": "Print a circuit diagram on a microdot sheet and have a robot stand in for an electron: as a student raises the 'voltage' it speeds along the wire, dragging harder where a resistor sits, making an abstract flow into something pushed against the palm.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

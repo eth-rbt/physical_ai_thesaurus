@@ -1,23 +1,45 @@
 {
   "name": "Rabbit R1",
   "year": 2024,
-  "organization": ["Rabbit Inc."],
+  "organization": [
+    "Rabbit Inc."
+  ],
   "project_type": "commercial_product",
   "short_description": "A small handheld AI device with a screen, camera, scroll wheel, and push-to-talk assistant.",
   "long_description": "A pocket gadget that packages a voice-first AI assistant into a dedicated handheld object rather than an app. Its standalone-device form is a bet that a purpose-built carrier can feel distinct from a phone, even while overlapping heavily with one.",
   "primary_url": "https://www.rabbit.tech/",
   "attributes": {
-    "embodiment.form": ["Handheld device", "Domestic object"],
-    "embodiment.mobility": ["Handheld"],
-    "intelligence.input": ["Speech", "Vision", "Touch"],
-    "intelligence.model": ["Large language model", "Vision-language model"],
-    "function.role": ["Assistant"],
-    "genealogy.lineage": ["Ubiquitous computing", "Wearable computing"]
+    "embodiment.form": [
+      "Handheld device",
+      "Domestic object"
+    ],
+    "embodiment.mobility": [
+      "Handheld"
+    ],
+    "intelligence.input": [
+      "Speech",
+      "Vision",
+      "Touch"
+    ],
+    "intelligence.model": [
+      "Large language model",
+      "Vision-language model"
+    ],
+    "function.role": [
+      "Assistant"
+    ],
+    "genealogy.lineage": [
+      "Ubiquitous computing",
+      "Wearable computing"
+    ]
   },
   "metrics": {
     "social_legibility": 2,
     "proximity": 4,
-    "mobility": 5
+    "mobility": 5,
+    "form_specificity": 3,
+    "generality": 4,
+    "scale": 2
   },
   "images": [
     {
@@ -39,6 +61,55 @@
       "publisher": "Rabbit Inc.",
       "year": 2024,
       "access_notes": "Official site."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Turn a boring snapshot into retro AI art",
+      "description": "Point the R1's rotating camera at whatever's in front of you, double-press the side button, and watch the photo come back as a pixelated, retro-futuristic image saved to the device's Magic Gallery.",
+      "provenance": "documented",
+      "source_url": "https://www.rabbit.tech/support/article/rabbit-r1-magic-camera",
+      "source_label": "rabbit support — Magic Camera"
+    },
+    {
+      "title": "Hold up a meeting and walk away with a summary",
+      "description": "Use it as a dedicated recorder: capture long-form dictation or a conversation and get back a clean transcript with filler words stripped and an AI-generated summary.",
+      "provenance": "documented",
+      "source_url": "https://www.rabbit.tech/support/article/rabbit-r1-features",
+      "source_label": "rabbit support — features"
+    },
+    {
+      "title": "Teach it a chore once, let it repeat it",
+      "description": "In teach mode, you demonstrate a web task — log in, click through, fill a form — once in the browser, and the R1 learns to carry out that same workflow on its own afterward.",
+      "provenance": "documented",
+      "source_url": "https://www.engadget.com/ai/teach-mode-rabbits-tool-for-automating-r1-tasks-is-now-available-to-all-users-170036677.html",
+      "source_label": "Engadget — teach mode"
+    },
+    {
+      "title": "Talk a little game into existence",
+      "description": "With rabbitOS 2's 'creations,' you describe a tool or game to the Rabbit intern out loud and it builds a small working app right on the device within minutes.",
+      "provenance": "documented",
+      "source_url": "https://www.yankodesign.com/2025/09/09/rabbit-r1s-os-update-features-a-new-interface-and-speech-to-vibe-coding-abilities/",
+      "source_label": "Yanko Design — rabbitOS 2"
+    },
+    {
+      "title": "Cracked open and turned into a research target",
+      "description": "A reverse-engineering community calling itself Rabbitude pried into the codebase and surfaced hardcoded API keys for services like ElevenLabs, Azure, and Google Maps — keys that, they showed, could read past responses or brick devices.",
+      "provenance": "observed",
+      "source_url": "https://cybernews.com/security/critical-rabbit-r1-security-flaw/",
+      "source_label": "Cybernews — security flaw"
+    },
+    {
+      "title": "Running on a phone it was meant to replace",
+      "description": "A tipster shared the launcher APK and a reviewer sideloaded it onto a Pixel 6a, mapping the volume key to the R1's push-to-talk button and stepping through setup — making the case that the dedicated gadget was really an Android app in a plastic shell.",
+      "provenance": "observed",
+      "source_url": "https://www.androidauthority.com/rabbit-r1-is-an-android-app-3438805/",
+      "source_label": "Android Authority"
+    },
+    {
+      "title": "Identify a plant on the trail, then log it",
+      "description": "Point the camera at a flower mid-walk to identify it by voice, then chain a taught web routine to drop the find into a personal spreadsheet — combining its vision input with a teach-mode automation it already supports.",
+      "provenance": "proposed"
     }
   ],
   "confidence": "medium"

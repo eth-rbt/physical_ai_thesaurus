@@ -1,0 +1,120 @@
+{
+  "name": "Physical Intelligence π0",
+  "year": 2024,
+  "organization": [
+    "Physical Intelligence"
+  ],
+  "project_type": "research_prototype",
+  "short_description": "A generalist robot foundation model trained across 8 platforms and multiple dexterous tasks, using a vision-language-action architecture with flow matching.",
+  "long_description": "Announced in October 2024, π0 (pi-zero) is the first robot policy to demonstrate that a single model can be trained across 8 distinct robot platforms and perform a wide range of dexterous manipulation tasks — laundry folding, box assembly, table bussing, grocery bagging, and more — without per-task specialization. Built on a 3-billion-parameter vision-language model backbone extended with continuous action outputs via flow matching (a diffusion-model variant), it outputs motor commands at up to 50 Hz. Its generality across platforms and tasks marks a structural shift from the single-task specialist paradigm that dominated robot learning, establishing the concept of a robot foundation model as a practical architectural commitment rather than a research aspiration.",
+  "primary_url": "https://www.pi.website/blog/pi0",
+  "ai_embedded": "core",
+  "ai_note": "VLA foundation model: a 3B-parameter vision-language model augmented with continuous action outputs via flow matching, fine-tuned for dexterous manipulation across multiple robot platforms.",
+  "attributes": {
+    "embodiment.form": [
+      "Industrial robot",
+      "Mobile robot"
+    ],
+    "embodiment.mobility": [
+      "Fixed",
+      "Robotic arm",
+      "Wheeled"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Force / torque",
+      "Text"
+    ],
+    "intelligence.model": [
+      "Vision-language-action model",
+      "Robotics foundation model",
+      "Vision-language model",
+      "Deep learning"
+    ],
+    "function.role": [
+      "Coworker",
+      "Tool",
+      "Manufacturing worker"
+    ],
+    "function.task_domain": [
+      "Domestic labor",
+      "Manipulation"
+    ],
+    "genealogy.lineage": [
+      "Human-robot interaction",
+      "Industrial automation"
+    ]
+  },
+  "metrics": {
+    "autonomy": 4,
+    "generality": 5,
+    "social_legibility": 2,
+    "mobility": 2
+  },
+  "images": [
+    {
+      "image_id": "img-pi-zero-001",
+      "caption": "Physical Intelligence π0 robot folding laundry, demonstrating dexterous manipulation across a generalist policy.",
+      "image_type": "interaction_photo",
+      "source_url": "https://www.pi.website/blog/pi0",
+      "rights_status": "needs_permission",
+      "alt_text": "A robot arm manipulating a piece of clothing on a table as part of Physical Intelligence's pi-zero generalist policy demonstration."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-pi-zero-001",
+      "title": "π0: Physical Intelligence's Generalist Robot Policy",
+      "source_type": "official_blog_post",
+      "url": "https://www.pi.website/blog/pi0",
+      "publisher": "Physical Intelligence",
+      "year": 2024,
+      "access_notes": "Official announcement blog post, published October 31, 2024. Describes the model architecture, robot platforms, and demonstrated tasks."
+    },
+    {
+      "source_id": "source-pi-zero-002",
+      "title": "π₀: A Vision-Language-Action Flow Model for General Robot Control",
+      "source_type": "academic_paper",
+      "url": "https://arxiv.org/abs/2410.24164",
+      "publisher": "arXiv / RSS 2025",
+      "year": 2024,
+      "access_notes": "Peer-reviewed paper (RSS 2025). Authors include Kevin Black, Noah Brown, Danny Driess, Chelsea Finn, Karol Hausman, Brian Ichter, Sergey Levine, and others from Physical Intelligence. Describes the flow-matching architecture and evaluation across dexterous tasks."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Fold a shirt from a laundry hamper",
+      "description": "π0 picks an unfolded shirt from a pile, manipulates it through multiple intermediate steps, and folds it into a flat square — a task Physical Intelligence notes no prior robot system had demonstrated at this level of complexity.",
+      "provenance": "documented",
+      "source_url": "https://www.pi.website/blog/pi0",
+      "source_label": "Physical Intelligence — π0 blog post"
+    },
+    {
+      "title": "Bus a table, sorting dishes from trash",
+      "description": "The robot clears a restaurant-style table by identifying dishes, cups, and trash and sorting them into the appropriate bins — achieving 0.971 on the easy bussing benchmark and 0.875 on the hard variant in evaluations against OpenVLA and Octo baselines.",
+      "provenance": "documented",
+      "source_url": "https://www.pi.website/blog/pi0",
+      "source_label": "Physical Intelligence — π0 blog post"
+    },
+    {
+      "title": "Assemble a cardboard box from flat panels",
+      "description": "Given flat cardboard pieces, π0 folds and assembles them into a box — a multi-step dexterous task requiring spatial reasoning and sequenced force application.",
+      "provenance": "documented",
+      "source_url": "https://www.pi.website/blog/pi0",
+      "source_label": "Physical Intelligence — π0 blog post"
+    },
+    {
+      "title": "Bag a jumble of grocery items",
+      "description": "The robot stows a variety of grocery items into a bag, handling different shapes and weights — one of the suite of tasks spanning household dexterity in the π0 demonstrations.",
+      "provenance": "documented",
+      "source_url": "https://www.pi.website/blog/pi0",
+      "source_label": "Physical Intelligence — π0 blog post"
+    },
+    {
+      "title": "Transfer the trained policy to a new robot with minimal fine-tuning",
+      "description": "Because π0 is trained across 8 distinct robot morphologies, a team could potentially adapt the pre-trained weights to a new arm or mobile manipulator by fine-tuning on a small task-specific dataset rather than retraining from scratch — the core architectural bet of the foundation model approach.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,240 @@
+---
+// A scrollable, append-only feed of thoughts attached to one card or project.
+// Anyone behind the gate can add; only admins can edit/delete existing thoughts.
+// Reads + realtime happen client-side via the public anon key; writes go through
+// /api/thoughts (server, service-role) which re-checks the session role.
+interface Props {
+  entityType: 'project' | 'card';
+  entityId: string;
+  isAdmin: boolean;
+}
+const { entityType, entityId, isAdmin } = Astro.props;
+const url = import.meta.env.PUBLIC_SUPABASE_URL ?? '';
+const anon = import.meta.env.PUBLIC_SUPABASE_ANON_KEY ?? '';
+const configured = Boolean(url && anon);
+---
+
+<section
+  class="thoughts"
+  data-entity-type={entityType}
+  data-entity-id={entityId}
+  data-admin={isAdmin ? '1' : '0'}
+  data-url={url}
+  data-key={anon}
+>
+  <div class="thoughts-head">
+    <h2>Thoughts</h2>
+    <span class="muted count" data-count>—</span>
+  </div>
+
+  {configured ? (
+    <>
+      <ol class="thought-list" data-list>
+        <li class="thought-empty muted">Loading…</li>
+      </ol>
+      <form class="thought-form" data-form>
+        <textarea
+          name="body"
+          rows="2"
+          maxlength="4000"
+          placeholder="Add a thought…"
+          required
+        ></textarea>
+        <div class="thought-form-row">
+          <input type="text" name="author" placeholder="Your name (optional)" maxlength="80" />
+          <button type="submit">Add</button>
+        </div>
+      </form>
+    </>
+  ) : (
+    <p class="muted">
+      Thoughts aren't configured yet — set <code>PUBLIC_SUPABASE_URL</code> and
+      <code>PUBLIC_SUPABASE_ANON_KEY</code> to enable them.
+    </p>
+  )}
+</section>
+
+<script>
+  import { createClient, type SupabaseClient } from '@supabase/supabase-js';
+
+  type Thought = {
+    id: string;
+    entity_type: string;
+    entity_id: string;
+    body: string;
+    author: string | null;
+    created_at: string;
+    updated_at: string | null;
+  };
+
+  function timeLabel(iso: string): string {
+    const d = new Date(iso);
+    return d.toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' });
+  }
+
+  function initThoughts(root: HTMLElement) {
+    const entityType = root.dataset.entityType!;
+    const entityId = root.dataset.entityId!;
+    const isAdmin = root.dataset.admin === '1';
+    const url = root.dataset.url!;
+    const key = root.dataset.key!;
+    const list = root.querySelector<HTMLOListElement>('[data-list]');
+    const form = root.querySelector<HTMLFormElement>('[data-form]');
+    const countEl = root.querySelector<HTMLElement>('[data-count]');
+    if (!list || !form) return;
+
+    const supabase: SupabaseClient = createClient(url, key, {
+      auth: { persistSession: false },
+    });
+
+    // id → thought, kept sorted by created_at ascending (oldest first, newest at bottom).
+    const byId = new Map<string, Thought>();
+
+    function render() {
+      const items = [...byId.values()].sort((a, b) => a.created_at.localeCompare(b.created_at));
+      if (countEl) countEl.textContent = String(items.length);
+      list!.replaceChildren();
+      if (items.length === 0) {
+        const li = document.createElement('li');
+        li.className = 'thought-empty muted';
+        li.textContent = 'No thoughts yet — add the first one.';
+        list!.append(li);
+        return;
+      }
+      for (const t of items) list!.append(renderItem(t));
+      list!.scrollTop = list!.scrollHeight;
+    }
+
+    function renderItem(t: Thought): HTMLLIElement {
+      const li = document.createElement('li');
+      li.className = 'thought';
+      li.dataset.id = t.id;
+
+      const meta = document.createElement('div');
+      meta.className = 'thought-meta';
+      const who = document.createElement('span');
+      who.className = 'thought-author';
+      who.textContent = t.author || 'Anonymous';
+      const when = document.createElement('span');
+      when.className = 'thought-time muted';
+      when.textContent = timeLabel(t.created_at) + (t.updated_at ? ' · edited' : '');
+      meta.append(who, when);
+
+      const body = document.createElement('p');
+      body.className = 'thought-body';
+      body.textContent = t.body;
+
+      li.append(meta, body);
+
+      if (isAdmin) {
+        const tools = document.createElement('div');
+        tools.className = 'thought-tools';
+        const edit = document.createElement('button');
+        edit.type = 'button';
+        edit.textContent = 'Edit';
+        edit.onclick = () => startEdit(li, t);
+        const del = document.createElement('button');
+        del.type = 'button';
+        del.className = 'danger';
+        del.textContent = 'Delete';
+        del.onclick = () => removeThought(t.id);
+        tools.append(edit, del);
+        li.append(tools);
+      }
+      return li;
+    }
+
+    function startEdit(li: HTMLLIElement, t: Thought) {
+      const ta = document.createElement('textarea');
+      ta.value = t.body;
+      ta.rows = 3;
+      const save = document.createElement('button');
+      save.type = 'button';
+      save.textContent = 'Save';
+      save.onclick = async () => {
+        const next = ta.value.trim();
+        if (next && next !== t.body) await editThought(t.id, next);
+        else render();
+      };
+      const cancel = document.createElement('button');
+      cancel.type = 'button';
+      cancel.textContent = 'Cancel';
+      cancel.onclick = () => render();
+      const box = document.createElement('div');
+      box.className = 'thought-edit';
+      box.append(ta, save, cancel);
+      li.replaceChildren(box);
+      ta.focus();
+    }
+
+    async function addThought(body: string, author: string) {
+      const res = await fetch('/api/thoughts', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ entity_type: entityType, entity_id: entityId, body, author }),
+      });
+      if (!res.ok) alert('Could not add thought.');
+      // realtime INSERT will append it for everyone (including us).
+    }
+
+    async function editThought(id: string, body: string) {
+      const res = await fetch(`/api/thoughts/${id}`, {
+        method: 'PATCH',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ body }),
+      });
+      if (!res.ok) alert('Could not edit thought.');
+    }
+
+    async function removeThought(id: string) {
+      if (!confirm('Delete this thought?')) return;
+      const res = await fetch(`/api/thoughts/${id}`, { method: 'DELETE' });
+      if (!res.ok) alert('Could not delete thought.');
+    }
+
+    // Initial load
+    supabase
+      .from('thoughts')
+      .select('*')
+      .eq('entity_type', entityType)
+      .eq('entity_id', entityId)
+      .order('created_at', { ascending: true })
+      .then(({ data }) => {
+        for (const t of (data ?? []) as Thought[]) byId.set(t.id, t);
+        render();
+      });
+
+    // Realtime: react to any change for this entity_id, then double-check type.
+    supabase
+      .channel(`thoughts:${entityType}:${entityId}`)
+      .on(
+        'postgres_changes',
+        { event: '*', schema: 'public', table: 'thoughts', filter: `entity_id=eq.${entityId}` },
+        (payload) => {
+          const row = (payload.new ?? payload.old) as Thought;
+          if (!row || row.entity_type !== entityType) return;
+          if (payload.eventType === 'DELETE') byId.delete(row.id);
+          else byId.set(row.id, payload.new as Thought);
+          render();
+        },
+      )
+      .subscribe();
+
+    // Add handler
+    const AUTHOR_KEY = 'pai_author';
+    const authorInput = form.querySelector<HTMLInputElement>('input[name=author]');
+    if (authorInput) authorInput.value = localStorage.getItem(AUTHOR_KEY) ?? '';
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const ta = form.querySelector<HTMLTextAreaElement>('textarea')!;
+      const body = ta.value.trim();
+      if (!body) return;
+      const author = authorInput?.value.trim() ?? '';
+      if (author) localStorage.setItem(AUTHOR_KEY, author);
+      ta.value = '';
+      await addThought(body, author);
+    });
+  }
+
+  document.querySelectorAll<HTMLElement>('.thoughts').forEach(initThoughts);
+</script>

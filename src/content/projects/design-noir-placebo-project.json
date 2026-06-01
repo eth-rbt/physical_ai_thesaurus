@@ -1,0 +1,118 @@
+{
+  "name": "Design Noir: Placebo Project",
+  "year": 2001,
+  "organization": ["Dunne & Raby"],
+  "project_type": "art_design_project",
+  "short_description": "Eight prototype furniture objects that react to stray electromagnetic fields, placed in volunteers' homes to provoke stories about the invisible life of electronic devices.",
+  "long_description": "The Placebo Project, presented by Anthony Dunne and Fiona Raby in their 2001 book Design Noir, is a set of eight critical-design furniture prototypes (including the Compass Table with 25 embedded compass needles, the Nipple Chair, the Electro-Draught Excluder, and the Parasite Light) that respond visibly or physically to the electromagnetic fields radiating from household electronics. Rather than offering scientific accuracy, the objects were placed with volunteers for several weeks to elicit personal narratives about how people imagine and live with invisible electromagnetic radiation. As an early landmark of speculative and critical design, it matters to physical AI as a study in how everyday objects can make invisible technical phenomena legible and how form and material frame people's relationship to ambient technology, without any computation or learning involved.",
+  "primary_url": "https://dunneandraby.co.uk/content/projects/70/0",
+  "ai_embedded": "none",
+  "ai_note": "The objects use only passive electromagnetic sensing and simple electrical/mechanical reactions (compass needles, vibration, light); no AI or ML is involved.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.materiality": ["Furniture"],
+    "intelligence.input": ["Environmental sensors"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Mediator"],
+    "genealogy.lineage": ["Speculative design", "Ubiquitous computing", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 4,
+    "social_legibility": 2,
+    "expressiveness": 4,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-design-noir-placebo-project-001",
+      "caption": "The Compass Table from the Placebo Project, with 25 compass needles embedded in its surface that twitch when electronic devices are placed on it.",
+      "image_type": "exhibition_photo",
+      "source_url": "https://dunneandraby.co.uk/content/projects/70/0",
+      "rights_status": "needs_permission",
+      "alt_text": "A pale wooden table with a grid of small circular compasses set into its top surface."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-design-noir-placebo-project-001",
+      "title": "Placebo Project",
+      "source_type": "project_page",
+      "url": "https://dunneandraby.co.uk/content/projects/70/0",
+      "publisher": "Dunne & Raby",
+      "year": 2001
+    },
+    {
+      "source_id": "source-design-noir-placebo-project-002",
+      "title": "The Placebo project",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/778712.778714",
+      "publisher": "ACM (Proceedings of DIS 2002)",
+      "year": 2002
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Set your phone on the table and watch the needles twitch",
+      "description": "Place a switched-on mobile phone or other electronic device on the Compass Table and the 25 compass needles embedded in its surface twitch and spin, tracing the otherwise invisible electromagnetic field of the gadget sitting on top.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/70/0",
+      "source_label": "Dunne & Raby — Placebo Project"
+    },
+    {
+      "title": "Feel the radiation through the seat of your chair",
+      "description": "Sit in the Nipple Chair and the nodules set into its back vibrate when electromagnetic radiation passes through your upper body, turning ambient exposure into something you can physically feel against your spine.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/70/0",
+      "source_label": "Dunne & Raby — Placebo Project"
+    },
+    {
+      "title": "A lamp that only lights up in a field of leaked radiation",
+      "description": "The Parasite Light has no plug; carry it around the home and it glows only when it sits inside the stray radiation leaking from other electronic products, mapping the invisible hot spots room by room.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/70/0",
+      "source_label": "Dunne & Raby — Placebo Project"
+    },
+    {
+      "title": "A table that tells you it is lost",
+      "description": "The GPS Table shows its coordinates when it can see enough sky through a window, but displays the single word \"lost\" when the signal drops; one volunteer described being shaken by it — \"I thought, 'Bloody hell, the poor thing's lost.'\"",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/70/0",
+      "source_label": "Dunne & Raby — Placebo Project"
+    },
+    {
+      "title": "Hide the phone in a drawer to silence the room",
+      "description": "Drop the cordless phone into the Phone Table's drawer and its ring is muffled; when a call comes in, the tabletop simply glows green instead, swapping an intrusive sound for a quiet ambient signal.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/70/0",
+      "source_label": "Dunne & Raby — Placebo Project"
+    },
+    {
+      "title": "Live with the objects for weeks and invent stories about them",
+      "description": "The prototypes were loaned to volunteers who kept them at home for several weeks; Dunne & Raby photographed the objects in use and interviewed the owners, collecting the personal narratives people built to explain the invisible electromagnetic life of their houses.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/778712.778714",
+      "source_label": "Dunne & Raby, \"The Placebo project\" (DIS 2002)"
+    },
+    {
+      "title": "Shown at Droog with the volunteers' own photos and interviews",
+      "description": "The full set of Placebo furniture was exhibited at Droog & Co., presenting the objects alongside photographs of them in volunteers' homes and the recorded interviews about living with them.",
+      "provenance": "observed",
+      "source_url": "https://www.droog.com/projects/the-placebo-project/",
+      "source_label": "Droog — The Placebo Project"
+    },
+    {
+      "title": "A bedside compass dial that reveals a hidden sleep-time field",
+      "description": "Borrowing the Compass Table's passive-needle mechanism, a small bedside dial could quietly register the field from a clock radio or charger left running all night, giving a sleeper a tangible morning read of what hummed beside them in the dark.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A parasite night-light for a child's room",
+      "description": "Using the Parasite Light's plug-free, field-fed glow, a soft lamp placed near a household appliance would brighten and dim with the device's activity, letting a child watch the otherwise invisible electrical life of the home as a gentle, changing nightlight.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

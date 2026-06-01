@@ -60,5 +60,61 @@
       "access_notes": "Covers the April 2024 rebrand from Rewind to Limitless and the Pendant announcement."
     }
   ],
+  "interactions": [
+    {
+      "title": "Ask what was actually said",
+      "description": "After a meeting, open the app and type \"what price did Jennifer quote for the GPU order?\" and the assistant pulls the exact line out of the day's recordings instead of you scrolling a transcript.",
+      "provenance": "documented",
+      "source_url": "https://help.limitless.ai/en/articles/10546658-interacting-with-the-pendant-search-ask-ai-summaries",
+      "source_label": "Limitless Help Center — Search, Ask AI, Summaries"
+    },
+    {
+      "title": "Learns who's who in 20 seconds",
+      "description": "Label a person's voice once with about twenty seconds of audio, and the Pendant automatically attributes their lines in every later conversation, even when people switch between languages.",
+      "provenance": "documented",
+      "source_url": "https://help.limitless.ai/en/articles/10546658-interacting-with-the-pendant-search-ask-ai-summaries",
+      "source_label": "Limitless Help Center"
+    },
+    {
+      "title": "A white light says it's listening",
+      "description": "When the Pendant is recording, a white LED stays lit so the person across from you can see it, and they can ask the wearer to switch it off — the device's built-in answer to recording people who didn't sign up for it.",
+      "provenance": "documented",
+      "source_url": "https://help.limitless.ai/en/articles/13004190-talking-to-someone-wearing-the-pendant-what-to-expect-and-how-we-handle-your-information",
+      "source_label": "Limitless Help Center — talking to a Pendant wearer"
+    },
+    {
+      "title": "Think out loud on a walk",
+      "description": "Reviewers stopped using it only for meetings and started narrating half-formed ideas while walking or driving, treating the Pendant as a capture device for the business idea you had three weeks ago and forgot.",
+      "provenance": "observed",
+      "source_url": "https://thoughts.jock.pl/p/voice-ai-hardware-limitless-pendant-real-world-review-automation-experiments",
+      "source_label": "jock.pl — real-world Pendant review"
+    },
+    {
+      "title": "Wired into a journaling pipeline",
+      "description": "One user automated the lifelog so each evening it generated a journal entry in Google Docs with the day's key moments and decisions, and routed open questions to Perplexity for research, emailed back the next morning.",
+      "provenance": "observed",
+      "source_url": "https://thoughts.jock.pl/p/voice-ai-hardware-limitless-pendant-real-world-review-automation-experiments",
+      "source_label": "jock.pl — automation experiments"
+    },
+    {
+      "title": "Catching a kid's first 'I love you'",
+      "description": "Because it records all day, owners describe the Pendant accidentally preserving ordinary domestic moments — a child's first \"I love you\" — or scrubbing timestamps to figure out exactly when last night's power outage hit.",
+      "provenance": "observed",
+      "source_url": "https://moelueker.com/blog/limitless-ai-pendant-review-5-use-cases-worth-199",
+      "source_label": "Moe Lueker — 5 use cases review"
+    },
+    {
+      "title": "Action items land in your task app",
+      "description": "Ask the assistant for the commitments from a call and it returns a clean, importable list of who-owes-what that drops straight into a to-do app or calendar with no reformatting.",
+      "provenance": "observed",
+      "source_url": "https://justcall.io/blog/limitless-pendant-recorder-review.html",
+      "source_label": "JustCall — Pendant review"
+    },
+    {
+      "title": "Settle the 'you never told me' argument",
+      "description": "Since it timestamps and attributes who said what, a wearer could quietly resolve a domestic disagreement by recalling whether a chore or plan was actually agreed to — grounded in the device's all-day capture and speaker diarization, though the consent rules cut both ways at home.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

@@ -1,0 +1,102 @@
+{
+  "name": "metaDESK",
+  "year": 1997,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "A back-projected desk where physical models of landmarks act as graspable 'phicons' that control digital geospatial maps.",
+  "long_description": "metaDESK was an early tangible user interface platform from the MIT Media Lab's Tangible Media Group, integrating back-projected 2D and 3D graphic displays with physical objects sensed by optical, mechanical, and electromagnetic field sensors. Its Tangible Geospace application let users grasp scale models of MIT landmarks such as the Great Dome as 'phicons' to translate and rotate maps of campus, while an arm-mounted activeLENS offered a spatially-contiguous 3D view. As a foundational physical-AI-adjacent interaction design, it demonstrated how giving digital information a physical body changes how people perceive, grasp, and manipulate it, seeding the tangible interfaces lineage that later physical AI systems build on.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/263407.263551",
+  "ai_embedded": "none",
+  "ai_note": "A sensing-and-display tangible interface using optical, mechanical, and electromagnetic object tracking; no AI/ML runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Touch", "Motion", "Environmental sensors"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 4,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-metadesk-001",
+      "caption": "The metaDESK with the Great Dome phicon and activeLENS used to manipulate Tangible Geospace.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/metadesk/",
+      "rights_status": "needs_permission",
+      "alt_text": "A back-projected tabletop showing a map, with a small physical model of a domed building resting on it and an arm-mounted screen displaying a 3D campus view."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-metadesk-001",
+      "title": "The metaDESK: models and prototypes for tangible user interfaces",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/263407.263551",
+      "publisher": "ACM (UIST '97)",
+      "year": 1997
+    },
+    {
+      "source_id": "source-metadesk-002",
+      "title": "metaDESK - Tangible Media Group",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/project/metadesk/",
+      "publisher": "MIT Media Lab",
+      "year": 1997
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Drag a campus by its dome",
+      "description": "Set the small physical model of MIT's Great Dome on the desk and slide it around; the back-projected map of campus translates and rotates under it as if the dome were a handle bolted to the map.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/metadesk/",
+      "source_label": "MIT Tangible Media Group — metaDESK"
+    },
+    {
+      "title": "Two hands to scale and spin the map",
+      "description": "Place a second phicon — a model of the Media Lab building — beside the Dome and move one or both; the map zooms and rotates so that both landmarks stay pinned to their real geographic positions.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/metadesk/",
+      "source_label": "MIT Tangible Media Group — metaDESK"
+    },
+    {
+      "title": "Lift a window into the third dimension",
+      "description": "Grasp the arm-mounted activeLENS and move it over the desk; it acts as a physically embodied window that shows a spatially-continuous 3D view of the campus buildings sitting on the 2D map below.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/metadesk/",
+      "source_label": "MIT Tangible Media Group — metaDESK"
+    },
+    {
+      "title": "A see-through magic lens on the tabletop",
+      "description": "Lay the passiveLENS — a flat optical fiber-bundle pane — onto the back-projected surface to reveal an independent layer of graphics through it, like a transparent overlay that shows a different facet of the same map.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/metadesk/",
+      "source_label": "MIT Tangible Media Group — metaDESK"
+    },
+    {
+      "title": "A phicon that is both data and handle",
+      "description": "The Great Dome model does double duty: it is the physical container standing in for the MIT campus dataset and, at the same time, the graspable handle you use to move and orient that data on the desk.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/263407.263551",
+      "source_label": "Ullmer & Ishii, UIST '97"
+    },
+    {
+      "title": "Tangible site review for a building",
+      "description": "An architect could set a model of a proposed structure on the desk to anchor a site map, then sweep the activeLENS across it to inspect how the new massing meets neighboring buildings in 3D — using the platform's real phicon-plus-lens mechanics, not added intelligence.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Co-located map briefing around a table",
+      "description": "Two people each grab a phicon to argue over orientation and zoom of a shared campus map, while a third slides the passiveLENS over a region to pull up its detail layer — a hands-on group navigation built only on the desk's existing graspable controls.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

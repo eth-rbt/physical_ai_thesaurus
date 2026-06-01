@@ -1,0 +1,126 @@
+{
+  "name": "Dangling String (Live Wire)",
+  "year": 1995,
+  "organization": ["Xerox PARC", "Natalie Jeremijenko"],
+  "project_type": "art_design_project",
+  "short_description": "An 8-foot motorized string in an office hallway that twitches and whirls in proportion to passing Ethernet network traffic.",
+  "long_description": "Created by artist Natalie Jeremijenko at Xerox PARC, the Dangling String is a length of plastic spaghetti hung from a ceiling-mounted electric motor wired to a nearby Ethernet cable, so each passing bit produces a tiny twitch: a busy network sends the string madly whirling and humming, while a quiet one yields only an occasional flick. Positioned in an unused hallway corner and visible from many offices, it conveys information through peripheral, bodily awareness — motion and sound — rather than demanding direct attention. Mark Weiser and John Seely Brown cited it as the canonical embodiment of calm technology in their 1995 essay, arguing it meets the key challenge of making digital state physically legible at the edge of attention without overloading it. Exhibited in the SIGGRAPH 1995 Digital Gallery under the title 'Live Wire', it remains one of the foundational demonstrations that ambient physical motion can serve as an ambient display for invisible digital activity.",
+  "primary_url": "https://history.siggraph.org/artwork/natalie-jeremijenko-live-wire/",
+  "ai_embedded": "none",
+  "ai_note": "Purely a motor electromechanically driven by raw Ethernet traffic; there is no machine learning or inference of any kind.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.actuation": ["Motor / rotary"],
+    "embodiment.materiality": ["String / fiber"],
+    "intelligence.input": ["Environmental sensors"],
+    "intelligence.output": ["Motion"],
+    "function.role": ["Ambient display"],
+    "genealogy.lineage": [
+      "Ubiquitous computing",
+      "Ambient intelligence",
+      "Calm technology",
+      "Tangible user interfaces"
+    ]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 1,
+    "social_legibility": 2,
+    "expressiveness": 2,
+    "autonomy": 1,
+    "initiative": 2,
+    "visibility": 3,
+    "intensity": 1,
+    "timing": 5,
+    "generality": 1
+  },
+  "images": [
+    {
+      "image_id": "img-dangling-string-001",
+      "caption": "The Live Wire / Dangling String, an 8-foot motorized cord exhibited at SIGGRAPH 1995 as an electronic sculpture that whirls with Ethernet traffic.",
+      "image_type": "exhibition_photo",
+      "source_url": "https://history.siggraph.org/artwork/natalie-jeremijenko-live-wire/",
+      "rights_status": "needs_permission",
+      "alt_text": "A long thin plastic string hanging from a small ceiling motor in an office hallway, depicting Natalie Jeremijenko's Live Wire ambient network display."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-dangling-string-001",
+      "title": "Natalie Jeremijenko: Live Wire — SIGGRAPH 1995 Digital Gallery",
+      "source_type": "exhibition_page",
+      "url": "https://history.siggraph.org/artwork/natalie-jeremijenko-live-wire/",
+      "publisher": "ACM SIGGRAPH History Archives",
+      "year": 1995,
+      "access_notes": "Official SIGGRAPH history archive record for the artwork shown as 'Live Wire' in the 1995 Digital Gallery. Confirms creator, year, medium (electronic sculpture), and dimensions (8 × 1 × 1 feet)."
+    },
+    {
+      "source_id": "source-dangling-string-002",
+      "title": "Designing Calm Technology",
+      "source_type": "academic_paper",
+      "url": "https://calmtech.com/papers/designing-calm-technology.html",
+      "publisher": "Xerox PARC (Mark Weiser and John Seely Brown)",
+      "year": 1995,
+      "access_notes": "The foundational essay describing the Dangling String in detail: 8-foot plastic spaghetti, ceiling motor, Ethernet tap, hallway installation. Primary written source for how the device works and its calm-technology framing. Published December 21, 1995."
+    },
+    {
+      "source_id": "source-dangling-string-003",
+      "title": "Natalie Jeremijenko",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Natalie_Jeremijenko",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Background on the artist's practice and institutional affiliation; corroborates Xerox PARC residency context."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Feel the network without looking at it",
+      "description": "Working in your office, you catch the string madly whirling and humming in the hallway out of the corner of your eye and know, without checking a screen, that the network is suddenly busy.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology.html",
+      "source_label": "Weiser & Brown — Designing Calm Technology (1995)"
+    },
+    {
+      "title": "A quiet flick on a quiet network",
+      "description": "On a slow afternoon the string barely moves, twitching only every few seconds, so an idle network reads at a glance as physical stillness in the corridor.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology.html",
+      "source_label": "Weiser & Brown — Designing Calm Technology (1995)"
+    },
+    {
+      "title": "Hear it from another room",
+      "description": "Placed in an unused corner of the hallway, the string is audible as well as visible from many offices, so its characteristic whirring noise lets people sense network activity even when it is out of direct sight.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology.html",
+      "source_label": "Weiser & Brown — Designing Calm Technology (1995)"
+    },
+    {
+      "title": "Novelty that fades into the background",
+      "description": "At first the spinning string grabs everyone's attention as a curiosity, but the gentle waving soon recedes to the periphery and becomes something you only notice when its motion changes — the calm-technology ideal of moving between center and edge of attention.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology.html",
+      "source_label": "Weiser & Brown — Designing Calm Technology (1995)"
+    },
+    {
+      "title": "A shared ambient pulse for the whole hallway",
+      "description": "Because each passing bit drives the motor directly, everyone within sight or earshot reads the same live measure of traffic at once, turning an invisible cable into a single physical signal the office collectively attunes to.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology.html",
+      "source_label": "Weiser & Brown — Designing Calm Technology (1995)"
+    },
+    {
+      "title": "Spot a stall before the dashboard does",
+      "description": "Walking past, you notice the string has gone limp during what should be a busy stretch and pause to wonder whether the link has dropped — a bodily hunch about network health drawn straight from its motion, grounded in the same one-to-one wiring of bits to twitches the original used.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Tie the string to something other than packets",
+      "description": "Swap the Ethernet tap for another live data feed — a build queue, ticket backlog, or shared electricity meter — so the same dangling motion lets a room feel an abstract system's tempo at the edge of attention.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

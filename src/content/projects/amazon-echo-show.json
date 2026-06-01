@@ -59,5 +59,54 @@
       "year": 2021
     }
   ],
+  "interactions": [
+    {
+      "title": "Cook with wet hands, no touching",
+      "description": "Pull up a recipe on the screen and walk through it by voice alone — \"Alexa, next step,\" \"show me step four,\" \"repeat that\" — so you never smear flour on the glass.",
+      "provenance": "documented",
+      "source_url": "https://techcrunch.com/2019/11/14/amazon-and-google-double-down-on-hands-free-recipes-to-help-sell-their-smart-displays/",
+      "source_label": "TechCrunch — hands-free recipes"
+    },
+    {
+      "title": "Drop in on a grandparent",
+      "description": "An adult child connects to a parent's kitchen Echo Show like a video intercom; the screen lights up and they're face to face, with no button for the older person to find or press.",
+      "provenance": "documented",
+      "source_url": "https://www.aboutamazon.com/news/devices/how-to-stay-connected-with-grandparents-using-echo-show",
+      "source_label": "Amazon — staying connected with grandparents"
+    },
+    {
+      "title": "Check the dog from the airport",
+      "description": "With Home Monitoring on, you open the Alexa app on your phone while traveling and watch a live feed of the living room; on the Show 10 you can swipe to pan the camera and look for the dog.",
+      "provenance": "documented",
+      "source_url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GMT7U44MNSPQQAUF",
+      "source_label": "Amazon — Home Monitoring on Echo Show"
+    },
+    {
+      "title": "Talk to it like a person, not a remote",
+      "description": "With Alexa+ the device holds an open-ended conversation on the kitchen counter — summarizing a topic, planning a trip, or following \"actually, make it vegetarian\" without re-issuing a rigid command.",
+      "provenance": "documented",
+      "source_url": "https://www.aboutamazon.com/news/devices/new-alexa-generative-artificial-intelligence",
+      "source_label": "Amazon — introducing Alexa+"
+    },
+    {
+      "title": "The screen that watches you back",
+      "description": "Reviewers living with the Show 10 found its motorized screen swiveling to track them around the kitchen genuinely unsettling — \"Alexa's watchful eye\" left on all the time felt like the device watching them every time they walked in.",
+      "provenance": "observed",
+      "source_url": "https://gizmodo.com/amazons-motion-tracking-smart-display-is-kinda-creepy-1846503434",
+      "source_label": "Gizmodo — motion-tracking is kinda creepy"
+    },
+    {
+      "title": "Kids learning to say \"please\" to an appliance",
+      "description": "Amazon's \"Magic Word\" feature rewards children who add a please — \"thanks for asking so nicely\" — after parents worried that barking orders at the always-listening box was teaching the wrong manners.",
+      "provenance": "observed",
+      "source_url": "https://www.technologyreview.com/2018/04/25/143230/please-alexa-amazons-new-parental-controls-will-encourage-politeness/",
+      "source_label": "MIT Technology Review — please, Alexa?"
+    },
+    {
+      "title": "A face that turns to greet whoever walks in",
+      "description": "Because the Show 10 already localizes people by sound and on-device vision and rotates its screen toward them, it could greet a returning family member by name and surface just their calendar and messages as they pass through the kitchen.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

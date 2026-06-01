@@ -60,5 +60,59 @@
       "access_notes": "Founding (2015), first-gen launch (December 2016), second gen (2018), and Weber acquisition (January 2021); computer-vision food identification details."
     }
   ],
+  "interactions": [
+    {
+      "title": "Drop in a tray and just press start",
+      "description": "Slide in chicken thighs or a frozen pizza and the interior camera recognizes the food, counts the pieces, and pre-loads a cook program — you confirm and tap start instead of dialing in time and temperature.",
+      "provenance": "documented",
+      "source_url": "https://juneoven.com/pages/technology",
+      "source_label": "June — Technology"
+    },
+    {
+      "title": "Watch dinner cook from the couch",
+      "description": "A ceiling-mounted heat-resistant camera streams live video of the food to the phone app, then stitches the session into a time-lapse you can replay once it's done — so you check on the roast without getting up.",
+      "provenance": "documented",
+      "source_url": "https://support.juneoven.com/hc/en-us/articles/360000082753-How-does-the-live-video-work-",
+      "source_label": "June support — live video"
+    },
+    {
+      "title": "Cook to a temperature, not a timer",
+      "description": "Insert the food thermometer, pick a doneness, and the oven holds the program until the core hits target — auto-adjusting heat and pinging your phone the moment the meat is ready.",
+      "provenance": "documented",
+      "source_url": "https://juneoven.com/products/pro-thermometer",
+      "source_label": "June — Pro Food Thermometer"
+    },
+    {
+      "title": "Preheat with your hands full",
+      "description": "Mid-prep with messy hands, say \"Alexa, tell June to preheat to 350\" and the oven spins up — plus voice commands to set timers, check an ETA, or stop cooking without touching the panel.",
+      "provenance": "documented",
+      "source_url": "https://www.slashgear.com/amazon-alexa-oven-microwave-skill-june-oven-investment-04513617/",
+      "source_label": "SlashGear — Alexa + June"
+    },
+    {
+      "title": "Frozen pizza, recognized down to the crust",
+      "description": "A reviewer dropped in a frozen pizza and June not only identified it but offered a thin-or-thick-crust choice, then ran the matching program — the vision model resolving the dish, not just the category.",
+      "provenance": "observed",
+      "source_url": "https://amazingribs.com/ratings-reviews/indoor-grills/june-oven-premium/",
+      "source_label": "AmazingRibs review"
+    },
+    {
+      "title": "It quietly replaces the big oven for small jobs",
+      "description": "Owners report defaulting to the June for everyday batches — toast, roasted carrots, pizza rolls, salmon, cookies — using the camera to watch from another room and trusting it not to singe a pie crust or over-brown the nuts.",
+      "provenance": "observed",
+      "source_url": "https://www.americastestkitchen.com/articles/2471-8-reasons-why-i-love-my-june-smart-oven",
+      "source_label": "America's Test Kitchen"
+    },
+    {
+      "title": "Snap a finished-dish card from the time-lapse",
+      "description": "Because the camera already labels the food and films the whole bake, the app could auto-pick the best frame and stamp it with the dish name and cook time — a shareable card generated from sensing it already does, no extra photo needed.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Count-aware portion warnings",
+      "description": "Since the on-device network counts the items on the tray, it could flag an overcrowded pan that won't crisp evenly and suggest splitting it across two racks before you commit to start.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

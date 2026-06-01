@@ -1,0 +1,144 @@
+{
+  "name": "Sensorama",
+  "year": 1962,
+  "organization": [],
+  "project_type": "research_prototype",
+  "short_description": "Morton Heilig's 1962 multi-sensory arcade cabinet — stereoscopic film, spatial sound, vibration, wind, and scent — the earliest physical prototype of immersive, body-engaged virtual experience.",
+  "long_description": "Designed and built by filmmaker Morton Heilig, the Sensorama was a coin-operated cabinet that immersed a single viewer in one of five short films using stereoscopic 3-D color imagery, directional stereo sound, a vibrating seat, fans that generated wind, and chemical odor emitters timed to the film content (exhaust fumes on a Brooklyn motorcycle ride, sea air on the beach). Heilig filed the patent in January 1961; it was granted as U.S. Patent 3,050,870 in 1962. No AI or computation was involved — the experience was fully pre-recorded and mechanically synchronized — yet the Sensorama established the design vocabulary of full-body, multi-modal immersive experience that VR, mixed reality, and spatial computing would inherit decades later. Financial backing was never secured and the project remained a one-off prototype.",
+  "primary_url": "https://en.wikipedia.org/wiki/Sensorama",
+  "ai_embedded": "none",
+  "ai_note": "A fully pre-recorded, mechanically synchronized experience with no computation or AI of any kind. Its significance is as the physical-design origin point for immersive, multi-sensory virtual experience.",
+  "attributes": {
+    "embodiment.form": [
+      "Architectural / environmental system"
+    ],
+    "embodiment.mobility": [
+      "Fixed"
+    ],
+    "embodiment.spatial_relationship": [
+      "Immersive / enclosing"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Audio"
+    ],
+    "intelligence.output": [
+      "Vision",
+      "Audio",
+      "Touch",
+      "Olfactory"
+    ],
+    "function.role": [
+      "Performer"
+    ],
+    "function.task_domain": [
+      "Entertainment",
+      "Simulation"
+    ],
+    "genealogy.lineage": [
+      "Augmented reality",
+      "Virtual reality",
+      "Spatial computing"
+    ],
+    "genealogy.precedent_field": [
+      "Cinema",
+      "Immersive experience design"
+    ]
+  },
+  "metrics": {
+    "expressiveness": 4,
+    "social_legibility": 1,
+    "proximity": 5,
+    "mobility": 1,
+    "autonomy": 1,
+    "initiative": 1
+  },
+  "images": [
+    {
+      "image_id": "img-sensorama-001",
+      "caption": "Figure 5 from Morton Heilig's Sensorama patent (U.S. Patent 3,050,870, 1962), showing the cabinet design.",
+      "image_type": "research_figure",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sensorama_patent_fig5.png",
+      "rights_status": "public_domain",
+      "alt_text": "A patent drawing showing the Sensorama cabinet in cross-section: a viewer seats themselves at the top and looks into an eyepiece hood while the internal projection and sensory apparatus occupies the lower body of the machine.",
+      "local_image": "/projects/sensorama.png"
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Ride a motorcycle through Brooklyn",
+      "description": "Lean into the hood and take the signature Sensorama film: a first-person motorcycle ride through Brooklyn streets, with the seat vibrating like the engine, fans pushing wind at your face, a stereoscopic 3-D view of the road, and the smells of the city timed to the scenery.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Morton_Heilig",
+      "source_label": "Morton Heilig — Wikipedia"
+    },
+    {
+      "title": "Smell the pizzeria as you pass it",
+      "description": "As the motorcycle ride rolls past a pizza shop and a city bus, chemical odor emitters release the smell of baking pizza and exhaust fumes timed to what is on screen, while recorded voices of people on the sidewalk play in stereo around you.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Sensorama",
+      "source_label": "Sensorama — Wikipedia"
+    },
+    {
+      "title": "Watch a belly dancer, complete with perfume",
+      "description": "One of the films presents a belly dancer, and the cabinet releases a cheap perfume scent into the breeze to accompany the visuals and sound — sensation layered onto image rather than left to the screen alone.",
+      "provenance": "observed",
+      "source_url": "https://en.wikipedia.org/wiki/Sensorama",
+      "source_label": "Sensorama — Wikipedia"
+    },
+    {
+      "title": "Sit alone and let the experience play out at you",
+      "description": "The viewer cannot steer or influence anything — the films and their sensory cues are pre-recorded and mechanically triggered at the right moments, so the whole experience runs as a fixed sequence the body receives rather than directs.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Sensorama",
+      "source_label": "Sensorama — Wikipedia"
+    },
+    {
+      "title": "Feel small jolts stand in for big motion",
+      "description": "The patent describes using vibrations of relatively small amplitude — the bumps of a bobsled run, an aircraft touching down, a train ride — synchronized to the film so that modest seat motion creates the illusion of much larger physical experiences.",
+      "provenance": "documented",
+      "source_url": "https://patents.google.com/patent/US3050870",
+      "source_label": "U.S. Patent 3,050,870"
+    },
+    {
+      "title": "A scent-cued city tour for a museum",
+      "description": "Re-cut the cabinet's wind, vibration, and timed-odor channels into a guided walk through a historical street — the rumble of cobblestones, the smell of a bakery and a forge — letting a single visitor feel a place the museum can no longer physically show, using only the Sensorama's mechanical sensory triggers.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Multi-sensory exposure rehearsal",
+      "description": "Because the cabinet pairs a fixed first-person film with bodily cues like wind and vibration, the same mechanics could stage a calm, repeatable scene — a gentle bicycle ride or a beach — for someone practicing relaxation, with the body engaged but nothing to control or get wrong.",
+      "provenance": "proposed"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-sensorama-001",
+      "title": "Sensorama — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Sensorama",
+      "publisher": "Wikipedia",
+      "year": 1962,
+      "access_notes": "Overview of the device, its sensory channels (stereoscopic 3-D, stereo sound, vibration, wind, scent), the five short films, and the patent (U.S. #3,050,870)."
+    },
+    {
+      "source_id": "source-sensorama-002",
+      "title": "Morton Heilig — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Morton_Heilig",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Biographical details on Heilig (December 22, 1926 – May 14, 1997): filmographer, VR pioneer; developed Sensorama from 1957; patent filed January 10, 1961, granted 1962."
+    },
+    {
+      "source_id": "source-sensorama-003",
+      "title": "U.S. Patent 3,050,870 — Sensorama Simulator",
+      "source_type": "documentation",
+      "url": "https://patents.google.com/patent/US3050870",
+      "publisher": "United States Patent Office",
+      "year": 1962,
+      "access_notes": "Primary patent document filed January 10, 1961; granted August 28, 1962. Describes the full multi-sensory cabinet design including olfactory, tactile, visual, and audio channels."
+    }
+  ],
+  "confidence": "high"
+}

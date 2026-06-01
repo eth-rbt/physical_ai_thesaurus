@@ -1,0 +1,109 @@
+{
+  "name": "aeroMorph",
+  "year": 2016,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "A design, simulation, and fabrication pipeline for heat-sealed inflatable structures that fold into programmable shapes when pressurized with air.",
+  "long_description": "aeroMorph is a research prototype from the MIT Media Lab Tangible Media Group that introduces a universal bending mechanism for creating programmable shape-change in inextensible materials such as paper, plastics, and fabrics. A software tool generates the heat-sealing pattern for a target geometry, simulates its transformation, and exports digital fabrication files, while a custom CNC-mountable heat-sealing head fabricates the inflatables. As physical AI and interaction design, it advances shape-changing interfaces and pneumatic actuation as a low-cost, lightweight medium for responsive wearables, toys, and packaging that move and reconfigure on demand.",
+  "primary_url": "https://tangible.media.mit.edu/project/aeromorph/",
+  "ai_embedded": "none",
+  "ai_note": "No AI/ML is involved; aeroMorph is a pneumatic shape-change fabrication technique driven by a geometric folding-pattern generator and air pressure, not learned models.",
+  "attributes": {
+    "embodiment.form": ["Distributed object ecology", "Wearable"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.materiality": ["Paper", "Plastic", "Fabric", "Inflatable"],
+    "embodiment.actuation": ["Pneumatic", "Shape-change"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces", "Shape-changing interfaces"]
+  },
+  "metrics": {
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 1,
+    "expressiveness": 3,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-aeromorph-001",
+      "caption": "Heat-sealed inflatable structures from aeroMorph folding into programmed shapes when pressurized.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/aeromorph/",
+      "rights_status": "needs_permission",
+      "alt_text": "Flat sheets of paper and plastic with sealed seam patterns that bend and fold into three-dimensional forms when inflated with air."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-aeromorph-001",
+      "title": "aeroMorph",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/project/aeromorph/",
+      "publisher": "MIT Media Lab, Tangible Media Group",
+      "year": 2016
+    },
+    {
+      "source_id": "source-aeromorph-002",
+      "title": "aeroMorph - Heat-sealing Inflatable Shape-change Materials for Interaction Design",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2984511.2984520",
+      "publisher": "ACM (UIST '16)",
+      "year": 2016
+    }
+  ],
+  "interactions": [
+    {
+      "title": "A flat sheet folds itself into a crane",
+      "description": "A printed paper sheet with sealed seam patterns lies flat on the table; pump air into it and the creases bend in sequence until it stands up as a folded origami crane, with no hands touching it.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/aeromorph/",
+      "source_label": "MIT Tangible Media Group - aeroMorph"
+    },
+    {
+      "title": "Design a shape, watch it inflate before you build it",
+      "description": "In the software tool you sketch the bending pattern for a target geometry and the simulator shows how the sheet will transform when pressurized, before you commit a sheet to the CNC heat-sealing head.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2984511.2984520",
+      "source_label": "aeroMorph, UIST '16 (ACM)"
+    },
+    {
+      "title": "A wearable that changes shape on your body",
+      "description": "The same bending mechanism is sealed into fabric and worn, so a garment or accessory can stiffen, curl, or reshape against the body when air is pushed through its channels.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2984511.2984520",
+      "source_label": "aeroMorph, UIST '16 (ACM)"
+    },
+    {
+      "title": "Packaging that reconfigures itself",
+      "description": "Sealed bending patterns let a flat plastic sheet inflate into protective, shaped packaging or fold around an object on demand, an envisioned use the authors call out for the packaging industry.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/aeromorph/",
+      "source_label": "MIT Tangible Media Group - aeroMorph"
+    },
+    {
+      "title": "Programmable bends across paper, plastic, and fabric",
+      "description": "Because the universal bending mechanism works in any inextensible material, you can make a paper toy, a plastic box, or a cloth element bend along the exact creases you patterned, all driven by air rather than motors.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2984511.2984520",
+      "source_label": "aeroMorph, UIST '16 (ACM)"
+    },
+    {
+      "title": "A CNC machine seals the air channels for you",
+      "description": "The fabrication step runs on a standard CNC prototyping machine fitted with a custom heat-sealing head, which presses the seam pattern into the layered sheet so the bends land exactly where the software placed them.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/aeromorph/",
+      "source_label": "MIT Tangible Media Group - aeroMorph"
+    },
+    {
+      "title": "Turn-by-turn felt through the glove",
+      "description": "A cycling glove with sealed air channels could inflate a ridge against the back of one hand to signal turn left or right, giving a rider directions by touch without a screen, grounded in the technique's pneumatic on-body bending.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Furniture that ships flat and inflates to use",
+      "description": "A flat-packed seat or shelf sealed with aeroMorph patterns could be pumped up into a load-bearing folded form at home and deflated for storage, extending the demonstrated flat-to-3D folding to room-scale objects.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

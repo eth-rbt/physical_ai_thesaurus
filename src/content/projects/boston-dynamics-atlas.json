@@ -1,0 +1,140 @@
+{
+  "name": "Atlas (Boston Dynamics)",
+  "year": 2013,
+  "organization": [
+    "Boston Dynamics",
+    "DARPA"
+  ],
+  "project_type": "research_prototype",
+  "short_description": "A DARPA-funded hydraulic humanoid robot (2013–2024) built for disaster response that redefined expectations for bipedal agility and became the global benchmark for humanoid robot research.",
+  "long_description": "Unveiled on July 11, 2013, for the DARPA Robotics Challenge (DRC), Atlas was a 188 cm, 150 kg hydraulic bipedal humanoid with 28 joints, LIDAR/stereo sensing, and two interchangeable hand sets. Boston Dynamics supplied the body to seven DRC finalist teams, each writing their own control software; at the 2015 DRC Finals, an IHMC-programmed Atlas finished second overall. Over the following decade successive versions shrank and lightened while gaining fluent locomotion: by 2017–2019 Atlas could do backflips, handstands, and choreographed gymnastics. A fully electric successor debuted in April 2024, retiring the hydraulic design after eleven years. Atlas is significant not for any single deployment but for establishing the agility ceiling the whole field now measures itself against.",
+  "primary_url": "https://bostondynamics.com/atlas/",
+  "ai_embedded": "some",
+  "ai_note": "Core locomotion ran on classical control and model-based planning; later versions incorporated deep learning and reinforcement learning for parkour and manipulation. The hydraulic generation never shipped a large-scale learned policy; its electric successor targets VLA-style foundation models.",
+  "attributes": {
+    "embodiment.form": [
+      "Humanoid robot"
+    ],
+    "embodiment.mobility": [
+      "Legged"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Force / torque",
+      "Motion",
+      "Environmental sensors"
+    ],
+    "intelligence.model": [
+      "Rule-based system",
+      "Deep learning",
+      "Reinforcement learning"
+    ],
+    "function.role": [
+      "Tool",
+      "Manufacturing worker"
+    ],
+    "genealogy.lineage": [
+      "Human-robot interaction",
+      "Industrial automation"
+    ]
+  },
+  "metrics": {
+    "social_legibility": 4,
+    "proximity": 2,
+    "mobility": 5,
+    "autonomy": 3,
+    "expressiveness": 2
+  },
+  "images": [
+    {
+      "image_id": "img-boston-dynamics-atlas-001",
+      "caption": "Atlas humanoid robot front view, July 2013. A DARPA work; in the public domain.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Atlas_frontview_2013.jpg",
+      "rights_status": "public_domain",
+      "alt_text": "Front-facing photograph of Atlas, a large grey-and-white humanoid robot with a sensor head, hydraulic arms, and two legs, standing upright against a white background.",
+      "local_image": "/projects/boston-dynamics-atlas.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-boston-dynamics-atlas-001",
+      "title": "DARPA Unveils Atlas Robot",
+      "source_type": "press_release",
+      "url": "https://www.darpa.mil/news/2013/atlas-robot-unveiled",
+      "publisher": "DARPA",
+      "year": 2013,
+      "access_notes": "Official DARPA press release from July 2013 announcing the Atlas robot for the DARPA Robotics Challenge. Cites height (6'2\"), weight (330 lbs), 28 hydraulic joints, and the seven DRC teams that received the platform."
+    },
+    {
+      "source_id": "source-boston-dynamics-atlas-002",
+      "title": "Atlas",
+      "source_type": "official_product_page",
+      "url": "https://bostondynamics.com/atlas/",
+      "publisher": "Boston Dynamics",
+      "year": 2024,
+      "access_notes": "Boston Dynamics' current Atlas page covering the 2024 all-electric successor: 56 degrees of freedom, 90 kg, 4-hour battery, 50 kg lift capacity, IP67, Hyundai as early customer."
+    },
+    {
+      "source_id": "source-boston-dynamics-atlas-003",
+      "title": "Atlas (robot)",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Atlas_(robot)",
+      "publisher": "Wikipedia",
+      "year": 2024,
+      "access_notes": "Version history from 2013 hydraulic prototype through 2024 electric model; DRC 2015 results (IHMC second place, 50 min 26 sec); parkour milestones 2017–2019."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Operate a valve in a simulated disaster zone",
+      "description": "At the 2013 DRC Trials, Atlas variants performed tasks including driving a utility vehicle, walking across debris, cutting through a wall with a power tool, and closing an industrial valve — the core disaster-response mission DARPA funded the platform to demonstrate.",
+      "provenance": "documented",
+      "source_url": "https://www.darpa.mil/news/2013/atlas-robot-unveiled",
+      "source_label": "DARPA — Atlas unveiled"
+    },
+    {
+      "title": "Stick a backflip and land cleanly",
+      "description": "In a 2017 video Boston Dynamics showed Atlas performing a standing back-tuck: crouch, jump, full rotation, land on two feet — the first time a full-sized humanoid robot completed the move, setting a benchmark that defined 'agile' for the entire field.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Atlas_(robot)",
+      "source_label": "Wikipedia — Atlas (robot)"
+    },
+    {
+      "title": "Parkour across a course of stepped platforms",
+      "description": "In 2021 Atlas ran a parkour course — jumping gaps, vaulting a barrier, and bounding up stepped platforms — chaining whole-body moves into one continuous run.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Atlas_(robot)",
+      "source_label": "Wikipedia — Atlas (robot)"
+    },
+    {
+      "title": "Dance alongside Spot and Handle to 'Do You Love Me'",
+      "description": "Boston Dynamics released a choreographed dance video in December 2020 with Atlas, Spot, and Handle moving to the 1962 Contours hit, drawing tens of millions of views and reshaping public perception of the machines from threatening to charming.",
+      "provenance": "documented",
+      "source_url": "https://www.cnn.com/2020/12/30/tech/boston-dynamics-robots-dancing-trnd/index.html",
+      "source_label": "CNN"
+    },
+    {
+      "title": "Recover from being shoved and keep walking",
+      "description": "Demonstrations since 2016 have shown Atlas maintaining balance after being pushed sideways or struck by a weighted baton, using whole-body reaction rather than falling — a capability that made it the reference platform for locomotion robustness research worldwide.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Atlas_(robot)",
+      "source_label": "Wikipedia — Atlas (robot)"
+    },
+    {
+      "title": "Become the benchmark every lab competes against",
+      "description": "Research teams at MIT, CMU, ETH Zurich, and elsewhere cite Atlas capabilities — backflip, parkour, push-recovery — as the agility bar their own systems aim for, a role the platform achieved not by shipping products but by running public demonstrations that raised the field's shared ambition.",
+      "provenance": "observed",
+      "source_url": "https://en.wikipedia.org/wiki/Atlas_(robot)",
+      "source_label": "Wikipedia — Atlas (robot)"
+    },
+    {
+      "title": "Respond to verbal pick-and-place instructions",
+      "description": "The 2024 electric Atlas, deployed in Hyundai trials, could be directed to pick up named objects and move them to specified locations using language grounding — extending the DRC manipulation heritage toward VLA-style instruction following in an unstructured factory floor.",
+      "provenance": "proposed",
+      "source_url": "https://bostondynamics.com/atlas/",
+      "source_label": "Boston Dynamics — Atlas"
+    }
+  ],
+  "confidence": "high"
+}

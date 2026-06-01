@@ -1,0 +1,111 @@
+{
+  "name": "Organic User Interfaces",
+  "year": 2008,
+  "organization": ["Queen's University (Human Media Lab)"],
+  "project_type": "academic_paper",
+  "short_description": "A founding manifesto proposing computers with non-flat, deformable, and shape-changing displays where physical form-change is itself the interaction.",
+  "long_description": "Organic User Interfaces (OUIs), articulated by David Holman and Roel Vertegaal in a 2008 Communications of the ACM special issue, are user interfaces built on non-flat displays whose surface is the locus of interaction. The manifesto sets out three design principles—input equals output, function equals form, and form follows flow—and three interface types: flexible/deformable, shaped, and actuated/kinetic. It matters as physical AI / interaction design because it reframes the screen from a flat output window into a malleable physical material, where bending, shaping, and actuating the device body become the primary mode of expression and control rather than indirect point-and-click.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/1349026.1349037",
+  "ai_embedded": "none",
+  "ai_note": "A vision/manifesto for deformable and shape-changing displays as an interaction technique; it describes no AI/ML running inside any system.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Architectural / environmental system"],
+    "embodiment.materiality": ["Flexible / deformable", "Shape-changing"],
+    "embodiment.actuation": ["Shape-changing / actuated"],
+    "intelligence.input": ["Touch", "Gesture", "Force / torque"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing", "Human-computer interaction"]
+  },
+  "metrics": {
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 1,
+    "autonomy": 1,
+    "expressiveness": 3
+  },
+  "images": [
+    {
+      "image_id": "img-organic-user-interfaces-001",
+      "caption": "Figure from the Holman & Vertegaal CACM article illustrating non-flat, deformable organic display concepts.",
+      "image_type": "research_figure",
+      "source_url": "https://dl.acm.org/doi/10.1145/1349026.1349037",
+      "rights_status": "needs_permission",
+      "alt_text": "Diagram of curved and flexible display surfaces being bent and shaped by hand, illustrating organic user interface concepts from the paper."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Bend the corner to turn the page",
+      "description": "Instead of tapping a button, you flex a flexible display the way you'd dog-ear a magazine — a bend gesture at the edge becomes the navigation, so the act of deforming the surface is itself the input and output.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1349026.1349037",
+      "source_label": "Holman & Vertegaal, CACM 2008"
+    },
+    {
+      "title": "Rub one sheet against another to copy it",
+      "description": "In the PaperWindows prototype the manifesto draws on, you hold two pieces of tracked paper and physically rub one against the other to transfer a window or copy a page across — the gesture mimics carbon-copy and stencilling.",
+      "provenance": "documented",
+      "source_url": "https://www.biomotionlab.ca/Abstracts/HolmanVertegaalProc2005.pdf",
+      "source_label": "PaperWindows, ACM CHI 2005"
+    },
+    {
+      "title": "Hold a window in each hand",
+      "description": "Each sheet of paper is a separate display, so you work two-handed — holding one document up to read while flipping, stacking, or pointing one sheet at another to move content between them, like spreading printouts across a desk.",
+      "provenance": "documented",
+      "source_url": "https://www.biomotionlab.ca/Abstracts/HolmanVertegaalProc2005.pdf",
+      "source_label": "PaperWindows, ACM CHI 2005"
+    },
+    {
+      "title": "Touch a globe instead of a flat map",
+      "description": "Under the 'shaped' branch of the manifesto, a display takes a permanent non-flat form chosen to fit its content — a spherical multitouch surface lets you spin and touch geographic data directly, with none of the distortion a flat map forces.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1349026.1349037",
+      "source_label": "Holman & Vertegaal, CACM 2008"
+    },
+    {
+      "title": "Let the device reshape itself to fit the task",
+      "description": "The 'actuated / kinetic' principle imagines a body whose programmable shape changes under computer control — the object physically morphs to present the right affordance or to surface data, so form follows the flow of the interaction rather than staying fixed.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/1349026.1349037",
+      "source_label": "Holman & Vertegaal, CACM 2008"
+    },
+    {
+      "title": "Tap and annotate paper that stays paper",
+      "description": "Because the surface keeps paper's affordances, you tap an image on a sheet to open it and write directly on the page with a pen — digital content behaves like ink on a physical print rather than pixels behind glass.",
+      "provenance": "documented",
+      "source_url": "https://www.biomotionlab.ca/Abstracts/HolmanVertegaalProc2005.pdf",
+      "source_label": "PaperWindows, ACM CHI 2005"
+    },
+    {
+      "title": "A foldable map that creases where you fold it",
+      "description": "A pocket-sized flexible display you unfold to reveal more canvas and crease to bookmark a spot — the same bend-as-input principle applied to navigation, where the physical fold marks your place and zooms the region under it.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A wristband that curls tighter to signal urgency",
+      "description": "Built on the actuated/kinetic principle, a worn band that subtly changes its curl or stiffness against your skin to convey a notification's importance — form-change as a quiet, glanceable output channel with no screen at all.",
+      "provenance": "proposed"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-organic-user-interfaces-001",
+      "title": "Organic user interfaces: designing computers in any way, shape, or form",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/1349026.1349037",
+      "publisher": "Communications of the ACM",
+      "year": 2008,
+      "access_notes": "CACM vol. 51, no. 6, pp. 48-55, June 2008. Authors: David Holman and Roel Vertegaal."
+    },
+    {
+      "source_id": "source-organic-user-interfaces-002",
+      "title": "Organic user interface",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/Organic_user_interface",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Summary of the OUI definition, three design principles, and three interface types (flexible/deformable, shaped, actuated/kinetic)."
+    }
+  ],
+  "confidence": "high"
+}

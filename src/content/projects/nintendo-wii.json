@@ -1,0 +1,127 @@
+{
+  "name": "Nintendo Wii",
+  "year": 2006,
+  "organization": ["Nintendo"],
+  "project_type": "commercial_product",
+  "short_description": "A home game console whose motion-sensing Wii Remote made physical gesture the primary input, drawing families and non-gamers into shared play.",
+  "long_description": "Released in November 2006, the Nintendo Wii deliberately broke from the console industry's race for raw processing power and instead invested in a novel physical interface: a handheld Wii Remote that detected three-axis acceleration and pointed at the screen via infrared sensors. The bundled Wii Sports — bowling, tennis, golf, baseball, boxing — made the interaction immediately legible to anyone who had swung an arm, and the console became a landmark multi-user device: up to four players with simultaneous remotes, full-household generational range, and a living-room social dynamic that had more in common with board game night than solo gaming. Selling 101.63 million units, the Wii demonstrated that changing the physical form of the input — from button matrix to embodied gesture — could redefine who a device is for and how many people participate at once.",
+  "primary_url": "https://www.nintendo.com/consumer/systems/wii/index.jsp",
+  "ai_embedded": "none",
+  "ai_note": "The Wii Remote uses accelerometers and infrared point-tracking for gesture input; no machine-learning or AI runs onboard — game responses are rule-based physics simulations.",
+  "attributes": {
+    "embodiment.form": ["Handheld", "Domestic object"],
+    "embodiment.mobility": ["Handheld", "Fixed"],
+    "embodiment.actuation": ["Haptic / vibrotactile"],
+    "intelligence.input": ["Motion", "Gesture"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool", "Creative collaborator"],
+    "function.social": ["Multi-user play", "Co-located multiplayer"],
+    "genealogy.lineage": ["Tangible user interfaces", "Human-computer interaction", "Game controllers"]
+  },
+  "metrics": {
+    "proximity": 3,
+    "mobility": 2,
+    "scale": 2,
+    "social_legibility": 2,
+    "form_specificity": 3,
+    "intensity": 4,
+    "expressiveness": 2,
+    "timing": 5,
+    "generality": 3
+  },
+  "images": [
+    {
+      "image_id": "img-nintendo-wii-001",
+      "caption": "Nintendo Wii console with Wii Remote and Nunchuk controller.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wii-console.jpg",
+      "rights_status": "public_domain",
+      "alt_text": "A white Nintendo Wii console standing vertically next to a white Wii Remote controller and its Nunchuk accessory, all against a plain white background.",
+      "local_image": "/projects/nintendo-wii.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-nintendo-wii-001",
+      "title": "Wii — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Wii",
+      "publisher": "Wikipedia",
+      "year": 2006,
+      "access_notes": "Launch date (November 19, 2006 North America), sales figures (101.63 million), Wii Sports bundle, Wii Remote technical specs, design philosophy from Satoru Iwata."
+    },
+    {
+      "source_id": "source-nintendo-wii-002",
+      "title": "The Social Living Room: How Nintendo's Wii Revolutionized Gaming",
+      "source_type": "credible_news",
+      "url": "https://www.fastcompany.com/1680649/the-social-living-room-how-nintendos-wii-revolutionized-gaming-and-what-it-means-for-the-fut",
+      "publisher": "Fast Company",
+      "year": 2012,
+      "access_notes": "Analysis of the Wii's multi-user, living-room social gaming design and its legacy."
+    },
+    {
+      "source_id": "source-nintendo-wii-003",
+      "title": "Wii Remote — Wikipedia",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Wii_Remote",
+      "publisher": "Wikipedia",
+      "year": 2006,
+      "access_notes": "Technical details: three-axis accelerometer, infrared sensor, Bluetooth connectivity, up to four simultaneous remotes."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Swing your arm to bowl or serve",
+      "description": "In Wii Sports, players stand up and mimic the real motion — drawing the Wii Remote back and releasing to roll a bowling ball, or swinging it like a racket to return a tennis serve.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Wii_Sports",
+      "source_label": "Wii Sports — Wikipedia"
+    },
+    {
+      "title": "Box with both fists",
+      "description": "The boxing game pairs the Wii Remote with the Nunchuk so each hand controls one of the on-screen fighter's gloves; players throw left and right punches in the air to land hits.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Wii_Sports",
+      "source_label": "Wii Sports — Wikipedia"
+    },
+    {
+      "title": "Step onto the Balance Board for yoga and strength training",
+      "description": "Wii Fit (2007) added the Balance Board peripheral that tracks the player's center of gravity and weight; users hold tree pose, do push-ups and lunges, hula-hoop, and ski down virtual slopes by shifting their balance.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Wii_Fit",
+      "source_label": "Wii Fit — Wikipedia"
+    },
+    {
+      "title": "Four remotes, one couch",
+      "description": "Up to four players pair Wii Remotes at once over Bluetooth, so a whole household can take turns or compete together in the same room rather than online.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Wii_Remote",
+      "source_label": "Wii Remote — Wikipedia"
+    },
+    {
+      "title": "Wiihabilitation in clinics and nursing homes",
+      "description": "Therapists adopted Wii Sports and Wii Fit for rehab, having stroke survivors and post-surgery patients play bowling or balance games to rebuild range of motion, strength, and motor control — work clinicians nicknamed 'Wiihabilitation.'",
+      "provenance": "observed",
+      "source_url": "https://prsrehabservices.com/wiihabilitation-and-physical-therapy/",
+      "source_label": "Professional Rehabilitation Services"
+    },
+    {
+      "title": "Turn the remote into a $5 interactive whiteboard and head-tracked 3D display",
+      "description": "Researcher Johnny Chung Lee exploited the Wii Remote's infrared camera and built-in blob tracking: an IR pen turns any projector surface into a touch whiteboard, and an IR sensor on the head makes a TV render head-tracked 3D perspective. His software was downloaded hundreds of thousands of times.",
+      "provenance": "observed",
+      "source_url": "http://johnnylee.net/projects/wii/",
+      "source_label": "Johnny Chung Lee — Wii projects"
+    },
+    {
+      "title": "Conduct music or paint in the air",
+      "description": "Because the remote streams three-axis acceleration and pointer position, a creative tool could let someone wave it like a baton to shape tempo and dynamics, or sweep it across the screen to paint — extending the same gesture sensing the sports games already used.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Co-located physical therapy duet",
+      "description": "Pairing the Balance Board with a second remote, a patient and a caregiver could mirror each other's movements in a shared balance game, turning solo rehab exercises into a two-person, in-the-room routine.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

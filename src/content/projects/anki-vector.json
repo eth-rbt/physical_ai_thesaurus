@@ -1,18 +1,43 @@
 {
   "name": "Anki Vector",
   "year": 2018,
-  "organization": ["Anki", "Digital Dream Labs"],
+  "organization": [
+    "Anki",
+    "Digital Dream Labs"
+  ],
   "project_type": "commercial_product",
   "short_description": "A small expressive home companion robot with a cloud voice assistant, a camera, and an animated face that lives on a desk and reacts to people around it.",
   "long_description": "Vector is a palm-sized desktop robot from Anki (the studio behind the earlier Cozmo) that pairs Pixar-style character animation with practical AI: a Qualcomm processor, an HD camera, a time-of-flight laser, cliff and touch sensors, and a four-microphone array let it map and roam a tabletop via SLAM, recognize faces and voices, answer questions, and emote through a high-resolution color 'eye' display. It is a clear case of physical AI as social character rather than tool: most of its design effort goes into legible, affective behavior so it reads as a tiny living companion. Anki shut down in April 2019 after failing to secure funding; later that year its assets, including Vector and Cozmo, were acquired by Digital Dream Labs, which kept the cloud servers running and shipped a Vector 2.0.",
   "primary_url": "https://www.digitaldreamlabs.com/pages/vector",
   "attributes": {
-    "embodiment.form": ["Animal / creature robot", "Desktop agent", "Mobile robot"],
-    "embodiment.mobility": ["Wheeled"],
-    "intelligence.input": ["Vision", "Audio", "Speech", "Touch", "Motion"],
-    "intelligence.model": ["Speech model", "Classical machine learning"],
-    "function.role": ["Companion", "Assistant"],
-    "genealogy.lineage": ["Social robotics", "Companion robotics", "Human-robot interaction"]
+    "embodiment.form": [
+      "Animal / creature robot",
+      "Desktop agent",
+      "Mobile robot"
+    ],
+    "embodiment.mobility": [
+      "Wheeled"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Audio",
+      "Speech",
+      "Touch",
+      "Motion"
+    ],
+    "intelligence.model": [
+      "Speech model",
+      "Classical machine learning"
+    ],
+    "function.role": [
+      "Companion",
+      "Assistant"
+    ],
+    "genealogy.lineage": [
+      "Social robotics",
+      "Companion robotics",
+      "Human-robot interaction"
+    ]
   },
   "metrics": {
     "proximity": 2,
@@ -23,7 +48,7 @@
     "autonomy": 3,
     "initiative": 4,
     "memory_span": 3,
-    "expressiveness": 5,
+    "expressiveness": 4,
     "timing": 5
   },
   "images": [
@@ -64,6 +89,60 @@
       "publisher": "The Robot Report",
       "year": 2019,
       "access_notes": "Reports December 2019 acquisition of Anki assets (Overdrive, Cozmo, Vector) by Digital Dream Labs."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Rub its back until it purrs",
+      "description": "Stroke the touch-sensitive strip on Vector's back and its eyes narrow into a contented squint while it coos; grab and lift it instead and it tenses up like a startled pet.",
+      "provenance": "documented",
+      "source_url": "https://the-gadgeteer.com/2018/12/31/anki-vector-robot-review/",
+      "source_label": "The Gadgeteer review"
+    },
+    {
+      "title": "Offer a fist and get a bump back",
+      "description": "Say 'Hey Vector, give me a fist bump' and hold out a fist; the robot raises its lift arm to meet it and reacts to the contact.",
+      "provenance": "documented",
+      "source_url": "https://github.com/lukemerrett/Anki-Vector-Command-List/blob/master/README.md",
+      "source_label": "Vector command list"
+    },
+    {
+      "title": "A desk timer that watches you back",
+      "description": "Ask 'Hey Vector, set a timer for 5 minutes' or 'what's the weather?' and it answers aloud, then goes back to roaming the desk, recognizing your face when it rolls past.",
+      "provenance": "documented",
+      "source_url": "https://github.com/lukemerrett/Anki-Vector-Command-List/blob/master/README.md",
+      "source_label": "Vector command list"
+    },
+    {
+      "title": "It hunts down its own cube to play with",
+      "description": "Left alone, Vector wanders off to find its companion cube, shoves it around, and pops a little stunt with it; you can also say 'Hey Vector, find your cube' to send it looking.",
+      "provenance": "documented",
+      "source_url": "https://github.com/lukemerrett/Anki-Vector-Command-List/blob/master/README.md",
+      "source_label": "Vector command list"
+    },
+    {
+      "title": "Owners kept it alive after the company died",
+      "description": "When Anki folded and the cloud servers were at risk, the community wrote wire-pod, a free server you run on a Raspberry Pi so a production Vector keeps its voice commands working with no subscription and no connection to the original company.",
+      "provenance": "observed",
+      "source_url": "https://github.com/kercre123/wire-pod",
+      "source_label": "wire-pod (GitHub)"
+    },
+    {
+      "title": "Reprogrammed into a tiny SDK lab pet",
+      "description": "Tinkerers use the Python SDK to drive Vector's camera, SLAM map, and animation engine directly, scripting custom reactions and home-and-classroom projects far beyond the stock voice commands.",
+      "provenance": "observed",
+      "source_url": "https://github.com/anki/vector-python-sdk",
+      "source_label": "Anki Vector Python SDK"
+    },
+    {
+      "title": "Greets the person it learned by name",
+      "description": "Having enrolled your face, Vector could perk up and play a personalized animation the moment it rolls into view of a recognized owner versus a stranger, using the face recognition and expressive display it already has.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "An edge-of-desk lookout",
+      "description": "With its cliff sensors and front-facing camera, Vector could patrol the rim of a workspace and chirp a warning when an object (a mug, a phone) drifts toward the edge, leaning on the same hazard sensing that keeps it from driving off the table.",
+      "provenance": "proposed"
     }
   ],
   "confidence": "high"

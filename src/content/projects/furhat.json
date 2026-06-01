@@ -77,5 +77,59 @@
       "access_notes": "Company founding (2014, Stockholm) and KTH spin-off history."
     }
   ],
+  "interactions": [
+    {
+      "title": "Swap its face mid-shift",
+      "description": "Lift off the magnetic translucent mask and the projected persona changes with it — the same robot becomes a man, woman, child, or animated character, switching voice and personality without any mechanical parts moving.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Furhat",
+      "source_label": "Wikipedia — Furhat"
+    },
+    {
+      "title": "It turns to whoever is talking",
+      "description": "Sit two or three people in front of it and the head tracks each face, then rotates on its three-axis neck and aims its gaze at whoever currently holds the floor — so a group conversation feels addressed, not broadcast.",
+      "provenance": "documented",
+      "source_url": "https://www.furhatrobotics.com/furhat-robot",
+      "source_label": "Furhat Robotics — product page"
+    },
+    {
+      "title": "Rehearse delivering bad news to a flinching customer",
+      "description": "At Rabobank, employees practice difficult conversations by talking to Furhat playing the customer — it holds eye contact, reacts emotionally to how the news is broken, and lets staff fail safely before facing a real person.",
+      "provenance": "documented",
+      "source_url": "https://www.digitaltrends.com/cool-tech/furhat-social-training-robot/",
+      "source_label": "Digital Trends"
+    },
+    {
+      "title": "Interview the virtual patient who won't cooperate",
+      "description": "Medical students take a clinical history from Furhat playing a rheumatology patient — it answers questions through an LLM, simulates the patient's emotions, and adapts to a clumsy or sympathetic bedside manner instead of reading a script.",
+      "provenance": "documented",
+      "source_url": "https://www.furhatrobotics.com/use-cases-and-concepts/furhat-virtual-patient",
+      "source_label": "Furhat Robotics — virtual patient"
+    },
+    {
+      "title": "A robot conducts your first job interview",
+      "description": "Built on Furhat as 'Tengai,' the head asks every candidate the same questions in the same order and the same way, then hands anonymized transcripts to human recruiters — an attempt to strip first-impression bias out of screening.",
+      "provenance": "observed",
+      "source_url": "https://futurism.com/the-byte/tengai-robot-head-job-interview",
+      "source_label": "Futurism"
+    },
+    {
+      "title": "A cooking partner for an older adult",
+      "description": "In a Stockholm University project, Furhat coaches seniors through meal prep by voice, learning a person's pace and preferences over repeated sessions so the prompts get less generic and more like a familiar helper.",
+      "provenance": "documented",
+      "source_url": "https://www.furhatrobotics.com/use-cases-and-concepts/cooking-with-robots",
+      "source_label": "Furhat Robotics — cooking with robots"
+    },
+    {
+      "title": "Notice the quiet person and bring them in",
+      "description": "Because it already tracks every face in the group and knows who has and hasn't spoken, it could turn to the person who's gone silent and ask them directly — using its multi-party gaze and far-field mics to balance a lopsided conversation.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Greet returning visitors by mood, not name",
+      "description": "As a museum or lobby concierge, it could read a visitor's approach and expression from its camera and open differently for someone who looks lost versus someone in a hurry — grounded in the gaze and vision input it already runs, with no identity database needed.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

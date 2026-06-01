@@ -69,5 +69,54 @@
       "access_notes": "Documents the Gemini-powered Familiar Faces and detection AI on current Nest Cams."
     }
   ],
+  "interactions": [
+    {
+      "title": "It tells you who's at the door, by name",
+      "description": "Instead of a generic 'someone is at the front door,' the camera matches the face against your saved library and pings you that it's your sister on the porch, not a stranger.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/googlenest/answer/9268625?hl=en",
+      "source_label": "Google Nest Help — familiar face detection"
+    },
+    {
+      "title": "A package alert that watches the package",
+      "description": "When a delivery lands inside your porch activity zone, the camera tracks the courier and the box and sends a 'package delivered' notification rather than just flagging motion.",
+      "provenance": "documented",
+      "source_url": "https://www.androidcentral.com/accessories/smart-home/how-to-get-package-alerts-from-your-nest-doorbell-or-camera",
+      "source_label": "Android Central — Nest package alerts"
+    },
+    {
+      "title": "Notifications that read like a sentence",
+      "description": "With Gemini for Home, the alert says 'the dog is digging in the garden' instead of 'animal detected,' and an evening Home Brief summarizes the whole day's clips into one digest.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/googlenest/answer/15542305?hl=en",
+      "source_label": "Google Nest Help — Gemini for Home camera features"
+    },
+    {
+      "title": "Talking your dog off the couch from work",
+      "description": "Owners use two-way talk to scold or reassure a pet remotely, and set an activity zone around the trash bin so the camera pings them if the dog lingers there while they're out.",
+      "provenance": "observed",
+      "source_url": "https://blog.google/products/google-nest/our-top-nest-cam-tips-pup-parents/",
+      "source_label": "Google — Nest Cam tips for pup parents"
+    },
+    {
+      "title": "Recruited as a makeshift baby monitor",
+      "description": "Parents repurpose the camera to peek at the crib from their phone, checking whether the baby is truly awake or just stirring before walking in and disrupting the nap.",
+      "provenance": "observed",
+      "source_url": "https://www.androidcentral.com/can-nest-cam-be-used-baby-monitor",
+      "source_label": "Android Central — Nest Cam as a baby monitor"
+    },
+    {
+      "title": "Ask it what happened to the vase",
+      "description": "Using Gemini's natural-language history search, you type 'what happened to the vase in the living room?' or 'when did the dog walker come by?' and get the matching clip back instead of scrubbing hours of footage.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/googlenest/answer/15542305?hl=en",
+      "source_label": "Google Nest Help — Ask Home video search"
+    },
+    {
+      "title": "A quiet word when only the cat should be home",
+      "description": "Pair familiar-face recognition with the daytime hours nobody's expected back, so an unrecognized person in the living room triggers a tighter alert than the usual cat-on-the-sofa motion — built on the face matching and activity zones the camera already runs.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

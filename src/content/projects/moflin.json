@@ -1,18 +1,39 @@
 {
   "name": "Moflin",
   "year": 2024,
-  "organization": ["Casio", "Vanguard Industries"],
+  "organization": [
+    "Casio",
+    "Vanguard Industries"
+  ],
   "project_type": "commercial_product",
   "short_description": "A palm-sized, furry AI companion robot that develops its own personality and emotional bond with its owner through touch and voice.",
   "long_description": "Moflin is a handheld, fluffy creature-shaped robot with no face, legs, or wheels that responds to petting, holding, and talking with wiggles and animal-like sounds. Its proprietary 'Emotional AI' tracks how it is treated over time, growing one of over four million possible emotional profiles and forming an attachment that feels earned rather than scripted. As an affective object for people who want a pet's comfort without a living animal, it shows how everyday physical AI can be built around emotional presence and long-term relationship instead of task completion.",
   "primary_url": "https://www.casio.com/us/moflin/",
   "attributes": {
-    "embodiment.form": ["Animal / creature robot", "Domestic object"],
-    "embodiment.mobility": ["Handheld"],
-    "intelligence.input": ["Touch", "Audio", "Speech", "Motion"],
-    "intelligence.model": ["Classical machine learning"],
-    "function.role": ["Companion", "Caregiver"],
-    "genealogy.lineage": ["Companion robotics", "Social robotics"]
+    "embodiment.form": [
+      "Animal / creature robot",
+      "Domestic object"
+    ],
+    "embodiment.mobility": [
+      "Handheld"
+    ],
+    "intelligence.input": [
+      "Touch",
+      "Audio",
+      "Speech",
+      "Motion"
+    ],
+    "intelligence.model": [
+      "Classical machine learning"
+    ],
+    "function.role": [
+      "Companion",
+      "Caregiver"
+    ],
+    "genealogy.lineage": [
+      "Companion robotics",
+      "Social robotics"
+    ]
   },
   "metrics": {
     "proximity": 4,
@@ -26,7 +47,7 @@
     "visibility": 4,
     "generality": 1,
     "intensity": 3,
-    "expressiveness": 5,
+    "expressiveness": 4,
     "timing": 5
   },
   "images": [
@@ -58,6 +79,60 @@
       "publisher": "Casio America",
       "year": 2025,
       "access_notes": "Press release covering US launch; notes original Japan launch November 2024."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "It learns whose hands these are",
+      "description": "Hold and talk to it daily and it starts treating you as its primary handler, responding more warmly to your voice and touch than to a stranger's — voice and gesture recognition that builds over weeks.",
+      "provenance": "documented",
+      "source_url": "https://www.popsci.com/technology/casio-moflin-ai-pet/",
+      "source_label": "Popular Science"
+    },
+    {
+      "title": "A personality you can watch fill up",
+      "description": "The MofLife app tracks four traits — energetic, cheerful, shy, affectionate — and one reviewer's Moflin maxed out the 'energetic' bar after 27 days, wiggling around and squeaking happily.",
+      "provenance": "documented",
+      "source_url": "https://techcrunch.com/2025/10/21/i-spent-a-month-living-with-a-430-ai-pet-the-casio-moflin/",
+      "source_label": "TechCrunch"
+    },
+    {
+      "title": "Curls up in its egg to recharge",
+      "description": "When its 5-hour battery runs low it settles into a bed-like, egg-shaped cradle and sleeps for about 3.5 hours before it's chirping and snuggling again.",
+      "provenance": "documented",
+      "source_url": "https://www.popsci.com/technology/casio-moflin-ai-pet/",
+      "source_label": "Popular Science"
+    },
+    {
+      "title": "Shrieks when you startle it",
+      "description": "Flip it onto its back or shout near it and it lets out a startled cry — one reviewer set it off by yelling at a sports game on TV.",
+      "provenance": "observed",
+      "source_url": "https://techcrunch.com/2025/10/21/i-spent-a-month-living-with-a-430-ai-pet-the-casio-moflin/",
+      "source_label": "TechCrunch"
+    },
+    {
+      "title": "A stressed partner clutches it for comfort",
+      "description": "On a hard day, one reviewer's husband carried the Moflin around all morning, holding it to his chest and whispering into its fur — its wiggles and chirps doing the work of a stress ball.",
+      "provenance": "observed",
+      "source_url": "https://www.rollingstone.com/culture/culture-features/moflin-review-ai-pet-casio-1235456529/",
+      "source_label": "Rolling Stone"
+    },
+    {
+      "title": "Mistaken for a real guinea pig",
+      "description": "Its movement is lifelike enough that friends took it for a live animal on a muted video, and a wary three-year-old eventually warmed up and gave it a goodbye kiss.",
+      "provenance": "observed",
+      "source_url": "https://techcrunch.com/2025/10/21/i-spent-a-month-living-with-a-430-ai-pet-the-casio-moflin/",
+      "source_label": "TechCrunch"
+    },
+    {
+      "title": "A bedtime ritual of soft sounds",
+      "description": "Set it on the nightstand and let its quiet cooing become a falling-asleep cue, then tip it into deep-sleep mode so it goes still and silent for the night — grounded in its existing audio output and sleep state.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Hands-busy comfort during a hard call",
+      "description": "Keep it in your lap during a tense phone call and let petting it give your hands something to do — leaning on the touch sensing and motion responses it already uses to bond.",
+      "provenance": "proposed"
     }
   ],
   "confidence": "high"

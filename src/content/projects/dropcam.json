@@ -1,0 +1,140 @@
+{
+  "name": "Dropcam",
+  "year": 2011,
+  "organization": [
+    "Dropcam",
+    "Nest Labs",
+    "Google"
+  ],
+  "project_type": "commercial_product",
+  "short_description": "A Wi-Fi camera with cloud recording that made continuous home video monitoring accessible to consumers for the first time.",
+  "long_description": "Founded in January 2009 by Greg Duffy and Aamir Virani, Dropcam shipped Wi-Fi cameras that streamed live HD video directly to the cloud, requiring no on-site DVR or complex network setup. Users could view a live feed from anywhere via a browser or mobile app, and a paid subscription tier held encrypted recordings for up to a month. Motion and audio detection sent timeline-marked alerts to the phone. By 2013 Dropcam was reportedly processing more uploaded video than YouTube, and Google's Nest Labs acquired the company for $555 million in June 2014. Nest relaunched the hardware as Nest Cam in 2015. Dropcam is the direct ancestor of the modern smart-home camera category, establishing the pattern — plug-in camera, cloud subscription, smartphone notifications — that Ring, Arlo, Nest Cam, and others all followed.",
+  "primary_url": "https://en.wikipedia.org/wiki/Dropcam",
+  "ai_embedded": "some",
+  "ai_note": "Motion and audio detection used signal-processing rules and early computer-vision heuristics; on-device AI was minimal, with intelligence concentrated in the cloud service's activity recognition layer.",
+  "attributes": {
+    "embodiment.form": [
+      "Domestic object",
+      "Smart appliance"
+    ],
+    "embodiment.mobility": [
+      "Fixed"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Audio",
+      "Motion"
+    ],
+    "intelligence.model": [
+      "Rule-based system",
+      "Classical machine learning"
+    ],
+    "function.role": [
+      "Security monitor",
+      "Memory aid"
+    ],
+    "genealogy.lineage": [
+      "Smart home",
+      "Internet of Things",
+      "Ambient intelligence",
+      "Ubiquitous computing"
+    ]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 1,
+    "form_specificity": 2,
+    "autonomy": 1,
+    "initiative": 2,
+    "memory_span": 4,
+    "visibility": 2,
+    "generality": 1,
+    "intensity": 2,
+    "expressiveness": 1,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-dropcam-001",
+      "caption": "Dropcam Pro Wi-Fi home monitoring camera (2013).",
+      "image_type": "product_photo",
+      "source_url": "https://en.wikipedia.org/wiki/Dropcam",
+      "rights_status": "needs_permission",
+      "alt_text": "A small white cylindrical Dropcam Pro camera with a wide-angle lens, designed to sit on a shelf or be mounted on a wall for home monitoring."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-dropcam-001",
+      "title": "Dropcam",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Dropcam",
+      "publisher": "Wikipedia",
+      "year": 2014,
+      "access_notes": "Covers founding (January 2009), founders Greg Duffy and Aamir Virani, cloud recording service, motion/audio detection, $555M acquisition by Nest Labs in June 2014, and succession by Nest Cam in June 2015."
+    },
+    {
+      "source_id": "source-dropcam-002",
+      "title": "Remote Video Startup Dropcam Raises $30M, Plans To Use The Funding To Better Compete — With Itself",
+      "source_type": "credible_news",
+      "url": "https://techcrunch.com/2013/07/31/remote-video-startup-dropcam-raises-30m-plans-to-use-the-funding-to-better-compete-with-itself/",
+      "publisher": "TechCrunch",
+      "year": 2013,
+      "access_notes": "Documents Dropcam HD hardware, the cloud platform, 39% paid subscription conversion rate, computer-vision investment, and $47.8M total raised. Describes the company as four years old at July 2013, corroborating a 2009 founding."
+    },
+    {
+      "source_id": "source-dropcam-003",
+      "title": "Google Nest",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Google_Nest",
+      "publisher": "Wikipedia",
+      "year": 2026,
+      "access_notes": "Confirms Dropcam acquired June 2014; Nest Cam announced June 2015 as successor to Dropcam Pro."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Watch the baby from the kitchen",
+      "description": "Dropcam was one of the earliest widely-bought workarounds for a dedicated baby monitor: owners positioned the camera at the crib, opened the browser or app from any room, and watched a live HD stream — a use case the company explicitly highlighted.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Dropcam",
+      "source_label": "Wikipedia — Dropcam"
+    },
+    {
+      "title": "Rewind the cloud to see who walked past",
+      "description": "Because the paid subscription recorded continuously and stored a week or month of footage in the cloud, users could scroll back through a timeline of motion-marked clips to find when the dog escaped, when the nanny arrived, or what caused a crash downstairs.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Dropcam",
+      "source_label": "Wikipedia — Dropcam"
+    },
+    {
+      "title": "It flags the loud moments, not just the motion",
+      "description": "Audio detection let the camera mark unusually loud events on the recording timeline — a crash, a dog barking, raised voices — so they could be found later instead of being lost in hours of continuous video.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Dropcam",
+      "source_label": "Wikipedia — Dropcam"
+    },
+    {
+      "title": "Mount one in the office as a pet cam",
+      "description": "Owners working from home or traveling put a Dropcam in the living room purely to watch dogs and cats during the day — a surveillance device reframed as a window into the home's animal life, not its security.",
+      "provenance": "observed",
+      "source_url": "https://techcrunch.com/2013/07/31/remote-video-startup-dropcam-raises-30m-plans-to-use-the-funding-to-better-compete-with-itself/",
+      "source_label": "TechCrunch — Dropcam $30M raise"
+    },
+    {
+      "title": "The single camera that replaced the DVR",
+      "description": "Prior to Dropcam, home video recording meant buying a separate DVR and running cables to it. One Dropcam on Wi-Fi, plugged into a wall, produced stored cloud footage with zero hardware beyond the camera — a setup consumers found genuinely adoptable at scale, evidenced by the 39% paid-tier conversion rate cited in 2013.",
+      "provenance": "observed",
+      "source_url": "https://techcrunch.com/2013/07/31/remote-video-startup-dropcam-raises-30m-plans-to-use-the-funding-to-better-compete-with-itself/",
+      "source_label": "TechCrunch — Dropcam $30M raise"
+    },
+    {
+      "title": "Alert only the moments that matter, skip the rest",
+      "description": "Building on the existing motion and audio timeline markers, a future iteration could let owners draw a verbal boundary — 'only alert me if someone enters the living room after 11 pm' — routing the cloud's activity recognition through a natural-language filter instead of a manual schedule.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

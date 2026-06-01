@@ -1,0 +1,127 @@
+{
+  "name": "Roombots",
+  "year": 2010,
+  "organization": ["EPFL Biorobotics Laboratory (BioRob)"],
+  "project_type": "research_prototype",
+  "short_description": "Self-reconfiguring modular robotic blocks that connect and move to assemble themselves into reconfigurable, adaptive furniture.",
+  "long_description": "Roombots are homogeneous modular robots developed at EPFL's Biorobotics Laboratory as building blocks for furniture that can move, change shape, and reconfigure itself during the day. Each module has rotational degrees of freedom for locomotion and active connection mechanisms that let many modules attach and detach at runtime to form chairs, tables, and other structures. As a vision of physical AI, Roombots reframes the built environment itself as an actuated, reconfigurable medium, where the furniture of a room becomes a distributed swarm of robots that rearrange around human needs rather than static objects.",
+  "primary_url": "https://www.epfl.ch/labs/biorob/research/modular/roombots/",
+  "ai_embedded": "some",
+  "ai_note": "Locomotion uses central pattern generator controllers whose parameters are tuned by online machine-learning optimization (stochastic approximation / SPSA) so modules learn efficient gaits for changing structures; this is learned/optimized control, not deep learning.",
+  "attributes": {
+    "embodiment.form": ["Distributed object ecology", "Architectural / environmental system"],
+    "embodiment.mobility": ["Environmental / room-scale"],
+    "embodiment.actuation": ["Self-reconfiguration", "Rotational degrees of freedom"],
+    "intelligence.model": ["Reinforcement learning"],
+    "intelligence.control": ["Central pattern generators", "Distributed control"],
+    "intelligence.adaptation": ["Online learning"],
+    "function.role": ["Reconfigurable furniture"],
+    "genealogy.lineage": ["Modular self-reconfigurable robotics", "Tangible user interfaces"]
+  },
+  "metrics": {
+    "mobility": 2,
+    "scale": 5,
+    "social_legibility": 1,
+    "autonomy": 3,
+    "expressiveness": 1
+  },
+  "images": [
+    {
+      "image_id": "img-roombots-001",
+      "caption": "Roombots modular robotic modules connected to form a self-reconfiguring furniture structure at EPFL BioRob.",
+      "image_type": "research_figure",
+      "source_url": "https://www.epfl.ch/labs/biorob/research/modular/roombots/",
+      "rights_status": "needs_permission",
+      "alt_text": "Several cube-and-cylinder shaped robotic modules linked together into a furniture-like structure in a robotics lab."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-roombots-001",
+      "title": "Roombots – BioRob",
+      "source_type": "lab_page",
+      "url": "https://www.epfl.ch/labs/biorob/research/modular/roombots/",
+      "publisher": "EPFL Biorobotics Laboratory",
+      "year": null
+    },
+    {
+      "source_id": "source-roombots-002",
+      "title": "Roombots: reconfigurable robots for adaptive furniture",
+      "source_type": "academic_paper",
+      "url": "https://ieeexplore.ieee.org/document/5152613/",
+      "publisher": "IEEE Computational Intelligence Magazine, 5(3), 20-32",
+      "year": 2010
+    },
+    {
+      "source_id": "source-roombots-003",
+      "title": "Learning to Move in Modular Robots using Central Pattern Generators and Online Optimization",
+      "source_type": "academic_paper",
+      "url": "https://journals.sagepub.com/doi/10.1177/0278364907088401",
+      "publisher": "The International Journal of Robotics Research",
+      "year": 2008
+    },
+    {
+      "source_id": "source-roombots-004",
+      "title": "Roombot Swarm Creates On-Demand Mobile Furniture",
+      "source_type": "credible_news",
+      "url": "https://spectrum.ieee.org/roombot-swarm-on-demand-mobile-furniture",
+      "publisher": "IEEE Spectrum",
+      "year": null
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Modules crawl across a connector grid to assemble furniture",
+      "description": "Several Roombot modules rotate end-over-end and grip into a grid of connector plates on the floor and walls, climbing into position and latching to each other and to passive panels to build up a stool, chair, or table.",
+      "provenance": "documented",
+      "source_url": "https://www.epfl.ch/labs/biorob/research/modular/roombots/",
+      "source_label": "EPFL BioRob — Roombots"
+    },
+    {
+      "title": "A piece of furniture reconfigures itself over the day",
+      "description": "The same set of modules changes role as needs change — a stool grows into a chair, or a row of chairs merges into a sofa — by detaching and reconnecting rather than being replaced.",
+      "provenance": "documented",
+      "source_url": "https://www.epfl.ch/labs/biorob/research/modular/roombots/",
+      "source_label": "EPFL BioRob — Roombots"
+    },
+    {
+      "title": "Modules learn an efficient gait for a new shape",
+      "description": "When modules form a new structure like a tripod or snake, central pattern generator controllers are tuned online by stochastic optimization so the assembly discovers an efficient way to locomote across the floor.",
+      "provenance": "documented",
+      "source_url": "https://journals.sagepub.com/doi/10.1177/0278364907088401",
+      "source_label": "IJRR — CPGs + online optimization"
+    },
+    {
+      "title": "Two modules cooperate to climb over a corner",
+      "description": "One module braces and lifts while a second swings over the edge of a step or corner, letting the pair traverse 3D obstacles that a single module could not climb alone.",
+      "provenance": "documented",
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0921889013001632",
+      "source_label": "Robotics and Autonomous Systems — hardware paper"
+    },
+    {
+      "title": "An ordinary IKEA table gets up and walks to you",
+      "description": "Roombot modules clipped onto the legs of a normal table turn it into mobile furniture that walks to a chosen spot, demonstrated alongside a jamming gripper that lets a module pick small objects up off the floor.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/roombot-swarm-on-demand-mobile-furniture",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "Furniture summoned, dismissed, or shooed by gesture",
+      "description": "With overhead Kinect hand tracking, a person waves a stool over to sit on or sends it away — including the demo of 'chairs that flee from you' — closing the loop between human gesture and furniture that comes and goes.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/roombot-swarm-on-demand-mobile-furniture",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "An older adult asks the room to help them stand",
+      "description": "Grounded in the lab's assistive-furniture vision, a resident recovering from a fall could have nearby modules grow into a graded sequence of supports — low cushion to seat to standing rail — guiding the transition between lying, sitting, and standing.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A conference room that re-lays itself out between meetings",
+      "description": "Between bookings the modular benches and tables crawl across the connector grid to switch the room from rows to a circle to clustered pods, matching the next session's format without anyone moving furniture by hand.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

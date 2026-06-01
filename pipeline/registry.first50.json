@@ -1,0 +1,405 @@
+{
+  "note": "First-50 batch selected from registry.card-first-candidates.json — research-only (no cards). Foundational anchors + key bookends.",
+  "projects": [
+    {
+      "project_id": "x10-home-automation",
+      "name": "X10 (home automation protocol)",
+      "year_or_era": "1975",
+      "primary_card": "genealogy-home-assistants",
+      "source_hint": "https://en.wikipedia.org/wiki/X10_(industry_standard)",
+      "card_context": "Anchors the card: Genealogy → Home Assistants (genealogy-home-assistants). Slot on its spectrum: origin. Why it fits: The first general-purpose home automation protocol: powerline signaling that let a command console switch lights and appliances in any room, originating in Scotland in 1975 and reaching RadioShack shelves in 1978. Also serves: genealogy-ubiquitous-computing, genealogy-ambient-computing."
+    },
+    {
+      "project_id": "electrolux-trilobite",
+      "name": "Electrolux Trilobite",
+      "year_or_era": "2001",
+      "primary_card": "genealogy-home-robots",
+      "source_hint": "https://en.wikipedia.org/wiki/Electrolux_Trilobite",
+      "card_context": "Anchors the card: Genealogy → Home Robots (genealogy-home-robots). Slot on its spectrum: early. Why it fits: The world's first commercially available robot vacuum, predating the Roomba by a year — proved autonomous room-mapping and docking in a consumer product. Also serves: function-domestic-labor."
+    },
+    {
+      "project_id": "wabot-1",
+      "name": "WABOT-1",
+      "year_or_era": "1973",
+      "primary_card": "genealogy-humanoids",
+      "source_hint": "https://www.waseda.jp/top/en/news/88080",
+      "card_context": "Anchors the card: Genealogy → Humanoids (genealogy-humanoids). Slot on its spectrum: origin. Why it fits: World's first full-scale humanoid robot: bipedal walking, rudimentary hands, Japanese speech, and artificial vision — defined the research agenda for the entire field. Also serves: genealogy-social-robotics."
+    },
+    {
+      "project_id": "unimate",
+      "name": "Unimate",
+      "year_or_era": "1961",
+      "primary_card": "genealogy-manipulation-bots",
+      "source_hint": "https://en.wikipedia.org/wiki/Unimate",
+      "card_context": "Anchors the card: Genealogy → Manipulation Bots (genealogy-manipulation-bots). Slot on its spectrum: origin. Why it fits: The first industrial robot arm deployed on a production line (GM, 1961), invented by George Devol and commercialized with Joseph Engelberger — the direct origin of the manipulation-bot lineage."
+    },
+    {
+      "project_id": "sutherland-sword-of-damocles",
+      "name": "Sutherland's Sword of Damocles",
+      "year_or_era": "1968",
+      "primary_card": "genealogy-spatial-computing",
+      "source_hint": "https://en.wikipedia.org/wiki/The_Sword_of_Damocles_(virtual_reality)",
+      "card_context": "Anchors the card: Genealogy → Spatial Computing (genealogy-spatial-computing). Slot on its spectrum: origin. Why it fits: The first head-mounted 3D display with real-time head tracking, establishing the core HMD paradigm — stereoscopic display plus positional sensing — that every spatial headset descends from. Also serves: genealogy-assistive-technology."
+    },
+    {
+      "project_id": "grey-walter-tortoises",
+      "name": "Grey Walter's Tortoises (Elmer & Elsie)",
+      "year_or_era": "1948",
+      "primary_card": "genealogy-social-robotics",
+      "source_hint": "https://en.wikipedia.org/wiki/Elmer_and_Elsie_(robots)",
+      "card_context": "Anchors the card: Genealogy → Social Robotics (genealogy-social-robotics). Slot on its spectrum: origin. Why it fits: The first autonomous robots with reactive, light-seeking behavior — widely cited as the founding moment of behavior-based robotics and an acknowledged precursor to social robotics. Also serves: genealogy-home-robots, genealogy-context-aware-computing."
+    },
+    {
+      "project_id": "active-badge-location-system",
+      "name": "Active Badge Location System",
+      "year_or_era": "1992",
+      "primary_card": "genealogy-context-aware-computing",
+      "source_hint": "https://dl.acm.org/doi/10.1145/128756.128759",
+      "card_context": "Anchors the card: Genealogy → Context-Aware Computing (genealogy-context-aware-computing). Slot on its spectrum: origin. Why it fits: The foundational context-aware system: infrared-emitting badges tracked occupant location room-by-room across an office network, enabling the first identity+location-aware call routing and directory services. Also serves: genealogy-ubiquitous-computing, intelligence-context-awareness."
+    },
+    {
+      "project_id": "dangling-string",
+      "name": "Dangling String (Live Wire)",
+      "year_or_era": "1995",
+      "primary_card": "genealogy-ambient-computing",
+      "source_hint": "https://history.siggraph.org/artwork/natalie-jeremijenko-live-wire/",
+      "card_context": "Anchors the card: Genealogy → Ambient Computing (genealogy-ambient-computing). Slot on its spectrum: early. Why it fits: The canonical hardware embodiment of calm technology — a motorized string in a hallway twitches with Ethernet traffic, conveying digital state as peripheral physical motion without screens. Also serves: genealogy-ubiquitous-computing, embodiment-modalities-of-expression."
+    },
+    {
+      "project_id": "kurzweil-reading-machine",
+      "name": "Kurzweil Reading Machine",
+      "year_or_era": "1976",
+      "primary_card": "genealogy-assistive-technology",
+      "source_hint": "https://www.historyofinformation.com/detail.php?id=933",
+      "card_context": "Anchors the card: Genealogy → Assistive Technology (genealogy-assistive-technology). Slot on its spectrum: early. Why it fits: First print-to-speech reading machine for the blind, combining omni-font OCR, flatbed scanning, and text-to-speech — regarded at launch as the most significant advance for the blind since Braille, and the direct ancestor of modern AI visual-description tools. Also serves: genealogy-ubiquitous-computing."
+    },
+    {
+      "project_id": "zenith-radio-nurse",
+      "name": "Zenith Radio Nurse",
+      "year_or_era": "1937-38",
+      "primary_card": "genealogy-surveillance-home-care-cameras",
+      "source_hint": "https://en.wikipedia.org/wiki/Zenith_Radio_Nurse",
+      "card_context": "Anchors the card: Genealogy → Surveillance / Home-Care Cameras (genealogy-surveillance-home-care-cameras). Slot on its spectrum: origin. Why it fits: The world's first electronic baby monitor — a two-part audio surveillance device designed by Isamu Noguchi for Zenith Radio Corporation — establishes the foundational impulse to make domestic life legible to a remote listener, the direct conceptual ancestor of home-care cameras. Also serves: genealogy-ambient-computing, genealogy-assistive-technology."
+    },
+    {
+      "project_id": "tangible-bits",
+      "name": "Tangible Bits",
+      "year_or_era": "1997",
+      "primary_card": "genealogy-ubiquitous-computing",
+      "source_hint": "https://dl.acm.org/doi/10.1145/258549.258715",
+      "card_context": "Anchors the card: Genealogy → Ubiquitous Computing (genealogy-ubiquitous-computing). Slot on its spectrum: early. Why it fits: Ishii and Ullmer's CHI '97 paper founding Tangible User Interfaces — coupling bits to physical objects and ambient media — is the intellectual bridge between ubicomp and embodied, spatially situated interaction design. Also serves: genealogy-context-aware-computing, embodiment-modalities-of-expression, embodiment-spatial-relationship."
+    },
+    {
+      "project_id": "easyliving-microsoft-research",
+      "name": "EasyLiving (Microsoft Research)",
+      "year_or_era": "2000",
+      "primary_card": "intelligence-context-awareness",
+      "source_hint": "https://www.microsoft.com/en-us/research/publication/easyliving-technologies-intelligent-environments/",
+      "card_context": "Anchors the card: Intelligence → Context Awareness (intelligence-context-awareness). Slot on its spectrum: early. Why it fits: A smart-room prototype that used multi-camera person tracking to maintain a live world-model of who was where, routing device control (lights, displays) to the right person automatically — one of the first systems to treat people's physical location as the primary context signal for environment control. Also serves: genealogy-context-aware-computing, genealogy-ambient-computing."
+    },
+    {
+      "project_id": "vannevar-bush-memex",
+      "name": "Vannevar Bush — Memex",
+      "year_or_era": "1945",
+      "primary_card": "intelligence-memory-span",
+      "source_hint": "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/",
+      "card_context": "Anchors the card: Intelligence → Memory Span (intelligence-memory-span). Slot on its spectrum: origin. Why it fits: The foundational thought experiment describing a personal memory-extension device that stores all records and lets you traverse them via associative trails — the conceptual origin of every lifelogging and AI memory system that followed. — this card is a PLOT keyed on `memory_span`, so this project MUST receive that metric (1-5). Also serves: genealogy-ubiquitous-computing, genealogy-context-aware-computing."
+    },
+    {
+      "project_id": "general-magic-telescript",
+      "name": "General Magic Telescript",
+      "year_or_era": "1994",
+      "primary_card": "intelligence-tool-calls",
+      "source_hint": "https://en.wikipedia.org/wiki/General_Magic",
+      "card_context": "Anchors the card: Intelligence → Tool Calls / Agentic Flows (intelligence-tool-calls). Slot on its spectrum: early. Why it fits: The first commercial mobile-agent platform: software agents carrying 'work orders' traveled across network nodes to execute tasks (book tickets, retrieve data) and return results — an explicit pre-web tool-call architecture. Also serves: genealogy-ubiquitous-computing, genealogy-home-assistants."
+    },
+    {
+      "project_id": "steve-mann-wearcam",
+      "name": "Steve Mann WearCam / ShootingBack",
+      "year_or_era": "1994",
+      "primary_card": "intelligence-privacy-of-data",
+      "source_hint": "http://wearcam.org/shootingback.html",
+      "card_context": "Anchors the card: Intelligence → Privacy of Data (intelligence-privacy-of-data). Slot on its spectrum: origin. Why it fits: The earliest wearable always-on camera, deliberately inverting surveillance ('sousveillance') and raising bystander-consent questions decades before Glass or Meta; the conceptual origin of the wearable-camera privacy debate. Also serves: genealogy-ubiquitous-computing, genealogy-spatial-computing, embodiment-modalities-of-expression."
+    },
+    {
+      "project_id": "apple-knowledge-navigator",
+      "name": "Apple Knowledge Navigator",
+      "year_or_era": "1987",
+      "primary_card": "function-assistant",
+      "source_hint": "https://en.wikipedia.org/wiki/Knowledge_Navigator",
+      "card_context": "Anchors the card: Function → Assistant (function-assistant). Slot on its spectrum: origin. Why it fits: A 1987 Apple concept video depicting a bow-tied AI agent on a tablet that schedules, researches, and communicates on command — the foundational design fiction that predicted Siri and GPT-4o by decades. Also serves: genealogy-home-assistants, intelligence-context-awareness."
+    },
+    {
+      "project_id": "cochrane-dishwasher",
+      "name": "Josephine Cochrane's Dishwasher",
+      "year_or_era": "1886",
+      "primary_card": "function-domestic-labor",
+      "source_hint": "https://www.history.com/articles/dishwasher-inventor-josephine-garis-cochran",
+      "card_context": "Anchors the card: Function → Domestic Labor (function-domestic-labor). Slot on its spectrum: origin. Why it fits: The first patented mechanical dishwashing machine — the original purpose-built appliance to automate a household cleaning chore, replacing hand scrubbing with water-jet pressure. Also serves: genealogy-home-robots."
+    },
+    {
+      "project_id": "nintendo-wii",
+      "name": "Nintendo Wii",
+      "year_or_era": "2006",
+      "primary_card": "function-social-uses",
+      "source_hint": "https://en.wikipedia.org/wiki/Wii",
+      "card_context": "Anchors the card: Function → Social & Multi-User Uses (function-social-uses). Slot on its spectrum: early. Why it fits: Returned shared physical play to the living room via motion controls — grandparents, children, and guests could all participate in Wii Sports together, making it a landmark case where a consumer device deliberately targeted the full-household social group rather than a solo gamer. Also serves: embodiment-spatial-relationship."
+    },
+    {
+      "project_id": "sperry-autopilot",
+      "name": "Sperry Gyroscopic Autopilot",
+      "year_or_era": "1914",
+      "primary_card": "function-trust-delegation",
+      "source_hint": "https://en.wikipedia.org/wiki/Lawrence_Sperry",
+      "card_context": "Anchors the card: Function → Trust & Delegation (function-trust-delegation). Slot on its spectrum: origin. Why it fits: The first mechanical system to actively control an aircraft without human input — Lawrence Sperry's gyroscope-stabilized autopilot is the historical origin of delegating control authority to a machine, the precursor to every modern autonomy tier. — this card is a PLOT keyed on `autonomy`, so this project MUST receive that metric (1-5). Also serves: genealogy-home-assistants."
+    },
+    {
+      "project_id": "disney-audio-animatronics-lincoln",
+      "name": "Disney Audio-Animatronics (Mr. Lincoln)",
+      "year_or_era": "1964",
+      "primary_card": "embodiment-modalities-of-expression",
+      "source_hint": "https://en.wikipedia.org/wiki/Great_Moments_with_Mr._Lincoln",
+      "card_context": "Anchors the card: Embodiment → Modalities of Expression (embodiment-modalities-of-expression). Slot on its spectrum: origin. Why it fits: The first publicly exhibited life-sized humanoid figure whose face, lips, and limbs were synchronized to recorded speech — the origin point of expressive mechanical performance and the lineage all later emotive robots descend from. — this card is a PLOT keyed on `expressiveness AND social_legibility`, so this project MUST receive that metric (1-5). Also serves: genealogy-social-robotics, genealogy-humanoids."
+    },
+    {
+      "project_id": "steve-mann-wearcomp",
+      "name": "Steve Mann's WearComp",
+      "year_or_era": "1981",
+      "primary_card": "embodiment-spatial-relationship",
+      "source_hint": "https://en.wikipedia.org/wiki/Steve_Mann_(inventor)",
+      "card_context": "Anchors the card: Embodiment → Spatial Relationship (embodiment-spatial-relationship). Slot on its spectrum: origin. Why it fits: The first on-body general-purpose computer — a backpack-mounted 6502 system with head-mounted display worn continuously on the body — defining the on-body extreme of the spatial spectrum. — this card is a PLOT keyed on `proximity`, so this project MUST receive that metric (1-5). Also serves: genealogy-ubiquitous-computing, genealogy-assistive-technology."
+    },
+    {
+      "project_id": "honda-asimo",
+      "name": "ASIMO",
+      "year_or_era": "2000",
+      "primary_card": "genealogy-humanoids",
+      "source_hint": "https://global.honda/en/newsroom/news/2000/c001120b-eng.html",
+      "card_context": "Anchors the card: Genealogy → Humanoids (genealogy-humanoids). Slot on its spectrum: midpoint. Why it fits: Honda's child-sized humanoid (2000–2022) that could walk, run, climb stairs, recognise faces, and pour drinks — the defining public symbol of humanoid robots for two decades. Also serves: genealogy-social-robotics, function-assistant."
+    },
+    {
+      "project_id": "boston-dynamics-atlas",
+      "name": "Atlas (Boston Dynamics, 2013)",
+      "year_or_era": "2013",
+      "primary_card": "genealogy-humanoids",
+      "source_hint": "https://www.darpa.mil/news/2013/atlas-robot-unveiled",
+      "card_context": "Anchors the card: Genealogy → Humanoids (genealogy-humanoids). Slot on its spectrum: midpoint. Why it fits: DARPA-funded hydraulic humanoid built for disaster response — redefined expectations for bipedal agility and became the benchmark robot for research teams worldwide. Also serves: genealogy-manipulation-bots."
+    },
+    {
+      "project_id": "sophia-hanson-robotics",
+      "name": "Sophia (Hanson Robotics)",
+      "year_or_era": "2016",
+      "primary_card": "genealogy-humanoids",
+      "source_hint": "https://en.wikipedia.org/wiki/Sophia_(robot)",
+      "card_context": "Anchors the card: Genealogy → Humanoids (genealogy-humanoids). Slot on its spectrum: modern. Why it fits: Hyper-realistic social humanoid with 60+ facial expressions and AI conversation — a cultural inflection point that brought humanoid robots into mainstream media debate. Also serves: genealogy-social-robotics, embodiment-modalities-of-expression."
+    },
+    {
+      "project_id": "shakey-robot",
+      "name": "Shakey the Robot",
+      "year_or_era": "1966–1972",
+      "primary_card": "genealogy-manipulation-bots",
+      "source_hint": "https://www.sri.com/hoi/shakey-the-robot/",
+      "card_context": "Anchors the card: Genealogy → Manipulation Bots (genealogy-manipulation-bots). Slot on its spectrum: early. Why it fits: SRI's first AI-driven mobile robot (1966–72); while primarily a navigation platform, Shakey used pushing to manipulate objects and pioneered the integration of planning and physical action that underpins all intelligent manipulation. Also serves: genealogy-home-robots, intelligence-context-awareness."
+    },
+    {
+      "project_id": "willow-garage-pr2",
+      "name": "Willow Garage PR2",
+      "year_or_era": "2010",
+      "primary_card": "genealogy-manipulation-bots",
+      "source_hint": "https://en.wikipedia.org/wiki/Willow_Garage",
+      "card_context": "Anchors the card: Genealogy → Manipulation Bots (genealogy-manipulation-bots). Slot on its spectrum: midpoint. Why it fits: The first open-platform mobile manipulator (2010) with dual 7-DOF arms on an omnidirectional base; spawned ROS and an entire research ecosystem, making household manipulation a credible research agenda. Also serves: genealogy-home-robots, function-domestic-labor."
+    },
+    {
+      "project_id": "physical-intelligence-pi-zero",
+      "name": "Physical Intelligence π0",
+      "year_or_era": "2024",
+      "primary_card": "genealogy-manipulation-bots",
+      "source_hint": "https://www.pi.website/blog/pi0",
+      "card_context": "Anchors the card: Genealogy → Manipulation Bots (genealogy-manipulation-bots). Slot on its spectrum: state-of-art. Why it fits: A generalist robot foundation model (Oct 2024) trained across 7 platforms and 68 tasks; the first demonstration that a single VLA policy can perform laundry folding, box assembly, and bussing — marking the shift from single-task to general manipulation intelligence. Also serves: intelligence-tool-calls, function-domestic-labor."
+    },
+    {
+      "project_id": "sensorama",
+      "name": "Sensorama",
+      "year_or_era": "1962",
+      "primary_card": "genealogy-spatial-computing",
+      "source_hint": "https://en.wikipedia.org/wiki/Sensorama",
+      "card_context": "Anchors the card: Genealogy → Spatial Computing (genealogy-spatial-computing). Slot on its spectrum: origin. Why it fits: Morton Heilig's multi-sensory arcade simulator — stereoscopic film, spatial sound, vibration, scent — is the earliest physical prototype of immersive, body-engaged virtual experience before digital computation. Also serves: embodiment-modalities-of-expression."
+    },
+    {
+      "project_id": "videoplace",
+      "name": "Videoplace",
+      "year_or_era": "1975",
+      "primary_card": "genealogy-spatial-computing",
+      "source_hint": "https://en.wikipedia.org/wiki/Videoplace",
+      "card_context": "Anchors the card: Genealogy → Spatial Computing (genealogy-spatial-computing). Slot on its spectrum: early. Why it fits: Myron Krueger's camera-based responsive environment created a shared 'artificial reality' through full-body silhouette interaction without goggles or gloves, pioneering controller-free spatial interaction. Also serves: genealogy-ubiquitous-computing, embodiment-modalities-of-expression."
+    },
+    {
+      "project_id": "vpl-research-eyephone",
+      "name": "VPL Research EyePhone / DataGlove",
+      "year_or_era": "1987",
+      "primary_card": "genealogy-spatial-computing",
+      "source_hint": "https://www.vrs.org.uk/virtual-reality-profiles/vpl-research.html",
+      "card_context": "Anchors the card: Genealogy → Spatial Computing (genealogy-spatial-computing). Slot on its spectrum: early. Why it fits: Jaron Lanier's VPL commercialized the first consumer VR glove (DataGlove, 1987) and HMD (EyePhone), establishing 'virtual reality' as a term and the glove-plus-headset body interface still referenced today. Also serves: genealogy-assistive-technology, embodiment-modalities-of-expression."
+    },
+    {
+      "project_id": "oculus-rift",
+      "name": "Oculus Rift",
+      "year_or_era": "2012",
+      "primary_card": "genealogy-spatial-computing",
+      "source_hint": "https://en.wikipedia.org/wiki/Oculus_Rift",
+      "card_context": "Anchors the card: Genealogy → Spatial Computing (genealogy-spatial-computing). Slot on its spectrum: modern. Why it fits: Palmer Luckey's Kickstarter prototype and 2016 consumer launch reignited the VR industry after a decade of dormancy, making low-latency 6-DOF head-tracking affordable and seeding the current headset generation. Also serves: genealogy-social-robotics."
+    },
+    {
+      "project_id": "google-glass",
+      "name": "Google Glass",
+      "year_or_era": "2013",
+      "primary_card": "genealogy-spatial-computing",
+      "source_hint": "https://en.wikipedia.org/wiki/Google_Glass",
+      "card_context": "Anchors the card: Genealogy → Spatial Computing (genealogy-spatial-computing). Slot on its spectrum: modern. Why it fits: The first widely-distributed consumer AR monocle brought spatial overlays (navigation, photos, voice search) to everyday eyewear, triggering the first mainstream cultural debate about always-on head-worn cameras. Also serves: intelligence-privacy-of-data, embodiment-modalities-of-expression."
+    },
+    {
+      "project_id": "mit-cog",
+      "name": "MIT Cog",
+      "year_or_era": "1993",
+      "primary_card": "genealogy-social-robotics",
+      "source_hint": "https://en.wikipedia.org/wiki/Cog_(project)",
+      "card_context": "Anchors the card: Genealogy → Social Robotics (genealogy-social-robotics). Slot on its spectrum: early. Why it fits: Rodney Brooks's humanoid upper-torso robot at MIT, the direct research platform from which Kismet and the field of social robotics grew; demonstrated face tracking, joint attention, and human-style physical interaction. Also serves: genealogy-humanoids."
+    },
+    {
+      "project_id": "tamagotchi",
+      "name": "Tamagotchi",
+      "year_or_era": "1996",
+      "primary_card": "genealogy-social-robotics",
+      "source_hint": "https://en.wikipedia.org/wiki/Tamagotchi",
+      "card_context": "Anchors the card: Genealogy → Social Robotics (genealogy-social-robotics). Slot on its spectrum: early. Why it fits: First mass-market digital companion — a handheld egg that required ongoing emotional care, proving millions of people would form attachment bonds with artificial creatures and establishing the 'always-on' companion paradigm. Also serves: function-social-uses, embodiment-modalities-of-expression."
+    },
+    {
+      "project_id": "aldebaran-nao",
+      "name": "NAO",
+      "year_or_era": "2008",
+      "primary_card": "genealogy-social-robotics",
+      "source_hint": "https://en.wikipedia.org/wiki/Nao_(robot)",
+      "card_context": "Anchors the card: Genealogy → Social Robotics (genealogy-social-robotics). Slot on its spectrum: midpoint. Why it fits: The standard HRI research platform for a decade — Aldebaran's affordable, programmable humanoid became the robot used in more social robotics studies than any other, normalizing the field's methods and curriculum. Also serves: genealogy-humanoids, function-social-uses."
+    },
+    {
+      "project_id": "parctab-xerox-parc",
+      "name": "PARCTAB Ubiquitous Computing Experiment",
+      "year_or_era": "1993",
+      "primary_card": "genealogy-context-aware-computing",
+      "source_hint": "https://ieeexplore.ieee.org/document/475986/",
+      "card_context": "Anchors the card: Genealogy → Context-Aware Computing (genealogy-context-aware-computing). Slot on its spectrum: origin. Why it fits: First deployed context-aware PDA: palm-sized wireless tablets that used IR room-cell location to filter files, control devices, and adapt UI to the user's physical position inside Xerox PARC. Also serves: genealogy-ubiquitous-computing, intelligence-context-awareness."
+    },
+    {
+      "project_id": "cyberguide-georgia-tech",
+      "name": "Cyberguide — Mobile Context-Aware Tour Guide",
+      "year_or_era": "1996",
+      "primary_card": "genealogy-context-aware-computing",
+      "source_hint": "https://sites.cc.gatech.edu/fce/cyberguide/pubs/chi96-cyberguide.html",
+      "card_context": "Anchors the card: Genealogy → Context-Aware Computing (genealogy-context-aware-computing). Slot on its spectrum: early. Why it fits: Georgia Tech's handheld outdoor tour guide used location and orientation as context to deliver place-specific information; one of the first field-deployed context-aware mobile apps. Also serves: intelligence-context-awareness, genealogy-ubiquitous-computing."
+    },
+    {
+      "project_id": "google-now",
+      "name": "Google Now",
+      "year_or_era": "2012",
+      "primary_card": "genealogy-context-aware-computing",
+      "source_hint": "https://en.wikipedia.org/wiki/Google_Now",
+      "card_context": "Anchors the card: Genealogy → Context-Aware Computing (genealogy-context-aware-computing). Slot on its spectrum: modern. Why it fits: First mainstream proactive context-aware assistant: fused location, calendar, search history, and time-of-day to deliver unrequested but useful 'cards' before the user asked — defining the ambient push model of context-aware computing. Also serves: genealogy-home-assistants, intelligence-context-awareness, function-assistant."
+    },
+    {
+      "project_id": "ambientroom",
+      "name": "ambientROOM",
+      "year_or_era": "1998",
+      "primary_card": "genealogy-ambient-computing",
+      "source_hint": "https://tangible.media.mit.edu/project/ambientroom/",
+      "card_context": "Anchors the card: Genealogy → Ambient Computing (genealogy-ambient-computing). Slot on its spectrum: early. Why it fits: The MIT Tangible Media Group's first full architectural ambient-display prototype, turning a room's surfaces, light, airflow, and water into a calm information layer. Also serves: genealogy-ubiquitous-computing, embodiment-spatial-relationship."
+    },
+    {
+      "project_id": "ambient-orb",
+      "name": "Ambient Orb",
+      "year_or_era": "2002",
+      "primary_card": "genealogy-ambient-computing",
+      "source_hint": "https://en.wikipedia.org/wiki/Ambient_device",
+      "card_context": "Anchors the card: Genealogy → Ambient Computing (genealogy-ambient-computing). Slot on its spectrum: midpoint. Why it fits: The first commercial ambient-information product — a frosted-glass glowing orb from MIT Media Lab spin-off Ambient Devices that maps stock, weather, or traffic data to color, making peripheral data legible without a screen. Also serves: embodiment-modalities-of-expression, embodiment-form."
+    },
+    {
+      "project_id": "lifeline-pers",
+      "name": "Lifeline Personal Emergency Response System",
+      "year_or_era": "1974",
+      "primary_card": "genealogy-assistive-technology",
+      "source_hint": "https://www.lifeline.com/about/",
+      "card_context": "Anchors the card: Genealogy → Assistive Technology (genealogy-assistive-technology). Slot on its spectrum: origin. Why it fits: First commercial personal emergency response system (PERS), originating the wearable button-press paradigm for independent living by older adults and people with disabilities — direct ancestor of modern medical alert wearables. Also serves: genealogy-surveillance-home-care-cameras, function-trust-delegation."
+    },
+    {
+      "project_id": "dragon-naturallyspeaking",
+      "name": "Dragon NaturallySpeaking",
+      "year_or_era": "1997",
+      "primary_card": "genealogy-assistive-technology",
+      "source_hint": "https://en.wikipedia.org/wiki/Dragon_NaturallySpeaking",
+      "card_context": "Anchors the card: Genealogy → Assistive Technology (genealogy-assistive-technology). Slot on its spectrum: midpoint. Why it fits: First consumer continuous speech-recognition software, unlocking computer access for people with motor impairments, RSI, and other disabilities — popularized voice as an accessible input modality two decades before smart speakers. Also serves: genealogy-home-assistants, function-assistant."
+    },
+    {
+      "project_id": "orcam-myeye",
+      "name": "OrCam MyEye",
+      "year_or_era": "2015",
+      "primary_card": "genealogy-assistive-technology",
+      "source_hint": "https://en.wikipedia.org/wiki/OrCam_device",
+      "card_context": "Anchors the card: Genealogy → Assistive Technology (genealogy-assistive-technology). Slot on its spectrum: modern. Why it fits: Wearable AI camera that clips to glasses and reads text, identifies faces, and describes products aloud in real time — brought portable, on-body computer vision to the blind and low-vision community as a standalone consumer product. Also serves: embodiment-modalities-of-expression, intelligence-context-awareness."
+    },
+    {
+      "project_id": "microsoft-seeing-ai",
+      "name": "Microsoft Seeing AI",
+      "year_or_era": "2017",
+      "primary_card": "genealogy-assistive-technology",
+      "source_hint": "https://en.wikipedia.org/wiki/Seeing_AI",
+      "card_context": "Anchors the card: Genealogy → Assistive Technology (genealogy-assistive-technology). Slot on its spectrum: state-of-art. Why it fits: AI-powered smartphone app that narrates the visual world — reading text, identifying people, objects, currency, and scenes — representing the convergence of on-device deep learning with accessibility for the blind. Also serves: intelligence-context-awareness, function-assistant."
+    },
+    {
+      "project_id": "marie-van-brittan-brown-home-security",
+      "name": "Marie Van Brittan Brown Home Security System",
+      "year_or_era": "1969",
+      "primary_card": "genealogy-surveillance-home-care-cameras",
+      "source_hint": "https://en.wikipedia.org/wiki/Marie_Van_Brittan_Brown_and_Albert_L._Brown",
+      "card_context": "Anchors the card: Genealogy → Surveillance / Home-Care Cameras (genealogy-surveillance-home-care-cameras). Slot on its spectrum: early. Why it fits: The first patented residential television-surveillance system — four peepholes, a sliding camera, a monitor, two-way audio, and a remote door latch — establishing the conceptual blueprint for video doorbells and home-care cameras decades before the technology was affordable. Also serves: genealogy-home-assistants, function-trust-delegation."
+    },
+    {
+      "project_id": "dropcam",
+      "name": "Dropcam",
+      "year_or_era": "2009",
+      "primary_card": "genealogy-surveillance-home-care-cameras",
+      "source_hint": "https://en.wikipedia.org/wiki/Dropcam",
+      "card_context": "Anchors the card: Genealogy → Surveillance / Home-Care Cameras (genealogy-surveillance-home-care-cameras). Slot on its spectrum: midpoint. Why it fits: Founded in 2009 and shipping cloud-streaming Wi-Fi cameras from 2011, Dropcam was the first widely accessible consumer device to put continuous home video in the cloud — directly seeding the modern smart-home camera category before its $555M acquisition by Nest in 2014. Also serves: genealogy-home-assistants, intelligence-privacy-of-data."
+    },
+    {
+      "project_id": "smart-dust-uc-berkeley",
+      "name": "Smart Dust (UC Berkeley)",
+      "year_or_era": "1997–2001",
+      "primary_card": "genealogy-ubiquitous-computing",
+      "source_hint": "https://en.wikipedia.org/wiki/Smartdust",
+      "card_context": "Anchors the card: Genealogy → Ubiquitous Computing (genealogy-ubiquitous-computing). Slot on its spectrum: midpoint. Why it fits: Kris Pister's millimeter-scale wireless sensor motes — the extreme miniaturization end of ubicomp — demonstrated that sensing could be dispersed invisibly into environments at scale, directly instantiating Weiser's promise of invisible computation. Also serves: genealogy-context-aware-computing, intelligence-context-awareness."
+    },
+    {
+      "project_id": "mylifebits",
+      "name": "MyLifeBits",
+      "year_or_era": "2001",
+      "primary_card": "intelligence-memory-span",
+      "source_hint": "https://en.wikipedia.org/wiki/MyLifeBits",
+      "card_context": "Anchors the card: Intelligence → Memory Span (intelligence-memory-span). Slot on its spectrum: early. Why it fits: Gordon Bell's decade-long Microsoft Research experiment to digitize and store every document, phone call, image, and biosensor reading of one person's life — the first systematic attempt at a searchable total-recall autobiographical memory. — this card is a PLOT keyed on `memory_span`, so this project MUST receive that metric (1-5). Also serves: genealogy-ubiquitous-computing, intelligence-privacy-of-data."
+    },
+    {
+      "project_id": "microsoft-sensecam",
+      "name": "Microsoft SenseCam",
+      "year_or_era": "2004",
+      "primary_card": "intelligence-memory-span",
+      "source_hint": "https://en.wikipedia.org/wiki/Microsoft_SenseCam",
+      "card_context": "Anchors the card: Intelligence → Memory Span (intelligence-memory-span). Slot on its spectrum: early. Why it fits: A neck-worn passive camera that triggered on sensor changes to capture a fisheye snapshot every few minutes, accumulating thousands of images per day as a wearable episodic memory aid — the hardware backbone of the MyLifeBits lifelog. — this card is a PLOT keyed on `memory_span`, so this project MUST receive that metric (1-5). Also serves: genealogy-ubiquitous-computing, intelligence-context-awareness."
+    },
+    {
+      "project_id": "claude-computer-use",
+      "name": "Claude Computer Use",
+      "year_or_era": "2024",
+      "primary_card": "intelligence-tool-calls",
+      "source_hint": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "card_context": "Anchors the card: Intelligence → Tool Calls / Agentic Flows (intelligence-tool-calls). Slot on its spectrum: state-of-art. Why it fits: Anthropic's October 2024 capability enabling Claude to control a full desktop — clicking, typing, and navigating apps — representing the broadest current scope of LLM-driven tool calls: any software interface becomes a callable tool. Also serves: function-assistant, function-trust-delegation."
+    }
+  ]
+}

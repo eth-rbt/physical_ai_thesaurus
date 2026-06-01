@@ -1,0 +1,117 @@
+{
+  "name": "Sensetable",
+  "year": 2001,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "A tabletop platform that wirelessly tracks the position and orientation of multiple physical pucks via electromagnetic sensing for tangible user interfaces.",
+  "long_description": "Sensetable is a tangible user interface platform from the MIT Media Lab's Tangible Media Group that electromagnetically tracks the positions and orientations of multiple wireless objects (pucks) on a flat display surface quickly and without susceptibility to occlusion or lighting changes. Each puck carries digital state that users can modify directly by attaching physical dials and modifiers, and a projector renders graphics around the objects to close the loop between physical manipulation and on-screen simulation. Demonstrated with chemistry and business supply-chain (system dynamics) simulations, it matters to physical AI and interaction design as an influential precedent for tabletop tangible interaction, showing how everyday graspable objects can become the controls of a computational system.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/365024.365112",
+  "ai_embedded": "none",
+  "ai_note": "Sensetable is an electromagnetic object-tracking and tabletop projection technique with no machine learning; sensing and state-tracking are purely electromagnetic and rule-based.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Architectural / environmental system"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Motion", "Touch"],
+    "function.role": ["Tool", "Creative collaborator"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-sensetable-001",
+      "caption": "The Sensetable tabletop platform with wireless tracked pucks and projected graphics.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/sensetable/",
+      "rights_status": "needs_permission",
+      "alt_text": "A flat tabletop surface with several round physical pucks placed on it, surrounded by projected graphical interface elements, used as a tangible interaction platform."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-sensetable-001",
+      "title": "Sensetable: A Wireless Object Tracking Platform for Tangible User Interfaces",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/365024.365112",
+      "publisher": "ACM (Proceedings of CHI 2001)",
+      "year": 2001
+    },
+    {
+      "source_id": "source-sensetable-002",
+      "title": "Sensetable - Tangible Media Group",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/project/sensetable/",
+      "publisher": "MIT Media Lab, Tangible Media Group",
+      "year": null
+    },
+    {
+      "source_id": "source-sensetable-003",
+      "title": "Sensetable: A Wireless Object Tracking Platform for Tangible User Interfaces — MIT Media Lab",
+      "source_type": "lab_page",
+      "url": "https://www.media.mit.edu/publications/sensetable-a-wireless-object-tracking-platform-for-tangible-user-interfaces/",
+      "publisher": "MIT Media Lab",
+      "year": 2001
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Drop a puck to grab a piece of data",
+      "description": "Place a physical puck anywhere on the table and it binds to a digital object; slide it around and the on-screen data follows it, with projected graphics drawn right beside the puck so the physical token and its digital state stay visually tied together.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/365024.365112",
+      "source_label": "Patten et al., Sensetable (CHI 2001)"
+    },
+    {
+      "title": "Turn a dial on the puck to change a value",
+      "description": "Attach a physical dial to a puck and twist it to adjust the bound parameter in real time — the electromagnetic sensing reads the dial's setting so a graspable knob, not a slider on a screen, drives the simulation.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/365024.365112",
+      "source_label": "Patten et al., Sensetable (CHI 2001)"
+    },
+    {
+      "title": "Snap on a token to reassign what a puck does",
+      "description": "Press a modifier token onto a puck to change its meaning or the data it represents, then peel it off again — a quick physical way to remap controls mid-task without menus.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/365024.365112",
+      "source_label": "Patten et al., Sensetable (CHI 2001)"
+    },
+    {
+      "title": "Lift a puck to release its data",
+      "description": "Pick a puck up off the surface and it lets go of whatever digital object it held, freeing both the token and the state — adding and removing controls is as simple as putting objects down and taking them away.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/365024.365112",
+      "source_label": "Patten et al., Sensetable (CHI 2001)"
+    },
+    {
+      "title": "Build a chemistry simulation by hand",
+      "description": "In the demonstrated chemistry application, users arrange pucks standing in for molecules or reaction components on the table and watch projected graphics respond, exploring the simulation by physically rearranging the pieces.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/sensetable/",
+      "source_label": "MIT Tangible Media Group — Sensetable"
+    },
+    {
+      "title": "Lay out a supply chain and watch it run",
+      "description": "In the system-dynamics business application, several people gather around the table, each placing and turning pucks to set stocks and flow rates of a supply-chain model, and the projected feedback updates as they reshape the system together.",
+      "provenance": "documented",
+      "source_url": "https://www.media.mit.edu/publications/sensetable-a-wireless-object-tracking-platform-for-tangible-user-interfaces/",
+      "source_label": "MIT Media Lab — Sensetable publication"
+    },
+    {
+      "title": "A robust tabletop for messy hands and dim rooms",
+      "description": "Because the tracking is electromagnetic rather than camera-based, pucks could be sensed even when hands hover over them or the lighting dips — making it a sturdy surface for a hands-on lab or workshop where people lean in and gesture over the table. Grounded in the paper's stated immunity to occlusion and lighting changes.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Tabletop classroom model that students rearrange",
+      "description": "Hand small groups a set of dialed pucks and let them physically build and tune a population, ecosystem, or economics model on the table, learning the dynamics by moving and turning real objects rather than typing parameters — extending the demonstrated multi-user system-dynamics setup to teaching.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

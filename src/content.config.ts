@@ -66,6 +66,31 @@ const sourceType = z.enum([
 
 const confidence = z.enum(['high', 'medium', 'low']);
 
+// Does the system actually have AI/ML running inside it? Many interaction-design
+// prototypes are pure sensing/actuation or tangible-interaction techniques with NO
+// AI at all (e.g. inFORM is a motorized pin display, not an AI system).
+//  - none:       no AI/ML; a mechanical, sensing, actuation, or tangible technique.
+//  - some:       AI/ML powers a component (e.g. a gesture classifier, vision tracking).
+//  - core:       AI is central to what the system is/does.
+//  - envisioned: AI is part of the concept/vision but not implemented (concepts, speculative).
+//  - unknown:    not yet determined.
+const aiEmbedded = z.enum(['none', 'some', 'core', 'envisioned', 'unknown']);
+
+// How grounded an interaction is. Enforces the "verified, not invented" contract:
+//  - documented: an actual supported feature/use — must cite a source.
+//  - observed:   a real emergent/creative use people actually do (hack, art, community) — must cite.
+//  - proposed:   a plausible idea grounded in the project's REAL capabilities, not yet observed.
+const interactionProvenance = z.enum(['documented', 'observed', 'proposed']);
+
+const interactionRecord = z.object({
+  title: z.string(),
+  description: z.string(),
+  provenance: interactionProvenance.default('proposed'),
+  // Required in spirit for documented/observed (a real, fetchable URL); optional analog for proposed.
+  source_url: z.string().url().optional(),
+  source_label: z.string().optional(),
+});
+
 const imageRecord = z.object({
   image_id: z.string(),
   caption: z.string(),
@@ -99,6 +124,11 @@ const projects = defineCollection({
     long_description: z.string().optional(),
     primary_url: z.string().url().optional(),
 
+    // Whether real AI/ML runs in the system, rendered as an obvious badge on the
+    // project page and grid tile. `ai_note` is a one-line rationale.
+    ai_embedded: aiEmbedded.default('unknown'),
+    ai_note: z.string().optional(),
+
     // Categorical tags keyed by "category.subcategory" → normalized values.
     // Powers grid grouping and cross-thesaurus filtering.
     attributes: z.record(z.string(), z.array(z.string())).default({}),
@@ -108,6 +138,11 @@ const projects = defineCollection({
 
     images: z.array(imageRecord).default([]),
     sources: z.array(sourceRecord).default([]),
+
+    // Interesting interactions this project affords — documented features, real emergent
+    // uses, and grounded proposed ideas. Authored by the `project-interactions` skill.
+    interactions: z.array(interactionRecord).default([]),
+
     confidence: confidence.default('medium'),
   }),
 });
@@ -147,6 +182,21 @@ const cards = defineCollection({
     one_line_summary: z.string(),
     status: z.enum(['draft', 'review', 'published']).default('draft'),
     project_ids: z.array(reference('projects')).default([]),
+    // Optional card-specific one-liner per project id → why this project belongs
+    // on THIS card (the same project is framed differently on different cards).
+    project_notes: z.record(z.string(), z.string()).default({}),
+    // Optional "takeaways" module for the left column: graphically summarizes the
+    // spread of the chosen projects across one categorical attribute (e.g. the set
+    // of forms on the Form card, or sensing methods on the Context card).
+    summary: z
+      .object({
+        label: z.string(),
+        // Attribute key to aggregate, e.g. "embodiment.form" or "intelligence.input".
+        attribute: z.string(),
+        // Optional caption shown under the chart.
+        caption: z.string().optional(),
+      })
+      .optional(),
     display: display.default({ mode: 'grid' }),
   }),
 });

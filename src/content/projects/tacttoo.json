@@ -1,0 +1,140 @@
+{
+  "name": "Tacttoo",
+  "year": 2018,
+  "organization": [
+    "Saarland University",
+    "Human-Computer Interaction Lab, Saarland University"
+  ],
+  "project_type": "academic_paper",
+  "short_description": "A sub-35-micrometer feel-through temporary tattoo that delivers high-density electro-tactile output on the skin.",
+  "long_description": "Tacttoo is a research prototype from Saarland University's HCI Lab that integrates electro-tactile electrodes into an ultra-thin temporary tattoo (under 35 micrometers thick) that conforms to complex body geometry such as a fingertip. It is 'feel-through': it preserves the wearer's natural tactile acuity while superimposing computer-generated electro-tactile stimuli, enabling tactile augmented reality, private notifications, and on-skin interaction. As physical AI and wearable interaction design, it matters because it pushes haptic output to a near-imperceptible epidermal layer, reframing the body's surface itself as a high-resolution display channel.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/3242587.3242645",
+  "ai_embedded": "none",
+  "ai_note": "Tacttoo is an electro-tactile output and fabrication technique; the paper describes no AI/ML running in the system.",
+  "attributes": {
+    "embodiment.form": [
+      "Wearable"
+    ],
+    "embodiment.mobility": [
+      "Body-worn"
+    ],
+    "embodiment.materiality": [
+      "On-skin / epidermal"
+    ],
+    "embodiment.actuation": [
+      "Electro-tactile stimulation"
+    ],
+    "intelligence.output": [
+      "Touch"
+    ],
+    "function.role": [
+      "Tool",
+      "Memory aid"
+    ],
+    "genealogy.lineage": [
+      "Wearable computing",
+      "Tangible user interfaces",
+      "Augmented reality"
+    ]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 2,
+    "scale": 1,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-tacttoo-001",
+      "caption": "A Tacttoo electro-tactile temporary tattoo applied to a fingertip.",
+      "image_type": "research_figure",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/projects/body_interaction/tacttoo/tactoo_finger_square-600x600-1.jpg",
+      "rights_status": "needs_permission",
+      "alt_text": "A close-up of a fingertip with a thin, nearly transparent printed-circuit tattoo bearing small electrodes conforming to the skin."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-tacttoo-001",
+      "title": "Tacttoo: A Thin and Feel-Through Tattoo for On-Skin Tactile Output",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/3242587.3242645",
+      "publisher": "ACM (Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology, UIST '18)",
+      "year": 2018
+    },
+    {
+      "source_id": "source-tacttoo-002",
+      "title": "Tacttoo - Human-Computer Interaction Lab, Saarland University",
+      "source_type": "lab_page",
+      "url": "https://hci.cs.uni-saarland.de/projects/tacttoo/",
+      "publisher": "Saarland University HCI Lab",
+      "year": 2018
+    },
+    {
+      "source_id": "source-tacttoo-003",
+      "title": "Tacttoo: A Thin and Feel-Through Tattoo for On-Skin Tactile Output (author PDF)",
+      "source_type": "academic_paper",
+      "url": "https://hci.cs.uni-saarland.de/wp-content/uploads/projects/body_interaction/tacttoo/withana_uist18_tacttoo.pdf",
+      "publisher": "Saarland University HCI Lab",
+      "year": 2018
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Feel a car's engine buzz through a clay model",
+      "description": "Wearing Tacttoo on the index fingertip, a designer runs a finger over a physical 3D car model and feels the real rubbery tire and surface ridges, while electro-tactile taxels simultaneously overlay the simulated engine vibration at the exact frequency that part of the car would vibrate.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/projects/body_interaction/tacttoo/withana_uist18_tacttoo.pdf",
+      "source_label": "Tacttoo paper (UIST '18), Applications: Tactile AR on 3D Models"
+    },
+    {
+      "title": "Press a sketched button and feel it click back",
+      "description": "A paper UI sketch is captured by camera; when the Tacttoo-wearing finger touches a drawn button it gets a short burst of taxel vibration like a 'click', and dragging along a sketched slider renders continuous feedback tracking the knob's position.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/projects/body_interaction/tacttoo/withana_uist18_tacttoo.pdf",
+      "source_label": "Tacttoo paper (UIST '18), Applications: Augmenting Paper Prototypes"
+    },
+    {
+      "title": "Find eyes-free music controls by a vein on your forearm",
+      "description": "Play/pause buttons are rendered on the forearm centered on a natural landmark (a vein the user can still feel through the tattoo); touching each spot fires a distinct vibration frequency so the user identifies and triggers controls without looking.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/projects/body_interaction/tacttoo/withana_uist18_tacttoo.pdf",
+      "source_label": "Tacttoo paper (UIST '18), Applications: Dynamic Tactile Landmarks"
+    },
+    {
+      "title": "Touch a virtual tree and feel its branches",
+      "description": "In a Unity VR scene with the fingertip tracked, reaching out to a virtual object renders its geometry on the skin: sharp branch tips fire as single low-frequency taxels while flat leaf surfaces actuate multiple taxels at high frequency.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/projects/body_interaction/tacttoo/withana_uist18_tacttoo.pdf",
+      "source_label": "Tacttoo paper (UIST '18), Applications: Tactile Rendering in VR"
+    },
+    {
+      "title": "Get a silent, invisible alert in a meeting",
+      "description": "Worn under clothing or on the inner forearm, Tacttoo signals an incoming message, call, or upcoming event with distinct electro-tactile patterns and no audible noise, so the wearer feels the notification privately mid-conversation while no one else notices.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/projects/body_interaction/tacttoo/withana_uist18_tacttoo.pdf",
+      "source_label": "Tacttoo paper (UIST '18), Applications: Private Notifications"
+    },
+    {
+      "title": "Tap your own skin as both the button and the buzz",
+      "description": "A single forearm Tacttoo combines a capacitive touch sensor with active taxel areas, so touching a rendered landmark both registers the input and answers with a tactile cue from the same self-contained patch — no separate tracker or device needed.",
+      "provenance": "documented",
+      "source_url": "https://hci.cs.uni-saarland.de/wp-content/uploads/projects/body_interaction/tacttoo/withana_uist18_tacttoo.pdf",
+      "source_label": "Tacttoo paper (UIST '18), Applications: integrated sensing + output"
+    },
+    {
+      "title": "Guided navigation cues at a crosswalk",
+      "description": "Because Tacttoo can place distinct, localized vibration patterns on the fingertip without blocking real-world touch, a wayfinding app could nudge 'turn left' or 'stop' onto the skin while the wearer still feels the cane, railing, or curb edge they are using.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Feel the texture of an online product before buying",
+      "description": "Grounded in Tacttoo's per-taxel rendering of surface roughness and edges, a shopping app could let you run a fingertip over a screen image of a fabric or grip and feel a coarse approximation of its texture rendered on your skin.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

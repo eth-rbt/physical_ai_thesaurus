@@ -1,23 +1,50 @@
 {
   "name": "Ray-Ban Meta Smart Glasses",
   "year": 2023,
-  "organization": ["Meta", "EssilorLuxottica", "Ray-Ban"],
+  "organization": [
+    "Meta",
+    "EssilorLuxottica",
+    "Ray-Ban"
+  ],
   "project_type": "commercial_product",
   "short_description": "AI-enabled smart glasses with cameras, microphones, speakers, and a multimodal assistant.",
   "long_description": "Head-worn glasses that pair a familiar eyewear form with first-person cameras, open-ear audio, and Meta AI. They make the case that an everyday accessory can carry capture, assistance, and situated AI without reading as a 'device', which is also what drives their privacy debate.",
   "primary_url": "https://www.meta.com/smart-glasses/",
   "attributes": {
-    "embodiment.form": ["Glasses / eyewear", "Wearable"],
-    "embodiment.mobility": ["Body-worn"],
-    "intelligence.input": ["Vision", "Audio", "Speech"],
-    "intelligence.model": ["Large language model", "Vision-language model"],
-    "function.role": ["Assistant", "Memory aid"],
-    "genealogy.lineage": ["Wearable computing", "Augmented reality"]
+    "embodiment.form": [
+      "Glasses / eyewear",
+      "Wearable"
+    ],
+    "embodiment.mobility": [
+      "Body-worn"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Audio",
+      "Speech"
+    ],
+    "intelligence.model": [
+      "Large language model",
+      "Vision-language model"
+    ],
+    "function.role": [
+      "Assistant",
+      "Memory aid"
+    ],
+    "genealogy.lineage": [
+      "Wearable computing",
+      "Augmented reality"
+    ]
   },
   "metrics": {
     "social_legibility": 2,
     "proximity": 5,
-    "mobility": 4
+    "mobility": 4,
+    "memory_span": 3,
+    "autonomy": 2,
+    "generality": 3,
+    "initiative": 2,
+    "timing": 4
   },
   "images": [
     {
@@ -39,6 +66,67 @@
       "publisher": "Meta",
       "year": 2023,
       "access_notes": "Official product page."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Live translation in your ear",
+      "description": "Talk with someone speaking Spanish, French, or Italian and hear what they say rendered into English through the open-ear speakers in near real time, with a transcript on your phone.",
+      "provenance": "documented",
+      "source_url": "https://www.meta.com/blog/ray-ban-meta-v11-software-update-live-ai-translation-shazam/",
+      "source_label": "Meta — v11 update (Live AI, translation, Shazam)"
+    },
+    {
+      "title": "Ask what you're looking at",
+      "description": "Say \"Hey Meta, look and...\" to have the glasses snap a photo and answer questions about whatever is in front of you, from a poster to the contents of your fridge, hands-free.",
+      "provenance": "documented",
+      "source_url": "https://www.uploadvr.com/ray-ban-meta-glasses-multimodal-ai-update/",
+      "source_label": "UploadVR — multimodal AI hands-on"
+    },
+    {
+      "title": "Call a sighted volunteer by voice",
+      "description": "A blind or low-vision wearer says \"Hey Meta, call a volunteer on Be My Eyes\" and a sighted helper sees the live first-person feed and talks them through a task over the open-ear speakers.",
+      "provenance": "documented",
+      "source_url": "https://www.bemyeyes.com/be-my-eyes-smartglasses/",
+      "source_label": "Be My Eyes — smart glasses"
+    },
+    {
+      "title": "Hands-free recipe coaching",
+      "description": "Prop the glasses on while cooking, follow a recipe step by step, and ask Meta AI questions out loud without touching a screen with messy hands.",
+      "provenance": "documented",
+      "source_url": "https://www.meta.com/ai-glasses/cooking/",
+      "source_label": "Meta — cooking with AI glasses"
+    },
+    {
+      "title": "Remember where you parked",
+      "description": "Say \"Hey Meta, remember where I parked\" to stash the car's location, then \"remind me where I parked\" later — using the glasses as an everyday memory aid for parking spots and flight details.",
+      "provenance": "documented",
+      "source_url": "https://www.meta.com/ai-glasses/travel-tips/",
+      "source_label": "Meta — AI glasses travel tips"
+    },
+    {
+      "title": "Doxxing strangers with a glance",
+      "description": "Two Harvard students wired the glasses' camera to face-search and public-records lookups (\"I-XRAY\") so that looking at a stranger surfaced their name, address, and phone number in real time — built as a warning, not a product.",
+      "provenance": "observed",
+      "source_url": "https://www.404media.co/someone-put-facial-recognition-tech-onto-metas-smart-glasses-to-instantly-dox-strangers/",
+      "source_label": "404 Media — I-XRAY facial recognition"
+    },
+    {
+      "title": "Recording people who don't know",
+      "description": "Because the glasses look like ordinary eyewear, wearers capture others in private moments; contractors reviewing the footage to train AI reported seeing people undressing or using toilets, drawing regulator scrutiny.",
+      "provenance": "observed",
+      "source_url": "https://decrypt.co/360048/ray-ban-smart-glasses-controversy-meta",
+      "source_label": "Decrypt — smart glasses privacy controversy"
+    },
+    {
+      "title": "Spot-narrate a museum",
+      "description": "Glance at an artwork and get a quiet plain-language explanation in your ear — grounded in the same on-board camera and multimodal assistant the glasses already use for \"look and ask.\"",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Read a foreign menu back to you",
+      "description": "Look down at a printed menu in a language you don't read and have Meta AI describe the dishes aloud, combining the camera's text recognition with the open-ear audio it already drives.",
+      "provenance": "proposed"
     }
   ],
   "confidence": "high"

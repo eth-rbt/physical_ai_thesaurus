@@ -1,0 +1,111 @@
+{
+  "name": "Technological Dreams Series: No.1, Robots",
+  "year": 2007,
+  "organization": ["Dunne & Raby"],
+  "project_type": "art_design_project",
+  "short_description": "A speculative design project of four domestic robots defined by personality, neurosis, and need rather than utility.",
+  "long_description": "Created by Anthony Dunne and Fiona Raby, Technological Dreams Series: No.1, Robots presents four non-anthropomorphic robot models, each given a temperament instead of a task: one is independent but must flee electromagnetic fields, one is so nervous it turns to face anyone who enters and panics if approached, one is a paranoid sentinel demanding prolonged retinal contact to grant access, and one is highly intelligent yet so needy it depends on its owner to move and has evolved its own language. As a 'design for debate' work, it reframes physical AI and human-robot interaction around the awkward emotional and psychological relationships people might form with future domestic machines, offering a critical counterpoint to the warm, task-competent companion robots the field usually imagines.",
+  "primary_url": "https://dunneandraby.co.uk/content/projects/10/0",
+  "ai_embedded": "envisioned",
+  "ai_note": "The robots are non-functional sculptural models and a film; their intelligence, personalities, and evolved language are narrative speculation, not implemented AI/ML.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Mobile robot"],
+    "embodiment.mobility": ["Fixed", "Wheeled"],
+    "embodiment.materiality": ["Sculptural model"],
+    "intelligence.autonomy": ["Speculative"],
+    "function.role": ["Companion"],
+    "genealogy.lineage": ["Speculative design", "Social robotics", "Human-robot interaction"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 4,
+    "expressiveness": 5,
+    "autonomy": 2
+  },
+  "images": [
+    {
+      "image_id": "img-technological-dreams-robots-001",
+      "caption": "Models of the four robots from Dunne & Raby's Technological Dreams Series: No.1, Robots (2007).",
+      "image_type": "exhibition_photo",
+      "source_url": "https://dunneandraby.co.uk/content/projects/10/0",
+      "rights_status": "needs_permission",
+      "alt_text": "Four abstract, non-humanoid robot models in pale materials, each with a distinct sculptural form rather than a conventional robot body."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-technological-dreams-robots-001",
+      "title": "Technological Dreams Series: No.1, Robots",
+      "source_type": "project_page",
+      "url": "https://dunneandraby.co.uk/content/projects/10/0",
+      "publisher": "Dunne & Raby",
+      "year": 2007
+    },
+    {
+      "source_id": "source-technological-dreams-robots-002",
+      "title": "Robot 4 from the Technological Dreams Series: no 1, Robots project (Model). 2007",
+      "source_type": "exhibition_page",
+      "url": "https://www.moma.org/collection/works/110127",
+      "publisher": "The Museum of Modern Art",
+      "year": 2007
+    },
+    {
+      "source_id": "source-technological-dreams-robots-003",
+      "title": "Technological Dreams Series: no 1, Robots Models",
+      "source_type": "exhibition_page",
+      "url": "https://www.moma.org/interactives/exhibitions/2011/talktome/objects/140021/",
+      "publisher": "The Museum of Modern Art (Talk to Me)",
+      "year": 2011
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Sit in the calm spot the robot keeps finding",
+      "description": "Robot 1, a ring-shaped machine, continually drifts to the quietest, least electromagnetically noisy part of the room; the owner is invited to place a chair inside the ring or stand in its centre to share that good, interference-free space.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/10/0",
+      "source_label": "Dunne & Raby — project page"
+    },
+    {
+      "title": "Get scrutinised the moment you walk in",
+      "description": "Walk into the room and Robot 2 swivels to face you, studying you with its many eyes; step too close and it grows agitated and even hysterical, turning the act of approaching a machine into something fraught.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/10/0",
+      "source_label": "Dunne & Raby — project page"
+    },
+    {
+      "title": "Stare it down to unlock your own data",
+      "description": "To reach your personal information you must lean in and hold a long retinal gaze with Robot 3, the sentinel; it makes you stare into its eyes until it is satisfied you are really you before granting access.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/10/0",
+      "source_label": "Dunne & Raby — project page"
+    },
+    {
+      "title": "Carry the genius that cannot move itself",
+      "description": "Robot 4 is brilliant but trapped in an underdeveloped body, so the owner must physically pick it up and ferry it around the home; it keeps you needed, speaking back in an evolved language that still carries traces of a human voice.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/10/0",
+      "source_label": "Dunne & Raby — project page"
+    },
+    {
+      "title": "Meet Robot 4 in a museum vitrine",
+      "description": "The oak, acrylic and epoxy model of the needy Robot 4 entered MoMA's collection (gift of the Speyer Family Foundation) and was shown in the 2011 'Talk to Me' exhibition, where visitors encounter the personality-driven robot as a sculptural object rather than a working machine.",
+      "provenance": "observed",
+      "source_url": "https://www.moma.org/collection/works/110127",
+      "source_label": "MoMA — collection record"
+    },
+    {
+      "title": "A design-class prompt for emotional robotics",
+      "description": "An HCI or interaction-design studio could stage the four temperaments as a critique exercise: students live alongside each behaviour (the anxious watcher, the demanding sentinel, the dependent genius) to surface what kinds of relationship we are willing to accept from domestic machines, grounded in the work's 'design for debate' intent.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Neediness as a real interface tactic",
+      "description": "Building on Robot 4's premise that designed dependence preserves the owner's sense of control, a connected-home device could deliberately route certain actions through the person rather than automating them, testing whether engineered neediness keeps people feeling in charge instead of sidelined.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

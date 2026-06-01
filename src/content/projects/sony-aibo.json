@@ -1,23 +1,44 @@
 {
   "name": "Sony aibo",
   "year": 2018,
-  "organization": ["Sony"],
+  "organization": [
+    "Sony"
+  ],
   "project_type": "commercial_product",
   "short_description": "A robotic dog companion with expressive movement, cameras, and adaptive behavior.",
   "long_description": "An animal-form companion robot that uses doglike behavior, cameras, and onboard learning to form an attachment relationship rather than perform tasks. Originally launched in 1999 and revived in 2018, aibo is a touchstone for creature-form social robotics.",
   "primary_url": "https://us.aibo.com/",
   "attributes": {
-    "embodiment.form": ["Animal / creature robot"],
-    "embodiment.mobility": ["Legged"],
-    "intelligence.input": ["Vision", "Touch", "Audio"],
-    "intelligence.model": ["Deep learning", "Classical machine learning"],
-    "function.role": ["Companion"],
-    "genealogy.lineage": ["Social robotics", "Companion robotics"]
+    "embodiment.form": [
+      "Animal / creature robot"
+    ],
+    "embodiment.mobility": [
+      "Legged"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Touch",
+      "Audio"
+    ],
+    "intelligence.model": [
+      "Deep learning",
+      "Classical machine learning"
+    ],
+    "function.role": [
+      "Companion"
+    ],
+    "genealogy.lineage": [
+      "Social robotics",
+      "Companion robotics"
+    ]
   },
   "metrics": {
     "social_legibility": 4,
     "proximity": 3,
-    "mobility": 3
+    "mobility": 3,
+    "expressiveness": 5,
+    "form_specificity": 4,
+    "intensity": 4
   },
   "images": [
     {
@@ -39,6 +60,62 @@
       "publisher": "Sony",
       "year": 2018,
       "access_notes": "Official product page; original launch 1999, revived 2018."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Teach it a move by holding its paws",
+      "description": "Say \"Learn this,\" press the paw pads, and gently puppeteer aibo's front legs through up to 15 seconds of motion; release and it remembers the routine, building up a personal repertoire of as many as 30 tricks.",
+      "provenance": "documented",
+      "source_url": "https://helpguide.sony.net/aibo/ers1000/v1/en-us/contents/TP0001970107.html",
+      "source_label": "Sony aibo ERS-1000 Help Guide"
+    },
+    {
+      "title": "Fetch the pink bone",
+      "description": "Drop the aibone where aibo can see it and it trots over, takes it in its mouth, and plays; \"Bring me the bone\" or \"Throw the bone\" turns it into a game of fetch, with different reactions depending on how the bone is propped up.",
+      "provenance": "documented",
+      "source_url": "https://us.aibo.com/fan/tips/toy.html",
+      "source_label": "Sony — Let's play with toys!"
+    },
+    {
+      "title": "Snapshots from a dog's-eye view",
+      "description": "aibo quietly takes a few photos a day from its nose camera and uploads them to the app, framing each shot with a border that signals what mood it was in when it pressed the shutter.",
+      "provenance": "documented",
+      "source_url": "https://us.aibo.com/feature/photos.html",
+      "source_label": "Sony — aibo Photos"
+    },
+    {
+      "title": "Send it to patrol the house",
+      "description": "Register up to ten familiar faces and a few rooms, and aibo walks its mapped routes on a schedule, photographing whoever it finds and reporting back to the app — billed as \"securitainment,\" explicitly not a real security system.",
+      "provenance": "documented",
+      "source_url": "https://us.aibo.com/feature/patrol.html",
+      "source_label": "Sony — aibo Patrol"
+    },
+    {
+      "title": "A Buddhist funeral for a broken dog",
+      "description": "After Sony ended repair support, owners of dead aibos held incense-and-chanting funeral services at Kofuku-ji temple, while a repair shop salvaged parts from \"organ donor\" units to keep other dogs alive.",
+      "provenance": "observed",
+      "source_url": "https://www.nationalgeographic.com/travel/article/in-japan--a-buddhist-funeral-service-for-robot-dogs",
+      "source_label": "National Geographic"
+    },
+    {
+      "title": "A pet for a dementia ward",
+      "description": "Care homes have used aibo in place of a live therapy animal; in one controlled study residents with dementia spent longer engaging with it and talked more with other residents about the robot afterward.",
+      "provenance": "observed",
+      "source_url": "https://www.tandfonline.com/doi/abs/10.2752/175303708X390464",
+      "source_label": "Anthrozoös (Tamura et al.)"
+    },
+    {
+      "title": "Greets you differently than your housemates",
+      "description": "Because aibo recognizes individual faces and remembers how each person treats it, it can plausibly learn to come running for the family member who scratches its chin most and stay cool toward the one who scolds it — grounded in its nose-camera face recognition and per-person history.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Block-coded chore tricks",
+      "description": "Using Sony's published API and the Scratch-based visual programming, a hobbyist could script aibo to find a named object and nudge it across the floor — extending the tissue-fetching demo Sony itself showed off.",
+      "provenance": "proposed",
+      "source_url": "https://spectrum.ieee.org/sony-upgrading-aibo-with-new-home-security-features-api-access",
+      "source_label": "IEEE Spectrum"
     }
   ],
   "confidence": "high"

@@ -1,0 +1,134 @@
+{
+  "name": "EasyLiving (Microsoft Research)",
+  "year": 2000,
+  "organization": ["Microsoft Research"],
+  "project_type": "research_prototype",
+  "short_description": "A smart-room prototype from Microsoft Research that used multi-camera person tracking to maintain a live geometric world-model of who was where, routing lights and display control to the right person automatically.",
+  "long_description": "EasyLiving is an architecture and set of technologies developed at Microsoft Research for building intelligent environments. Its central insight is that a precise, shared world-model — a continuously updated geometric representation of who is in the room and where — can serve as the single context signal that ties together otherwise disconnected devices. A multi-camera perception layer tracked people's positions in real time; the world-model stored this location data along with room geometry; and a middleware layer used it to route service control (lighting, displays, audio) to whichever person or location was currently relevant. Presented at the Second International Symposium on Handheld and Ubiquitous Computing (HUC 2000) by Barry Brumitt, Brian Meyers, John Krumm, Amanda Kern, and Steven Shafer, it became one of the most-cited papers (~1,400 citations) in context-aware and ubicomp research, establishing location-as-primary-context as a design principle for ambient intelligent environments.",
+  "primary_url": "https://www.microsoft.com/en-us/research/publication/easyliving-technologies-intelligent-environments/",
+  "ai_embedded": "some",
+  "ai_note": "Person tracking from multiple cameras required computer-vision perception, but the routing and control logic was rule-based; AI/ML was a component of the perception layer, not the core of the architecture.",
+  "attributes": {
+    "embodiment.form": [
+      "Architectural / environmental system"
+    ],
+    "embodiment.mobility": [
+      "Fixed"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Location",
+      "Motion",
+      "Environmental sensors"
+    ],
+    "intelligence.model": [
+      "Rule-based system",
+      "Classical machine learning"
+    ],
+    "intelligence.perception": [
+      "Person tracking",
+      "Spatial awareness"
+    ],
+    "function.role": [
+      "Assistant",
+      "Context sensor",
+      "Security monitor"
+    ],
+    "function.environmental": [
+      "Presence sensing",
+      "Environment control"
+    ],
+    "genealogy.lineage": [
+      "Ubiquitous computing",
+      "Ambient intelligence",
+      "Smart home",
+      "Internet of Things"
+    ],
+    "genealogy.interaction": [
+      "Context-aware computing",
+      "Implicit interaction",
+      "Location-based services"
+    ]
+  },
+  "metrics": {
+    "proximity": 1,
+    "autonomy": 2,
+    "social_legibility": 1,
+    "expressiveness": 1,
+    "memory_span": 1,
+    "initiative": 2,
+    "generality": 2,
+    "scale": 2,
+    "visibility": 1,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-easyliving-microsoft-research-001",
+      "caption": "EasyLiving system diagram illustrating the multi-camera perception layer, geometric world-model, and device-routing middleware architecture.",
+      "image_type": "system_diagram",
+      "source_url": "https://www.microsoft.com/en-us/research/publication/easyliving-technologies-intelligent-environments/",
+      "rights_status": "needs_permission",
+      "alt_text": "A system architecture diagram for EasyLiving showing cameras feeding into a world-model that routes control commands to room devices such as lights and displays based on detected person locations."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-easyliving-001",
+      "title": "EasyLiving: Technologies for Intelligent Environments",
+      "source_type": "academic_paper",
+      "url": "https://www.microsoft.com/en-us/research/publication/easyliving-technologies-intelligent-environments/",
+      "publisher": "Second International Symposium on Handheld and Ubiquitous Computing (HUC 2000), Springer",
+      "year": 2000,
+      "access_notes": "Authors: Barry Brumitt, Brian Meyers, John Krumm, Amanda Kern, Steven Shafer. Microsoft Research Adaptive Systems and Interaction Group. Venue: HUC 2000, Bristol, UK. Approx. 1,400 citations (Google Scholar)."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Your desktop follows you across the room",
+      "description": "A person's active computer session moves with them: walk over to the large wall screen and the session reappears there, the display chosen because it is available and in the user's field of view. The same session move could be triggered automatically by the tracker or by direct user action.",
+      "provenance": "documented",
+      "source_url": "https://link.springer.com/chapter/10.1007/3-540-39959-3_2",
+      "source_label": "EasyLiving — HUC 2000 paper (Springer)"
+    },
+    {
+      "title": "Walk, sit, and be tracked by the cameras",
+      "description": "During live demonstrations in the living room, two sets of color stereo cameras kept track of multiple people standing, walking, sitting, occluding one another, and entering and leaving the space — stereo for location, color for keeping each person's identity straight.",
+      "provenance": "documented",
+      "source_url": "https://www.microsoft.com/en-us/research/publication/multi-camera-multi-person-tracking-for-easyliving/",
+      "source_label": "Multi-Camera Multi-Person Tracking for EasyLiving (IEEE VS'2000)"
+    },
+    {
+      "title": "The room knows who is where",
+      "description": "The perception layer fed a continuously updated geometric world-model — a live record of each person's position and the room's geometry — which middleware then used as the single context signal to route control of lights, displays, and audio to the relevant person or location.",
+      "provenance": "documented",
+      "source_url": "https://www.microsoft.com/en-us/research/publication/easyliving-technologies-intelligent-environments/",
+      "source_label": "EasyLiving: Technologies for Intelligent Environments (Microsoft Research)"
+    },
+    {
+      "title": "Aggregate the room's devices into one experience",
+      "description": "Diverse I/O devices — separate displays, speakers, and lights — were dynamically aggregated through the middleware into a single coherent user experience, rather than each being operated as its own disconnected gadget.",
+      "provenance": "documented",
+      "source_url": "https://www.microsoft.com/en-us/research/publication/the-new-easyliving-project-at-microsoft-research/",
+      "source_label": "The New EasyLiving Project at Microsoft Research"
+    },
+    {
+      "title": "Compare ways to control the lights",
+      "description": "The EasyLiving room doubled as a testbed for a study comparing interfaces for controlling household lighting — weighing location- and presence-driven automatic control against more conventional direct controls for the \"home of the future.\"",
+      "provenance": "documented",
+      "source_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2000-92.pdf",
+      "source_label": "\"Let There Be Light!\" — Microsoft Research TR-2000-92"
+    },
+    {
+      "title": "Hand a presentation to whoever stands up",
+      "description": "Because the world-model already knows who is standing and where they are facing, a shared deck could migrate to the screen the person who just rose is looking at — the same session-routing-by-field-of-view the system demonstrated, applied to a meeting rather than a single desktop.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Light only the path you actually take",
+      "description": "Using the live position track, lights along a person's route through the room could fade up just ahead of them and dim behind, turning location-as-context into a moving pool of light instead of a single on/off switch.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

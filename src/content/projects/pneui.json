@@ -1,0 +1,111 @@
+{
+  "name": "PneUI",
+  "year": 2013,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "An enabling technology for shape-changing interfaces built from pneumatically actuated soft composite materials that combine input sensing with active shape output.",
+  "long_description": "PneUI is a fabrication and actuation technique from the MIT Media Lab's Tangible Media Group that builds shape-changing interfaces out of multi-layer soft composite materials whose transformations are driven by pneumatics and a pre-defined internal structure. The composites integrate both input sensing and active shape output, and the design space is demonstrated through applications such as height-changing tangible phicons, a shape-changing mobile, a transformable tablet case, and a shape-shifting lamp. As physical AI and interaction design, it matters as a foundational soft-robotics and tangible-interface technique: it shows how everyday objects and surfaces can computationally change their physical form to convey information and adapt to use, expanding the material vocabulary for embodied interfaces.",
+  "primary_url": "https://tangible.media.mit.edu/project/pneui/",
+  "ai_embedded": "none",
+  "ai_note": "PneUI is a pneumatic soft-material actuation and sensing technique; shape states are computationally controlled through air pressure and pre-defined structure, with no AI/ML in the system.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Architectural / environmental system"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.actuation": ["Pneumatic"],
+    "embodiment.materiality": ["Soft / compliant"],
+    "intelligence.input": ["Touch"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 1,
+    "expressiveness": 3,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-pneui-001",
+      "caption": "PneUI shape-changing interface applications built from pneumatically actuated soft composite materials.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/pneui/",
+      "rights_status": "needs_permission",
+      "alt_text": "Pneumatically actuated soft objects from the PneUI project, including a shape-shifting lamp and transformable surfaces that inflate and change form."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-pneui-001",
+      "title": "PneUI: Pneumatically Actuated Soft Composite Materials for Shape Changing Interfaces",
+      "source_type": "project_page",
+      "url": "https://tangible.media.mit.edu/project/pneui/",
+      "publisher": "MIT Media Lab, Tangible Media Group",
+      "year": 2013
+    },
+    {
+      "source_id": "source-pneui-002",
+      "title": "PneUI: pneumatically actuated soft composite materials for shape changing interfaces",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2501988.2502037",
+      "publisher": "ACM (Proceedings of UIST 2013)",
+      "year": 2013
+    }
+  ],
+  "interactions": [
+    {
+      "title": "A phicon that rises to mark itself",
+      "description": "Set a small tangible token on the table and it inflates to a taller height on command, so its physical stature stands in for a value or state you can read and grab at a glance.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/pneui/",
+      "source_label": "MIT Tangible Media Group — PneUI"
+    },
+    {
+      "title": "A phone that bends and clips around your wrist",
+      "description": "The shape-changing mobile flexes its soft body to curl from a flat slab into a curved cuff, letting the same device sit in your hand or wrap around your arm depending on how you want to carry it.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/pneui/",
+      "source_label": "MIT Tangible Media Group — PneUI"
+    },
+    {
+      "title": "A tablet case that props itself up",
+      "description": "The transformable case inflates a section of its soft composite to lift and angle the tablet into a stand, then deflates flat again to slide back into a bag.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/pneui/",
+      "source_label": "MIT Tangible Media Group — PneUI"
+    },
+    {
+      "title": "A lamp that breathes into new silhouettes",
+      "description": "The shape-shifting lamp slowly morphs its soft pneumatic skin between forms, changing how it casts and shapes light without any moving rigid parts.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/pneui/",
+      "source_label": "MIT Tangible Media Group — PneUI"
+    },
+    {
+      "title": "Touch it and it knows, then changes",
+      "description": "Because the multi-layer composite senses its own bending and touch while pneumatics drive its form, you can press or flex a surface and have it register the input and respond by reshaping — input and shape output living in the same soft material.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2501988.2502037",
+      "source_label": "PneUI, UIST 2013 (ACM DOI)"
+    },
+    {
+      "title": "Curved-channel folds and textures on demand",
+      "description": "By pre-defining internal air channels and stiffness layers, a flat sheet can be programmed to fold along set creases or raise surface bumps when inflated, turning a plain surface into one that can grow tactile texture.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2501988.2502037",
+      "source_label": "PneUI, UIST 2013 (ACM DOI)"
+    },
+    {
+      "title": "A notification you feel in your pocket's shape",
+      "description": "Building on the bendable phone, the device could stiffen or curl slightly to signal an incoming call or alert through a change in its physical form — a tactile, glance-free cue grounded in the same pneumatic shape control it already demonstrates.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "An armrest that firms up where you lean",
+      "description": "A pneumatic soft surface in a chair or wall could sense pressure through its embedded sensing layer and selectively inflate to support a hand or back exactly where weight lands, using PneUI's combined touch-sensing and shape-output material.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

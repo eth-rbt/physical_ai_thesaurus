@@ -1,0 +1,119 @@
+{
+  "name": "Tangible Programming Bricks",
+  "year": 2004,
+  "organization": ["MIT Media Lab"],
+  "project_type": "research_prototype",
+  "short_description": "Stackable electronic LEGO-style bricks that let people build, rather than type, computer programs by physically arranging blocks that drive real devices.",
+  "long_description": "Tangible Programming Bricks, developed by Timothy McNerney at the MIT Media Lab, are electronic LEGO-compatible bricks each embedding a Cricket microprocessor and ISO 'smart card' connectors on top and bottom so a stack can sense its own order and identity. Each brick can accept a parameter card that acts as a constant, timer, sensor, or other adjustable value, and the resulting physical stack runs as a program that controls real devices such as LEGO machines, sounds, and household appliances. It matters as physical AI / interaction design because it gives code a persistent, graspable form, turning programming into hands-on construction and exemplifying the tangible user interface tradition of moving computation out of the screen and into manipulable physical objects.",
+  "primary_url": "https://doi.org/10.1007/s00779-004-0295-6",
+  "ai_embedded": "none",
+  "ai_note": "The system is an embedded-microcontroller tangible interface: bricks sense their stacking order and execute the arranged program; no machine learning or AI runs in it.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology"],
+    "embodiment.mobility": ["Handheld"],
+    "embodiment.materiality": ["Tangible blocks"],
+    "intelligence.model": ["Rule-based system"],
+    "intelligence.input": ["Touch"],
+    "function.role": ["Tool", "Teacher"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 4,
+    "mobility": 2,
+    "scale": 1,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-tangible-programming-bricks-001",
+      "caption": "Stack of Tangible Programming Bricks with parameter cards, from McNerney's MIT Media Lab work.",
+      "image_type": "research_figure",
+      "source_url": "https://www.media.mit.edu/publications/from-turtles-to-tangible-programming-bricks-explorations-in-physical-language-design/",
+      "rights_status": "needs_permission",
+      "alt_text": "A vertical stack of LEGO-like electronic bricks, each with a connector on top and a small inserted parameter card, forming a physical program."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-tangible-programming-bricks-001",
+      "title": "From turtles to Tangible Programming Bricks: explorations in physical language design",
+      "source_type": "academic_paper",
+      "url": "https://doi.org/10.1007/s00779-004-0295-6",
+      "publisher": "Personal and Ubiquitous Computing (Springer), vol. 8(5), pp. 326-337",
+      "year": 2004
+    },
+    {
+      "source_id": "source-tangible-programming-bricks-002",
+      "title": "Tangible programming bricks: an approach to making programming accessible to everyone",
+      "source_type": "academic_paper",
+      "url": "https://dspace.mit.edu/handle/1721.1/62094",
+      "publisher": "MIT Media Lab (MS thesis), Timothy McNerney",
+      "year": 1999
+    },
+    {
+      "source_id": "source-tangible-programming-bricks-003",
+      "title": "From Turtles to Tangible Programming Bricks: Explorations in physical language design",
+      "source_type": "lab_page",
+      "url": "https://www.media.mit.edu/publications/from-turtles-to-tangible-programming-bricks-explorations-in-physical-language-design/",
+      "publisher": "MIT Media Lab",
+      "year": 2004
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Snap bricks into a stack, slot in a card",
+      "description": "You build a program by clutching LEGO-style bricks one on top of another and pushing a parameter card into the slot on a brick's side; the two affordances are literally 'stack a brick' and 'insert a card,' and the smart-card connectors let the stack sense its own order so the assembled tower simply runs as the program.",
+      "provenance": "documented",
+      "source_url": "https://alumni.media.mit.edu/~mcnerney/personal-ubicomp.pdf",
+      "source_label": "McNerney, Personal and Ubiquitous Computing 2004"
+    },
+    {
+      "title": "Build a bike trip computer from scratch",
+      "description": "A toy bicycle gets a magnet on the wheel and a Hall-effect sensor on the frame; you wire it to a TRIGGER brick, stack a CLICK brick (beeps once per wheel pass), then COUNTS/T and DISPLAY, and the tower counts revolutions over a 10-second window and shows the speed — opening up the 'black box' of a real cycle computer.",
+      "provenance": "documented",
+      "source_url": "https://alumni.media.mit.edu/~mcnerney/personal-ubicomp.pdf",
+      "source_label": "McNerney, Personal and Ubiquitous Computing 2004"
+    },
+    {
+      "title": "Debug by ear with the CLICK brick",
+      "description": "Drop a CLICK brick onto a stack to hear what is flowing through it: above MEASURE it chatters rapidly, above TRIGGER it beeps only on a rising signal, and turning a KNOB card clockwise makes it click once per step — so you find bugs by listening instead of reaching for a screen or debugger.",
+      "provenance": "documented",
+      "source_url": "https://alumni.media.mit.edu/~mcnerney/personal-ubicomp.pdf",
+      "source_label": "McNerney, Personal and Ubiquitous Computing 2004"
+    },
+    {
+      "title": "Swap a card and watch the number change",
+      "description": "Because CONSTANT, KNOB, SENSOR and THUMBWHEEL cards are interchangeable, a child can pop a THUMBWHEEL into a MEASURE brick, cap it with a DISPLAY, and turn it into a game — spin the digits and watch the readout track them, learning one block's behavior before assembling anything bigger.",
+      "provenance": "documented",
+      "source_url": "https://alumni.media.mit.edu/~mcnerney/personal-ubicomp.pdf",
+      "source_label": "McNerney, Personal and Ubiquitous Computing 2004"
+    },
+    {
+      "title": "Transform a data stream as it climbs the stack",
+      "description": "Each brick can rewrite the values passing up through it: put a MULTIPLY brick with a '2' card in the middle of a tower and every number arriving from below is doubled before it continues upward — a 21 leaves as a 42 — so the physical order of the bricks is the computation.",
+      "provenance": "documented",
+      "source_url": "https://alumni.media.mit.edu/~mcnerney/personal-ubicomp.pdf",
+      "source_label": "McNerney, Personal and Ubiquitous Computing 2004"
+    },
+    {
+      "title": "Program everyday machines like toy cars and a microwave",
+      "description": "The earliest brick experiments were aimed at end-user programming of external devices — arranging bricks to drive toy cars and to set the steps of a kitchen microwave oven — letting someone author an appliance's behavior by hand rather than through its built-in panel.",
+      "provenance": "documented",
+      "source_url": "https://alumni.media.mit.edu/~mcnerney/personal-ubicomp.pdf",
+      "source_label": "McNerney, Personal and Ubiquitous Computing 2004"
+    },
+    {
+      "title": "Invent your own brick vocabulary",
+      "description": "Using the IR/BUS card you could download fresh Logo code into a brick to give it a new behavior, so a science class could mint its own domain-specific blocks — say a 'pH' or 'tilt' brick — and hand-build a microworld tailored to whatever experiment they are running that week.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A tabletop greenhouse data logger",
+      "description": "Wire a light or temperature SENSOR card into a MEASURE brick, stack COUNTS/T and DISPLAY, and leave the tower beside a seedling so kids can read off how conditions rise and fall through the day — grounded in the same stream-of-samples bricks the bike computer already uses.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

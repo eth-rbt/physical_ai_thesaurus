@@ -1,0 +1,140 @@
+{
+  "name": "Dragon NaturallySpeaking",
+  "year": 1997,
+  "organization": ["Dragon Systems", "Nuance Communications", "Microsoft"],
+  "project_type": "commercial_product",
+  "short_description": "The first consumer continuous speech-recognition software, letting users dictate text and control a PC entirely by voice.",
+  "long_description": "Released in April 1997 by Dragon Systems — founded in 1982 by Dr. James K. Baker and Dr. Janet M. Baker — NaturallySpeaking 1.0 was the first commercial product to recognize naturally flowing, continuous speech without requiring users to pause between every word. Built on hidden Markov models and statistical language models, it achieved dictation speeds exceeding 100 words per minute at launch. For people with motor impairments, RSI, and other physical disabilities, it became a transformative assistive technology that unlocked computer access without any reliance on a keyboard or mouse — establishing voice as a serious, accessible input modality two decades before smart speakers made it mainstream.",
+  "primary_url": "https://www.nuance.com/dragon.html",
+  "ai_embedded": "core",
+  "ai_note": "Hidden Markov model acoustic and statistical language models are central to what the system does — speech-to-text recognition is the product.",
+  "attributes": {
+    "embodiment.form": ["Desktop agent", "Smart appliance"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Speech", "Audio"],
+    "intelligence.model": ["Classical machine learning", "Speech model"],
+    "function.role": ["Assistant", "Tool", "Memory aid"],
+    "function.assistance_type": ["Accessibility", "Dictation"],
+    "genealogy.lineage": ["Ubiquitous computing", "Ambient intelligence"],
+    "genealogy.precedent_field": ["Assistive technology", "Human-computer interaction", "Speech technology"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 2,
+    "social_legibility": 1,
+    "form_specificity": 1,
+    "autonomy": 1,
+    "initiative": 1,
+    "memory_span": 2,
+    "visibility": 2,
+    "generality": 4,
+    "intensity": 4,
+    "expressiveness": 1,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-dragon-naturallyspeaking-001",
+      "caption": "Dragon NaturallySpeaking logo — the product's heptagon mark in black and green.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dragon_Naturally_Speaking_Logo.png",
+      "rights_status": "public_domain",
+      "alt_text": "The Dragon NaturallySpeaking logo: a dark green heptagon (seven-sided polygon) with the word Dragon in black lettering below it.",
+      "local_image": "/projects/dragon-naturallyspeaking.png"
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Dictate a document and watch it appear",
+      "description": "Speak naturally into a headset microphone and watch the words materialize in a floating tooltip as they are recognized, then drop into the open document — no pausing between words the way earlier discrete-utterance systems demanded.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Dragon_NaturallySpeaking",
+      "source_label": "Wikipedia — Dragon NaturallySpeaking"
+    },
+    {
+      "title": "Teach it your voice by reading aloud",
+      "description": "Before first use a new user enrolls by reciting a selected block of training text, with an on-screen indicator tracking their position, so the system can adapt its acoustic model to how that particular person speaks.",
+      "provenance": "documented",
+      "source_url": "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/6424943",
+      "source_label": "US Patent 6,424,943 — non-interactive enrollment"
+    },
+    {
+      "title": "Correct a misheard word by voice and hear it back",
+      "description": "When the software mistranscribes something, the user highlights the word and says \"correct that\"; the system plays back the audio it captured, which helps the speaker tell whether the slip was theirs or the recognizer's.",
+      "provenance": "documented",
+      "source_url": "http://dyslexia.yale.edu/resources/tools-technology/tech-tips/dragon-naturally-speaking/",
+      "source_label": "Yale Center for Dyslexia & Creativity"
+    },
+    {
+      "title": "Drive the cursor and keyboard with spoken commands",
+      "description": "Operate a PC with no hands by speaking commands like \"move mouse lower left,\" \"mouse double-click,\" or \"press enter,\" issuing keystrokes and mouse actions across desktop applications by voice alone.",
+      "provenance": "documented",
+      "source_url": "https://www.boia.org/blog/dragon-speech-recognition-how-voice-controls-improve-accessibility",
+      "source_label": "Bureau of Internet Accessibility"
+    },
+    {
+      "title": "Hands-free computer access for people who can't type",
+      "description": "For users with RSI, carpal tunnel, or motor impairments — and students with dysgraphia who found dictating far easier than committing ideas to paper — Dragon unlocked composing essays, email, and homework without a keyboard or mouse.",
+      "provenance": "documented",
+      "source_url": "http://dyslexia.yale.edu/resources/tools-technology/tech-tips/dragon-naturally-speaking/",
+      "source_label": "Yale Center for Dyslexia & Creativity"
+    },
+    {
+      "title": "Build custom voice commands for any program",
+      "description": "Professional editions let users define their own spoken commands to control functions not built into NaturallySpeaking, scripting voice macros for specialized workflows — including the medical and legal editions tuned to those professions' vocabularies.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Dragon_NaturallySpeaking",
+      "source_label": "Wikipedia — Dragon NaturallySpeaking"
+    },
+    {
+      "title": "Pair it with a screen reader for layered access",
+      "description": "Run Dragon alongside a screen reader such as JAWS so a user with both vision and mobility constraints can both speak input and have the interface read back to them, combining two assistive modalities into one workflow.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Narrate a field notebook on the move",
+      "description": "Use the document text-to-speech playback to proofread by ear — having the machine read a freshly dictated draft back aloud so the author catches dropped phrasing without rereading the screen.",
+      "provenance": "proposed"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-dragon-naturallyspeaking-001",
+      "title": "Dragon NaturallySpeaking",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Dragon_NaturallySpeaking",
+      "publisher": "Wikipedia",
+      "year": 1997,
+      "access_notes": "History, launch date (April 1997), company founding, ownership chain, and version milestones."
+    },
+    {
+      "source_id": "source-dragon-naturallyspeaking-002",
+      "title": "Dragon Systems Introduces Dragon NaturallySpeaking Speech Recognition & Speech to Text Software",
+      "source_type": "credible_news",
+      "url": "https://historyofinformation.com/detail.php?id=5507",
+      "publisher": "History of Information",
+      "year": 1997,
+      "access_notes": "Primary historical record of the 1997 launch."
+    },
+    {
+      "source_id": "source-dragon-naturallyspeaking-003",
+      "title": "Dragon Speech Recognition: How Voice Controls Improve Accessibility",
+      "source_type": "credible_news",
+      "url": "https://www.boia.org/blog/dragon-speech-recognition-how-voice-controls-improve-accessibility",
+      "publisher": "Bureau of Internet Accessibility",
+      "year": null,
+      "access_notes": "Documents Dragon's role as assistive technology for users with motor impairments and RSI; Section 508 compliance."
+    },
+    {
+      "source_id": "source-dragon-naturallyspeaking-004",
+      "title": "Audrey and the Dragon: The History of Voice Recognition Technology",
+      "source_type": "credible_news",
+      "url": "https://www.thinkbrg.com/insights/publications/audrey-and-the-dragon-voice-recognition/",
+      "publisher": "BRG (Berkeley Research Group)",
+      "year": null,
+      "access_notes": "Contextual history of voice recognition technology leading to Dragon."
+    }
+  ],
+  "confidence": "high"
+}

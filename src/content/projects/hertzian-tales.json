@@ -1,0 +1,100 @@
+{
+  "name": "Hertzian Tales",
+  "year": 1999,
+  "organization": ["Royal College of Art"],
+  "project_type": "concept",
+  "short_description": "Anthony Dunne's founding critical-design text proposing electronic objects as aesthetic and critical provocations that make the invisible electromagnetic environment perceptible.",
+  "long_description": "Hertzian Tales is Anthony Dunne's 1999 Royal College of Art doctoral work (later published by MIT Press) that helped found critical and speculative design. It argues that electronic products should engage the social, cultural, and aesthetic implications of technology rather than merely package it, and proposes a set of provocative objects, including the Faraday Chair, Electroclimates, and Thief of Affection, that render the otherwise invisible 'Hertzian space' of radio and electromagnetic fields into tangible, debatable experiences. As physical AI and interaction design, it matters because it reframes everyday electronic things as designed encounters with an unseen technical environment, a lineage that informs how speculative and ambient interactive objects are conceived today.",
+  "primary_url": "https://mitpress.mit.edu/9780262541992/hertzian-tales/",
+  "ai_embedded": "none",
+  "ai_note": "These are critical-design objects and design proposals about electromagnetic space; no AI or machine learning is part of the work, and none is even envisioned in its concepts.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology"],
+    "embodiment.materiality": ["Electromagnetic / radio"],
+    "function.role": ["Provocateur"],
+    "genealogy.lineage": ["Speculative design", "Critical design", "Tangible user interfaces"]
+  },
+  "metrics": {
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 2,
+    "expressiveness": 4,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-hertzian-tales-001",
+      "caption": "Cover of Hertzian Tales: Electronic Products, Aesthetic Experience, and Critical Design by Anthony Dunne (MIT Press edition).",
+      "image_type": "product_photo",
+      "source_url": "https://mitpress.mit.edu/9780262541992/hertzian-tales/",
+      "rights_status": "needs_permission",
+      "alt_text": "Book cover for Hertzian Tales by Anthony Dunne, published by the MIT Press."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Climb into the Faraday Chair to hide from radio",
+      "description": "A person folds into a foetal position inside an orange acrylic tank meant to shield them from the radio and electromagnetic emissions of phones, TVs, and power lines — at once womb-like protection and a tomb-like retreat from a saturated electromagnetic world.",
+      "provenance": "documented",
+      "source_url": "https://collections.vam.ac.uk/item/O63805/faraday-chair-chair-dunne--raby/",
+      "source_label": "V&A — Faraday Chair"
+    },
+    {
+      "title": "Watch an object dream in radio waves",
+      "description": "In Electroclimates, an LCD screen animates in response to shifting radio frequencies, turning the invisible hertzian weather of a room into a quiet, watchable display.",
+      "provenance": "documented",
+      "source_url": "https://mitpress.mit.edu/9780262541992/hertzian-tales/",
+      "source_label": "MIT Press — Hertzian Tales"
+    },
+    {
+      "title": "Drive the city as a radio instrument",
+      "description": "Tunable Cities treats the moving car as an interface, mapping the overlapping radio fields of baby monitors and domestic gadgets as bright red zones laid over the streets of Chiswick so a driver experiences hertzian and physical space at once.",
+      "provenance": "documented",
+      "source_url": "https://mitpress.mit.edu/9780262541992/hertzian-tales/",
+      "source_label": "MIT Press — Hertzian Tales"
+    },
+    {
+      "title": "Steal affection from a pacemaker",
+      "description": "Thief of Affection is a deliberately uncomfortable proposal for a device that intercepts the radio signals leaking from cardiac pacemakers, dramatizing how intimate, life-sustaining technology broadcasts into shared electromagnetic space.",
+      "provenance": "documented",
+      "source_url": "https://mitpress.mit.edu/9780262541992/hertzian-tales/",
+      "source_label": "MIT Press — Hertzian Tales"
+    },
+    {
+      "title": "Encounter the objects on a gallery floor",
+      "description": "The Faraday Chair is held in the V&A collection and shown in the Design 1900 to Now gallery, where visitors can stand over the suspended acrylic tank and read its breathing tube and pillow as an inhabitable critique rather than a product.",
+      "provenance": "observed",
+      "source_url": "https://collections.vam.ac.uk/item/O63805/faraday-chair-chair-dunne--raby/",
+      "source_label": "V&A — on display, Room 76"
+    },
+    {
+      "title": "A lamp that glows where the signal is strongest",
+      "description": "Grounded in the same render-the-invisible logic as Electroclimates, a domestic object could brighten or dim as it passes through the overlapping Wi-Fi and cellular fields of a home, letting a resident feel the texture of their hertzian environment.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A quiet room you can book like a meeting",
+      "description": "Extending the Faraday Chair from a single body to a shared space, a radio-opaque alcove in an office could offer a deliberately disconnected retreat — a place where people choose to step out of the ambient signal saturation around them.",
+      "provenance": "proposed"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-hertzian-tales-001",
+      "title": "Hertzian Tales: Electronic Products, Aesthetic Experience, and Critical Design",
+      "source_type": "documentation",
+      "url": "https://mitpress.mit.edu/9780262541992/hertzian-tales/",
+      "publisher": "The MIT Press",
+      "year": 1999
+    },
+    {
+      "source_id": "source-hertzian-tales-002",
+      "title": "Hertzian Tales: Electronic Products, Aesthetic Experience, and Critical Design",
+      "source_type": "credible_news",
+      "url": "https://www.critical.design/post/hertzian-tales-electronic-products-aesthetic-experience-and-critical-design",
+      "publisher": "critical.design",
+      "year": null
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,120 @@
+{
+  "name": "inFORM",
+  "year": 2013,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "A 900-pin motorized 2.5D dynamic shape display that physically renders 3D digital content and lets users touch and manipulate it.",
+  "long_description": "inFORM is a tabletop shape display built from a grid of roughly 900 motorized pins, actuated in real time to render 3D forms and surfaces that users can touch, push, and feel. A depth camera senses hand gestures and physical objects while an overhead projector adds color, so the surface can present dynamic physical affordances, impose constraints, and even actuate objects placed on it. As an exemplar of Tangible Media Group's vision of 'Radical Atoms,' it matters as physical AI / interaction design by showing how bits can become directly graspable matter, reframing displays as shape-changing physical interfaces rather than flat screens.",
+  "primary_url": "https://tangible.media.mit.edu/project/inform/",
+  "ai_embedded": "none",
+  "ai_note": "inFORM is a motorized pin array driven by depth-camera sensing and direct actuation; no machine learning runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Domestic object"],
+    "embodiment.mobility": ["Fixed"],
+    "embodiment.actuation": ["Shape change", "Object actuation"],
+    "embodiment.materiality": ["Shape-changing surface"],
+    "intelligence.input": ["Touch", "Gesture", "Vision", "Motion"],
+    "intelligence.output": ["Shape change", "Force / haptic"],
+    "function.role": ["Tool", "Creative collaborator"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 1,
+    "expressiveness": 3,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-inform-001",
+      "caption": "The inFORM dynamic shape display rendering 3D content through its grid of motorized pins.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/inform/",
+      "rights_status": "needs_permission",
+      "alt_text": "A tabletop array of hundreds of small white square pins extruded to different heights to form a physical relief surface, lit by overhead colored projection."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-inform-001",
+      "title": "inFORM",
+      "source_type": "lab_page",
+      "url": "https://tangible.media.mit.edu/project/inform/",
+      "publisher": "MIT Media Lab, Tangible Media Group",
+      "year": 2013
+    },
+    {
+      "source_id": "source-inform-002",
+      "title": "inFORM: Dynamic Physical Affordances and Constraints through Shape and Object Actuation",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/2501988.2502032",
+      "publisher": "ACM (Proceedings of UIST '13)",
+      "year": 2013
+    },
+    {
+      "source_id": "source-inform-003",
+      "title": "inFORM: An Interactive Dynamic Shape Display that Physically Renders 3-D Content",
+      "source_type": "credible_news",
+      "url": "https://www.technologyreview.com/2013/12/30/174761/inform-an-interactive-dynamic-shape-display-that-physically-renders-3-d-content/",
+      "publisher": "MIT Technology Review",
+      "year": 2013
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Reach across a video call and push a ball",
+      "description": "On a video call your remote partner's hands appear on your table as a moving relief of pins, and they can nudge a ball or block across to you while you feel the surface rise under their 'touch.'",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/inform/",
+      "source_label": "MIT Tangible Media Group — inFORM"
+    },
+    {
+      "title": "Watch a 3D model lift out of the table",
+      "description": "An architect or product designer loads a CAD model and the surface extrudes it as a low-resolution physical relief you can lean over and discuss, instead of printing it or spinning it on a screen.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/inform/",
+      "source_label": "MIT Tangible Media Group — inFORM"
+    },
+    {
+      "title": "Buttons and sliders that rise when you need them",
+      "description": "The display renders dynamic physical affordances on demand, pushing up a knob or button where an interface element should be and then flattening it away, so controls only exist as graspable bumps while they are in use.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2501988.2502032",
+      "source_label": "Follmer et al., UIST '13"
+    },
+    {
+      "title": "The surface herds an object for you",
+      "description": "Pins rise around an object resting on the table to corral, guide, or transport it, imposing a dynamic physical constraint that walls off where it can go or actuates it across the surface.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/2501988.2502032",
+      "source_label": "Follmer et al., UIST '13"
+    },
+    {
+      "title": "Feel a CT scan slice by slice",
+      "description": "Volumetric data such as a medical CT scan is sliced and rendered as a physical cross-section you can run your hand over, scrubbing through the volume to feel its contours rather than reading them off a flat image.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/inform/",
+      "source_label": "MIT Tangible Media Group — inFORM"
+    },
+    {
+      "title": "Put your hand on a moving shape display in a museum",
+      "description": "inFORM was shown as a live interactive exhibit in the MIT Museum's Radical Atoms / 'Making Digital Tangible' showing, letting ordinary visitors touch a rippling pin surface alongside SandScape and TRANSFORM.",
+      "provenance": "observed",
+      "source_url": "https://www.media.mit.edu/events/mit-museum-exhibit-making-digital-tangible/",
+      "source_label": "MIT Media Lab — Making Digital Tangible exhibit"
+    },
+    {
+      "title": "A surface that builds the right jig mid-task",
+      "description": "Because the pins can raise constraints anywhere on demand, the table could pop up a temporary fence or cradle to hold a part steady while you work, then dissolve it once you move on.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Physical waveforms you can grab and bend",
+      "description": "A musician or engineer could see a live signal or math function extruded as a ridge across the table and press it down or pull it up to reshape the underlying data by hand.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

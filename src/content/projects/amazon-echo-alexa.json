@@ -59,5 +59,61 @@
       "year": 2014
     }
   ],
+  "interactions": [
+    {
+      "title": "Chain a morning into one word",
+      "description": "Say \"Alexa, good morning\" and a Routine fires off a sequence on its own — lights up, blinds open, the day's weather and commute read aloud, news starts playing — all stitched to a single phrase or a time of day.",
+      "provenance": "documented",
+      "source_url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GJWYQVSUF3W9V7N9",
+      "source_label": "Amazon — What you can do with Routines"
+    },
+    {
+      "title": "Drop in on the kitchen from upstairs",
+      "description": "Use Echoes around the house as an intercom: say \"Alexa, drop in on the kitchen\" and a two-way audio channel opens instantly, the speaker's ring pulsing green, no one having to answer.",
+      "provenance": "documented",
+      "source_url": "https://www.amazon.com/alexa-drop-in-calling-intercom/b?ie=UTF8&node=21393410011",
+      "source_label": "Amazon — Drop In, Calling & Intercom"
+    },
+    {
+      "title": "Teach it a new trick with a Skill",
+      "description": "Enable one of tens of thousands of third-party \"Skills\" and the speaker gains a new behavior on command — order a pizza, play a trivia game, hear a meditation — without any new hardware.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Amazon_Alexa",
+      "source_label": "Wikipedia — Amazon Alexa (Skills)"
+    },
+    {
+      "title": "Listen for breaking glass while you're out",
+      "description": "Say \"Alexa, I'm leaving\" and the speaker switches to a guard mode, listening for the sound of breaking glass or a smoke or CO alarm and pinging your phone with a short audio clip if it hears one.",
+      "provenance": "documented",
+      "source_url": "https://gizmodo.com/alexa-can-now-alert-you-if-glass-breaks-or-your-smoke-a-1834747615",
+      "source_label": "Gizmodo — Alexa Guard"
+    },
+    {
+      "title": "Reward a kid for saying the magic word",
+      "description": "In its kids mode, when a child asks \"Alexa, please…\" the assistant answers and adds \"by the way, thanks for asking so nicely\" — a politeness nudge Amazon added after parents worried that barking orders at a speaker was teaching rudeness.",
+      "provenance": "documented",
+      "source_url": "https://hothardware.com/news/amazon-echo-dot-kids-edition-alexa-update-teaches-manners-saying-magic-word",
+      "source_label": "HotHardware — Magic Word feature"
+    },
+    {
+      "title": "A TV anchor's stray sentence orders dollhouses",
+      "description": "Because the speaker wakes on its name from across a room, a news anchor saying \"Alexa, order me a dollhouse\" on air — and a commercial naming a product — set off shopping attempts in viewers' homes; orders normally need a spoken confirmation to go through.",
+      "provenance": "observed",
+      "source_url": "https://globalnews.ca/news/4025172/amazon-echo-orders-cat-food-tv-commercial/",
+      "source_label": "Global News — Echo orders from a TV ad"
+    },
+    {
+      "title": "An older person who lives alone just talks to it",
+      "description": "Homebound seniors end up spending real time chatting with the speaker — asking for jokes, music, the weather — and in a study of adults 75+ the sheer time spent interacting with Alexa predicted measurable drops in loneliness.",
+      "provenance": "observed",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10815345/",
+      "source_label": "NCBI — voice assistants and loneliness in older adults"
+    },
+    {
+      "title": "A bedtime story told by the room",
+      "description": "A child asks the speaker for a story at lights-out and gets one read aloud, hands-free in the dark — leaning on the same audio-first storytelling and read-aloud Skills the device already runs, with no screen to glow.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

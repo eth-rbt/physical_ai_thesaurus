@@ -1,0 +1,141 @@
+{
+  "name": "Disney Audio-Animatronics (Mr. Lincoln)",
+  "year": 1964,
+  "organization": [
+    "WED Enterprises",
+    "Disney"
+  ],
+  "project_type": "art_design_project",
+  "short_description": "A life-sized Abraham Lincoln figure whose face, lips, and limbs move in synchrony with prerecorded speech — the first publicly exhibited humanoid figure to fuse mechanical performance with synchronized vocal expression.",
+  "long_description": "Debuted at the 1964 New York World's Fair in the State of Illinois pavilion, Great Moments with Mr. Lincoln was the public premiere of Disney's Audio-Animatronics technology. The Lincoln figure, sculpted by Blaine Gibson from a life mask, uses a combination of pneumatic actuators, hydraulic systems, and cable-driven mechanisms synchronized to tones recorded on magnetic tape; each tone triggers a relay that opens a pneumatic valve, producing a specific movement. The figure demonstrated 48 body movements and 17 distinct head and facial cues — including brow furrows, lip movements, and eye direction — timed precisely to Royal Dano's voice performance. It is the origin point of the lineage connecting mechanical theatrical performance to later social robotics and emotive physical AI: the first publicly exhibited life-sized humanoid whose face, lips, and limbs were synchronized to recorded speech at architectural scale.",
+  "primary_url": "https://en.wikipedia.org/wiki/Great_Moments_with_Mr._Lincoln",
+  "ai_embedded": "none",
+  "ai_note": "Purely mechanical and electro-pneumatic: solenoids and pneumatic valves triggered by analog tones on prerecorded magnetic tape. No AI, no ML, no adaptive behavior.",
+  "attributes": {
+    "embodiment.form": [
+      "Humanoid robot"
+    ],
+    "embodiment.mobility": [
+      "Fixed"
+    ],
+    "embodiment.actuation": [
+      "Pneumatic",
+      "Hydraulic",
+      "Cable-driven"
+    ],
+    "intelligence.model": [],
+    "function.role": [
+      "Performer"
+    ],
+    "function.social_function": [
+      "Theatrical performance",
+      "Historical reenactment"
+    ],
+    "genealogy.lineage": [
+      "Social robotics",
+      "Animatronics",
+      "Themed entertainment",
+      "Human-robot interaction"
+    ],
+    "genealogy.design_tradition": [
+      "Mechanical theater",
+      "Automata"
+    ]
+  },
+  "metrics": {
+    "expressiveness": 2,
+    "social_legibility": 3,
+    "proximity": 3,
+    "mobility": 1,
+    "scale": 4,
+    "autonomy": 1,
+    "initiative": 1,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-disney-lincoln-001",
+      "caption": "The Abraham Lincoln Audio-Animatronic figure at Walt Disney: One Man's Dream, Disney's Hollywood Studios, 2017.",
+      "image_type": "exhibition_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Lincoln_Audio-Animatronic_(42346731335).jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A life-sized seated animatronic figure of Abraham Lincoln in a dark suit, with realistic facial features and a slightly open mouth, displayed in a museum exhibit.",
+      "local_image": "/projects/disney-audio-animatronics-lincoln.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-disney-lincoln-001",
+      "title": "Great Moments with Mr. Lincoln",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Great_Moments_with_Mr._Lincoln",
+      "publisher": "Wikipedia",
+      "year": 1964,
+      "access_notes": "Documents the 1964 World's Fair debut, original team (Blaine Gibson, Bob Gurr, Roger Broggie, Marc Davis), figure capabilities (48 body movements, 17 head/facial cues), and Disneyland exhibition history."
+    },
+    {
+      "source_id": "source-disney-lincoln-002",
+      "title": "Audio-Animatronics",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Audio-Animatronics",
+      "publisher": "Wikipedia",
+      "year": 1964,
+      "access_notes": "Technical description of the pneumatic/hydraulic/solenoid mechanism, tape-tone synchronization system, development history from 1949 onward, and trademark history (commercially used 1961, trademarked 1967)."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Watch Lincoln rise and speak",
+      "description": "Seated visitors at the State of Illinois pavilion saw the curtain open on a seated Lincoln, who rose from his chair and delivered an address stitched from his own speeches on liberty, freedom, and preserving the union — moving his arms, head, and lips in time with the recorded voice.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Great_Moments_with_Mr._Lincoln",
+      "source_label": "Wikipedia — Great Moments with Mr. Lincoln"
+    },
+    {
+      "title": "Mistake the machine for a man",
+      "description": "The figure read as so lifelike that some audience members at the 1964 World's Fair believed Lincoln was being played by a live actor rather than a machine.",
+      "provenance": "documented",
+      "source_url": "https://www.waltdisney.org/blog/look-closer-1964-new-york-worlds-fair",
+      "source_label": "Walt Disney Family Museum — 1964 World's Fair"
+    },
+    {
+      "title": "A short show, run on the hour",
+      "description": "The attraction ran as a scheduled theatrical show — Lincoln performed for audiences roughly five times per hour, with a preliminary film, the flag-flanked reveal, the speech, and a choral finale.",
+      "provenance": "documented",
+      "source_url": "https://www.waltdisney.org/blog/look-closer-1964-new-york-worlds-fair",
+      "source_label": "Walt Disney Family Museum — 1964 World's Fair"
+    },
+    {
+      "title": "Drive every gesture from a console",
+      "description": "Operators programmed the figure from a control console of knobs, each governing a single motion, light, or sound effect; the performance was then played back from tape, with tones triggering relays and pneumatic valves to move each part.",
+      "provenance": "documented",
+      "source_url": "https://www.waltdisney.org/blog/look-closer-1964-new-york-worlds-fair",
+      "source_label": "Walt Disney Family Museum — 1964 World's Fair"
+    },
+    {
+      "title": "Synchronize face to a recorded voice",
+      "description": "Sound and motion were fed together from the same tape so that lip and facial movement stayed locked to actor Royal Dano's recorded delivery — the core trick of Audio-Animatronics.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Audio-Animatronics",
+      "source_label": "Wikipedia — Audio-Animatronics"
+    },
+    {
+      "title": "Recite excerpts instead of the Gettysburg Address",
+      "description": "Disney deliberately built the speech from lesser-known passages rather than the Gettysburg Address, reasoning that the familiar text would not serve the show's purpose — a curatorial choice about what a performing figure should say.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Great_Moments_with_Mr._Lincoln",
+      "source_label": "Wikipedia — Great Moments with Mr. Lincoln"
+    },
+    {
+      "title": "Swap the script for a new historical figure",
+      "description": "Because the show is just a timed sequence of tape tones driving fixed actuators, the same seated-figure mechanism could be reprogrammed to deliver a different historical address, much as Disney later extended the technique into multi-figure casts.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A museum docent that performs, not narrates",
+      "description": "Stationed beside an exhibit, a figure of this kind could rise on a schedule and recite a primary-source text in the speaker's own voice, turning a static display into a recurring live-feeling performance.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

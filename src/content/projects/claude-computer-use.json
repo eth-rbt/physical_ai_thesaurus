@@ -1,0 +1,101 @@
+{
+  "name": "Claude Computer Use",
+  "year": 2024,
+  "organization": ["Anthropic"],
+  "project_type": "platform",
+  "short_description": "An API capability that lets Claude see a desktop screen and control mouse and keyboard — making any software interface a callable tool.",
+  "long_description": "Announced in public beta on 22 October 2024, Claude Computer Use enables the model to perceive a live screenshot, then emit structured actions — mouse clicks, drags, keyboard strokes, and scrolls — to operate any desktop application or website. By treating the screen as both sensor and actuator, it collapses the distinction between \"tools with APIs\" and \"tools with GUIs\": every legacy app, web form, and file manager becomes reachable without custom integration. On OSWorld — a benchmark that scores screenshot-only desktop-task completion — Claude 3.5 Sonnet scored 14.9%, roughly double the next-best system at the time of release. The capability ships alongside bash and text-editor tools and is available on Anthropic API, Amazon Bedrock, and Google Cloud Vertex AI.",
+  "primary_url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+  "ai_embedded": "core",
+  "ai_note": "Computer use is the capability itself — a large language model issuing structured GUI actions from vision input; AI is the entire mechanism.",
+  "attributes": {
+    "embodiment.form": ["Software agent", "Desktop agent"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Vision", "Text"],
+    "intelligence.output": ["Text", "Mouse / keyboard actions"],
+    "intelligence.model": ["Large language model", "Vision-language model"],
+    "intelligence.autonomy": ["Agentic / multi-step", "Human-in-the-loop optional"],
+    "function.role": ["Assistant", "Coworker"],
+    "function.task-domain": ["Software automation", "Research", "Software development"],
+    "genealogy.lineage": ["Ubiquitous computing", "Human-computer interaction", "Agentic AI"]
+  },
+  "metrics": {
+    "autonomy": 5,
+    "generality": 5,
+    "memory_span": 3,
+    "social_legibility": 1,
+    "proximity": 1,
+    "mobility": 1
+  },
+  "images": [
+    {
+      "image_id": "img-claude-computer-use-001",
+      "caption": "Claude Computer Use beta announcement — the model controlling a desktop environment via screenshot, click, and keyboard actions.",
+      "image_type": "screenshot",
+      "source_url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "rights_status": "needs_permission",
+      "alt_text": "A screenshot from the Anthropic blog showing Claude navigating a desktop application interface by reading the screen and issuing mouse and keyboard actions autonomously."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-claude-computer-use-001",
+      "title": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku",
+      "source_type": "official_blog_post",
+      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "publisher": "Anthropic",
+      "year": 2024,
+      "access_notes": "Launch announcement, 22 October 2024. Describes OSWorld benchmark results and beta partners."
+    },
+    {
+      "source_id": "source-claude-computer-use-002",
+      "title": "Computer use (beta) — Anthropic documentation",
+      "source_type": "documentation",
+      "url": "https://docs.anthropic.com/en/docs/agents-and-tools/computer-use",
+      "publisher": "Anthropic",
+      "year": 2024,
+      "access_notes": "Canonical technical reference: tool schema, security guidance, beta header values. Redirects to platform.claude.com."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Fill out a multi-step web form end to end",
+      "description": "Given a goal like \"submit a support ticket on this website,\" Claude takes a screenshot, locates the form, types into each field, handles dropdowns and date pickers, and submits — treating the browser as a tool with no custom API required.",
+      "provenance": "documented",
+      "source_url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "source_label": "Anthropic — computer use announcement"
+    },
+    {
+      "title": "Build and test a feature in a live IDE",
+      "description": "Early-access partner Replit used the capability to let Claude open a code editor, write a function, switch to the terminal to run tests, read the output, and iterate — turning the entire development loop into a tool call.",
+      "provenance": "documented",
+      "source_url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "source_label": "Anthropic — beta partner Replit"
+    },
+    {
+      "title": "Operate a legacy desktop app with no API",
+      "description": "Because Computer Use works through the GUI rather than an integration layer, Claude can operate any installed application — a 2001-era accounting program, a proprietary CAD tool, or a government web portal — just as a human operator would.",
+      "provenance": "documented",
+      "source_url": "https://docs.anthropic.com/en/docs/agents-and-tools/computer-use",
+      "source_label": "Anthropic docs — computer use overview"
+    },
+    {
+      "title": "Resist an injected instruction embedded in a web page",
+      "description": "When Claude browses the web, malicious pages can embed prompt-injection instructions in text or images. Anthropic added on-path classifiers that detect suspected injections and pause to ask for human confirmation before proceeding — a documented safety mitigation.",
+      "provenance": "documented",
+      "source_url": "https://docs.anthropic.com/en/docs/agents-and-tools/computer-use",
+      "source_label": "Anthropic docs — security considerations"
+    },
+    {
+      "title": "Autonomously migrate data between two SaaS tools",
+      "description": "Chain Computer Use with a bash tool: Claude logs into a source app, exports a CSV, opens the destination app, maps columns, and imports — a multi-app data-migration workflow that crosses app boundaries without any app-specific API credential.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Record and replay a repetitive workflow as a test",
+      "description": "Ask Claude to perform a QA smoke-test sequence — open the app, click through the critical path, verify each screen — and capture whether each step succeeds, using its vision to confirm UI state rather than brittle CSS selectors.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

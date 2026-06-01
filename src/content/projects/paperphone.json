@@ -1,0 +1,119 @@
+{
+  "name": "PaperPhone",
+  "year": 2011,
+  "organization": ["Human Media Lab, Queen's University", "Arizona State University", "E Ink Corporation"],
+  "project_type": "research_prototype",
+  "short_description": "A smartphone-inspired flexible E Ink prototype that is controlled through bend gestures of its thin, paper-like display.",
+  "long_description": "PaperPhone is a research prototype built around a 9.5 cm thin-film flexible E Ink display that looks, feels, and operates like a sheet of interactive paper. Users navigate and trigger actions by physically bending the device (e.g. flipping a corner to turn pages) rather than tapping a rigid touchscreen. Presented at CHI 2011, the project elicited a vocabulary of bend gestures from participants and showed which deformation-based interactions felt most natural, making it a landmark in flexible-display and organic/deformable user interface research where the body of the device itself becomes the input surface.",
+  "primary_url": "https://cil.csit.carleton.ca/paperphone/",
+  "ai_embedded": "none",
+  "ai_note": "PaperPhone is a flexible-display interaction-technique prototype using bend-sensor input and E Ink output; no AI/ML runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Handheld", "Domestic object"],
+    "embodiment.mobility": ["Handheld"],
+    "embodiment.materiality": ["Flexible / deformable"],
+    "intelligence.input": ["Touch", "Gesture", "Motion"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing"]
+  },
+  "metrics": {
+    "proximity": 4,
+    "mobility": 2,
+    "scale": 1,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-paperphone-001",
+      "caption": "PaperPhone flexible E Ink prototype shown in the Creative Interactions Lab publication thumbnail.",
+      "image_type": "research_figure",
+      "source_url": "https://cil.csit.carleton.ca/b/wp-content/uploads/2013/12/cropped-flexDisplayContacts.jpg",
+      "rights_status": "needs_permission",
+      "alt_text": "A thin, flexible electronic-paper display prototype held in a hand, showing a contacts list, demonstrating the PaperPhone bendable smartphone."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Flip the corner to turn a page",
+      "description": "Reading a book on the thin E Ink sheet, you flex the top corner up or down to flip to the next or previous page, the same motion you would use on a real paper page rather than tapping a screen.",
+      "provenance": "documented",
+      "source_url": "https://research.cs.queensu.ca/home/audrey/papers/CHI11.Lahey.pdf",
+      "source_label": "Lahey et al., CHI 2011 (paper PDF)"
+    },
+    {
+      "title": "Bend through a contacts list and place a call",
+      "description": "To find someone, you bend the side of the display up and down to scroll the contacts list, flex to select a name to see their details, and bend again to call them or to drop the call.",
+      "provenance": "documented",
+      "source_url": "https://research.cs.queensu.ca/home/audrey/papers/CHI11.Lahey.pdf",
+      "source_label": "Lahey et al., CHI 2011 (paper PDF)"
+    },
+    {
+      "title": "Skip songs by flexing the music player",
+      "description": "In the music app you bend the device to play or pause the current track and bend in the opposite direction to jump to the previous or next song, with the play state and song title shown on the sheet.",
+      "provenance": "documented",
+      "source_url": "https://research.cs.queensu.ca/home/audrey/papers/CHI11.Lahey.pdf",
+      "source_label": "Lahey et al., CHI 2011 (paper PDF)"
+    },
+    {
+      "title": "Steer a grid of app icons by bending four ways",
+      "description": "On a 3x4 grid of twelve app icons you move the selection left, right, up, and down by bending the corresponding edge or corner of the display, then flex to open an app and bend back to close it.",
+      "provenance": "documented",
+      "source_url": "https://research.cs.queensu.ca/home/audrey/papers/CHI11.Lahey.pdf",
+      "source_label": "Lahey et al., CHI 2011 (paper PDF)"
+    },
+    {
+      "title": "Zoom a map with a single bend",
+      "description": "Looking at a map, you bend the display one way to zoom in and the other way to zoom out, implemented as discrete steps because the E Ink screen refreshes slowly.",
+      "provenance": "documented",
+      "source_url": "https://research.cs.queensu.ca/home/audrey/papers/CHI11.Lahey.pdf",
+      "source_label": "Lahey et al., CHI 2011 (paper PDF)"
+    },
+    {
+      "title": "A vocabulary of bends people agree on",
+      "description": "Ten participants invented their own bend gestures for twenty actions, and the study found strong agreement on three pairs (bend the side, the top corner, or the bottom corner up/down) and on direction, where bending up went left or back and bending down went right or forward.",
+      "provenance": "documented",
+      "source_url": "https://research.cs.queensu.ca/home/audrey/papers/CHI11.Lahey.pdf",
+      "source_label": "Lahey et al., CHI 2011 (paper PDF)"
+    },
+    {
+      "title": "A phone that conforms to your pocket",
+      "description": "Because the whole device is a flexible sheet, you could let it curl to the shape of your pocket or roll it around a wrist, and a gentle bend could silence or snooze an alert the way you would fold down a sticky note, an extension of the bend-as-input mechanic the prototype already recognizes.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Eyes-free track control by feel",
+      "description": "Since the input is a physical deformation rather than a screen target, you could pause music or skip a track by squeezing a corner with the device still in a bag or pocket, no looking required, building directly on the play/skip bend gestures the music app demonstrated.",
+      "provenance": "proposed"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-paperphone-001",
+      "title": "PaperPhone: Understanding the Use of Bend Gestures in Mobile Devices with Flexible Electronic Paper Displays",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/1978942.1979136",
+      "publisher": "ACM (Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, CHI 2011)",
+      "year": 2011
+    },
+    {
+      "source_id": "source-paperphone-002",
+      "title": "PaperPhone",
+      "source_type": "lab_page",
+      "url": "https://cil.csit.carleton.ca/paperphone/",
+      "publisher": "Creative Interactions Lab, Carleton University",
+      "year": null
+    },
+    {
+      "source_id": "source-paperphone-003",
+      "title": "Revolutionary new paper computer shows flexible future for smartphones and tablets",
+      "source_type": "credible_news",
+      "url": "https://www.sciencedaily.com/releases/2011/05/110504111147.htm",
+      "publisher": "ScienceDaily",
+      "year": 2011
+    }
+  ],
+  "confidence": "high"
+}

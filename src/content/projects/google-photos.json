@@ -60,5 +60,59 @@
       "year": 2015
     }
   ],
+  "interactions": [
+    {
+      "title": "Ask your library a whole question",
+      "description": "Instead of guessing keywords, type 'show me the best photo from each national park I've visited' and Gemini reads across the library, reasons over places and dates, and answers with the shots themselves.",
+      "provenance": "documented",
+      "source_url": "https://blog.google/products-and-platforms/products/photos/ask-photos-google-io-2024/",
+      "source_label": "Google blog — Ask Photos"
+    },
+    {
+      "title": "A highlight reel you never edited",
+      "description": "Without being asked, the app stitches the past week or a recurring person into a scored video and slides it to the top of your feed the next morning.",
+      "provenance": "documented",
+      "source_url": "https://blog.google/products-and-platforms/products/photos/new-memories-features-look-back/",
+      "source_label": "Google blog — Memories"
+    },
+    {
+      "title": "Move the kid, keep the beach",
+      "description": "Drag a person to the center of a crowded vacation shot and Magic Editor regenerates the sand and water that were behind them, no eraser strokes required.",
+      "provenance": "documented",
+      "source_url": "https://blog.google/products-and-platforms/products/photos/google-photos-magic-editor-pixel-io-2023/",
+      "source_label": "Google blog — Magic Editor"
+    },
+    {
+      "title": "Tell it to stop showing you someone",
+      "description": "After a death or a breakup, people dig into Memories settings to block a specific face or a single date so the carousel stops surfacing them with cheerful music, without having to delete the pictures.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/photos/answer/9454489?hl=en",
+      "source_label": "Google Photos Help — featured memories"
+    },
+    {
+      "title": "The library that doesn't know who died",
+      "description": "Years after a parent's death, the 'look back at four years today' card queues up images of their final illness set to soothing music — a grief ambush from a system that curates for delight but can't read context.",
+      "provenance": "observed",
+      "source_url": "https://www.buzzfeednews.com/article/karolinawaclawiak/life-events-google-memories-facebook-grief",
+      "source_label": "BuzzFeed News"
+    },
+    {
+      "title": "Snap the Wi-Fi sticker, copy the password",
+      "description": "People photograph a router label or a handwritten note, then long-press the recognized text to lift the Wi-Fi password or address straight off the image — using the search index as a pocket OCR scanner.",
+      "provenance": "observed",
+      "source_url": "https://www.techtimes.com/articles/245107/20190823/google-photos-gains-text-recognition-lets-users-search-for-copy-and-paste-text-from-photos.htm",
+      "source_label": "Tech Times"
+    },
+    {
+      "title": "Find the prescription you forgot you photographed",
+      "description": "Ask in plain language for the pill bottle or insurance card you once snapped in a hurry, and the text-in-image search pulls it out of thousands of photos — turning the camera roll into a searchable filing cabinet built from existing OCR and natural-language search.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A gentler year-in-review",
+      "description": "Before assembling a recap, the assistant could ask whether the past months were happy ones and quietly route around blocked faces and grief-flagged dates — grounded in the existing hide-people controls and on-device scene understanding, but currently left to manual settings.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

@@ -33,6 +33,13 @@ The data contract is `src/content.config.ts` (authoritative). Cards live in
    match the project's `attributes`/`metrics` against existing cards (e.g. a project tagged
    `embodiment.form` belongs on `embodiment-form`) and **list the candidates for the user to
    confirm** before editing any card they didn't name.
+2a. **Relevance check (do this for every add).** Before placing a project, confirm it is
+   *genuinely an instance of that card's subcategory* — write the one-line reason it belongs
+   there specifically. "Related to" is not enough. If it doesn't sharpen the card, say so rather
+   than padding the grid. While you're in a card, also scan its existing `project_ids` for
+   loose/off-topic references and **propose pruning** them (a weak reference signals the
+   category is fuzzy) — list each suggested removal with a reason; remove the clearly off-topic
+   ones, flag the borderline ones for the user. See `thesaurus-card` → "Selecting projects".
 3. **For each target card, make the reference valid for its display mode** — this is the part
    that's easy to forget:
    - `grid` with `groupBy: "<key>"` → the project must have that attribute key with a value, or
@@ -46,8 +53,10 @@ The data contract is `src/content.config.ts` (authoritative). Cards live in
    card.
 4. **Edit the card frontmatter.** `add`: append the id to `project_ids` (dedupe; place it near
    thematically-similar projects rather than blindly at the end). `remove`: delete the id.
-   `reorder`: reorder as asked. Leave prose alone unless the change makes the framing wrong —
-   if it does, tighten the one paragraph (still 1–3 sentences, plain examples).
+   `reorder`: reorder as asked. **Re-read the paragraph against the new set** — if the change
+   shifts what the projects reveal together (e.g. you added the only no-AI technique, or pruned
+   the extreme that anchored the range), rewrite the one paragraph so it reports the *current*
+   set (still 1–3 sentences, plain examples; weave the `ai_embedded` split where it sharpens).
 5. **Keep the registry honest (optional).** If the project was new, add it to
    `pipeline/registry.priority15.json` (`projects` + the relevant cards' `project_ids`) so the
    planning file matches what's on disk. The files on disk are the source of truth; the registry

@@ -1,0 +1,128 @@
+{
+  "name": "ambientROOM",
+  "year": 1998,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "An augmented room that conveys digital information at the periphery of awareness through ambient light, shadow, sound, airflow, and water movement.",
+  "long_description": "ambientROOM, designed by Hiroshi Ishii, Craig Wisneski, Scott Brave, Andrew Dahley, Matt Gorbet, Brygg Ullmer, and Paul Yarin at the MIT Media Lab Tangible Media Group, turns architectural space into a slow, calm information interface. Subtle ambient displays — patterns of rippling caustic light cast by a solenoid-driven water tank, layers of environmental sound (birdsong, rain), airflow, and physical controls such as a corked bottle and a wall clock — keep people aware of background data without demanding foreground attention. The 'Ghostly Presence' application mapped a distant person's activity to these channels; other demos mapped computer-network load, email volume, and area occupancy. Introduced as part of Ishii and Ullmer's Tangible Bits vision at CHI 1998, ambientROOM is a foundational prototype in the history of ambient/peripheral displays and calm technology, framing information delivery as an environmental, embodied experience rather than a screen-based one. It matters to physical AI and interaction design as an early articulation of how computation can recede into the periphery of a physical space and communicate through material change rather than explicit notification.",
+  "primary_url": "https://tangible.media.mit.edu/project/ambientroom/",
+  "ai_embedded": "none",
+  "ai_note": "ambientROOM is a tangible/ambient display technique mapping data to light, sound, airflow, and water movement; no AI or machine learning runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed", "Environmental / room-scale"],
+    "embodiment.actuation": ["Light", "Sound", "Airflow", "Water movement"],
+    "intelligence.input": ["Touch", "Environmental sensors"],
+    "intelligence.output": ["Light", "Sound", "Movement"],
+    "function.role": ["Ambient display", "Memory aid", "Mediator"],
+    "function.environmental_function": ["Ambient information display", "Peripheral awareness"],
+    "genealogy.lineage": [
+      "Tangible user interfaces",
+      "Ubiquitous computing",
+      "Ambient intelligence",
+      "Calm technology"
+    ]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 5,
+    "social_legibility": 1,
+    "expressiveness": 3,
+    "autonomy": 1,
+    "initiative": 2,
+    "memory_span": 1,
+    "visibility": 2,
+    "generality": 1,
+    "intensity": 1,
+    "form_specificity": 5,
+    "timing": 3
+  },
+  "images": [
+    {
+      "image_id": "img-ambientroom-001",
+      "caption": "The ambientROOM prototype, in which a water tank projects rippling caustic light patterns onto surfaces as an ambient display of background information.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/ambientroom/",
+      "rights_status": "needs_permission",
+      "alt_text": "A small augmented office space with shifting patterns of rippling light projected onto a wall and ceiling, alongside everyday physical objects used as controls."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-ambientroom-001",
+      "title": "ambientROOM: Integrating Ambient Media with Architectural Space",
+      "source_type": "academic_paper",
+      "url": "http://www.cs.columbia.edu/~feiner/courses/csw4170/resources/ambientROOM_CHI98.pdf",
+      "publisher": "ACM CHI 1998 Conference Summary on Human Factors in Computing Systems",
+      "year": 1998,
+      "access_notes": "Primary publication presenting the ambientROOM prototype. Authors: Ishii, Wisneski, Brave, Dahley, Gorbet, Ullmer, Yarin. PDF archived at Columbia University."
+    },
+    {
+      "source_id": "source-ambientroom-002",
+      "title": "Ambient Displays: Turning Architectural Space into an Interface between People and Digital Information",
+      "source_type": "academic_paper",
+      "url": "https://link.springer.com/chapter/10.1007/3-540-69706-3_4",
+      "publisher": "Springer (CoBuild 1998 proceedings)",
+      "year": 1998,
+      "access_notes": "Companion paper expanding on the ambient-displays concept underpinning ambientROOM."
+    },
+    {
+      "source_id": "source-ambientroom-003",
+      "title": "ambientROOM — Tangible Media Group",
+      "source_type": "project_page",
+      "url": "https://tangible.media.mit.edu/project/ambientroom/",
+      "publisher": "MIT Media Lab, Tangible Media Group",
+      "year": 1998,
+      "access_notes": "Official MIT project page listing researchers, ambient media channels, and related publications."
+    }
+  ],
+  "confidence": "high",
+  "interactions": [
+    {
+      "title": "Watch a loved one's day ripple across the ceiling",
+      "description": "Grasp a small motorized phicon and point it at the ceiling to map a distant person's activity onto a solenoid in a water tank, so the lamp casts gentle rippling shadows overhead that quicken or calm as they move about. In the first build the authors drove it from a lab hamster's instrumented wheel, light level, and cage temperature.",
+      "provenance": "documented",
+      "source_url": "http://www.cs.columbia.edu/~feiner/courses/csw4170/resources/ambientROOM_CHI98.pdf",
+      "source_label": "ambientROOM, CHI '98 (PDF)"
+    },
+    {
+      "title": "Sense who is around through light on the wall",
+      "description": "Electric-field sensors measure how much people are moving in the adjacent work area and project that activity as a patch of light on an inner wall, an 'active wallpaper' you barely notice until a sudden surge or a new arrival shifts the pattern.",
+      "provenance": "documented",
+      "source_url": "http://www.cs.columbia.edu/~feiner/courses/csw4170/resources/ambientROOM_CHI98.pdf",
+      "source_label": "ambientROOM, CHI '98 (PDF)"
+    },
+    {
+      "title": "Monitor your inbox as birdsong and rainfall",
+      "description": "A soft soundtrack of birds and rain swells or thins in step with a quantity you want to keep half an ear on, so you can gauge unread email or the value of a stock portfolio by how busy the room sounds rather than by checking a screen.",
+      "provenance": "documented",
+      "source_url": "http://www.cs.columbia.edu/~feiner/courses/csw4170/resources/ambientROOM_CHI98.pdf",
+      "source_label": "ambientROOM, CHI '98 (PDF)"
+    },
+    {
+      "title": "Uncork a bottle to let information into the room",
+      "description": "A small glass bottle acts as a graspable container for digital content; pulling the cork 'releases' a stream into the space, in the demo instantiating the load on the computer network as the sound of vehicular traffic that you can stopper again when you want quiet.",
+      "provenance": "documented",
+      "source_url": "http://www.cs.columbia.edu/~feiner/courses/csw4170/resources/ambientROOM_CHI98.pdf",
+      "source_label": "ambientROOM, CHI '98 (PDF)"
+    },
+    {
+      "title": "Turn back a clock to replay the room's past",
+      "description": "Manually rotating the hands of the wall clock scrubs the ambient displays to their former or future states, so someone returning from an absence can wind back through the light, sound, and ripple patterns of the past few hours or preview anticipated events.",
+      "provenance": "documented",
+      "source_url": "http://www.cs.columbia.edu/~feiner/courses/csw4170/resources/ambientROOM_CHI98.pdf",
+      "source_label": "ambientROOM, CHI '98 (PDF)"
+    },
+    {
+      "title": "Feel a build status without breaking focus",
+      "description": "Bind the soundscape and ripple displays to a software build or deployment pipeline so a passing failure registers as a brief darkening and a louder patter of rain, letting a developer stay in the foreground task and only glance up when the room's mood changes. Grounded in the existing sound, light, and water-ripple channels driven by external data streams.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "An air-quality weather inside the room",
+      "description": "Map indoor CO2 or particulate readings to airflow and the density of the birdsong layer, so a stuffy meeting room slowly stills its 'breeze' and quiets its birds as a calm cue to open a window, using the airflow actuation and soundscape the room already provides.",
+      "provenance": "proposed"
+    }
+  ]
+}

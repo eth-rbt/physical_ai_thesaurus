@@ -69,5 +69,59 @@
       "access_notes": "Coverage of AI-generated motion descriptions on Ring devices."
     }
   ],
+  "interactions": [
+    {
+      "title": "Know the moment a box hits the porch",
+      "description": "Draw a package zone over the doormat and the doorbell pings your phone the instant a delivery is dropped there, sorting it apart from a passing person, a car, or a swaying branch.",
+      "provenance": "documented",
+      "source_url": "https://ring.com/support/articles/9qnpt/receiving-person-and-package-alerts-with-smart-alerts",
+      "source_label": "Ring — Smart Alerts support"
+    },
+    {
+      "title": "A sentence instead of a thumbnail",
+      "description": "Rather than a generic 'motion detected,' the app surfaces an AI-written line like 'a person is walking up the driveway carrying a box,' so you can decide whether to even open the clip.",
+      "provenance": "documented",
+      "source_url": "https://techcrunch.com/2025/06/25/ring-cameras-and-doorbells-now-use-ai-to-provide-specific-descriptions-of-motion-activity/",
+      "source_label": "TechCrunch"
+    },
+    {
+      "title": "Let the doorbell answer when you can't",
+      "description": "Set Quick Replies and a visitor hears a pre-set message — 'Please leave the package by the door' — and can speak a reply back, turning the doorbell into an answering machine for the front step.",
+      "provenance": "documented",
+      "source_url": "https://ring.com/support/articles/ztd70/Setting-up-Quick-Replies-in-the-Ring-App",
+      "source_label": "Ring — Quick Replies support"
+    },
+    {
+      "title": "Yell through the door from the office",
+      "description": "Homeowners watching the live feed from elsewhere use two-way talk to shout 'Get away from the door!' at people testing the handle — and the would-be intruders bolt, startled by a voice from an empty porch.",
+      "provenance": "observed",
+      "source_url": "https://www.insideedition.com/man-scares-would-be-burglars-through-doorbell-camera-get-away-door-48204",
+      "source_label": "Inside Edition"
+    },
+    {
+      "title": "The bear that rang the bell",
+      "description": "Motion meant for porch pirates instead catches wildlife: black bears repeatedly walk up, sniff the lens, and nudge the button with a nose or paw, sending the household a 'someone's at the door' alert at 1 a.m.",
+      "provenance": "observed",
+      "source_url": "https://www.nbclosangeles.com/news/local/bear-santa-clarita-home-ring-video/3891232/",
+      "source_label": "NBC Los Angeles"
+    },
+    {
+      "title": "Police asking the neighborhood for footage",
+      "description": "Through the Neighbors app, departments post Community Requests after a nearby crime and owners choose whether to hand over clips from a given window — quietly turning a doorbell into part of a distributed evidence network.",
+      "provenance": "observed",
+      "source_url": "https://www.consumerreports.org/electronics/privacy/ring-community-requests-lets-police-ask-for-user-videos-a2437818485/",
+      "source_label": "Consumer Reports"
+    },
+    {
+      "title": "A standing porch log for the household",
+      "description": "Because it already writes plain-language descriptions of each event, the doorbell could compile an end-of-day digest — 'two deliveries, the dog walker at 4, an unknown person who lingered at 9' — so you skim the day at the door instead of scrubbing clips.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Greet the regulars by routine, not by face",
+      "description": "Using only its existing person, vehicle, and timing signals, the doorbell could learn the rhythm of expected arrivals — the mail truck mid-morning, the school bus at 3 — and stay quiet for those while flagging anything that breaks the pattern.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

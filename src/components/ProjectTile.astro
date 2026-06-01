@@ -5,15 +5,28 @@ interface Props {
   project: CollectionEntry<'projects'>;
   /** Optional secondary line under the name (e.g. an axis value or form). */
   sub?: string;
+  /** Optional card-specific one-liner: why this project is on this card. */
+  note?: string;
 }
-const { project, sub } = Astro.props;
+const { project, sub, note } = Astro.props;
 const d = project.data;
 const cover = d.images.find((i) => i.local_image) ?? d.images[0];
 const href = `/projects/${project.id}/`;
+
+const AI_TAG = {
+  none: 'No AI',
+  some: 'Partial AI',
+  core: 'AI-driven',
+  envisioned: 'AI envisioned',
+  unknown: '',
+} as const;
+const aiTag = AI_TAG[d.ai_embedded];
 ---
 
 <a class="proj-tile" href={href}>
   <div class="proj-thumb">
+    {aiTag && <span class={`ai-tag ai-${d.ai_embedded}`}>{aiTag}</span>}
+    {d.year && <span class="year-tag">{d.year}</span>}
     {cover?.local_image ? (
       <img src={cover.local_image} alt={cover.alt_text} />
     ) : (
@@ -22,6 +35,7 @@ const href = `/projects/${project.id}/`;
   </div>
   <div class="proj-meta">
     <div class="name">{d.name}</div>
+    {note && <div class="note">{note}</div>}
     <div class="sub">{sub ?? d.organization.join(', ')}</div>
   </div>
 </a>

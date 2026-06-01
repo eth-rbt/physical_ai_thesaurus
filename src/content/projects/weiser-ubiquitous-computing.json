@@ -62,5 +62,57 @@
       "access_notes": "Archive and discussion of Weiser & Brown's calm-technology framing of the periphery and center of attention."
     }
   ],
+  "interactions": [
+    {
+      "title": "A blank tab beeps with a colleague's name",
+      "description": "In Weiser's 'Sal' scenario, an inch-scale tab on the desk lights up showing 'Joe'; she picks it up, gestures with it toward the wall-sized liveboard, and Joe's shared document and voice appear—computing summoned by a flick rather than a login.",
+      "provenance": "documented",
+      "source_url": "https://www.scientificamerican.com/article/the-computer-for-the-21st-century/",
+      "source_label": "Scientific American (1991)"
+    },
+    {
+      "title": "Tabs, pads, and boards as one continuous workspace",
+      "description": "Weiser proposed hundreds of devices at three scales—inch-sized tabs like active Post-its, foot-sized pads handled like loose sheets of paper, and yard-sized boards used as shared blackboards—so that a person picks up whichever surface is at hand and the work follows them around the room.",
+      "provenance": "documented",
+      "source_url": "https://www.scientificamerican.com/article/the-computer-for-the-21st-century/",
+      "source_label": "Scientific American (1991)"
+    },
+    {
+      "title": "The room knows where you are",
+      "description": "The PARCTab, built by Roy Want's team as the testbed for the vision, used infrared to report a person's location to the building, so doors, displays, and call-forwarding could react to who walked in—an early context-aware computer descended from the Olivetti Active Badge.",
+      "provenance": "documented",
+      "source_url": "https://home.cs.colorado.edu/~rhan/CSCI_7143_Fall_2007/Papers/Want95long_PARCTab.pdf",
+      "source_label": "PARCTab overview (Want et al., 1995)"
+    },
+    {
+      "title": "Network traffic you feel rather than read",
+      "description": "Weiser and Brown pointed to Natalie Jeremijenko's 'Dangling String'—an 8-foot plastic cord on a ceiling motor wired to the Ethernet—as calm technology: a busy network set it whirling and noisy, a quiet one let it twitch, putting data in the periphery where you notice it without looking.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology",
+      "source_label": "Weiser & Brown, Designing Calm Technology (1995)"
+    },
+    {
+      "title": "The vision shipped as the smart home",
+      "description": "Decades on, the everyday realization is unglamorous and exactly as predicted: networked thermostats, speakers, locks, and sensors scattered through a house, coordinating in the background—the ambient-intelligence and Internet-of-Things lineage Weiser's essay seeded.",
+      "provenance": "observed",
+      "source_url": "https://en.wikipedia.org/wiki/Ubiquitous_computing",
+      "source_label": "Ubiquitous computing — Wikipedia"
+    },
+    {
+      "title": "Hand the wall a document from your pocket",
+      "description": "Grounded in the tab-to-board gesture Weiser described, a small personal device could fling whatever you're holding onto the nearest shared display the moment you point at it—no pairing dialog, just the room recognizing intent.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Presence that follows you between rooms",
+      "description": "Building on the location and environmental sensing at the heart of the vision, the music, lighting, and the call you're on could quietly migrate to whatever screen and speaker you've walked toward, the environment treating the whole building as one device.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "An ambient dial for things that don't deserve a screen",
+      "description": "Following the Dangling String's logic, a slow physical indicator—a tilting surface, a warming object—could carry one low-stakes signal like air quality or a far-off family member's wakefulness in your periphery, informing without ever demanding a glance.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

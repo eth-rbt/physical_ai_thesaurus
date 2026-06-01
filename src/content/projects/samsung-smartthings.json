@@ -60,5 +60,59 @@
       "access_notes": "Founding (2012), 2013 product launch, 2014 Samsung acquisition, Zigbee/Z-Wave/Matter support."
     }
   ],
+  "interactions": [
+    {
+      "title": "The morning the house wakes you up",
+      "description": "Set a routine so that at your alarm time the bedroom lights fade up, the blinds open, and the coffee maker switches on — a single chain of devices firing on a time trigger.",
+      "provenance": "documented",
+      "source_url": "https://www.samsung.com/us/support/answer/ANS10002640/",
+      "source_label": "Samsung — use automations in SmartThings"
+    },
+    {
+      "title": "Describe the automation in plain English",
+      "description": "Type \"turn off all the lights when I leave the house\" into the Routine Creation Assistant and SmartThings assembles the device-by-device rule for you, instead of wiring each condition by hand.",
+      "provenance": "documented",
+      "source_url": "https://www.androidauthority.com/samsung-smartthings-ai-routine-creation-3575611/",
+      "source_label": "Android Authority — AI routine creation"
+    },
+    {
+      "title": "The home quietly throttles itself at peak hours",
+      "description": "With AI Energy Mode on, when grid demand spikes the fridge eases its compressor, the AC drops to an economy setting, and plugs switch off — the house shaving its own power draw without you touching anything.",
+      "provenance": "documented",
+      "source_url": "https://www.samsung.com/uk/support/apps-services/how-to-use-smartthings-ai-energy-saving-controls/",
+      "source_label": "Samsung UK — SmartThings AI energy saving"
+    },
+    {
+      "title": "Lights and a siren the moment the floor gets wet",
+      "description": "Owners pair a leak sensor under the water heater so a drip triggers a phone alert, flips on a light, and sounds a buzzer — turning a silent overnight flood into something you notice immediately.",
+      "provenance": "documented",
+      "source_url": "https://www.samsung.com/us/smart-home/smartthings/kits/samsung-home-monitoring-kit---water-leak-sensor-f-mon-kit-sc/",
+      "source_label": "Samsung — Home Monitoring + Water Leak Sensor kit"
+    },
+    {
+      "title": "A DIY valve that slams the water off by itself",
+      "description": "A community member wired four leak sensors to a cheap Zigbee valve actuator so that any detected leak doesn't just alert — it physically shuts the main, a homebrew version of a thousand-dollar commercial system.",
+      "provenance": "observed",
+      "source_url": "https://community.smartthings.com/t/solution-cheap-water-leak-detection-and-water-shut-off/208666",
+      "source_label": "SmartThings Community — cheap leak detection & shut-off"
+    },
+    {
+      "title": "Faking an occupied house from a thousand miles away",
+      "description": "People on vacation run community apps that turn random rooms on and off at irregular times, so a watching burglar never sees the tidy daily pattern that gives away an empty home.",
+      "provenance": "observed",
+      "source_url": "https://community.smartthings.com/t/new-app-vacation-light-director/7230",
+      "source_label": "SmartThings Community — Vacation Light Director"
+    },
+    {
+      "title": "The hallway that only lights up after dark",
+      "description": "Chain a motion sensor to a light with a sundown condition so a midnight trip to the kitchen gets a soft glow, while the same motion during the day does nothing — built from the motion input and rule engine the hub already runs.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A house that notices when no one came home",
+      "description": "Combine presence and motion so that if a usually-busy home stays still past an expected arrival time, it nudges a family member to check in — a gentle eldercare watch assembled from existing sensors and time-based rules.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

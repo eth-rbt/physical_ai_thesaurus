@@ -1,0 +1,114 @@
+{
+  "name": "X10 (home automation protocol)",
+  "year": 1975,
+  "organization": ["Pico Electronics"],
+  "project_type": "platform",
+  "short_description": "The first general-purpose home automation protocol, using household electrical wiring to switch lights and appliances by room from a central controller.",
+  "long_description": "Developed in 1975 by Pico Electronics of Glenrothes, Scotland, X10 encodes digital commands as brief 120 kHz bursts riding the zero crossings of the AC power waveform — meaning any outlet in the house can carry control signals without new wiring. A small command console sends house-and-unit codes that lamp modules and appliance modules decode to switch on, off, or dim. Products reached RadioShack and Sears shelves in 1978, making X10 the first mass-market home automation system. It matters for the Physical AI lineage because it established the architectural pattern — a central controller distributing commands to embedded modules throughout a domestic environment — that later smart-home platforms (CEBus, Z-Wave, Zigbee, Matter) all inherit.",
+  "primary_url": "https://en.wikipedia.org/wiki/X10_(industry_standard)",
+  "ai_embedded": "none",
+  "ai_note": "X10 is a pure powerline signaling protocol; commands are pre-programmed on/off/dim codes with no machine learning, inference, or adaptive behavior of any kind.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology", "Architectural / environmental system"],
+    "embodiment.mobility": ["Fixed", "Environmental / room-scale"],
+    "intelligence.input": ["Environmental sensors"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool"],
+    "function.task_domain": ["Environmental control"],
+    "genealogy.lineage": ["Smart home", "Ubiquitous computing", "Ambient intelligence", "Internet of Things"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 5,
+    "social_legibility": 1,
+    "form_specificity": 1,
+    "autonomy": 1,
+    "initiative": 1,
+    "memory_span": 1,
+    "visibility": 1,
+    "generality": 3,
+    "intensity": 1,
+    "expressiveness": 1,
+    "timing": 3
+  },
+  "images": [
+    {
+      "image_id": "img-x10-home-automation-001",
+      "caption": "An X10 smart home adapter module, which plugs into a wall outlet to receive powerline commands and switch a connected appliance on or off.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:X-10_smart_home_adapter.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A white plastic X10 home automation adapter module plugged into a standard electrical outlet, with a second outlet socket on its face and a small indicator light.",
+      "local_image": "/projects/x10-home-automation.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-x10-home-automation-001",
+      "title": "X10 (industry standard)",
+      "source_type": "documentation",
+      "url": "https://en.wikipedia.org/wiki/X10_(industry_standard)",
+      "publisher": "Wikipedia",
+      "year": 1975,
+      "access_notes": "Covers founding by Pico Electronics in 1975, powerline signaling technique, retail availability from 1978, module types, limitations, and successor protocols."
+    },
+    {
+      "source_id": "source-x10-home-automation-002",
+      "title": "The X10 Home Automation Protocol — Specs and History",
+      "source_type": "credible_news",
+      "url": "https://buildyoursmarthome.co/home-automation/protocols/x10/",
+      "publisher": "Build Your Smart Home",
+      "year": null,
+      "access_notes": "Explains that the name X10 derives from it being Pico Electronics' tenth project, and traces the Accutrac 4000 predecessor that inspired powerline control."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Switch a lamp across the house with no new wiring",
+      "description": "Plug a lamp into a lamp module and a small command console into any outlet, then press the unit and On buttons to switch — or dim — that light from the other side of the house, the command riding the existing AC wiring.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/X10_(industry_standard)",
+      "source_label": "Wikipedia — X10 (industry standard)"
+    },
+    {
+      "title": "All-lights-on / all-units-off from one button",
+      "description": "Address several modules to the same house code, then send a single \"All Lights On\" or \"All Units Off\" command to flood the house with light or shut everything down at once on the way out the door.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/X10_(industry_standard)",
+      "source_label": "Wikipedia — X10 (industry standard)"
+    },
+    {
+      "title": "Lights that follow dawn and dusk",
+      "description": "With the CM11A serial interface and ActiveHome software, pick your nearest city and the system computes local sunrise and sunset each day, switching porch and lamp modules on at dusk and off at dawn automatically.",
+      "provenance": "documented",
+      "source_url": "http://www.authinx.com/manuals/X10/CM11A.pdf",
+      "source_label": "X10 CK11A ActiveHome owner's manual"
+    },
+    {
+      "title": "Program a schedule, then unplug the computer",
+      "description": "Once timed events and macros are downloaded to the CM11A, the PC is no longer needed — two AAA batteries hold the clock and program for up to 500 hours through a power failure while the interface keeps running the house.",
+      "provenance": "documented",
+      "source_url": "https://www.securco.com/_files/manuals/x10_active_home_pro_2989.pdf",
+      "source_label": "X10 ActiveHome Pro manual"
+    },
+    {
+      "title": "Wireless remote and motion sensor on house wiring",
+      "description": "A Palm Pad keypad or an ActiveEye motion sensor transmits a 310 MHz radio signal to a transceiver that injects the command onto the powerline, so walking up a dark driveway can trip a floodlight wired to an appliance module.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/X10_(industry_standard)",
+      "source_label": "Wikipedia — X10 (industry standard)"
+    },
+    {
+      "title": "Fake occupancy while you're away",
+      "description": "Schedule interior lamps to switch on and off across the evening so an empty house looks lived-in — a vacation-security routine assembled entirely from timed on/off codes.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Goodnight scene from the bedside",
+      "description": "A single Palm Pad button could fire a macro that dims the bedroom lamp, shuts off the living-room and kitchen modules, and leaves a hallway light low — chaining the per-module commands the controller already sends into one bedtime gesture.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

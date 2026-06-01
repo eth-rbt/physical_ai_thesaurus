@@ -1,0 +1,117 @@
+{
+  "name": "Speculative Everything: Design, Fiction, and Social Dreaming",
+  "year": 2013,
+  "organization": [
+    "Anthony Dunne",
+    "Fiona Raby",
+    "MIT Press"
+  ],
+  "project_type": "concept",
+  "short_description": "A foundational book and manifesto by Anthony Dunne and Fiona Raby proposing speculative and critical design as a way to imagine and debate possible futures rather than solve immediate problems.",
+  "long_description": "Speculative Everything argues that design can be used not just to make products but to pose provocative \"what if\" questions, building fictional objects and scenarios that open debate about the futures people want and want to avoid. It is the most articulate statement of speculative, critical, and design-fiction practice, drawing on fine art, cinema, futurology, and the philosophy of technology, with examples ranging from a menstruation machine to robotic devices and synthetic-biology food-foraging tools. For physical AI and interaction design it matters as a methodological touchstone: it frames how designers prototype envisioned, often un-built artifacts to interrogate the social, ethical, and political consequences of technology before it is real.",
+  "primary_url": "https://mitpress.mit.edu/9780262019842/speculative-everything/",
+  "ai_embedded": "none",
+  "ai_note": "It is a printed book and design-theory manifesto; no AI or computation runs inside it, and the speculative artifacts it discusses are propositional rather than working AI systems.",
+  "attributes": {
+    "genealogy.lineage": [
+      "Speculative design",
+      "Design fiction",
+      "Critical design"
+    ],
+    "function.role": [
+      "Mediator",
+      "Teacher"
+    ],
+    "embodiment.form": [
+      "Distributed object ecology"
+    ]
+  },
+  "metrics": {
+    "autonomy": 1,
+    "mobility": 1,
+    "expressiveness": 4
+  },
+  "images": [
+    {
+      "image_id": "img-speculative-everything-001",
+      "caption": "Cover of Speculative Everything: Design, Fiction, and Social Dreaming by Anthony Dunne and Fiona Raby (MIT Press, 2013).",
+      "image_type": "product_photo",
+      "source_url": "https://mitpress.mit.edu/9780262019842/speculative-everything/",
+      "rights_status": "needs_permission",
+      "alt_text": "Book cover for Speculative Everything showing the title text on a plain background, published by MIT Press."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Argue with a future instead of buying it",
+      "description": "A reader uses the book's 'what if' method to treat a designed object as a prop for debate — not predicting trends, but staging a fictional future so a group can decide whether it's one they actually want or want to avoid.",
+      "provenance": "documented",
+      "source_url": "https://mitpress.mit.edu/9780262019842/speculative-everything/",
+      "source_label": "MIT Press — Speculative Everything"
+    },
+    {
+      "title": "A machine that gives you cramps to make a point",
+      "description": "The book presents the Menstruation Machine, a wearable device that simulates the pain and bleeding of a period, so that anyone — regardless of body — can experience it and confront assumptions about gender and biology.",
+      "provenance": "documented",
+      "source_url": "https://mitpress.mit.edu/9780262019842/speculative-everything/",
+      "source_label": "MIT Press — Speculative Everything"
+    },
+    {
+      "title": "Eat the city by rebuilding your gut",
+      "description": "In the Foragers scenario, a community facing food scarcity straps on augmented digestive devices and microbial stomach bacteria — modeled on the guts of birds and insects — to extract nutrition from urban plants that humans normally can't digest.",
+      "provenance": "documented",
+      "source_url": "https://dunneandraby.co.uk/content/projects/510",
+      "source_label": "Dunne & Raby — Foragers (2009)"
+    },
+    {
+      "title": "Pick the car your politics deserve",
+      "description": "In the United Micro Kingdoms fiction, a citizen's vehicle expresses their worldview: Digitarians ride a monetized self-driving Digicar, Bioliberals nurse a smelly anaerobic-digester Biocar with jelly-like grown muscles, and Anarcho-evolutionists co-pedal a Very Large Bike with elders singing to keep the rhythm.",
+      "provenance": "documented",
+      "source_url": "https://unitedmicrokingdoms.org/",
+      "source_label": "United Micro Kingdoms"
+    },
+    {
+      "title": "A clock made of flies and flypaper",
+      "description": "The book showcases everyday-but-wrong objects like a flypaper robotic clock and a cloud-seeding truck, each engineered to be plausible enough to imagine living with yet strange enough to make the viewer question the values baked into ordinary technology.",
+      "provenance": "documented",
+      "source_url": "https://mitpress.mit.edu/9780262019842/speculative-everything/",
+      "source_label": "MIT Press — Speculative Everything"
+    },
+    {
+      "title": "Walk into the kingdom you read about",
+      "description": "The United Micro Kingdoms moved off the page into the Design Museum in London, where visitors could gather around detailed scale models of the Digicar and the relentlessly-crawling 75-carriage nuclear commune train.",
+      "provenance": "observed",
+      "source_url": "https://we-make-money-not-art.com/united_micro_kingdoms/",
+      "source_label": "We Make Money Not Art — UMK exhibition"
+    },
+    {
+      "title": "Prototype a physical-AI future before building it",
+      "description": "A design team uses the book's critical-design recipe to mock up a non-working but believable home robot or companion — staging how it would behave and what social bargain it demands — so people can debate the technology while it is still only a proposition.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A speculative object as a policy workshop",
+      "description": "Following the 'social dreaming' method, a fictional augmented-body device could be placed in a public consultation as a discussion piece, letting citizens reason through the ethics of human enhancement before any such system reaches the market.",
+      "provenance": "proposed"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-speculative-everything-001",
+      "title": "Speculative Everything: Design, Fiction, and Social Dreaming",
+      "source_type": "official_product_page",
+      "url": "https://mitpress.mit.edu/9780262019842/speculative-everything/",
+      "publisher": "MIT Press",
+      "year": 2013
+    },
+    {
+      "source_id": "source-speculative-everything-002",
+      "title": "Speculative Everything: Design, Fiction, and Social Dreaming",
+      "source_type": "documentation",
+      "url": "https://books.google.com/books/about/Speculative_Everything.html?id=9gQyAgAAQBAJ",
+      "publisher": "Google Books",
+      "year": 2013
+    }
+  ],
+  "confidence": "high"
+}

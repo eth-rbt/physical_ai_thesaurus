@@ -1,0 +1,102 @@
+{
+  "name": "Designing Calm Technology",
+  "year": 1995,
+  "organization": ["Xerox PARC"],
+  "project_type": "concept",
+  "short_description": "A foundational essay by Mark Weiser and John Seely Brown proposing technology that moves fluidly between the center and periphery of human attention.",
+  "long_description": "Designing Calm Technology is a 1995/96 essay by Mark Weiser and John Seely Brown of Xerox PARC that argues the dominant design challenge of ubiquitous computing is not raw capability but how technology engages human attention. They define calm technology as that which informs but does not demand focus, moving easily from the periphery of attention to the center and back, and using both focal and peripheral perception to keep people attuned to their surroundings without overload. The essay grounds physical AI and interaction design by reframing ambient, embedded systems as actors in a person's attentional field, illustrated through examples such as Natalie Jeremijenko's Dangling String network-traffic visualizer.",
+  "primary_url": "https://calmtech.com/papers/designing-calm-technology",
+  "ai_embedded": "none",
+  "ai_note": "It is a design concept and essay about attention and ambient interaction, not an implemented system, and the techniques it advocates are sensing and physical display rather than AI/ML.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Distributed object ecology"],
+    "embodiment.mobility": ["Fixed"],
+    "function.role": ["Mediator"],
+    "intelligence.model": ["Rule-based system"],
+    "genealogy.lineage": ["Ubiquitous computing", "Ambient intelligence", "Calm technology"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 5,
+    "social_legibility": 1,
+    "autonomy": 1,
+    "visibility": 2
+  },
+  "images": [
+    {
+      "image_id": "img-designing-calm-technology-001",
+      "caption": "Title and opening of Weiser and Brown's \"Designing Calm Technology\" essay as hosted on calmtech.com.",
+      "image_type": "screenshot",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology",
+      "rights_status": "needs_permission",
+      "alt_text": "A web page showing the heading 'Designing Calm Technology' with body text of the essay by Mark Weiser and John Seely Brown."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-designing-calm-technology-001",
+      "title": "Designing Calm Technology",
+      "source_type": "documentation",
+      "url": "https://calmtech.com/papers/designing-calm-technology",
+      "publisher": "calmtech.com (Mark Weiser and John Seely Brown, Xerox PARC)",
+      "year": 1995
+    },
+    {
+      "source_id": "source-designing-calm-technology-002",
+      "title": "Designing Calm Technology (archived essay)",
+      "source_type": "documentation",
+      "url": "https://people.csail.mit.edu/rudolph/Teaching/weiser.pdf",
+      "publisher": "MIT CSAIL (mirror of ubiq.com/weiser/calmtech/calmtech.htm)",
+      "year": 1996
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Read the network from a dangling string",
+      "description": "An eight-foot plastic strand hangs from the ceiling, spun by a small motor wired to the office Ethernet; a quiet network gives it an occasional twitch, a busy one sets it whirling with a soft whir, so people sense traffic load from across the hall without looking at a screen.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology",
+      "source_label": "Weiser & Brown, Designing Calm Technology"
+    },
+    {
+      "title": "Time your coffee break through an inner office window",
+      "description": "Glass windows between offices and the hallway let someone notice motion in the periphery — colleagues heading to lunch, a meeting starting — and decide when to step out, all without consciously watching the corridor.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology",
+      "source_label": "Weiser & Brown, Designing Calm Technology"
+    },
+    {
+      "title": "Keep a far-off room in the corner of your eye",
+      "description": "A continuous multicast video feed acts as a window of awareness rather than a video call: you catch the weather outside a distant office or the unusual quiet of a normally busy room out of the corner of your eye, and only turn to look when something seems off.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology",
+      "source_label": "Weiser & Brown, Designing Calm Technology"
+    },
+    {
+      "title": "Notice the engine before you listen for it",
+      "description": "The essay uses driving to explain peripheral attunement: a driver's focus rests on the road and conversation, not the engine note, yet an unusual sound is caught instantly and pulled to the center — the model calm displays aim to imitate.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology",
+      "source_label": "Weiser & Brown, Designing Calm Technology"
+    },
+    {
+      "title": "Let a glance pull detail to the center and back",
+      "description": "Because a peripheral display informs without demanding focus, a worker can stay attuned to an ambient signal all day and, the moment it matters, attend to it fully, then let it recede again — the back-and-forth between periphery and center the essay calls 'calm'.",
+      "provenance": "documented",
+      "source_url": "https://calmtech.com/papers/designing-calm-technology",
+      "source_label": "Weiser & Brown, Designing Calm Technology"
+    },
+    {
+      "title": "A whirling-string status line for any quiet system",
+      "description": "Borrowing the Dangling String's mechanic, a fragile-but-recoverable system (a build queue, a backlog, a river gauge) could drive a slow physical motion in a hallway so a team feels its state ambiently and only crowds the screen when the motion turns frantic.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Peripheral 'window of awareness' for a remote collaborator",
+      "description": "Extending the multicast example, a low-detail always-on view of a teammate's workspace could sit at the edge of a shared room, conveying presence and rhythm without the focal demand of a video call, and surfacing to the center only on a wave or a knock.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

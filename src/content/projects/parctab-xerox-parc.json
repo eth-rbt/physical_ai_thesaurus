@@ -1,0 +1,159 @@
+{
+  "name": "PARCTAB Ubiquitous Computing Experiment",
+  "year": 1993,
+  "organization": ["Xerox PARC"],
+  "project_type": "research_prototype",
+  "short_description": "Palm-sized wireless handheld that used infrared room-cell location to adapt applications, control devices, and filter information to the user's physical position inside Xerox PARC — the first deployed context-aware computer.",
+  "long_description": "Operational at Xerox PARC's Computer Science Lab from March 1993, the PARCTAB was a pen-based, palm-sized PDA that communicated via diffuse infrared to a network of in-building transceivers, each room forming a distinct location 'cell'. Because the system always knew which cell a tab occupied, it could filter files to nearby printers, adapt application menus to the user's position, forward calls to the nearest phone, control room lighting and temperature, and answer 'where is' queries for colleagues. The deployment grew from 25 tabs and 30 cells (March 1993) to 41 users and 50 cells (April 1994). Reported by Roy Want, Bill Schilit, Norman Adams, Rich Gold, Karin Petersen, David Goldberg, John Ellis, and Mark Weiser in IEEE Personal Communications (December 1995), it is recognized as the earliest fully deployed system to systematically demonstrate context-aware computing.",
+  "primary_url": "https://ieeexplore.ieee.org/document/475986/",
+  "ai_embedded": "none",
+  "ai_note": "Location sensing is purely rule-based infrared cell detection — no ML or AI; context-aware behaviour is deterministic rule dispatch based on room ID.",
+  "attributes": {
+    "embodiment.form": ["Handheld", "Mobile device"],
+    "embodiment.mobility": ["Handheld"],
+    "embodiment.proximity": ["Handheld", "Room-scale infrastructure"],
+    "intelligence.input": ["Location", "Touch", "Pen / stylus", "Buttons"],
+    "intelligence.model": ["Rule-based / context-aware"],
+    "function.role": ["Assistant", "Information access", "Tool"],
+    "function.task_domain": ["Office / workplace", "Communication", "Device control"],
+    "genealogy.lineage": [
+      "Ubiquitous computing",
+      "Context-aware computing",
+      "Mobile computing",
+      "Calm technology",
+      "Internet of Things"
+    ],
+    "genealogy.research_community": ["HCI", "Ubicomp"],
+    "genealogy.precedent_field": ["Wearable computing", "Ambient intelligence"]
+  },
+  "metrics": {
+    "proximity": 3,
+    "mobility": 3,
+    "scale": 2,
+    "visibility": 2,
+    "generality": 3,
+    "intensity": 2,
+    "autonomy": 2,
+    "initiative": 2,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-parctab-xerox-parc-001",
+      "caption": "Xerox PARCTab prototype at the Centre for Computing History, Cambridge. The palm-sized, pen-operated device communicated via infrared to room transceivers for location-aware computing.",
+      "image_type": "product_photo",
+      "source_url": "https://www.computinghistory.org.uk/det/36785/Xerox-PARCTab-Prototype/",
+      "rights_status": "needs_permission",
+      "alt_text": "A palm-sized pen-operated computing device labelled as the Xerox PARCTab, shown on display at the Centre for Computing History museum."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-parctab-xerox-parc-001",
+      "title": "An overview of the PARCTAB ubiquitous computing experiment",
+      "source_type": "academic_paper",
+      "url": "https://ieeexplore.ieee.org/document/475986/",
+      "publisher": "IEEE Personal Communications",
+      "year": 1995,
+      "access_notes": "R. Want, B. Schilit, N. Adams, R. Gold, K. Petersen, D. Goldberg, J. Ellis, M. Weiser. Vol. 2, No. 6, pp. 28–43, December 1995. Primary reference for deployment details, IR architecture, and context-aware application categories."
+    },
+    {
+      "source_id": "source-parctab-xerox-parc-002",
+      "title": "The PARCTAB mobile computing system",
+      "source_type": "academic_paper",
+      "url": "https://www.semanticscholar.org/paper/The-PARCTAB-mobile-computing-system-Schilit-Adams/991ac69c79e6aa90f3090f27c2a37917a8e42bbc",
+      "publisher": "Workshop on Workstation Operating Systems (WWOS-IV)",
+      "year": 1993,
+      "access_notes": "B. Schilit, N. Adams, R. Gold, M. Tso, R. Want. The earliest paper describing the PARCTAB system architecture, October 1993."
+    },
+    {
+      "source_id": "source-parctab-xerox-parc-003",
+      "title": "Context-aware computing applications",
+      "source_type": "academic_paper",
+      "url": "https://www.semanticscholar.org/paper/Context-aware-computing-applications-Schilit-Adams/723a7d75acdb0ada6fb3d1b6a9344f892eb6a9b6",
+      "publisher": "IEEE Workshop on Mobile Computing Systems and Applications (WMCSA)",
+      "year": 1994,
+      "access_notes": "B. Schilit, N. Adams, R. Want. Defines four categories of context-aware applications (proximate selection, automatic contextual reconfiguration, contextual information/commands, content-triggered actions) using PARCTAB as the demonstration platform."
+    },
+    {
+      "source_id": "source-parctab-xerox-parc-004",
+      "title": "Xerox PARCTab Prototype",
+      "source_type": "exhibition_page",
+      "url": "https://www.computinghistory.org.uk/det/36785/Xerox-PARCTab-Prototype/",
+      "publisher": "Centre for Computing History",
+      "year": null,
+      "access_notes": "Museum collection record for a physical PARCTab device. Confirms processor (Motorola), 4 MB RAM, pen interface, integrated microphone."
+    },
+    {
+      "source_id": "source-parctab-xerox-parc-005",
+      "title": "Roy Want",
+      "source_type": "credible_news",
+      "url": "https://en.wikipedia.org/wiki/Roy_Want",
+      "publisher": "Wikipedia",
+      "year": null,
+      "access_notes": "Describes Want as principal designer and builder of the PARCTab while at Xerox PARC; credits the device as widely recognized as the world's first context-aware mobile computer."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Print to whatever room you're standing in",
+      "description": "Issue the print command from the tab and the job goes by default to the closest printer; the proximate-selection dialog lists printers with their room and distance, with the nearest ones emphasized, so you pick the one down the hall instead of one across the building.",
+      "provenance": "documented",
+      "source_url": "http://csis.pace.edu/~marchese/CS396x/L3/wmc-94-schilit.pdf",
+      "source_label": "Schilit, Adams & Want, Context-Aware Computing Applications (IEEE WMCSA 1994)"
+    },
+    {
+      "title": "Locate and page a colleague by their context",
+      "description": "Because each person carries a tab, the system can tell where a colleague is and whether they are alone or in a meeting; you can page them unconditionally, or let the page be delayed until their situation is favorable for an interruption.",
+      "provenance": "documented",
+      "source_url": "https://home.cs.colorado.edu/~rhan/CSCI_7143_Fall_2007/Papers/Want95long_PARCTab.pdf",
+      "source_label": "Want et al., An Overview of the PARCTAB Ubiquitous Computing Experiment"
+    },
+    {
+      "title": "A file browser that changes with the room you walk into",
+      "description": "The location browser shows a 'location-based filesystem': step into someone's office and you see their finger plan and calendar; stand near the kitchen and you see directions for making coffee and finding supplies. Directories were writable, so you could leave an electronic post-it note for whoever entered next.",
+      "provenance": "documented",
+      "source_url": "http://csis.pace.edu/~marchese/CS396x/L3/wmc-94-schilit.pdf",
+      "source_label": "Schilit, Adams & Want, Context-Aware Computing Applications (IEEE WMCSA 1994)"
+    },
+    {
+      "title": "A virtual whiteboard bound to the room",
+      "description": "Tabdraw gave each room a shared drawing surface; walking into a room automatically bound your tab to that room's virtual whiteboard so a group could sketch together, and moving to another room brought up a different surface.",
+      "provenance": "documented",
+      "source_url": "https://home.cs.colorado.edu/~rhan/CSCI_7143_Fall_2007/Papers/Want95long_PARCTab.pdf",
+      "source_label": "Want et al., An Overview of the PARCTAB Ubiquitous Computing Experiment"
+    },
+    {
+      "title": "Anonymous audience voting on a talk",
+      "description": "With the Arbitron voting application, audience members holding tabs vote anonymously on the quality and pace of a presentation; the tallies appear on a shared Liveboard visible to both the audience and the presenter, who can adjust on the fly.",
+      "provenance": "documented",
+      "source_url": "https://home.cs.colorado.edu/~rhan/CSCI_7143_Fall_2007/Papers/Want95long_PARCTab.pdf",
+      "source_label": "Want et al., An Overview of the PARCTAB Ubiquitous Computing Experiment"
+    },
+    {
+      "title": "The coffee maker that crows when someone brews a pot",
+      "description": "The Watchdog program ran IF-THEN rules on location events: a badge attached to the kitchen coffee maker triggered a rooster sound to play whenever anyone made coffee, and an 'attention' signal could pop open an Emacs window on the nearest workstation.",
+      "provenance": "documented",
+      "source_url": "http://csis.pace.edu/~marchese/CS396x/L3/wmc-94-schilit.pdf",
+      "source_label": "Schilit, Adams & Want, Context-Aware Computing Applications (IEEE WMCSA 1994)"
+    },
+    {
+      "title": "Reminders that wait for the right place or person",
+      "description": "Contextual Reminders let you attach a note to a situation rather than just a clock time, so a message would surface on the tab the 'next time in the library,' the 'next time I see Marvin,' or 'when I'm back at my desk' — and you could edit, dismiss, or ignore it.",
+      "provenance": "documented",
+      "source_url": "http://csis.pace.edu/~marchese/CS396x/L3/wmc-94-schilit.pdf",
+      "source_label": "Schilit, Adams & Want, Context-Aware Computing Applications (IEEE WMCSA 1994)"
+    },
+    {
+      "title": "A guided tour that narrates itself room by room",
+      "description": "Building on the location browser's room-specific files, a visitor could carry a tab through the lab and have each space surface its own relevant note — what a research group works on, or the booking procedure for a conference room — without anyone leading the tour.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Quiet-hours pages that hold until you're alone",
+      "description": "Extending the existing context-filtered paging and email rules, incoming messages could be held back while you're in a meeting and released only once the room shows you alone at your desk, turning the deterministic location cell into a do-not-disturb switch.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

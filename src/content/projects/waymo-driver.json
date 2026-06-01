@@ -60,5 +60,61 @@
       "access_notes": "Background on Waymo's history: Google self-driving project (2009), spun out as Waymo under Alphabet in 2016, Waymo One commercial launch in Phoenix in 2018."
     }
   ],
+  "interactions": [
+    {
+      "title": "A judgement-free space at 20 mph",
+      "description": "Riders take phone calls, cry, rehearse, or sit in silence with their own playlist on — no driver to perform for. Waymo says people logged over 3.8 million hours in 2025 of this 'trusted space' to catch up on work or relax.",
+      "provenance": "documented",
+      "source_url": "https://waymo.com/blog/2025/12/2025-year-in-review/",
+      "source_label": "Waymo 2025 year in review"
+    },
+    {
+      "title": "Honk the car to find it",
+      "description": "A blind or low-vision rider taps 'Honk the horn' or 'Play melody' in the app and walks toward the sound, locating the right car at a busy pickup without seeing it.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/waymo/answer/9566824?hl=en",
+      "source_label": "Waymo accessibility features"
+    },
+    {
+      "title": "Set the cabin before it arrives",
+      "description": "You save temperature, legroom, and audio preferences and stream your own Spotify or YouTube Music in the car — but try any other control and the screen reminds you it's off-limits.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/waymo/answer/9172373?hl=en",
+      "source_label": "Waymo in-car features"
+    },
+    {
+      "title": "The 4 a.m. honking chorus",
+      "description": "Driverless cars parked overnight in a SoMa lot kept nosing close to one another and triggering courtesy honks, beeping at each other for weeks until neighbors started filming and complaining to the city.",
+      "provenance": "observed",
+      "source_url": "https://abc7news.com/post/waymo-cars-honk-each-other-night-disturbing-san-francisco-neighbors/15179709/",
+      "source_label": "ABC7 San Francisco"
+    },
+    {
+      "title": "Disabled with a single traffic cone",
+      "description": "Activists from Safe Street Rebel discovered that setting an orange cone on the hood spooks the car's safety system into freezing in place, and turned it into a protest ritual against robotaxis on city streets.",
+      "provenance": "observed",
+      "source_url": "https://www.cbsnews.com/sanfrancisco/news/autonomous-vehicles-activists-hit-sf-streets-orange-cones-thwart-robotaxis-cruise-waymo/",
+      "source_label": "CBS News Bay Area"
+    },
+    {
+      "title": "The 427-rides-a-year power rider",
+      "description": "One anonymous San Franciscan took 427 Waymo trips in 2025 — about 2,700 miles, roughly eight full days in the back seat — turning the robotaxi into a daily personal chauffeur.",
+      "provenance": "observed",
+      "source_url": "https://sfstandard.com/2025/12/14/think-found-active-waymo-rider-sf-prove-wrong/",
+      "source_label": "The San Francisco Standard"
+    },
+    {
+      "title": "When the construction zone breaks it",
+      "description": "A rider filmed their Waymo accelerating through a freeway work zone and being trailed by police; the viral clip pushed Waymo to pull all freeway service in four metros while it retrained for construction.",
+      "provenance": "observed",
+      "source_url": "https://techcrunch.com/2026/05/21/waymo-halts-freeway-rides-after-robotaxis-struggle-in-construction-zones/",
+      "source_label": "TechCrunch"
+    },
+    {
+      "title": "Narrate the streets for a rider who can't see them",
+      "description": "Building on the car's existing 'descriptive' in-car audio mode and its lidar-and-camera scene understanding, the cabin could narrate passing landmarks and turns aloud — a richer travelogue for blind riders than the current minimal trip cues.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

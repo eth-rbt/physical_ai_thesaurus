@@ -1,0 +1,159 @@
+{
+  "name": "Sutherland's Sword of Damocles",
+  "year": 1968,
+  "organization": [
+    "University of Utah",
+    "MIT Lincoln Laboratory"
+  ],
+  "project_type": "research_prototype",
+  "short_description": "The first head-mounted 3D display with real-time head tracking, displaying computer-generated stereoscopic wireframe graphics — the founding prototype of every spatial headset that followed.",
+  "long_description": "Built by Ivan Sutherland and his students Bob Sproull, Quintin Foster, and Danny Cohen, the Sword of Damocles established the core HMD paradigm in 1968: a head-worn optical see-through display linked to a computer that updated a stereoscopic wireframe image in real time based on the wearer's head position. The headset was heavy enough to require suspension from a ceiling-mounted mechanical arm — the source of its name — and the computer generated only simple geometric shapes such as a suspended cube. Yet the system defined the two structural commitments that every spatial headset since has honoured: continuous positional sensing and perspective-correct rendering for each eye. Early experiments began at MIT Lincoln Laboratory from 1966; the integrated system was completed at the University of Utah. Sutherland described the concept's horizon in his earlier 1965 essay 'The Ultimate Display', and the 1968 device was its first physical realisation.",
+  "primary_url": "https://en.wikipedia.org/wiki/The_Sword_of_Damocles_(virtual_reality)",
+  "ai_embedded": "none",
+  "ai_note": "No AI or ML — the system used real-time matrix multiplication and vector graphics driven by a general-purpose computer; head tracking was mechanical/electrical, not learned.",
+  "attributes": {
+    "embodiment.form": [
+      "Wearable",
+      "Head-worn"
+    ],
+    "embodiment.mobility": [
+      "Fixed"
+    ],
+    "intelligence.input": [
+      "Motion",
+      "Gaze"
+    ],
+    "intelligence.model": [
+      "Rule-based system"
+    ],
+    "intelligence.output": [
+      "Vision"
+    ],
+    "function.role": [
+      "Tool"
+    ],
+    "genealogy.lineage": [
+      "Augmented reality",
+      "Wearable computing",
+      "Spatial computing"
+    ],
+    "genealogy.interaction": [
+      "Head-tracking interaction",
+      "Stereoscopic display"
+    ],
+    "genealogy.precedent": [
+      "HMD paradigm origin"
+    ]
+  },
+  "metrics": {
+    "proximity": 5,
+    "mobility": 1,
+    "scale": 2,
+    "form_specificity": 5,
+    "social_legibility": 1,
+    "autonomy": 1,
+    "initiative": 1,
+    "memory_span": 1,
+    "visibility": 3,
+    "generality": 1,
+    "intensity": 4,
+    "expressiveness": 1,
+    "timing": 5
+  },
+  "images": [
+    {
+      "image_id": "img-sutherland-sword-of-damocles-001",
+      "caption": "Ivan Sutherland wearing the head-mounted display suspended from a ceiling-mounted mechanical arm, University of Utah, circa 1968.",
+      "image_type": "research_figure",
+      "source_url": "https://en.wikipedia.org/wiki/The_Sword_of_Damocles_(virtual_reality)",
+      "rights_status": "needs_permission",
+      "alt_text": "A person wearing a large, bulky head-mounted display that is connected via mechanical linkages to an arm attached to the ceiling, in a university lab setting."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-sutherland-sword-001",
+      "title": "The Sword of Damocles (virtual reality)",
+      "source_type": "unknown",
+      "url": "https://en.wikipedia.org/wiki/The_Sword_of_Damocles_(virtual_reality)",
+      "publisher": "Wikipedia",
+      "year": 1968,
+      "access_notes": "Wikipedia article summarising the system, its six subsystems, institution timeline (MIT Lincoln Lab 1966 → University of Utah, 1968), and collaborators (Sproull, Foster, Cohen)."
+    },
+    {
+      "source_id": "source-sutherland-sword-002",
+      "title": "A Head-Mounted Three Dimensional Display",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/1476589.1476686",
+      "publisher": "AFIPS Fall Joint Computer Conference",
+      "year": 1968,
+      "access_notes": "Sutherland's primary technical publication describing the system. Presented at the 1968 Fall Joint Computer Conference (AFIPS). ACM Digital Library reprint."
+    },
+    {
+      "source_id": "source-sutherland-sword-003",
+      "title": "The Ultimate Display",
+      "source_type": "academic_paper",
+      "url": "https://worrydream.com/refs/Sutherland%20-%20The%20Ultimate%20Display.pdf",
+      "publisher": "IFIP Congress",
+      "year": 1965,
+      "access_notes": "Sutherland's earlier essay articulating the conceptual goal that the 1968 device physically realised: a display room in which the computer controls the existence of matter."
+    },
+    {
+      "source_id": "source-sutherland-sword-004",
+      "title": "History of Virtual Reality",
+      "source_type": "credible_news",
+      "url": "https://www.vrs.org.uk/virtual-reality/history.html",
+      "publisher": "Virtual Reality Society",
+      "year": null,
+      "access_notes": "Corroborates 1968 date, University of Utah, ceiling-mounted arm, wireframe graphics, and Sproull as key collaborator."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Walk around a cube made of light",
+      "description": "With the headset strapped on, the wearer looked at a wireframe cube hanging in the air in front of them and could step around it, the computer redrawing the lines so the far faces came into view — Sutherland's own description was that 'you could look at a small volume and go around it all.'",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/The_Sword_of_Damocles_(virtual_reality)",
+      "source_label": "Wikipedia — The Sword of Damocles"
+    },
+    {
+      "title": "Move your head and the picture moves with you",
+      "description": "As the wearer turned or tilted their head, the system tracked the new position and recomputed the perspective for each eye, so the wireframe shape appeared to stay fixed in the room rather than dragging along with the gaze.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/The_Sword_of_Damocles_(virtual_reality)",
+      "source_label": "Wikipedia — The Sword of Damocles"
+    },
+    {
+      "title": "See the lab and the graphics at once",
+      "description": "The optics were partially see-through, so the glowing wireframe lines were overlaid on the actual laboratory the wearer was standing in rather than blocking it out — the graphics augmented the real room.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/The_Sword_of_Damocles_(virtual_reality)",
+      "source_label": "Wikipedia — The Sword of Damocles"
+    },
+    {
+      "title": "Strap into the ceiling arm",
+      "description": "Because the headgear was too heavy to wear unsupported, an operator fastened it to the wearer's head and hung it from the ceiling-mounted mechanical arm — the menacing apparatus overhead that gave the system its 'Sword of Damocles' name — which also helped report head position.",
+      "provenance": "documented",
+      "source_url": "https://www.vrs.org.uk/virtual-reality/history.html",
+      "source_label": "Virtual Reality Society — History of VR"
+    },
+    {
+      "title": "Demonstrate presence with bare wireframe",
+      "description": "Even though the objects were 'just glowing lines hanging in space' with no surfaces, Sutherland showed in talks that wearers felt they were genuinely inside the displayed space — a proof that head-tracked perspective alone produces a sense of being there.",
+      "provenance": "documented",
+      "source_url": "https://blog.siggraph.org/2018/08/vr-at-50-celebrating-ivan-sutherland.html/",
+      "source_label": "ACM SIGGRAPH Blog — VR at 50"
+    },
+    {
+      "title": "Inspect a 3D model from every side",
+      "description": "An engineer could mount a wireframe part in the display and walk around it to read its geometry from any angle, an early hands-free precursor to design review — grounded in the system's real head-tracked, perspective-correct rendering of computer-generated shapes.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Step inside a data structure",
+      "description": "Because the machine can place arbitrary line geometry around the wearer, abstract structures — a molecule's bonds, a lattice, a graph — could be hung in the air to be examined by moving the head rather than rotating a picture on a flat screen.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

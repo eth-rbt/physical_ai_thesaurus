@@ -60,5 +60,59 @@
       "access_notes": "Coverage of the I/O 2016 announcement establishing the 2016 launch year."
     }
   ],
+  "interactions": [
+    {
+      "title": "Wake the house with two words",
+      "description": "Say \"Hey Google, good morning\" and a chained Routine fades up the lights, reads the weather and your calendar, and starts the news — one phrase standing in for a dozen taps.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/assistant/answer/7672035?hl=en&co=GENIE.Platform%3DAndroid",
+      "source_label": "Google Assistant Help — Routines"
+    },
+    {
+      "title": "Borrow a translator at the front desk",
+      "description": "Tell it \"be my Spanish interpreter\" and it relays a back-and-forth conversation in real time across dozens of languages, speaking each side aloud (and showing text on a display).",
+      "provenance": "documented",
+      "source_url": "https://blog.google/products-and-platforms/products/assistant/interpreter-mode-brings-real-time-translation-your-phone/",
+      "source_label": "Google blog — Interpreter mode"
+    },
+    {
+      "title": "Shout that dinner's ready",
+      "description": "\"Hey Google, broadcast that breakfast is ready\" plays your recorded voice on every speaker and display in the house at once, and whoever's upstairs can talk back — an intercom built out of the smart-speaker mesh.",
+      "provenance": "documented",
+      "source_url": "https://support.google.com/assistant/answer/9071582?hl=en",
+      "source_label": "Google Assistant Help — Broadcast"
+    },
+    {
+      "title": "Rewarded for saying please",
+      "description": "With Pretty Please switched on, a kid who tacks \"please\" onto a command gets a warm \"thanks for asking so nicely\" back — the assistant nudging household manners, which some parents loved and others found unsettling.",
+      "provenance": "documented",
+      "source_url": "https://techcrunch.com/2018/05/08/a-google-assistant-update-will-teach-kids-to-say-please/",
+      "source_label": "TechCrunch — Pretty Please"
+    },
+    {
+      "title": "A night-time watch for a caregiver",
+      "description": "In a dementia-care field study, a carer paired motion sensors with the assistant so it would announce when her husband got out of bed at night — turning an ambient speaker into an early-warning system she trusted more than checking the room.",
+      "provenance": "observed",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11285577/",
+      "source_label": "PMC — voice assistants in cognitive-impairment care"
+    },
+    {
+      "title": "Listening when nobody asked",
+      "description": "Sounds that merely resemble \"Hey Google\" wake the mic and capture snippets of private conversation; the pattern of these false triggers drew a $68M U.S. privacy settlement in 2026.",
+      "provenance": "observed",
+      "source_url": "https://www.heise.de/en/news/Overheard-unintentionally-Google-pays-68-million-US-dollars-for-Assistant-11155159.html",
+      "source_label": "heise online — Assistant settlement"
+    },
+    {
+      "title": "A standing memory for the family",
+      "description": "Ask it to remember where you parked, the wifi password, or a kid's shoe size, then pull any of it back from whichever device is nearest — leaning on the cross-device memory and Memory-aid role it already carries.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Hands-free coach mid-task",
+      "description": "Reading a recipe or fixing a bike with greasy hands, you ask for the next step and a unit conversion entirely by voice, the screen-free speaker holding your place so you never touch a phone.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

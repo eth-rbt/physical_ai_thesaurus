@@ -1,0 +1,150 @@
+{
+  "name": "Kurzweil Reading Machine",
+  "year": 1976,
+  "organization": ["Kurzweil Computer Products"],
+  "project_type": "commercial_product",
+  "short_description": "The first print-to-speech reading machine for the blind, combining omni-font OCR, a CCD flatbed scanner, and text-to-speech synthesis.",
+  "long_description": "Announced on January 13, 1976, the Kurzweil Reading Machine was developed by Kurzweil Computer Products to allow blind and visually impaired people to read any ordinary printed text independently. It integrated three technologies its team invented: omni-font optical character recognition (able to read any typeface), the first charge-coupled device flatbed scanner, and a text-to-speech synthesizer. The machine was widely described at launch as the most significant advance for the blind since Braille, and its debut — which included Walter Cronkite using it to read his sign-off on CBS News — brought the device to national attention. Stevie Wonder received one of the first production units. Xerox acquired Kurzweil Computer Products in 1980, and the underlying OCR technology became the direct ancestor of modern document digitization and AI visual-description tools.",
+  "primary_url": "https://www.kurzweiltech.com/kcp.html",
+  "ai_embedded": "some",
+  "ai_note": "Pattern-recognition-based omni-font OCR is an early machine-intelligence technique; text-to-speech synthesis was rule-based, not neural — so 'some' is accurate for the era.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Smart appliance"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Vision"],
+    "intelligence.output": ["Speech"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Assistant", "Memory aid"],
+    "function.assistance_type": ["Accessibility"],
+    "genealogy.lineage": ["Assistive technology", "Ubiquitous computing", "Tangible user interfaces"],
+    "genealogy.precedent_field": ["Accessibility technology", "Optical character recognition"]
+  },
+  "metrics": {
+    "proximity": 2,
+    "mobility": 1,
+    "scale": 3,
+    "social_legibility": 1,
+    "form_specificity": 2,
+    "autonomy": 2,
+    "initiative": 1,
+    "memory_span": 1,
+    "visibility": 3,
+    "generality": 2,
+    "intensity": 3,
+    "expressiveness": 1,
+    "timing": 4
+  },
+  "images": [
+    {
+      "image_id": "img-kurzweil-reading-machine-001",
+      "caption": "A Xerox/Kurzweil Personal Reader at the Washington Talking Book and Braille Library in Seattle — a later-generation descendant of the original 1976 reading machine.",
+      "image_type": "product_photo",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kurzweil_scanner_01.jpg",
+      "rights_status": "creative_commons",
+      "alt_text": "A large desktop scanning device with a flatbed surface and control panel, used to scan and read printed text aloud for blind users. The machine sits on a table in a library setting.",
+      "local_image": "/projects/kurzweil-reading-machine.jpg"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-kurzweil-reading-machine-001",
+      "title": "Kurzweil Computer Products",
+      "source_type": "official_product_page",
+      "url": "https://www.kurzweiltech.com/kcp.html",
+      "publisher": "KurzweilTech",
+      "year": 1976,
+      "access_notes": "Official Kurzweil Technology page covering the history of Kurzweil Computer Products and the Reading Machine."
+    },
+    {
+      "source_id": "source-kurzweil-reading-machine-002",
+      "title": "Raymond Kurzweil Introduces the First Print-to-Speech Reading Machine",
+      "source_type": "credible_news",
+      "url": "https://www.historyofinformation.com/detail.php?id=933",
+      "publisher": "History of Information",
+      "year": 1976,
+      "access_notes": "Detailed historical account including announcement date (January 13, 1976), NFB involvement, and Walter Cronkite demonstration."
+    },
+    {
+      "source_id": "source-kurzweil-reading-machine-003",
+      "title": "NIHF Inductee Raymond Kurzweil and Optical Character Recognition",
+      "source_type": "exhibition_page",
+      "url": "https://www.invent.org/inductees/raymond-kurzweil",
+      "publisher": "National Inventors Hall of Fame",
+      "year": 2002,
+      "access_notes": "Documents the three inventions combined in the Reading Machine: omni-font OCR, CCD flatbed scanner, and text-to-speech synthesis."
+    },
+    {
+      "source_id": "source-kurzweil-reading-machine-004",
+      "title": "The Man and the Machine: An Interview with Ray Kurzweil",
+      "source_type": "credible_news",
+      "url": "https://afb.org/aw/5/5/14692",
+      "publisher": "American Foundation for the Blind — AccessWorld",
+      "year": null,
+      "access_notes": "Interview covering the prototype (completed late 1975), January 1976 public announcement, NFB testing collaboration, cost ($30,000–$50,000), and Walter Cronkite demonstration."
+    },
+    {
+      "source_id": "source-kurzweil-reading-machine-005",
+      "title": "Kurzweil Reading Machine OCR Scanner",
+      "source_type": "exhibition_page",
+      "url": "https://www.computerhistory.org/collections/catalog/102692759",
+      "publisher": "Computer History Museum",
+      "year": 1976,
+      "access_notes": "Physical artifact in CHM collection (catalog 102692759), donated by Kurzweil Computer Products, Inc.; confirms 1976 manufacture date and dimensions."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Read an ordinary book no one had recorded",
+      "description": "A blind reader sets a regular printed book, magazine, or document on the machine and hears it spoken aloud — reaching the roughly 98% of printed material that was never available in Braille or as a recorded book.",
+      "provenance": "documented",
+      "source_url": "https://www.kurzweiltech.com/kcp.html",
+      "source_label": "KurzweilTech — Kurzweil Computer Products"
+    },
+    {
+      "title": "Cronkite hands his sign-off to the machine",
+      "description": "On the January 13, 1976 launch, Walter Cronkite let the reading machine speak his signature CBS Evening News sign-off, 'And that's the way it was, January 13, 1976' — a line he otherwise reserved for himself.",
+      "provenance": "documented",
+      "source_url": "https://www.kurzweiltech.com/kcp.html",
+      "source_label": "KurzweilTech — Kurzweil Computer Products"
+    },
+    {
+      "title": "Demonstrated live on the nightly news",
+      "description": "Jim Gashel of the National Federation of the Blind demonstrated the machine reading text aloud, and the segment ran on all three national networks' evening newscasts the night of the announcement.",
+      "provenance": "documented",
+      "source_url": "https://afb.org/aw/5/5/14692",
+      "source_label": "AFB AccessWorld — interview with Ray Kurzweil"
+    },
+    {
+      "title": "Operate it by ear, with a key that names the keys",
+      "description": "Following advice from blind NFB testers, the controls carried no Braille labels — operators were expected to memorize the keys — and a 'Nominator' key would announce the function of any other key when pressed.",
+      "provenance": "documented",
+      "source_url": "https://afb.org/aw/5/5/14692",
+      "source_label": "AFB AccessWorld — interview with Ray Kurzweil"
+    },
+    {
+      "title": "Stevie Wonder leaves with the first unit in a taxi",
+      "description": "After hearing about the machine on the news, Stevie Wonder came for a demonstration, became the company's first official customer, and the team rushed a unit into production so he could take his reading machine home that day.",
+      "provenance": "documented",
+      "source_url": "https://www.thekurzweillibrary.com/on-air-make-it-how-musician-stevie-wonder-inventor-ray-kurzweil-made-history",
+      "source_label": "The Kurzweil Library — Stevie Wonder and the reading machine"
+    },
+    {
+      "title": "A shared reading station in a library or school",
+      "description": "Because each machine cost $30,000–$50,000, units were placed in schools and libraries where blind students and patrons could come in to scan and listen to printed material rather than owning one outright.",
+      "provenance": "documented",
+      "source_url": "https://afb.org/aw/5/5/14692",
+      "source_label": "AFB AccessWorld — interview with Ray Kurzweil"
+    },
+    {
+      "title": "Read the day's mail at the kitchen table",
+      "description": "A blind user lays each incoming letter or bill on the scanner and has it read aloud, working through a stack of personal mail privately — grounded in the machine's omni-font OCR that could read any ordinary typed or printed page.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Hear a printed menu or notice spoken aloud",
+      "description": "A blind person places a restaurant menu, posted schedule, or printed handout on the flatbed and listens to it read back, turning a sighted-only document into something usable independently — built on the same scan-then-speak loop the machine already performed.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Urp",
+  "year": 1999,
+  "organization": ["MIT Media Lab", "Tangible Media Group"],
+  "project_type": "research_prototype",
+  "short_description": "A luminous-tangible workbench where physical building models on a table cast computationally simulated shadows, reflections, and wind for urban planning.",
+  "long_description": "Urp, by John Underkoffler and Hiroshi Ishii, is a tangible interface for urban planning built on the I/O Bulb infrastructure, which pairs a projector with a camera so that ordinary physical architectural models placed on a table become handles for digital information. Moving or rotating a model updates projected shadows for any time of day, reflections off glass facades, and a real-time pedestrian-level windflow simulation; physical tools like a clock dial or wind probe alter the simulation. As an early, influential example of tangible user interfaces, Urp matters to physical AI and interaction design because it grounds abstract computation in graspable physical form, letting people reason about a complex spatial simulation through direct manipulation rather than screens and pointers.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/302979.303114",
+  "ai_embedded": "none",
+  "ai_note": "Urp couples optical object tracking with physics-based shadow and windflow simulation; no machine learning runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Architectural / environmental system", "Tangible interface"],
+    "embodiment.mobility": ["Fixed"],
+    "intelligence.input": ["Vision", "Motion"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool", "Creative collaborator"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing", "Augmented reality"]
+  },
+  "metrics": {
+    "proximity": 1,
+    "mobility": 1,
+    "scale": 4,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-urp-001",
+      "caption": "Physical building models on the Urp workbench cast projected digital shadows and a wind-flow simulation.",
+      "image_type": "research_figure",
+      "source_url": "https://tangible.media.mit.edu/project/urp/",
+      "rights_status": "needs_permission",
+      "alt_text": "A tabletop with small physical building models, surrounded by projected lines and shadows representing simulated sun shadows and wind flow."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-urp-001",
+      "title": "Urp: A Luminous-Tangible Workbench for Urban Planning and Design",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/302979.303114",
+      "publisher": "ACM (Proceedings of CHI 1999)",
+      "year": 1999
+    },
+    {
+      "source_id": "source-urp-002",
+      "title": "Urp: A Luminous-Tangible Workbench for Urban Planning and Design (MIT Media Lab publication)",
+      "source_type": "lab_page",
+      "url": "https://www.media.mit.edu/publications/urp-a-luminous-tangible-workbench-for-urban-planning-and-design-2/",
+      "publisher": "MIT Media Lab, Tangible Media Group",
+      "year": 1999
+    },
+    {
+      "source_id": "source-urp-003",
+      "title": "Urp: A Luminous-Tangible Workbench for Urban Planning and Design (dblp record)",
+      "source_type": "documentation",
+      "url": "https://dblp.org/rec/conf/chi/UnderkofflerI99.html",
+      "publisher": "dblp",
+      "year": 1999
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Rotate a building, watch its shadow swing",
+      "description": "A planner slides a small physical building model across the table and the system projects an accurate shadow beside it; nudging the model rotates and lengthens the cast shadow in real time so neighboring lots can be checked for overshadowing.",
+      "provenance": "documented",
+      "source_url": "https://www.media.mit.edu/publications/urp-a-luminous-tangible-workbench-for-urban-planning-and-design-2/",
+      "source_label": "MIT Media Lab — Urp publication"
+    },
+    {
+      "title": "Turn the clock to move the sun",
+      "description": "Twisting a physical clock dial sweeps the simulated sun through the day, and every model's projected shadow shortens, lengthens, and rotates with it so a designer can find when a courtyard falls into shade.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/302979.303114",
+      "source_label": "Underkoffler & Ishii, CHI 1999"
+    },
+    {
+      "title": "Touch a facade with the material wand to make it glass",
+      "description": "Tapping a building with the material wand switches its surface between brick and glass; glass facades immediately throw projected reflections of sunlight across the table, revealing glare that would hit the street or adjacent buildings.",
+      "provenance": "documented",
+      "source_url": "http://www.cs.tufts.edu/~jacob/workshop/papers/ishii.pdf",
+      "source_label": "Ishii — Tangible User Interfaces (Urp described)"
+    },
+    {
+      "title": "Set wind direction and watch it eddy between towers",
+      "description": "Placing the wind tool on the table fixes a prevailing wind direction, and a live pedestrian-level windflow field is projected around the models, showing how air accelerates through gaps and stalls in the lee of tall buildings.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/302979.303114",
+      "source_label": "Underkoffler & Ishii, CHI 1999"
+    },
+    {
+      "title": "Probe a gusty corner with the anemometer",
+      "description": "Dropping the anemometer tool at a spot between buildings reads out the simulated local wind speed there, so a designer can test whether a plaza entrance becomes an uncomfortable wind tunnel before anything is built.",
+      "provenance": "documented",
+      "source_url": "http://www.cs.tufts.edu/~jacob/workshop/papers/ishii.pdf",
+      "source_label": "Ishii — Tangible User Interfaces (Urp described)"
+    },
+    {
+      "title": "Two people rearrange the skyline together",
+      "description": "Because the controls are ordinary graspable models and tools rather than a mouse, several people can stand around the table at once, each moving a building or holding a tool, and reason about the shared simulation by pointing and rearranging in physical space.",
+      "provenance": "documented",
+      "source_url": "https://tangible.media.mit.edu/project/urp/",
+      "source_label": "MIT Tangible Media Group — Urp"
+    },
+    {
+      "title": "Solar-panel siting on the tabletop",
+      "description": "Using the same shadow-and-clock mechanics, a designer could mark roof faces and sweep the clock through a full day to see which surfaces stay sunlit, choosing where rooftop solar panels would catch the most light.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Walk a wind-sheltered route for pedestrians",
+      "description": "Building on the live windflow field and the anemometer probe, a planner could trace a candidate walking path across the model and have the system flag the gustiest segments, then rearrange buildings to carve a calmer corridor.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

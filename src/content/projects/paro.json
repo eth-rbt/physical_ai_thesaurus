@@ -1,19 +1,39 @@
 {
   "name": "PARO therapeutic robot",
   "year": 2004,
-  "organization": ["AIST", "Intelligent System Co."],
+  "organization": [
+    "AIST",
+    "Intelligent System Co."
+  ],
   "project_type": "commercial_product",
   "short_description": "A robotic baby harp seal with tactile, light, and sound sensors used for animal-assisted-style therapy in hospitals and elder care.",
-  "long_description": "PARO is a plush, seal-shaped social robot designed by Takanori Shibata at Japan's AIST and sold commercially since 2004. Covered in fur over twelve tactile sensors, with whiskers, light and posture sensing, and three microphones, it responds to petting and voice, learns its name, and adapts its behavior to elicit calm and emotional engagement. It matters for everyday physical AI because it shows how an affective, animal-like body can deliver measurable care benefits for people with dementia and autism, and it became one of the first social robots cleared as a U.S. Class 2 medical device."
-,
+  "long_description": "PARO is a plush, seal-shaped social robot designed by Takanori Shibata at Japan's AIST and sold commercially since 2004. Covered in fur over twelve tactile sensors, with whiskers, light and posture sensing, and three microphones, it responds to petting and voice, learns its name, and adapts its behavior to elicit calm and emotional engagement. It matters for everyday physical AI because it shows how an affective, animal-like body can deliver measurable care benefits for people with dementia and autism, and it became one of the first social robots cleared as a U.S. Class 2 medical device.",
   "primary_url": "http://www.parorobots.com/",
   "attributes": {
-    "embodiment.form": ["Animal / creature robot"],
-    "embodiment.mobility": ["Handheld"],
-    "intelligence.input": ["Touch", "Audio", "Speech", "Motion"],
-    "intelligence.model": ["Classical machine learning"],
-    "function.role": ["Companion", "Caregiver"],
-    "genealogy.lineage": ["Social robotics", "Companion robotics", "Human-robot interaction"]
+    "embodiment.form": [
+      "Animal / creature robot"
+    ],
+    "embodiment.mobility": [
+      "Handheld"
+    ],
+    "intelligence.input": [
+      "Touch",
+      "Audio",
+      "Speech",
+      "Motion"
+    ],
+    "intelligence.model": [
+      "Classical machine learning"
+    ],
+    "function.role": [
+      "Companion",
+      "Caregiver"
+    ],
+    "genealogy.lineage": [
+      "Social robotics",
+      "Companion robotics",
+      "Human-robot interaction"
+    ]
   },
   "metrics": {
     "proximity": 4,
@@ -27,7 +47,7 @@
     "visibility": 4,
     "generality": 1,
     "intensity": 3,
-    "expressiveness": 5,
+    "expressiveness": 4,
     "timing": 5
   },
   "images": [
@@ -39,6 +59,55 @@
       "rights_status": "creative_commons",
       "alt_text": "A small white robotic baby harp seal with dark eyes and soft fur, resembling a plush toy.",
       "local_image": "/projects/paro.jpg"
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Pet it and it answers back",
+      "description": "Stroke the fur and PARO moves its tail, opens and closes its eyes, turns toward your hand, and coos with cries recorded from real harp seals; pat it somewhere it dislikes and it wriggles away.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Paro_(robot)",
+      "source_label": "Wikipedia — Paro (robot)"
+    },
+    {
+      "title": "Give it a name and it learns to come when called",
+      "description": "Residents pick a name for the seal and, over repeated use, PARO learns to respond to it along with greetings and praise, gradually favoring the actions that earn the most affection.",
+      "provenance": "documented",
+      "source_url": "https://www.nursingtimes.net/news/older-people/nursing-home-welcomes-new-robotic-seal-therapy-pet-19-03-2019/",
+      "source_label": "Nursing Times"
+    },
+    {
+      "title": "Awake by day, sleepy at night",
+      "description": "Unlike a real baby seal, PARO is programmed to be lively during the day and drift off at night, so its rhythm matches the ward routine rather than fighting it.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Paro_(robot)",
+      "source_label": "Wikipedia — Paro (robot)"
+    },
+    {
+      "title": "Cradle on the ward calms agitation in 20 minutes",
+      "description": "On a Penn Presbyterian acute-care unit, patients pet and talk to two seals named Lucy and Ricky; clinicians saw agitation drop within the first 20 minutes and pain scores fall by the end of a session, with the seal distracting people from pulling at their IV lines or wandering.",
+      "provenance": "observed",
+      "source_url": "https://technical.ly/software-development/robotic-seal-paro-philadelphia-penn-presbyterian/",
+      "source_label": "Technical.ly — Penn Presbyterian"
+    },
+    {
+      "title": "Switched on, the cuddle does more than a plush toy",
+      "description": "In a controlled study, touching PARO while it was powered ON produced significantly greater pain and stress relief than touching the identical robot turned OFF — evidence that its responsive movement, not just its soft fur, is doing the work.",
+      "provenance": "observed",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9305613/",
+      "source_label": "Geng et al. — touching PARO ON vs OFF"
+    },
+    {
+      "title": "Talking to it 'like a child' at home",
+      "description": "In family homes, people with dementia voluntarily petted and spoke to PARO as they would a small child; caregivers reported calmer behavior, more shared conversation, and less of the guilt and supervision burden of care.",
+      "provenance": "observed",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8287345/",
+      "source_label": "PMC — PARO in family-based dementia care"
+    },
+    {
+      "title": "A gentle lesson in handling",
+      "description": "Because the whiskers and twelve tactile sensors register where and how hard it is touched, PARO could nudge a child or distressed adult toward gentler contact — leaning in and cooing for soft strokes, shrinking away from rough grabs — turning the seal into quiet feedback on touch.",
+      "provenance": "proposed"
     }
   ],
   "sources": [

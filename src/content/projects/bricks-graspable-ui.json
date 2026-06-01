@@ -1,0 +1,121 @@
+{
+  "name": "Bricks (Graspable User Interfaces)",
+  "year": 1995,
+  "organization": ["University of Toronto", "MIT Media Lab"],
+  "project_type": "academic_paper",
+  "short_description": "A CHI 1995 system in which small physical blocks act as graspable handles for directly manipulating virtual objects on a horizontal display.",
+  "long_description": "Bricks, introduced by Fitzmaurice, Ishii, and Buxton at CHI 1995, founded the notion of Graspable User Interfaces: LEGO-sized physical artifacts that, when placed on the rear-projected ActiveDesk surface, attach to the virtual object beneath them so users can translate, rotate, and deform digital content by moving the brick itself. Tracked with Ascension Flock of Birds 6D sensors, multiple bricks afford two-handed, parallel manipulation such as stretching a shape between two grasped handles. The work is a foundational precedent for tangible and physical interaction design, replacing the single time-multiplexed mouse with space-multiplexed physical handles that give virtual objects literal graspable form.",
+  "primary_url": "https://dl.acm.org/doi/10.1145/223904.223964",
+  "ai_embedded": "none",
+  "ai_note": "Bricks is a tangible-interaction technique built on 6D magnetic position tracking and graphical manipulation; no machine learning or AI runs in the system.",
+  "attributes": {
+    "embodiment.form": ["Domestic object", "Distributed object ecology"],
+    "embodiment.mobility": ["Handheld"],
+    "embodiment.actuation": ["None"],
+    "embodiment.materiality": ["Rigid block"],
+    "intelligence.input": ["Touch", "Motion", "Gesture"],
+    "intelligence.model": ["Rule-based system"],
+    "function.role": ["Tool", "Creative collaborator"],
+    "function.task_domain": ["Direct manipulation", "Graphics editing"],
+    "genealogy.lineage": ["Tangible user interfaces", "Ubiquitous computing", "Direct manipulation"]
+  },
+  "metrics": {
+    "proximity": 3,
+    "mobility": 2,
+    "scale": 2,
+    "social_legibility": 1,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-bricks-graspable-ui-001",
+      "caption": "Bricks used as physical handles on the ActiveDesk to manipulate virtual objects in the GraspDraw application (CHI 1995).",
+      "image_type": "research_figure",
+      "source_url": "https://www.billbuxton.com/bricks.html",
+      "rights_status": "needs_permission",
+      "alt_text": "A pair of hands grasping small block-shaped physical handles resting on a large horizontal display surface, manipulating projected graphical shapes."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-bricks-graspable-ui-001",
+      "title": "Bricks: laying the foundations for graspable user interfaces",
+      "source_type": "academic_paper",
+      "url": "https://dl.acm.org/doi/10.1145/223904.223964",
+      "publisher": "ACM (CHI '95), pp. 442-449",
+      "year": 1995
+    },
+    {
+      "source_id": "source-bricks-graspable-ui-002",
+      "title": "Bricks: Laying the Foundations for Graspable User Interfaces",
+      "source_type": "project_page",
+      "url": "https://www.billbuxton.com/bricks.html",
+      "publisher": "Bill Buxton",
+      "year": 1995
+    },
+    {
+      "source_id": "source-bricks-graspable-ui-003",
+      "title": "Bricks: Laying the Foundations for Graspable User Interfaces (publication record)",
+      "source_type": "lab_page",
+      "url": "https://www.media.mit.edu/publications/bricks-laying-the-foundations-for-graspable-user-interfaces-2/",
+      "publisher": "MIT Media Lab",
+      "year": 1995
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Set a brick down to grab the shape under it",
+      "description": "You place a small block on the ActiveDesk and it latches onto the virtual object beneath it; slide or twist the block and the shape translates and rotates with it, then lift the block off the surface to let go.",
+      "provenance": "documented",
+      "source_url": "https://www.billbuxton.com/bricks.html",
+      "source_label": "Buxton - Bricks project page"
+    },
+    {
+      "title": "Stretch a shape between two hands",
+      "description": "Anchor one brick at a corner of a rectangle and pull a second brick away with your other hand, and the shape scales and deforms between the two grasped points like a piece of clay held at both ends.",
+      "provenance": "documented",
+      "source_url": "https://www.billbuxton.com/bricks.html",
+      "source_label": "Buxton - Bricks project page"
+    },
+    {
+      "title": "Move, rotate, and scale all at once",
+      "description": "Because each hand holds a real handle, people in the study naturally dragged a square toward its target while simultaneously rotating and resizing it, collapsing steps that a single mouse forces you to do one at a time.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/223904.223964",
+      "source_label": "Fitzmaurice, Ishii, Buxton - CHI '95"
+    },
+    {
+      "title": "Dunk a brick to pick a tool",
+      "description": "In GraspDraw you dip a brick into a compartment of a physical tray as if into an inkwell; a soft beep confirms the switch and the chosen tool or shape icon (rectangle, line, circle, select, delete) attaches to that brick.",
+      "provenance": "documented",
+      "source_url": "https://www.billbuxton.com/bricks.html",
+      "source_label": "Buxton - Bricks project page"
+    },
+    {
+      "title": "Bend a curve by its control points",
+      "description": "Set several bricks down on the control points of a spline and tug them independently, reshaping the curve by grabbing its handles directly rather than clicking each vertex in turn.",
+      "provenance": "documented",
+      "source_url": "https://www.billbuxton.com/bricks.html",
+      "source_label": "Buxton - Bricks project page"
+    },
+    {
+      "title": "Lay out a room by shuffling furniture blocks",
+      "description": "The paper sketches a floor planner where each piece of furniture carries its own brick, so you rearrange the room in rapid trial-and-error by pushing the physical handles around the surface with both hands.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/223904.223964",
+      "source_label": "Fitzmaurice, Ishii, Buxton - CHI '95"
+    },
+    {
+      "title": "Two people editing the same canvas",
+      "description": "Because each handle is its own physical object on a shared surface, two collaborators could each grab a brick and reposition different elements of the same drawing at the same time, without contending for one cursor.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A tactile keyframe rig for animation",
+      "description": "Drop bricks on the path nodes of a moving object and slide them to retime or reroute the motion, using the same grasp-the-control-point mechanic the spline demo showed, but applied to a timeline.",
+      "provenance": "proposed"
+    }
+  ],
+  "confidence": "high"
+}

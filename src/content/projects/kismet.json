@@ -79,5 +79,52 @@
       "access_notes": "Encyclopedic profile of Kismet."
     }
   ],
+  "interactions": [
+    {
+      "title": "Scold it and watch its face fall",
+      "description": "Speak to Kismet in a sharp, prohibiting tone and its features sag into a crestfallen look; switch to warm praise and it brightens. It reads the affect in your voice, not your words, sorting speech into approval, prohibition, attention, comfort, or neutral.",
+      "provenance": "documented",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2781892/",
+      "source_label": "Breazeal, Role of expressive behaviour (PMC)"
+    },
+    {
+      "title": "Babble back and forth like an infant",
+      "description": "Kismet holds a proto-conversation in nonsense phonemes synthesized through DECtalk, leaning in and pausing with the right gaze and posture so you instinctively take your turn. Naive visitors fall into the rhythm and the back-and-forth smooths out within minutes.",
+      "provenance": "documented",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2781892/",
+      "source_label": "Breazeal, Role of expressive behaviour (PMC)"
+    },
+    {
+      "title": "Overwhelm it and it shuts down to recover",
+      "description": "Wave a stuffed toy too fast and too close and Kismet first looks annoyed, then closes its eyes and 'goes to sleep' to escape the flood of stimulation. Back off and it calms, settling back toward a comfortable middle of engagement.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Kismet_(robot)",
+      "source_label": "Wikipedia — Kismet (robot)"
+    },
+    {
+      "title": "Smile at it and it smiles back",
+      "description": "Stand in front of Kismet at the MIT Museum and offer a smile or a frown; its rubber lips, brows, and ears arrange into a matching expression as its camera eyes track your face around the case.",
+      "provenance": "documented",
+      "source_url": "https://robotsguide.com/robots/kismet",
+      "source_label": "IEEE Robots Guide — Kismet"
+    },
+    {
+      "title": "A child decides the robot doesn't like her",
+      "description": "In Sherry Turkle's MIT fieldwork, twelve-year-old Estelle kept playing until Kismet glitched and went quiet; she read the silence as rejection, grew sullen, and withdrew, convinced the robot simply didn't like her.",
+      "provenance": "observed",
+      "source_url": "https://archive.ieet.org/articles/munkittrick20110210.html",
+      "source_label": "IEET — on Turkle's Alone Together"
+    },
+    {
+      "title": "Coax a withdrawn robot back into play",
+      "description": "When Kismet droops into an understimulated, lonely-looking state, lean in and address it gently; it perceives the renewed attention and re-engages, so a quiet visitor can effectively nurse it out of a sulk. Grounded in its motivation-driven seeking of social contact and its comfort-tone recognition.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Pace a conversation by reading its mood",
+      "description": "Treat its expressions as a feedback meter: slow down when its brows knit toward overwhelm, add energy when it looks bored, and let its face teach you the tempo it can handle. Grounded in the legible affect displays and homeostatic regulation it already runs.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

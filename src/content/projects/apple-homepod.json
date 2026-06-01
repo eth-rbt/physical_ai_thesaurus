@@ -60,5 +60,59 @@
       "access_notes": "Launch dates: original Feb 9 2018; 2nd generation Feb 3 2023."
     }
   ],
+  "interactions": [
+    {
+      "title": "Shout a message to the whole house",
+      "description": "Say \"Hey Siri, announce that dinner is ready\" and your recorded voice plays out of every HomePod in the home and lands as a notification on everyone's iPhone and Apple Watch.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/en-us/101606",
+      "source_label": "Apple Support — HomePod intercom"
+    },
+    {
+      "title": "It hears the smoke alarm when you're out",
+      "description": "Left running while you're away, the HomePod listens for the chirp of a smoke or carbon-monoxide detector and pings your phone; you can tap the alert to listen in on the room and talk to whoever is home.",
+      "provenance": "documented",
+      "source_url": "https://support.apple.com/guide/homepod/alerts-smoke-carbon-monoxide-detectors-apd1f1921722/homepod",
+      "source_label": "Apple Support — smoke & CO alerts"
+    },
+    {
+      "title": "Ask the speaker to find your phone",
+      "description": "When your iPhone has vanished into the couch, say \"Hey Siri, where's my iPhone?\" and the HomePod sets it ringing until you dig it out.",
+      "provenance": "documented",
+      "source_url": "https://www.imore.com/how-use-your-homepod-find-your-iphone-or-ipad",
+      "source_label": "iMore — find your iPhone with HomePod"
+    },
+    {
+      "title": "Pour a song from your hand into the room",
+      "description": "Walk in holding your iPhone, tap it to the top of the HomePod, and whatever you were listening to on headphones keeps playing out loud without missing a beat.",
+      "provenance": "documented",
+      "source_url": "https://www.macworld.com/article/233474/how-to-hand-off-music-or-phone-calls-from-your-iphone-to-a-homepod.html",
+      "source_label": "Macworld — Handoff to HomePod"
+    },
+    {
+      "title": "The speaker becomes a room thermometer",
+      "description": "The built-in temperature and humidity sensor lets you build automations so the room's own readings close the blinds, kick on a fan, or run a dehumidifier when it gets too warm or muggy.",
+      "provenance": "documented",
+      "source_url": "https://www.iphonelife.com/content/how-to-use-homepod-mini-temperature-and-humidity-sensor",
+      "source_label": "iPhone Life — temperature & humidity sensor"
+    },
+    {
+      "title": "Kids learn to say \"please\" to it",
+      "description": "Parents report their children copy how the family talks to the speaker, so many insist everyone add \"please\" and \"thank you\" when asking Siri — turning the always-listening cylinder into an accidental manners coach.",
+      "provenance": "observed",
+      "source_url": "https://www.today.com/health/should-you-be-polite-your-smart-speakers-why-many-people-t169365",
+      "source_label": "TODAY — saying please to smart speakers"
+    },
+    {
+      "title": "A doorless intercom between bedrooms",
+      "description": "A teenager upstairs taps Reply on an Intercom message instead of yelling down the stairwell, and a parent in the kitchen hears the answer come back through the speaker beside them.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A standing morning check-in",
+      "description": "Walk past on the way out and ask for the day's weather, traffic, and first calendar event in one breath, the speaker reading it back while your hands stay full of keys and coffee.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

@@ -60,5 +60,68 @@
       "access_notes": "Details the camera-based vSLAM navigation and mapping introduced on the Roomba 980."
     }
   ],
-  "confidence": "high"
+  "confidence": "high",
+  "interactions": [
+    {
+      "title": "It photographs the hazard and asks what to do",
+      "description": "When a camera-equipped Roomba meets an unfamiliar obstacle on the floor, it snaps a picture, sends it to the app after the run, and lets you tag the object as a one-time mess to retry later or a permanent keep-out.",
+      "provenance": "documented",
+      "source_url": "https://newatlas.com/around-the-home/irobot-roomba-j7/",
+      "source_label": "New Atlas — Roomba j7 hands-on"
+    },
+    {
+      "title": "Trained to swerve around the dog's accident",
+      "description": "The j7+ runs an on-board vision model (trained partly on play-dough mock-ups) that recognizes solid pet waste and drives around it instead of through it; iRobot backs it with a free-replacement guarantee if it fails.",
+      "provenance": "documented",
+      "source_url": "https://www.engadget.com/irobot-roomba-j-7-object-poop-detection-040152887.html",
+      "source_label": "Engadget — j7 poop detection"
+    },
+    {
+      "title": "Draw a no-go box on the house map",
+      "description": "Once the robot has learned an Imprint Smart Map, you drag rectangular Keep-Out Zones over the pet bowls, the cable nest, or the kids' Lego corner so it learns the unspoken 'house rules' and never enters them.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/irobot-roomba-j7",
+      "source_label": "IEEE Spectrum — Roomba j7"
+    },
+    {
+      "title": "Drive it over to peek at an empty room",
+      "description": "With the j7's beta Remote Check-In, you steer the vacuum to any spot on its map from the app and open a live video stream through its obstacle camera — an improvised roving check on the house or a pet while you're out.",
+      "provenance": "documented",
+      "source_url": "https://www.slashgear.com/1261576/roomba-security-camera-feature/",
+      "source_label": "SlashGear — Roomba as security camera"
+    },
+    {
+      "title": "The cat commandeers it as a parade float",
+      "description": "Owners discovered cats will perch on a running Roomba and ride it around the floor; one cat in a shark costume, trailed by a duckling, became a multi-million-view internet fixture and spawned a whole genre of animals-on-Roombas videos.",
+      "provenance": "observed",
+      "source_url": "https://www.cbsnews.com/news/duckling-and-cat-in-a-shark-costume-riding-a-roomba/",
+      "source_label": "CBS News — shark-cat on a Roomba"
+    },
+    {
+      "title": "The 'poopocalypse' — autonomy as a liability",
+      "description": "Before poop detection existed, a Roomba that hit a pet's overnight accident would faithfully smear it across every room; one owner described 25-foot poop trails on 'every conceivable surface,' a viral cautionary tale about turning a machine loose unsupervised.",
+      "provenance": "observed",
+      "source_url": "https://www.digitaltrends.com/home/poopocalypse-roomba-robot-vaccume/",
+      "source_label": "Digital Trends — Roomba poopocalypse"
+    },
+    {
+      "title": "The cleaner that quietly maps your home",
+      "description": "The same vSLAM map that lets the robot clean efficiently is also a floor plan of your house — furniture, room sizes, layout — and a 2017 plan to potentially share those maps with big tech firms turned the vacuum into a privacy flashpoint.",
+      "provenance": "observed",
+      "source_url": "https://techcrunch.com/2017/07/25/irobots-ceo-defends-roomba-home-mapping-as-privacy-concerns-arise/",
+      "source_label": "TechCrunch — Roomba home mapping"
+    },
+    {
+      "title": "Gutted and rebuilt as a research robot",
+      "description": "Hobbyists and labs strip the vacuum down to its drive base — or buy iRobot's own Create 3, a Roomba sans dustbin — and program it with Python and ROS 2 to do SLAM, mapping, and autonomy experiments well beyond cleaning.",
+      "provenance": "observed",
+      "source_url": "https://www.hackster.io/news/irobot-launches-create-3-educational-robot-platform-with-python-3-ros-2-support-3f5256ed9869",
+      "source_label": "Hackster.io — iRobot Create 3"
+    },
+    {
+      "title": "Standing patrol on a recognized hazard",
+      "description": "Because the robot already classifies floor objects and can stream from where it parks, it could be told to roll to a recurring trouble spot — a leak-prone water heater, a pet's feeding mat — and send a snapshot on a schedule, reusing its existing vision and Remote Check-In capabilities.",
+      "provenance": "proposed"
+    }
+  ]
 }

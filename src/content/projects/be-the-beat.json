@@ -7,12 +7,31 @@
   "long_description": "Be the Beat is an interactive boombox that converts physical body movement into sound. It uses PoseNet to capture a dancer's live movements, an LLM to interpret their style, energy, and tempo, and the Spotify API to surface songs that match, all triggered by a hand clap and returned within about five seconds. By treating an open-ended range of gestures as input rather than a fixed gesture vocabulary, it reframes the dancer as the source of the music and the device as a responsive, expressive partner.",
   "primary_url": "https://ethanchang.design/projects/btb.html",
   "attributes": {
-    "embodiment.form": ["Domestic object", "Smart appliance"],
-    "embodiment.mobility": ["Fixed", "Handheld"],
-    "intelligence.input": ["Vision", "Gesture", "Motion"],
-    "intelligence.model": ["Large language model", "Deep learning"],
-    "function.role": ["Performer", "Creative collaborator"],
-    "genealogy.lineage": ["Tangible user interfaces", "Speculative design"]
+    "embodiment.form": [
+      "Domestic object",
+      "Smart appliance"
+    ],
+    "embodiment.mobility": [
+      "Fixed",
+      "Handheld"
+    ],
+    "intelligence.input": [
+      "Vision",
+      "Gesture",
+      "Motion"
+    ],
+    "intelligence.model": [
+      "Large language model",
+      "Deep learning"
+    ],
+    "function.role": [
+      "Performer",
+      "Creative collaborator"
+    ],
+    "genealogy.lineage": [
+      "Tangible user interfaces",
+      "Speculative design"
+    ]
   },
   "metrics": {
     "proximity": 2,
@@ -20,7 +39,7 @@
     "scale": 2,
     "social_legibility": 2,
     "form_specificity": 4,
-    "expressiveness": 5,
+    "expressiveness": 4,
     "timing": 4,
     "visibility": 4,
     "generality": 2,
@@ -46,6 +65,53 @@
       "publisher": "Ethan Chang",
       "year": 2024,
       "access_notes": "Creator's own project page; primary source."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "Clap, freestyle, and let the room pick the song",
+      "description": "Clap once to start recording, throw a short freestyle, and within about five seconds the boombox reads your movement and starts playing a Spotify track that matches its style, energy, and tempo.",
+      "provenance": "documented",
+      "source_url": "https://ethanchang.design/projects/btb.html",
+      "source_label": "Be the Beat - project page"
+    },
+    {
+      "title": "Re-clap to push the set in a new direction",
+      "description": "Unhappy with the pick or feeling a different mood, clap again to re-run the analysis; the recommendations refresh as your freestyle develops, turning the device into a back-and-forth partner rather than a one-shot jukebox.",
+      "provenance": "documented",
+      "source_url": "https://ethanchang.design/projects/btb.html",
+      "source_label": "Be the Beat - project page"
+    },
+    {
+      "title": "The machine can tell house from hip-hop",
+      "description": "In pilot trials the boombox matched music to the tempo of a dancer's movements and distinguished the intricacies between house and hip-hop moves, picking up genre-specific footwork rather than just gross motion.",
+      "provenance": "observed",
+      "source_url": "https://news.mit.edu/2025/mit-students-works-redefine-human-ai-collaboration-0129",
+      "source_label": "MIT News"
+    },
+    {
+      "title": "Dancers feel like they are leading, not following",
+      "description": "Trial participants reported having more control over artistic expression and described the boombox as a novel way to discover dance genres and choreograph creatively, flipping the usual sense of dancing to a track.",
+      "provenance": "observed",
+      "source_url": "https://design.mit.edu/news/mit-students-work-redefine-human-ai-collaboration-at-neurips",
+      "source_label": "MIT MAD"
+    },
+    {
+      "title": "A stage piece where the crowd becomes the DJ",
+      "description": "Presented in the NeurIPS Creative AI track as a work that blurs the line between leader and follower; staged at a party it could let whoever steps up and dances steer the playlist for everyone, no phone or DJ booth involved.",
+      "provenance": "observed",
+      "source_url": "https://neurips.cc/virtual/2024/108061",
+      "source_label": "NeurIPS 2024 Creative AI"
+    },
+    {
+      "title": "Coach a beginner toward a genre by moving like it",
+      "description": "Because the LLM reads open-ended movement rather than a fixed gesture list, a learner could try out tentative steps and use the returned tracks as feedback on which genre their body is drifting toward, grounded in the pose-to-style pipeline it already runs.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Warm-up that escalates with your energy",
+      "description": "Start slow and the boombox surfaces low-tempo tracks; build intensity and the next clap should pull faster, higher-energy songs, using the energy and tempo features it already extracts to ramp a workout or rehearsal.",
+      "provenance": "proposed"
     }
   ],
   "confidence": "high"

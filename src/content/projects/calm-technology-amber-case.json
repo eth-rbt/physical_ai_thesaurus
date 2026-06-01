@@ -1,0 +1,108 @@
+{
+  "name": "Calm Technology (Amber Case)",
+  "year": 2015,
+  "organization": ["O'Reilly Media"],
+  "project_type": "concept",
+  "short_description": "Amber Case's 2015 book proposing eight design principles for technology that demands the least possible attention while informing through the periphery.",
+  "long_description": "Calm Technology: Principles and Patterns for Non-Intrusive Design extends the Xerox PARC notion of calm computing (Weiser and Brown, 1995) into the era of the Internet of Things and billions of connected devices. Amber Case offers eight practical design principles - including requiring the smallest possible amount of attention, informing while creating calm, exploiting peripheral awareness, communicating without demanding speech, and degrading gracefully when systems fail. As physical AI moves into homes and bodies as ambient sensing and actuation, the book is a foundational interaction-design reference for how embedded devices should behave: present but not intrusive, legible at the edge of attention rather than commanding the center of it.",
+  "primary_url": "https://www.oreilly.com/library/view/calm-technology/9781491925874/",
+  "ai_embedded": "none",
+  "ai_note": "It is a book of design principles, not a system; no AI or ML runs anywhere in it.",
+  "attributes": {
+    "embodiment.form": ["Distributed object ecology"],
+    "function.role": ["Mediator"],
+    "genealogy.lineage": ["Ubiquitous computing", "Ambient intelligence", "Internet of Things"],
+    "genealogy.precedent_field": ["Ubiquitous computing", "Calm technology"]
+  },
+  "metrics": {
+    "proximity": 3,
+    "mobility": 1,
+    "scale": 5,
+    "social_legibility": 2,
+    "expressiveness": 2,
+    "autonomy": 1
+  },
+  "images": [
+    {
+      "image_id": "img-calm-technology-amber-case-001",
+      "caption": "Cover of Calm Technology: Principles and Patterns for Non-Intrusive Design by Amber Case (O'Reilly, 2015).",
+      "image_type": "product_photo",
+      "source_url": "https://www.oreilly.com/library/view/calm-technology/9781491925874/",
+      "rights_status": "needs_permission",
+      "alt_text": "Book cover for Calm Technology by Amber Case, published by O'Reilly, featuring the title text over a light background with a small animal illustration in the O'Reilly style."
+    }
+  ],
+  "interactions": [
+    {
+      "title": "A kettle that waits, then sings",
+      "description": "Case's anchor example: a teakettle sits ignored on the stove and demands nothing until the water boils, when a single rising whistle pulls you in from another room, then falls silent again once you lift it off. The book uses it to chart how attention should move from periphery to center and back.",
+      "provenance": "documented",
+      "source_url": "https://www.oreilly.com/content/principles-calm-technology-we-are-not-bad-at-technology-technology-is-bad-at-us/",
+      "source_label": "O'Reilly - Principles of Calm Technology"
+    },
+    {
+      "title": "A robot that talks in tones, not words",
+      "description": "The book holds up the Roomba as calm communication: a cheerful chirp when it finishes cleaning, a low somber tone when it gets stuck, and a green-versus-orange light for its state - understood instantly by anyone in any language, without a voice interface interrupting the room.",
+      "provenance": "documented",
+      "source_url": "https://www.oreilly.com/content/principles-calm-technology-we-are-not-bad-at-technology-technology-is-bad-at-us/",
+      "source_label": "O'Reilly - Principles of Calm Technology"
+    },
+    {
+      "title": "Status you read with a glance",
+      "description": "A laptop charger's LED glows orange while charging and green when full, and a camera's recording light tells both operator and subject that capture is live - information delivered through a single peripheral cue rather than a screen you must stop and open.",
+      "provenance": "documented",
+      "source_url": "https://www.oreilly.com/content/principles-calm-technology-we-are-not-bad-at-technology-technology-is-bad-at-us/",
+      "source_label": "O'Reilly - Principles of Calm Technology"
+    },
+    {
+      "title": "Failing back to something that still works",
+      "description": "Case argues calm technology should degrade gracefully: an escalator that stops becomes stairs, a plane that loses engines can still glide, and any smart device should keep a plain manual override so a failure leaves you with a working object rather than a brick.",
+      "provenance": "documented",
+      "source_url": "https://www.oreilly.com/content/principles-calm-technology-we-are-not-bad-at-technology-technology-is-bad-at-us/",
+      "source_label": "O'Reilly - Principles of Calm Technology"
+    },
+    {
+      "title": "The missing recording light that doomed Glass",
+      "description": "The book reads Google Glass as a violation of the principle to respect social norms: with no visible indicator of when it was recording, bystanders could not tell if they were being filmed, and the resulting social ambiguity, not the optics, is what made people reject it.",
+      "provenance": "documented",
+      "source_url": "https://www.oreilly.com/content/principles-calm-technology-we-are-not-bad-at-technology-technology-is-bad-at-us/",
+      "source_label": "O'Reilly - Principles of Calm Technology"
+    },
+    {
+      "title": "Designers using it as a checklist for ambient museum tech",
+      "description": "Practitioners have taken Case's eight principles out of the book and applied them as an evaluation lens - for example assessing museum and exhibition technology against calm-design criteria so installations inform visitors from the periphery instead of demanding their full attention.",
+      "provenance": "observed",
+      "source_url": "https://ad-hoc-museum-collective.github.io/humanizing-the-digital/chapters/2/",
+      "source_label": "Humanizing the Digital - Calm Technology in Museums"
+    },
+    {
+      "title": "A calm spec sheet for an ambient home sensor",
+      "description": "Applied to a physical-AI presence or air-quality sensor: instead of pushing a phone notification, it nudges a slow-changing color glow at the edge of the room and only escalates to a tone when a reading crosses a real threshold - peripheral by default, central only when it must be.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Graceful-failure mode for a home robot",
+      "description": "A floor or delivery robot built to these principles would, on losing its AI navigation, drop into a dumb safe state - park, blink a plain status light, and accept a manual push - so a model failure never strands or traps the people living with it.",
+      "provenance": "proposed"
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "source-calm-technology-amber-case-001",
+      "title": "Calm Technology",
+      "source_type": "documentation",
+      "url": "https://www.oreilly.com/library/view/calm-technology/9781491925874/",
+      "publisher": "O'Reilly Media",
+      "year": 2015
+    },
+    {
+      "source_id": "source-calm-technology-amber-case-002",
+      "title": "Calm Technology: Principles and Patterns for Non-Intrusive Design",
+      "source_type": "documentation",
+      "url": "https://calmtech.com/book",
+      "publisher": "Amber Case",
+      "year": 2015
+    }
+  ],
+  "confidence": "high"
+}
