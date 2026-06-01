@@ -16,15 +16,17 @@ display:
     label: Momentary buffer → long-term memory
     direction: asc
 project_ids:
-  - limitless-pendant
-  - rayban-meta-smart-glasses
-  - google-photos
+  - google-lens
   - amazon-echo-alexa
+  - rayban-meta-smart-glasses
   - apple-watch
   - oura-ring
   - elliq
   - moxie
+  - limitless-pendant
+  - google-photos
 project_notes:
+  google-lens: "Lives entirely in the moment — points at the world, names what it sees, then forgets; each query stands alone with no thread between them."
   limitless-pendant: "Continuously records and transcribes everything you say and hear, building a searchable, cloud-stored autobiography of your conversations for years."
   rayban-meta-smart-glasses: "Mostly lives in the moment, but can stash a few discrete facts on request — where you parked, a flight time — to recall later."
   google-photos: "Holds your entire visual life, going back years, and lets you search any face, place, or object across the whole archive."
@@ -35,4 +37,4 @@ project_notes:
   moxie: "Remembers a child over weeks of daily sessions, tracking their progress and callbacks so the bond and lessons build session to session."
 ---
 
-Memory span runs from devices that hold only a momentary buffer to ones that keep a long-term, searchable record of your life: Alexa forgets between requests while an Apple Watch or Oura Ring accrues weeks of body data, companions like ElliQ and Moxie carry a relationship forward, and Google Photos and the Limitless Pendant retain years of your seen and spoken life.
+Memory span runs from systems that hold only a momentary buffer to ones that keep a durable, searchable record of your life. Google Lens names whatever you point it at and forgets, Alexa wakes a near-fresh session each request, and Ray-Ban Meta glasses can stash a stray fact or two; further along, an Apple Watch and Oura Ring bank weeks and months of body data while companions like ElliQ and Moxie carry a relationship forward across sessions; at the far end the Limitless Pendant and Google Photos retain years of everything you have said and seen.

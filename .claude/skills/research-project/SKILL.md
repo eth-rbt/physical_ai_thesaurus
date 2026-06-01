@@ -78,6 +78,8 @@ that schema, the schema wins. The source priorities and controlled vocabularies 
   "short_description": "One sentence.",
   "long_description": "2–4 sentences on the project and why it matters as physical AI.",
   "primary_url": "https://...",
+  "ai_embedded": "none",
+  "ai_note": "One line justifying the value.",
   "attributes": {
     "embodiment.form": ["Wearable"],
     "intelligence.input": ["Motion", "Environmental sensors"]
@@ -104,9 +106,16 @@ that schema, the schema wins. The source priorities and controlled vocabularies 
 }
 ```
 
-Enum fields (`project_type`, `image_type`, `rights_status`, `source_type`, `confidence`) must
-be one of the exact values in `src/content.config.ts`. Every project needs ≥1 source and ≥1
-attribute; every image needs `alt_text`.
+Enum fields (`project_type`, `image_type`, `rights_status`, `source_type`, `confidence`,
+`ai_embedded`) must be one of the exact values in `src/content.config.ts`. Every project needs
+≥1 source and ≥1 attribute; every image needs `alt_text`.
+
+**`ai_embedded`** answers, honestly, whether real AI/ML runs *inside* the system — it renders as
+an obvious badge on the project page. Values: `none` (a mechanical / sensing / actuation /
+tangible technique — most interaction-design prototypes, e.g. a motorized pin display);
+`some` (AI/ML powers a real component, e.g. a learned gesture classifier); `core` (AI is central
+to what it is); `envisioned` (AI is part of the concept/vision but not implemented — concepts,
+speculative design); `unknown`. Don't inflate it; always add a one-line `ai_note`.
 
 ## Fetching the image
 

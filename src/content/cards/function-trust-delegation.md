@@ -16,16 +16,18 @@ display:
     label: Notify only → acts autonomously
     direction: asc
 project_ids:
+  - ambient-orb
   - apple-watch
-  - nest-learning-thermostat
   - amazon-echo-alexa
+  - rayban-meta-smart-glasses
+  - nest-learning-thermostat
   - home-assistant
   - august-smart-lock
   - irobot-roomba
-  - rayban-meta-smart-glasses
-  - waymo-driver
   - figure-02
+  - waymo-driver
 project_notes:
+  ambient-orb: "Pure notify-only — it just glows to signal the weather or your stocks, taking no action and asking nothing of you."
   apple-watch: "Mostly notifies — taps your wrist about your heart or a fall, but waits for you to decide and act."
   nest-learning-thermostat: "You delegate the schedule: after watching you, it quietly programs itself to heat and cool without prompts."
   amazon-echo-alexa: "Acts on request — does what you ask out loud, then stops; little happens unless you speak first."
@@ -37,6 +39,6 @@ project_notes:
   figure-02: "Trusted with physical labor — takes a task and carries out the manipulation steps autonomously in a human workspace."
 ---
 
-Trust runs from devices that only notify you and wait — an Apple Watch tapping your wrist, glasses answering when asked — through ones you let act on a standing request, like Nest programming itself or a Roomba cleaning unsupervised, out to systems you hand the job entirely: a Waymo that drives with no one at the wheel, or a humanoid carrying out physical labor on its own.
+Trust runs from devices that only signal and wait — an Ambient Orb that merely glows, an Apple Watch tapping your wrist, glasses answering when asked — through ones you let act on a standing rule, like a Nest programming its own schedule, a Home Assistant firing the automations you scripted, or an August lock that unlocks as you arrive, out to systems you hand the job entirely: a Roomba and a Figure humanoid that work unsupervised, and a Waymo that drives a public road with no one at the wheel.
 </content>
 </invoke>

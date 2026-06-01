@@ -23,6 +23,7 @@ project_ids:
   - moflin
   - anki-vector
   - furhat
+  - technological-dreams-robots
 project_notes:
   kismet: "The MIT lab origin — an expressive robotic head that engaged people face-to-face and founded the idea of a robot as a social partner."
   paro: "Carried the lineage into clinical care: a baby-seal robot used like a therapy animal in hospitals and elder care."
@@ -35,8 +36,9 @@ project_notes:
   moflin: "A palm-sized furry companion that grows its own personality through touch and voice, shrinking the creature robot to a pet."
   anki-vector: "A tiny desk creature with an animated face and cloud assistant — social robotics packaged as an affordable consumer gadget."
   furhat: "A back-projected human face built for expressive, multi-party conversation — the research platform descendant of Kismet's social head."
+  technological-dreams-robots: "Dunne & Raby's sculptural non-robots — speculative companions imagined with their own needs and temperaments, a critical counterpoint to the servile commercial creatures."
 ---
 
-Social robots descend from MIT's Kismet, a lab head built to hold a person's gaze and read emotion rather than do work. That lineage branched into therapeutic creatures (PARO), companion pets (aibo, LOVOT, Moflin), conversational faces and humanoids (Furhat, Pepper), and a wave of commercial home companions — Jibo, Moxie, ElliQ, Vector — all built for relationship over utility.
+Social robots descend from MIT's Kismet, a lab head built to hold a person's gaze and read emotion rather than do work, and the lineage carries its intelligence unevenly: PARO's therapeutic seal and Sony's aibo run on hand-tuned classical models, while Moxie and ElliQ now route their conversations through large language models. The branches all trade utility for relationship — companion creatures (aibo, LOVOT, Moflin), expressive faces and humanoids (Furhat, Pepper), and countertop home companions (Jibo, Moxie, ElliQ, Vector) — and Dunne & Raby's Technological Dreams robots sit beside them as non-working sculptures, imagining machines with needs of their own rather than the eager, agreeable companions the market actually shipped.
 </content>
 </invoke>

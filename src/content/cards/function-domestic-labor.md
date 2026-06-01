@@ -14,25 +14,21 @@ display:
 project_ids:
   - irobot-roomba
   - roborock
-  - ecovacs-deebot
-  - samsung-bot-handy
-  - amazon-astro
   - june-oven
   - husqvarna-automower
+  - samsung-bot-handy
   - hello-robot-stretch
   - toyota-hsr
   - figure-02
 project_notes:
   irobot-roomba: "The original single-task floor robot — a disc that drives itself around and vacuums, and does nothing else."
   roborock: "Vacuums and mops in one pass, mapping the home with LiDAR so it cleans methodically room by room."
-  ecovacs-deebot: "A vacuum-and-mop appliance that also empties and refills itself at a dock, stretching the one chore toward hands-off."
-  samsung-bot-handy: "A concept arm-on-wheels that grips dishes and bottles with judged force — picking up, putting away, and tidying."
-  amazon-astro: "Doesn't clean at all — it patrols, carries small items, and checks on the house, taking household watch off your list."
   june-oven: "A fixed countertop oven that recognizes the food and runs the cook program, handing off one kitchen chore."
   husqvarna-automower: "Steps outside the house to do the yard — it mows the lawn on its own and parks itself to recharge."
+  samsung-bot-handy: "A concept arm-on-wheels that grips dishes and bottles with judged force — picking up, putting away, and tidying."
   hello-robot-stretch: "A lightweight mobile arm that fetches, opens, and hands over objects, taking on assistive chores for one person."
   toyota-hsr: "A folding-arm robot built to pick things off the floor and bring them to elderly or disabled people at home."
   figure-02: "A general-purpose humanoid reaching past any single chore — meant to use human tools and take on open-ended housework."
 ---
 
-Domestic labor runs from machines that nail exactly one chore to bodies reaching for all of them: single-task floor robots like Roomba and the Automower vacuum or mow and nothing else, mobile manipulators like Stretch and Toyota's HSR fetch and tidy for one person, and general-purpose humanoids like Figure 02 aim at open-ended housework with human tools. The wider the reach, the harder the body and the more unfinished the work.
+The machines that actually do housework today win by narrowing the job until it fits a fixed body: Roomba and Roborock only drive the floor, the June Oven never leaves the counter, and the Automower stays on the lawn — each nails one chore precisely because it gives up the rest. The moment a system needs hands instead of wheels-and-a-brush — Samsung's Bot Handy gripping dishes, Stretch and Toyota's HSR fetching and picking things off the floor, Figure 02 reaching for open-ended chores with human tools — it stays a concept, a single-person assist, or an unproven humanoid. Together they show the trade at the heart of domestic labor: the broader the reach, the less the work is finished.

@@ -16,29 +16,29 @@ display:
     label: Across the room → on the body
     direction: asc
 project_ids:
-  - rayban-meta-smart-glasses
-  - apple-watch
-  - humane-ai-pin
-  - apple-airpods
-  - jibo
-  - amazon-echo-alexa
-  - google-nest-hub
+  - dangling-string
   - ring-doorbell
+  - amazon-echo-alexa
   - irobot-roomba
+  - jibo
   - amazon-astro
-  - stochastic-parrot
+  - humane-ai-pin
+  - apple-watch
+  - rayban-meta-smart-glasses
+  - apple-airpods
+  - skinmarks
 project_notes:
-  rayban-meta-smart-glasses: "Worn on the face, sharing your exact line of sight — the camera and assistant ride along wherever you look."
-  apple-watch: "Strapped to the wrist all day, pressed against the skin to read your pulse, motion, and a tap away from your voice."
-  humane-ai-pin: "Clipped to your chest like a brooch, riding on your clothes and projecting onto the palm you raise to it."
-  apple-airpods: "Tucked inside the ear canal — the most intimate placement here, listening and speaking from within the head itself."
-  jibo: "Parked on a countertop within a room, a stationary tabletop presence that swivels to face you but never leaves its spot."
-  amazon-echo-alexa: "A fixed speaker set on a shelf or counter, addressed across the room by voice and never touched or worn."
-  google-nest-hub: "A countertop display you walk up to and glance at — anchored to one surface, serving whoever is near it."
+  dangling-string: "A length of string hung from the ceiling motor, twitching with network traffic — the system lives in the architecture itself, sensed from across the room."
   ring-doorbell: "Bolted to the doorframe at the building's edge, watching the threshold from the far perimeter of the home."
+  amazon-echo-alexa: "A fixed speaker set on a shelf or counter, addressed across the room by voice and never touched or worn."
   irobot-roomba: "Untethered from any one spot, roaming the floor across the room and under furniture as it cleans."
+  jibo: "Parked on a countertop within a room, a stationary tabletop presence that swivels to face you but never leaves its spot."
   amazon-astro: "A wheeled robot that roams between rooms, coming to find you rather than waiting in a fixed place."
-  stochastic-parrot: "Perched on your shoulder like a pet bird, worn on the body and riding along everywhere you go."
+  humane-ai-pin: "Clipped to your chest like a brooch, riding on your clothes and projecting onto the palm you raise to it."
+  apple-watch: "Strapped to the wrist all day, pressed against the skin to read your pulse, motion, and a tap away from your voice."
+  rayban-meta-smart-glasses: "Worn on the face, sharing your exact line of sight — the camera and assistant ride along wherever you look."
+  apple-airpods: "Tucked inside the ear canal — among the most intimate placements here, listening and speaking from within the head itself."
+  skinmarks: "Rub-on circuitry conformed to a knuckle or finger — the interface laminated directly onto the skin, as close as embodiment gets."
 ---
 
-Spatial relationship asks how close a system sits to your body, and the spread runs from infrastructure fixed across the room to devices worn directly on you — from a Ring doorbell bolted to the threshold and a Roomba roaming the floor, through countertop fixtures like Echo and Nest Hub, up to AirPods in the ear and glasses on your face.
+Spatial relationship asks how close a system sits to your body, and the spread runs from a string twitching on the ceiling to circuitry rubbed onto your skin. At the far end it lives in the architecture and the perimeter — a Dangling String wired into the building, a Ring at the doorframe, an Echo on the shelf, a Roomba roaming the floor — then closes in through a tabletop Jibo and a roving Astro that comes to find you, before climbing onto the body itself: a Humane Pin on your chest, a Watch on your wrist, glasses on your face, AirPods in your ear, and finally SkinMarks laminated directly onto the skin.

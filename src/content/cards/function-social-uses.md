@@ -15,7 +15,7 @@ project_ids:
   - amazon-echo-alexa
   - google-nest-hub
   - ring-doorbell
-  - nest-cam
+  - furhat
   - elliq
   - paro
   - moxie
@@ -25,7 +25,7 @@ project_notes:
   amazon-echo-alexa: "A shared utility anyone in the room can address by name — and a household intercom that drops in between rooms and members."
   google-nest-hub: "The household's common screen on the counter: any family member glances at it for the shared calendar, timers, and smart-home controls."
   ring-doorbell: "Faces outward at the whole house — every resident gets the same alert when someone is at the door, and can answer the visitor from anywhere."
-  nest-cam: "A watchpost shared by the household that learns each member's face, telling the family who walked in rather than just that someone did."
+  furhat: "A face-to-face social agent that turns toward whoever steps up — built for receptions and multi-party settings where it serves a stream of strangers, not one owner."
   elliq: "Built for one person living alone — it sustains a one-on-one daily relationship, then opens a channel out to distant family who check in."
   paro: "Passed hand to hand in a ward or care home, the seal is a shared comfort object, yet each person bonds with it in a private, one-on-one moment."
   moxie: "A single child's companion that bonds over weeks of recurring talk — a one-on-one friend, not a device the whole family shares."
@@ -33,4 +33,4 @@ project_notes:
   stochastic-parrot: "Rides on one person's shoulder as a personal cohabitant, but can strike up 'parrot-to-parrot' social dynamics with other people's parrots."
 ---
 
-These systems range from shared household utilities — the Echo or Nest Hub anyone in the room can call on, the Ring and Nest Cam that face the whole family outward — to companions that hold a one-on-one social bond, like ElliQ with a person living alone or Moxie with a single child. In between sit objects that are technically shared yet quietly personal: a Roomba the family names, or a PARO seal passed around a ward but cradled one person at a time.
+The defining variable is not the technology but who, socially, the system is *for*: a shared household resource, a one-on-one bond, or a public face that serves whoever walks up. At one end are common utilities — the Echo anyone in the room can address, the Nest Hub on the counter the whole family glances at, the Ring that alerts every resident and lets any of them answer the door — and a Furhat in a lobby that turns to greet a stream of strangers, owned by no one. At the other end are companions tuned to a single person: ElliQ for someone living alone, Moxie for one child it bonds with over weeks. The most revealing cases sit in between, where the social register is ambiguous — a Roomba the family names into a low-key shared pet, a PARO passed around a ward yet cradled one person at a time, or a Stochastic Parrot perched on one owner that nonetheless improvises "parrot-to-parrot" exchanges with other people's birds.
