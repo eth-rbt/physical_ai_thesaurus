@@ -92,5 +92,59 @@
       "access_notes": "Physical artifact in CHM collection (catalog 102692759), donated by Kurzweil Computer Products, Inc.; confirms 1976 manufacture date and dimensions."
     }
   ],
+  "interactions": [
+    {
+      "title": "Read an ordinary book no one had recorded",
+      "description": "A blind reader sets a regular printed book, magazine, or document on the machine and hears it spoken aloud — reaching the roughly 98% of printed material that was never available in Braille or as a recorded book.",
+      "provenance": "documented",
+      "source_url": "https://www.kurzweiltech.com/kcp.html",
+      "source_label": "KurzweilTech — Kurzweil Computer Products"
+    },
+    {
+      "title": "Cronkite hands his sign-off to the machine",
+      "description": "On the January 13, 1976 launch, Walter Cronkite let the reading machine speak his signature CBS Evening News sign-off, 'And that's the way it was, January 13, 1976' — a line he otherwise reserved for himself.",
+      "provenance": "documented",
+      "source_url": "https://www.kurzweiltech.com/kcp.html",
+      "source_label": "KurzweilTech — Kurzweil Computer Products"
+    },
+    {
+      "title": "Demonstrated live on the nightly news",
+      "description": "Jim Gashel of the National Federation of the Blind demonstrated the machine reading text aloud, and the segment ran on all three national networks' evening newscasts the night of the announcement.",
+      "provenance": "documented",
+      "source_url": "https://afb.org/aw/5/5/14692",
+      "source_label": "AFB AccessWorld — interview with Ray Kurzweil"
+    },
+    {
+      "title": "Operate it by ear, with a key that names the keys",
+      "description": "Following advice from blind NFB testers, the controls carried no Braille labels — operators were expected to memorize the keys — and a 'Nominator' key would announce the function of any other key when pressed.",
+      "provenance": "documented",
+      "source_url": "https://afb.org/aw/5/5/14692",
+      "source_label": "AFB AccessWorld — interview with Ray Kurzweil"
+    },
+    {
+      "title": "Stevie Wonder leaves with the first unit in a taxi",
+      "description": "After hearing about the machine on the news, Stevie Wonder came for a demonstration, became the company's first official customer, and the team rushed a unit into production so he could take his reading machine home that day.",
+      "provenance": "documented",
+      "source_url": "https://www.thekurzweillibrary.com/on-air-make-it-how-musician-stevie-wonder-inventor-ray-kurzweil-made-history",
+      "source_label": "The Kurzweil Library — Stevie Wonder and the reading machine"
+    },
+    {
+      "title": "A shared reading station in a library or school",
+      "description": "Because each machine cost $30,000–$50,000, units were placed in schools and libraries where blind students and patrons could come in to scan and listen to printed material rather than owning one outright.",
+      "provenance": "documented",
+      "source_url": "https://afb.org/aw/5/5/14692",
+      "source_label": "AFB AccessWorld — interview with Ray Kurzweil"
+    },
+    {
+      "title": "Read the day's mail at the kitchen table",
+      "description": "A blind user lays each incoming letter or bill on the scanner and has it read aloud, working through a stack of personal mail privately — grounded in the machine's omni-font OCR that could read any ordinary typed or printed page.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Hear a printed menu or notice spoken aloud",
+      "description": "A blind person places a restaurant menu, posted schedule, or printed handout on the flatbed and listens to it read back, turning a sighted-only document into something usable independently — built on the same scan-then-speak loop the machine already performed.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

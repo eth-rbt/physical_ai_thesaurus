@@ -83,5 +83,59 @@
       "access_notes": "Technical description of the pneumatic/hydraulic/solenoid mechanism, tape-tone synchronization system, development history from 1949 onward, and trademark history (commercially used 1961, trademarked 1967)."
     }
   ],
+  "interactions": [
+    {
+      "title": "Watch Lincoln rise and speak",
+      "description": "Seated visitors at the State of Illinois pavilion saw the curtain open on a seated Lincoln, who rose from his chair and delivered an address stitched from his own speeches on liberty, freedom, and preserving the union — moving his arms, head, and lips in time with the recorded voice.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Great_Moments_with_Mr._Lincoln",
+      "source_label": "Wikipedia — Great Moments with Mr. Lincoln"
+    },
+    {
+      "title": "Mistake the machine for a man",
+      "description": "The figure read as so lifelike that some audience members at the 1964 World's Fair believed Lincoln was being played by a live actor rather than a machine.",
+      "provenance": "documented",
+      "source_url": "https://www.waltdisney.org/blog/look-closer-1964-new-york-worlds-fair",
+      "source_label": "Walt Disney Family Museum — 1964 World's Fair"
+    },
+    {
+      "title": "A short show, run on the hour",
+      "description": "The attraction ran as a scheduled theatrical show — Lincoln performed for audiences roughly five times per hour, with a preliminary film, the flag-flanked reveal, the speech, and a choral finale.",
+      "provenance": "documented",
+      "source_url": "https://www.waltdisney.org/blog/look-closer-1964-new-york-worlds-fair",
+      "source_label": "Walt Disney Family Museum — 1964 World's Fair"
+    },
+    {
+      "title": "Drive every gesture from a console",
+      "description": "Operators programmed the figure from a control console of knobs, each governing a single motion, light, or sound effect; the performance was then played back from tape, with tones triggering relays and pneumatic valves to move each part.",
+      "provenance": "documented",
+      "source_url": "https://www.waltdisney.org/blog/look-closer-1964-new-york-worlds-fair",
+      "source_label": "Walt Disney Family Museum — 1964 World's Fair"
+    },
+    {
+      "title": "Synchronize face to a recorded voice",
+      "description": "Sound and motion were fed together from the same tape so that lip and facial movement stayed locked to actor Royal Dano's recorded delivery — the core trick of Audio-Animatronics.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Audio-Animatronics",
+      "source_label": "Wikipedia — Audio-Animatronics"
+    },
+    {
+      "title": "Recite excerpts instead of the Gettysburg Address",
+      "description": "Disney deliberately built the speech from lesser-known passages rather than the Gettysburg Address, reasoning that the familiar text would not serve the show's purpose — a curatorial choice about what a performing figure should say.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Great_Moments_with_Mr._Lincoln",
+      "source_label": "Wikipedia — Great Moments with Mr. Lincoln"
+    },
+    {
+      "title": "Swap the script for a new historical figure",
+      "description": "Because the show is just a timed sequence of tape tones driving fixed actuators, the same seated-figure mechanism could be reprogrammed to deliver a different historical address, much as Disney later extended the technique into multi-figure casts.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A museum docent that performs, not narrates",
+      "description": "Stationed beside an exhibit, a figure of this kind could rise on a schedule and recite a primary-source text in the speaker's own voice, turning a static display into a recurring live-feeling performance.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

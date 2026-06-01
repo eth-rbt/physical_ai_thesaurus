@@ -76,7 +76,60 @@
     }
   ],
 
-  "interactions": [],
+  "interactions": [
+    {
+      "title": "Load the racks and let water do the scrubbing",
+      "description": "Stack plates, cups, and saucers into the wire compartments sized to hold each shape in place, then run the machine so jets of hot soapy water rain over them — cleaning by water pressure instead of hand-scrubbing, which had chipped Cochrane's heirloom china.",
+      "provenance": "documented",
+      "source_url": "https://www.history.com/articles/dishwasher-inventor-josephine-garis-cochran",
+      "source_label": "History.com — Cochran's dishwasher"
+    },
+    {
+      "title": "Turn the crank to run a wash",
+      "description": "An operator drove the flat rack-wheel inside the copper boiler so the dishes rotated through the rising water — the machine could be worked by a hand crank, a step up from earlier designs that required pouring boiling water over dishes by hand.",
+      "provenance": "documented",
+      "source_url": "https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/ill-do-it-myself",
+      "source_label": "USPTO — \"I'll do it myself\""
+    },
+    {
+      "title": "Clear a hotel kitchen's dishes in minutes",
+      "description": "In commercial models, kitchen staff could wash and dry a large load of dishes in a single short cycle, cutting the labor of hand-washing for a busy hotel or restaurant — Cochrane sold to institutions because the machine cost too much for most households.",
+      "provenance": "documented",
+      "source_url": "https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/ill-do-it-myself",
+      "source_label": "USPTO — \"I'll do it myself\""
+    },
+    {
+      "title": "Pitch it across a hotel lobby",
+      "description": "Cochrane personally walked into the Palmer House in Chicago in 1887 to demonstrate and sell the machine, landing her first order — she later recalled crossing a hotel lobby alone to make the sale as one of the hardest things she ever did.",
+      "provenance": "documented",
+      "source_url": "https://www.uspto.gov/learning-and-resources/journeys-innovation/historical-stories/ill-do-it-myself",
+      "source_label": "USPTO — \"I'll do it myself\""
+    },
+    {
+      "title": "Run nine of them at the World's Fair",
+      "description": "Nine Garis-Cochran machines were installed and operated in the restaurants and pavilions of the 1893 World's Columbian Exposition in Chicago, where the design won the top award for mechanical construction and durability and drew orders from across the country.",
+      "provenance": "observed",
+      "source_url": "https://www.history.com/articles/dishwasher-inventor-josephine-garis-cochran",
+      "source_label": "History.com — Cochran's dishwasher"
+    },
+    {
+      "title": "Outfit a hospital or college kitchen for sanitation",
+      "description": "Beyond hotels and restaurants, hospitals and colleges adopted the machines because the hot-water wash met strict sanitation requirements that hand-washing struggled to guarantee.",
+      "provenance": "observed",
+      "source_url": "https://www.history.com/articles/dishwasher-inventor-josephine-garis-cochran",
+      "source_label": "History.com — Cochran's dishwasher"
+    },
+    {
+      "title": "Swap in racks shaped for specialty service ware",
+      "description": "Because the machine cleans by holding each piece in a fitted wire compartment and raining water over it, a kitchen could commission compartments shaped for unusual items — tall stemware or oversized platters — to wash service ware that doesn't fit standard racks.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A mobile demonstration unit for trade fairs",
+      "description": "Given that Cochrane sold by showing the machine running in front of buyers, a self-contained demo model with its own water tank and hand crank could be wheeled from fair to fair to wash a load in front of a crowd without needing plumbed-in hot water.",
+      "provenance": "proposed"
+    }
+  ],
 
   "confidence": "high"
 }

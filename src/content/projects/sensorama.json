@@ -64,6 +64,53 @@
       "local_image": "/projects/sensorama.png"
     }
   ],
+  "interactions": [
+    {
+      "title": "Ride a motorcycle through Brooklyn",
+      "description": "Lean into the hood and take the signature Sensorama film: a first-person motorcycle ride through Brooklyn streets, with the seat vibrating like the engine, fans pushing wind at your face, a stereoscopic 3-D view of the road, and the smells of the city timed to the scenery.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Morton_Heilig",
+      "source_label": "Morton Heilig — Wikipedia"
+    },
+    {
+      "title": "Smell the pizzeria as you pass it",
+      "description": "As the motorcycle ride rolls past a pizza shop and a city bus, chemical odor emitters release the smell of baking pizza and exhaust fumes timed to what is on screen, while recorded voices of people on the sidewalk play in stereo around you.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Sensorama",
+      "source_label": "Sensorama — Wikipedia"
+    },
+    {
+      "title": "Watch a belly dancer, complete with perfume",
+      "description": "One of the films presents a belly dancer, and the cabinet releases a cheap perfume scent into the breeze to accompany the visuals and sound — sensation layered onto image rather than left to the screen alone.",
+      "provenance": "observed",
+      "source_url": "https://en.wikipedia.org/wiki/Sensorama",
+      "source_label": "Sensorama — Wikipedia"
+    },
+    {
+      "title": "Sit alone and let the experience play out at you",
+      "description": "The viewer cannot steer or influence anything — the films and their sensory cues are pre-recorded and mechanically triggered at the right moments, so the whole experience runs as a fixed sequence the body receives rather than directs.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Sensorama",
+      "source_label": "Sensorama — Wikipedia"
+    },
+    {
+      "title": "Feel small jolts stand in for big motion",
+      "description": "The patent describes using vibrations of relatively small amplitude — the bumps of a bobsled run, an aircraft touching down, a train ride — synchronized to the film so that modest seat motion creates the illusion of much larger physical experiences.",
+      "provenance": "documented",
+      "source_url": "https://patents.google.com/patent/US3050870",
+      "source_label": "U.S. Patent 3,050,870"
+    },
+    {
+      "title": "A scent-cued city tour for a museum",
+      "description": "Re-cut the cabinet's wind, vibration, and timed-odor channels into a guided walk through a historical street — the rumble of cobblestones, the smell of a bakery and a forge — letting a single visitor feel a place the museum can no longer physically show, using only the Sensorama's mechanical sensory triggers.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Multi-sensory exposure rehearsal",
+      "description": "Because the cabinet pairs a fixed first-person film with bodily cues like wind and vibration, the same mechanics could stage a calm, repeatable scene — a gentle bicycle ride or a beach — for someone practicing relaxation, with the body engaged but nothing to control or get wrong.",
+      "provenance": "proposed"
+    }
+  ],
   "sources": [
     {
       "source_id": "source-sensorama-001",

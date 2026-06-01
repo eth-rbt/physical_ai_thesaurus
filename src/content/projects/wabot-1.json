@@ -75,6 +75,52 @@
       "access_notes": "Wikipedia's Humanoid robot article cites WABOT-1 completion as 1972 and describes Waseda University project inception as 1967. Year discrepancy with Waseda University's own source (1973) is noted as an open question."
     }
   ],
-  "interactions": [],
+  "interactions": [
+    {
+      "title": "Ask it a question and hear it answer in Japanese",
+      "description": "A person could speak to WABOT-1 in simple Japanese and the robot would reply through its artificial mouth — one of the first machines built to hold a spoken exchange with a person face to face.",
+      "provenance": "documented",
+      "source_url": "https://www.humanoid.waseda.ac.jp/booklet/kato_2.html",
+      "source_label": "Waseda — Humanoid History (Kato)"
+    },
+    {
+      "title": "Watch it take steps across the floor on two legs",
+      "description": "WABOT-1 walked on its WL-5 lower limbs in a slow, quasi-static gait that kept its center of mass over the supporting foot — a deliberate demonstration that a full-scale machine could balance and locomote bipedally like a person.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Humanoid_robot#History",
+      "source_label": "Wikipedia — Humanoid robot history"
+    },
+    {
+      "title": "Have it grip an object and carry it",
+      "description": "Using its WAM-4 hands fitted with tactile sensors, WABOT-1 could grasp an object and transport it — coupling touch sensing to manipulation rather than running a blind, pre-scripted motion.",
+      "provenance": "documented",
+      "source_url": "https://www.humanoid.waseda.ac.jp/booklet/kato_2.html",
+      "source_label": "Waseda — Humanoid History (Kato)"
+    },
+    {
+      "title": "Let it locate an object before reaching for it",
+      "description": "Through its vision system — the artificial eyes and ears acting as external receptors — WABOT-1 could measure the distance and direction to objects around it, giving the limb-control system somewhere to aim.",
+      "provenance": "documented",
+      "source_url": "https://rauterberg.employee.id.tue.nl/presentations/HCI-history/tsld091.htm",
+      "source_label": "Rauterberg — HCI history, WABOT-1"
+    },
+    {
+      "title": "Three separate systems acting as one body",
+      "description": "WABOT-1 integrated a limb-control system, a vision system, and a conversation system at full human scale — researchers judged the combined faculties roughly equal to those of a one-and-a-half-year-old child, framing the whole agenda of humanoid robotics that followed.",
+      "provenance": "documented",
+      "source_url": "https://www.waseda.jp/top/en/news/88080",
+      "source_label": "Waseda University — Famous Robots at Waseda"
+    },
+    {
+      "title": "Fetch-and-place by spoken request",
+      "description": "Chaining the abilities WABOT-1 already had: ask it in Japanese to bring an object, let the vision system fix the object's distance and direction, then have the hands grasp and carry it back — a single errand stitched from its conversation, vision, and limb systems.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A guided lobby tour for visitors",
+      "description": "Standing where it does today in Building 63, WABOT-1 could greet arrivals in spoken Japanese and step slowly toward a display while describing it — turning its walking, speech, and sensing into a simple docent routine.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

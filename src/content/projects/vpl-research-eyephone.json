@@ -112,6 +112,59 @@
       "access_notes": "Profile of VPL Research covering founding in Lanier's Palo Alto cottage, DataGlove as 'one of the most popular symbols of virtual reality,' EyePhone, AudioSphere, Isaac rendering engine, and Body Electric visual programming language. Corroborates bankruptcy and Sun Microsystems patent acquisition."
     }
   ],
-  "interactions": [],
+  "interactions": [
+    {
+      "title": "Reach out and grab a virtual object",
+      "description": "Wearing the DataGlove, you curl your fingers to close a virtual hand around an on-screen object; fiber-optic flex sensors read the finger bend and a magnetic tracker reads where your hand is in space, so a clenching gesture maps to grasping inside the simulation.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/29933.275628",
+      "source_label": "Zimmerman & Lanier et al., 'A hand gesture interface device,' CHI+GI 1987"
+    },
+    {
+      "title": "Put on the headset at SIGGRAPH and look around a synthetic world",
+      "description": "At the 'Tomorrow's Realities' exhibit on June 1, 1989, attendees strapped on the EyePhone's twin LCD screens and, as the magnetic tracker followed their head, turned to look in any direction through a stereoscopic 3D scene.",
+      "provenance": "documented",
+      "source_url": "https://vrarwiki.com/wiki/VPL_EyePhone",
+      "source_label": "VR & AR Wiki — VPL EyePhone (SIGGRAPH 1989 debut)"
+    },
+    {
+      "title": "Share a virtual room with another person",
+      "description": "VPL's RB2 ('Reality Built for Two') let two people in separate headsets and gloves inhabit the same virtual space at once and see a representation of each other — the first commercial multi-user VR system, shown at the Symposium on Interactive 3D Graphics.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/91394.91409",
+      "source_label": "Blanchard, Burgess, Harvill, Lanier et al., 'Reality Built for Two,' SIGGRAPH I3D 1990"
+    },
+    {
+      "title": "Fly through a scene by pointing",
+      "description": "Beyond grabbing, the glove's gesture vocabulary let an operator navigate: pointing the gloved hand was interpreted as a command to move the viewpoint through the virtual environment, so you could travel through a world larger than the room you stood in.",
+      "provenance": "documented",
+      "source_url": "https://dl.acm.org/doi/10.1145/29933.275628",
+      "source_label": "Zimmerman & Lanier et al., 'A hand gesture interface device,' CHI+GI 1987"
+    },
+    {
+      "title": "Drive a robot from inside the headset at NASA Ames",
+      "description": "NASA's VIEW project used a DataGlove that Tom Zimmerman custom-built at VPL: an operator could call up a simulated telerobotic task environment and switch into a telepresence mode that linked the head-mounted stereo display directly to a remote telerobot's 3D cameras for hands-on viewpoint control.",
+      "provenance": "observed",
+      "source_url": "https://ntrs.nasa.gov/api/citations/19880014769/downloads/19880014769.pdf",
+      "source_label": "Fisher et al., 'Virtual Interface Environment,' NASA Ames (NTRS)"
+    },
+    {
+      "title": "A stripped-down glove under the Christmas tree",
+      "description": "Mattel licensed the DataGlove technology into the consumer Power Glove for the Nintendo Entertainment System, a hot 1989 holiday item that sold over a million units — and which VR hobbyists later repurposed as a cheap 3D input device via shareware like REND386.",
+      "provenance": "observed",
+      "source_url": "https://en.wikipedia.org/wiki/Power_Glove",
+      "source_label": "Wikipedia — Power Glove"
+    },
+    {
+      "title": "Rehearse a procedure in a virtual body",
+      "description": "Grounded in the system's real-time grab-and-manipulate mechanics, a trainee could reach into a simulated anatomical model and practice a delicate maneuver before performing it for real — VPL itself pitched the glove's potential for remote surgery.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Walk a client through an unbuilt building",
+      "description": "Using the glove to point and fly and the headset to look around, two people in an RB2 session could tour a building that exists only as a 3D model — an architect and a client meeting inside a design instead of around a set of drawings.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

@@ -92,5 +92,59 @@
       "access_notes": "Museum record for an original tortoise (object L2000-4441); confirms maker, institution, materials, and Festival of Britain display (1951)."
     }
   ],
+  "interactions": [
+    {
+      "title": "Set a lamp down and watch it crawl toward you",
+      "description": "Put a moderate light in a darkened room and the tortoise's rotating photocell finds it, steering the robot toward the glow in a circling approach; turn the light up too bright and it turns away to look elsewhere.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/meet-roombas-ancestor-cybernetic-tortoise",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "Bump it into a chair leg and let it find its own way out",
+      "description": "A touch contact in the shell registers a collision; the tortoise reverses and changes heading on its own, working its way around furniture without anyone steering it.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/meet-roombas-ancestor-cybernetic-tortoise",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "Leave it running until it puts itself to bed",
+      "description": "As the battery drains, the robot is drawn to the bright light inside its hutch; it crawls in, contact with the mains cuts the motors and recharges the cells, and once the voltage recovers it backs away from the glare and wanders off again.",
+      "provenance": "documented",
+      "source_url": "https://cyberneticzoo.com/cyberneticanimals/tortoises-batteries-re-charging-hutches-and-autonomy/",
+      "source_label": "cyberneticzoo.com"
+    },
+    {
+      "title": "Clip a small light to its shell and stand it before a mirror",
+      "description": "With its own pilot light burning, the tortoise sees the reflection, moves to extinguish it, then re-lights and chases again, jigging in a flickering oscillation Walter described as 'twittering, and jigging like a clumsy Narcissus' and offered as a hint of self-recognition.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/William_Grey_Walter",
+      "source_label": "Wikipedia — William Grey Walter"
+    },
+    {
+      "title": "Put two of them in the same pen",
+      "description": "Each tortoise carries a running light, so each is attracted to the other; they approach, the light grows too bright, and they veer off in a back-and-forth bumping that Walter likened to a mating dance the pair can never consummate.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/meet-roombas-ancestor-cybernetic-tortoise",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "Watch them perform for the public",
+      "description": "Through the summer of 1951 the tortoises ran daily at the Festival of Britain under the name Machina speculatrix, where visitors watched them navigate a pen, steer toward lights, and avoid obstacles.",
+      "provenance": "observed",
+      "source_url": "https://collection.sciencemuseumgroup.org.uk/objects/co531614/cybernetic-tortoise-developed-to-help-with-studies-on-brain-function",
+      "source_label": "Science Museum Group"
+    },
+    {
+      "title": "Map a room by where it lingers",
+      "description": "Because the tortoise dwells near moderate light and flees the brightest spots, leaving it loose for an evening would trace out a room's comfortable middle ground — a physical heat map of its phototaxis, grounded in the same light-seeking reflex it already runs.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A nightlight that comes when called",
+      "description": "Since it reliably homes on a moderate light, a bedside lamp could summon the tortoise across a dark floor to your side and let it settle once the light dims — using only its existing photocell and hutch-style approach, no added intelligence.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

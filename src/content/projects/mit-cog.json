@@ -80,5 +80,59 @@
       "access_notes": "Original 1993 memo by Brooks and Stein establishing the Cog project rationale."
     }
   ],
+  "interactions": [
+    {
+      "title": "Catch its eye and it saccades to you",
+      "description": "Move into Cog's field of view and its camera eyes snap toward you with rapid saccades, then hold and track the motion — the same orient-and-fixate reflex the team modeled on human infants.",
+      "provenance": "documented",
+      "source_url": "https://news.mit.edu/1999/cog",
+      "source_label": "MIT News (1999)"
+    },
+    {
+      "title": "Nod at it and it nods back",
+      "description": "Cog could find a face and eyes, register a caregiver's head nod, and imitate it — a first step toward joint attention and shared social reference rather than a scripted gesture.",
+      "provenance": "documented",
+      "source_url": "https://news.mit.edu/1999/cog",
+      "source_label": "MIT News (1999)"
+    },
+    {
+      "title": "Hold out a target and watch it reach",
+      "description": "Present a visual target and Cog reaches its arm toward it, coordinating hand and eye — the kind of early sensorimotor skill the researchers noted children acquire very young.",
+      "provenance": "documented",
+      "source_url": "https://news.mit.edu/1999/cog",
+      "source_label": "MIT News (1999)"
+    },
+    {
+      "title": "Swap its head and it relearns to look",
+      "description": "When experimenters fitted Cog with a new head that moved differently, it re-learned its saccade calibration rather than failing — adapting the eye-movement skill to the changed mechanics.",
+      "provenance": "documented",
+      "source_url": "https://news.mit.edu/1999/cog",
+      "source_label": "MIT News (1999)"
+    },
+    {
+      "title": "Hand it a Slinky and it plays",
+      "description": "Driven by simple coupled neural oscillators rather than any model of the object, Cog could pass a Slinky back and forth between its two hands, tune its arm to the resonant frequency of a swinging pendulum, turn a crank, and beat a drum — settling into the rhythm of whatever it was holding.",
+      "provenance": "documented",
+      "source_url": "https://groups.csail.mit.edu/lbr/hrg/1998/mattw-iros98.pdf",
+      "source_label": "Williamson, Rhythmic Robot Arm Control Using Oscillators (IROS 1998)"
+    },
+    {
+      "title": "Walk up and talk to it",
+      "description": "In the MIT lab, people would approach Cog, speak to it, and look it in the eye; the researchers treated those unscripted encounters as a rich stream of data for the robot to learn social behavior from, the way an infant learns from caregivers.",
+      "provenance": "observed",
+      "source_url": "https://news.mit.edu/1999/cog",
+      "source_label": "MIT News (1999)"
+    },
+    {
+      "title": "Turn a hand crank you offer it",
+      "description": "Because its rhythmic controller entrains to an object's dynamics without modeling it, you could clip Cog's hand to an unfamiliar crank, wheel, or mechanism and have it find and sustain the right turning rhythm on its own — a hands-on way to probe how far model-free entrainment generalizes.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A shared-gaze pointing game",
+      "description": "Building on its demonstrated face-finding and head-nod imitation, a person could glance toward an object and prompt Cog to follow the gaze and look there too, turning joint attention into a simple back-and-forth pointing game with a caregiver.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

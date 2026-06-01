@@ -63,5 +63,52 @@
       "access_notes": "Explains that the name X10 derives from it being Pico Electronics' tenth project, and traces the Accutrac 4000 predecessor that inspired powerline control."
     }
   ],
+  "interactions": [
+    {
+      "title": "Switch a lamp across the house with no new wiring",
+      "description": "Plug a lamp into a lamp module and a small command console into any outlet, then press the unit and On buttons to switch — or dim — that light from the other side of the house, the command riding the existing AC wiring.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/X10_(industry_standard)",
+      "source_label": "Wikipedia — X10 (industry standard)"
+    },
+    {
+      "title": "All-lights-on / all-units-off from one button",
+      "description": "Address several modules to the same house code, then send a single \"All Lights On\" or \"All Units Off\" command to flood the house with light or shut everything down at once on the way out the door.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/X10_(industry_standard)",
+      "source_label": "Wikipedia — X10 (industry standard)"
+    },
+    {
+      "title": "Lights that follow dawn and dusk",
+      "description": "With the CM11A serial interface and ActiveHome software, pick your nearest city and the system computes local sunrise and sunset each day, switching porch and lamp modules on at dusk and off at dawn automatically.",
+      "provenance": "documented",
+      "source_url": "http://www.authinx.com/manuals/X10/CM11A.pdf",
+      "source_label": "X10 CK11A ActiveHome owner's manual"
+    },
+    {
+      "title": "Program a schedule, then unplug the computer",
+      "description": "Once timed events and macros are downloaded to the CM11A, the PC is no longer needed — two AAA batteries hold the clock and program for up to 500 hours through a power failure while the interface keeps running the house.",
+      "provenance": "documented",
+      "source_url": "https://www.securco.com/_files/manuals/x10_active_home_pro_2989.pdf",
+      "source_label": "X10 ActiveHome Pro manual"
+    },
+    {
+      "title": "Wireless remote and motion sensor on house wiring",
+      "description": "A Palm Pad keypad or an ActiveEye motion sensor transmits a 310 MHz radio signal to a transceiver that injects the command onto the powerline, so walking up a dark driveway can trip a floodlight wired to an appliance module.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/X10_(industry_standard)",
+      "source_label": "Wikipedia — X10 (industry standard)"
+    },
+    {
+      "title": "Fake occupancy while you're away",
+      "description": "Schedule interior lamps to switch on and off across the evening so an empty house looks lived-in — a vacation-security routine assembled entirely from timed on/off codes.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Goodnight scene from the bedside",
+      "description": "A single Palm Pad button could fire a macro that dims the bedroom lamp, shuts off the living-room and kitchen modules, and leaves a hallway light low — chaining the per-module commands the controller already sends into one bedtime gesture.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

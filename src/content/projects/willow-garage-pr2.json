@@ -124,6 +124,59 @@
       "access_notes": "Official ROS robot directory entry for the PR2. Confirms Willow Garage as builder, Clearpath Robotics as current support, and that all PR2 software is written in ROS."
     }
   ],
-  "interactions": [],
+  "interactions": [
+    {
+      "title": "Send it off to find a wall outlet and recharge itself",
+      "description": "In a 2009 milestone demo the PR2 roamed Willow Garage's office, opened doors, dodged officemates, and plugged its own power cord into wall outlets with its arm and gripper — repositioning and retrying when it fumbled the plug, and skipping a room when it found the door locked.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/willow-garage-pr2-robot-navigates-through-office",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "Hand it a pile of crumpled towels and watch it fold them",
+      "description": "A UC Berkeley team (Maitin-Shepard, Cusumano-Towner, Lei, and Abbeel) taught the PR2 to grasp a wrinkled towel, visually find its corners, and fold it flat on a table — solving the hard problem of manipulating a deformable object whose shape can't be predicted in advance.",
+      "provenance": "documented",
+      "source_url": "https://news.berkeley.edu/2010/04/02/robot/",
+      "source_label": "Berkeley News"
+    },
+    {
+      "title": "Tap 'Beer Me' and have a bottle brought from the fridge",
+      "description": "During a Willow Garage hackathon week, engineers built a 'Beer Me' web app that sent the PR2 to open the refrigerator, recognize the right bottle by sight, and carry it back to a person — with cupholders added to its base and a sloped shelf fitted in the fridge to make the task tractable.",
+      "provenance": "documented",
+      "source_url": "https://singularityhub.com/2010/07/07/willow-garage-robot-fetches-beer-engineers-rejoice-video/",
+      "source_label": "Singularity Hub"
+    },
+    {
+      "title": "Set it loose at a pool table",
+      "description": "In a one-week sprint, a small team gave the PR2 a custom cue grip and bridge and wired up ball detection and table localization; using the open-source FastFiz billiards physics engine to pick shots, it sank five balls by week's end.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/061610-willow-garage-pr2-robot-now-plays-pool",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "Have it bake cookies from scratch",
+      "description": "MIT CSAIL's BakeBot project (Mario Bollini, in Daniela Rus's lab) programmed the PR2 to locate a cookie sheet and ingredients by color and size with its laser scanner and stereo camera, then mix dough and load it into an oven — following a long recipe of vision, object detection, and careful arm motions.",
+      "provenance": "documented",
+      "source_url": "https://ilp.mit.edu/node/39936",
+      "source_label": "MIT ILP"
+    },
+    {
+      "title": "Write a new manipulation skill once and run it on robots worldwide",
+      "description": "Because every PR2 ran the same open-source ROS stack, a researcher who developed a grasping or navigation behavior on one machine could share the code and have labs in Germany, Japan, Belgium, and the US run it on identical hardware — the shared platform that let mobile-manipulation results actually be reproduced.",
+      "provenance": "documented",
+      "source_url": "https://spectrum.ieee.org/050410-willow-garage-giving-away-11-pr2-robots-worth-over-4-million",
+      "source_label": "IEEE Spectrum"
+    },
+    {
+      "title": "A returns-desk helper that re-shelves mixed objects",
+      "description": "Building on the same vision-plus-dual-arm grasping the PR2 used to fetch beer and identify ingredients, it could pick assorted returned items off a counter, recognize each by shape and color, and carry them to the correct bin or shelf around a small store.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "An accessibility errand-runner in the home",
+      "description": "Given its proven door-opening, autonomous navigation, and object-fetching behaviors, the PR2 could act as a fetch-and-carry aid for someone with limited mobility — retrieving a dropped item from another room or bringing a labeled medication bottle from the kitchen.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

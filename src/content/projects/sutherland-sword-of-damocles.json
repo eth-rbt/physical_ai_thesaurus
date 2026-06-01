@@ -108,6 +108,52 @@
       "access_notes": "Corroborates 1968 date, University of Utah, ceiling-mounted arm, wireframe graphics, and Sproull as key collaborator."
     }
   ],
-  "interactions": [],
+  "interactions": [
+    {
+      "title": "Walk around a cube made of light",
+      "description": "With the headset strapped on, the wearer looked at a wireframe cube hanging in the air in front of them and could step around it, the computer redrawing the lines so the far faces came into view — Sutherland's own description was that 'you could look at a small volume and go around it all.'",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/The_Sword_of_Damocles_(virtual_reality)",
+      "source_label": "Wikipedia — The Sword of Damocles"
+    },
+    {
+      "title": "Move your head and the picture moves with you",
+      "description": "As the wearer turned or tilted their head, the system tracked the new position and recomputed the perspective for each eye, so the wireframe shape appeared to stay fixed in the room rather than dragging along with the gaze.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/The_Sword_of_Damocles_(virtual_reality)",
+      "source_label": "Wikipedia — The Sword of Damocles"
+    },
+    {
+      "title": "See the lab and the graphics at once",
+      "description": "The optics were partially see-through, so the glowing wireframe lines were overlaid on the actual laboratory the wearer was standing in rather than blocking it out — the graphics augmented the real room.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/The_Sword_of_Damocles_(virtual_reality)",
+      "source_label": "Wikipedia — The Sword of Damocles"
+    },
+    {
+      "title": "Strap into the ceiling arm",
+      "description": "Because the headgear was too heavy to wear unsupported, an operator fastened it to the wearer's head and hung it from the ceiling-mounted mechanical arm — the menacing apparatus overhead that gave the system its 'Sword of Damocles' name — which also helped report head position.",
+      "provenance": "documented",
+      "source_url": "https://www.vrs.org.uk/virtual-reality/history.html",
+      "source_label": "Virtual Reality Society — History of VR"
+    },
+    {
+      "title": "Demonstrate presence with bare wireframe",
+      "description": "Even though the objects were 'just glowing lines hanging in space' with no surfaces, Sutherland showed in talks that wearers felt they were genuinely inside the displayed space — a proof that head-tracked perspective alone produces a sense of being there.",
+      "provenance": "documented",
+      "source_url": "https://blog.siggraph.org/2018/08/vr-at-50-celebrating-ivan-sutherland.html/",
+      "source_label": "ACM SIGGRAPH Blog — VR at 50"
+    },
+    {
+      "title": "Inspect a 3D model from every side",
+      "description": "An engineer could mount a wireframe part in the display and walk around it to read its geometry from any angle, an early hands-free precursor to design review — grounded in the system's real head-tracked, perspective-correct rendering of computer-generated shapes.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Step inside a data structure",
+      "description": "Because the machine can place arbitrary line geometry around the wearer, abstract structures — a molecule's bonds, a lattice, a graph — could be hung in the air to be examined by moving the head rather than rotating a picture on a flat screen.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

@@ -89,5 +89,52 @@
       "access_notes": "Covers broader PERS category history, including Dibner's 1972 conception and 1974 founding, and parallel German Hausnotruf development."
     }
   ],
+  "interactions": [
+    {
+      "title": "Press the pendant to summon help",
+      "description": "A subscriber who has fallen and cannot reach a phone presses the single button on the worn pendant; the home console seizes the telephone line and places a call to the hospital Lifeline switchboard.",
+      "provenance": "documented",
+      "source_url": "https://www.lifeline.com/blog/evolution-of-medical-alert-system-technology/",
+      "source_label": "Lifeline — evolution of the technology"
+    },
+    {
+      "title": "The call-back that decides who comes",
+      "description": "After an alert, the switchboard calls the home back; if the person does not answer, the operator contacts emergency services and listed family members on the subscriber's behalf.",
+      "provenance": "documented",
+      "source_url": "https://www.lifeline.com/blog/evolution-of-medical-alert-system-technology/",
+      "source_label": "Lifeline — evolution of the technology"
+    },
+    {
+      "title": "Daily phone use as an 'I'm OK' signal",
+      "description": "In Dibner's patented design, a 24-hour timer resets every time the telephone handset is lifted, so ordinary daily calls quietly count as a check-in; a full day of silence is what trips the alarm.",
+      "provenance": "documented",
+      "source_url": "https://patents.google.com/patent/US3989900A/en",
+      "source_label": "U.S. Patent 3,989,900"
+    },
+    {
+      "title": "The 90-second window to cancel a false alarm",
+      "description": "When the timer fires, a local bell rings and the dialer prepares to call out; the patent gives the occupant roughly 90 seconds to lift the handset and abort the sequence before recorded help messages go out.",
+      "provenance": "documented",
+      "source_url": "https://patents.google.com/patent/US3989900A/en",
+      "source_label": "U.S. Patent 3,989,900"
+    },
+    {
+      "title": "Console check-in button",
+      "description": "Rather than only reacting to emergencies, the console carries a special check-in button the user can press to reset the automatic timer, signaling they are fine for another interval.",
+      "provenance": "documented",
+      "source_url": "https://www.fundinguniverse.com/company-histories/lifeline-systems-inc-history/",
+      "source_label": "FundingUniverse — Lifeline Systems history"
+    },
+    {
+      "title": "A standing-up ritual that resets the day",
+      "description": "Because any lift of the handset reset the timer, a subscriber could turn a habitual morning phone call to a friend into the day's safety check — grounded in the patent's handset-reset mechanism, used as a deliberate daily routine.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Neighbor as first responder",
+      "description": "Since the operator works from a contact list, a subscriber could name a trusted neighbor ahead of the ambulance, so a pressed button first brings someone with a key to the door — built on the existing human-in-the-loop call-list the system already maintains.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

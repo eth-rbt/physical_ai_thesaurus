@@ -95,5 +95,52 @@
       "access_notes": "Timeline of NAO milestones including RoboCup adoption and research deployment."
     }
   ],
+  "interactions": [
+    {
+      "title": "Play autonomous soccer at RoboCup",
+      "description": "Teams of identical NAOs walk, find the ball with their cameras, and play full soccer matches against each other with no human control, as the standard robot of RoboCup's Standard Platform League since 2008.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/RoboCup_Standard_Platform_League",
+      "source_label": "RoboCup Standard Platform League — Wikipedia"
+    },
+    {
+      "title": "Build behaviors by dragging boxes in Choregraphe",
+      "description": "Students and researchers assemble the robot's movements and interactive behaviors visually in the Choregraphe interface, snapping together pre-built boxes or editing the underlying Python, with classrooms sharing a few NAOs among a class of students.",
+      "provenance": "documented",
+      "source_url": "https://www.iadisportal.org/ijwi/papers/2015131106.pdf",
+      "source_label": "Humanoid Robots in the Classroom (IADIS)"
+    },
+    {
+      "title": "Run therapy modules with autistic children",
+      "description": "Therapists use NAO as a co-therapist in sessions with children on the autism spectrum, running imitation, communication, and attention exercises; some children found the childlike, expressive robot more relatable than a person.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Nao_(robot)",
+      "source_label": "Nao (robot) — Wikipedia"
+    },
+    {
+      "title": "Perform a synchronized dance",
+      "description": "Crowds of NAOs performed choreographed, synchronized dance routines, including a display at the 2010 Shanghai Expo.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Nao_(robot)",
+      "source_label": "Nao (robot) — Wikipedia"
+    },
+    {
+      "title": "Greet customers at a bank branch",
+      "description": "Mitsubishi UFJ Financial Group began trialing NAO units in Japanese bank branches in 2015 to interact with and assist customers.",
+      "provenance": "observed",
+      "source_url": "https://en.wikipedia.org/wiki/Nao_(robot)",
+      "source_label": "Nao (robot) — Wikipedia"
+    },
+    {
+      "title": "Coach a small-group language drill",
+      "description": "A teacher loads a vocabulary routine and lets NAO lead a few children through call-and-response practice — using its speech recognition and four microphones to hear answers and its expressive gestures to keep attention — freeing the teacher to observe.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Mirror-and-prompt physiotherapy at home",
+      "description": "Standing in front of a recovering patient, NAO demonstrates a stretch with its 25 joints and watches with its cameras to nudge the next repetition, turning rote exercises into a paced, social routine.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

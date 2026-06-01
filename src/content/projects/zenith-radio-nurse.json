@@ -106,5 +106,59 @@
       "access_notes": "V&A collection record for the Radio Nurse with dimensions and design attribution."
     }
   ],
+  "interactions": [
+    {
+      "title": "Leave the nursery and still keep an ear on the baby",
+      "description": "Set the Guardian Ear transmitter by the crib, carry the Radio Nurse receiver into another room, and go about housework while the baby's sounds came through. Zenith's own pitch was 'Radio Nurse enables you to leave the nursery, yet guard your baby... Keep an \"ear\" on your children!'",
+      "provenance": "documented",
+      "source_url": "https://www.cooperhewitt.org/2013/05/12/a-modernist-mothers-helper/",
+      "source_label": "Cooper Hewitt"
+    },
+    {
+      "title": "Plug both halves into the wall — no installation",
+      "description": "Both units simply plugged into household outlets, with the home's own electrical wiring carrying the transmitted sound between transmitter and receiver, so a parent could put the set to work without wiring or setup.",
+      "provenance": "documented",
+      "source_url": "https://www.thehenryford.org/explore/blog/an-industrial-design-classic-isamu-noguchi-and-the-radio-nurse",
+      "source_label": "The Henry Ford"
+    },
+    {
+      "title": "Tickle the chin to turn it down",
+      "description": "The receiver's volume control was hidden as a wheel beneath the sculpted unit's 'chin,' so adjusting how loud the nursery came through amounted to a small tickle under its jaw.",
+      "provenance": "documented",
+      "source_url": "https://www.thehenryford.org/explore/blog/an-industrial-design-classic-isamu-noguchi-and-the-radio-nurse",
+      "source_label": "The Henry Ford"
+    },
+    {
+      "title": "Listen in on an invalid, not just an infant",
+      "description": "Early Zenith advertising aimed the device at the bedside as much as the crib: an ad in the AMA's Hygeia magazine titled 'If You Have a Baby or an Invalid' pictured an elderly woman alongside a baby, framing it as a way to keep ear on a sick relative from another room.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Zenith_Radio_Nurse",
+      "source_label": "Wikipedia"
+    },
+    {
+      "title": "Overhear the neighbors — or be overheard",
+      "description": "Because the radio signal sometimes leaked beyond the house wiring, listeners could pick up strangers' voices through the receiver or have their own nursery overheard next door, an early privacy failure that discouraged adoption.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Zenith_Radio_Nurse",
+      "source_label": "Wikipedia"
+    },
+    {
+      "title": "Crosstalk with the garage door",
+      "description": "Sharing a radio frequency with other new consumer gadgets like car radios and garage-door openers meant the nursery feed could be interrupted or mingled with stray signals from around the neighborhood.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Zenith_Radio_Nurse",
+      "source_label": "Wikipedia"
+    },
+    {
+      "title": "A second ear at the sickbed table",
+      "description": "Grounded in its marketed invalid-care use, the same plug-in pair could let a caregiver doing chores downstairs hear a bedridden relative call out — an audio-only nurse call decades before the intercom became standard hospital equipment.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Workshop ears",
+      "description": "Since the receiver simply made one room audible in another over house wiring, a worker could leave the transmitter by a noisy machine or a doorbell and listen for trouble from the next room while working — using the device purely as a one-way room monitor.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

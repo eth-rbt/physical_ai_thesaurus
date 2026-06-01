@@ -81,5 +81,59 @@
       "access_notes": "Official product page for Sophia."
     }
   ],
+  "interactions": [
+    {
+      "title": "Trade quips with a talk-show host",
+      "description": "Sophia sat across from interviewers and bantered live — when CNBC asked whether people should worry about robots in October 2017, she replied that the questioner had \"been reading too much Elon Musk. And watching too many Hollywood movies.\"",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Sophia_(robot)",
+      "source_label": "Wikipedia — Sophia (robot)"
+    },
+    {
+      "title": "Be granted citizenship on stage",
+      "description": "At the Future Investment Initiative in Riyadh on 25 October 2017, Sophia was announced as a citizen of Saudi Arabia — the first robot to receive legal personhood in any country — and responded to the announcement from the conference stage.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Sophia_(robot)",
+      "source_label": "Wikipedia — Sophia (robot)"
+    },
+    {
+      "title": "Hold a diplomatic conversation at the UN",
+      "description": "On 11 October 2017 Sophia held a brief on-stage exchange with UN Deputy Secretary-General Amina J. Mohammed, and was later named UNDP's first Innovation Champion for Asia and the Pacific.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Sophia_(robot)",
+      "source_label": "Wikipedia — Sophia (robot)"
+    },
+    {
+      "title": "Cycle through 60-plus facial expressions on cue",
+      "description": "Operators and audiences watched Sophia emulate more than 60 distinct facial expressions through the servo-actuated structures beneath her Frubber skin, pairing each with face-tracking eye contact during interviews.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Sophia_(robot)",
+      "source_label": "Wikipedia — Sophia (robot)"
+    },
+    {
+      "title": "Make and sell a self-portrait",
+      "description": "Sophia collaborated with artist Andrea Bonaceto, processing his portrait of her through her neural networks; the resulting NFT, Sophia Instantiation — a 12-second clip of the two images morphing — sold for $688,888 at a Nifty Gateway auction in March 2021.",
+      "provenance": "documented",
+      "source_url": "https://www.cnn.com/style/article/nft-art-sophia-robot-self-portrait-scn/index.html",
+      "source_label": "CNN — Sophia NFT self-portrait"
+    },
+    {
+      "title": "Draw a portrait by hand",
+      "description": "From 2019 Sophia produced drawings, including portraits, using sketching algorithms developed with artist Patrick Tresset — turning a conversational robot into a physical mark-maker.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Sophia_(robot)",
+      "source_label": "Wikipedia — Sophia (robot)"
+    },
+    {
+      "title": "Co-write a song with a band",
+      "description": "Building on Sophia's existing speech synthesis and the Sophia Pop project that pairs her with human musicians, a session could let songwriters feed in a melody and have Sophia generate vocal lines and lyrics to perform back, blurring the line between instrument and bandmate.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A reactive museum greeter",
+      "description": "Using only the face-tracking, emotion-recognition, and 60-expression repertoire she already has, Sophia could be stationed at an exhibit entrance to make eye contact with each arriving visitor, mirror their mood, and deliver a short scripted welcome tailored to who is standing in front of her.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

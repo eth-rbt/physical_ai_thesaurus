@@ -94,5 +94,66 @@
       "access_notes": "Describes Want as principal designer and builder of the PARCTab while at Xerox PARC; credits the device as widely recognized as the world's first context-aware mobile computer."
     }
   ],
+  "interactions": [
+    {
+      "title": "Print to whatever room you're standing in",
+      "description": "Issue the print command from the tab and the job goes by default to the closest printer; the proximate-selection dialog lists printers with their room and distance, with the nearest ones emphasized, so you pick the one down the hall instead of one across the building.",
+      "provenance": "documented",
+      "source_url": "http://csis.pace.edu/~marchese/CS396x/L3/wmc-94-schilit.pdf",
+      "source_label": "Schilit, Adams & Want, Context-Aware Computing Applications (IEEE WMCSA 1994)"
+    },
+    {
+      "title": "Locate and page a colleague by their context",
+      "description": "Because each person carries a tab, the system can tell where a colleague is and whether they are alone or in a meeting; you can page them unconditionally, or let the page be delayed until their situation is favorable for an interruption.",
+      "provenance": "documented",
+      "source_url": "https://home.cs.colorado.edu/~rhan/CSCI_7143_Fall_2007/Papers/Want95long_PARCTab.pdf",
+      "source_label": "Want et al., An Overview of the PARCTAB Ubiquitous Computing Experiment"
+    },
+    {
+      "title": "A file browser that changes with the room you walk into",
+      "description": "The location browser shows a 'location-based filesystem': step into someone's office and you see their finger plan and calendar; stand near the kitchen and you see directions for making coffee and finding supplies. Directories were writable, so you could leave an electronic post-it note for whoever entered next.",
+      "provenance": "documented",
+      "source_url": "http://csis.pace.edu/~marchese/CS396x/L3/wmc-94-schilit.pdf",
+      "source_label": "Schilit, Adams & Want, Context-Aware Computing Applications (IEEE WMCSA 1994)"
+    },
+    {
+      "title": "A virtual whiteboard bound to the room",
+      "description": "Tabdraw gave each room a shared drawing surface; walking into a room automatically bound your tab to that room's virtual whiteboard so a group could sketch together, and moving to another room brought up a different surface.",
+      "provenance": "documented",
+      "source_url": "https://home.cs.colorado.edu/~rhan/CSCI_7143_Fall_2007/Papers/Want95long_PARCTab.pdf",
+      "source_label": "Want et al., An Overview of the PARCTAB Ubiquitous Computing Experiment"
+    },
+    {
+      "title": "Anonymous audience voting on a talk",
+      "description": "With the Arbitron voting application, audience members holding tabs vote anonymously on the quality and pace of a presentation; the tallies appear on a shared Liveboard visible to both the audience and the presenter, who can adjust on the fly.",
+      "provenance": "documented",
+      "source_url": "https://home.cs.colorado.edu/~rhan/CSCI_7143_Fall_2007/Papers/Want95long_PARCTab.pdf",
+      "source_label": "Want et al., An Overview of the PARCTAB Ubiquitous Computing Experiment"
+    },
+    {
+      "title": "The coffee maker that crows when someone brews a pot",
+      "description": "The Watchdog program ran IF-THEN rules on location events: a badge attached to the kitchen coffee maker triggered a rooster sound to play whenever anyone made coffee, and an 'attention' signal could pop open an Emacs window on the nearest workstation.",
+      "provenance": "documented",
+      "source_url": "http://csis.pace.edu/~marchese/CS396x/L3/wmc-94-schilit.pdf",
+      "source_label": "Schilit, Adams & Want, Context-Aware Computing Applications (IEEE WMCSA 1994)"
+    },
+    {
+      "title": "Reminders that wait for the right place or person",
+      "description": "Contextual Reminders let you attach a note to a situation rather than just a clock time, so a message would surface on the tab the 'next time in the library,' the 'next time I see Marvin,' or 'when I'm back at my desk' — and you could edit, dismiss, or ignore it.",
+      "provenance": "documented",
+      "source_url": "http://csis.pace.edu/~marchese/CS396x/L3/wmc-94-schilit.pdf",
+      "source_label": "Schilit, Adams & Want, Context-Aware Computing Applications (IEEE WMCSA 1994)"
+    },
+    {
+      "title": "A guided tour that narrates itself room by room",
+      "description": "Building on the location browser's room-specific files, a visitor could carry a tab through the lab and have each space surface its own relevant note — what a research group works on, or the booking procedure for a conference room — without anyone leading the tour.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Quiet-hours pages that hold until you're alone",
+      "description": "Extending the existing context-filtered paging and email rules, incoming messages could be held back while you're in a meeting and released only once the room shows you alone at your desk, turning the deterministic location cell into a do-not-disturb switch.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

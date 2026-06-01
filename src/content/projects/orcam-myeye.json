@@ -94,5 +94,59 @@
       "access_notes": "Official product page with current features and specifications."
     }
   ],
-  "confidence": "high"
+  "confidence": "high",
+  "interactions": [
+    {
+      "title": "Point a finger to start reading",
+      "description": "Touch a fingertip to a page or label with the nail facing up; the device frames the spot, chirps to confirm, and reads the text aloud after you pull your hand away.",
+      "provenance": "documented",
+      "source_url": "https://afb.org/aw/18/2/15244",
+      "source_label": "AFB AccessWorld review"
+    },
+    {
+      "title": "Teach it a face, then hear who walked in",
+      "description": "Hold the trigger button for two seconds while looking at someone and record their name; afterward the device speaks that name whenever the person comes into view, and it can pick out up to eight faces at once in a room.",
+      "provenance": "documented",
+      "source_url": "https://afb.org/aw/18/2/15244",
+      "source_label": "AFB AccessWorld review"
+    },
+    {
+      "title": "Train your own grocery shortcut",
+      "description": "Point at a product three times from different distances and backgrounds, record a short spoken label, and the device will announce that item by your own description the next time you pick it up — with room for up to 150 stored products.",
+      "provenance": "documented",
+      "source_url": "https://afb.org/aw/18/2/15244",
+      "source_label": "AFB AccessWorld review"
+    },
+    {
+      "title": "Skim a newspaper by voice",
+      "description": "Instead of hearing a page read top to bottom, say \"Read the headlines\" to scan the titles, then \"Read the article about\" a topic to jump straight into the piece you want.",
+      "provenance": "documented",
+      "source_url": "https://www.orcam.com/en-us/blog/how-to-use-the-new-interactive-reading-feature-on-orcam-myeye",
+      "source_label": "OrCam — Smart Reading"
+    },
+    {
+      "title": "Pull just the prices off a menu",
+      "description": "Aim at a restaurant menu and say \"Read the amounts\" to hear only the prices, or \"Read the dates\" and \"Read the phone numbers\" to extract those fields from a document without sitting through the rest.",
+      "provenance": "documented",
+      "source_url": "https://www.orcam.com/en-us/blog/how-to-use-the-new-interactive-reading-feature-on-orcam-myeye",
+      "source_label": "OrCam — Smart Reading"
+    },
+    {
+      "title": "Check which bill is in your hand",
+      "description": "Hold up a banknote or press the trigger and the device names the currency denomination from its pre-loaded set, so you can hand over the right cash at a register.",
+      "provenance": "documented",
+      "source_url": "https://afb.org/aw/18/2/15244",
+      "source_label": "AFB AccessWorld review"
+    },
+    {
+      "title": "Read the room before you greet it",
+      "description": "Walking into a gathering, ask how many people are present and hear a count, then let stored-face tags name the family and neighbors as they come into frame — using only the on-device people-counting and recognition the unit already runs.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Follow a slide deck from your seat",
+      "description": "Glance up at a projected presentation and have each slide's text read into your ear as it changes, turning the same screen-text reading the device does for TVs and monitors into hands-free note-taking during a meeting.",
+      "provenance": "proposed"
+    }
+  ]
 }

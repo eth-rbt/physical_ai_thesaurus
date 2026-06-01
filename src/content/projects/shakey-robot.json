@@ -84,6 +84,59 @@
       "access_notes": "CHM Revolution exhibition entry. Confirms Shakey could understand natural language instructions such as 'push the block off the platform,' plan autonomously, and execute sub-tasks. Notes A* and STRIPS as key algorithmic outputs."
     }
   ],
-  "interactions": [],
+  "interactions": [
+    {
+      "title": "Type a goal, watch it figure out the steps",
+      "description": "A researcher sat at a console and typed a terse instruction such as \"push the block off the platform.\" Rather than being walked through each step, Shakey broke the goal into its own sub-tasks and carried them out, the first robot to bridge typed instruction and physical action.",
+      "provenance": "documented",
+      "source_url": "https://www.computerhistory.org/revolution/artificial-intelligence-robotics/13/289",
+      "source_label": "Computer History Museum — Shakey"
+    },
+    {
+      "title": "Improvise a ramp to reach a block it can't touch",
+      "description": "Told to push a block off a raised platform it couldn't reach from the floor, Shakey located a ramp, pushed it against the platform, rolled up it, found the block, and shoved it off — a multi-step plan it assembled itself.",
+      "provenance": "documented",
+      "source_url": "https://cyberneticzoo.com/cyberneticanimals/1967-shakey-charles-rosen-nils-nilsson-bertram-raphael-et-al-american/",
+      "source_label": "cyberneticzoo.com — Shakey archive"
+    },
+    {
+      "title": "Compound errands across rooms",
+      "description": "Operators gave it layered goals like \"go to room D and push block 9 over to where doorway 4 is,\" combining navigation, object identification, and pushing into a single instruction the planner had to untangle.",
+      "provenance": "documented",
+      "source_url": "https://www.computerhistory.org/revolution/artificial-intelligence-robotics/13/289",
+      "source_label": "Computer History Museum — Shakey"
+    },
+    {
+      "title": "Instruct it in a slice of plain English",
+      "description": "Shakey understood roughly 100 words of written English; a typed instruction was translated into a verbal code and then into the formal expressions its planner reasoned over, all running on a PDP-10 in another room linked by radio.",
+      "provenance": "documented",
+      "source_url": "https://cyberneticzoo.com/cyberneticanimals/1967-shakey-charles-rosen-nils-nilsson-bertram-raphael-et-al-american/",
+      "source_label": "cyberneticzoo.com — Shakey archive"
+    },
+    {
+      "title": "Send it to flip a light switch or open a door",
+      "description": "Its action repertoire included moving between locations, toggling light switches on and off, opening and closing doors, climbing over rigid objects, and pushing movable ones — the building blocks the planner strung together.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Shakey_the_robot",
+      "source_label": "Wikipedia — Shakey the robot"
+    },
+    {
+      "title": "Find its own way through a cluttered room",
+      "description": "Steering by the baseboards and pausing at open doorways, Shakey could pick a path through an arrangement of obstacles and later recall it to return by a different route — early autonomous route-finding rather than a fixed track.",
+      "provenance": "documented",
+      "source_url": "https://cyberneticzoo.com/cyberneticanimals/1967-shakey-charles-rosen-nils-nilsson-bertram-raphael-et-al-american/",
+      "source_label": "cyberneticzoo.com — Shakey archive"
+    },
+    {
+      "title": "Stage a tidy-the-room demo",
+      "description": "Given its block-pushing and room-to-room navigation, an operator could type a goal like consolidating scattered blocks against one wall and let the planner decide the order of pushes and routes — a clean-up errand built entirely from actions Shakey already had.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Inspection round at lights-out",
+      "description": "Drawing on its move-and-toggle repertoire, Shakey could be told to visit each room in turn and switch the lights off, planning a route that hits every switch — a nightly walk-through expressed as one high-level goal.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

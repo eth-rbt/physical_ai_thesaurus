@@ -77,7 +77,60 @@
     }
   ],
 
-  "interactions": [],
+  "interactions": [
+    {
+      "title": "See who's at the door without opening it",
+      "description": "When someone arrives, the occupant watches the visitor's picture appear on a television monitor inside the home, identifying them from a safe distance instead of unbolting the door.",
+      "provenance": "documented",
+      "source_url": "https://patents.google.com/patent/US3482037A/en",
+      "source_label": "U.S. Patent 3,482,037"
+    },
+    {
+      "title": "Slide the camera to frame a visitor of any height",
+      "description": "By pressing the up or down buttons on the control panel, the occupant drives the camera vertically across four peepholes, so a tall caller or a short one can be brought into view on the monitor.",
+      "provenance": "documented",
+      "source_url": "https://patents.google.com/patent/US3482037A/en",
+      "source_label": "U.S. Patent 3,482,037"
+    },
+    {
+      "title": "Question the caller through the door",
+      "description": "The occupant speaks into a microphone to ask the visitor their business and hears the reply over a loudspeaker, holding a full conversation without ever standing at the door.",
+      "provenance": "documented",
+      "source_url": "https://patents.google.com/patent/US3482037A/en",
+      "source_label": "U.S. Patent 3,482,037"
+    },
+    {
+      "title": "Unlock the door from across the room",
+      "description": "Satisfied the caller is welcome, the occupant presses a button that withdraws the bolt from its catch, releasing the solenoid lock and letting the visitor in from the safety of the interior.",
+      "provenance": "documented",
+      "source_url": "https://patents.google.com/patent/US3482037A/en",
+      "source_label": "U.S. Patent 3,482,037"
+    },
+    {
+      "title": "Sound the alarm if a threat appears",
+      "description": "If the occupant judges a real danger at the door, pressing the alarm button triggers an alarm at a guard station, a pushbutton route to summoning police or security.",
+      "provenance": "documented",
+      "source_url": "https://patents.google.com/patent/US3482037A/en",
+      "source_label": "U.S. Patent 3,482,037"
+    },
+    {
+      "title": "A safer night shift for a nurse alone at home",
+      "description": "Brown, a nurse keeping irregular hours in a high-crime part of Jamaica, Queens, built the system so she could assess and admit visitors herself when she was home alone, rather than open the door to an unknown caller.",
+      "provenance": "documented",
+      "source_url": "https://lemelson.mit.edu/resources/marie-van-brittan-brown",
+      "source_label": "MIT Lemelson Center"
+    },
+    {
+      "title": "Keep a record of who came to the door",
+      "description": "Because the patent provides for forwarding the sound and picture to a security center or recording them, an occupant could later review a log of callers — an analog precursor to the saved clips of today's video doorbells.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Screen a delivery before granting entry",
+      "description": "A resident expecting a package could watch the courier on the monitor, confirm through the two-way audio where to leave it, and release the door lock only once satisfied — all from inside, using the system's existing camera, intercom, and remote latch.",
+      "provenance": "proposed"
+    }
+  ],
 
   "confidence": "high"
 }

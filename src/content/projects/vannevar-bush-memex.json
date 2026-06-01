@@ -51,6 +51,60 @@
   "metrics": {
     "memory_span": 5
   },
+  "interactions": [
+    {
+      "title": "Call up a book by tapping a code",
+      "description": "The owner taps a few keys to summon any book, record, or letter from the microfilm store, and it appears projected on one of the desk's slanting translucent screens for reading.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Memex",
+      "source_label": "Memex — Wikipedia"
+    },
+    {
+      "title": "Drop a new page onto the platen",
+      "description": "To add fresh material, the user lays a letter or photograph on the platen and depresses a lever; a dry-photography process copies it onto the next blank frame of film.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Memex",
+      "source_label": "Memex — Wikipedia"
+    },
+    {
+      "title": "Tie two items together into a trail",
+      "description": "Reading two related pages side by side, the user joins them with a code so that tapping a button later jumps instantly from one to the other — and can branch a side trail off to a particular item.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Memex",
+      "source_label": "Memex — Wikipedia"
+    },
+    {
+      "title": "Build the Turkish-bow trail",
+      "description": "Bush's worked example: curious why the Turkish bow bested the English longbow, the owner runs through encyclopedia and history articles, branches into texts on elasticity, and threads dozens of items into one named trail with his own longhand analysis inserted.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/As_We_May_Think",
+      "source_label": "As We May Think — Wikipedia"
+    },
+    {
+      "title": "Insert your own marginal note",
+      "description": "Anywhere along a trail the user can add a comment of his own — either linking it into the main trail or hanging it off a side trail beside the item it speaks to.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Memex",
+      "source_label": "Memex — Wikipedia"
+    },
+    {
+      "title": "Hand a trail to a friend",
+      "description": "The owner reproduces an interesting trail — references plus his personal annotations — and passes the copy to a colleague, who slots it straight into his own Memex; Bush imagined 'trail blazers' who make a profession of finding such useful paths.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/As_We_May_Think",
+      "source_label": "As We May Think — Wikipedia"
+    },
+    {
+      "title": "Retrace a doctor's diagnostic trail",
+      "description": "A physician facing an unfamiliar case pulls up a trail another doctor blazed through prior cases, drug references, and reactions — following the associative links rather than searching a rigid index. Grounded in Bush's shareable-trail mechanism, an example he himself sketched for the medical reader.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Inherit a mentor's lifetime of trails",
+      "description": "When a researcher retires, an apprentice loads the senior's accumulated trails into their own Memex and walks the same associative paths through a career's worth of reading — built directly on the copy-and-insert sharing the device supports.",
+      "provenance": "proposed"
+    }
+  ],
   "images": [
     {
       "image_id": "img-vannevar-bush-memex-001",

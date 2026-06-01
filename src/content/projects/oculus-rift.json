@@ -72,5 +72,59 @@
       "access_notes": "Facebook acquisition ($2B, March 2014), Kickstarter campaign details ($2.4M raised)."
     }
   ],
+  "interactions": [
+    {
+      "title": "Get the kit before the consumer ever can",
+      "description": "Developers and curious enthusiasts bought the DK1 (March 2013) and DK2 (July 2014) — over 100,000 DK2 units shipped by February 2015 — to start building and previewing VR years before any consumer headset existed.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Oculus_Rift",
+      "source_label": "Oculus Rift — Wikipedia"
+    },
+    {
+      "title": "Sit down and fly a spaceship",
+      "description": "The CV1 shipped with an Xbox gamepad and bundled seated titles like EVE: Valkyrie, where you pilot a fighter through dogfights, turning your head to track enemies across the cockpit.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Oculus_Rift",
+      "source_label": "Oculus Rift — Wikipedia"
+    },
+    {
+      "title": "Lean and look to drive a platformer",
+      "description": "Lucky's Tale, packaged free with the CV1, let players follow a 3D platformer character around by physically leaning and peering into the scene rather than steering a fixed camera.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Oculus_Rift",
+      "source_label": "Oculus Rift — Wikipedia"
+    },
+    {
+      "title": "Reach out and grab a virtual object",
+      "description": "With the Oculus Touch controllers (released late 2016), a middle-finger trigger grabs objects and an index trigger throws or fires them — translating the motion of your real hands into one-to-one grabbing and throwing in VR.",
+      "provenance": "documented",
+      "source_url": "https://www.tomshardware.com/news/oculus-rift-vr-touch-controller,29408.html",
+      "source_label": "Tom's Hardware — Touch hands-on"
+    },
+    {
+      "title": "Play in a shared toy box with another person",
+      "description": "Oculus's Toybox demo put two Touch users at a virtual table where they grabbed, threw, and handed objects to each other — playing tetherball and ping pong, lighting sparklers, tossing lit TNT, and firing a shrink ray to shrink the other player.",
+      "provenance": "documented",
+      "source_url": "https://www.uploadvr.com/inside-oculus-toy-box-hands-on-with-oculus-touch-controllers/",
+      "source_label": "UploadVR — Toybox hands-on"
+    },
+    {
+      "title": "Gesture with your hands to communicate",
+      "description": "Touch sensed thumb and forefinger articulation, so players could point, give a thumbs-up, or wave at each other in VR — small gestures that carried social presence between body-less avatars.",
+      "provenance": "documented",
+      "source_url": "https://www.roadtovr.com/new-oculus-touch-toybox-videos-show-gestures-sock-puppets-shrink-rays-and-more/",
+      "source_label": "Road to VR — Toybox gestures"
+    },
+    {
+      "title": "Walk a building before it is built",
+      "description": "Given the positional head tracking and stereoscopic displays the Rift already provided, an architect could load a model and let a client step inside a room at true scale, looking up at a ceiling height instead of reading it off a drawing.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "Rehearse a difficult conversation",
+      "description": "Using the seated head-tracked rendering, a person could face a calm virtual avatar to practice a presentation or hard conversation, the headset's full field of view keeping the rehearsal immersive without other people watching.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

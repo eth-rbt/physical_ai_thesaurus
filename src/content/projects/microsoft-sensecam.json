@@ -89,5 +89,59 @@
       "access_notes": "Secondary source covering invention history, technical specifications (fisheye lens, accelerometer, PIR, temperature sensor), clinical applications, and successor products."
     }
   ],
+  "interactions": [
+    {
+      "title": "Replay your day as a fast diary film",
+      "description": "At the end of a day the wearer pulls the captured stills onto a PC and watches them play back as a sped-up sequence; Microsoft Research found that flicking through the images you took earlier tends to elicit vivid remembering of the original event.",
+      "provenance": "documented",
+      "source_url": "https://www.microsoft.com/en-us/research/project/sensecam/",
+      "source_label": "Microsoft Research — SenseCam"
+    },
+    {
+      "title": "Wear it as a personal 'black box'",
+      "description": "SenseCam was originally conceived as a body-worn accident recorder — a personal black box that quietly logs what happened around you so the moments before an incident can be reviewed afterward.",
+      "provenance": "documented",
+      "source_url": "https://www.microsoft.com/en-us/research/project/sensecam/",
+      "source_label": "Microsoft Research — SenseCam"
+    },
+    {
+      "title": "Let the environment decide when to shoot",
+      "description": "Instead of fixed intervals the wearer just goes about their day while the device fires the shutter on its own — a spike in light, a temperature shift, body heat from someone walking up, or a jolt of motion all trigger a frame, so a typical day fills with thousands of selectively captured images.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Microsoft_SenseCam",
+      "source_label": "Wikipedia — Microsoft SenseCam"
+    },
+    {
+      "title": "Review your week to rebuild lost memories",
+      "description": "In a clinical study at Addenbrooke's Hospital, an amnesic patient (Mrs B) periodically reviewed SenseCam images of personally experienced events as a pictorial diary; after viewing them she could recall a far larger share of recent events than with a written diary, with the benefit persisting months later.",
+      "provenance": "documented",
+      "source_url": "https://www.tandfonline.com/doi/full/10.1080/09602010601029780",
+      "source_label": "Berry et al., Neuropsychological Rehabilitation (2007)"
+    },
+    {
+      "title": "Feed the lifetime archive in MyLifeBits",
+      "description": "Gordon Bell wore SenseCam as the visual capture front-end for MyLifeBits, the project to store everything from a person's life, so the automatically taken images flowed into a searchable lifetime database alongside documents, calls, and email.",
+      "provenance": "documented",
+      "source_url": "https://www.microsoft.com/en-us/research/project/mylifebits/",
+      "source_label": "Microsoft Research — MyLifeBits"
+    },
+    {
+      "title": "Wear one for years on end as a living archive",
+      "description": "Researcher Cathal Gurrin at Dublin City University has worn a lifelogging camera through nearly all his waking hours since a 2006 trip to Norway, accumulating millions of images that his group segments into events like eating and driving — a real long-term deployment of the SenseCam approach.",
+      "provenance": "observed",
+      "source_url": "https://dublin.sciencegallery.com/lifelogging-exhibits/cathal-gurrin-amp-dcu-ie",
+      "source_label": "Science Gallery Dublin — Cathal Gurrin & DCU"
+    },
+    {
+      "title": "A passive food-and-portion log for dietitians",
+      "description": "Because the camera fires on its own when light or motion changes, a wearer could capture every meal and snack without remembering to record anything, giving a dietitian an unbiased picture of what and when they actually ate — grounded in SenseCam's event-triggered, hands-free capture.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A handover record for a shared caregiving day",
+      "description": "A care worker wears the device through a shift so the next person can scroll the day's automatically captured frames to see where the client went and who visited, leaning on the same episodic-recall effect the memory studies relied on.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }

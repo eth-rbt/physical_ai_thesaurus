@@ -71,5 +71,66 @@
       "access_notes": "Electrolux corporate page confirming the 2001 launch and the product's historical significance."
     }
   ],
+  "interactions": [
+    {
+      "title": "Set it to clean while you're at work",
+      "description": "On the ZA2 you program a weekly schedule — for instance, run at 10am every day while you're out — and come home to floors already done, VCR-style timer programming and all.",
+      "provenance": "documented",
+      "source_url": "https://newatlas.com/electrolux-trilobite-robotic-vacuum-cleaner-v20/2829/",
+      "source_label": "New Atlas — Trilobite v2.0"
+    },
+    {
+      "title": "Pick a mode for the mess",
+      "description": "Choose Normal (traces the walls first to size up the room, then fills in the open floor), Quick (skips the wall pass), or Spot (works a roughly one-square-metre patch twice for a spill).",
+      "provenance": "documented",
+      "source_url": "https://newatlas.com/electrolux-trilobite-robotic-vacuum-cleaner-v20/2829/",
+      "source_label": "New Atlas — Trilobite v2.0"
+    },
+    {
+      "title": "Fence it off with a magnetic strip",
+      "description": "Lay a magnetic strip across a doorway — even tuck it under a rug up to 15mm thick — to mark a no-go boundary the Trilobite won't cross, with no wiring or app required.",
+      "provenance": "documented",
+      "source_url": "https://newatlas.com/electrolux-trilobite-robotic-vacuum-cleaner-v20/2829/",
+      "source_label": "New Atlas — Trilobite v2.0"
+    },
+    {
+      "title": "Let it find its own way home",
+      "description": "When the cleaning cycle finishes or the battery runs low after about an hour, the Trilobite navigates back to its charging base on its own and docks to recharge.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Electrolux_Trilobite",
+      "source_label": "Wikipedia — Electrolux Trilobite"
+    },
+    {
+      "title": "Watch it listen its way around the furniture",
+      "description": "The robot sweeps the room steered by ultrasound — a gold-plated 60kHz sonar with eight microphones catching the echoes off walls and chair legs — letting it slip within an inch of an object without bumping it.",
+      "provenance": "documented",
+      "source_url": "https://en.wikipedia.org/wiki/Electrolux_Trilobite",
+      "source_label": "Wikipedia — Electrolux Trilobite"
+    },
+    {
+      "title": "Trust it at the top of the stairs",
+      "description": "On the ZA2 an infrared sensor watches for drop-offs, so when the robot reaches a stair edge or ledge it changes direction instead of tumbling over.",
+      "provenance": "documented",
+      "source_url": "https://newatlas.com/electrolux-trilobite-robotic-vacuum-cleaner-v20/2829/",
+      "source_label": "New Atlas — Trilobite v2.0"
+    },
+    {
+      "title": "Marvel at it on the telly",
+      "description": "Long before owning one, audiences met the disc-shaped cleaner as a prototype demonstrated on the BBC's Tomorrow's World, where its self-driving ultrasonic navigation was shown off to a national audience.",
+      "provenance": "documented",
+      "source_url": "https://www.electroluxgroup.com/en/electrolux-unveils-prototype-for-robot-vacuum-cleaner-4359/",
+      "source_label": "Electrolux Group — prototype reveal"
+    },
+    {
+      "title": "Read the room's time budget off the display",
+      "description": "Because Normal mode traces the perimeter first to estimate how long the job will take, you could glance at the panel to see the remaining run time before recharge — a tiny progress contract between machine and owner.",
+      "provenance": "proposed"
+    },
+    {
+      "title": "A roaming carpet for the cat",
+      "description": "A low, slow, predictable disc that patrols the floor on a timer is exactly the kind of object a pet learns to ride or stalk — the same emergent play later robot vacuums became famous for.",
+      "provenance": "proposed"
+    }
+  ],
   "confidence": "high"
 }
