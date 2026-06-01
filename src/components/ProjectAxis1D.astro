@@ -30,7 +30,7 @@ const ordered = [...placed].sort((a, b) =>
 );
 
 // Many projects share the same ordinal value — stack them in a vertical column at
-// that position instead of overprinting a single label.
+// that position, each dot carrying its own name label.
 const bins = new Map<number, CollectionEntry<'projects'>[]>();
 for (const p of placed) {
   const v = p.data.metrics[axis.metric];
@@ -38,7 +38,13 @@ for (const p of placed) {
 }
 const columns = [...bins.entries()]
   .sort((a, b) => a[0] - b[0])
-  .map(([value, items]) => ({ value, left: pos(value), items }));
+  .map(([value, items]) => ({
+    value,
+    left: pos(value),
+    // Labels extend toward open space: to the left for right-edge columns, else right.
+    side: pos(value) > 55 ? 'left' : 'right',
+    items,
+  }));
 const maxStack = Math.max(1, ...columns.map((c) => c.items.length));
 
 // Split a "low → high" style label into its two ends so we can anchor them at the
@@ -52,24 +58,23 @@ const leftLabel = axis.direction === 'desc' ? highEnd : lowEnd;
 const rightLabel = axis.direction === 'desc' ? lowEnd : highEnd;
 ---
 
-<div class="axis-1d" style={`--max-stack:${maxStack}`}>
-  <div class="axis-plot">
-    <div class="axis-line">
-      {columns.map((c) => (
-        <span class="axis-col" style={`left:${c.left}%`}>
-          {c.items.map((p) => (
-            <a class="axis-dot" href={`/projects/${p.id}/`} title={notes?.[p.id] ?? p.data.name}>
-              <span class="dot"></span>
-              <span class="lab">{p.data.name}</span>
-            </a>
-          ))}
-        </span>
-      ))}
-    </div>
-    <div class="axis-ends">
-      <span>{leftLabel}</span>
-      <span>{rightLabel}</span>
-    </div>
+<div class="axis-1d">
+  <div class="axis-ends">
+    <span>{leftLabel}</span>
+    <span>{rightLabel}</span>
+  </div>
+  <div class="axis-plot" style={`--rows:${maxStack}`}>
+    <div class="axis-line"></div>
+    {columns.map((c) => (
+      <div class={`axis-col ${c.side}`} style={`left:${c.left}%`}>
+        {c.items.map((p) => (
+          <a class="axis-row" href={`/projects/${p.id}/`} title={notes?.[p.id] ?? p.data.name}>
+            <span class="dot"></span>
+            <span class="lab">{p.data.name}</span>
+          </a>
+        ))}
+      </div>
+    ))}
   </div>
 
   <div class="proj-grid">

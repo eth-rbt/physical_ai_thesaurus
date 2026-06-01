@@ -181,46 +181,23 @@ h1, h2, h3 { line-height: 1.25; }
 /* shared: projects that couldn't be placed/plotted */
 .not-placed { font-size: 0.8rem; margin-top: 1.25rem; }
 
-/* --- 1D axis: a dot-plot; names reveal on hover, and live in the grid below --- */
+/* --- 1D axis: dots hang below the line, each with its own name label --- */
 .axis-1d { position: relative; }
-/* reserve vertical room for the tallest stack of dots, above and below the line */
-.axis-plot { position: relative; margin: 0 0.5rem; padding: calc(var(--max-stack, 1) * 9px + 8px) 0; }
-.axis-line { position: relative; height: 2px; background: var(--border); border-radius: 2px; }
-.axis-col {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 4px;
-}
-.axis-dot { position: relative; display: block; line-height: 0; }
-.axis-dot .dot { display: block; width: 11px; height: 11px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); }
-.axis-dot .lab {
-  position: absolute;
-  left: 50%;
-  bottom: calc(100% + 5px);
-  transform: translateX(-50%);
-  white-space: nowrap;
-  font-size: 0.66rem;
-  line-height: 1.2;
-  color: var(--text);
-  background: var(--panel-2);
-  border: 1px solid var(--border);
-  padding: 2px 6px;
-  border-radius: 6px;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.1s ease;
-  z-index: 5;
-}
-.axis-dot:hover { z-index: 6; }
-.axis-dot:hover .dot { box-shadow: 0 0 0 4px rgba(124, 156, 255, 0.25); }
-.axis-dot:hover .lab { opacity: 1; }
-.axis-ends { display: flex; justify-content: space-between; gap: 1rem; color: var(--muted); font-size: 0.78rem; margin-top: 0.6rem; }
+.axis-ends { display: flex; justify-content: space-between; gap: 1rem; color: var(--muted); font-size: 0.8rem; margin-bottom: 0.75rem; }
 .axis-ends span { max-width: 46%; }
 .axis-ends span:last-child { text-align: right; }
+/* reserve vertical room for the tallest stack of labelled dots */
+.axis-plot { position: relative; margin: 0 0.5rem; min-height: calc(var(--rows, 1) * 1.65rem + 12px); }
+.axis-line { position: absolute; top: 4px; left: 0; right: 0; height: 2px; background: var(--border); border-radius: 2px; }
+.axis-col { position: absolute; top: 0; display: flex; flex-direction: column; gap: 5px; }
+.axis-col.right { align-items: flex-start; }
+.axis-col.left { align-items: flex-end; transform: translateX(-100%); }
+.axis-row { display: flex; align-items: center; gap: 7px; line-height: 1.15; }
+.axis-col.left .axis-row { flex-direction: row-reverse; }
+.axis-row .dot { flex: none; width: 11px; height: 11px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); }
+.axis-row .lab { font-size: 0.72rem; color: var(--muted); white-space: nowrap; }
+.axis-row:hover .lab { color: var(--accent); text-decoration: none; }
+.axis-row:hover .dot { box-shadow: 0 0 0 3px rgba(124, 156, 255, 0.25); }
 .axis-1d .proj-grid { margin-top: 1.75rem; }
 
 /* --- 2D scatter: dot-plot; names reveal on hover, and live in the grid below --- */
