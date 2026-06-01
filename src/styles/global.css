@@ -200,41 +200,42 @@ h1, h2, h3 { line-height: 1.25; }
 .axis-row:hover .dot { box-shadow: 0 0 0 3px rgba(124, 156, 255, 0.25); }
 .axis-1d .proj-grid { margin-top: 1.75rem; }
 
-/* --- 2D scatter: dot-plot; names reveal on hover, and live in the grid below --- */
+/* --- 2D scatter: labelled dot-plot; names also live in the grid below --- */
 .scatter {
   position: relative;
+  /* explicit height — the box holds only absolutely-positioned dots, so it
+     can't size from content; aspect-ratio alone would collapse it. */
+  width: 100%;
   aspect-ratio: 1 / 1;
+  min-height: 420px;
+  max-height: 560px;
   border-left: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
-  margin: 0.5rem 0 2.5rem 2.6rem;
+  margin: 0.5rem 0 2.75rem 2.6rem;
 }
 .scatter .pt { position: absolute; transform: translate(-50%, 50%); z-index: 1; }
-.scatter .pt:hover { z-index: 6; }
-.scatter .pt .dot { width: 11px; height: 11px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); }
-.scatter .pt:hover .dot { box-shadow: 0 0 0 4px rgba(124, 156, 255, 0.25); }
+.scatter .pt:hover { z-index: 9; }
+.scatter .pt .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--accent); border: 2px solid var(--bg); }
+.scatter .pt:hover .dot { box-shadow: 0 0 0 4px rgba(124, 156, 255, 0.3); }
 .scatter .pt .lab {
   position: absolute;
-  left: 50%;
-  top: calc(100% + 4px);
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 0.66rem;
   line-height: 1.2;
   color: var(--text);
   white-space: nowrap;
-  background: var(--panel-2);
-  border: 1px solid var(--border);
-  padding: 2px 6px;
-  border-radius: 6px;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.1s ease;
+  background: rgba(23, 25, 34, 0.82);
+  padding: 1px 5px;
+  border-radius: 5px;
 }
-.scatter .pt.pt-below .lab { top: auto; bottom: calc(100% + 4px); }
-.scatter .pt:hover .lab { opacity: 1; }
+.scatter .pt.lab-right .lab { left: 15px; }
+.scatter .pt.lab-left .lab { right: 15px; }
+.scatter .pt:hover .lab { color: var(--accent); background: var(--panel-2); border: 1px solid var(--border); padding: 1px 4px; }
 .scatter .axlabel-x {
   position: absolute;
   left: 50%;
-  bottom: -1.9rem;
+  bottom: -2rem;
   transform: translateX(-50%);
   white-space: nowrap;
   color: var(--muted);
@@ -242,7 +243,7 @@ h1, h2, h3 { line-height: 1.25; }
 }
 .scatter .axlabel-y {
   position: absolute;
-  left: -1.9rem;
+  left: -2rem;
   top: 50%;
   transform: translateY(-50%) rotate(180deg);
   writing-mode: vertical-rl;
