@@ -129,8 +129,47 @@ const aiLevels = Object.keys(AI_LABEL).filter((a) =>
     for (const cell of ordered) grid.appendChild(cell);
   }
 
-  search.addEventListener('input', apply);
-  typeSel.addEventListener('change', apply);
-  aiSel.addEventListener('change', apply);
-  sortSel.addEventListener('change', sort);
+  // Persist filter/sort/scroll across navigation so returning from a project
+  // page lands you back where you were. sessionStorage = lasts for the tab's
+  // browsing session, clears when the tab closes.
+  const STATE_KEY = 'gallery-state';
+
+  function save() {
+    sessionStorage.setItem(
+      STATE_KEY,
+      JSON.stringify({
+        q: search.value,
+        type: typeSel.value,
+        ai: aiSel.value,
+        sort: sortSel.value,
+        scrollY: window.scrollY,
+      }),
+    );
+  }
+
+  function restore() {
+    const raw = sessionStorage.getItem(STATE_KEY);
+    if (!raw) return;
+    try {
+      const s = JSON.parse(raw);
+      search.value = s.q ?? '';
+      typeSel.value = s.type ?? '';
+      aiSel.value = s.ai ?? '';
+      sortSel.value = s.sort ?? 'year-desc';
+      sort();
+      apply();
+      if (typeof s.scrollY === 'number') window.scrollTo(0, s.scrollY);
+    } catch {
+      /* ignore malformed state */
+    }
+  }
+
+  search.addEventListener('input', () => { apply(); save(); });
+  typeSel.addEventListener('change', () => { apply(); save(); });
+  aiSel.addEventListener('change', () => { apply(); save(); });
+  sortSel.addEventListener('change', () => { sort(); save(); });
+  // Capture the final scroll position right before leaving the page.
+  window.addEventListener('pagehide', save);
+
+  restore();
 </script>
